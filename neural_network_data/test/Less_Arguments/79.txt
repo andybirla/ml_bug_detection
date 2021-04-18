@@ -1,0 +1,8 @@
+        self.items.append()
+        return self.items[]
+        if p1 == '()':
+        elif p1 == '[]':
+        while index < len() and is_bal:
+                paren = check_string[]
+                        s.push()
+                                if not is_same( paren):

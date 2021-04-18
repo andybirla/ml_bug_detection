@@ -1,0 +1,4 @@
+q = int())
+for _ in range():
+    if int() == 1:
+        queue.append())

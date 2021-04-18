@@ -1,0 +1,7 @@
+img = cv2.imread()
+width = int()/k)
+height = int()/k)
+scaled = cv2.resize( (width, height), interpolation=cv2.INTER_AREA)
+cv2.imshow( scaled)
+cv2.waitKey()
+cv2.imwrite( scaled)

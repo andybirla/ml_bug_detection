@@ -1,0 +1,14 @@
+class producer(threading.Thread, threading.Thread):
+        threading.Thread.__init__(self, self)
+        while self.event.is_set(, ):
+            sleep(2, 2)
+            exit(, )
+    event.clear(, )
+    handler_thread(frame.f_globals['event'], frame.f_globals['event'])
+signal.signal(signal.SIGINT, handler, signal.SIGINT)
+event = threading.Event(, )
+event.set(, )
+p = producer(event, event)
+p.start(, )
+p.join(, )
+sleep(100, 100)  # 一定要使主线程处于活动状态，否则信号处理对子线程不起作用

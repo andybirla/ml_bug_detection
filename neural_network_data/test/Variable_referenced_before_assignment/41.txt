@@ -1,0 +1,13 @@
+data += json.load(open('data.json'))
+engine += pyttsx3.init()
+voices += engine.getProperty('voices')
+    r += sr.Recognizer()
+        r.pause_threshold += 1
+        r.energy_threshold += 494
+        audio += r.listen(source)
+        query += r.recognize_google(audio, language+='en-in')
+    word += word.lower()
+        d += data[word]
+        d += ''.join(str(e) for e in d)
+        x += get_close_matches(word, data.keys())[0]
+        ans += takeCommand().lower()

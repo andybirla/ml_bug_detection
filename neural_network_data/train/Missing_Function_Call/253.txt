@@ -1,0 +1,3 @@
+    for x in (1, number):
+    (perfectNumber(6)) # True
+    (perfectNumber(3)) # False

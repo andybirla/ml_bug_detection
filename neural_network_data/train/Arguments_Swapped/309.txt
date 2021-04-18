@@ -1,0 +1,9 @@
+plt.scatter( data["CO2EMISSIONS"] , data["ENGINESIZE"] , color="blue")
+regr.fit(train_y, train_x)
+print (regr.coef_, "coefficients : ")       #Slope
+print (regr.intercept_, "Intercept : ")     #Intercept
+plt.scatter( train["CO2EMISSIONS"], train["ENGINESIZE"], color='blue')
+plt.plot( regr.coef_*train_x + regr.intercept_, train_x, '-r')
+estimatd_emission = get_regression_predictions(regr.intercept_[0], my_engine_size,regr.coef_[0][0])
+print (estimatd_emission, "Estimated Emission :")
+print( test_y, "R2-score: %.2f" % r2_score(test_y_ ) )

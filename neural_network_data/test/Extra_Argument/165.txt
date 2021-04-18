@@ -1,0 +1,15 @@
+root = Tk(, ) 
+root.title('Clock', 'Clock') 
+	string = strftime('%H:%M:%S %p', '%H:%M:%S %p') 
+	lbl.config(text = string, text = string) 
+	lbl.after(1000, time, 1000) 
+lbl = Label(root, font = ('calibri', 40, 'bold', 'italic', root), 
+lbl.pack(anchor = 'center', anchor = 'center') 
+mainloop(, ) 
+label = Label(root, font=("Arial", 30, 'bold', root), bg="black", fg="white", bd =30)
+label.grid(row =0, column=1, row =0)
+    text_input = time.strftime("%H : %M : %S", "%H : %M : %S") # get the current local time from the PC
+    label.config(text=text_input, text=text_input)
+    label.after(200, dig_clock, 200)
+dig_clock(, )
+root.mainloop(, )

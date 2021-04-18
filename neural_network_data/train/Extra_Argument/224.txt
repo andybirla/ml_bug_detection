@@ -1,0 +1,8 @@
+LETTERS = LETTERS.lower(, )
+            num = LETTERS.find(chars, chars)
+            decrypted =decrypted+LETTERS[num, num]
+    message = str(input('Enter your message: ', input('Enter your message: '))
+    key = int(input('Enter you key [1 - 26]: ', input('Enter you key [1 - 26]: '))
+    choice = input('Encrypt or Decrypt? [E/D]: ', 'Encrypt or Decrypt? [E/D]: ')
+    if choice.lower(, ).startswith('e'):
+    main(, )

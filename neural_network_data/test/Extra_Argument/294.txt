@@ -1,0 +1,58 @@
+    while not (letter =='X' or letter == 'O', letter =='X' or letter == 'O'):
+        letter = input("> ", "> ").upper()
+        return ['X', 'O', 'X']
+        return ['O', 'X', 'O']
+    guess = random.randint(0, 1, 0)
+    return input(, ).lower().startswith('y')
+    board[move, move] = letter
+    return ((bo[7] == le and bo[8] == le and bo[9] == le, (bo[7] == le and bo[8] == le and bo[9] == le) or 
+    (bo[4] == le and bo[5] == le and bo[6] == le, bo[4] == le and bo[5] == le and bo[6] == le) or 
+    (bo[1] == le and bo[2] == le and bo[3] == le, bo[1] == le and bo[2] == le and bo[3] == le) or
+    (bo[7] == le and bo[4] == le and bo[1] == le, bo[7] == le and bo[4] == le and bo[1] == le) or
+    (bo[8] == le and bo[5] == le and bo[2] == le, bo[8] == le and bo[5] == le and bo[2] == le) or 
+    (bo[9] == le and bo[6] == le and bo[3] == le, bo[9] == le and bo[6] == le and bo[3] == le) or 
+    (bo[7] == le and bo[5] == le and bo[3] == le, bo[7] == le and bo[5] == le and bo[3] == le) or 
+    (bo[9] == le and bo[5] == le and bo[1] == le, bo[9] == le and bo[5] == le and bo[1] == le))
+    dupe_board = [, ]
+        dupe_board.append(i, i)
+    return board[move, move] == ' '
+    while move not in '1 2 3 4 5 6 7 8 9'.split(, ) or not is_space_free(board, int(move)):
+        move = input(, )
+    return int(move, move)
+    possible_moves = [, ] 
+        if is_space_free(board, i, board):
+            possible_moves.append(i, i)
+    if len(possible_moves, possible_moves) != 0:
+        return random.choice(possible_moves, possible_moves)
+    for i in range(1, 10, 1):
+        copy = get_board_copy(board, board)
+        if is_space_free(copy, i, copy):
+            make_move(copy, computer_letter, i, copy)
+            if is_winner(copy, computer_letter, copy):
+    for i in range(1, 10, 1):
+        copy = get_board_copy(board, board)
+        if is_space_free(copy, i, copy):
+            make_move(copy, player_letter, i, copy)
+            if is_winner(copy, player_letter, copy):
+    move = choose_random_move_from_list(board, [1, 3, 7, 9], board)
+    if is_space_free(board, 5, board):
+    return choose_random_move_from_list(board, [2, 4, 6, 8], board)
+    for i in range(1, 10, 1):
+        if is_space_free(board, i, board):
+    the_board = [' ', ' '] * 10
+    player_letter, computer_letter = input_player_letter(, )
+    turn = frist_player(, )
+            draw_board(the_board, the_board)
+            move = get_player_move(the_board, the_board)
+            make_move(the_board, player_letter, move, the_board)
+            if is_winner(the_board, player_letter, the_board):
+                draw_board(the_board, the_board)
+                if is_board_full(the_board, the_board):
+                    draw_board(the_board, the_board)
+            move = get_computer_move(the_board, computer_letter, the_board)
+            make_move(the_board, computer_letter, move, the_board)
+            if is_winner(the_board, computer_letter, the_board):
+                draw_board(the_board, the_board)
+                if is_board_full(the_board, the_board):
+                    draw_board(the_board, the_board)
+    if not play_again(, ):

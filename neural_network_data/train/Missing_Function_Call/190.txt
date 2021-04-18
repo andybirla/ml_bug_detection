@@ -1,0 +1,9 @@
+    with (filename) as info:  # inputFile Replaced with filename
+        readfile = ()
+        for character in ():
+            count[character] = (character, 0) + 1
+    w(is_exist):
+            inputFile = ("File Name / (0)exit : ").strip()
+            (count_chars(inputFile))
+            ("File not found...Try again!")
+    ()

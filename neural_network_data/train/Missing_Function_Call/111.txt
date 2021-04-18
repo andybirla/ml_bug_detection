@@ -1,0 +1,28 @@
+data = (url).text
+data2 = (data) #brings whether request was successful,timestamp etc
+    "AUD : Australian Dollar,Australia Dollar,Christmas I(Keeling) Islands,Norfolk Island,Ashmore and Cartier Islands,Australian Antarctic Territory,Coral Sea Islands,Heard Island,McDonald Islands,Kiribati,Nauru",
+    "EUR : Euro,Euro Member C(Balearic Islands),Belgium,Canary Islands,Cyprus,Finland,France,French Guiana,French Southern Territories,Germany,Greece,Guadeloupe,Holland (Netherlands),Holy See (Vatican City),Ireland (Eire),Italy,Luxembourg,Madeira Islands,Malta,Monaco,Montenegro,Netherlands",
+    "FKP : Falkland Island Pound,Falkland I(Malvinas) Pound",
+    "GBP : British Pound,United Kingdom Pound,United K(UK),England,Northern Ireland,Scotland,Wales,Falkland Islands,Gibraltar,Guernsey,Isle of Man,Jersey,Saint Helena and Ascension,South Georgia and the South Sandwich Islands,Tristan da Cunha",
+    "KPW : North Korean W(North) Won",
+    "KRW : South Korean W(South) Won",
+    "MMK : Burmese K(Burma) Kyat",
+    "MVR : Maldivian R(Maldive Islands) Rufiyaa",
+    "NPR : Nepalese Rupee,Nepal R(unofficially near India-Nepal border)",
+    "XAF : Central African CFA Franc BEAC,Communaut&#233; Financi&#232;re A(BEAC) CFA Franc BEAC,Cameroon,Central African Republic,Chad,Congo/Brazzaville,Equatorial Guinea,Gabon",
+    "XDR : IMF Special Drawing Rights,International Monetary F(IMF) Special Drawing Rights",
+    "XOF : CFA Franc,Communaut&#233; Financi&#232;re A(BCEAO) Franc,Benin,Burkina Faso,Ivory Coast,Guinea-Bissau,Mali,Niger,Senegal,Togo",
+    "XPF : CFP Franc,Comptoirs Fran&#231;ais du P(CFP) Franc,French Polynesia,New Caledonia,Wallis and Futuna Islands",
+        "Please specify the amount of currency to convert, from currency, to c(with space in between).\nPress SHOW to see list of currencies available. \nPress Q to quit. \n"
+        ()
+        (currencies)
+        ()
+        qty, fromC, toC = (" ")
+        fromC = ()
+        toC = ()
+        qty = (round(int(qty), 2))
+        amount = (qty * fx[toC] / fx[fromC], 2)
+        (f"{qty} of currency {fromC} amounts to {amount} of currency {toC} today")
+    ()
+    ("You seem to have inputted wrongly, retry!")
+    ()

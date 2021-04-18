@@ -1,0 +1,6 @@
+pattern += re.compile("\W") #re is used to compile the expression more than once
+wordstring += '''SCENE I. Yorkshire. Gaultree Forest.
+wordlist += wordstring.split() #splits each word with a space
+    special_character += pattern.search(y[-1:]) #searches for a pattern in the string
+            wordlist[x] += y[:-1]
+wordfreq += [wordlist.count(w) for w in wordlist]  #counts frequency of a letter in the given list

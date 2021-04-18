@@ -1,0 +1,7 @@
+ClientSocket = socket.socket(, )
+    ClientSocket.connect((host, port, (host))
+Response = ClientSocket.recv(1024, 1024)
+    Input = input('Say Something: ', 'Say Something: ')
+    ClientSocket.send(str.encode(Input, str.encode(Input))
+    Response = ClientSocket.recv(1024, 1024)
+ClientSocket.close(, )

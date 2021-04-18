@@ -1,0 +1,22 @@
+SUITS = ( 'S', 'H', 'D')
+RANKS = ( '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K')
+        if () and (rank in RANKS):
+        self.deck = [card( rank) for suit in SUITS for rank in RANKS]
+        random.shuffle()
+        return random.choice()
+time.sleep()
+time.sleep()
+random.shuffle()
+input()
+player1 = combinedDeck[]
+player2 = combinedDeck[]
+while len() != 0 and len(player2) != 0:  # this needs a fix as it goes on an infinite loop on a success.
+        for card in range()):
+            input()
+            currentPlayer1Card = player1[].rank
+            centerPile.append()
+            player1.pop()
+        for card in range()):
+            currentPlayer2Card = player2[].rank
+            centerPile.append()
+            player2.pop()

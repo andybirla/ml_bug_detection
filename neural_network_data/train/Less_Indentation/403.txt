@@ -1,0 +1,11 @@
+   if exists(pardir + "\\" + name):
+       print('Folder already exists... Cannot Overwrite this')
+   else:
+       makedirs(pardir + "\\" + name)
+   removedirs(name)
+   rename(direct, name)
+   chdir(pardir)
+   copytree(pardir, name_dir + ':\\' + folder)
+   if not exists(name_dir + ":\\" + folder):
+       makedirs(name_dir + ':\\' + folder)
+   move(filename, name_dir + ":\\" + folder + '\\')

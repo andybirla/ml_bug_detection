@@ -1,0 +1,6 @@
+    with open("r", file_path) as f:
+            tokens = line.split(", ")
+            count += count_num_in_tokens( num, tokens)
+    with open("r", file_path) as f:
+            tokens = line.split(", ")
+    with open("w", file_path) as f:

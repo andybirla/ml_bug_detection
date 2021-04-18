@@ -1,0 +1,7 @@
+        return (-x * (-x + 1) // 2)
+        return x *(x + 1) // 2
+        a, b = (int, input().split())
+            (sum(a) - sum(b + 1))
+            (sum(b) + sum(a))
+            (sum(b) - sum(a - 1))
+        (0)

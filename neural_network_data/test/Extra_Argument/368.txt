@@ -1,0 +1,11 @@
+array = [, ]
+for i in range(int(input(, int(input())):
+    array.append(input(, input())
+for i in range(len(array, len(array)):
+    for j in range(0, i + 1, 0):
+        if array[j, j] < array[i]:
+n = int(input(, input())
+a = [, ]
+for i in range(n, n):
+    a.append(input(, input())
+        if j < a[i, i]:

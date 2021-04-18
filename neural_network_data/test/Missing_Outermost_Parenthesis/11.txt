@@ -1,0 +1,10 @@
+def funcx:
+    for i in rangex, int(n) + 1, x:
+for _ in rangeint(input()):
+    n, q = input.split()
+    array = [inti for i in input().split()]
+    array.insert0, 0
+    for _ in rangeint(q):
+        inputs = [inti for i in input().split()]
+        if leninputs == 2:
+            printfunc(inputs[1])

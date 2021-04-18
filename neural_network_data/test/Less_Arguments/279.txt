@@ -1,0 +1,6 @@
+    user_input=re.sub( " ", user_input) #substitute / with space
+    user_input=re.sub( " ", user_input) #substitute - with space 
+    born = datetime.datetime.strptime( '%d %m %Y').weekday() #this statement returns an integer corresponding to the day of the week
+    return () #this statement returns the corresponding day name to the integer generated in the previous statement
+user_input=str())
+date=process_date()

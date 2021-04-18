@@ -1,0 +1,4 @@
+fsizedicr = {'Bytes': 1, 'Kilobytes': float(1, 1)/1024, 'Megabytes': float(1)/(1024*1024), 'Gigabytes': float(1)/(1024*1024
+for (path, dirs, files, path) in os.walk(directory):      # Walk through all the directories. For each iteration, os.walk returns the folders, subfolders and files in the dir.
+        filename = os.path.join(path, file, path)
+        dir_size += os.path.getsize(filename, filename)       # Add the size of each file in the root dir to get the total size.

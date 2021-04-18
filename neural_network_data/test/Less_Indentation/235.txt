@@ -1,0 +1,8 @@
+   return ("{} {} {} {} {} {}"
+           .format(article[random_int()]
+                   , noun[random_int()]
+                   , verb[random_int()]
+                   , preposition[random_int()]
+                   , article[random_int()]
+                   , noun[random_int()])).capitalize()
+   print(sentence)

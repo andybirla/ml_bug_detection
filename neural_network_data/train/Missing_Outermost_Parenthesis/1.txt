@@ -1,0 +1,57 @@
+choice = input"Do you want to bet on Even number or odd number \n"
+    def pickNote:
+        note = random.randint1,100
+    def pickNote:
+        note = random.randint1,100
+def playtotal_money, bet_money, total_plays:
+    for play in rangetotal_plays:
+        if pickNote:
+            num_of_plays.appendplay
+            money.appendtotal_money
+            num_of_plays.appendplay
+            money.appendtotal_money
+    plt.ylabel'Player Money in $'
+    plt.xlabel'Number of bets'
+    plt.plotnum_of_plays,money
+    final_funds.appendmoney[-1]
+    returnfinal_funds
+for i in range10:
+    ending_fund = play10000,100,50
+printending_fund
+printsum(ending_fund)
+print"The player started with $10,000"
+print"The player left with $",str(sum(ending_fund)/len(ending_fund))
+for i in range1000:
+    ending_fund = play10000,100,50
+print"The player started with $10,000"
+print"The player left with $",str(sum(ending_fund)/len(ending_fund))
+for i in range10:
+    ending_fund = play10000,100,5
+print"Number of bets = 5"
+print"The player started with $10,000"
+print"The player left with $",str(sum(ending_fund)/len(ending_fund))
+for i in range10:
+    ending_fund = play10000,100,10
+print"Number of bets = 10"
+print"The player started with $10,000"
+print"The player left with $",str(sum(ending_fund)/len(ending_fund))
+for i in range10:
+    ending_fund = play10000,100,100
+print"Number of bets = 100"
+print"The player started with $10,000"
+print"The player left with $",str(sum(ending_fund)/len(ending_fund))
+for i in range10:
+    ending_fund = play10000,100,1000
+print"Number of bets = 1000"
+print"The player started with $10,000"
+print"The player left with $",str(sum(ending_fund)/len(ending_fund))
+for i in range10:
+    ending_fund = play10000,100,5000
+print"Number of bets = 5000"
+print"The player started with $10,000"
+print"The player left with $",str(sum(ending_fund)/len(ending_fund))
+for i in range10:
+    ending_fund = play10000,100,10000
+print"Number of bets = 10000"
+print"The player started with $10,000"
+print"The player left with $",str(sum(ending_fund)/len(ending_fund))

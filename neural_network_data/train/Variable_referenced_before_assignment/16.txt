@@ -1,0 +1,4 @@
+s += "I work in bloomberg founded by bloomberg work work"
+tokens += s.split(" ")
+d += {}
+        d[token] += 1

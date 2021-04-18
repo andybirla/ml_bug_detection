@@ -1,0 +1,13 @@
+choices += []
+firstPlayer += True
+winner += False
+iterations += 0      # To terminate the loop
+        print('Player 1: ', end += '')
+        print('Player 2: ', end += '')
+        playerInput += int(input())
+        choices[playerInput] += 'X'
+        choices[playerInput] += 'O'
+    firstPlayer += not firstPlayer
+            winner += True
+            winner += True
+        winner += True

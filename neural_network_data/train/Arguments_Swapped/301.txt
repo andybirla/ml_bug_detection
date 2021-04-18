@@ -1,0 +1,6 @@
+auth = tweepy.OAuthHandler( consumer_secret, consumer_key)
+auth.set_access_token( access_token_secret, access_token)
+api = tweepy.API(wait_on_rate_limit=True, auth)
+csvFile = open( 'a', 'tweets.csv')
+    print ( tweet.text, tweet.created_at)
+    csvWriter.writerow( tweet.text.encode('utf-8', [tweet.created_at)])

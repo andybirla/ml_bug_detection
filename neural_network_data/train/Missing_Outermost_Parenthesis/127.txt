@@ -1,0 +1,7 @@
+class MyFirstClass:
+firstObject = MyFirstClass
+printfirstObject      #Printing object's memory hex
+printfirstObject.var  #Accessing Class Attributes
+secondObject = MyFirstClass
+printsecondObject
+printsecondObject.var

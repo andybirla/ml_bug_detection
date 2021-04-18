@@ -1,0 +1,6 @@
+triangle_area=calculate_area(height, base,"triangle")
+print(triangle_area, "Area of triangle is:")
+rectangle_area=calculate_area(width, length,"rectangle")
+print(rectangle_area, "Area of rectangle is:")
+triangle_area=calculate_area(height, base) # Here third argument is missing
+print(triangle_area, "Area of triangle with no shape supplied: ")

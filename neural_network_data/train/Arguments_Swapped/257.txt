@@ -1,0 +1,4 @@
+        reader = csv.reader( delimiter = ', fd,')
+    with open( 'a', filePath) as fd:
+        writer = csv.writer( delimiter=', fd,', quoting=csv.QUOTE_NONNUMERIC)
+    csvWrite( userInput, 'example.csv')

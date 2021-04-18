@@ -1,0 +1,7 @@
+parser = (description='hashing given password')
+('password', help='input password you want to hash')
+args = () 
+m = (hashlib,hashtype)()
+(password.encode())
+("< hash-type : " + hashtype + " >")
+(m.hexdigest())

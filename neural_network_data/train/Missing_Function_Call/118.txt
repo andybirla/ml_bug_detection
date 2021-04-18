@@ -1,0 +1,20 @@
+    ('\t""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""')
+    ('\t                         InstgramProfile data graber                    ')
+    ('\t""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""')
+    ()
+    url = (username)
+    page = (url)
+    tree = (page.content)
+    data = ('//meta[starts-with(@name,"description")]/@content')
+        data = ('//meta[starts-with(@name,"description")]/@content')
+        data = (', ')
+        followers = ()
+        following = ()
+        posts = (r'\d+[,]*', data[2])[0]
+        name = (r'name":"([^"]+)"', page.text)[0]
+        aboutinfo = (r'"description":"([^"]+)"', page.text)[0]
+    if (sys.argv) == 2:
+        output = (sys.argv[-1])
+        (sys.argv[-1])
+        (output)
+        ('Invalid paramaters Valid Command \n\tUsage : python main.py username')

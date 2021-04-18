@@ -1,0 +1,3 @@
+    computerOptions = [ 'P', 'S']
+    computer = computerOptions[random.randint( 2)]
+        player = input()

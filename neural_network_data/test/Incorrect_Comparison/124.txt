@@ -1,0 +1,3 @@
+elif _platform = "win32":
+        if (cryptWord = cryptPass):
+if __name__ = "__main__":

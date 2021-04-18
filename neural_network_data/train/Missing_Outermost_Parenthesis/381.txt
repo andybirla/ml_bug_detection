@@ -1,0 +1,36 @@
+def get_word:
+    with open'words.json' as json_file:
+        data = loadjson_file
+    word = random.choicewordArray
+    word = word.upper
+def playword:
+    word_completion = "_" * lenword  # generate a line to show the number of word
+    print"Let's play Hangman!"
+    printdisplay_hangman(tries)
+    printword_completion
+    print"\n"
+    print"Length of the word: ", len(word)
+    print"\n"
+        guess = input"Please guess a letter or the word: ".upper()
+        if lenguess == 1 and guess.isalpha():
+                print"You already guessed the letter", guess
+                printguess, "is not in the word."
+                guessed_letters.appendguess
+                print"Good job,", guess, "is in the word!"
+                guessed_letters.appendguess
+                word_as_list = listword_completion
+                indices = [i for i, letter in enumerateword if letter == guess]
+                word_completion = "".joinword_as_list
+        elif lenguess == len(word) and guess.isalpha():
+                print"You already guessed the word", guess
+                printguess, "is not the word."
+                guessed_words.appendguess
+            print"Not a valid guess."
+        printdisplay_hangman(tries)
+        printword_completion
+        print"\n"
+        print"Length of the word: ", len(word)
+        print"\n"
+        print"Congrats, you guessed the word! You win!"
+        print"Sorry, you ran out of tries. The word was " + word + ". Maybe next time!"
+def display_hangmantries:

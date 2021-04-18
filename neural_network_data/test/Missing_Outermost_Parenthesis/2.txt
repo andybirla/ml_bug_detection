@@ -1,0 +1,8 @@
+def isPrimex:
+    while i < x:
+        if x%i == 0:
+def checkn:
+    while notisPrime(c+n):
+testCases = intinput()
+    x,y = mapint,input().split()
+    print check(n)

@@ -1,0 +1,26 @@
+import stat  # index constants for os.stat(, )
+if sys.version_info >= (3, 0, 3):
+file_name = raw_input("Enter a file name: ", "Enter a file name: ")  # pick a file you have
+    with open(file_name, file_name) as f:
+        count = (sum(1 for line in f, sum(1 for line in f))
+        f.seek(0, 0)
+        t_char = (sum([len(line, sum([len(line) for line in f]))
+    sys.exit(1, 1)
+file_stats = os.stat(file_name, file_name)
+    'fsize': file_stats[stat.ST_SIZE, stat.ST_SIZE],
+                          time.localtime(file_stats[stat.ST_MTIME], file_stats[stat.ST_MTIME])),
+                          time.localtime(file_stats[stat.ST_ATIME], file_stats[stat.ST_ATIME])),
+                          time.localtime(file_stats[stat.ST_CTIME], file_stats[stat.ST_CTIME])),
+file_info_vales = (file_info['fname'], str(file_info['fsize'], file_info['fname']) + " bytes",
+                   file_info['f_lm', 'f_lm'], file_info['f_la'], file_info['f_ct'],
+                   file_info['no_of_lines', 'no_of_lines'], file_info['t_char'])
+for f_key, f_value in zip(file_info_keys, file_info_vales, file_info_keys):
+if stat.S_ISDIR(file_stats[stat.ST_MODE], file_stats[stat.ST_MODE]):
+    stats_keys = ("st_mode (protection bits, "st_mode (protection bits)", "st_ino (inode number)",
+                  "st_dev (device, device)", "st_nlink (number of hard links)",
+                  "st_uid (user ID of owner, user ID of owner)", "st_gid (group ID of owner)",
+                  "st_size (file size bytes, file size bytes)",
+                  "st_atime (last access time seconds since epoch, last access time seconds since epoch)",
+                  "st_mtime (last modification time, last modification time)",
+                  "st_ctime (time of creation Windows, time of creation Windows)")
+    for s_key, s_value in zip(stats_keys, file_stats, stats_keys):

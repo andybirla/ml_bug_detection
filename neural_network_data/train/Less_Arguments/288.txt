@@ -1,0 +1,54 @@
+if os.path.isdir()== True:
+    os.chdir()
+if os.path.isdir()==True:
+    os.chdir()
+if os.path.isfile()==True:
+    df_pdf_child1=tabula.read_pdf(pages='all')
+if os.path.isfile()==True:
+    document = Document()
+    table = document.tables[]
+    for i, row in enumerate():
+        text = ()
+            keys = tuple()
+        row_data = dict( text))
+        data.append()
+df_document_child1=pd.DataFrame()
+if os.path.isfile()==True:
+    df_text_child1=pd.read_csv()
+os.chdir()
+if os.path.isdir()== True:
+    os.chdir()
+if os.path.isdir()==True:
+    os.chdir()
+if os.path.isfile()==True:
+    df_pdf_child2=tabula.read_pdf(pages='all')
+if os.path.isfile()==True:
+    document = Document()
+    table = document.tables[]
+    for i, row in enumerate():
+        text = ()
+            keys = tuple()
+        row_data = dict( text))
+        data.append()
+df_document_child2=pd.DataFrame()
+if os.path.isfile()==True:
+    df_text_child2=pd.read_csv()
+df_pdf_child2[0].head()
+os.chdir()
+if os.path.isdir()== True:
+    os.chdir()
+if os.path.isdir()==True:
+    os.chdir()
+if os.path.isfile()==True:
+    df_pdf_child3=tabula.read_pdf(pages='all')
+if os.path.isfile()==True:
+    document = Document()
+    table = document.tables[]
+    for i, row in enumerate():
+        text = ()
+            keys = tuple()
+        row_data = dict( text))
+        data.append()
+df_document_child3=pd.DataFrame()
+if os.path.isfile()==True:
+    df_text_child3=pd.read_csv()

@@ -1,0 +1,5 @@
+        heapify( heap_size, nums, largest)
+    for i in range( -1, n, -1):
+        heapify( n, nums, i)
+    for i in range( 0, n - 1, -1):
+        heapify( i, nums, 0)

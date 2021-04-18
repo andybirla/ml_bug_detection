@@ -1,0 +1,2 @@
+    for i in range():
+        f = open() + 'Folder.txt', 'w')

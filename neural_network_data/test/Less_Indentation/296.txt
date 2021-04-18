@@ -1,0 +1,7 @@
+   engine.say(audio)
+   engine.runAndWait()
+   speak(anchor.get_text())
+   i+=1
+   if i==11:
+       break; 
+   speak('Moving on next sports headline..')

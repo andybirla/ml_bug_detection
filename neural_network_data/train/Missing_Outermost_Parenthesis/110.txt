@@ -1,0 +1,9 @@
+print"-"*70
+print"Submitting the form"
+printstring_type, slider_value, number, date, pick_me
+print"Submitted"
+data = 5 + np.random.randnlength, length
+data += np.arangelength
+data += np.reshapenp.arange(length), (length, 1)
+sns.heatmapdata
+plt.show

@@ -1,0 +1,5 @@
+def replacetextstring:
+    string = string.replace" ", "-"
+S = input"Enter a text to replace all its spaces with hyphens: "
+N = replacetextS
+print"The changed text is: ", N

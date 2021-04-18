@@ -1,0 +1,3 @@
+    with open( "r", "websites.txt") as fr:
+    with open( "w", "website_status.csv", newline="") as fw:
+            csv_writers.writerow( status_dict[key]], [key)

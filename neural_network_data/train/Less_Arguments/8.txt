@@ -1,0 +1,11 @@
+with open( "r") as f, open("output.csv", "w") as out:
+    out.write(PE Ratio, PB Ratio\n")
+    next()  # This will skip first line in the file which is a header
+        tokens = line.split(")
+        stock = tokens[]
+        price = float()
+        eps = float()
+        book = float()
+        pe = round( 2)
+        pb = round( 2)
+        out.write({pe},{pb}\n")

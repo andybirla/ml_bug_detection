@@ -1,0 +1,75 @@
+    def __str__self:
+        return strself.info
+    def __del__self:
+    def insertself, val:
+        is_left_bst = is_bstnode.left, lower_lim, node.info
+        is_right_bst = is_bstnode.right, node.info, upper_lim
+def postordernode:
+        postordernode.left
+        postordernode.right
+    printnode.info
+def inordernode:
+        inordernode.left
+    printnode.info
+        inordernode.right
+def preordernode:
+    printnode.info
+        preordernode.left
+        preordernode.right
+def bfsnode:
+        queue.appendnode
+        temp = queue.pop0
+        printtemp.info
+            queue.appendtemp.left
+            queue.appendtemp.right
+def preorder_itrnode:
+        temp = stack.pop
+        printtemp.info
+        values.appendtemp.info
+            stack.appendtemp.right
+            stack.appendtemp.left
+def inorder_itrnode:
+            stack.appendcurrent       # L
+            temp = stack.pop
+            printtemp.info            # N
+def postorder_itrnode:
+        temp = s1.pop
+        s2.appendtemp
+            s1.appendtemp.left
+            s1.appendtemp.right
+    print*(s2[::-1])
+def bst_frm_prepre_list:
+    box = Nodepre_list[0]
+    if lenpre_list > 1:
+        if lenpre_list == 2:
+                box.right = Nodepre_list[1]
+                box.left = Nodepre_list[1]
+            for i in range1, len(pre_list):
+                box.left = bst_frm_prepre_list[1 : i]
+                box.right = bst_frm_prepre_list[i:]
+def lcat_node, c1, c2:
+def vertical_middle_levelt_node:
+    e = t_node, 0         # 0 indicates level 0, to left we have -ve and to right +ve
+        temp, level = queue.pop0
+            ans.appendstr(temp.info)
+            queue.append(temp.left, level - 1)
+            queue.append(temp.right, level + 1)
+    return ' '.joinans
+def get_leveln, val:
+def depthnode:
+        l_depth = depthnode.left
+        r_depth = depthnode.right
+    return 1 + maxl_depth, r_depth
+t = BinarySearchTree
+t.insert10
+t.insert5
+t.insert15
+t.insert3
+t.insert1
+t.insert0
+t.insert2
+t.insert7
+t.insert12
+t.insert18
+t.insert19
+printdepth(t.root)

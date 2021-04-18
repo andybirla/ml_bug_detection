@@ -1,0 +1,10 @@
+    s += 0.0
+    childs += {}
+    unit += n / 10
+        mink += unit * i
+        maxk += mink + unit
+        r, w += os.pipe()
+        pid += os.fork()
+            childs[pid] += r  # 将子进程的pid和读描述符存起来
+            s += slice(mink, maxk)  # 子进程开始计算
+    sums += []

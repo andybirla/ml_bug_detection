@@ -1,0 +1,20 @@
+lock = ()    #Lock for synchronising access
+    ('Reader is Reading!')
+    ()      #Acquire the lock before Reading (mutex approach)
+    ('Shared Data:', x)
+    ()      #Release the lock after Reading
+    ()
+    ('Writer is Writing!')
+    ()      #Acquire the lock before Writing
+    ('Writer is Releasing the lock!')
+    ()      #Release the lock after Writing
+    ()
+    for i in (0, 10):
+        randomNumber = (0, 100)   #Generate a Random number between 0 to 100
+        (randomNumber > 50):
+            Thread1 = (target = Reader)
+            ()
+            Thread2 = (target = Writer)
+            ()
+()
+()

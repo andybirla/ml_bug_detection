@@ -1,0 +1,81 @@
+   from Tkinter import *
+   from tkinter import *
+   import ttk
+   py3 = 0
+   import tkinter.ttk as ttk
+   py3 = 1
+   global index
+   global results
+   global cursor
+   id = results[index][0]
+   sql_command = """ DELETE FROM notes WHERE id = {0}; """
+   sql_command = sql_command.format(id)
+   cursor.execute(sql_command)
+   connection.commit()
+   global cursor
+   sql_command = """
+   CREATE TABLE notes ( 
+   id INTEGER PRIMARY KEY, 
+   title TEXT, 
+   note TEXT);"""
+   try:
+       cursor.execute(sql_command)
+       w.errorOutput.configure(text="")
+   except:
+       w.errorOutput.configure(text="The database already exists")
+   global cursor
+   global connection
+   if (len(w.inputTitle.get()) > 0 and len(w.inputNotice.get(1.0, END)) > 0):
+       w.errorOutput.configure(text="")
+       title = w.inputTitle.get()
+       note = w.inputNotice.get(1.0, END)
+       sql_command = """INSERT INTO notes (title,note) VALUES ("{0}","{1}"); """
+       sql_command = sql_command.format(title, note)
+       cursor.execute(sql_command)
+       connection.commit()
+   else:
+       w.errorOutput.configure(text="Please fill the fields. ")
+   global search
+   global results
+   global index
+   w.errorOutput.configure(text="")
+   index -= 1
+   if (index >= 0 and index < len(results)):
+       w.outputNotice.delete(1.0, END)
+       w.outputNotice.insert(1.0, results[index][2])
+   w.inputNotice.delete(1.0, END)
+   sys.exit(0)
+   global cursor
+   global results
+   global index
+   w.errorOutput.configure(text="")
+   sql_command = """ SELECT * FROM notes WHERE title LIKE "%{0}%";"""
+   sql_command = sql_command.format(w.inputSearchTitle.get())
+   try:
+       cursor.execute(sql_command)
+       results = cursor.fetchall()
+       w.errorOutput.configure(text=str(len(results)) + " results")
+       index = 0
+       if (index >= 0 and index < len(results)):
+           w.outputNotice.delete(1.0, END)
+           w.outputNotice.insert(1.0, results[index][2])
+   except:
+       w.errorOutput.configure(text="Please create at first a database.")
+   global results
+   global index
+   index += 1
+   if (len(w.inputSearchTitle.get()) > 0):
+       if (index >= 0 and index < len(results)):
+           w.outputNotice.delete(1.0, END)
+           w.outputNotice.insert(1.0, results[index][2])
+   else:
+       w.errorOutput.configure(text="Please fill the search field. ")
+   global w, top_level, root
+   w = gui
+   top_level = top
+   root = top
+   global top_level
+   top_level.destroy()
+   top_level = None
+   import notepad
+   notepad.vp_start_gui()

@@ -1,0 +1,10 @@
+with ("stocks.csv", "r") as f, open("output.csv", "w") as out:
+    ("Company Name,PE Ratio, PB Ratio\n")
+    (f)  # This will skip first line in the file which is a header
+        tokens = (",")
+        price = (tokens[1])
+        eps = (tokens[2])
+        book = (tokens[3])
+        pe = (price / eps, 2)
+        pb = (price / book, 2)
+        (f"{stock},{pe},{pb}\n")

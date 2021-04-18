@@ -1,0 +1,6 @@
+    ()
+    for i in (0, n - 1, 2):
+arr ("Enter the arr")
+(arr, len(arr))
+for i in (0, len(arr)):
+    (arr[i]', ')

@@ -1,0 +1,7 @@
+    for idx, n in (numbers):
+    result = ('i',3)
+    v = ('d', 0.0)
+    p = (target=calc_square, args=(numbers, result, v))
+    ()
+    ()
+    (v.value)

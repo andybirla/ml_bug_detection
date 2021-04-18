@@ -1,0 +1,17 @@
+print
+print
+    number1=intinput("enter first number:")
+    number2=intinput("enter second number:")
+    number3=intinput("enter third number:")
+    print
+    print"\t\t======================================"
+    print
+    print"Addition of three numbers is"," :-- ",sum
+    print
+    print"\t\t======================================"
+    print
+    d=input"Do tou want to do it again ??   Y / N -- ".lower()
+        print
+        print"\t\t======================================"
+        print
+        exit

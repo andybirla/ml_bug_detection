@@ -1,0 +1,4 @@
+class (object):
+        for x, y in ():
+            (self, x, obj(y) if isinstance(y, dict) else y)
+ob = (data)

@@ -1,0 +1,2 @@
+    if row = None:
+        if response_url = url:

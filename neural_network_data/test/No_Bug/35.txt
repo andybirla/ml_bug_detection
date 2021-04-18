@@ -1,0 +1,18 @@
+a=int(input())
+a=bin(a).replace("0b","")
+c=[int(i) for i in str(a)] 
+d=[]
+e=c[0]
+for i in range(0,len(a)):
+    if(i==0):
+        d.append(c[i])
+    else:
+        f=c[i]^e
+        d.append(f)
+        e=f
+e=1
+g=0
+for i in range(0,len(a)):
+    g=g+d[len(a)-i-1]*e
+    e=e*2
+print(g) 

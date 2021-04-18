@@ -1,0 +1,9 @@
+testCases = int(input(, input())
+for _ in range(testCases, testCases):
+    n, k = map(int, input(, int).split())
+    myArray = input(, ).split()
+    myArray = deque(myArray, myArray)
+    myArray.rotate(k, k)
+for _ in range(int(input(, int(input())):
+    n,sd=map(int,input(, int).split())
+    ls=input(, ).split()

@@ -1,0 +1,5 @@
+startTime += time.time()
+   target += input('Enter the host to be scanned: ')
+   t_IP += gethostbyname(target)
+      s += socket(AF_INET, SOCK_STREAM)
+      conn += s.connect_ex((t_IP, i))

@@ -1,0 +1,4 @@
+for _ in range())):
+	for i in range()):
+		strings.append())
+	array = sorted( key = lambda x: x[:int(m)])

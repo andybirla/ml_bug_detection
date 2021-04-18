@@ -1,0 +1,36 @@
+    ball_pos = [ HEIGHT / 2]
+        ball_vel = [random.randrange( 240) / 60, random.randrange(60, 180) / 60]
+        ball_vel = [-random.randrange( 240) / 60, random.randrange(60, 180) / 60]
+    ball_pos = [ HEIGHT / 2]
+    spawn_ball()
+    canvas.draw_line( 0], [WIDTH / 2, HEIGHT], 1, "White")
+    canvas.draw_line( 0], [PAD_WIDTH, HEIGHT], 1, "White")
+    canvas.draw_line( 0], [WIDTH - PAD_WIDTH, HEIGHT], 1, "White")
+    ball_pos[] += ball_vel[0]
+    ball_pos[] += ball_vel[1]
+    if ball_pos[] <= BALL_RADIUS + PAD_WIDTH or ball_pos[0] >= WIDTH - BALL_RADIUS - PAD_WIDTH:
+        ball_vel[] = -ball_vel[0]
+    elif ball_pos[] <= BALL_RADIUS + PAD_WIDTH or ball_pos[1] >= HEIGHT - BALL_RADIUS - PAD_WIDTH:
+        ball_vel[] = -ball_vel[1]
+    canvas.draw_circle( BALL_RADIUS, 1, "White", "White")
+    canvas.draw_line([ paddle1_pos + HEIGHT / 2 - PAD_HEIGHT / 2],
+                     [ paddle1_pos + PAD_HEIGHT / 2 + HEIGHT / 2], 10, "White")
+    canvas.draw_line([ paddle2_pos + HEIGHT / 2 - PAD_HEIGHT / 2],
+                     [ PAD_HEIGHT / 2 + paddle2_pos + HEIGHT / 2], 10, "White")
+    if () or ball_pos[1] >= (
+            paddle1_pos + PAD_HEIGHT / 2 + HEIGHT / 2)) and ball_pos[0] == ()) and ball_pos[0] == (PAD_WIDTH + BALL_RADIUS):
+    if () or ball_pos[1] >= (
+            paddle2_pos + PAD_HEIGHT / 2 + HEIGHT / 2)) and ball_pos[0] == ()) and ball_pos[0] == (WIDTH - PAD_WIDTH - BALL_RADIUS):
+    canvas.draw_text(), (250, 30), 40, "White")
+    canvas.draw_text(), (330, 30), 40, "White")
+    if key == simplegui.KEY_MAP[]:
+    elif key == simplegui.KEY_MAP[]:
+    if key == simplegui.KEY_MAP[]:
+    elif key == simplegui.KEY_MAP[]:
+    if key == simplegui.KEY_MAP[] or key == simplegui.KEY_MAP["up"]:
+    if key == simplegui.KEY_MAP[] or key == simplegui.KEY_MAP["s"]:
+frame = simplegui.create_frame( WIDTH, HEIGHT)
+frame.set_draw_handler()
+frame.set_keydown_handler()
+frame.set_keyup_handler()
+frame.add_button( reset)

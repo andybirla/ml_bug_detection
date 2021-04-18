@@ -1,0 +1,3 @@
+	if l <= h: 
+	if arr[l]<arr[h]: 
+	if h-l + 1 < 2: 

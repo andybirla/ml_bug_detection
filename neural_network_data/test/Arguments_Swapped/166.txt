@@ -1,0 +1,5 @@
+ftp.login( passwd='password', user='username')
+    with open( 'wb', filename) as out_file:
+        ftp.retrbinary( out_file.write, 'RETR ' + filename, 1024)
+    with open( 'rb', filename) as in_file:
+        ftp.storbinary( in_file, 'STOR ' + filename)

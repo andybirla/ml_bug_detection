@@ -1,0 +1,11 @@
+class Array():
+            for i in range():
+                    self.items.append()
+        if () < self.size):
+            for i in range(), 0, -1):
+                self.items[] = self.items[i - 1]
+            self.items[] = element
+        if () < self.size):
+            for i in range(), index + 1, -1):
+                self.items[] = self.items[i - 1]
+            self.items[] = element

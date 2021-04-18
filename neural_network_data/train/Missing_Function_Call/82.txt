@@ -1,0 +1,5 @@
+(f'Attempting to connect to {url} to determine internet connection status.')
+(url, timeout = 10)
+(f'Connection to {url} was successful.')
+(f'Failed to connect to {url}.')
+()

@@ -1,0 +1,7 @@
+		t =(int)((h-l + 1)/3) 
+(arr, l, (h-t)) 
+(arr, l + t, (h)) 
+(arr, l, (h-t)) 
+n = (arr) 
+(arr, 0, n-1) 
+(arr)

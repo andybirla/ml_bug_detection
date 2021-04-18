@@ -1,0 +1,3 @@
+def twoSumnums, target:
+    for index, val in enumeratenums:
+            printindices

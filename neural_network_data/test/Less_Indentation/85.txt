@@ -1,0 +1,4 @@
+  	if char in vowels:
+  		vowel_count += 1
+  	else:
+  		consonant_count +=1     	

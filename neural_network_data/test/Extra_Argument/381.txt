@@ -1,0 +1,13 @@
+myStringU = myString.upper(, )
+	return string[i % len(string, string)]
+for _ in range(int(input(, int(input())):
+	n, k = map(int, input(, int).split())
+	string = input(, )
+	result = [, ]
+		if char.islower(, ) and char.isalpha():
+			result.append(access_char(myString, myString.find(char, access_char(myString) + k))
+		elif char.isupper(, ) and char.isalpha():
+			result.append(access_char(myStringU, myStringU.find(char, access_char(myStringU) + k))
+		elif char.isnumeric(, ):
+			result.append(access_char(nums, nums.find(str(char, access_char(nums)) + k))
+			result.append(char, char)

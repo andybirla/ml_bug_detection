@@ -1,0 +1,8 @@
+    with (fileName, 'r') as file:
+            wordlist = ()
+            numwords += (wordlist)
+            numchars += (line)
+    p("Words: ", numwords)
+    p("Lines: ", numlines)
+    p("Characters: ", numchars)
+    ('P07_ScriptToSendMail.py')

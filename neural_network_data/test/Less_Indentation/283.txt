@@ -1,0 +1,3 @@
+   temp = int(input("Enter The Intger Numbers"))
+   list.append(temp)
+   finalList.append(list[(i+d)%N])

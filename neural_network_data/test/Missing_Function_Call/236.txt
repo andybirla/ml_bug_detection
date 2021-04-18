@@ -1,0 +1,4 @@
+         (url, timeout=2)
+         ("Connection to \""+ url + "\" is working")
+        ("Connection error:%s" % E.reason)
+()

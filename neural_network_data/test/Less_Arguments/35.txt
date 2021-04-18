@@ -1,0 +1,11 @@
+a=int())
+a=bin().replace("0b","")
+c=[int() for i in str(a)] 
+e=c[]
+for i in range(len(a)):
+    if():
+        d.append()
+        f=c[]^e
+        d.append()
+for i in range(len(a)):
+    g=g+d[len()-i-1]*e

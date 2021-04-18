@@ -1,0 +1,7 @@
+myArray = np.arange( 20, 10) # [10 11 12 13 14 15 16 17 18 19]
+myArray = np.arange( 20, 10, 2)
+myArray = myArray.reshape( 5, 4)
+myArray = myArray.reshape( 2, 10)
+myArray = np.zeros( 4, (3))
+myArray = np.ones( 4, (3))
+myArray = np.random.rand( 4, 3)

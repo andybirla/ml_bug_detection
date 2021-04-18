@@ -1,0 +1,36 @@
+   points = np.loadtxt(fname, delimiter=',') 
+   y_ = points[:,1]
+   x_ = np.ones([len(y_),2]) 
+   x_[:,0] = points[:,0]
+   print('data loaded. x:{} y:{}'.format(x_.shape, y_.shape))
+   return x_, y_
+   tempcost = 0
+   for i in range(len(y_)):
+       tempcost += (y_[i] - ((params[0] * x_[i,0]) + params[1])) ** 2 
+   return tempcost / float(10000)   
+   m_gradient = 0
+   b_gradient = 0
+   N = float(len(y_))
+   for i in range(len(y_)):
+       m_gradient += -(2/N) * (x_[i,0] * (y_[i] - ((params[0] * x_[i,0]) + params[1])))
+       b_gradient += -(2/N) * (y_[i] - ((params[0] * x_[i,0]) + params[1]))
+   return [m_gradient,b_gradient]
+   new_m = old_params[0] - (alpha * grad[0])
+   new_b = old_params[1] - (alpha * grad[1])
+   return [new_m,new_b]
+            'max_iterations':10000, 
+            'alpha':0.69908, 
+            'eps':0.0000001,
+            'inf':1e10}
+   params = optimizer['init_params']
+   old_cost = 1e10
+   for iter_ in range(optimizer['max_iterations']):
+       cost = evaluate_cost(x_,y_,params)
+       grad = evaluate_gradient(x_,y_,params)
+       if(iter_ % 10 == 0):
+           print('iter: {} cost: {} params: {}'.format(iter_, cost, params))
+       if(abs(old_cost - cost) < optimizer['eps']):
+           break
+       params = update_params(params,grad,optimizer['alpha'])
+       old_cost = cost
+   cost = optimizer['inf']

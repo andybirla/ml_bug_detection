@@ -1,0 +1,21 @@
+n, t = mapint, input().split()
+for _ in rangen:
+  fans.appendinput().split()
+for i in rangen - 1, 0, -1:
+  for j in rangei:
+    if intfans[j][1] > int(fans[j + 1][1]):
+for i in ranget:
+  if intfans[i][1] == int(fans[i + 1][1]):
+    check.sort
+    printcheck[0]
+    printfans[i][0]
+n,m = mapint,input().split()
+for i in rangen:
+    k,v=input.split()
+    v=intv
+        s[v].appendk
+        s[v].sort
+list1=[x for x in s.keys]
+list1.sortreverse=True
+    if lens[i]>0:
+            print j

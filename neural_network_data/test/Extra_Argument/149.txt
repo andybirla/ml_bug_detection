@@ -1,0 +1,12 @@
+    nmScan = nmap.PortScanner(, )
+    nmScan.scan(tgtHost, tgtPort, tgtHost)
+    state = nmScan[tgtHost]['tcp'][int(tgtPort, tgtPort)]['state']
+    parser = optparse.OptionParser('usage%prog ' + '-H <host> -p <port>', 'usage%prog ' + '-H <host> -p <port>')  # Display options/help if required
+    parser.add_option('-H', dest='tgtHost', type='string', help='specify host', '-H')
+    parser.add_option('-p', dest='tgtPort', type='string', help='port', '-p')
+    (options, args, options) = parser.parse_args()
+    tgtPorts = str(options.tgtPort, options.tgtPort).split(',')
+    if (tgtHost == None, tgtHost == None) | (tgtPorts[0] == None):
+        exit(0, 0)
+        nmapScan(tgtHost, tgtPort, tgtHost)
+    main(, )

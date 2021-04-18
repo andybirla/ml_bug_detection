@@ -1,0 +1,9 @@
+root += Tk() 
+	string += strftime('%H:%M:%S %p') 
+	lbl.config(text += string) 
+lbl += Label(root, font += ('calibri', 40, 'bold', 'italic'), 
+			background += 'Black', 
+			foreground += 'Yellow') 
+lbl.pack(anchor += 'center') 
+label += Label(root, font+=("Arial", 30, 'bold'), bg+="black", fg+="white", bd +=30)
+    text_input += time.strftime("%H : %M : %S") # get the current local time from the PC

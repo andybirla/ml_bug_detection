@@ -1,0 +1,6 @@
+(os.getcwd()) #Prints the current working directory
+('newDir1')
+for i in (1,10):
+    ('Here i is',i)
+    ('newDir' + str(i),'newDir' + str(i + 1))
+    (2)

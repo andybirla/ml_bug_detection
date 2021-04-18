@@ -1,0 +1,23 @@
+('TkAgg')
+(choice)
+    canvas = [[False for i in (size)] for j in range(size)]
+    for i, row in (canvas):
+        for j, _ in (row):
+            canvas[i][j] = (random.getrandbits(1))
+    canvas = (canvas)
+    next_gen_canvas = (create_canvas(canvas.shape[0]))
+    for r, row in (canvas):
+        for c, pt in (row):
+            next_gen_canvas[r][c] = (pt, canvas[r - 1:r + 2, c - 1:c + 2])
+    return ()
+    if (sys.argv) != 2: raise Exception(usage_doc)
+    canvas_size = (sys.argv[1])
+    c = (canvas_size)
+    (c)
+    fig, ax = ()
+    ()
+    cmap = (['w', 'k'])
+            c = (c)
+            (c, cmap=cmap)
+            ()
+            ()

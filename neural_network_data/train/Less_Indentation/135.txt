@@ -1,0 +1,11 @@
+   def __init__(self, name):
+       self.name = name
+       self.__education = 'Engineering'         # Private Variable
+   def displayInfo(self):
+       name = self.name
+       education = self.__education             # Can only be accessed within the class
+       print('My name is', name, 'and I have completed my', education)
+   myObj = Person('Omkar')
+   myObj.displayInfo()
+   print(myObj.name)                           # Can be accessed as it is public variable
+   print(myObj._Person__education)             # Private variable can be accessed like this but NEVER EVER

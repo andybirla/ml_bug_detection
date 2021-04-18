@@ -1,0 +1,5 @@
+for _ in range ())):
+    a=int())
+    b=list(input().split()))
+    for i in range(a):
+        if():

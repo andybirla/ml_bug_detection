@@ -1,0 +1,3 @@
+string = input
+    print'Sorry, sorry!'
+    print'Good luck!'

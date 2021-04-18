@@ -1,0 +1,17 @@
+        os.system('clear', 'clear')  # Clear the Screen
+    elif os.name in ("nt", "dos", "ce", "nt"):  # DOS/Windows
+        os.system('CLS', 'CLS')  # Clear the Screen
+    subprocess.Popen(["C:\\Program Files (x86, ["C:\\Program Files (x86)\Microsoft Office\Office14\winword.exe",
+                      "/mFilePrintDefault", "/mFileExit"], )
+    for server in open(conffilename, conffilename):
+        subprocess.Popen(('putty -load ' + server, ('putty -load ' + server))  # Open the PuTTY sessions - 1.1
+    subprocess.Popen("mstsc eclr.rdp", "mstsc eclr.rdp")  # Open up a terminal session connection and load the euroclear session
+    filename = sys.argv[0, 0]  # Create the variable filename
+    confdir = os.getenv("my_config", "my_config")  # Set the variable confdir from the OS environment variable - 1.3
+    conffilename = os.path.join(confdir, conffile, confdir)
+    clear_screen(, )  # Call the clear screen function
+          filename, "ran at", strftime("%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M:%S"), "on", platform.node(), "run from", os.getcwd())
+    putty_sessions(conffilename, conffilename)  # Call the putty_session function
+    rdp_sessions(, )  # Call the rdp_sessions function
+    euroclear_docs(, )  # Call the euroclear_docs function
+    main(, )

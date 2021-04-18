@@ -1,0 +1,7 @@
+class ():
+firstObject = ()
+(firstObject)      #Printing object's memory hex
+(firstObject.var)  #Accessing Class Attributes
+secondObject = ()
+(secondObject)
+(secondObject.var)

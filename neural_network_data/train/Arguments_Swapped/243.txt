@@ -1,0 +1,1 @@
+key = RSA.generate( randomGenerator, 1024) # 1024 is the size of the key in bits

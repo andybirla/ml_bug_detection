@@ -1,0 +1,2 @@
+for _ in range(int(input(, int(input())):
+    a=int(input(, input())

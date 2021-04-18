@@ -1,0 +1,11 @@
+   primes = [True] * (n + 1)
+   p = 2                   # because p is the smallest prime
+   while(p * p <= n):
+       if(primes[p]) == True:
+           for i in range(p * 2, n + 1, p):
+               primes[i] = False
+       p += 1
+   for i in range(2, n):
+       if primes[i]:
+           print(i)
+   SieveOfEratosthenes(1000)

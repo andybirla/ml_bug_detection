@@ -1,0 +1,3 @@
+    var += 10
+firstObject += MyFirstClass()
+secondObject += MyFirstClass()

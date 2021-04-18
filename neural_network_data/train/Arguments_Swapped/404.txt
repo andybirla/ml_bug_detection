@@ -1,0 +1,3 @@
+top.resizable(0, 0)
+    clockTime.after( time, 1000)
+clockTime = tkinter.Label( font = ('calibri', top, 40, 'bold'), background = 'black', foreground = 'white')

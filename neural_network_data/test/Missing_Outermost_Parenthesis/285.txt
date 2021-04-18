@@ -1,0 +1,8 @@
+print"String with the use of Single Quotes: " 
+printString1 
+print"\nString with the use of Double Quotes: " 
+printString1 
+print"\nString with the use of Triple Quotes: " 
+printString1 
+print"\nCreating a multiline String: " 
+printString1 

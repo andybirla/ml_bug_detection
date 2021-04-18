@@ -1,0 +1,8 @@
+games=int())
+while():
+	user_input=input()[0]
+		if():		#If the entered input is confined to Rock, Paper or Scissors;
+	if():				#If not, run the loop again;
+	comp_input=random.choice()))	#Random Key from the dictionary my_dict i.e. R,P or S;
+	if () or ( user_input=='P' and comp_input=='S' ) or ( user_input=='S' and comp_input=='R' ):
+	elif () or ( user_input=='S' and comp_input=='P' ) or ( user_input=='R' and comp_input=='S' ):

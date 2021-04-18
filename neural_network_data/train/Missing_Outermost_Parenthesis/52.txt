@@ -1,0 +1,13 @@
+if os.path.isdirfilepath:
+    with open"output.pdf", "wb" as f:
+        for fname in os.listdirfilepath:
+            if not fname.endswith".jpg":
+            path = os.path.joinfilepath, fname
+            if os.path.isdirpath:
+            imgs.appendpath
+        f.writeimg2pdf.convert(imgs)
+elif os.path.isfilefilepath:
+    if filepath.endswith".jpg":
+        with open"output.pdf", "wb" as f:
+            f.writeimg2pdf.convert(filepath)
+    print"please input file or dir"

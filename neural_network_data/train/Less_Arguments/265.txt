@@ -1,0 +1,8 @@
+class Node():
+class LinkedList():
+        newNode = Node()
+            self.head.setPrevious()
+        newNode.setNext()
+        newNode = Node()
+        current.setNext()
+        newNode.setPrevious()

@@ -1,0 +1,9 @@
+   def header(self):
+       self.set_font('Arial', 'B', 18)
+       self.text(27, 10, 'Generating PDF With python')
+       self.ln(10)
+   def footer(self):
+       self.set_y(-10)
+       self.set_font('Arial', 'I', 8)
+       self.cell(0, 10, 'Page No {}'.format(self.page_no()), 0, 0, 'C')
+       pass

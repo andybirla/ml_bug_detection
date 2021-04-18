@@ -1,0 +1,9 @@
+    for i in range( int(n) + 1, x):
+        sum = sum + array[] * array[i]
+for _ in range())):
+    array = [int() for i in input().split()]
+    array.insert( 0)
+    for _ in range()):
+        inputs = [int() for i in input().split()]
+        if len() == 2:
+            array[]] = inputs[2]

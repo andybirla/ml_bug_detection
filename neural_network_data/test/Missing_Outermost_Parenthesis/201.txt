@@ -1,0 +1,39 @@
+def create_board: 
+	returndef possibilitiesboard: 
+	for i in rangelen(board): 
+		for j in rangelen(board): 
+				l.append(i, j) 
+	returnl 
+def random_placeboard, player: 
+	selection = possibilitiesboard 
+	current_loc = random.choiceselection 
+	returnboard 
+def row_winboard, player: 
+	for x in rangelen(board): 
+		for y in rangelen(board): 
+			returnwin 
+	returnwin 
+def col_winboard, player: 
+	for x in rangelen(board): 
+		for y in rangelen(board): 
+			returnwin 
+	returnwin 
+def diag_winboard, player: 
+	for x in rangelen(board): 
+		for x in rangelen(board): 
+			y = lenboard - 1 - x 
+def evaluateboard: 
+		if 			col_winboard,player or
+			diag_winboard,player): 
+	if np.allboard != 0 and winner == 0: 
+def play_game: 
+	board, winner, counter = create_board, 0, 1
+	printboard 
+	sleep2 
+			board = random_placeboard, player 
+			print"Board after " + str(counter) + " move" 
+			printboard 
+			sleep2 
+			winner = evaluateboard 
+	returnwinner 
+print"Winner is: " + str(play_game()) 

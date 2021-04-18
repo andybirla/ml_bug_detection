@@ -1,0 +1,2 @@
+    if a1 = a:
+if second_difference[0] = second_difference[1]:  # checks to see if consistent

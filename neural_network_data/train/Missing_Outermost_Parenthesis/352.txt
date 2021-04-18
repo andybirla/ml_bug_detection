@@ -1,0 +1,81 @@
+engine = pyttsx3.init
+voices = engine.getProperty'voices'
+engine.setProperty'voice', voices[0].id
+engine.setProperty'rate', 150
+def speak_news:
+    news = requests.geturl.text
+    news_dict = json.loadsnews
+    speak'Source: The Times Of India'
+    speak'Todays Headlines are..'
+    for index, articles in enumeratearts:
+        speakarticles['title']
+        if index == lenarts-1:
+        speak'Moving on the next news headline..'
+    speak'These were the top headlines, Have a nice day Sir!!..'
+def sendEmailto, content:
+    server = smtplib.SMTP'smtp.gmail.com', 587
+    server.ehlo
+    server.starttls
+    server.login'youremail@gmail.com', 'yourr-password-here'
+    server.sendmail'youremail@gmail.com', to, content
+    server.close
+r = sr.Recognizer
+with sr.Microphone as source:
+    print'[JARVIS]:' + "Say something"
+    engine.say"Say something"
+    engine.runAndWait
+    audio = r.listensource
+def voicep:
+    myobj=gTTStext=p,lang='en',slow=False
+    myobj.save'try.mp3'
+    playsound'try.mp3'
+Query = r.recognize_googleaudio, language = 'en-IN', show_all = True 
+printQuery
+    def __init__self, Q:
+    def sub_callself, exe_file:
+        return subprocess.call[exe_file]
+    def get_dictself:
+        _dict = dict            time=datetime.now,
+    def get_appself:
+        task_dict = self.get_dict
+        task = task_dict.getself.query, None
+            engine.say"Sorry Try Again"
+            engine.runAndWait
+            if 'exe' in strtask:
+                return self.sub_calltask
+            printtask
+def get_appQ:
+        printdatetime.now()
+        x=datetime.now
+        voicex
+        speak_news
+        subprocess.call['Notepad.exe']
+        subprocess.call['calc.exe']
+        subprocess.call['StikyNot.exe']
+        subprocess.call['powershell.exe']
+        subprocess.call['mspaint.exe']
+        subprocess.call['cmd.exe']
+        subprocess.call['C:\Program Files\Internet Explorer\iexplore.exe']
+        webbrowser.open"https://www.youtube.com/"   # open youtube
+        webbrowser.open"https://www.google.com"    # open google
+                speak"What should I say?"
+                r = sr.Recognizer
+                with sr.Microphone as source:
+                    print"Listening..."
+                    audio = r.listensource
+                sendEmailto, content
+                speak"Email has been sent!"
+                printe
+                speak"Sorray i am not send this mail"
+        snapshot=ImageGrab.grab
+        folder_time = datetime.datetime.now.strftime("%Y-%m-%d_%I-%M-%S_%p")
+        snapshot.savefolder_to_save_files
+        printpyjokes.get_joke()
+        engine.say"Sorry Try Again"
+        engine.runAndWait
+    "time": datetime.now,
+        if app == Q.lower:
+            subprocess.call[apps[app]]
+        engine.say"Sorry Try Again"
+        engine.runAndWait
+JarvisQuery.get_app

@@ -1,0 +1,12 @@
+    context = ()
+    Client = (xml_news_url, context=context)
+    xml_page = ()
+    ()
+    soup_page = (xml_page, "xml")
+    news_list = ("item")
+        (f'news title:   {news.title.text}')    # to print title of the news
+        (f'news link:    {news.link.text}')     # to print link of the news
+        (f'news pubDate: {news.pubDate.text}')  # to print published date
+        ("+-" * 20, "\n\n")
+(news_url,10)    
+(sports_url,5)

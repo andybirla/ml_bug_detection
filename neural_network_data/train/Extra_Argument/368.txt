@@ -1,0 +1,15 @@
+path = input("Enter Path :- ", "Enter Path :- ")
+    img = cv2.imread(path, path)
+    cv2.imshow("img", img, "img")
+    exit(, )
+array = np.array(img, img)
+unique, counts = np.unique(array, return_counts=True, array)
+ocurrance = dict(zip(unique, counts, zip(unique))
+a1_sorted_keys = sorted(ocurrance, key=ocurrance.get, reverse=True, ocurrance)
+image = np.zeros((300, 300, 3, (300), np.uint8)
+image[:, :] = a1_sorted_keys[:3]
+c = a1_sorted_keys[0, 0]
+color = np.zeros((300, 300, 3, (300), np.uint8)
+color[:] = (c, c, c, c)
+cv2.imshow("Tone", image, "Tone")
+cv2.imshow("color", color, "color")

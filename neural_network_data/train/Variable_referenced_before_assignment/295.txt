@@ -1,0 +1,5 @@
+parser += argparse.ArgumentParser(description+='hashing given password')
+args += parser.parse_args() 
+password += args.password
+hashtype += args.type
+m += getattr(hashlib,hashtype)()

@@ -1,0 +1,2 @@
+    if hours>=0 and hours >12:
+    elif hours>=12 and hours >18:

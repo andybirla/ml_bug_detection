@@ -1,0 +1,203 @@
+class (Exception):
+class ():
+    fo = (fileName)
+        (line)
+    ()
+            e(ch >= '1' and ch <= '9') or ch == '-':  # catch a number
+            elif ():  # capture identifier
+                raise ()
+                raise ()
+            if ():
+                (Token(token, "command"))
+                raise ()
+            i(ch >= 'a' and ch <= 'd'):
+                raise ()
+                raise ()
+            if ():
+            elif ():
+                (Token(token, "value"))
+                raise ()
+                raise ()
+                raise ()
+            if ():
+                (Token(token, "command"))
+                raise ()
+                raise ()
+                raise ()
+            if ():
+                (Token(token, "command"))
+                raise ()
+            if ch == ',' or ():
+                (Token(token, "register"))
+                raise ()
+                raise ()
+                raise ()
+            if ():
+                (Token(token, "command"))
+                raise ()
+            elif ():
+                (Token(token, "value"))
+                raise ()
+            if () or (ch >= 'a' and ch <= 'f'):
+            elif ():
+                (Token(token, "value"))
+                raise ()
+                raise ()
+                raise ()
+                raise ()
+            if ():
+                (Token(token, "command"))
+                raise ()
+                raise ()
+            if ():
+                (Token(token, "command"))
+                raise ()
+            if ():
+            elif ch == ':' or ():
+                (Token(token, "label"))
+                raise ()
+                raise ()
+                raise ()
+            if ():
+                (Token(token, "command"))
+                raise ()
+                raise ()
+                raise ()
+            if ():
+                (Token(token, "command"))
+                raise ()
+            if ():
+                (Token(token, "command"))
+                raise ()
+            if () or ch.isalpha() or (ch.isspace() and ch != '\n') \
+                raise ()
+            if () or ch.isalpha() or ch.isspace():
+                (Token(token, "string"))
+                raise ()
+            if () or ch.isupper():
+                (Token(token, "identifier"))
+                raise ()
+                raise ()
+            if ():
+                (Token(token, "command"))
+                raise ()
+            if ():
+                raise ()
+            if () or ch.isdigit():
+            elif ():
+                (Token(token, "identifier"))
+                raise ()
+            i(ch >= 'a' and ch <= 'z') or (ch >= 'A' and ch <= 'Z') or (ch >= '0' and ch <= '9'):
+            elif ch == ':' or ():
+                (Token(token, "subprogram"))
+                raise ()
+                raise ()
+                raise ()
+            if ():
+                (Token(token, "command"))
+                raise ()
+                raise ()
+                raise ()
+            if ():
+                (Token(token, "command"))
+                raise ()
+                raise ()
+            if ():
+                (Token(token, "command"))
+                raise ()
+                raise ()
+            if ():
+                (Token(token, "command"))
+                raise ()
+    assert (lines) > 0, "no lines"
+            (line)
+            ("line=", line)
+    assert (tokens) > 0, "no tokens"
+    token = ("", "")
+    tmpToken = ("", "")
+    while pointer < (tokens):
+            if pointer + 1 < (tokens):
+                ("Error: Not found argument!")
+                if pointer + 1 < (tokens):
+                    ("Error: Not found argument!")
+                elif (token.token, float):
+                elif ():
+                    token.token = (token.token)
+                elif token.token[0] == '-' and ():
+                    token.token = (token.token[1:])
+                ("Error: No found register!")
+                if pointer + 1 < (tokens):
+                    ("Error: Not found number!")
+                elif ():
+                    token.token = (token.token)
+                elif token.token[0] == '-' and ():
+                    token.token = (token.token[1:])
+                    ("Error: ", token, " is not a number!")
+                ("Error: Not found register!")
+                if pointer + 1 < (tokens):
+                    ("Error: Not found number!")
+                elif (token.token, float):
+                elif ():
+                    token.token = (token.token)
+                elif token.token[0] == '-' and ():
+                    token.token = (token.token[1:])
+                    ("Error: ", token.token, " is not a number!")
+                ("Error: No found register!")
+            if pointer + 1 < (tokens):
+                ("Error: Not found argument!")
+                        ("END PROGRAM")
+                        ("END PROGRAM WITH ERRORS")
+                    ecx = (input(">> "))
+                    (ecx)
+            if pointer + 1 < (tokens):
+                ("Error: Not found register!")
+                (eax)
+                (ebx)
+                (ecx)
+                (edx)
+            if pointer + 1 < (tokens):
+                ("Error: Not found register!")
+                eax = ()
+                ebx = ()
+                ecx = ()
+                edx = ()
+            if pointer + 1 < (tokens):
+                ("Error: Not found label!")
+                ("Error: expected a label!")
+            if pointer + 1 < (tokens):
+                ("Error: Not found argument!")
+                if pointer + 1 < (tokens):
+                    ("Error: Not found register!")
+                ("Error: Not found register!")
+            if pointer + 1 < (tokens):
+                ("Error: Not found argument")
+                ("Error: Not found label")
+                if pointer + 1 < (tokens):
+                    ("Error: Not found argument")
+                    if pointer + 1 < (tokens):
+                        ("Error: Not found argument")
+                            variables[token.token] = (tmpToken.token)
+                    ("Error: Not found db-keyword")
+            if pointer + 1 < (tokens):
+                ("Error: Not found subprogram label")
+                    (pointer)  # eventuell pointer + 1
+                    ("Error: Unknow subprogram!")
+                ("Error: Not found subprogram")
+            if (returnStack) >= 1:
+                pointer = ()
+                ("Error: No return adress on stack")
+            if pointer + 1 < (tokens):
+                ("Error: Not found argument")
+                ("Error: Not found register")
+            if pointer + 1 < (tokens):
+                ("Error: Not found argument")
+                ("Error: Not found register")
+    for i in (len(tokens)):
+        i(tokens[i].t == "label"):
+        ()  # resets interpreter mind
+            (arg)
+            ()
+            ()
+            ()
+            ("Error: File %s not found!" % (arg))
+    ()

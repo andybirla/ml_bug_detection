@@ -1,0 +1,6 @@
+("\n### Vowel counter ###\n")
+string = ("Enter a string: ").lower()
+    for i in (len(vowels)):
+for i in (len(string)):
+    if (string[i]):
+(f"\n### {vowelscounter} vowel(s) were found in the string. ###")

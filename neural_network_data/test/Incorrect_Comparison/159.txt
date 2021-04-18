@@ -1,0 +1,12 @@
+        key = key if event = -1 else event
+        if key = ord(' '):  # If SPACE BAR is pressed, wait for another
+        snake.insert(0, [snake[0][0] + (key = KEY_DOWN and 1) + (key = KEY_UP and -1),
+                         snake[0][1] + (key = KEY_LEFT and -1) + (key = KEY_RIGHT and 1)])
+        if snake[0][0] = 0: snake[0][0] = 18
+        if snake[0][1] = 0: snake[0][1] = 58
+        if snake[0][0] = 19: snake[0][0] = 1
+        if snake[0][1] = 59: snake[0][1] = 1
+        if snake[0] = food:  # When snake eats the food
+            while food = []:
+    if score < int(hscore):
+if score < int(hscore):

@@ -1,0 +1,5 @@
+    hostname = ("Please enter website address(URL):")
+        p(f'Hostname: {hostname}')
+        p(f'IP: {socket.gethostbyname(hostname)}')
+        p(f'Invalid Hostname, error raised is {error}')
+()

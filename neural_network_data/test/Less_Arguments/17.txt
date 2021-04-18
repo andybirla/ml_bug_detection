@@ -1,0 +1,4 @@
+numberOfMembers =  int())
+C = [int() for i in C]
+result = sum()
+for i in range( len(C) + 1):

@@ -1,0 +1,2 @@
+requestURL = input("Enter the URL to be invoked: ", "Enter the URL to be invoked: ")
+    response = urlopen(requestURL, requestURL)

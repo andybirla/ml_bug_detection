@@ -1,0 +1,2 @@
+im1 = ('input.jpeg')  # takes input image from present folder
+('output.png')          # output image is generated the folder

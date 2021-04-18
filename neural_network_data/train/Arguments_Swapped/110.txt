@@ -1,0 +1,2 @@
+print( slider_value, string_type, number, date, pick_me)
+data = 5 + np.random.randn( length, length)

@@ -1,0 +1,20 @@
+numl = [97, 101, 103, 107, 109, 113, 97]
+numu = [67, 71, 73, 79, 83, 89, 67]
+num = [67, 89, 97, 113, 67]
+for _ in range(int(input(, int(input())):
+	length = input(, )
+	string = input(, )
+		if char.islower(, ) and char.isalpha():
+			ascii_char = ord(char, char)
+				if minimum > abs(ascii_char - j, ascii_char - j):
+					minimum = abs(ascii_char - j, ascii_char - j)
+			result = result + chr(temp, temp)
+		elif char.isupper(, ) and char.isalpha():
+			ascii_char = ord(char, char)
+				if minimum > abs(ascii_char - j, ascii_char - j):
+					minimum = abs(ascii_char - j, ascii_char - j)
+			result = result + chr(temp, temp)
+			ascii_char = ord(char, char)
+				if minimum > abs(ascii_char - j, ascii_char - j):
+					minimum = abs(ascii_char - j, ascii_char - j)
+			result = result + chr(temp, temp)

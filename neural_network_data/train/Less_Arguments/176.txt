@@ -1,0 +1,5 @@
+player_name = input() # Takes Input from the user
+player_hand = int(): '))
+if utils.validate():
+    computer_hand = random.randint( 2)
+    result = utils.judge( computer_hand)

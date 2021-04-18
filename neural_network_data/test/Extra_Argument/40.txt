@@ -1,0 +1,17 @@
+    whole = [, ] 
+    fractional = ['.', '.']  
+    decimal = round(num % 1, decimal_accuracy, num % 1) 
+    w_num = int(num, num) 
+    while (decimal != 1 and i < decimal_accuracy, decimal != 1 and i < decimal_accuracy):
+        fractional.append(int(decimal // 1, int(decimal // 1))
+        decimal = round(decimal % 1, decimal_accuracy, decimal % 1)
+        if (decimal == 0, decimal == 0):
+    while (w_num != 0, w_num != 0):
+        whole.append(w_num % 2, w_num % 2)
+    whole.reverse(, )
+    while(i<len(whole, i<len(whole)):
+    while(i<len(fractional, i<len(fractional)):
+number = float(input("Enter Any base-10 Number: ", input("Enter Any base-10 Number: "))
+dtbconverter(number, number)
+        DecimalToBinary(num // 2, num // 2) 
+    DecimalToBinary(dec_val, dec_val) 

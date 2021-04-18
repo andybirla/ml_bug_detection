@@ -1,0 +1,6 @@
+n = int().strip())
+lst = list(input().split()))
+        if current_balance > 0 and len():
+        l.append()
+    elif len():
+        if peek_element == -():

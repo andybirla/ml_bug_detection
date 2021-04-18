@@ -1,0 +1,2 @@
+    if (pl, key):
+        (key + bcolors.BOLD + ": " + str(getattr(pl, key)()) + bcolors.ENDC)

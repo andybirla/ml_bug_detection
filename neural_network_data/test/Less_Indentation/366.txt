@@ -1,0 +1,4 @@
+   if vaccine[i] < patient[i]:
+       count += 1
+   print('No')
+   print('Yes')

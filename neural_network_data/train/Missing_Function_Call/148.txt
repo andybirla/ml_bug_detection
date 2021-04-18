@@ -1,0 +1,3 @@
+    for a in (m):            
+        for c in (count[a]):  
+(counting_sort( [1, 2, 7, 3, 2, 1, 4, 2, 3, 2, 1], 7 ))

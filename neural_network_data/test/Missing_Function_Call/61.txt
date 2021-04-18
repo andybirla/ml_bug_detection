@@ -1,0 +1,8 @@
+        ("\t", i, )
+    ("\n\n")  # add 3 lines
+    for i in (1, int(columns) + 1):
+        (i),
+        for j in (1, int(rows) + 1):
+            ("\t", i * j, )
+        ("\n\n")  # add 3 lines
+(rows, columns)

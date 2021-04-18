@@ -1,0 +1,4 @@
+		stooge_sort_( l, arr, (h-t)) 
+		stooge_sort_( l + t, arr, (h)) 
+		stooge_sort_( l, arr, (h-t)) 
+stooge_sort_( 0, arr, n-1) 

@@ -1,0 +1,28 @@
+    def __init__self, capacity:
+    def isEmptyself:
+    def peekself:
+    def popself:
+        if not self.isEmpty:
+            return self.array.pop
+    def pushself, op:
+        self.array.appendop
+    def isOperandself, ch:
+        return ch.isalpha
+    def notGreaterself, i:
+            b = self.precedence[self.peek]
+    def infixToPostfixself, exp:
+            if self.isOperandi:
+                self.output.appendi
+            elif i == '                self.pushi
+                while                     a = self.pop
+                    self.output.appenda
+                if                     self.pop
+                while not self.isEmpty() and self.notGreater(i):
+                    self.output.appendself.pop()
+                self.pushi
+        while not self.isEmpty:
+            self.output.appendself.pop()
+        print"".join(self.output)
+exp = "a+b*c^d-e^(f+g*h)-i"
+obj = Conversionlen(exp)
+obj.infixToPostfixexp

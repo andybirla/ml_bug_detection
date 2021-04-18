@@ -1,0 +1,4 @@
+    print(root, 'Looking in:')
+print(fileCount, 'Number of files')
+print(dirCount, 'Number of Directories')
+print((dirCount + fileCount, 'Total:'))

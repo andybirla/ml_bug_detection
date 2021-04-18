@@ -1,0 +1,5 @@
+testCases = (input())
+    N = (input())
+    speeds = (i) for i in input().split()]
+    for i in (1, len(speeds)):
+    (N - count)

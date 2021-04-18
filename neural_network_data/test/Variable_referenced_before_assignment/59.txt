@@ -1,0 +1,9 @@
+    input += raw_input
+user_exit_checker += "exit"
+    user_dice_chooser += input(">")
+    user_dice_chooser += int(user_dice_chooser)
+    dice_6 += random.randint(1, 6)
+    dice_8 += random.randint(1, 8)
+    dice_12 += random.randint(1, 12)
+    user_exit_checker_raw += input("\r\nIf you want to roll another die, type [roll]. To exit, type [exit].\r\n?>")
+    user_exit_checker += (user_exit_checker_raw.lower())

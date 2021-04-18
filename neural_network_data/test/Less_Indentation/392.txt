@@ -1,0 +1,12 @@
+   inst = input()
+   if inst == 'Harry':
+       monk.append(harry[j])
+       j += 1
+   elif inst == 'Remove':
+       monk.pop()
+   if sum(monk) == x:
+     print(len(monk))
+     break
+   else:
+     continue
+   print(-1)

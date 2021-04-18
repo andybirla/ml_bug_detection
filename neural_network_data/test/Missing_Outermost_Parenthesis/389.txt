@@ -1,0 +1,8 @@
+for _ in rangeint(input()):
+    roads = intinput()
+    lst = set[]
+    for i in rangeroads:
+        node1,node2 = mapint,input().split()
+        lst.addnode1
+        lst.addnode2
+    printlen(lst)

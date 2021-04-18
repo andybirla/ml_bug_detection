@@ -1,0 +1,19 @@
+def createStack: 
+def sizestack: 
+	return lenstack 
+def isEmptystack: 
+	if sizestack == 0: 
+def pushstack,item: 
+	stack.appenditem 
+def popstack: 
+	if isEmptystack: return
+	return stack.pop 
+def reversestring: 
+	n = lenstring 
+	stack = createStack 
+	for i in range0,n,1: 
+		pushstack,string[i] 
+	for i in range0,n,1: 
+		string+=popstack 
+string = reversestring 
+print"Reversed string is " + string 

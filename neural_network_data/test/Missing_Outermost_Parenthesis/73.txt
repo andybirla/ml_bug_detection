@@ -1,0 +1,9 @@
+N = intinput("Enter The Size Of List")
+for i in range0,N:
+    a = intinput('Enter The number')
+    list.appenda
+for i in range0, len(list)-1:
+    for j in rangei+1,len(list):
+        iflist[j]<=smallest:
+    ifsmallest<list[i]:
+printlist

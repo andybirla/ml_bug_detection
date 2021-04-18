@@ -1,0 +1,9 @@
+def countWordsfileName:
+    with openfileName, 'r' as file:
+            wordlist = line.split
+            numwords += lenwordlist
+            numchars += lenline
+    print "Words: ", numwords
+    print "Lines: ", numlines
+    print "Characters: ", numchars
+    countWords'P07_ScriptToSendMail.py'

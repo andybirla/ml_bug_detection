@@ -1,0 +1,6 @@
+n = (input())
+vaccine = (i) for i in input().split()]
+patient = (i) for i in input().split()]
+for i in (n):
+    ('No')
+    ('Yes')

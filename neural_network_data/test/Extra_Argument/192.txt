@@ -1,0 +1,4 @@
+    for key, value in choices.items(, ):
+    com_choice = random.choice(list(choices.keys(, list(choices.keys())).lower()
+    user_choice = input('\n----->', '\n----->').lower()
+        time.sleep(1, 1)

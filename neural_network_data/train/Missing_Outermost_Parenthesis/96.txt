@@ -1,0 +1,4 @@
+def fn:
+    p = Poolprocesses=3
+    result = p.mapf,[1,2,3,4,5]
+        printn

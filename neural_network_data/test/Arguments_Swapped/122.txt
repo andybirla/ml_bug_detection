@@ -1,0 +1,3 @@
+    print(board[2], " %c | %c | %c " % (board[1],board[3]))    
+    print(board[5], " %c | %c | %c " % (board[4],board[6]))    
+    print(board[8], " %c | %c | %c " % (board[7],board[9]))    

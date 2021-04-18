@@ -1,0 +1,3 @@
+n = np.arange(30, 0)
+poisson = stats.poisson.pmf(rate, n)
+plt.plot(poisson, n, 'o-')

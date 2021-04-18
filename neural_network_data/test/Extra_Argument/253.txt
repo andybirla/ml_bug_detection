@@ -1,0 +1,3 @@
+a= ['Hello',35,'b',45.5,'world',60, 'Hello']
+    if isinstance(j,int, j):
+    elif isinstance(j,float, j):

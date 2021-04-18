@@ -1,0 +1,3 @@
+tokens = s.split(" ", " ")
+        d[token, token] += 1
+        d[token, token] = 1

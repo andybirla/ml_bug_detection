@@ -1,0 +1,28 @@
+ import numpy as np
+ import matplotlib.pyplot as plt
+ from sklearn.metrics import r2_score
+ X = np.arange(1,50,0.5)
+ Y = 10 + 2*np.log(X)
+ Y_noise = np.random.rand(len(Y))
+ Y = Y +Y_noise
+ plt.scatter(X,Y)
+ n = len(X)
+ x_bias = np.ones((n,1))
+ print (X.shape)
+ print (x_bias.shape)
+ X = np.reshape(X,(n,1))
+ print (X.shape)
+ X_log = np.log(X)
+ x_new = np.append(x_bias,X_log,axis=1)
+ x_new_transpose = np.transpose(x_new)
+ x_new_transpose_dot_x_new = x_new_transpose.dot(x_new)
+ temp_1 = np.linalg.inv(x_new_transpose_dot_x_new)
+ temp_2 = x_new_transpose.dot(Y)
+ theta = temp_1.dot(temp_2)
+ a = theta[0]
+ b = theta[1]
+ Y_plot = a + b*np.log(X)
+ plt.scatter(X,Y)
+ plt.plot(X,Y_plot,c="r")
+ Accuracy = r2_score(Y,Y_plot)
+ print (Accuracy)

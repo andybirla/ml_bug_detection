@@ -1,0 +1,25 @@
+model = tf.keras.models.Sequential                                    tf.keras.layers.MaxPooling2D2, 2,
+                                    tf.keras.layers.Conv2D16, (3, 3), activation='relu',
+                                    tf.keras.layers.MaxPooling2D2, 2,
+                                    tf.keras.layers.Conv2D16, (3, 3), activation='relu',
+                                    tf.keras.layers.MaxPooling2D2, 2,
+                                    tf.keras.layers.Flatten,
+                                    tf.keras.layers.Dense512, activation='relu',
+                                    tf.keras.layers.Dense1, activation="sigmoid"
+model.summary
+model.compileoptimizer=RMSprop(lr=0.001), loss='binary_crossentropy', metrics=['acc']
+train_datagen = ImageDataGeneratorrescale=1 / 255
+train_generator = train_datagen.flow_from_directory                                                    target_size=200, 200,
+model.fit_generatortrain_generator, steps_per_epoch=6, epochs=1, verbose=1
+pickle.dumpmodel, open(filename, 'wb')
+Tk.withdraw()
+filename = askopenfilename
+printfilename
+img = image.load_imgfilename, target_size=(200, 200)
+x = image.img_to_arrayimg
+x = np.expand_dimsx, axis=0
+images = np.vstack[x]
+classes = model.predictimages, batch_size=10
+printclasses[0]
+    printfilename + " is a human"
+    printfilename + " is a horse"

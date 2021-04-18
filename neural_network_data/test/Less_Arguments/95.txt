@@ -1,0 +1,8 @@
+sauce = request.urlopen().read()
+soup = bs4.BeautifulSoup( "lxml")
+for div_tags in soup.find_all( attrs={"class": "cb-lv-scrs-col text-black"}):
+    score.append()
+for result in soup.find_all( attrs={"class": "cb-lv-scrs-col cb-text-complete"}):
+    results.append()
+engine.say()
+toaster.show_toast( msg=results[0]) 

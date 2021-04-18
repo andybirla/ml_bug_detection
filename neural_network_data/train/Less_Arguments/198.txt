@@ -1,0 +1,3 @@
+    		if Counter() == Counter(words.lower()):
+    			anagrams.append()
+        ]))                                                                     # []))                                                                     # ['gallery', 'regally', 'largely']

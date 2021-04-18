@@ -1,0 +1,6 @@
+testCases += int(input())
+    N += int(input())
+    count += 0
+    result += 0
+    string += input()
+                count += 0

@@ -1,0 +1,11 @@
+def gcdfirstNumber, secondNumber:
+    firstNumber = intfirstNumber
+    secondNumber = intsecondNumber
+    for i in range1, smaller + 1:
+        if firstNumber % i == 0 and (secondNumber % i == 0):
+for _ in rangeint(input()):
+    count =  intinput()
+    array = input.split()
+        currentGCD = gcdi, currentGCD
+            printcount
+        print-1

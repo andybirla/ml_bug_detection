@@ -1,0 +1,9 @@
+    program = input()
+        output = commands.getoutput()
+        proginfo = string.split()
+    Full path:\t\t", proginfo[], "\n\
+    Owner:\t\t\t", proginfo[], "\n\
+    Process ID:\t\t", proginfo[], "\n\
+    Parent process ID:\t", proginfo[], "\n\
+    Time started:\t\t", proginfo[])
+    elif os.name in ( "dos", "ce"):  # if the OS is windows

@@ -1,0 +1,7 @@
+stake = intargv[1]
+goals = intargv[2]
+trials = intargv[3]
+for i in rangetrials:
+        if random.randrange0, 2 == 0:
+print"Your won: " + str(100 * wins // trials) + "$"
+print"Your bets: " + str(bets // trials)

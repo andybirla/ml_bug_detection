@@ -1,0 +1,2 @@
+    end += len(alist) - 1
+        alist[end], alist[0] += alist[0], alist[end]

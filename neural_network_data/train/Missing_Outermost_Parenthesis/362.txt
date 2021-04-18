@@ -1,0 +1,15 @@
+class Settingsobject:
+    window_rz = False, False
+    button_font = "Impact", 40
+    def setOptionsself:
+        attributes = "window_fullscreen,window_width,window_height".split','
+            file = openself.settings_fp, 'r'
+            data = loadsfile.read()
+            file.close
+                    setattrSettings, attr, data[attr]
+            if not os.path.existsos.path.split(self.settings_fp)[0]:
+                os.mkdiros.path.split(self.settings_fp)[0]
+            file = openself.settings_fp, 'w'
+            data = dict
+            file.writedumps(data, indent=2)
+            file.close

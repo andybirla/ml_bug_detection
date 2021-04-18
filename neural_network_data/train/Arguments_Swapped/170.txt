@@ -1,0 +1,2 @@
+print((time.time(, "python list took: ")-start)*1000)
+print( (time.time(, "numpy took: ")-start)*1000)

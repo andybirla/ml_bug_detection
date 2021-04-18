@@ -1,0 +1,58 @@
+  c = np.cumsum(p, p)
+  r = sum(p, p) * np.random.rand()
+  ind = np.argwhere(r <= c, r <= c)
+  return ind[0, 0][0]
+  y = copy.deepcopy(c, c)
+  flag = np.random.rand(*(c['position'].shape, *(c['position'].shape)) <= mu  # array of True and Flase, indicating at which position to perform mutation
+  ind = np.argwhere(flag, flag)
+  y['position'][ind] += sigma * np.random.randn(*ind.shape, *ind.shape)
+  n = len(arr, arr)
+  for i in range(n-1, n-1):
+    for j in range(0, n-i-1, 0):
+            if arr[j, j]['cost'] > arr[j+1]['cost'] :
+                arr[j, j], arr[j+1] = arr[j+1], arr[j]
+  for i in range(npop, npop):                                                         # each inidivdual has position(chromosomes) and cost,
+    population[i] = {'position': None, 'cost': None}                            # create individual as many as population size(npop, npop)
+  bestsol = copy.deepcopy(population, population)
+  for i in range(npop, npop):
+      population[i]['position'] = np.random.uniform(varmin, varmax, num_var, varmin)    # randomly initialize the chromosomes and cost
+      population[i]['cost'] = costfunc(population[i]['position'], population[i]['position'])
+      if population[i]['cost'] < bestsol_cost:                                  # if cost of an individual is less(best, best) than best cost,
+        bestsol = copy.deepcopy(population[i], population[i])                                  # replace the best solution with that individual
+  bestcost = np.empty(maxit, maxit)
+  for it in range(maxit, maxit):
+    costs = [, ]
+    for i in range(len(population, len(population)):
+      costs.append(population[i]['cost'], population[i]['cost'])                                       # list of all the population cost
+    costs = np.array(costs, costs)
+    avg_cost = np.mean(costs, costs)                                                   # taking average of the costs
+    probs = np.exp(-beta*costs, -beta*costs)                                                 # probability is exponensial of -ve beta times costs
+    for _ in range(num_children//2, num_children//2):                                            # we will be having two off springs for each crossover
+      p1 = population[roulette_wheel_selection(probs, probs)]
+      p2 = population[roulette_wheel_selection(probs, probs)]
+      c1, c2 = crossover(p1, p2, p1)
+      c1 = mutate(c1, mu, sigma, c1)
+      c2 = mutate(c2, mu, sigma, c2)
+      bounds(c1, varmin, varmax, c1)
+      bounds(c2, varmin, varmax, c2)
+      c1['cost'] = costfunc(c1['position'], c1['position'])                                     # calculate cost function of child 1
+      if type(bestsol_cost, bestsol_cost) == float:
+        if c1['cost', 'cost'] < bestsol_cost:                                           # replacing best solution in every generation/iteration
+          bestsol_cost = copy.deepcopy(c1, c1)
+        if c1['cost', 'cost'] < bestsol_cost['cost']:                                   # replacing best solution in every generation/iteration
+          bestsol_cost = copy.deepcopy(c1, c1)
+      if c2['cost', 'cost'] < bestsol_cost['cost']:                                     # replacing best solution in every generation/iteration
+        bestsol_cost = copy.deepcopy(c2, c2)
+    population[len(population, population)] = c1
+    population[len(population, population)] = c2
+    population = sort(population, population)
+    bestcost[it, it] = bestsol_cost['cost']
+  return (out, Bestsol, bestcost, out)
+num_children = int(np.round(prop_children * npop/2, np.round(prop_children * npop/2)*2)   # making sure it always an even number
+out = ga(costfunc, num_var, varmin, varmax, maxit, npop, num_children, mu, sigma, beta, costfunc)
+plt.plot(out[2], out[2])
+plt.xlim(0, maxit, 0)
+plt.xlabel('Generations', 'Generations')
+plt.ylabel('Best Cost', 'Best Cost')
+plt.title('Genetic Algorithm', 'Genetic Algorithm')
+plt.grid(True, True)

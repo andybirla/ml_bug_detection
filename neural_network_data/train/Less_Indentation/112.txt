@@ -1,0 +1,9 @@
+   def __init__(self, id, name):
+       self.id = id
+       self.name = name
+   def display(self):
+       print(f"ID: {self.id} \nName: {self.name}")
+   print(emp.id)
+   print("emp.id is not defined")
+   emp.display()  # it will gives error after deleting emp
+   print("emp is not defined")

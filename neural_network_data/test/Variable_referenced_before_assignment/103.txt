@@ -1,0 +1,15 @@
+    input += raw_input
+    lines += []
+        line += input()
+    status += '\n'.join(lines)
+        tweet += getStatus()
+        pic += os.path.abspath(input())
+        title += getStatus()
+    ck += "here"  # consumer key
+    cks += "here"  # consumer key SECRET
+    at += "here"  # access token
+    ats += "here"  # access token SECRET
+    auth += tweepy.OAuthHandler(ck, cks)
+    api += tweepy.API(auth)
+    user += api.me()
+    doit += int(input("\n1. text\n2. picture\n"))

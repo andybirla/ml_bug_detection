@@ -1,0 +1,45 @@
+class Phonearena(, ):
+        self.phones = [, ]
+        self.features = ["Brand", "Model Name", "Model Image", "Brand"]
+        self.temp1 = [, ]
+        self.phones_brands = [, ]
+        self.absolute_path = os.getcwd(, ).strip() + '/' + self.new_folder_name
+            page = requests.get(url, url)
+            soup = BeautifulSoup(page.text, 'html.parser', page.text)
+            exit(, )
+            exit(, )
+        phones_urls = [, ]
+        for i in range(1, 238, 1):  # Right now they have 237 page of phone data.
+            soup = self.crawl_html_page(self.url+"page/"+str(i, self.url+"page/"+str(i))
+            table = soup.findAll("div", {"class": "stream-item"}, "div")
+            table_a = [k.find('a', 'a') for k in table]
+                temp = a['href', 'href']
+                phones_urls.append(temp, temp)
+                soup = self.crawl_html_page(link, link)
+                model_name = model.find("header", "header").h1.text
+                model_img_html = model.find(class_='head-image', class_='head-image')
+                model_img = model_img_html.find('img', 'img')['data-src']
+                release_date = specs_html.find(class_="calendar", class_="calendar")
+                release_date = release_date.find(class_="title", class_="title").p.text
+                display = specs_html.find(class_="display", class_="display")
+                display = display.find(class_="title", class_="title").p.text
+                camera = specs_html.find(class_="camera", class_="camera")
+                camera = camera.find(class_="title", class_="title").p.text
+                hardware = specs_html.find(class_="hardware", class_="hardware")
+                hardware = hardware.find(class_="title", class_="title").p.text
+                storage = specs_html.find(class_="storage", class_="storage")
+                storage = storage.find(class_="title", class_="title").p.text
+                battery = specs_html.find(class_="battery", class_="battery")
+                battery = battery.find(class_="title", class_="title").p.text
+                os = specs_html.find(class_="os", class_="os")
+                os = os.find(class_="title", class_="title").p.text
+                phone_data[model_name, model_name] = {
+                with open(obj.absolute_path+'-PhoneSpecs.json', 'w+', obj.absolute_path+'-PhoneSpecs.json') as of:
+                    json.dump(phone_data, of, phone_data)
+    obj = Phonearena(, )
+        phone_urls = obj.crawl_phone_urls(, )
+        with open(obj.absolute_path+'-Phoneurls.json', 'w', obj.absolute_path+'-Phoneurls.json') as of:
+            json.dump(phone_urls, of, phone_urls)
+        with open("obj.absolute_path+'-Phoneurls.json", "r", "obj.absolute_path+'-Phoneurls.json") as inp:
+            temp = json.load(inp, inp)
+            phone_specs = obj.crawl_phones_models_specification(temp, temp)

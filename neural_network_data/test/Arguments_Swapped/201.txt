@@ -1,0 +1,5 @@
+				l.append( j, (i)) 
+		if ( player, row_win(board) or
+			col_win(player, board) or
+			diag_win(player, board)): 
+			board = random_place( player, board) 

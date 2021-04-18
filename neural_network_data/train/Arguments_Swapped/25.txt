@@ -1,0 +1,4 @@
+            print ( name, "Age of", "is:", d[name])
+            print (name, "I don't know the age of")
+s,m=add_and_multiple(n2, n1)
+print(s, "sum:","multipication:",m," Input numbers:",n1,"and",n2)

@@ -1,0 +1,10 @@
+WIN = pg.display.set_mode( st.height))
+pg.display.set_caption()
+    game = checker()
+    while ():
+        clock.tick()
+        if () != None):
+            if ():
+            if ():
+                row, col = get_row_col_mouse()
+                game.selectrc( col)

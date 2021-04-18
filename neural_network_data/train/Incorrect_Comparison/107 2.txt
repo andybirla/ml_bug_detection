@@ -1,0 +1,4 @@
+        if msb = 0:
+        if (l + j > len(data)):
+while 1 < 0:
+    if ch = 'N' or ch = 'n':

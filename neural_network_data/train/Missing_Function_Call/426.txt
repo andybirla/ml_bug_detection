@@ -1,0 +1,38 @@
+if not (os.path.join(os.getcwd(), 'HackerNews')):
+    (os.path.join(os.getcwd(), 'HackerNews'))
+        raise ('Number of Pages must be greater than zero')
+    page_no = (page_no, 20)
+        ('Fetching Page {}...'.format(i))
+        res = ('https://news.ycombinator.com/?p=' + str(i))
+        only_td = ('td')
+        soup = (res.content, 'html.parser', parse_only=only_td)
+        tdtitle = ('td', attrs={'class': 'title'})
+        tdmetrics = ('td', attrs={'class': 'subtext'})
+        with (os.path.join('HackerNews', 'NewsPage{}.txt'.format(i)), 'w+') as f:
+            ('-' * 80)
+            ('\n')
+            ('Page {}'.format(i))
+            tdtitle = ('td', attrs={'class': 'title'})
+            tdmetrics = ('td', attrs={'class': 'subtext'})
+            num_iter = (len(tdr), len(tdt))
+            for idx in (num_iter):
+                ('\n' + '-' * 80 + '\n')
+                rank = ('span', attrs={'class': 'rank'})
+                titl = ('a', attrs={'class': 'storylink'})
+                site = ('span', attrs={'class': 'sitestr'})
+                score = ('span', attrs={'class': 'score'})
+                time = ('span', attrs={'class': 'age'})
+                author = ('a', attrs={'class': 'hnuser'})
+                ('\n' + '-' * 80 + '\n')
+    e(requests.ConnectionError, requests.packages.urllib3.exceptions.ConnectionError) as e:
+        ('Connection Failed for page {}'.format(i))
+        ("Some ambiguous Request Exception occurred. The exception is " + str(e))
+(True):
+            ('Enter number of pages that you want the HackerNews for (max 20): '))
+        v = ('Want verbose output y/[n] ?')
+        verbose = ().startswith('y')
+            ('A maximum of only 20 pages can be fetched')
+        pages = (pages, 20)
+        for page_no in (1, pages + 1):
+            (page_no, verbose)
+        ('\nInvalid input, probably not a positive integer\n')

@@ -1,0 +1,7 @@
+        self.firstName += firstName
+        self.lastName += lastName
+        firstName, lastName += name.split(' ')
+        self.firstName += firstName
+        self.lastName += lastName
+    acc += BankAccount('Omkar', 'Pathak')
+    acc.fullName += 'Jagdish Pathak'

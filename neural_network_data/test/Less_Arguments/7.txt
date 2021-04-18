@@ -1,0 +1,2 @@
+testCases = int())
+    N, K = map( input().split())

@@ -1,0 +1,3 @@
+x += 'Global x'
+    y += 'Local y'
+    x += 'Local x'

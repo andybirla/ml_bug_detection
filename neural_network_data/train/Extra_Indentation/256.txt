@@ -1,0 +1,11 @@
+ import os
+ from pathlib import Path
+ DIRECTORY = '/home/omkarpathak/Desktop'
+ dirs = [name for name in os.listdir(DIRECTORY) if os.path.isdir(os.path.join(DIRECTORY, name))]
+ files = []
+ for root, dirs, files in os.walk(DIRECTORY):
+     for File in files:
+         files.append(root + File)
+ dirs.sort()
+ files.sort()
+ def binarySearch(target, List):

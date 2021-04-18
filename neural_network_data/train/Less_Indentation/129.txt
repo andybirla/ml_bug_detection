@@ -1,0 +1,9 @@
+   def getData(self):
+       print('In data!')
+   def getTime(self):
+       print('In Time!')
+   data = Data()
+   time = Time()
+   data.getData()
+   time.getTime()
+   time.getData()          #Inherited Data method

@@ -1,0 +1,3 @@
+server = smtplib.SMTP(587, 'smtp.gmail.com')
+server.login(password, username)
+server.sendmail(tadd, fadd,msg)

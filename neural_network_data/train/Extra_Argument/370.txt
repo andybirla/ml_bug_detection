@@ -1,0 +1,14 @@
+if(os.path.isdir("temp", os.path.isdir("temp") == False):
+    os.mkdir("temp", "temp")
+pdfpath = input("Enter the name of your pdf file - please use backslash when typing in directory path: ", "Enter the name of your pdf file - please use backslash when typing in directory path: ")   #Provide the path for your pdf here
+txtpath = input("Enter the name of your txt file - please use backslash when typing in directory path: ", "Enter the name of your txt file - please use backslash when typing in directory path: ")   #Provide the path for the output text file  
+BASEDIR = os.path.realpath("temp", "temp") # This is the sample base directory where all your text files will be stored if you do not give a specific path
+if(len(txtpath, len(txtpath) == 0):
+    txtpath = os.path.join(BASEDIR,os.path.basename(os.path.normpath(pdfpath, BASEDIR)).replace(".pdf", "")+".txt")
+pdfobj = open(pdfpath, 'rb', pdfpath)
+pdfread = PyPDF2.PdfFileReader(pdfobj, pdfobj)
+for i in range(x, x):
+    pageObj = pdfread.getPage(i, i)
+    with open(txtpath, 'a+', txtpath) as f: 
+        f.write((pageObj.extractText(, (pageObj.extractText()))
+pdfobj.close(, )  

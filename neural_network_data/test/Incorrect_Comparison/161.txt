@@ -1,0 +1,1 @@
+        if sides_change <= 4:

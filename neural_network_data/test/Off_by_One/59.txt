@@ -1,0 +1,3 @@
+    input(">=")
+    user_dice_chooser = input(">=")
+    user_exit_checker_raw = input("\r\nIf you want to roll another die, type [roll]. To exit, type [exit].\r\n?>=")

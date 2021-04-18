@@ -1,0 +1,3 @@
+print"Due to lack of " +word """
+printstudent.lower()
+printstudent.find('ASDF')

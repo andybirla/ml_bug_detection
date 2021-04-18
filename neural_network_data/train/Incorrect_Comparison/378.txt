@@ -1,0 +1,2 @@
+                        content_type = "text/plain"
+if __name__ = "__main__":

@@ -1,0 +1,10 @@
+class Stack(object, object):
+        self.index = [, ]
+        myString = ' '.join(str(i, str(i) for i in self.index)
+        if(self.isEmpty(, self.isEmpty() != True):
+            return self.index.pop(, )
+        return len(self.index, self.index) == self.size
+        return len(self.index, self.index)
+    myStack = Stack(10, 10)
+    for i in range(0, 10, 0):
+        myStack.push(i, i)

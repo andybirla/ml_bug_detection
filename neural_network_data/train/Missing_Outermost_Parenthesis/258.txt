@@ -1,0 +1,30 @@
+class BinaryTreeobject:
+    def __init__self,nodeData:
+    def getLeftChildself:
+    def getRightChildself:
+    def setnodeDataValueself,value:
+    def getnodeDataValueself:
+    def insertRightself,newnodeData:
+            self.right = BinaryTreenewnodeData
+            tree = BinaryTreenewnodeData
+    def insertLeftself,newnodeData:
+            self.left = BinaryTreenewnodeData
+            tree = BinaryTreenewnodeData
+def printTreetree:
+            printTreetree.getLeftChild()
+            printtree.getnodeDataValue()
+            printTreetree.getRightChild()
+def pprinthead_node, _pre="", _last=True, term=False:
+    print_pre, "`- " if _last else "|- ", data, sep=""
+    left = head_node.getLeftChild
+    right = head_node.getRightChild
+    for i, child in enumerate[left, right]:
+        pprintchild,  _pre, bool(i) ,term=not(bool(child))
+def testTree:
+    myTree = BinaryTree"1"
+    myTree.insertLeft"2"
+    myTree.insertRight"3"
+    myTree.insertRight"4"
+    printTreemyTree
+    pprintmyTree
+    testTree

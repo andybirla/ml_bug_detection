@@ -1,0 +1,9 @@
+class (object):
+        ('In data!')
+class (Data):           #Inheriting from Data class
+        ('In Time!')
+    data = ()
+    time = ()
+    ()
+    ()
+    ()          #Inherited Data method

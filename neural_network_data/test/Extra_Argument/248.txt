@@ -1,0 +1,19 @@
+players=[, ]
+score=[, ]
+x=input(, )
+os.system('cls', 'cls')
+n=int(input("Enter number of players : ", input("Enter number of players : "))
+for i in range(0,n, 0):
+    name=input("Enter name of player : ", "Enter name of player : ")
+    players.append(name, name)
+os.system('cls', 'cls')
+for i in range(0,n, 0):
+    orignum=random.randint(1,100, 1)
+        ch=int(input("Please enter your guess : ", input("Please enter your guess : "))
+    x=input(, )
+    score.append(count+1, count+1)
+    os.system('cls', 'cls')
+for i in range(0,n, 0):
+for i in range(0,n, 0):
+    if score[i]==min(score, score):
+x=input(, )

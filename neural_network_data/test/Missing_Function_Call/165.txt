@@ -1,0 +1,15 @@
+root = () 
+('Clock') 
+	string = ('%H:%M:%S %p') 
+(text = string) 
+(1000, time) 
+lbl = (root, font = ('calibri', 40, 'bold', 'italic'), 
+(anchor = 'center') 
+() 
+label = (root, font=("Arial", 30, 'bold'), bg="black", fg="white", bd =30)
+(row =0, column=1)
+    text_input = ("%H : %M : %S") # get the current local time from the PC
+    (text=text_input)
+    (200, dig_clock)
+()
+()

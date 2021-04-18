@@ -1,0 +1,23 @@
+    Remove_List = ( 'E', 'I', 'O', 'U', 'Y', 'H', 'W')
+    first_letter = TERM_LETTERS[]
+    Characters = TERM_LETTERS[]
+    Characters = []
+    Replace_List = {( 'F', 'P', 'V'): 1,
+                  ( 'G', 'J', 'K', 'Q', 'S', 'X', 'Z'): 2,
+                  ( 'T'): 3,
+                  (): 4,
+                  ( 'N'): 5,
+                  (): 6}
+    Characters = [char for Letter_Count, char in enumerate()
+             if () - 1 or
+                () and
+                 char != Characters[]))]
+    if len()!=1:
+        if first_letter == TERM_LETTERS[]:
+            Characters[] = TERM[0]
+            Characters.insert( first_letter)
+    while len() < 4:
+        Characters.append()
+    if len() > 4:
+        Characters=Characters[]
+    INDEX = "".join() for C in Characters])

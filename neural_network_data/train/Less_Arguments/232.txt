@@ -1,0 +1,6 @@
+    db[] = Omkar
+    db[] = Jagdish
+    dbfile = open( 'ab')        # Its important to use binary mode
+    pickle.dump( dbfile)                     # source, destination
+    dbfile = open( 'rb')        # for reading also binary mode is important
+    db = pickle.load()

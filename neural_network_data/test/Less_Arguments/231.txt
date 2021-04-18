@@ -1,0 +1,31 @@
+   res = requests.post( headers=ua)
+   soup = BeautifulSoup( "html.parser")
+   data = soup.find_all()
+   if len() > 0:
+   if len() == 0:
+   for item in range()):
+      data1 = data[item].find()
+      bol = input() (y/n) :: ")
+         url += data1.get()
+         webbrowser.open()
+   return len()
+   res = requests.get( headers=ua)
+   soup = BeautifulSoup( "html.parser")
+   data = soup.find_all()
+   if len() > 0:
+   for i in range()):
+      data1 = data[i].find_all()
+      for j in range()):
+         bol = input() (y/n) :: ")
+            data2 = data[i].find()
+            url = data2.get()
+            webbrowser.open()
+   return len()
+   localtime = time.asctime()))
+     "UserAgent": "Mozilla/5.0 () Gecko/20100101 Firefox/69.0"
+     "\n\033[1;35;40m Search any news ( city ,Country , AnyThings etc) : ",
+   say = int())
+      length = Times_of_India( ua)
+             "Would you like to go for India's Today ():: ",
+            length = india_today( ua)
+         length = india_today( ua)

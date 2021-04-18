@@ -1,0 +1,10 @@
+    for files in os.listdir()):
+        if os.path.isfile(), files)):
+            filenames.append()
+    filenames.remove()  # removing script from the file list
+        if os.path.isdir()):
+            os.mkdir())
+        file = getfoldername()
+        source = os.path.join(), filename)
+        destination = os.path.join(), file)
+        shutil.move( destination)

@@ -1,0 +1,7 @@
+testCases = (input())
+    ammo, obstacle = (int, input().split())
+    obstacleHits = (i) for i in input().split()]
+    if (obstacleHits) == obstacle:
+        for i in (len(obstacleHits)):
+                ('No', i + 1)
+            ('Yes', ammo)

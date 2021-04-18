@@ -1,0 +1,16 @@
+def pangramsentence:
+	sentence = sentence.lower
+		if letter.isalpha:
+				alphabets.appendletter
+	alphabets = ''.joinalphabets
+	if Countercheck == Counter(alphabets):
+def pangram2sentence:
+    alphabet = listmap(chr, range(97, 123))
+    formattedString = ''.joinc for c in sentence if c.isalpha().lower()
+    return setalphabet == set(formattedString)
+    printpangram('the quick brown fox jumps over the lazy dog')       # True
+    printpangram('the_quick_brown_fox_jumps_over_the_lazy_dog')       # True
+    printpangram('the 1 quick brown fish jumps over the 2 lazy dogs') # False
+    printpangram('Five quacking Zephyrs jolt my wax bed.')            # True
+    printpangram('the quick brown fox jumped over the lazy FOX')      # False
+    printpangram(' ')                                                 # False

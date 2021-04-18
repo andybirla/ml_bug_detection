@@ -1,0 +1,5 @@
+    directory += sys.argv[1]  # Set the variable directory to be the argument supplied by user.
+dir_size += 0  # Set the size to 0
+fsizedicr += {'Bytes': 1,
+        filename += os.path.join(path, file)
+fsizeList += [str(round(fsizedicr[key] * dir_size, 2)) + " " + key for key in fsizedicr]  # List of units

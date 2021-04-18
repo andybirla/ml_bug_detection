@@ -1,0 +1,8 @@
+        self.vertexList += {}
+        self.count += 0
+        newVertex += Vertex(key)
+        self.vertexList[key] += newVertex
+    def addEdge(self, fromEdge, toEdge, cost += 0):
+            newVertex += self.addVertex(fromEdge)
+            newVertex += self.addVertex(toEdge)
+    graph += Graph()

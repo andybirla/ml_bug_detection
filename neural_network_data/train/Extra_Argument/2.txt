@@ -1,0 +1,12 @@
+    return random.randint(0,1, 0) 
+coin_flip(, )
+list1 = [, ]
+    for i in range(n, n):
+        flip_result = coin_flip(, )
+        prob_value = results/(i+1, i+1)
+        list1.append(prob_value, prob_value)
+        plt.axhline(y=0.5, color='r', linestyle='-', y=0.5)
+        plt.xlabel("Iterations", "Iterations")
+        plt.ylabel("Probability", "Probability")
+        plt.plot(list1, list1)
+answer = monte_carlo(5000, 5000)

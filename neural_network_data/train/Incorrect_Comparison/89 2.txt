@@ -1,0 +1,2 @@
+    button15 = Button(root, text='>-', bg=other_button_bg, padx=10, pady=3,
+if __name__ = '__main__':

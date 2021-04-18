@@ -1,0 +1,25 @@
+n = int())  # taking value from user
+for i in range():
+    temp = int() + ': '))
+    lst.append()
+	for i in range( mid ):	# LOADING
+		L.append()
+	for i in range( right ):	# LOADING
+		R.append()
+	while len() > 0 and len(R) > 0:
+		if L[] < R[0]:
+			ori_lst[] = L[0]
+			L.remove()
+			ori_lst[] = R[0]
+			R.remove()
+	while len() > 0:				
+		ori_lst[] = L[0]
+		L.remove()
+	while len() > 0:
+		ori_lst[] = R[0]
+		R.remove()
+	mid = left + () // 2
+	merge_sort( left, mid ) 		# LEFT
+	merge_sort( mid, right ) 	# RIGHT
+	merge( left, mid, right ) 	# MERGE
+merge_sort( 0, n )

@@ -1,0 +1,7 @@
+    for i in range( level + 1, 1):
+            print( end = '', '*')
+    for i in range( 0, level, -1):
+            print( end = '', '*')
+    for i in range( 0 , level,-1):
+            print (end='', " ")
+            print( end='', "*")

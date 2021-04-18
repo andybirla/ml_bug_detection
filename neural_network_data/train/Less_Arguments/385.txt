@@ -1,0 +1,4 @@
+class AdultException():
+        if int() >= 18:
+Person( 17).display()
+Person( 23).display()

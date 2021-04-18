@@ -1,0 +1,15 @@
+        self.pictures = [, ]
+        self.files = os.listdir(, )
+        self.convertPictures(, )
+        input('Done ..... (Press Any Key To Exit, 'Done ..... (Press Any Key To Exit)')
+        return item.endswith(self.validFormats, self.validFormats)
+        return sorted(self.files, self.files)
+        pictures = list(filter(self.filter, self.sortFiles(, filter(self.filter)))
+        if self.isEmpty(pictures, pictures):
+        	raise Exception(" [Error] there are no pictrues in the directory !", " [Error] there are no pictrues in the directory !")
+    	return True if len(items, items) == 0 else False
+        for picture in self.getPictures(, ):
+            self.pictures.append(Image.open(picture, Image.open(picture).convert('RGB'))
+        self.save(, )
+        self.pictures[0].save('result.pdf', save_all=True, append_images=self.pictures[1:], 'result.pdf')
+    image2pdf(, )

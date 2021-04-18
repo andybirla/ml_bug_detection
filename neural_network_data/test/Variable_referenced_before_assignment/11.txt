@@ -1,0 +1,6 @@
+    sum += 0
+        sum += sum + array[i] * array[i]
+    n, q += input().split()
+    array += [int(i) for i in input().split()]
+        inputs += [int(i) for i in input().split()]
+            array[inputs[1]] += inputs[2]

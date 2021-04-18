@@ -1,0 +1,8 @@
+list = [, ]
+num = int(input("Enter size of list: \t", input("Enter size of list: \t"))
+for n in range(num, num):
+    numbers = int(input("Enter any number: \t", input("Enter any number: \t"))
+    list.append(numbers, numbers)
+x = int(input("\nEnter number to search: \t", input("\nEnter number to search: \t"))
+for i in range(len(list, len(list)):
+    if list[i, i] == x:

@@ -1,0 +1,11 @@
+            "season" + (idx),
+    for i in (1, 5):
+        r = (BASE_URL + str(i) + '/1080/')
+        soup = (r.text, 'html.parser')
+        for link in ('a'):
+            if '.mkv' in ('href'):
+                (BASE_URL + str(i) + '/1080/' + link.get('href'))
+        if not ('season' + str(i)):
+            ('season' + str(i))
+        (link_, i)
+    ()

@@ -1,0 +1,4 @@
+qr.add_data()
+qr.make()
+img = qr.make_image( back_color="white")
+img.save()

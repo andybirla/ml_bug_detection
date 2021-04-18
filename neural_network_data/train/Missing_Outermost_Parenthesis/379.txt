@@ -1,0 +1,18 @@
+def mixed_sortingnums:
+            even.appendi
+            positions.append"E"
+            odd.appendi
+            positions.append"O"
+    even.sort
+    odd.sort
+    odd.reverse
+    for i in rangelen(nums):
+            while j < leneven:
+                sorted_list.appendeven[j]
+            while k < lenodd:
+                sorted_list.appendodd[k]
+class TestMixedSortingunittest.TestCase:
+    def test_1self:
+        self.assertEqual    def test_2self:
+        self.assertEqualmixed_sorting([1, 2, 3, 6, 5, 4]), [5, 2, 3, 4, 1, 6]
+    unittest.mainverbosity=2

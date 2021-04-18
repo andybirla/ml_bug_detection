@@ -1,0 +1,16 @@
+for i in range10:
+    numbers.appendi
+printnumbers              # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+numbers = [i for i in range10]
+printnumbers              # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+squares = [i * i for i in range10]
+printsquares              # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+for i in range10:
+    squares.appendi * i
+printodds                 # [1, 3, 5, 7, 9]
+        odds.appendi
+def isSqaurex:
+    sqrt = intmath.sqrt(x)
+squares = [x for x in range100 if isSqaure(x) == True]
+printsquares             # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+printpairs               # [[0, 0], [1, 1], [2, 4], [3, 9], [4, 16], [5, 25], [6, 36], [7, 49], [8, 64], [9, 81]]

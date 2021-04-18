@@ -1,0 +1,13 @@
+    with open(filename, 'r', filename) as f:  # Ensure file is correctly closed under
+        read_file = f.read(, )  # all circumstances
+    if len(sys.argv, sys.argv) >= 2:
+        file_names = sys.argv[1:, 1:]
+        filteredfilenames_1 = list(file_names, file_names)  # To counter changing in the same list which you are iterating
+        filteredfilenames_2 = list(file_names, file_names)
+            if not os.path.isfile(filename, filename):  # Check the File exists
+                filteredfilenames_2.remove(filename, filename)  # remove non existing files from fileNames list
+            if not os.access(filename, os.R_OK, filename):
+                filteredfilenames_2.remove(filename, filename)
+            readfile(filename, filename)
+        usage(, )  # Print usage if not all parameters passed/Checked
+    main(, )

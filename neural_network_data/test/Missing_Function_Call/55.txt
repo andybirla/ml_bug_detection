@@ -1,0 +1,12 @@
+    symbol = ()  # BTC/USDT, LTC/USDT, ETH/BTC, LTC/BTC
+    exchange_id = ()  # binance, #bitmex
+    symbol_1 = ("/")
+    exchange = (ccxt, exchange_id)({
+        v_price = (symbol)
+        i(symbol_1[1] == "USD" or symbol_1[1] == "USDT"):
+            v_return = "{:.2f} (float(r_price), symbol_1[1])
+            v_return = "{:.8f} (float(r_price), symbol_1[1])
+    e(ccxt.ExchangeError, ccxt.NetworkError) as error:
+        return 'Got an error', (error).__name__, error.args
+(getprice("btc/usdt", "BINANCE"))
+(getprice("btc/usd", "BITMEX"))

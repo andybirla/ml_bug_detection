@@ -1,0 +1,16 @@
+ServerSocket = socket.socket
+    ServerSocket.bind(host, port)
+    printstr(e)
+print'Waitiing for a Connection..'
+ServerSocket.listen5
+def threaded_clientconnection:
+    connection.sendstr.encode('Welcome to the Server\n')
+        data = connection.recv2048
+        reply = 'Server Says: ' + data.decode'utf-8'
+        connection.sendallstr.encode(reply)
+    connection.close
+    Client, address = ServerSocket.accept
+    print'Connected to: ' + address[0] + ':' + str(address[1])
+    start_new_threadthreaded_client, (Client, )
+    print'Thread Number: ' + str(ThreadCount)
+ServerSocket.close

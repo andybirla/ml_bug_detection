@@ -1,0 +1,70 @@
+x1 = np.array( 2, 3, 4])
+s = pd.Series( index=[1, 2, 3, 4])
+x2 = np.array( 2, 3, 4, 5, 6])
+s = pd.DataFrame()
+x3 = np.array( 10], ['Nishit', 21], ['Aman', 22]])
+s = pd.DataFrame( columns=['Name', 'Age'])
+data = {'Name': [ 'Jack', 'Steve', 'Ricky'], 'Age': [28, 34, 29, 42]}
+df = pd.DataFrame( index=['rank1', 'rank2', 'rank3', 'rank4'])
+data = [ 'b': 2}, {'a': 3, 'b': 4, 'c': 5}]
+df = pd.DataFrame()
+d = {'one': pd.Series( 2, 3], index=['a', 'b', 'c']),
+     'two': pd.Series( 2, 3, 4], index=['a', 'b', 'c', 'd'])}
+df = pd.DataFrame()
+data = {'one': pd.Series( 2, 3, 4], index=[1, 2, 3, 4]),
+        'two': pd.Series( 2, 3], index=[1, 2, 3])}
+df = pd.DataFrame()
+df['three'] = pd.Series( 2], index=[1, 2])
+data = {'one': pd.Series( 2, 3, 4], index=[1, 2, 3, 4]),
+        'two': pd.Series( 2, 3], index=[1, 2, 3]),
+        'three': pd.Series( 1], index=[1, 2])
+df = pd.DataFrame()
+del df[]
+df.pop()
+data = {'one': pd.Series( 2, 3, 4], index=[1, 2, 3, 4]),
+        'two': pd.Series( 2, 3], index=[1, 2, 3]),
+        'three': pd.Series( 1], index=[1, 2])
+df = pd.DataFrame()
+df = pd.DataFrame( 2], [3, 4]], columns=['a', 'b'])
+df2 = pd.DataFrame( 6], [7, 8]], columns=['a', 'b'])
+df = df.append()
+df = pd.DataFrame( 2], [3, 4]], columns=['a', 'b'])
+df2 = pd.DataFrame( 6], [7, 8]], columns=['a', 'b'])
+df = df.append()
+df = df.drop()
+d = {'Name': pd.Series( 'James', 'Ricky', 'Vin', 'Steve', 'Smith', 'Jack']),
+     'Age': pd.Series( 26, 25, 23, 30, 29, 23]),
+     'Rating': pd.Series( 3.24, 3.98, 2.56, 3.20, 4.6, 3.8])}
+df = pd.DataFrame()
+     'Age': pd.Series( 26, 25, 23, 30, 29, 23, 34, 40, 30, 51, 46]),
+     'Rating': pd.Series( 3.24, 3.98, 2.56, 3.20, 4.6, 3.8, 3.78, 2.98, 4.80, 4.10, 3.65])
+df = pd.DataFrame()
+     'Age': pd.Series( 26, 25, 23, 30, 29, 23, 34, 40, 30, 51, 46]),
+     'Rating': pd.Series( 3.24, 3.98, 2.56, 3.20, 4.6, 3.8, 3.78, 2.98, 4.80, 4.10, 3.65])
+df = pd.DataFrame()
+unsorted_df = pd.DataFrame( 2), index=[1, 4, 6, 2, 3, 5, 9, 8, 0, 7], columns=['col2', 'col1'])
+sorted_df = unsorted_df.sort_index()
+unsorted_df = pd.DataFrame( 2), index=[1, 4, 6, 2, 3, 5, 9, 8, 0, 7], columns=['col2', 'col1'])
+sorted_df = unsorted_df.sort_index()
+unsorted_df = pd.DataFrame( 1, 1, 1], 'col2': [1, 3, 2, 4]})
+sorted_df = unsorted_df.sort_values( kind='mergesort')
+df = pd.DataFrame( 4),
+                  index=[ 'b', 'c', 'd', 'e', 'f', 'g', 'h'], columns=['A', 'B', 'C', 'D'])
+df = pd.DataFrame( 4), columns=['A', 'B', 'C', 'D'])
+s = pd.Series( 2, 3, 4, 5, 4])
+df = pd.DataFrame( 2))
+df = pd.DataFrame( 4),
+                  index=pd.date_range( periods=10),
+                  columns=[ 'B', 'C', 'D'])
+df = pd.DataFrame( 3), index=['a', 'c', 'e'], columns=['one',
+df = df.reindex( 'b', 'c'])
+df = pd.DataFrame( 3), index=['a', 'c', 'e', 'f',
+                                                'h'], columns=[], columns=['one', 'two', 'three'])
+df = df.reindex( 'b', 'c', 'd', 'e', 'f', 'g', 'h'])
+            'Rank': [ 2, 2, 3, 3, 4, 1, 1, 2, 4, 1, 2],
+            'Year': [ 2015, 2014, 2015, 2014, 2015, 2016, 2017, 2016, 2014, 2015, 2017],
+            'Points': [ 789, 863, 673, 741, 812, 756, 788, 694, 701, 804, 690]}
+df = pd.DataFrame()
+grouped = df.groupby()
+grouped = df.groupby()
+data = pd.read_csv()

@@ -1,0 +1,5 @@
+for i in (int(input())):
+        L, D, S, C = (int,input().split())
+        for j in (1, D):
+                ("ALIVE AND KICKING")
+                ("DEAD AND ROTTING")  

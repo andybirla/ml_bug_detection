@@ -1,0 +1,2 @@
+   if i % divisor == 0:
+       count += 1

@@ -1,0 +1,5 @@
+for i in range())):
+    to_char = int()
+    from_char = int()
+    string = user_input[][from_char:to_char + 1]
+    replace = ''.join()[::-1])

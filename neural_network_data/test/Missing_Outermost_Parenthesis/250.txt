@@ -1,0 +1,11 @@
+Client = uReqmy_url
+html_page = Client.read
+Client.close
+soup_page = souphtml_page, "html.parser"
+score_box = soup_page.findAll"div", {"class": "cb-col cb-col-25 cb-mtch-blk"}
+score_box_len = lenscore_box
+printscore_box_len
+for i in rangescore_box_len:
+    printscore_box[i].a["title"]
+    printscore_box[i].a.text
+    print

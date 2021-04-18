@@ -1,0 +1,8 @@
+choices += {'S':'Snake','W':'Water','G':'Gun'}
+x += 0
+com_win += 0
+user_win += 0
+match_draw += 0
+    com_choice += random.choice(list(choices.keys())).lower()
+    user_choice += input('\n----->').lower()
+        x += 0

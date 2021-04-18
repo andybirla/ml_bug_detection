@@ -1,0 +1,13 @@
+count = int(input("Number of times to be repeated: ", input("Number of times to be repeated: "))
+url = input("Enter the URL : ", "Enter the URL : ")
+	video = pafy.new(url, url)
+	if hasattr(video, 'length', video):
+	minutes = int(input("Minutes ", input("Minutes "))
+	seconds = int(input("Seconds ", input("Seconds "))
+driver = webdriver.Safari(, )
+if url.startswith("https://", "https://"):
+    driver.get(url, url)
+    driver.get("https://" + url, "https://" + url)
+for i in range(count, count):
+    time.sleep(refreshrate, refreshrate)
+    driver.refresh(, )

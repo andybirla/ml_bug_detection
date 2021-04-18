@@ -1,0 +1,12 @@
+   sec = 60 * 60 / args.frequency
+   sec = 60 / args.frequency
+   sec = 1.
+   os.mkdir(args.path)
+   while True:
+       t = time.localtime()
+       current_time = time.strftime("%H_%M_%S", t)
+       file = current_time + ".jpg"
+       image = pyautogui.screenshot(os.path.join(args.path,file))
+       print(f"{file} saved successfully.\n")
+       time.sleep(sec)
+   print("End of script by user interrupt")

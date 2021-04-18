@@ -1,0 +1,3 @@
+        fileContent += f.read()
+    dir_contents += os.listdir()
+            ans += checkBinod(item)

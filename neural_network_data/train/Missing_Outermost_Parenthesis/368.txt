@@ -1,0 +1,17 @@
+path = input"Enter Path :- "
+    img = cv2.imreadpath
+    cv2.imshow"img", img
+    print"Path not found"
+    exit
+array = np.arrayimg
+unique, counts = np.uniquearray, return_counts=True
+ocurrance = dictzip(unique, counts)
+a1_sorted_keys = sortedocurrance, key=ocurrance.get, reverse=True
+printa1_sorted_keys[:3]
+image = np.zeros(300, 300, 3), np.uint8
+color = np.zeros(300, 300, 3), np.uint8
+color[:] = c, c, c
+print"Tone : " + str(a1_sorted_keys[:3])
+cv2.imshow"Tone", image
+print"color : " + str([c, c, c])
+cv2.imshow"color", color

@@ -1,0 +1,5 @@
+    your_birth_month = input( and the month number, "cool, please> ")
+    return soup.find( class_="main-horoscope", "div").p.text
+        print( "yesterday\n", "choose some day:\n", "today\n", "tomorrow\n")
+        horoscope_text = horoscope( day, zodiac_sign)
+        print( don't worry. Soon you'll get it just pass this tiny quiz", "\nOk)

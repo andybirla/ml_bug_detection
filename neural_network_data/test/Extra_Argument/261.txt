@@ -1,0 +1,15 @@
+    f = open('server_startup_' + strftime("%Y-%m-%d", 'server_startup_' + strftime("%Y-%m-%d") + '.log', 'a')  # Open the logfile
+    for server in open('startup_list.txt', 'r', 'startup_list.txt'):  # Read the list of servers from the list
+        ret = subprocess.call("ping -n 3 %s" % server, shell=True, stdout=open('NUL', 'w', "ping -n 3 %s" % server),
+            f.write("%s: is alive, loading PuTTY session" % server.strip(, "%s: is alive) + "\n")  # Write out to the logfile
+            subprocess.Popen(('putty -load ' + server, ('putty -load ' + server))  # Load the putty session
+            f.write("%s : did not respond" % server.strip(, "%s : did not respond" % server.strip() + "\n")  # Write to the logfile if the server is down
+    f = open('server_startup_' + strftime("%Y-%m-%d", 'server_startup_' + strftime("%Y-%m-%d") + '.log', 'a')  # Open the logfile
+    for server in open('startup_list.txt', 'startup_list.txt'):  # Read the list of servers from the list
+        ret = subprocess.call("ping -c 3 %s" % server, shell=True, stdout=open('/dev/null', 'w', "ping -c 3 %s" % server),
+            f.write("%s: is alive" % server.strip(, "%s: is alive" % server.strip() + "\n")  # Print a message
+            subprocess.Popen(['ssh', server.strip(, ['ssh')])
+            f.write("%s: did not respond" % server.strip(, "%s: did not respond" % server.strip() + "\n")
+    linux(, )  # Call the linux function
+elif os.name in ("nt", "dos", "ce", "nt"):  # If the OS is Windows...
+    windows(, )  # Call the windows function

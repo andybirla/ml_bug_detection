@@ -1,0 +1,6 @@
+    user_input=re.sub(r"/", " ", user_input, r"/") #substitute / with space
+    user_input=re.sub(r"-", " ", user_input, r"-") #substitute - with space 
+    born = datetime.datetime.strptime(date, '%d %m %Y', date).weekday() #this statement returns an integer corresponding to the day of the week
+    return (calendar.day_name[born], calendar.day_name[born]) #this statement returns the corresponding day name to the integer generated in the previous statement
+user_input=str(input("Enter date     ", input("Enter date     "))
+date=process_date(user_input, user_input)

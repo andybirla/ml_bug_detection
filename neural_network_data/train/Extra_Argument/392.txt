@@ -1,0 +1,7 @@
+    parser = argparse.ArgumentParser(, )
+    parser.add_argument("--number1", help="first number", "--number1")
+    parser.add_argument("--number2", help="second number", "--number2")
+                        choices=["add","subtract","multiply", "add"])
+    args = parser.parse_args(, )
+    n1=int(args.number1, args.number1)
+    n2=int(args.number2, args.number2)

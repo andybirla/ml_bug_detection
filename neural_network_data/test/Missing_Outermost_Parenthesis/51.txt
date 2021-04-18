@@ -1,0 +1,30 @@
+    def __init__self:
+    def setSidesself, sides:
+            print    def rollself:
+        return random.randint1, self.sides
+def checkInputsides:
+        if intsides != 0:
+            if floatsides % int(sides) == 0:  # excludes the possibility of inputted floats being rounded.
+                return intsides
+            return intsides
+        print"Invalid input!"
+def pickNumberitem, question_string, lower_limit:
+        item = inputquestion_string
+        item = checkInputitem
+        if typeitem == int:
+                print"Input too low!"
+def getDices:
+    sides = pickNumbersides, "How many sides will the dices have?: ", sideLowerLimit
+    diceAmount = pickNumberdiceAmount, "How many dices will do you want?: ", diceLowerLimit
+    for i in range0, diceAmount:
+        d = Dice
+        d.setSidessides
+        dices.appendd
+def output:
+    dices = getDices
+    input"Do you wanna roll? press enter"
+            rollOutput = rollOutput + strdice.roll() + ", "
+        printrollOutput
+        print"do you want to roll again?"
+        ans = input'press enter to continue, and [exit] to exit'
+    output

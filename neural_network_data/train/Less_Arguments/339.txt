@@ -1,0 +1,6 @@
+    with open( "r") as fr:
+            status = requests.get().status_code
+            status_dict[] = "working" if status == 200 \
+    with open( "w", newline="") as fw:
+        csv_writers = csv.writer()
+            csv_writers.writerow( status_dict[key]])

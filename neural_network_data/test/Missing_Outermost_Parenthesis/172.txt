@@ -1,0 +1,60 @@
+def get_credentials:
+    home_dir = os.path.expanduser'~'
+    credential_dir = os.path.joinhome_dir, '.credentials'
+    if not os.path.existscredential_dir:
+        os.makedirscredential_dir
+    credential_path = os.path.join    store = oauth2client.file.Storagecredential_path
+    credentials = store.get
+        flow = client.flow_from_clientsecretsCLIENT_SECRET_FILE, SCOPES
+        credentials = tools.run_flowflow, store
+        print'Storing credentials to ' + credential_path
+def SendMessagesender, to, subject, msgHtml, msgPlain, attachmentFile=None:
+    credentials = get_credentials
+    http = credentials.authorizehttplib2.Http()
+    service = discovery.build'gmail', 'v1', http=http
+        message1 = createMessageWithAttachmentsender, to, subject, msgHtml, msgPlain, attachmentFile
+        message1 = CreateMessageHtmlsender, to, subject, msgHtml, msgPlain
+    result = SendMessageInternalservice, "me", message1
+def SendMessageInternalservice, user_id, message:
+        message = service.users().messages().send(userId=user_id, body=message).execute()
+        print'Message Id: %s' % message['id']
+        print'An error occurred: %s' % error
+def createMessageWithAttachment    message = MIMEMultipart'mixed'
+    messageA = MIMEMultipart'alternative'
+    messageR = MIMEMultipart'related'
+    messageR.attachMIMEText(msgHtml, 'html')
+    messageA.attachMIMEText(msgPlain, 'plain')
+    messageA.attachmessageR
+    message.attachmessageA
+    print"create_message_with_attachment: file:", attachmentFile
+    content_type, encoding = mimetypes.guess_typeattachmentFile
+    main_type, sub_type = content_type.split'/', 1
+        fp = openattachmentFile, 'rb'
+        msg = MIMETextfp.read(), _subtype=sub_type
+        fp.close
+        fp = openattachmentFile, 'rb'
+        msg = MIMEImagefp.read(), _subtype=sub_type
+        fp.close
+        fp = openattachmentFile, 'rb'
+        msg = MIMEAudiofp.read(), _subtype=sub_type
+        fp.close
+        fp = openattachmentFile, 'rb'
+        msg = MIMEBasemain_type, sub_type
+        msg.set_payloadfp.read()
+        fp.close
+    filename = os.path.basenameattachmentFile
+    msg.add_header'Content-Disposition', 'attachment', filename=filename
+    message.attachmsg
+    return {'raw': base64.urlsafe_b64encodemessage.as_string()}
+def CreateMessageHtmlsender, to, subject, msgHtml, msgPlain:
+    msg = MIMEMultipart'alternative'
+    msg.attachMIMEText(msgPlain, 'plain')
+    msg.attachMIMEText(msgHtml, 'html')
+    return {'raw': base64.urlsafe_b64encodemsg.as_string()}
+def main:
+    to = input"Enter Email Address: "
+    sender = input"Your Mail ID: "
+    subject = input"Enter your Subject: "
+    msgHtml = input"Enter your Message: "
+    SendMessagesender, to, subject, msgHtml, msgPlain
+    main

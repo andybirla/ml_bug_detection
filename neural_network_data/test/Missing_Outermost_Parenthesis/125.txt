@@ -1,0 +1,21 @@
+dropbox = os.getenv"dropbox"
+dbfile = "Databases\jarvis.db"
+master_db = os.path.joindropbox, dbfile
+    con = lite.connectmaster_db
+    cur = con.cursor
+    cur.execute'SELECT SQLITE_VERSION()'
+    data = cur.fetchone
+    print"SQLite version: %s" % data
+    print"Error %s:" % e.args[0]
+    sys.exit1
+        con.close
+con = lite.connectmaster_db
+cur = con.cursor
+cur.execute"SELECT name FROM sqlite_master WHERE type='table'"
+rows = cur.fetchall
+    printrow
+con = lite.connectmaster_db
+cur = con.cursor
+cur.execute"SELECT name FROM sqlite_master WHERE type='table'"
+    row = cur.fetchone
+    printrow[0]

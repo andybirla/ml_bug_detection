@@ -1,0 +1,2 @@
+        if type(x) == int and x < 0:
+    if n = 1:

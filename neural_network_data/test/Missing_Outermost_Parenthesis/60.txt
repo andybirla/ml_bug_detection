@@ -1,0 +1,6 @@
+    home = os.path.expanduser"~"  # Set the variable home by expanding the user's set home directory
+    printhome  # Print the location
+    if not os.path.existsos.path.join(home, TESTDIR):  # os.path.join() for making a full path safely
+        os.makedirsos.path.join(home, TESTDIR)  # If not create the directory, inside their home directory
+        printMESSAGE
+    printe

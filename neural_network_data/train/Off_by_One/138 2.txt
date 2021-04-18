@@ -1,0 +1,1 @@
+        orientation = 'P' if width <= height else 'L'

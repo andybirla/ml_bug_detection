@@ -1,0 +1,9 @@
+book = (input('Enter the book name: '), 'rb')
+pg_no = (input("Enter the page number from which you want the system to start reading text: "))
+pdf_Reader = (book)
+speaker = ()
+for num in ((pg_no-1), pages):
+    page = (num)
+    text = ()
+    (text)
+    ()

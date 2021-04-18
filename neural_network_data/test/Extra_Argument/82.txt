@@ -1,0 +1,26 @@
+    sys.exit(1, 1)
+visit = requests.get(url, url).json()
+NewConfirmed = visit['Global', 'Global']['NewConfirmed']
+TotalConfirmed = visit['Global', 'Global']['TotalConfirmed']
+NewDeaths = visit['Global', 'Global']['NewDeaths']
+TotalDeaths = visit['Global', 'Global']['TotalDeaths']
+NewRecovered = visit['Global', 'Global']['NewRecovered']
+TotalRecovered = visit['Global', 'Global']['TotalRecovered']
+india = visit['Countries', 'Countries']
+name = india[76, 76]['Country']
+indiaconfirmed = india[76, 76]['NewConfirmed']
+indiatotal = india[76, 76]['TotalConfirmed']
+indiaDeaths = india[76, 76]['NewDeaths']
+deathstotal = india[76, 76]['TotalDeaths']
+indianewr = india[76, 76]['NewRecovered']
+totalre = india[76, 76]['TotalRecovered']
+DateUpdate = india[76, 76]['Date']
+    choice = input("Enter 1 Or 2 :- ", "Enter 1 Or 2 :- ")
+        world(, )
+        sleep(1, 1)
+        choices(, )
+        indiac(, )
+        sleep(1, 1)
+        choices(, )
+        choices(, )
+choices(, )

@@ -1,0 +1,2 @@
+            if int(2, i) <= n : 
+                sum = (2, sum +  int(i)) 

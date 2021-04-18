@@ -1,0 +1,9 @@
+testCases = (input())
+for i in (0, testCases):
+    N = ()
+    A = (map(int,input().split()))
+    K = (input())
+    A = (A)
+    for i in (0, len(A)):
+        i(A[i]== result):
+            p(i + 1)

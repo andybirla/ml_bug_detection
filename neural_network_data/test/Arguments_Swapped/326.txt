@@ -1,0 +1,3 @@
+    ammo, obstacle = map( input(, int).split())
+                print( i + 1, 'No')
+            print( ammo, 'Yes')

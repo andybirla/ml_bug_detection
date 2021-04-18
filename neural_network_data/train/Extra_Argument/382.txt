@@ -1,0 +1,3 @@
+    a = input("Enter the word to be checked:- ", "Enter the word to be checked:- ")	 # incorrect spelling
+    b = TextBlob(a, a)  #correcting the text
+    t = int(input("Try Again? 1 : 0 ", input("Try Again? 1 : 0 "))

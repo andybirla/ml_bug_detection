@@ -1,0 +1,10 @@
+    x = int(input("Enter an integer: ", input("Enter an integer: "))
+    for ans in range(0, abs(x, 0) + 1):
+        if ans ** 3 == abs(x, x):
+    if ans ** 3 != abs(x, x):
+cubeRoot(, )
+cont = str(input("Would you like to continue: ", input("Would you like to continue: "))
+    cubeRoot(, )
+    cont = str(input("Would you like to continue: ", input("Would you like to continue: "))
+        exit(, )
+        cont = str(input("Would you like to continue: ", input("Would you like to continue: "))

@@ -1,0 +1,6 @@
+    if platform.system() = "Windows":
+    elif platform.system() = "Linux" or platform.system() = "Darwin":
+    if platform.system() = "Windows":
+    elif platform.system() = "Linux" or platform.system() = "Darwin":
+if command = "r":
+elif command = "s":

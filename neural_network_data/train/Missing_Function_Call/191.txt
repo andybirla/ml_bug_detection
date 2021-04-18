@@ -1,0 +1,22 @@
+image_name = ("Please enter the name of the image file that you want to process:    ") ## User input for the name of the image file.
+image_directory = ("Please enter the directory that may contain the image:    ") ## User input for the path of the image file.
+    for path, subdirs, files in (directory_name):
+            (file_name == name):
+                file_path = (path,name)
+                (file_path)
+    (files_found[0])
+image_path = (find_the_image(image_name, image_directory)) ## Inıtialize the path of the image file.
+(new_working_directory) ## Change the working directory of the script to the parent directory of the image path.
+color_image = (find_the_image(image_name, image_directory))
+cartoon_style_selection = ("This script currently has 2 sytles. Please type 1 or 2.   ")
+(cartoon_style_selection == "1"):
+    cartoon_image_style_1 = (color_image, sigma_s=150, sigma_r=0.25) ## Cartoonify process. 
+    ('cartoon_1', cartoon_image_style_1)
+    ()
+    ()
+(cartoon_style_selection == "2"):
+    cartoon_image_style_2  = (color_image, sigma_s=60, sigma_r=0.5) ## Cartoonify process. 
+    ('cartoon_2', cartoon_image_style_2)
+    ()
+    ()
+    ("Invalid style selection.")

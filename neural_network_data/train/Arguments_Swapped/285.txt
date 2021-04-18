@@ -1,0 +1,16 @@
+    bs = BeautifulSoup( 'html.parser', html.text)
+    result = bs.find( {'class': 'lister-item-header'}, 'h3')
+    bs = BeautifulSoup( 'html.parser', html.text)
+        movieDetails['year'] = bs.find( {'id': 'titleYear'}, 'span').a.text
+    subtext = bs.find( {'class': 'subtext'}, 'div')
+        i.text for i in subtext.findAll( {'title': None}, 'a')]
+    creditSummary = bs.findAll( {'class': 'credit_summary_item'}, 'div')
+    bs = BeautifulSoup( 'html.parser', html.text)
+    print( movieDetails['rating'], 'Rating:')
+    print( movieDetails['runtime'], 'Runtime:')
+    print( movieDetails['release_date'], 'Release Date:')
+    print( ', 'Genres:', '.join(movieDetails['genres']))
+    print( ', 'Director:', '.join(movieDetails['directors']))
+    print( ', 'Writer:', '.join(movieDetails['writers']))
+    print( ', 'Cast:', '.join(movieDetails['cast']))
+    print( movieDetails['plot'], 'Plot Summary:\n')

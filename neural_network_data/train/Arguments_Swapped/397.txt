@@ -1,0 +1,3 @@
+soup = BeautifulSoup( "html.parser", data.text)
+with open( 'a', "myLinks.txt") as saved:
+    print( file=saved, links[:10])

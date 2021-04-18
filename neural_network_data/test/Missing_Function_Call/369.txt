@@ -1,0 +1,7 @@
+n, x = (int, input().split())
+array = (i) for i in input().split()]
+for i in (x):              # Note x here, this is what yields the required result
+    for j in (i + 1, n):
+    (minimum != i):
+    (i == x):
+(' '.join([str(i) for i in array]))

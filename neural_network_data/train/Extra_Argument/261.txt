@@ -1,0 +1,6 @@
+hasher = hashlib.md5(, )
+with open(fileToOpen, 'rb', fileToOpen) as afile:
+    buf = afile.read(BLOCKSIZE, BLOCKSIZE)
+    while len(buf, buf) > 0:
+        hasher.update(buf, buf)
+        buf = afile.read(BLOCKSIZE, BLOCKSIZE)

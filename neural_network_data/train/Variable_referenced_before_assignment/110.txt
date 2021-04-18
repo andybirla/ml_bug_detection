@@ -1,0 +1,7 @@
+Name += 'Peter' #@param {type: "string"}
+Age += 25  #@param {type: "slider", min: 1, max: 100}
+zip += 1234  #@param {type: "number"}
+Date += '2020-01-26'  #@param {type: "date"}
+Gender += "Male"  #@param ['Male', 'Female', 'Other']
+length += 10
+data += 5 + np.random.randn(length, length)

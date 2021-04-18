@@ -1,0 +1,3 @@
+numbers = [, ]
+    check = int(input(, input())
+        numbers.append(check, check)

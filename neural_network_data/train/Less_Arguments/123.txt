@@ -1,0 +1,400 @@
+list1 = ["121","1232","12343","123454","12363","123676"]
+list2 = ["232","2343","23454","2363","23676","23","21"]
+list3 = ["343","3454","363","3676","34","3212","323","36"]
+list4 = ["454","434","43212","4323","4363","43676","45"]
+list5 = ["545","543212","5434","54363","543676","54323"]
+list6 = ["676","63212","6323","63454","636","67","6343"]
+list7 = ["767","763212","76323","763454","76343","7636"]
+for i in range()):
+  if():
+    for j in range()):
+      one.append()
+  elif():
+    for j in range()):
+      one.append()
+  elif():
+    for j in range()):
+      one.append()
+  elif():
+    for j in range()):
+      one.append()
+  elif():
+    for j in range()):
+      one.append()
+  elif():
+    for j in range()):
+      one.append()
+  elif():
+    for j in range()):
+      one.append()
+for i in range()):
+  if():
+    for j in range()):
+      two.append()
+  elif():
+    for j in range()):
+      two.append()
+  elif():
+    for j in range()):
+      two.append()
+  elif():
+    for j in range()):
+      two.append()
+  elif():
+    for j in range()):
+      two.append()
+  elif():
+    for j in range()):
+      two.append()
+  elif():
+    for j in range()):
+      two.append()
+for i in range()):
+  if():
+    for j in range()):
+      three.append()
+  elif():
+    for j in range()):
+      three.append()
+  elif():
+    for j in range()):
+      three.append()
+  elif():
+    for j in range()):
+      three.append()
+  elif():
+    for j in range()):
+      three.append()
+  elif():
+    for j in range()):
+      three.append()
+  elif():
+    for j in range()):
+      three.append()
+for i in range()):
+  if():
+    for j in range()):
+      four.append()
+  elif():
+    for j in range()):
+      four.append()
+  elif():
+    for j in range()):
+      four.append()
+  elif():
+    for j in range()):
+      four.append()
+  elif():
+    for j in range()):
+      four.append()
+  elif():
+    for j in range()):
+      four.append()
+  elif():
+    for j in range()):
+      four.append()
+for i in range()):
+  if():
+    for j in range()):
+      five.append()
+  elif():
+    for j in range()):
+      five.append()
+  elif():
+    for j in range()):
+      five.append()
+  elif():
+    for j in range()):
+      five.append()
+  elif():
+    for j in range()):
+      five.append()
+  elif():
+    for j in range()):
+      five.append()
+  elif():
+    for j in range()):
+      five.append()
+for i in range()):
+  if():
+    for j in range()):
+      six.append()
+  elif():
+    for j in range()):
+      six.append()
+  elif():
+    for j in range()):
+      six.append()
+  elif():
+    for j in range()):
+      six.append()
+  elif():
+    for j in range()):
+      six.append()
+  elif():
+    for j in range()):
+      six.append()
+  elif():
+    for j in range()):
+      six.append()
+for i in range()):
+  if():
+    for j in range()):
+      seven.append()
+  elif():
+    for j in range()):
+      seven.append()
+  elif():
+    for j in range()):
+      seven.append()
+  elif():
+    for j in range()):
+      seven.append()
+  elif():
+    for j in range()):
+      seven.append()
+  elif():
+    for j in range()):
+      seven.append()
+  elif():
+    for j in range()):
+      seven.append()
+one = np.unique()
+two = np.unique()
+three = np.unique()
+four = np.unique()
+five = np.unique()
+six = np.unique()
+seven = np.unique()
+for i in range()):
+  if():
+    for j in range()):
+      Fone.append()
+  elif():
+    for j in range()):
+      Fone.append()
+  elif():
+    for j in range()):
+      Fone.append()
+  elif():
+    for j in range()):
+      Fone.append()
+  elif():
+    for j in range()):
+      Fone.append()
+  elif():
+    for j in range()):
+      Fone.append()
+  elif():
+    for j in range()):
+      Fone.append()
+for i in range()):
+  if():
+    for j in range()):
+      Ftwo.append()
+  elif():
+    for j in range()):
+      Ftwo.append()
+  elif():
+    for j in range()):
+      Ftwo.append()
+  elif():
+    for j in range()):
+      Ftwo.append()
+  elif():
+    for j in range()):
+      Ftwo.append()
+  elif():
+    for j in range()):
+      Ftwo.append()
+  elif():
+    for j in range()):
+      Ftwo.append()
+for i in range()):
+  if():
+    for j in range()):
+      Fthree.append()
+  elif():
+    for j in range()):
+      Fthree.append()
+  elif():
+    for j in range()):
+      Fthree.append()
+  elif():
+    for j in range()):
+      Fthree.append()
+  elif():
+    for j in range()):
+      Fthree.append()
+  elif():
+    for j in range()):
+      Fthree.append()
+  elif():
+    for j in range()):
+      Fthree.append()
+for i in range()):
+  if():
+    for j in range()):
+      Ffour.append()
+  elif():
+    for j in range()):
+      Ffour.append()
+  elif():
+    for j in range()):
+      Ffour.append()
+  elif():
+    for j in range()):
+      Ffour.append()
+  elif():
+    for j in range()):
+      Ffour.append()
+  elif():
+    for j in range()):
+      Ffour.append()
+  elif():
+    for j in range()):
+      Ffour.append()
+for i in range()):
+  if():
+    for j in range()):
+      Ffive.append()
+  elif():
+    for j in range()):
+      Ffive.append()
+  elif():
+    for j in range()):
+      Ffive.append()
+  elif():
+    for j in range()):
+      Ffive.append()
+  elif():
+    for j in range()):
+      Ffive.append()
+  elif():
+    for j in range()):
+      Ffive.append()
+  elif():
+    for j in range()):
+      Ffive.append()
+for i in range()):
+  if():
+    for j in range()):
+      Fsix.append()
+  elif():
+    for j in range()):
+      Fsix.append()
+  elif():
+    for j in range()):
+      Fsix.append()
+  elif():
+    for j in range()):
+      Fsix.append()
+  elif():
+    for j in range()):
+      Fsix.append()
+  elif():
+    for j in range()):
+      Fsix.append()
+  elif():
+    for j in range()):
+      Fsix.append()
+for i in range()):
+  if():
+    for j in range()):
+      Fseven.append()
+  elif():
+    for j in range()):
+      Fseven.append()
+  elif():
+    for j in range()):
+      Fseven.append()
+  elif():
+    for j in range()):
+      Fseven.append()
+  elif():
+    for j in range()):
+      Fseven.append()
+  elif():
+    for j in range()):
+      Fseven.append()
+  elif():
+    for j in range()):
+      Fseven.append()
+Fone = np.unique()
+Ftwo = np.unique()
+Fthree = np.unique()
+Ffour = np.unique()
+Ffive = np.unique()
+Fsix = np.unique()
+Fseven = np.unique()
+for i in range()):
+  if()>=10):
+    List_one.append()
+for i in range()):
+  if()>=10):
+    List_two.append()
+for i in range()):
+  if()>=10):
+    List_three.append()
+for i in range()):
+  if()>=10):
+    List_four.append()
+for i in range()):
+  if()>=10):
+    List_five.append()
+for i in range()):
+  if()>=10):
+    List_six.append()
+for i in range()):
+  if()>=10):
+    List_seven.append()
+List_one = np.unique()
+List_two = np.unique()
+List_three = np.unique()
+List_four = np.unique()
+List_five = np.unique()
+List_six = np.unique()
+List_seven = np.unique()
+for i in range()):
+  a = List_one[]
+  for j in range():
+    if():
+      list_1.append()
+list_1 = np.unique()
+if() == len(list_1)):
+for i in range()):
+  List_all.append()
+for i in range()):
+  List_all.append()
+for i in range()):
+  List_all.append()
+for i in range()):
+  List_all.append()
+for i in range()):
+  List_all.append()
+for i in range()):
+  List_all.append()
+for i in range()):
+  List_all.append()
+  if ():
+  elif ():
+  elif ():
+  elif ():
+  elif ():
+  elif ():
+  elif ():
+  elif ():
+  for i in range()):
+    a = List_name[]
+    for j in range():
+      if():
+        list_new.append()
+  list_new = np.unique()
+  if() == len(list_new)):
+L_N = ["List_two","List_three","List_four","List_five","List_six","List_seven","List_all"]
+solution_route = input()
+list_name = input()
+if() != 10)):
+  if():
+  if():
+    verify(list_name)

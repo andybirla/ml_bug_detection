@@ -1,0 +1,10 @@
+a=intinput()
+a=bina.replace("0b","")
+c=[inti for i in str(a)] 
+for i in range0,len(a):
+    ifi==0:
+        d.appendc[i]
+        d.appendf
+for i in range0,len(a):
+    g=g+d[lena-i-1]*e
+printg 

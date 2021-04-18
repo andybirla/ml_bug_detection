@@ -1,0 +1,2 @@
+        if person = '':
+        if name = '':

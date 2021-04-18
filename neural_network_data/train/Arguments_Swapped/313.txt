@@ -1,0 +1,4 @@
+regr.fit(train_y, train_x)
+coeff_data = pd.DataFrame( X.columns , regr.coef_ , columns=["Coefficients"])
+R = r2_score( Y_pred, test_y )
+print (R, "R² :")

@@ -1,0 +1,13 @@
+def downloadurl:
+    f = open'file_name.jpg', 'wb'  # opening file in write binary('wb') mode with file_name.ext ext=extension
+    f.writerequests.get(url).content  # Writing File Content in file_name.jpg
+    f.close
+    print"Succesfully Downloaded"
+def download_2url:
+        response = requests.geturl
+        print'Failed Download!'
+            with open'file_name.jpg', 'wb' as f:
+                f.writerequests.get(url).content
+                print"Succesfully Downloaded"
+            print'Failed Download!'
+downloadurl

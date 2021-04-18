@@ -1,0 +1,128 @@
+    user_input=int(): "))
+    Name1=input()
+    Name2=input()
+    Phone_Num=input(): ")
+    Room_Type=int(): "))
+    Days=int())
+    Money=str()
+    Payment=input(): ")
+    File=open('r')
+    string = string.replace( "\"")
+    dictionary=json.loads()
+    if len())==0:
+        listt=dictionary.get()
+        tempp=len()-1
+        temppp=int()
+        Room_num=()
+        Room_num=str()
+    dictionary['First_Name'].append()
+    dictionary['Last_Name'].append()
+    dictionary['Phone_num'].append()
+    dictionary['Room_Type'].append()
+    dictionary['Days'].append()
+    dictionary['Price'].append()
+    dictionary['Room'].append()
+    File=open('w',encoding="utf-8")
+    File.write())
+filecheck = os.path.isfile()
+    File = open( 'a', encoding="utf-8")
+    File.write())
+    File=open('r')
+    string = string.replace( "\"")
+    dictionary=json.loads()
+    dict_num=dictionary.get()
+    dict_len=len()
+        Room=())
+        listt=dictionary[]
+        index=int())
+        choice=())
+        File=open('w',encoding="utf-8")
+        if choice == str():
+            user_input=input()
+            listt1=dictionary[]
+            listt1[]=user_input
+            dictionary[]=None
+            dictionary[]=listt1
+            File.write())
+        elif choice == str():
+            user_input = input()
+            listt1 = dictionary[]
+            listt1[] = user_input
+            dictionary[] = None
+            dictionary[] = listt1
+            File.write())
+        elif choice == str():
+            user_input = input()
+            listt1 = dictionary[]
+            listt1[] = user_input
+            dictionary[] = None
+            dictionary[] = listt1
+            File.write())
+    File=open('r')
+    string = string.replace( "\"")
+    dictionary=json.loads()
+    dict_num=dictionary.get()
+    dict_len=len()
+        Room = ())
+        listt = dictionary[]
+        index = int())
+        listt_fname=dictionary.get()
+        listt_lname=dictionary.get()
+        listt_phone=dictionary.get()
+        listt_type=dictionary.get()
+        listt_days=dictionary.get()
+        listt_price=dictionary.get()
+        listt_num=dictionary.get()
+    File=open('r')
+    string = string.replace( "\"")
+    dictionary=json.loads()
+    dict_num=dictionary.get()
+    dict_len=len()
+        Room = ())
+        listt = dictionary[]
+        index = int())
+        listt_fname = dictionary.get()
+        listt_lname = dictionary.get()
+        listt_phone = dictionary.get()
+        listt_type = dictionary.get()
+        listt_days = dictionary.get()
+        listt_price = dictionary.get()
+        listt_num = dictionary.get()
+        del listt_fname[]
+        del listt_lname[]
+        del listt_phone[]
+        del listt_type[]
+        del listt_days[]
+        del listt_price[]
+        del listt_num[]
+        dictionary[] = None
+        dictionary[] = listt_fname
+        dictionary[]= None
+        dictionary[]= listt_lname
+        dictionary[]= None
+        dictionary[]=listt_phone
+        dictionary[]=None
+        dictionary[]=listt_type
+        dictionary[]=None
+        dictionary[]=listt_days
+        dictionary[]=None
+        dictionary[]=listt_price
+        dictionary[]=None
+        dictionary[]=listt_num
+        file1=open('w',encoding="utf-8")
+        file1.write())
+    File=open('r')
+    string = string.replace( "\"")
+    dictionary=json.loads()
+    dict_num=dictionary.get()
+    dict_len=len()
+        listt = dictionary[]
+        a = len()
+            listt_fname = dictionary.get()
+            listt_lname = dictionary.get()
+            listt_phone = dictionary.get()
+            listt_type = dictionary.get()
+            listt_days = dictionary.get()
+            listt_price = dictionary.get()
+            listt_num = dictionary.get()
+    user_input=int())

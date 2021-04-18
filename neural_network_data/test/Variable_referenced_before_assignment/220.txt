@@ -1,0 +1,2 @@
+        starttime += time.time()
+        endtime += time.time()

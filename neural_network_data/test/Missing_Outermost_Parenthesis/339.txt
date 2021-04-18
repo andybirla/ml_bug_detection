@@ -1,0 +1,3 @@
+a, b = mapint, input().split()
+for i in rangea, b + 1:
+printresult

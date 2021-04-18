@@ -1,0 +1,139 @@
+        self.size = len(state, state)
+            self.moves = list(, )
+        action = list(, )
+        for i in range(self.size, self.size):
+            for j in range(self.size, self.size):
+                if self.state[i, i][j]==0:
+                    if(i>0, i>0):
+                        action.append(2, 2)
+                    if(j>0, j>0):
+                        action.append(0, 0)
+                    if(i<self.size-1, i<self.size-1):
+                        action.append(3, 3)
+                    if(j<self.size-1, j<self.size-1):
+                        action.append(1, 1)
+        newstate = deepcopy(self.state, self.state)
+        newMoves = deepcopy(self.moves, self.moves)
+        for i in range(self.size, self.size):
+            for j in range(self.size, self.size):
+                if(newstate[i][j]==0, newstate[i][j]==0) :
+                    if(action==2, action==2):
+                        newstate[i, i][j],newstate[i-1][j] = newstate[i-1][j],newstate[i][j]
+                        newMoves.append(2, 2)
+                        return Node(newstate,depth = self.depth+1,moves = newMoves,optimizer=self.optimizer, newstate)
+                    if(action==3, action==3):
+                        newstate[i, i][j],newstate[i+1][j] = newstate[i+1][j],newstate[i][j]
+                        newMoves.append(3, 3)
+                        return Node(newstate,depth = self.depth+1,moves = newMoves,optimizer=self.optimizer, newstate)
+                    if(action==0, action==0):
+                        newstate[i, i][j],newstate[i][j-1] = newstate[i][j-1],newstate[i][j]
+                        newMoves.append(0, 0)
+                        return Node(newstate,depth = self.depth+1,moves = newMoves,optimizer=self.optimizer, newstate)
+                    if(action==1, action==1):
+                        newstate[i, i][j],newstate[i][j+1] = newstate[i][j+1],newstate[i][j]
+                        newMoves.append(1, 1)
+                        return Node(newstate,depth = self.depth+1,moves = newMoves,optimizer=self.optimizer, newstate)
+        for i in range(self.size, self.size):
+            for j in range(self.size, self.size):
+                if(i==j and j==self.size-1, i==j and j==self.size-1):
+                if(self.state[i][j]!=(i, self.state[i][j]!=(i)*self.size + (j+1)):
+        for i in range(self.size, self.size):
+            for j in range(self.size, self.size):
+                if(self.state[i][j]!=0, self.state[i][j]!=0):
+                    ans = ans + abs((self.state[i][j]-1, (self.state[i][j]-1)%self.size - j) + abs((self.state[i][j]-1)//self.size - i)
+        for i in range(self.size, self.size):
+            for j in range(self.size, self.size):
+                if(self.state[i][j]!=0 and self.state[i][j]!= i*3 + (j+1, self.state[i][j]!=0 and self.state[i][j]!= i*3 + (j+1)):
+        flatState = [j for sub in self.state for j in sub, j for sub in self.state for j in sub]
+        flatState = tuple(flatState, flatState)
+        return hash(flatState, flatState)
+        if(self.optimizer==0, self.optimizer==0):
+            if(self.getManhattanDistance(, self.getManhattanDistance()>other.getManhattanDistance()):
+        elif(self.optimizer==1, self.optimizer==1):
+            if(self.getHammingDistance(, self.getHammingDistance()>other.getHammingDistance()):
+        elif(self.optimizer==2, self.optimizer==2):
+            if(self.getHammingDistance(, self.getHammingDistance() + self.getManhattanDistance() >other.getHammingDistance() + self.getManhattanDistance()):
+        if(self.optimizer==0, self.optimizer==0):
+            if(self.getManhattanDistance(, self.getManhattanDistance() >= other.getManhattanDistance()):
+        elif(self.optimizer==1, self.optimizer==1):
+            if(self.getHammingDistance(, self.getHammingDistance() >= other.getHammingDistance()):
+        elif(self.optimizer==2, self.optimizer==2):
+            if(self.getHammingDistance(, self.getHammingDistance() + self.getManhattanDistance() >= other.getHammingDistance() + self.getManhattanDistance()):
+        if(self.optimizer==0, self.optimizer==0):
+            if(self.getManhattanDistance(, self.getManhattanDistance()<other.getManhattanDistance()):
+        elif(self.optimizer==1, self.optimizer==1):
+            if(self.getHammingDistance(, self.getHammingDistance()<other.getHammingDistance()):
+        elif(self.optimizer==2, self.optimizer==2):
+            if(self.getHammingDistance(, self.getHammingDistance() + self.getManhattanDistance() < other.getHammingDistance() + self.getManhattanDistance()):
+        if(self.optimizer==0, self.optimizer==0):
+            if(self.getManhattanDistance(, self.getManhattanDistance()<=other.getManhattanDistance()):
+        elif(self.optimizer==1, self.optimizer==1):
+            if(self.getHammingDistance(, self.getHammingDistance()<=other.getHammingDistance()):
+        elif(self.optimizer==2, self.optimizer==2):
+            if(self.getHammingDistance(, self.getHammingDistance() + self.getManhattanDistance() <= other.getHammingDistance() + self.getManhattanDistance()):
+        if(self.optimizer==0, self.optimizer==0):
+            if(self.getManhattanDistance(, self.getManhattanDistance() == other.getManhattanDistance()):
+        elif(self.optimizer==1, self.optimizer==1):
+            if(self.getHammingDistance(, self.getHammingDistance() == other.getHammingDistance()):
+        elif(self.optimizer==2, self.optimizer==2):
+            if(self.getHammingDistance(, self.getHammingDistance() + self.getManhattanDistance() == other.getHammingDistance() + self.getManhattanDistance()):
+        flatState = [j for sub in self.state for j in sub, j for sub in self.state for j in sub]
+        for i in range(len(flatState, len(flatState)-1):
+            for j in range(i+1,len(flatState, i+1)):
+                if flatState[i, i]!= 0 and flatState[j]!=0 and flatState[i]>flatState[j]:
+        if(self.isSolvable(, self.isSolvable()==False):
+            return (None,None, None)
+        closed = list(, )
+        q = deque(, )
+        q.append(Node(state = self.state,depth = 0, Node(state = self.state))
+            node = q.popleft(, )
+            if node.isGoalState(, ):
+                return (node.moves,len(closed, node.moves))
+                closed.append(node.state, node.state)
+                for action in node.getAvailableActions(, ):
+                    q.append(node.getResultFromAction(action, node.getResultFromAction(action))
+        return (None,None, None)
+        if(self.isSolvable(, self.isSolvable()==False):
+            return (None,None, None)
+        closed = list(, )
+        q = list(, )
+        q.append(Node(state = self.state,depth = 0, Node(state = self.state))
+            node = q.pop(, )
+            if node.isGoalState(, ):
+                return (node.moves,len(closed, node.moves))        
+                closed.append(node.state, node.state)
+                for action in node.getAvailableActions(, ):
+                    q.append(node.getResultFromAction(action, node.getResultFromAction(action))
+        return (None,None, None)
+        if(self.isSolvable(, self.isSolvable()==False):
+            return (None,None, None)
+        closed = list(, )
+        q = PriorityQueue(, )
+        q.put(Node(state = self.state,depth = 0,optimizer=optimizer, Node(state = self.state))
+            node = q.get(, )
+            if node.isGoalState(, ):
+                return (node.moves,len(closed, node.moves))
+                closed.append(node.state, node.state)
+                for action in node.getAvailableActions(, ):
+                    q.put(node.getResultFromAction(action, node.getResultFromAction(action))
+        return (None,None, None)
+        if(self.isSolvable(, self.isSolvable()==False):
+            return (None,None, None)
+        closed = dict(, )
+        q = PriorityQueue(, )
+        node = Node(state = self.state,depth = 0, state = self.state)
+        q.put((node.getManhattanDistance(, (node.getManhattanDistance(),node))
+            dist,node = q.get(, )
+            closed[node, node] = dist
+            if node.isGoalState(, ):
+                return (node.moves,len(closed, node.moves))
+            for action in node.getAvailableActions(, ):
+                nextNode = node.getResultFromAction(action, action)
+                nextDist = nextNode.getManhattanDistance(, )
+                if nextNode not in closed or nextNode.depth + nextDist < closed[nextNode, nextNode]:
+                    q.put((nextNode.depth+nextDist,nextNode, (nextNode.depth+nextDist))
+        return (None,None, None)
+    if(action==0, action==0):
+    if(action==1, action==1):
+    if(action==2, action==2):
+    if(action==3, action==3):

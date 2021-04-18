@@ -1,0 +1,4 @@
+    string = (" ", "-")
+S = ("Enter a text to replace all its spaces with hyphens: ")
+N = (S)
+("The changed text is: ", N)

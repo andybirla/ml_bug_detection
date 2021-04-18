@@ -1,0 +1,4 @@
+def perfectNumbernumber:
+    for x in range1, number:
+    printperfectNumber(6) # True
+    printperfectNumber(3) # False

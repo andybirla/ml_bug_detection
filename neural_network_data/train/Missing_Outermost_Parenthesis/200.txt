@@ -1,0 +1,38 @@
+class todoGUIobject:
+    def __init__self:
+        self.mainWindow = Tk
+        self.mainWindow.title'TODO Application!'
+        self.fieldnames = 'key', 'name', 'age', 'pay'
+    def buildWidgetsself:
+        self.mainFrame = Frameself.mainWindow
+        self.mainFrame.pack
+        foridx, label in enumerate(self.fieldnames):
+            labels = Labelself.mainFrame, text = label
+            ent = Entryself.mainFrame, font=('Arial', 17)
+            labels.gridrow = idx, column = 0
+            ent.gridrow = idx, column = 1
+        Buttonself.mainWindow, text="Fetch", command = self.fetchRecord.pack(side=LEFT)
+        Buttonself.mainWindow, text="Update", command = self.updateRecord.pack(side=LEFT)
+        Buttonself.mainWindow, text="Quit", command = self.mainWindow.quit.pack(side=RIGHT)
+    def fetchRecordself:
+        dbfile = open'examplePickle', 'rb'
+        db = pickle.loaddbfile
+            key = entries['key'].get
+            showerrortitle='Error', message='No such key!'
+                entries[field].delete0, END
+                entries[field].insert0, record[field]
+        dbfile.close
+    def updateRecordself:
+        dbfile = open'examplePickle', 'rb'
+        db = pickle.loaddbfile
+        dbfile.close
+        key = entries['key'].get
+            dbfile = open'examplePickle', 'ab'
+                temp[field] = entries[field].get
+            pickle.dumptemp, dbfile
+            dbfile.close
+    def startGUIself:
+        self.mainWindow.mainloop
+    window = todoGUI
+    entries = window.buildWidgets
+    window.startGUI

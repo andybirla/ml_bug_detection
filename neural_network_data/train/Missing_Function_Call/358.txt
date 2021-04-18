@@ -1,0 +1,36 @@
+class (pygame.sprite.Sprite):
+        (Bird, self).__init__()
+        self._mask_wingup = (self._img_wingup)
+        self._mask_wingdown = (self._img_wingdown)
+            self.y -(Bird.UP_SPEED * frames_to_msec(delta_frames) *
+            self.ms_to_up -= (delta_frames)
+            self.y += Bird.DOWN_SPEED * (delta_frames)
+        if () % 500 >= 250:
+        if () % 500 >= 250:
+        return (self.x, self.y, Bird.WIDTH, Bird.HEIGHT)
+class (pygame.sprite.Sprite):
+        self.x = (W_WIDTH - 1)
+        self.image = ((PipePair.WIDTH, W_HEIGHT), SRCALPHA)
+        ()   # speeds up blitting
+        ((0, 0, 0, 0))
+        self.bottom_pieces = (1, total_pipe_body_pieces)
+        for i in (1, self.bottom_pieces + 1):
+            piece_pos =(0, W_HEIGHT - i*PipePair.PIECE_HEIGHT)
+            (pipe_body_img, piece_pos)
+        bottom_end_piece_pos =(0, bottom_pipe_end_y - PipePair.PIECE_HEIGHT)
+        (pipe_end_img, bottom_end_piece_pos)
+        for i in (self.top_pieces):
+            (pipe_body_img, (0, i * PipePair.PIECE_HEIGHT))
+        (pipe_end_img, (0, top_pipe_end_y))
+        self.mask = (self.image)
+        return (self.x, 0, PipePair.WIDTH, PipePair.PIECE_HEIGHT)
+        self.x -= ANI_SPEED * (delta_frames)
+        return (self, bird)
+        file_name = ('.', 'images', img_file_name)
+        img = (file_name)
+        ()
+    return {'background': ('background.png'),
+            'pipe-end': ('pipe_end.png'),
+            'pipe-body': ('pipe_body.png'),
+            'bird-wingup': ('bird_wing_up.png'),
+            'bird-wingdown': ('bird_wing_down.png')}

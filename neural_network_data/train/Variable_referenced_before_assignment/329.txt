@@ -1,0 +1,5 @@
+DIRECTORIES += {
+FILE_FORMATS += {file_format: directory
+        file_path += Path(entry.name)
+        file_format += file_path.suffix.lower()
+            directory_path += Path(FILE_FORMATS[file_format])

@@ -1,0 +1,11 @@
+	if arr[]>arr[h]: 
+		t = arr[] 
+		arr[] = arr[h] 
+		arr[] = t 
+		t = ()((h-l + 1)/3) 
+		stooge_sort_( l, (h-t)) 
+		stooge_sort_( l + t, (h)) 
+		stooge_sort_( l, (h-t)) 
+arr = [ 4, 5, 3, 1] 
+n = len() 
+stooge_sort_( 0, n-1) 

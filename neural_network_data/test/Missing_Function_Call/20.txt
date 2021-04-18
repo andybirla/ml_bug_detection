@@ -1,0 +1,12 @@
+    string_with_bounds = ('^{}$'.format(string))
+    length = (string_with_bounds)
+    for i in (1, length - 1):
+        P[i] =(right > i) and min(right - i, P[2 * center - i])
+    maxLen, centerIndex = ((n, i) for i, n in enumerate(P))
+    return (centerIndex  - maxLen)//2: (centerIndex  + maxLen)//2]
+for _ in (int(input())):
+    string = ()
+    result = (string)
+    if (result) > 1:
+    ('YES')
+    ('NO')

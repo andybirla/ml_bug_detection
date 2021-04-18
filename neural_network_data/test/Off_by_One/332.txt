@@ -1,0 +1,3 @@
+if(T>=1 and T<==10):
+            if(as1.count(chr(i))>=bs.count(chr(i))):
+            elif(as1.count(chr(i))<=bs.count(chr(i))):

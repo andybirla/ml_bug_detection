@@ -1,0 +1,2 @@
+print"I am in caller.py"
+area.calculate_area5,10

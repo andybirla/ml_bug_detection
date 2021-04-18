@@ -1,0 +1,29 @@
+root = ()
+("Weather")
+(bg = 'white')
+    page = (url)
+    soup = (page.content, 'html.parser')
+    location = ('h1',class_="_1Ayv3").text
+    temperature = ('span',class_="_3KcTQ").text
+    airquality = ('text',class_='k2Z7I').text
+    airqualitytitle = ('span',class_='_1VMr2').text
+    sunrise = ('div',class_='_2ATeV').text
+    sunset = ('div',class_='_2_gJb _2ATeV').text
+    humidity = ('div',class_='_23DP5').text
+    (text=(location))
+    (text = temperature+"C")
+    (text=WeatherText)
+    (text = airqualityText)
+    (120000,getWeather)
+    ()
+locationlabel= (root, font = ('Calibri bold',20), bg = 'white')
+(row = 0,column = 1, sticky='N',padx=20,pady=40)
+templabel = (root, font = ('Caliber bold', 40), bg="white")
+(row=0,column = 0,sticky="W",padx=17)
+weatherPrediction = (root, font = ('Caliber', 15), bg="white")
+(row=2,column=1,sticky="W",padx=40)
+(root,text = "Air Quality", font = ('Calibri bold',20), bg = 'white').grid(row = 1,column = 2, sticky='W',padx=20)
+airqualitylabel = (root, font = ('Caliber bold', 20), bg="white")
+(row=2,column=2,sticky="W")
+()
+()

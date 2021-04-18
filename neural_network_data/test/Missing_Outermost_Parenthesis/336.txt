@@ -1,0 +1,4 @@
+whileTrue:
+    a, b, c = mapint, input().split()
+        print 'AP', c + b - a
+        print 'GP', c * (b // a)

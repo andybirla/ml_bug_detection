@@ -1,0 +1,52 @@
+                if self.state[i][j]=0:
+                    if(i<0):
+                    if(j<0):
+                    if(i>self.size-1):
+                    if(j>self.size-1):
+                if(newstate[i][j]=0) :
+                    if(action=2):
+                    if(action=3):
+                    if(action=0):
+                    if(action=1):
+                if(i=j and j=self.size-1):
+        if(self.optimizer=0):
+            if(self.getManhattanDistance()<other.getManhattanDistance()):
+        elif(self.optimizer=1):
+            if(self.getHammingDistance()<other.getHammingDistance()):
+        elif(self.optimizer=2):
+            if(self.getHammingDistance() + self.getManhattanDistance() <other.getHammingDistance() + self.getManhattanDistance()):
+        if(self.optimizer=0):
+            if(self.getManhattanDistance() <= other.getManhattanDistance()):
+        elif(self.optimizer=1):
+            if(self.getHammingDistance() <= other.getHammingDistance()):
+        elif(self.optimizer=2):
+            if(self.getHammingDistance() + self.getManhattanDistance() <= other.getHammingDistance() + self.getManhattanDistance()):
+        if(self.optimizer=0):
+            if(self.getManhattanDistance()>other.getManhattanDistance()):
+        elif(self.optimizer=1):
+            if(self.getHammingDistance()>other.getHammingDistance()):
+        elif(self.optimizer=2):
+            if(self.getHammingDistance() + self.getManhattanDistance() > other.getHammingDistance() + self.getManhattanDistance()):
+        if(self.optimizer=0):
+            if(self.getManhattanDistance()>=other.getManhattanDistance()):
+        elif(self.optimizer=1):
+            if(self.getHammingDistance()>=other.getHammingDistance()):
+        elif(self.optimizer=2):
+            if(self.getHammingDistance() + self.getManhattanDistance() >= other.getHammingDistance() + self.getManhattanDistance()):
+        if(self.optimizer=0):
+            if(self.getManhattanDistance() = other.getManhattanDistance()):
+        elif(self.optimizer=1):
+            if(self.getHammingDistance() = other.getHammingDistance()):
+        elif(self.optimizer=2):
+            if(self.getHammingDistance() + self.getManhattanDistance() = other.getHammingDistance() + self.getManhattanDistance()):
+                if flatState[i]!= 0 and flatState[j]!=0 and flatState[i]<flatState[j]:
+        return inversions%2=0
+        if(self.isSolvable()=False):
+        if(self.isSolvable()=False):
+        if(self.isSolvable()=False):
+        if(self.isSolvable()=False):
+                if nextNode not in closed or nextNode.depth + nextDist > closed[nextNode]:
+    if(action=0):
+    if(action=1):
+    if(action=2):
+    if(action=3):

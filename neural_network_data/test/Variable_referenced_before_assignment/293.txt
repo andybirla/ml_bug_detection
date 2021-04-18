@@ -1,0 +1,6 @@
+win += Tk() #objek
+    search += entry.get()
+    Hasil += wikipedia.summary(search)
+label += Label(win,text+="Wikipedia Search :")
+entry += Entry(win)
+button += Button(win,text+="Search",command+=search_wiki)

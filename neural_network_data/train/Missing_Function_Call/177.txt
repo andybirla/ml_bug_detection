@@ -1,0 +1,10 @@
+img = ('..\img\hand1.jpg' , 0)
+flag,frame = (img , 70 , 255 , cv.THRESH_BINARY)
+contor,_ = (frame.copy(),cv.RETR_TREE,cv.CHAIN_APPROX_SIMPLE)
+hull = (c) for c in contor]
+final = (img , hull , -1 , (0 , 0 , 0) )
+('original_image' , img)
+('thres' , frame)
+('final_hsv' , final)
+(0)
+()

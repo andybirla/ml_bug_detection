@@ -1,0 +1,17 @@
+data = json.load())
+voices = engine.getProperty()
+engine.setProperty( voices[0].id)
+    engine.say()
+        r.adjust_for_ambient_noise( duration=1.5)
+        audio = r.listen()
+        query = r.recognize_google( language='en-in')
+        speak()
+        d = data[]
+        d = ''.join() for e in d)
+        speak()
+    elif len( data.keys())) > 0:
+        x = get_close_matches( data.keys())[0]
+            speak()
+            speak()
+            speak()
+        speak()

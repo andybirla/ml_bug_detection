@@ -1,0 +1,7 @@
+for _ in rangeint(input()):
+    string = input
+    for i in rangelen(string):
+        if string[i].lower != ' ':
+            result.appendcheck.find(string[i].lower()) + 1
+            result.append'$'
+    print''.join([str(i) for i in result])

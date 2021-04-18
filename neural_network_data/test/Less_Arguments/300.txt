@@ -1,0 +1,22 @@
+EXT_VIDEO_LIST = [ 'WMV', 'MOV', 'MP4', 'MPEG', '3GP', 'MKV', 'AVI']
+EXT_IMAGE_LIST = [ 'JPEG', 'GIF', 'PNG', 'SVG']
+EXT_MUSIC_LIST = [ 'WAV', 'WMA', 'MKA', 'AAC', 'MID', 'RA', 'RAM', 'RM', 'OGG']
+EXT_CODE_LIST = [ 'RB', 'PY', 'HTML', 'CSS', 'JS']
+EXT_EXECUTABLE_LIST = [ 'DEB', 'EXE', 'SH', 'BUNDLE']
+EXT_COMPRESSED_LIST = [ 'JAR', 'ZIP', 'TAR', 'MAR', 'ISO', 'LZ', '7ZIP', 'TGZ', 'GZ', 'BZ2']
+    destLocation = str()
+    destLocation = str())
+        os.chdir()
+        ChangeDirectory()))
+ChangeDirectory()
+        os.mkdir()
+    src = '{}\\{}'.format( dirs)
+    dest = '{}\{}'.format( name)
+    os.chdir()
+    shutil.move( '{}\\{}'.format(dest, dirs))
+    os.chdir()
+TYPES_LIST = [ 'Images', 'Documents', 'Music', 'Codes', 'Executables', 'Compressed']
+for dirs in os.listdir()):
+            if dirs.split()[-1].upper() in extensions_list:
+                Organize( name)
+            Organize( 'Folders')

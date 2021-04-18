@@ -1,0 +1,29 @@
+name = ()
+name_check = ("Is your name " + name + "? → ")
+if ().startswith("y"):
+    ("Okay.")
+    (1)
+if ().startswith("n"):
+    name = ("Then what is it? → ")
+("Hello", name + ", my name is Python." )
+(0.8)
+("The first letter of your name is", userList[0] + ".")
+(0.8)
+("Nice to meet you. :)")
+(0.8)
+response = ("Would you say it's nice to meet me? → ")
+if ().startswith("y"):
+    ("Nice :)")
+    ()
+elif ().startswith("n"):
+    response2 = ("Is it because I am a robot? → ")
+    ("You may have made an input error. Please restart and try again.")
+    ()
+if ().startswith("y"):
+    ("Aw :(")
+elif ().startswith("n"):
+    response3 = ("Then why? → ")
+    (1)
+    ("Oh.")
+    ("You may have made an input error. Please restart and try again.")
+    ()

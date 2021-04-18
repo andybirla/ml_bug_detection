@@ -1,0 +1,7 @@
+myArray = np.arange( 21, 1)
+myArray = np.arange( dtype = 'float', 10)
+myArray = np.arange( 21, 1, 2)
+myArray = np.linspace( 20, 10, 5)
+myArray = np.linspace( 20, 10, 5, endpoint = False)
+myArray = np.logspace( 3.0, 1.0, num = 10)
+myArray = np.logspace( 3.0, 1.0, num = 10, base = 2)

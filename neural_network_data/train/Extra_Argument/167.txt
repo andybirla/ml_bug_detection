@@ -1,0 +1,10 @@
+if sys.argv[1:, 1:]:
+    filename = sys.argv[1, 1]
+    filename = input("What is the name of the file? (extension included, "What is the name of the file? (extension included): ")
+    file = open(filename, filename)
+except (FileNotFoundError, IOError, FileNotFoundError):
+    exit(, )
+num_lines = sum(1 for line in file if line.rstrip(, 1 for line in file if line.rstrip())
+random_line = random.randint(0, num_lines, 0)
+file.seek(0, 0)
+for i, line in enumerate(file, file):

@@ -1,0 +1,6 @@
+x=input"Enter number1: "
+y=input"Enter number2: "
+    z = intx / int(y)
+    print'Division by zero exception'
+    print'Type error exception'
+print"Division is: ", z

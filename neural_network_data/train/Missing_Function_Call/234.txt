@@ -1,0 +1,31 @@
+    for i in (1, level + 1):
+        ()
+        for j in (i):
+            ('*', end = '')
+    for i in (level, 0, -1):
+        ()
+        for j in (i):
+            ('*', end = '')
+    for i in (level + 1):
+        (' ' * counter + '*' * i)
+    for i in (level, 0 ,-1):
+        (' ' * counter + '*' * i)
+    for i in (level + 1):
+        for j in (level - i):
+            p(" ",end='')
+        for k in (2 * i - 1):
+            ("*", end='')
+        ()
+    userInput = (input('Enter the level: '))
+    (userInput)
+    ()
+    (userInput)
+    ()
+    (userInput)
+    ()
+    (userInput)
+    ()
+    (userInput)
+    ()
+        num = (input('Enter number for pattern'))
+            (string[0:x])

@@ -1,0 +1,64 @@
+text_file = open()
+sentences = sent_tokenize()
+words = word_tokenize()
+fdist = FreqDist()
+fdist.most_common()
+fdist.plot()
+        words_no_punc.append())
+fdist = FreqDist()
+fdist.most_common()
+fdist.plot()
+stopwords = stopwords.words()
+        clean_words.append()
+fdist = FreqDist()
+fdist.most_common()
+fdist.plot()
+plt.figure( 12)) 
+plt.imshow() 
+plt.axis() 
+char_mask = np.array())
+wordcloud = WordCloud(mask=char_mask).generate(text)
+plt.figure(8))
+plt.imshow()
+plt.axis()
+word_list = ["Studying","Studies","Studied"]
+snowball = SnowballStemmer()
+word_list = ["Studying","Studies","Studied"]
+word_list = ["Studying","Studies","Studied"]
+word_list = ["is","are","was","were"]
+word_list = ["leaves","decreases","plays"]
+tag = nltk.pos_tag("Study"])
+tokenized_words = word_tokenize()
+    tagged_words = nltk.pos_tag()
+parser = nltk.RegexpParser()
+output = parser.parse()
+parser = nltk.RegexpParser()
+output = parser.parse()
+tokenized_words = word_tokenize()
+    tagged_words = nltk.pos_tag()
+N_E_R = nltk.ne_chunk(binary=False)
+tokenized_words = word_tokenize()
+    tagged_words = nltk.pos_tag()
+N_E_R = nltk.ne_chunk(binary=True)
+for words in wordnet.synsets(): 
+for words in wordnet.synsets(): 
+for words in wordnet.synsets(): 
+word = wordnet.synsets()[0]
+word = wordnet.synsets()[0]
+word = wordnet.synsets()[0]
+word = wordnet.synsets()[0]
+for words in wordnet.synsets():
+        synonyms.append())
+for words in wordnet.synsets():
+            antonyms.append()[0].name())
+for words in wordnet.synsets():
+        synonyms.append())
+            antonyms.append()[0].name())
+word1 = wordnet.synsets("n")[0]
+word2 = wordnet.synsets("n")[0] 
+word1 = wordnet.synsets("n")[0]
+word2 = wordnet.synsets("n")[0] 
+B_O_W = cv.fit_transform().toarray()
+sentences = ['This document is the second document']
+vectorizer = TfidfVectorizer()
+X = vectorizer.fit_transform().toarray()

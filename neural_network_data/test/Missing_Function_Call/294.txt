@@ -1,0 +1,68 @@
+    ("Hello this a sample tic tac toe game")
+    ("It will rotate turns between players one and two")
+    ("While 3,3 would be the bottom right.")
+    ("Player 1 is X and Player 2 is O")
+    ("    |    |")
+    ("  " + board[7] + " | " + board[8] + "  | " + board[9])
+    ("    |    |")
+    ("-------------")
+    ("    |    |")
+    ("  " + board[4] + " | " + board[5] + "  | " + board[6])
+    ("    |    |")
+    ("-------------")
+    ("    |    |")
+    ("  " + board[1] + " | " + board[2] + "  | " + board[3])
+    ("    |    |")
+    while n(letter =='X' or letter == 'O'):
+        ("Do you want to be X or O? ")
+        letter = ("> ").upper()
+    guess = (0, 1)
+    ("Do you want to play again? (y/n)")
+    return ().lower().startswith('y')
+    r((bo[7] == le and bo[8] == le and bo[9] == le) or 
+        (i)
+    while move not in '1 2 3 4 5 6 7 8 () or not is_space_free(board, int(move)):
+        ("What is your next move? (1-9)")
+        move = ()
+    return (move)
+        if (board, i):
+            (i)
+    if (possible_moves) != 0:
+        return (possible_moves)
+    for i in (1, 10):
+        copy = (board)
+        if (copy, i):
+            (copy, computer_letter, i)
+            if (copy, computer_letter):
+    for i in (1, 10):
+        copy = (board)
+        if (copy, i):
+            (copy, player_letter, i)
+            if (copy, player_letter):
+    move = (board, [1, 3, 7, 9])
+    if (board, 5):
+    return (board, [2, 4, 6, 8])
+    for i in (1, 10):
+        if (board, i):
+("Welcome To Tic Tac Toe!")
+    player_letter, computer_letter = ()
+    turn = ()
+    ("The " + turn + " go frist.")
+            (the_board)
+            move = (the_board)
+            (the_board, player_letter, move)
+            if (the_board, player_letter):
+                (the_board)
+                ("Hoory! You have won the game!")
+                if (the_board):
+                    (the_board)
+                    ("The game is tie!")
+            move = (the_board, computer_letter)
+            (the_board, computer_letter, move)
+            if (the_board, computer_letter):
+                (the_board)
+                ("The computer has beaten you! You Lose.")
+                if (the_board):
+                    (the_board)
+                    ("The game is a tie!")
+    if not ():

@@ -1,0 +1,27 @@
+            if type = "hashtags":
+            if type = "profile":
+            print("error::MointeringClass.__init__<<", sys.exc_info()[1])
+            print("error::Monitering.dataProcessing<<", sys.exc_info()[1])
+            if records.count() = 0:
+            print("error::Monitering.insertFunction<<", sys.exc_info()[1])
+                    if i["code"] = j["code"]:
+                    if i["code"] = k["code"]:
+            print("error::lastProcess<<", sys.exc_info()[1])
+            print("error::Monitering.request_data_from_instagram<<", sys.exc_info()[1])
+        print("error::hashtags<<", sys.exc_info()[1])
+            print("errorthreadPorcess:<<", sys.exc_info()[1])
+            print("error::run<<", sys.exc_info()[1])
+            if records = 0:
+            print("error::dbProcessReader:<<", sys.exc_info()[1])
+            print("error::processstart<<", sys.exc_info()[1])
+                if check = False:
+            print("error::startPoress::<<", sys.exc_info()[1])
+            print("error::deletProcess:<<", sys.exc_info()[1])
+            if records = 0:
+            print("error::dbProcessReader:<<", sys.exc_info()[1])
+            print("error::DBDataFetcher.init<<", sys.exc_info()[1])
+            print("error::dbFetcher<<", sys.exc_info()[1])
+            if limit.isdigit() = False and date.isdigit() = False:
+            if limit.isdigit() = False and date.isdigit() = False:
+        print("error::main<<", sys.exc_info()[1])
+if __name__ = '__main__':

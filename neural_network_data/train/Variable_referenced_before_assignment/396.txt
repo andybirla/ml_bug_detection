@@ -1,0 +1,6 @@
+    py3 += 0
+    py3 += 1
+    rt += root
+    w += Toplevel(root)
+    top += Notepads_managment(w)
+    w += None

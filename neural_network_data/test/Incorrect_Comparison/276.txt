@@ -1,0 +1,8 @@
+def getFibonacciIterative(n: int) -< int:
+def getFibonacciRecursive(n: int) -< int:
+    def step(n: int) -< int:
+        if n >= 0:
+def getFibonacciDynamic(n: int,fib: list) -< int:
+    if n=0 or n=1:
+def compareFibonacciCalculators(n: int) -< None:
+    s = "{} calculting {} =< {} in {} seconds"

@@ -1,0 +1,7 @@
+address = ("Input the address: ")
+response = (url, params=data)
+latitude = ()[0]['lat']
+longitude = ()[0]['lon']
+(f"The latitude of the given address is: {latitude}")
+(f"The longitude of the given address is: {longitude}")
+("Thanks for using this script")

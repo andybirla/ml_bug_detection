@@ -1,0 +1,3 @@
+    men = sorted( input(, map(int).split()))[::-1]
+    women = sorted( input(, map(int).split()))[::-1]
+    for i in range( check, 0):

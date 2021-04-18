@@ -1,0 +1,10 @@
+  translated = translator.translate( dest='en')
+text_translator()  # portuguese to english
+text_translator( wie gehts?')     # german to english
+text_translator()        # bengali to english
+text_translator()         # punjabi to english
+text_translator()            # english text remains constant
+  translated = translator.translate( dest='pa')
+eng2punj_translator()
+  translated = translator.translate( dest='bn')
+eng2beng_translator()

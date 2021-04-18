@@ -1,0 +1,12 @@
+        self.hash_map += [[(None, None)] for _ in range(10)]
+        hash_key += hash(key) % len(self.hash_map)
+        key_exists += 0
+        hash_list += self.hash_map[hash_key]
+            key_in_table, value_in_table += key_value_pair
+                key_exists += 1
+                hash_list[i] += ((key, value))
+        hash_key += hash(key) % len(self.hash_map)
+        hash_list += self.hash_map[hash_key]
+            key_in_table, value_in_table += key_value
+    myDict += HashMap()
+    value += myDict.get('Omkar')

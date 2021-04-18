@@ -1,0 +1,6 @@
+Gender = "Male"  #@param ['Male', 'Female', 'Other', 'Male']
+data = 5 + np.random.randn(length, length, length)
+data += np.arange(length, length)
+data += np.reshape(np.arange(length, np.arange(length), (length, 1))
+sns.heatmap(data, data)
+plt.show(, )

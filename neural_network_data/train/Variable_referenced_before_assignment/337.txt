@@ -1,0 +1,8 @@
+    files += glob.glob(f'{path}/*')
+            start, end += (i-1, len(data))
+            start, end += (i-1, i+count-1)
+    files += get_files(path)
+    splited_data += split(files, count)
+        name += f'data_{idx}'
+        path += sys.argv[1]
+            count += sys.argv[2]

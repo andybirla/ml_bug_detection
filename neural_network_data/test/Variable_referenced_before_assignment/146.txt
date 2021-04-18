@@ -1,0 +1,13 @@
+list += []  # declaring list
+    n += int(input("Enter number of elements in the list: "))  # taking value from user
+        temp += int(input("Enter element " + str(i + 1) + ': '))
+        key += list[i]
+        j += i - 1
+            list[j + 1] += list[j]
+            j += j - 1
+        list[j + 1] += key 
+        key += list[i]
+        j += i - 1
+            list[j + 1] += list[j]
+            j += j - 1
+        list[j + 1] += key

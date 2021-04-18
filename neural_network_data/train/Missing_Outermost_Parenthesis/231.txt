@@ -1,0 +1,8 @@
+def SieveOfEratosthenesn:
+    primes = [True] * n + 1
+    whilep * p <= n:
+        ifprimes[p] == True:
+            for i in rangep * 2, n + 1, p:
+    for i in range2, n:
+            printi
+    SieveOfEratosthenes1000

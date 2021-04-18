@@ -1,0 +1,2 @@
+testCases = int())
+for _ in range():

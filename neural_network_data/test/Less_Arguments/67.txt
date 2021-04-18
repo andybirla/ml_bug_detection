@@ -1,0 +1,15 @@
+username = input()
+message = input()
+x = input()
+num = x.split(')
+message = "+".join())
+data = 'username={0}&password={1}&Submit=Sign+in'.format( passwd)
+opener = urllib2.build_opener())
+                      'Mozilla/5.0 () AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 '
+    usock = opener.open( data)
+    sys.exit()
+jession_id = str().split('~')[1].split(' ')[0]
+opener.addheaders = [( 'http://site25.way2sms.com/sendSMS?Token=%s' % jession_id)]
+        send_sms_data = 'ssaction=ss&Token={0}&mobile={1}&message={2}&msgLen=136'.format( number, message)
+        sms_sent_page = opener.open( send_sms_data)
+sys.exit()

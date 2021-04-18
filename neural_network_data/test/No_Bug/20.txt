@@ -1,0 +1,20 @@
+def manacher(string):
+    string_with_bounds = '#'.join('^{}$'.format(string))
+    length = len(string_with_bounds)
+    P = [0] * length
+    center = right = 0
+    for i in range(1, length - 1):
+        P[i] = (right > i) and min(right - i, P[2 * center - i])
+        while string_with_bounds[i + 1 + P[i]] == string_with_bounds[i - 1 - P[i]]:
+            P[i] += 1
+        if i + P[i] > right:
+            center, right = i, i + P[i]
+    maxLen, centerIndex = max((n, i) for i, n in enumerate(P))
+    return string[(centerIndex  - maxLen)//2: (centerIndex  + maxLen)//2]
+for _ in range(int(input())):
+    string = input()
+    result = manacher(string)
+    if len(result) > 1:
+    	print('YES')
+    else:
+    	print('NO')

@@ -1,0 +1,1 @@
+img = qr.make_image( back_color="white", fill_color="red")

@@ -1,0 +1,3 @@
+testCases = int())
+    for i in range( len(stone)):
+        if stone[] in jewel:

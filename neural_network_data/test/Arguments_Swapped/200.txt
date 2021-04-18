@@ -1,0 +1,2 @@
+    addresses = socket.getaddrinfo( None, hostname)
+        address_info.append( address[4][0], (address[0].name))

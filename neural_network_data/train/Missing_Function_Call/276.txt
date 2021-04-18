@@ -1,0 +1,12 @@
+class (object):
+            self.items = ()
+            for i in (size):
+            self.items = ()
+                    (None)
+                ('Elements are more than the size specified')
+        i(self.myLen() < self.size):
+            for i in (self.myLen(), 0, -1):
+            ('Element index out of range')
+        i(self.myLen() < self.size):
+            for i in (self.myLen(), index + 1, -1):
+            ('Element index out of range')

@@ -1,0 +1,6 @@
+testCases = intinput()
+for _ in rangetestCases:
+    n = intinput()
+    for i in range1, n + 1:
+        for j in rangei + 1, n + 1:
+    printcount

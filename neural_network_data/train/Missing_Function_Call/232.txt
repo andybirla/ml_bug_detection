@@ -1,0 +1,9 @@
+    dbfile = ('examplePickle', 'ab')        # Its important to use binary mode
+    (db, dbfile)                     # source, destination
+    ()
+    dbfile = ('examplePickle', 'rb')        # for reading also binary mode is important
+    db = (dbfile)
+        (keys,'=>',db[keys])
+    ()
+    ()
+    ()

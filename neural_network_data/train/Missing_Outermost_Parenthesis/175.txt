@@ -1,0 +1,4 @@
+def validatehand:
+def print_handhand, name='Guest':
+    printname + ' picked: ' + hands[hand]
+def judgeplayer, computer:

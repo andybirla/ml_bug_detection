@@ -1,0 +1,13 @@
+    () 
+    for index in (0, num - 1) : 
+        w(left < right): 
+            i(temp == 0) : 
+                (curr, arr[left], arr[right]) 
+            e(temp < 0) : 
+    i(found == False): 
+        (" No Triplet Found") 
+    n = (input('Enter size of array\n'))
+    ('Enter elements of array\n')
+    arr = (map(int,input().split()))
+    ('Triplets with 0 sum are as : ')
+    (arr, n) 

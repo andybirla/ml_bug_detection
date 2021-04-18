@@ -1,0 +1,4 @@
+        self.folder_path += os.getcwd()
+        self.list_of_all_files += os.listdir(self.folder_path)
+            foldername += foldername + str(2)
+    re += RearrangeFile()

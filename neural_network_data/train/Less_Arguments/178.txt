@@ -1,0 +1,12 @@
+face_cascade_eye = cv.CascadeClassifier()
+cap = cv.VideoCapture()
+while()):
+    gray = cv.cvtColor( cv.COLOR_BGR2GRAY) # converting to grayscale image to perform smoother
+    eyes = face_cascade_eye.detectMultiScale( 1.1 , 7)
+    for( y ,w ,h ) in faces:
+         cv.rectangle( (x , y) , (x+w , y+h) , (0 , 255 , 0) , 1)
+    for( b , c , d) in eyes:
+         cv.rectangle( (a , b), (a+c, b+d), (255, 0, 0), 1)
+    cv.imshow( img )
+    c = cv.waitKey()
+    if c == ord():

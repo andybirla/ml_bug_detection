@@ -1,0 +1,5 @@
+def storeJSON(fileName, data += {}):
+        json.dump(data, fd, indent += 4, separators += (',', ': '))
+        data += json.load(fd)
+    data += loadJSON('example.json')
+    data['menu']['value'] += 'movie'

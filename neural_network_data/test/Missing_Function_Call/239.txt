@@ -1,0 +1,4 @@
+mycursor = ()
+("SELECT column FROM table")
+myresult = ()
+    (x)

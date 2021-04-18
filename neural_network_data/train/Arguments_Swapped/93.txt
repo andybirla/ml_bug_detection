@@ -1,0 +1,3 @@
+    result = multiprocessing.Array(3, 'i')
+    v = multiprocessing.Value( 0.0, 'd')
+    p = multiprocessing.Process( args=(numbers, target=calc_square, result, v))

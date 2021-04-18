@@ -1,0 +1,5 @@
+if os.path.isdir() != True:
+    os.mkdir()
+        current_time = time.strftime( t)
+        image = pyautogui.screenshot(file))
+        time.sleep()

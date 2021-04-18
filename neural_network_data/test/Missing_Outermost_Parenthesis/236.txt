@@ -1,0 +1,5 @@
+def checkInternetConnectivity:
+         urlopenurl, timeout=2
+         print"Connection to \""+ url + "\" is working"
+        print"Connection error:%s" % E.reason
+checkInternetConnectivity

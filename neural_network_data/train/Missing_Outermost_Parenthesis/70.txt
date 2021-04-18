@@ -1,0 +1,213 @@
+class InvalidSyntaxException:
+    def __init__self:
+class Token:
+    def __init__self, token, t:
+def loadFilefileName:
+    fo = openfileName
+        lines.appendline
+    fo.close
+def scannerstring:
+            elif ch >= '1' and ch <= '9' or ch == '-':  # catch a number
+            elif ch.isupper:  # capture identifier
+                raise InvalidSyntax
+                raise InvalidSyntax
+            if ch.isspace:
+                tokens.appendToken(token, "command")
+                raise InvalidSyntax
+            if ch >= 'a' and ch <= 'd':
+                raise InvalidSyntax
+                raise InvalidSyntax
+            if ch.isdigit:
+            elif ch.isspace:
+                tokens.appendToken(token, "value")
+                raise InvalidSyntax
+                raise InvalidSyntax
+                raise InvalidSyntax
+            if ch.isspace:
+                tokens.appendToken(token, "command")
+                raise InvalidSyntax
+                raise InvalidSyntax
+                raise InvalidSyntax
+            if ch.isspace:
+                tokens.appendToken(token, "command")
+                raise InvalidSyntax
+            if ch == ',' or ch.isspace:
+                tokens.appendToken(token, "register")
+                raise InvalidSyntax
+                raise InvalidSyntax
+                raise InvalidSyntax
+            if ch.isspace:
+                tokens.appendToken(token, "command")
+                raise InvalidSyntax
+            elif ch.isspace:
+                tokens.appendToken(token, "value")
+                raise InvalidSyntax
+            if ch.isdigit or (ch >= 'a' and ch <= 'f'):
+            elif ch.isspace:
+                tokens.appendToken(token, "value")
+                raise InvalidSyntax
+                raise InvalidSyntax
+                raise InvalidSyntax
+                raise InvalidSyntax
+            if ch.isspace:
+                tokens.appendToken(token, "command")
+                raise InvalidSyntax
+                raise InvalidSyntax
+            if ch.isspace:
+                tokens.appendToken(token, "command")
+                raise InvalidSyntax
+            if ch.isdigit:
+            elif ch == ':' or ch.isspace:
+                tokens.appendToken(token, "label")
+                raise InvalidSyntax
+                raise InvalidSyntax
+                raise InvalidSyntax
+            if ch.isspace:
+                tokens.appendToken(token, "command")
+                raise InvalidSyntax
+                raise InvalidSyntax
+                raise InvalidSyntax
+            if ch.isspace:
+                tokens.appendToken(token, "command")
+                raise InvalidSyntax
+            if ch.isspace:
+                tokens.appendToken(token, "command")
+                raise InvalidSyntax
+            if ch.isdigit or ch.isalpha() or (ch.isspace() and ch != '\n') \
+                raise InvalidSyntax
+            if ch.isdigit or ch.isalpha() or ch.isspace():
+                tokens.appendToken(token, "string")
+                raise InvalidSyntax
+            if ch.isdigit or ch.isupper():
+                tokens.appendToken(token, "identifier")
+                raise InvalidSyntax
+                raise InvalidSyntax
+            if ch.isspace:
+                tokens.appendToken(token, "command")
+                raise InvalidSyntax
+            if ch.isalpha:
+                raise InvalidSyntax
+            if ch.isalpha or ch.isdigit():
+            elif ch.isspace:
+                tokens.appendToken(token, "identifier")
+                raise InvalidSyntax
+            if ch >= 'a' and ch <= 'z' or (ch >= 'A' and ch <= 'Z') or (ch >= '0' and ch <= '9'):
+            elif ch == ':' or ch.isspace:
+                tokens.appendToken(token, "subprogram")
+                raise InvalidSyntax
+                raise InvalidSyntax
+                raise InvalidSyntax
+            if ch.isspace:
+                tokens.appendToken(token, "command")
+                raise InvalidSyntax
+                raise InvalidSyntax
+                raise InvalidSyntax
+            if ch.isspace:
+                tokens.appendToken(token, "command")
+                raise InvalidSyntax
+                raise InvalidSyntax
+            if ch.isspace:
+                tokens.appendToken(token, "command")
+                raise InvalidSyntax
+                raise InvalidSyntax
+            if ch.isspace:
+                tokens.appendToken(token, "command")
+                raise InvalidSyntax
+def scan:
+    assert lenlines > 0, "no lines"
+            scannerline
+            print"line=", line
+def parser:
+    assert lentokens > 0, "no tokens"
+    token = Token"", ""
+    tmpToken = Token"", ""
+    while pointer < lentokens:
+            if pointer + 1 < lentokens:
+                print"Error: Not found argument!"
+                if pointer + 1 < lentokens:
+                    print"Error: Not found argument!"
+                        print"Error: undefine variable! --> " + token.token
+                elif isinstancetoken.token, float:
+                elif token.token.isdigit:
+                    token.token = floattoken.token
+                elif token.token[0] == '-' and token.token[1:].isdigit:
+                    token.token = floattoken.token[1:]
+                print"Error: No found register!"
+                if pointer + 1 < lentokens:
+                    print"Error: Not found number!"
+                elif token.token.isdigit:
+                    token.token = floattoken.token
+                elif token.token[0] == '-' and token.token[1:].isdigit:
+                    token.token = floattoken.token[1:]
+                    print"Error: ", token, " is not a number!"
+                print"Error: Not found register!"
+                if pointer + 1 < lentokens:
+                    print"Error: Not found number!"
+                elif isinstancetoken.token, float:
+                elif token.token.isdigit:
+                    token.token = floattoken.token
+                elif token.token[0] == '-' and token.token[1:].isdigit:
+                    token.token = floattoken.token[1:]
+                    print"Error: ", token.token, " is not a number!"
+                print"Error: No found register!"
+            if pointer + 1 < lentokens:
+                print"Error: Not found argument!"
+                        print"END PROGRAM"
+                        print"END PROGRAM WITH ERRORS"
+                    ecx = floatinput(">> ")
+                    printecx
+            if pointer + 1 < lentokens:
+                print"Error: Not found register!"
+                stack.appendeax
+                stack.appendebx
+                stack.appendecx
+                stack.appendedx
+            if pointer + 1 < lentokens:
+                print"Error: Not found register!"
+                eax = stack.pop
+                ebx = stack.pop
+                ecx = stack.pop
+                edx = stack.pop
+            if pointer + 1 < lentokens:
+                print"Error: Not found label!"
+                print"Error: expected a label!"
+            if pointer + 1 < lentokens:
+                print"Error: Not found argument!"
+                if pointer + 1 < lentokens:
+                    print"Error: Not found register!"
+                print"Error: Not found register!"
+            if pointer + 1 < lentokens:
+                print"Error: Not found argument"
+                print"Error: Not found label"
+                if pointer + 1 < lentokens:
+                    print"Error: Not found argument"
+                    if pointer + 1 < lentokens:
+                        print"Error: Not found argument"
+                            variables[token.token] = floattmpToken.token
+                    print"Error: Not found db-keyword"
+            if pointer + 1 < lentokens:
+                print"Error: Not found subprogram label"
+                    returnStack.appendpointer  # eventuell pointer + 1
+                    print"Error: Unknow subprogram!"
+                print"Error: Not found subprogram"
+            if lenreturnStack >= 1:
+                pointer = returnStack.pop
+                print"Error: No return adress on stack"
+            if pointer + 1 < lentokens:
+                print"Error: Not found argument"
+                print"Error: Not found register"
+            if pointer + 1 < lentokens:
+                print"Error: Not found argument"
+                print"Error: Not found register"
+def registerLabels:
+    for i in rangelen(tokens):
+        if tokens[i].t == "label":
+def resetInterpreter:
+def main:
+        resetInterpreter  # resets interpreter mind
+            loadFilearg
+            scan
+            registerLabels
+            parser
+            print"Error: File %s not found!" % (arg)
+    main

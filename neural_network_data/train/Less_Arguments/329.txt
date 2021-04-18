@@ -1,0 +1,14 @@
+    "HTML": [ ".html", ".htm", ".xhtml"],
+    "PLAINTEXT": [ ".in", ".out"],
+    "PDF": [],
+    "PYTHON": [],
+    "XML": [],
+    "EXE": [],
+    "SHELL": []
+        file_path = Path()
+            directory_path = Path()
+            directory_path.mkdir()
+            file_path.rename())
+        os.mkdir()
+                os.rmdir()
+                os.rename() + '/' + str(Path(dir)), os.getcwd() + '/OTHER-FILES/' + str(Path(dir)))

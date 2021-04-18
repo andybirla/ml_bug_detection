@@ -1,0 +1,3 @@
+    N, capacity += map(int, input().split())
+    capacities += [int(bottle) for bottle in input().split()]
+    check, bottles += 0, 0

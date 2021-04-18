@@ -1,0 +1,6 @@
+    line = ()
+    if (line) >=2 :
+            line = ("//", line)
+            line[0] = ("->", ".", line[0])
+            ('//'.join(line))
+            (re.sub("->", ".", line))

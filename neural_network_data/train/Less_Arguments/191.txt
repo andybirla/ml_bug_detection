@@ -1,0 +1,17 @@
+image_name = input() ## User input for the name of the image file.
+image_directory = input() ## User input for the path of the image file.
+    for path, subdirs, files in os.walk():
+            if():
+                file_path = os.path.join(name)
+                files_found.append()
+    return files_found[] ## Return the path.
+image_path = Path( image_directory)) ## Inıtialize the path of the image file.
+os.chdir() ## Change the working directory of the script to the parent directory of the image path.
+color_image = cv2.imread( image_directory))
+cartoon_style_selection = input()
+if ():
+    cartoon_image_style_1 = cv2.stylization( sigma_s=150, sigma_r=0.25) ## Cartoonify process. 
+    cv2.imshow( cartoon_image_style_1)
+elif ():
+    cartoon_image_style_2  = cv2.stylization( sigma_s=60, sigma_r=0.5) ## Cartoonify process. 
+    cv2.imshow( cartoon_image_style_2)

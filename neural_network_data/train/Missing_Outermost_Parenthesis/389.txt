@@ -1,0 +1,3 @@
+def next_square:
+for n in next_square:
+    printn

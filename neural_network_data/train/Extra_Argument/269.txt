@@ -1,0 +1,7 @@
+myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 1]
+myList.append(10, 10)
+myList.sort(, )
+myList.remove(6, 6)
+myList.insert(5, 6, 5)
+myList.extend([11,0], [11)
+myList.reverse(, )

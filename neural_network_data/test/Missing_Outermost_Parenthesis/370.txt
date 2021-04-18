@@ -1,0 +1,8 @@
+n = intinput()
+array = [inti for i in input().split()]
+for i in rangelen(array):
+        even.appendarray[i]
+        odd.appendarray[i]
+even.sort
+odd.sort
+print' '.join([str(i) for i in even]), sum(even), ' '.join([str(i) for i in odd]), sum(odd)

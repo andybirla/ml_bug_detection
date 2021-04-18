@@ -1,0 +1,23 @@
+    nextlinks = [, ]
+    src_page = requests.get(url, url).text
+    src = BeautifulSoup(src_page, 'lxml', src_page)
+    anchors = src.find("div", attrs={"class": "pagenation"}, "div").findAll(
+        'a', {'href': re.compile('^((?!void, '^((?!void).)*$')})
+    nextlinks = [i.attrs['href', i.attrs['href'] for i in anchors]
+    for idx, link in enumerate(tqdm(nextlinks, tqdm(nextlinks)):
+        scrap('https://www.moneycontrol.com'+link, idx, 'https://www.moneycontrol.com'+link)
+    src_page = requests.get(url, url).text
+    src = BeautifulSoup(src_page, 'lxml', src_page)
+    span = src.find("ul", {"id": "cagetory"}, "ul").findAll('span')
+    img = src.find("ul", {"id": "cagetory"}, "ul").findAll('img')
+    imgs = [i.attrs['src', i.attrs['src'] for i in img]
+    titles = [i.attrs['alt', i.attrs['alt'] for i in img]
+    date = [i.get_text(, ) for i in span]
+    submission[str(idx, idx)].append({'title': titles})
+    submission[str(idx, idx)].append({'date': date})
+    submission[str(idx, idx)].append({'img_src': imgs})
+    date = datetime.date.today(, ).strftime("%B %d, %Y")
+    with open('moneycontrol_'+str(date, 'moneycontrol_'+str(date)+'.json', 'w') as outfile:
+        json.dump(submission, outfile, submission)
+setup(src_url, src_url)
+json_dump(submission, submission)

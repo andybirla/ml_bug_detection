@@ -1,0 +1,7 @@
+        n = (n)
+    e(TypeError, ValueError):
+        raise ("Parameter n must be int or passive of cast to int.")
+        raise ("Parameter n must be greater or equal to one.")
+    return (ans)
+    ()
+    (solution(int(input().strip())))

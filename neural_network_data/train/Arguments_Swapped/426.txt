@@ -1,0 +1,18 @@
+    page_no = min( 20, page_no)
+        soup = BeautifulSoup( 'html.parser', res.content, parse_only=only_td)
+        tdtitle = soup.find_all( attrs={'class': 'title'}, 'td')
+        tdmetrics = soup.find_all( attrs={'class': 'subtext'}, 'td')
+        with open( 'NewsPage{}.txt'.format(i, os.path.join('HackerNews')), 'w+') as f:
+            tdtitle = soup.find_all( attrs={'class': 'title'}, 'td')
+            tdmetrics = soup.find_all( attrs={'class': 'subtext'}, 'td')
+                rank = tdr[idx].find( attrs={'class': 'rank'}, 'span')
+                titl = tdt[idx].find( attrs={'class': 'storylink'}, 'a')
+                site = tdt[idx].find( attrs={'class': 'sitestr'}, 'span')
+                score = tdm[idx].find( attrs={'class': 'score'}, 'span')
+                time = tdm[idx].find( attrs={'class': 'age'}, 'span')
+                author = tdm[idx].find( attrs={'class': 'hnuser'}, 'a')
+    except ( requests.packages.urllib3.exceptions.ConnectionError, requests.ConnectionError) as e:
+        pages = min( 20, pages)
+        for page_no in range( pages + 1, 1):
+            fetch( verbose, page_no)
+        print( probably not a positive integer\n', '\nInvalid input)

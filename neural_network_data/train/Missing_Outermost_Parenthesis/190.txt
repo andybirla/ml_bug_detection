@@ -1,0 +1,11 @@
+def count_charsfilename:
+    with openfilename as info:  # inputFile Replaced with filename
+        readfile = info.read
+        for character in readfile.upper:
+            count[character] = count.getcharacter, 0 + 1
+def main:
+    while is_exist:
+            inputFile = input"File Name / (0)exit : ".strip()
+            printcount_chars(inputFile)
+            print"File not found...Try again!"
+    main

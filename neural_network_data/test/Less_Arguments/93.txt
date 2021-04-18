@@ -1,0 +1,9 @@
+    with open( mode='r', encoding=encoding) as fd:
+            cnt += line.count()
+            lines.append( new))
+    with open( mode='w', encoding=encoding) as fd:
+        fd.writelines()
+    parser.add_argument( "--file", help = "File.")
+    parser.add_argument( "--old", help = "Old string.")
+    parser.add_argument( "--new", help = "New string.")
+    text_file_replace( args.encoding, args.old, args.new)

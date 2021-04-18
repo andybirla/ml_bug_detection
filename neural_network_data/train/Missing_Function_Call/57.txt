@@ -1,0 +1,10 @@
+    with (file_name, "wb") as file:
+        response = (url)
+        (response.content)
+    path_to_file = (os.getcwd(), name_of_file)
+    if ():
+        (SPI_SETDESKWALLPAPER, 0, path_to_file, 0)
+        (SPI_SETDESKWALLPAPER, 0, path_to_file, 0)
+        (url, file_name)
+        (file_name)
+        (f"Error {e}")

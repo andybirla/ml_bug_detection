@@ -1,0 +1,12 @@
+    for i in (n):
+        return (n - 1)
+    return (n)
+    (n-1,fib)+getFibonacciDynamic(n-2,fib)
+    (input())
+    (n,fib)
+    startI = ()
+    resultI = (n)
+    endI = ()
+    startR = ()
+    resultR = (n)
+    endR = ()

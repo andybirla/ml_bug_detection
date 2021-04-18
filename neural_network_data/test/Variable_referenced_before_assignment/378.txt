@@ -1,0 +1,3 @@
+    string += input()
+    check += 'abcdefghijklmnopqrstuvwxyz'
+    result += []

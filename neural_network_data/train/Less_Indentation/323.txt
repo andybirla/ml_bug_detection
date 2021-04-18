@@ -1,0 +1,31 @@
+   engine.say(audio)
+   engine.runAndWait()
+   r= sr.Recognizer()
+   with sr.Microphone() as source:
+       print("Listening....")
+       audio = r.listen(source)
+   try:
+       print("Recognizing...")
+       query = r.recognize_google(audio,language='en-in')  #language set is Indian English
+       print("The user said ",query)
+   except Exception :
+       print("Sorry i was unable to catch that. Please try speaking that again.")
+       return 'None'
+   return query
+   hours = datetime.datetime.now().hour
+   if hours>=0 and hours <12:
+       speak("good morning")
+   elif hours>=12 and hours <18:
+       speak("good afternoon")
+   else:
+       speak("good evening")
+   speak("sir i am your personal assistant. tell me how can i help you ")
+   music_dir = "F:\\Songs" #put the location of the folder where you store your songs
+   songs = os.listdir(music_dir)
+   l = len(songs)
+   num = random.randrange(0,l,1)
+   os.startfile(os.path.join(music_dir,songs[num]))
+   speak("Thank you for using my sevices. All improvements on my github repository are welcome.")
+   print("www.github.com/tarun-sharma03")
+   exit()
+   speak("Query type not supported")

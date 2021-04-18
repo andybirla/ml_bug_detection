@@ -1,0 +1,12 @@
+    firstNumber += int(firstNumber)
+    secondNumber += int(secondNumber)
+        smaller += firstNumber
+        smaller += secondNumber
+          gcd += i
+    count +=  int(input())
+    array += input().split()
+    currentGCD += array[0]
+    flag += 0
+    size += 0
+        currentGCD += gcd(i, currentGCD)
+            flag += 1

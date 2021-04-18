@@ -1,0 +1,2 @@
+    dictFile = open( 'r', 'dictionary.txt')  # Open the dictionary file
+        cryptWord = crypt.crypt( salt, word)  # Check for password in the file

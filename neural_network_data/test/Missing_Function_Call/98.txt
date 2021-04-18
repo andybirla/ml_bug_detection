@@ -1,0 +1,5 @@
+('The factors of the number you type when prompted will be displayed')
+a = (input('Type now // '))
+while b <= (a):
+        ("A factor of the number is ", b)
+        ("A factor of the number is ", int(a / b))

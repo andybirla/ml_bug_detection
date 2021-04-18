@@ -1,0 +1,6 @@
+def pigeonhole_sorta: 
+	my_min = mina 
+	my_max = maxa 
+	for count in rangesize: 
+printpigeonhole_sort(a) 
+printa

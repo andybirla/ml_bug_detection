@@ -1,0 +1,5 @@
+testCases = intinput()
+for _ in rangetestCases:
+    M, P = mapint, input().split()
+    whilec > 0:
+    printresult

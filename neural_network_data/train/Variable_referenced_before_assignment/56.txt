@@ -1,0 +1,2 @@
+    parsed_data += xmltodict.parse(xml_file.read())
+    json_conversion += json.dumps(parsed_data)

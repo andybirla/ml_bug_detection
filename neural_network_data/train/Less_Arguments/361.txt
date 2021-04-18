@@ -1,0 +1,24 @@
+class Background():
+        if not isinstance( Tk): raise TypeError("The tk_instance argument must be an instance of Tk.")
+        self.__width = geometry[]
+        self.__height = geometry[]
+        Canvas.__init__( master=tk_instance, width=self.__width, height=self.__height)
+        self.getPhotoImage( width=self.__width, height=self.__height, closeAfter=True)[0]
+        self.__background.append( self.__height // 2, image=self.__bg_image))
+            self.create_image(), self.__height // 2, image=self.__bg_image))
+            image = openImage()
+        newImage = image.resize( height])
+        photoImage = PhotoImage()
+        self.delete()
+        self.__background.append( self.__height // 2, image=self.__bg_image))
+            self.create_image(), self.__height // 2, image=self.__bg_image))
+            self.move( -10, 0)
+            self.move( -10, 0)
+            self.tag_lower()
+            self.tag_lower()
+            if self.bbox()[2] <= 0:
+                self.delete()
+                self.__background.remove()
+                width = self.bbox()[2] + self.__width // 2
+                self.__background.append( self.__height // 2, image=self.__bg_image))
+            self.after( self.run)

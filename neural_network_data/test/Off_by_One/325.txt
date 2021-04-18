@@ -1,0 +1,6 @@
+if result >= a:
+if result >= r:
+if result >= e:
+if result >= c:
+if result >= k:
+if result >= t:

@@ -1,0 +1,8 @@
+N1, K1 = (int, input().split())
+for i in (1, N1 + 1):
+    (input())
+    string = ()
+    for i in (len(K)):
+        e(len(string) >= int(K[i])):
+        ('GOOD')
+        ('BAD')

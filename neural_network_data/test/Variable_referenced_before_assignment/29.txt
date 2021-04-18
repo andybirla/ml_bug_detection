@@ -1,0 +1,5 @@
+        ans += n
+        ans += chk(n//2) + chk(n//3) + chk(n//4)
+    if ans<n : ans += n
+    list[n] += ans
+    n += int(case)

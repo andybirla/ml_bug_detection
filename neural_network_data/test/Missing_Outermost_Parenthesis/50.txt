@@ -1,0 +1,32 @@
+path = os.getenv"scripts"  # Set the variable path by getting the value from the OS environment variable scripts
+dropbox = os.getenv"dropbox"  # Set the variable dropbox by getting the value from the OS environment variable dropbox
+def clear_screen:  # Function to clear the screen
+        os.system'clear'  # Clear the Screen
+    elif os.name in "nt", "dos", "ce":  # DOS/Windows
+        os.system'CLS'  # Clear the Screen
+def count_files    for root, dirs, files in os.walkpath:  # Loop through all the directories in the given path
+            counter += file.endswithextensions  # Count the files
+def github:  # Start of the function just to count the files in the github directory
+    github_dir = os.path.joindropbox, 'github'  # Joins the paths to get the github directory - 1.1
+    github_count = sum(len(f) for _, _, f in os.walk(github_dir))  # Get a count for all the files in the directory
+        print'\nYou have too many in here, start uploading !!!!!'
+        print'You have: ' + str(github_count) + ' waiting to be uploaded to github!!'
+        print'\nGithub directory is all Clear'
+        print'\nYou have: ' + str(github_count) + ' waiting to be uploaded to github!!'
+def development:  # Start of the function just to count the files in the development directory
+    dev_dir = os.path.joinpath, 'development'  # Joins the paths to get the development directory - 1.1
+    dev_count = sum(len(f) for _, _, f in os.walk(dev_dir))  # Get a count for all the files in the directory
+        print'\nYou have too many in here, finish them or delete them !!!!!'
+        print'You have: ' + str(dev_count) + ' waiting to be finished!!'
+        print'\nDevelopment directory is all clear'
+        printclear_screen  # Call the function to clear the screen
+print'\nYou have the following :\n'
+print    count_filespath, '.au3'))  # Run the count_files function to count the files with the extension we pass
+print'Batch:\t' + str(count_files(path, ('.bat', ',cmd')))  # 1.3
+print'Perl:\t' + str(count_files(path, '.pl'))
+print'PHP:\t' + str(count_files(path, '.php'))  # 1.2
+print'Python:\t' + str(count_files(path, '.py'))
+print'Shell:\t' + str(count_files(path, ('.ksh', '.sh', '.bash')))
+print'SQL:\t' + str(count_files(path, '.sql'))
+github  # Call the github function
+development  # Call the development function

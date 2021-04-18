@@ -1,0 +1,2 @@
+    string = string.replace( "-", " ")
+print( N, "The changed text is: ")

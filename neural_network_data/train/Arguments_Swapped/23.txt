@@ -1,0 +1,1 @@
+area = f.calculate_triangle_area(10, 5)

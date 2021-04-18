@@ -1,0 +1,110 @@
+w=Tk
+w.geometry"500x500"
+w.title"Calculatorax"
+w.configurebg="#03befc"
+def calc1:
+    b = txt1.get
+    txt1.delete0, END
+    txt1.insert0, b1
+def calc2:
+    b = txt1.get
+    txt1.delete0, END
+    txt1.insert0, b1
+def calc3:
+    b = txt1.get
+    txt1.delete0, END
+    txt1.insert0, b1
+def calc4:
+    b = txt1.get
+    txt1.delete0, END
+    txt1.insert0, b1
+def calc5:
+    b = txt1.get
+    txt1.delete0, END
+    txt1.insert0, b1
+def calc6:
+    b = txt1.get
+    txt1.delete0, END
+    txt1.insert0, b1
+def calc7:
+    b = txt1.get
+    txt1.delete0, END
+    txt1.insert0, b1
+def calc8:
+    b = txt1.get
+    txt1.delete0, END
+    txt1.insert0, b1
+def calc9:
+    b = txt1.get
+    txt1.delete0, END
+    txt1.insert0, b1
+def calc0:
+    b = txt1.get
+    txt1.delete0, END
+    txt1.insert0, b1
+def add:
+    add.b = eval(txt1.get())
+    txt1.delete0, END
+def subtract:
+    subtract.b = eval(txt1.get())
+    txt1.delete0, END
+def get:
+    b = txt1.get
+def equals:
+        c = eval(txt1.get()) + add.b
+        cls
+        txt1.insert0, c
+        c = subtract.b - eval(txt1.get())
+        cls
+        txt1.insert0, c
+        c = multiply.b*eval(txt1.get())
+        cls
+        txt1.insert0, c
+        c = divide.b/eval(txt1.get())
+        cls
+        txt1.insert0,c
+def cls:
+    txt1.delete0, END
+def multiply:
+    multiply.b = eval(txt1.get())
+    txt1.delete0, END
+def divide:
+    divide.b = eval(txt1.get())
+    txt1.delete0, END
+lbl1 = Labelw, text="Calculatorax", font=("Times New Roman", 35), fg="#232226", bg="#fc9d03"
+txt1 = Entryw, width=80, font=30
+btn1 = Buttonw, text="1", font=("Unispace", 25), command=calc1, bg="#c3c6d9"
+btn2 = Buttonw, text="2", font=("Unispace", 25), command=calc2, bg="#c3c6d9"
+btn3 = Buttonw, text="3", font=("Unispace", 25), command=calc3, bg="#c3c6d9"
+btn4 = Buttonw, text="4", font=("Unispace", 25), command=calc4, bg="#c3c6d9"
+btn5 = Buttonw, text="5", font=("Unispace", 25), command=calc5, bg="#c3c6d9"
+btn6 = Buttonw, text="6", font=("Unispace", 25), command=calc6, bg="#c3c6d9"
+btn7 = Buttonw, text="7", font=("Unispace", 25), command=calc7, bg="#c3c6d9"
+btn8 = Buttonw, text="8", font=("Unispace", 25), command=calc8, bg="#c3c6d9"
+btn9 = Buttonw, text="9", font=("Unispace", 25), command=calc9, bg="#c3c6d9"
+btn0 = Buttonw, text="0", font=("Unispace", 25), command=calc0, bg="#c3c6d9"
+btn_addition = Buttonw, text="+", font=("Unispace", 26), command=add, bg="#3954ed"
+btn_equals = Buttonw, text="Calculate", font=("Unispace", 24,), command=equals, bg="#e876e6"
+btn_clear = Buttonw, text="Clear", font=("Unispace", 24,), command=cls, bg="#e876e6"
+btn_subtract = Buttonw, text="-", font=("Unispace", 26), command=subtract, bg="#3954ed"
+btn_multiplication = Buttonw, text="x", font=("Unispace", 26), command=multiply, bg="#3954ed"
+btn_division = Buttonw, text="÷", font=("Unispace", 26), command=divide, bg="#3954ed"
+lbl1.placex=120,y=0
+txt1.placex=7, y=50, height=35
+btn1.placex=50, y=100
+btn2.placex=120, y=100
+btn3.placex=190, y=100
+btn4.placex=50, y=200
+btn5.placex=120, y=200
+btn6.placex=190, y=200
+btn7.placex=50, y=300
+btn8.placex=120, y=300
+btn9.placex=190, y=300
+btn0.placex=120, y=400
+btn_addition.placex=290, y=100
+btn_equals.placex=260, y=420
+btn_clear.placex=290, y=350
+btn_subtract.placex=360, y=100
+btn_multiplication.placex=290, y=200
+btn_division.placex=360, y=200
+w.mainloop

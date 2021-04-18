@@ -1,0 +1,16 @@
+    input = raw_input
+def main:
+    CheckDir = input"Enter the name of the directory to check : "
+    print
+    if os.path.existsCheckDir:  # Checks if the dir exists
+        print"The directory exists"
+        print"No directory found for " + CheckDir  # Output if no directory
+        print
+        option = input"Would you like this directory create? y/n: "
+            print"Goodbye"
+            exit
+            os.makedirsCheckDir  # Creates a new dir for the given name
+            print"Directory created for " + CheckDir
+            print"Not an option. Exiting"
+            exit
+    main

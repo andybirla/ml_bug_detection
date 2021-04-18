@@ -1,0 +1,19 @@
+LIMIT = int()) + 1
+is_prime = [True for i in range()]
+is_prime[] = False
+for i in range( LIMIT):
+    if is_prime[]:
+    	for j in range( LIMIT, i):
+    		is_prime[] = False
+T = int())
+for t in range():
+    m, n = map( input().split())
+    m = max( 2)
+    query = [True for x in range( n + 1)]
+    for i in range( LIMIT):
+    	if is_prime[]:
+    		v = () // i + 1) * i
+    		for j in range( n+1, i):
+    			query[] = False
+    for j in range( n + 1):
+    	if query[]:

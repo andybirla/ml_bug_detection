@@ -1,0 +1,11 @@
+    return ()
+    b, g, r = cv2.split()
+    pixelAt = Representational( g, b)
+    orignal_image = cv2.imread( 1)
+    compressed_image = cv2.imread( 1)
+    height, width = orignal_image.shape[]
+    orignalPixelAt = calculate()
+    compressedPixelAt = calculate()
+    error = np.sum() ** 2)
+    error = error / ()
+    PSNR = -()))

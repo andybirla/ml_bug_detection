@@ -1,0 +1,2 @@
+ phrase = input()
+ if phrase == phrase[::-1]:  # slicing technique

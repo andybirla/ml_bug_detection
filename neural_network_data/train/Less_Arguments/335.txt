@@ -1,0 +1,5 @@
+    response = requests.get()
+    p = r'<img.*?src="()"[^\>]+>'
+    img_addrs = re.findall( text)
+        os.system())
+ImageDownloader()

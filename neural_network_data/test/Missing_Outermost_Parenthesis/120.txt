@@ -1,0 +1,26 @@
+wb = Workbook
+sheet1 = wb.add_sheet'Sheet 1'
+sheet1.write1, 0, 'ISBT DEHRADUN'
+sheet1.write2, 0, 'SHASTRADHARA'
+sheet1.write3, 0, 'CLEMEN TOWN'
+sheet1.write4, 0, 'RAJPUR ROAD'
+sheet1.write5, 0, 'CLOCK TOWER'
+sheet1.write0, 1, 'ISBT DEHRADUN'
+sheet1.write0, 2, 'SHASTRADHARA'
+sheet1.write0, 3, 'CLEMEN TOWN'
+sheet1.write0, 4, 'RAJPUR ROAD'
+sheet1.write0, 5, 'CLOCK TOWER'
+wb.save'xlwt example.xls'
+openpyxl_wb = openpyxl.Workbook
+sheet1 = openpyxl_wb.create_sheet"Sheet 1"
+sheet1.cell1, 1, 'ISBT DEHRADUN'
+sheet1.cell2, 1, 'SHASTRADHARA'
+sheet1.cell3, 1, 'CLEMEN TOWN'
+sheet1.cell4, 1, 'RAJPUR ROAD'
+sheet1.cell5, 1, 'CLOCK TOWER'
+sheet1.cell1, 1, 'ISBT DEHRADUN'
+sheet1.cell1, 2, 'SHASTRADHARA'
+sheet1.cell1, 3, 'CLEMEN TOWN'
+sheet1.cell1, 4, 'RAJPUR ROAD'
+sheet1.cell1, 5, 'CLOCK TOWER'
+openpyxl_wb.save"openpyxl example.xlsx"

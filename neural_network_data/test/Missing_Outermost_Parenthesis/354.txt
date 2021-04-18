@@ -1,0 +1,12 @@
+testCases = intinput()
+for _ in rangetestCases:
+    n, k = mapint, input().split()
+    myArray = input.split()
+    myArray = dequemyArray
+    myArray.rotatek
+    print' '.join(myArray)
+for _ in rangeint(input()):
+    n,sd=mapint,input().split()
+    ls=input.split()
+    print" ".join(ls[n-(sd%n):]+ls[:n-(sd%n)])
+    print"\n"

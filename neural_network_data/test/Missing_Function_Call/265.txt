@@ -1,0 +1,14 @@
+	return (stack) == 0
+(item) 
+(item + " pushed to stack ") 
+(isEmpty(stack)): 
+		return (-maxsize -1) # return minus infinite 
+	return () 
+(isEmpty(stack)): 
+		return (-maxsize -1) # return minus infinite 
+	return (stack) - 1] 
+stack = () 
+(stack, str(10)) 
+(stack, str(20)) 
+(stack, str(30)) 
+(pop(stack) + " popped from stack") 

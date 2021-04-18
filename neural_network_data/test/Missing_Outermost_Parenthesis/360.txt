@@ -1,0 +1,9 @@
+testCases = intinput()
+for _ in rangetestCases:
+    n, k = mapint, input().split()
+    array = input.split()
+    array = [inti for i in array]
+    mini = minarray
+    if intmini < k:
+        printk - int(mini)
+        print0

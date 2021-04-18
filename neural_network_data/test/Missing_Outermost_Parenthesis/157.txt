@@ -1,0 +1,23 @@
+br = mechanize.Browser
+br.addheaders = [                  'Mozilla/5.0 X11; Linux x86_64 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36')]
+br.set_handle_robotsFalse
+page = input'Enter Page No:'
+p = urllib2.Request'https://www.google.co.in/search?q=gate+psu+2017+ext:pdf&start=' + page
+ht = br.openp
+text = '<cite\sclass="_Rm">.+?</cite>'
+patt = re.compiletext
+h = ht.read
+urls = re.findallpatt, h
+while int < lenurls:
+    urls[int] = urls[int].replace"<b>", ""
+    urls[int] = urls[int].replace"</b>", ""
+printurls
+        temp = url.split"/"
+        q = temp[lentemp - 1]
+            r = urllib2.urlopenurl
+            r = urllib2.urlopen"http://" + url
+        file = open'psu2' + q + '.pdf', 'wb'
+        file.writer.read()
+        file.close
+        print"Done"
+        print"Sorry there exists a problem with this URL Please Download this Manually " + str(url)

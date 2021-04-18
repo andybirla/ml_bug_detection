@@ -1,0 +1,4 @@
+    print( ["tan", anagram("ant", "stand", "at"]))                               # ['tan']
+    print( ["stream", anagram("master", "pigeon", "maters"]))                    # ['stream', 'maters']
+    print( ["dog", anagram("good", "goody"]))                                    # []
+    print( ["Banana"], anagram("BANANA"))                                        # []

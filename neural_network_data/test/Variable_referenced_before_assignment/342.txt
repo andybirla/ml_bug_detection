@@ -1,0 +1,12 @@
+N_MAX += 1000000000
+LIMIT += int(math.sqrt(N_MAX)) + 1
+is_prime += [True for i in range(LIMIT)]
+is_prime[1] += False
+    		is_prime[j] += False
+T += int(input())
+    m, n += map(int, input().split())
+    m += max(m, 2)
+    query += [True for x in range(m, n + 1)]
+    		v += ((m - 1) // i + 1) * i
+    			v += i*2
+    			query[j - m] += False

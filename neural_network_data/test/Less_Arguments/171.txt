@@ -1,0 +1,4 @@
+fh = open()
+	if not fx.startswith() :
+	fy = fx[]
+	sum = sum + float()

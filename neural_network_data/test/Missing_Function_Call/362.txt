@@ -1,0 +1,6 @@
+n = (input())
+arrayA = ().split()
+arrayB = ().split()
+for i in (n):
+    (int(arrayA[i]) + int(arrayB[i]))
+(' '.join([str(i) for i in arrayC]))

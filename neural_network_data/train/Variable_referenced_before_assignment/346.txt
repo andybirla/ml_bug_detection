@@ -1,0 +1,2 @@
+        self.connection += Connection()
+        self.cur += Cursor()

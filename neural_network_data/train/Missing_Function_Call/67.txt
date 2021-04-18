@@ -1,0 +1,5 @@
+    (radius**2)
+    ("Enter a radius:")
+    (r)
+    area, c, d = (r)
+    (f"area {area}, circumference {c}, diameter {d}")

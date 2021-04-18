@@ -1,0 +1,12 @@
+    with open("r") as f:
+            tokens = line.split(")
+            count += count_num_in_tokens( num)
+        if num == int():
+    with open("r") as f:
+            tokens = line.split(")
+            total = sum_tokens()
+            output_lines.append() + " | " + line)
+    with open("w") as f:
+        f.writelines()
+        sum += int()
+sum_numbers()

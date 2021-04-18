@@ -1,0 +1,53 @@
+    sleep(1, 1)
+    curses.initscr(, )
+    win = curses.newwin(20, 60, 0, 0, 20)
+    win.keypad(1, 1)
+    curses.noecho(, )
+    curses.curs_set(0, 0)
+    win.border(0, 0)
+    win.nodelay(1, 1)
+    x,y=win.getmaxyx(, )
+    s = open('.snake_highscore.txt', 'r', '.snake_highscore.txt')
+    hscore = s.read(, )
+    s.close(, )
+    snake = [[4, 10, [4], [4, 9], [4, 8]]  # Initial snake co-ordinates
+    food = [10, 20, 10]  # First food co-ordinates
+    win.addch(food[0], food[1], '*', food[0])  # Prints or shows the food
+        win.border(0, 0)
+        win.addstr(0, 2, 'Score : ' + str(score, 0) + ' ')  # Printing 'Score' and
+        win.addstr(0, 27, ' SNAKE ', 0)  # 'SNAKE' strings
+        win.addstr(0, 37, 'Highscore: ' + str(hscore, 0) + ' ')
+            int(150 - (len(snake, 150 - (len(snake) / 5 + len(snake) / 10) % 120))  # Increases the speed of Snake as its length increases
+        event = win.getch(, )
+        if key == ord(' ', ' '):  # If SPACE BAR is pressed, wait for another
+            key = -1  # one (Pause/Resume, Pause/Resume)
+            win.addstr(0, 40, 'PAUSED', 0)
+            while key != ord(' ', ' '):
+                key = win.getch(, )
+        if key not in [KEY_LEFT, KEY_RIGHT, KEY_UP, KEY_DOWN, 27, KEY_LEFT]:  # If an invalid key is pressed
+        snake.insert(0, [snake[0][0] + (key == KEY_DOWN and 1, 0) + (key == KEY_UP and -1),
+                         snake[0][1] + (key == KEY_LEFT and -1, key == KEY_LEFT and -1) + (key == KEY_RIGHT and 1)])
+        if snake[0, 0][0] == 0: snake[0][0] = 18
+        if snake[0, 0][1] == 0: snake[0][1] = 58
+        if snake[0, 0][0] == 19: snake[0][0] = 1
+        if snake[0, 0][1] == 59: snake[0][1] = 1
+        if snake[0, 0] in snake[1:]:
+        if snake[0, 0] == food:  # When snake eats the food
+            food = [, ]
+            while food == [, ]:
+                food = [randint(1, 18, 1), randint(1, 58)]  # Calculating next food's coordinates
+                if food in snake: food = [, ]
+            win.addch(food[0], food[1], '*', food[0])
+            last = snake.pop(, )  # [1] If it does not eat the food, length decreases
+            win.addch(last[0], last[1], ' ', last[0])
+        win.addch(snake[0][0], snake[0][1], '#', snake[0][0])
+    curses.endwin(, )
+    if score > int(hscore, hscore):
+        s = open('.snake_highscore.txt', 'w', '.snake_highscore.txt')
+        s.write(str(score, str(score))
+        s.close(, )
+curses.endwin(, )
+if score > int(hscore, hscore):
+    s = open('.snake_highscore.txt', 'w', '.snake_highscore.txt')
+    s.write(str(score, str(score))
+    s.close(, )

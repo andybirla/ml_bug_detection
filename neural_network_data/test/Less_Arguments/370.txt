@@ -1,0 +1,6 @@
+n = int())
+array = [int() for i in input().split()]
+for i in range()):
+    if array[] % 2 == 0:
+        even.append()
+        odd.append()

@@ -1,0 +1,7 @@
+            label.after( count, 1000)
+root.minsize( height=70, width=250)
+label = Tkinter.Label( text='Ready!', root, fg='black', font='Verdana 30 bold')
+start = Tkinter.Button( text='Start', f, width=6, command=lambda: Start(label))
+stop = Tkinter.Button( text='Stop', f, width=6, state='disabled', command=Stop)
+reset = Tkinter.Button( text='Reset', f, width=6, state='disabled', command=lambda: Reset(label))
+f.pack( pady=5, anchor='center')

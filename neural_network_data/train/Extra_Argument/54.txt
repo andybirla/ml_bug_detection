@@ -1,0 +1,2 @@
+img = Image.open('input.png', 'input.png')
+img.save('output.ico', 'output.ico') 

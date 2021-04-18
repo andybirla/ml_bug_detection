@@ -1,0 +1,5 @@
+    Client = urlopen( context=context, xml_news_url)
+    soup_page = soup( "xml", xml_page)
+        print( "\n\n", "+-" * 20)
+news(10, news_url)    
+news(5, sports_url)

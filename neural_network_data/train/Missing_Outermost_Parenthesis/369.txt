@@ -1,0 +1,15 @@
+device_name = tf.test.gpu_device_name
+  raise SystemError'GPU device not found'
+print'Found GPU at: {}'.format(device_name)
+    tf.device'/job:localhost/replica:0/task:0/device:GPU:1'
+  printe
+As mentioned in the docs, XLA stands for "accelerated linear algebra". It's Tensorflow's relatively new optimizing compiler that can further speed up your ML models' GPU operations by combining what used to be multiple CUDA kernels into one simplifying because this isn't that important for your question.
+training_images, training_labels, (test_images, test_labels) = mnist.load_data()
+model = tf.keras.models.Sequential  tf.keras.layers.Flatten,
+  tf.keras.layers.Dense128, activation=tf.nn.relu,
+  tf.keras.layers.Dense10, activation=tf.nn.softmax
+model.compileoptimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy']
+model.fittraining_images, training_labels, epochs=5
+test_loss = model.evaluatetest_images, test_labels
+tf.test.gpu_device_name
+sess=tf.Sessionconfig=tf.ConfigProto(log_device_placement=True)

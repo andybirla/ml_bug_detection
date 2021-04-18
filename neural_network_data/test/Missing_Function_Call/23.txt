@@ -1,0 +1,5 @@
+testCases = (input())
+    jewel = ()
+    stone = ()
+    for i in (0, len(stone)):
+    (count)

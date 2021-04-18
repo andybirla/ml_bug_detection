@@ -1,0 +1,8 @@
+testCases = int())
+for i in range( testCases):
+    A = list(input().split()))
+    K = int())
+    result = A[]
+    A = sorted()
+    for i in range( len(A)):
+        if ():

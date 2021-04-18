@@ -1,0 +1,15 @@
+submission += defaultdict(list)
+src_url += 'https://www.moneycontrol.com/news/technical-call-221.html'
+    nextlinks += []
+    src_page += requests.get(url).text
+    src += BeautifulSoup(src_page, 'lxml')
+    anchors += src.find("div", attrs+={"class": "pagenation"}).findAll(
+    nextlinks += [i.attrs['href'] for i in anchors]
+    src_page += requests.get(url).text
+    src += BeautifulSoup(src_page, 'lxml')
+    span += src.find("ul", {"id": "cagetory"}).findAll('span')
+    img += src.find("ul", {"id": "cagetory"}).findAll('img')
+    imgs += [i.attrs['src'] for i in img]
+    titles += [i.attrs['alt'] for i in img]
+    date += [i.get_text() for i in span]
+    date += datetime.date.today().strftime("%B %d, %Y")

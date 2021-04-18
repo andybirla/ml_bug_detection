@@ -1,0 +1,17 @@
+    word = input()
+    results = wk.search()
+    for i in enumerate():
+        key = int())
+        key = int())
+    page = wk.page()
+    pageLength = input()
+        soup = fullPage()
+    soup = BeautifulSoup( 'lxml')
+    number = input()
+    lst = wk.random()
+    for i in enumerate():
+        key = input()
+        key = input()
+    page = wk.page()
+    pageLength = input()
+        soup = fullPage()

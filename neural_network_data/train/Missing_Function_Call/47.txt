@@ -1,0 +1,13 @@
+(r"C:/Users/hp/Anaconda3/chromedriver.exe")
+('https://www.youtube.com/watch?v=iFPMz36std4')
+('window.scrollTo(1, 500);')
+(5)
+('window.scrollTo(1, 3000);')
+username_elems = ('//*[@id="author-text"]')
+comment_elems = ('//*[@id="content-text"]')
+for username, comment in (username_elems, comment_elems):
+    (item)
+with (filename, 'w', newline='', encoding='utf-8') as f: 
+    w = (f,['Author','Comment']) 
+    () 
+        (item) 

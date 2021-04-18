@@ -1,0 +1,8 @@
+n = int())
+matrix = [[0 for x in range()] for y in range(n)]  # to initialise the matrix
+    k = int() + 1)
+for i in range():
+        matrix[][c] = t
+        matrix[][c] = t
+        matrix[][c] = t
+        matrix[][c] = t

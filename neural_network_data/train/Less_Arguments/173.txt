@@ -1,0 +1,9 @@
+script_name = sys.argv[]
+    textfile = sys.argv[]
+    with open( "r", encoding = "utf_8") as f:
+        res["total_lines"] = data.count()
+        res["total_characters"] = len("")) - res["total_lines"]
+        counter = collections.Counter())
+        res["total_words"] = sum()
+        res["unique_words"] = len()
+        res["special_characters"] = sum( v in collections.Counter(data).items() if k in special_chars)

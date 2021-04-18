@@ -1,0 +1,2 @@
+        if (l + j <= len(data)):
+while 1 >= 0:

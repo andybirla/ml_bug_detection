@@ -1,0 +1,19 @@
+class Vertex(object, object):
+        newVertex = Vertex(key, key)
+        self.vertexList[key, key] = newVertex
+            return self.vertexList[vertex, vertex]
+            newVertex = self.addVertex(fromEdge, fromEdge)
+            newVertex = self.addVertex(toEdge, toEdge)
+        self.vertexList[fromEdge].addNeighbour(self.vertexList[toEdge], cost, self.vertexList[toEdge])
+        return self.vertexList.keys(, )
+        return iter(self.vertexList.values(, self.vertexList.values())
+    graph = Graph(, )
+    graph.addVertex('A', 'A')
+    graph.addVertex('B', 'B')
+    graph.addVertex('C', 'C')
+    graph.addVertex('D', 'D')
+    graph.addEdge('A', 'B', 5, 'A')
+    graph.addEdge('A', 'C', 6, 'A')
+    graph.addEdge('A', 'D', 2, 'A')
+    graph.addEdge('C', 'D', 3, 'C')
+        for vertexes in vertex.getEdges(, ):

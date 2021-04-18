@@ -1,0 +1,4 @@
+    while():
+        if() and (greater_number % y == 0)):
+num_1 = int())
+num_2 = int())

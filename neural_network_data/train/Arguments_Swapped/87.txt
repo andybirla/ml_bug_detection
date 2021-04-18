@@ -1,0 +1,2 @@
+        with open( 'r', 'input.json') as f:
+        with open( 'w', 'output.csv') as f:

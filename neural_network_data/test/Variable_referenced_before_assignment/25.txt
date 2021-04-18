@@ -1,0 +1,5 @@
+testCases += int(input())
+    N += int(input())
+    items += [int(i) for i in input().split()]
+    result += 0
+            items += items[:-4]

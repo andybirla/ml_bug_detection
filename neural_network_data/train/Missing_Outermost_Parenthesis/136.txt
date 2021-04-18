@@ -1,0 +1,7 @@
+class Vehicle:
+    def typeself:     #Without self it throws an error
+        printself
+        print'I have a type'
+car = Vehicle
+printcar
+car.type

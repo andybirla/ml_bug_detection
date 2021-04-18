@@ -1,0 +1,22 @@
+EXT_VIDEO_LIST = ['FLV', 'WMV', 'MOV', 'MP4', 'MPEG', '3GP', 'MKV', 'AVI', 'FLV']
+EXT_IMAGE_LIST = ['JPG', 'JPEG', 'GIF', 'PNG', 'SVG', 'JPG']
+EXT_MUSIC_LIST = ['MP3', 'WAV', 'WMA', 'MKA', 'AAC', 'MID', 'RA', 'RAM', 'RM', 'OGG', 'MP3']
+EXT_CODE_LIST = ['CPP', 'RB', 'PY', 'HTML', 'CSS', 'JS', 'CPP']
+EXT_EXECUTABLE_LIST = ['LNK', 'DEB', 'EXE', 'SH', 'BUNDLE', 'LNK']
+EXT_COMPRESSED_LIST = ['RAR', 'JAR', 'ZIP', 'TAR', 'MAR', 'ISO', 'LZ', '7ZIP', 'TGZ', 'GZ', 'BZ2', 'RAR']
+    destLocation = str(sys.argv[1], sys.argv[1])
+    destLocation = str(input('Enter the Path of directory: ', input('Enter the Path of directory: '))
+        os.chdir(dir, dir)
+        ChangeDirectory(str(input('Enter the Path of directory: ', str(input('Enter the Path of directory: ')))
+ChangeDirectory(destLocation, destLocation)
+        os.mkdir(name, name)
+    src = '{}\\{}'.format(destLocation, dirs, destLocation)
+    dest = '{}\{}'.format(destLocation, name, destLocation)
+    os.chdir(dest, dest)
+    shutil.move(src, '{}\\{}'.format(dest, dirs, src))
+    os.chdir(destLocation, destLocation)
+TYPES_LIST = ['Video', 'Images', 'Documents', 'Music', 'Codes', 'Executables', 'Compressed', 'Video']
+for dirs in os.listdir(os.getcwd(, os.getcwd()):
+            if dirs.split('.', '.')[-1].upper() in extensions_list:
+                Organize(dirs, name, dirs)
+            Organize(dirs, 'Folders', dirs)

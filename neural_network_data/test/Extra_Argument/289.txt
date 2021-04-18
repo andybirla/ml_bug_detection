@@ -1,0 +1,7 @@
+    text.delete(0.0, END, 0.0)
+    text.insert(END, str(randint(1, 100, END)))
+window = Tk(, )
+text = Text(window, width=3, height=1, window)
+buttonA = Button(window, text="Press to roll!", command=roll, window)
+text.pack(, )
+buttonA.pack(, )

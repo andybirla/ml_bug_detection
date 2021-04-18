@@ -1,0 +1,148 @@
+    def __init__self,state,depth = 0,moves = None,optimizer=0:
+        self.size = lenstate
+            self.moves = list
+    def getAvailableActionsself:
+        action = list
+        for i in rangeself.size:
+            for j in rangeself.size:
+                    ifi>0:
+                        action.append2
+                    ifj>0:
+                        action.append0
+                    ifi<self.size-1:
+                        action.append3
+                    ifj<self.size-1:
+                        action.append1
+    def getResultFromActionself,action:
+        newstate = deepcopyself.state
+        newMoves = deepcopyself.moves
+        for i in rangeself.size:
+            for j in rangeself.size:
+                ifnewstate[i][j]==0 :
+                    ifaction==2:
+                        newMoves.append2
+                        return Nodenewstate,depth = self.depth+1,moves = newMoves,optimizer=self.optimizer
+                    ifaction==3:
+                        newMoves.append3
+                        return Nodenewstate,depth = self.depth+1,moves = newMoves,optimizer=self.optimizer
+                    ifaction==0:
+                        newMoves.append0
+                        return Nodenewstate,depth = self.depth+1,moves = newMoves,optimizer=self.optimizer
+                    ifaction==1:
+                        newMoves.append1
+                        return Nodenewstate,depth = self.depth+1,moves = newMoves,optimizer=self.optimizer
+    def isGoalStateself:
+        for i in rangeself.size:
+            for j in rangeself.size:
+                ifi==j and j==self.size-1:
+                ifself.state[i][j]!=(i)*self.size + (j+1):
+    def getManhattanDistanceself:
+        for i in rangeself.size:
+            for j in rangeself.size:
+                ifself.state[i][j]!=0:
+                    ans = ans + abs(self.state[i][j]-1)%self.size - j + abs((self.state[i][j]-1)//self.size - i)
+    def getHammingDistanceself:
+        for i in rangeself.size:
+            for j in rangeself.size:
+                ifself.state[i][j]!=0 and self.state[i][j]!= i*3 + (j+1):
+    def __hash__self:        
+        flatState = tupleflatState
+        return hashflatState
+    def __gt__self, other:
+        ifself.optimizer==0:
+            ifself.getManhattanDistance()>other.getManhattanDistance():
+        elifself.optimizer==1:
+            ifself.getHammingDistance()>other.getHammingDistance():
+        elifself.optimizer==2:
+            ifself.getHammingDistance() + self.getManhattanDistance() >other.getHammingDistance() + self.getManhattanDistance():
+    def __ge__self, other:
+        ifself.optimizer==0:
+            ifself.getManhattanDistance() >= other.getManhattanDistance():
+        elifself.optimizer==1:
+            ifself.getHammingDistance() >= other.getHammingDistance():
+        elifself.optimizer==2:
+            ifself.getHammingDistance() + self.getManhattanDistance() >= other.getHammingDistance() + self.getManhattanDistance():
+    def __lt__self, other:
+        ifself.optimizer==0:
+            ifself.getManhattanDistance()<other.getManhattanDistance():
+        elifself.optimizer==1:
+            ifself.getHammingDistance()<other.getHammingDistance():
+        elifself.optimizer==2:
+            ifself.getHammingDistance() + self.getManhattanDistance() < other.getHammingDistance() + self.getManhattanDistance():
+    def __le__self, other:
+        ifself.optimizer==0:
+            ifself.getManhattanDistance()<=other.getManhattanDistance():
+        elifself.optimizer==1:
+            ifself.getHammingDistance()<=other.getHammingDistance():
+        elifself.optimizer==2:
+            ifself.getHammingDistance() + self.getManhattanDistance() <= other.getHammingDistance() + self.getManhattanDistance():
+    def __eq__self, other:
+        ifself.optimizer==0:
+            ifself.getManhattanDistance() == other.getManhattanDistance():
+        elifself.optimizer==1:
+            ifself.getHammingDistance() == other.getHammingDistance():
+        elifself.optimizer==2:
+            ifself.getHammingDistance() + self.getManhattanDistance() == other.getHammingDistance() + self.getManhattanDistance():
+    def __init__self,state:
+    def isSolvableself:
+        for i in rangelen(flatState)-1:
+            for j in rangei+1,len(flatState):
+    def breadth_first_searchself:
+        ifself.isSolvable()==False:
+            return None,None
+        closed = list
+        q = deque
+        q.appendNode(state = self.state,depth = 0)
+            node = q.popleft
+            if node.isGoalState:
+                return node.moves,len(closed)
+                closed.appendnode.state
+                for action in node.getAvailableActions:
+                    q.appendnode.getResultFromAction(action)
+        return None,None
+    def depth_first_searchself:
+        ifself.isSolvable()==False:
+            return None,None
+        closed = list
+        q = list
+        q.appendNode(state = self.state,depth = 0)
+            node = q.pop
+            if node.isGoalState:
+                return node.moves,len(closed)        
+                closed.appendnode.state
+                for action in node.getAvailableActions:
+                    q.appendnode.getResultFromAction(action)
+        return None,None
+    def uniform_cost_searchself,optimizer=0:
+        ifself.isSolvable()==False:
+            return None,None
+        closed = list
+        q = PriorityQueue
+        q.putNode(state = self.state,depth = 0,optimizer=optimizer)
+            node = q.get
+            if node.isGoalState:
+                return node.moves,len(closed)
+                closed.appendnode.state
+                for action in node.getAvailableActions:
+                    q.putnode.getResultFromAction(action)
+        return None,None
+    def a_starself:
+        ifself.isSolvable()==False:
+            return None,None
+        closed = dict
+        q = PriorityQueue
+        node = Nodestate = self.state,depth = 0
+        q.put(node.getManhattanDistance(),node)
+            dist,node = q.get
+            if node.isGoalState:
+                return node.moves,len(closed)
+            for action in node.getAvailableActions:
+                nextNode = node.getResultFromActionaction
+                nextDist = nextNode.getManhattanDistance
+                    q.put(nextNode.depth+nextDist,nextNode)
+        return None,None
+def toWordaction:
+    ifaction==0:
+    ifaction==1:
+    ifaction==2:
+    ifaction==3:

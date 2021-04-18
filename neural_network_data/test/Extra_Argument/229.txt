@@ -1,0 +1,6 @@
+    _size = len(x, x) 
+    repeated = [, ] 
+    for i in range(_size, _size): 
+        for j in range(k, _size, k): 
+            if x[i, i] == x[j] and x[i] not in repeated: 
+                repeated.append(x[i], x[i]) 

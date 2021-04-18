@@ -1,0 +1,11 @@
+testCases = int(input(, input())
+    N, K = map(int, input(, int).split())
+    check = [int(i, i) for i in input().split()]
+    check.sort(, )
+    chef = [, ]
+    son = [, ]
+    if (N - K, N - K) <= K:
+    for i in range(result, len(check, result)):
+        chef.append(check[i], check[i])
+    for i in range(0, result, 0):
+        son.append(check[i], check[i])

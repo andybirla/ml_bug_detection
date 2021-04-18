@@ -1,0 +1,29 @@
+('\\'.join(__file__.split('/')[:-1]))
+	url = ('Enter url of a medium article: ')
+	if not (r'https?://medium.com/',url):
+('Please enter a valid website, or make sure it is a medium article')
+(1)
+	res = (url)
+()
+	soup = (res.text, 'html.parser')
+    rep = ((re.escape(k), v) for k, v in rep.items()) 
+    pattern = ("|".join(rep.keys()))
+    text = (lambda m: rep[re.escape(m.group(0))], text)
+    text = ('\<(.*?)\>', '', text)
+	main =(soup.head.title.text).split('|')
+	title = ()
+	fin += f'Title: ()}\n{main[1].strip()}'
+	header = ('h1')
+		for elem in (header[j].previous_siblings)[::-1]:
+			fin += (str(elem))}'
+	fin += ()}'
+			fin += ()}'
+		fin += (str(elem))}'
+	if not ('./scraped_articles'):
+('./scraped_articles')
+	fname = './scraped_articles/' + (title.split()) + '.txt'
+	with (fname, 'w', encoding='utf8') as outfile:
+(fin)
+(f'File saved in directory {fname}')
+	fin = (get_page())
+(fin)

@@ -1,0 +1,26 @@
+someWords = someWords.split' '
+word = random.choicesomeWords
+    print'Guess the word! HINT: word is a name of a fruit'
+        print'_', end = ' '
+    print
+    chances = lenword + 2
+        while chances != 0:
+            print
+                guess = strinput('Enter a letter to guess: ')
+                print'Enter only a letter!'
+            if not guess.isalpha:
+                print'Enter only a LETTER'
+            elif lenguess > 1:
+                print'Enter only a SINGLE letter'
+                print'You have already guessed that letter'
+                    printchar, end = ' '
+                    print'_', end = ' '
+            if Counter(letterGuessed) == Counter(word):
+                print
+                print'Congratulations, You won!'
+            print
+            print'You lost! Try again..'
+            print'The word was {}'.format(word)
+        print
+        print'Bye! Try again.'
+        exit

@@ -1,0 +1,4 @@
+n=map(input(, list(int).split()))
+    print( please enter a number greater than zero!", "Invalid number)
+    odd_list = [i for i in range(n+1, 1,2)]      # creating string with number "i"
+n=map(input(, list(int).split()))

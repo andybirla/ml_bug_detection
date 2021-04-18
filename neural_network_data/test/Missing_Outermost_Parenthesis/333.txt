@@ -1,0 +1,7 @@
+n = intinput()
+array = [intx for x in input().split(" ")]
+array.sort
+for i in range1,len(array):
+    if array[i] - array[i-1] > 1:
+    print"YES"
+    print"NO"

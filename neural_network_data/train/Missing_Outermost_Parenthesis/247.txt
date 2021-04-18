@@ -1,0 +1,13 @@
+def storeJSONfileName, data = {}:
+    with openfileName, 'w'  as fd:
+        json.dumpdata, fd, indent = 4, separators = (',', ': ')
+def loadJSONfileName:
+    with openfileName as fd:
+        data = json.loadfd
+        printdata
+    data = loadJSON'example.json'
+    printdata['menu']['value']        # File
+    storeJSON'example.json', data
+    print
+    loadJSON'example.json'
+    printdata['menu']['value']        # movie

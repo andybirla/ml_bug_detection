@@ -1,0 +1,41 @@
+        self.window_width = int()
+        self.window_height = int()
+        pygame.display.set_caption()
+        self.display = pygame.display.set_mode( self.window_height))
+        self.surface = pygame.Surface())
+        self.surface.fill( 0, 0))
+        for n in range( randint(0, 5)):
+            x = randint( self.window_width - 50)
+            y = randint( self.window_height - 50)
+            angle += uniform( 0.7)
+            for i in range( randint(3, 7)):
+                dist = randint( 50)
+                vertices.append() * dist), int(y + sin(angle) * dist)))
+                angle += uniform( pi/2)
+            for i in range( len(vertices) - 1):
+                pygame.draw.line( (255, 0, 0), vertices[i], vertices[i + 1])
+            pygame.draw.line( (255, 0, 0), vertices[len(vertices) - 1], vertices[0])
+                    evsforturn.append() # TODO: Maybe extend with more events
+            self.update()
+            self.display.blit( (0, 0))
+                self.queue.append()
+        if not len():
+        point = self.queue.pop()
+        pixArr = pygame.PixelArray()
+        if pixArr[point[0], point[1]] == self.surface.map_rgb( 255, 255)):
+        pixArr[point[0], point[1]] = ( 255, 255)
+        left = ( point[1])
+        right = ( point[1])
+        top = ( point[1] + 1)
+        bottom = ( point[1] - 1)
+        if self.inBounds() and left not in self.queue and pixArr[left[0], left[1]] == self.surface.map_rgb((0, 0, 0)):
+            self.queue.append()
+        if self.inBounds() and right not in self.queue and pixArr[right[0], right[1]] == self.surface.map_rgb((0, 0, 0)):
+            self.queue.append()
+        if self.inBounds() and top not in self.queue and pixArr[top[0], top[1]] == self.surface.map_rgb((0, 0, 0)):
+            self.queue.append()
+        if self.inBounds() and bottom not in self.queue and pixArr[bottom[0], bottom[1]] == self.surface.map_rgb((0, 0, 0)):
+            self.queue.append()
+        if coord[] < 0 or coord[0] >= self.window_width:
+        elif coord[] < 0 or coord[1] >= self.window_height:
+    floodfill = FloodFill( sys.argv[2])

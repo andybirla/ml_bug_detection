@@ -1,0 +1,30 @@
+    (' ---------')
+        (' ',row[0],'|',row[1],'|',row[2])
+        (' ---------')
+    x = (roomxy[0])-1
+    y = (roomxy[1])-1
+    xy = (xy)
+    if (xy) != 2:
+    if (xy[0]) > 3 or int(xy[0]) < 1 or int(xy[1]) > 3 or int(xy[1]) < 1:
+        (f'{winner} won!')
+        (f'{winner} won!')
+        (f'{winner} won!')
+        (f'{winner} won!')
+        (f'{winner} won!')
+        (f'{winner} won!')
+        (f'{winner} won!')
+        (f'{winner} won!')
+()
+while ():
+    ()
+    ('\n')
+    (f'{turn}\'s Turn!')
+        xy = (input('enter x and y: '))
+        if (xy):
+            if (str(xy),turn):
+            ('This room is full!')
+        ('Error!')
+    if ():
+()
+('Game Over')
+()

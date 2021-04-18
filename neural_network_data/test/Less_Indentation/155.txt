@@ -1,0 +1,6 @@
+   import win32com.client as wincl
+   print("Sorry, TTS client is not supported on Linux or MacOS")
+   exit()
+   text = e.get()
+   speak = wincl.Dispatch("SAPI.SpVoice")
+   speak.Speak(text)

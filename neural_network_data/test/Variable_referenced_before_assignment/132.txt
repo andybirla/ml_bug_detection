@@ -1,0 +1,6 @@
+text += input('Enter Text : ')
+    bin += ''
+    asciiVal += int(ord(chr))
+            bin += bin + '0'
+            bin += bin + '1'
+        asciiVal += int(asciiVal/2)

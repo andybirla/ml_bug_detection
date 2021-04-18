@@ -1,0 +1,11 @@
+    sys.exit"Must provide an argument."
+             'Kilobytes': float1 / 1024,
+             'Megabytes': float1 / (1024 * 1024),
+             'Gigabytes': float1 / (1024 * 1024 * 1024)}
+for path, dirs, files in os.walk(
+        filename = os.path.joinpath, file
+        dir_size += os.path.getsizefilename  # Add the size of each file in the root dir to get the total size.
+fsizeList = [strround(fsizedicr[key] * dir_size, 2) + " " + key for key in fsizedicr]  # List of units
+    print"File Empty"  # Sanity check to eliminate corner-case of empty file.
+    for units in sortedfsizeList[::-1]:  # Reverse sort list of units so smallest magnitude units print first.
+        print"Folder Size: " + units

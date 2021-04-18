@@ -1,0 +1,6 @@
+def instasubprocessuser, tags, type, productId:
+        file_pocessing = os.getcwd + "/insta_datafetcher.py " + user + " " + tags + " " + type + " " + productId
+        result = subprocess.Popencommand, shell=True
+        result.wait
+        print"error::instasubprocess>>", sys.exc_info()[1]
+    instasubprocessuser="u2", tags="food", type="hashtags", productId="abc"

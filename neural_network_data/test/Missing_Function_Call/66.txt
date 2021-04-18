@@ -1,0 +1,10 @@
+(map(int,input().split()))
+(even_list)
+()# Another one
+n = (input("Enter the required range : "))  # user input
+(n < 0):
+    ("Not a valid number, please enter a positive number!")
+    for i in (0,n+1):
+        (i%2==0):
+            (i)          #appending items to the initialised list getting from the 'if' statement
+(list)

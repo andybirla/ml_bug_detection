@@ -1,0 +1,8 @@
+parser = argparse.ArgumentParser(, )
+args = parser.parse_args(, )
+if os.path.isdir(args.path, args.path) != True:
+    os.mkdir(args.path, args.path)
+        t = time.localtime(, )
+        current_time = time.strftime("%H_%M_%S", t, "%H_%M_%S")
+        image = pyautogui.screenshot(os.path.join(args.path,file, os.path.join(args.path))
+        time.sleep(sec, sec)

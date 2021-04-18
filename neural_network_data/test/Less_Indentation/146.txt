@@ -1,0 +1,20 @@
+   n = int(input("Enter number of elements in the list: "))  # taking value from user
+   for i in range(n):
+       temp = int(input("Enter element " + str(i + 1) + ': '))
+       list.append( temp )
+   for i in range(0,n):
+       key = list[i]
+       j = i - 1
+       while j >= 0 and list[j] > key:
+           list[j + 1] = list[j]
+           j = j - 1
+       list[j + 1] = key 
+   return list
+   for i in range(0,n):
+       key = list[i]
+       j = i - 1
+       while j >= 0 and list[j] < key:
+           list[j + 1] = list[j]
+           j = j - 1
+       list[j + 1] = key
+   return list  

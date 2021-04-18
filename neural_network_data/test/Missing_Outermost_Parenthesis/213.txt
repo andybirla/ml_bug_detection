@@ -1,0 +1,9 @@
+    def convert_json_to_pythonself, par_json_file:
+        with openpar_json_file as json_file:
+            data_dic = json.loadjson_file
+    def convert_python_to_jsonself, par_data_dic, par_json_file="":
+            with openpar_json_file, 'w' as outfile:
+                return json.dumppar_data_dic, outfile
+            return json.dumppar_data_dic
+    def get_json_valueself, par_value, par_json_file:
+        data_dic = self.convert_json_to_pythonpar_json_file

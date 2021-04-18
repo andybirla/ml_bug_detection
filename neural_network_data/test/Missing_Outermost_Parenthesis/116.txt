@@ -1,0 +1,6 @@
+def lisa:
+	n=lena
+	for i in range1,n:
+		for j in rangei:
+	return maxans
+print"Maximum Length of longest increasing subsequence ",lis(a)

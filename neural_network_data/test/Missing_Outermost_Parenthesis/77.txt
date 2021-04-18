@@ -1,0 +1,7 @@
+def kmppattern, text, len_p=None, len_t=None:
+    for index, char in enumeratepattern[1:]:
+        failure.appendi
+    while i < lentext:
+            if j == len(pattern) - 1:
+    assert kmppattern, text1 and not kmp(pattern, text2)
+    assert kmppattern, text

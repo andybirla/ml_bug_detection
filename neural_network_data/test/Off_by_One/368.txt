@@ -1,0 +1,2 @@
+        if array[j] <= array[i]:
+        if j <= a[i]:

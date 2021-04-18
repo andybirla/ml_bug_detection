@@ -1,0 +1,15 @@
+def Representationalr, g, b:
+    return 0.299 * r + 0.287 * g + 0.114 * b
+def calculateimg:
+    b, g, r = cv2.splitimg
+    pixelAt = Representationalr, g, b
+def main:
+    orignal_image = cv2.imread'orignal_image.png', 1
+    compressed_image = cv2.imread'compressed_image.png', 1
+    orignalPixelAt = calculateorignal_image
+    compressedPixelAt = calculatecompressed_image
+    error = np.sumnp.abs(diff) ** 2
+    error = error / height * width
+    PSNR = -10 * math.log10(error / (255 * 255))
+    print"PSNR value is {}".format(PSNR)
+    main

@@ -1,0 +1,5 @@
+    def __init__self, limit:
+    def __iter__self:
+    def __next__self:
+fib_iterator = iterFibonacci(5)
+        printnext(fib_iterator)

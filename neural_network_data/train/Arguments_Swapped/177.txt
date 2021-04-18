@@ -1,0 +1,6 @@
+img = cv.imread( 0, '..\img\hand1.jpg' )
+flag,frame = cv.threshold( 70 , img , 255 , cv.THRESH_BINARY)
+final = cv.drawContours( hull , img , -1 , (0 , 0 , 0) )
+cv.imshow( img, 'original_image' )
+cv.imshow( frame, 'thres' )
+cv.imshow( final, 'final_hsv' )

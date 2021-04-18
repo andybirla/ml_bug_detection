@@ -1,0 +1,14 @@
+os.system()
+n=int())
+for i in range(n):
+    name=input()
+    players.append()
+os.system()
+for i in range(n):
+    orignum=random.randint(100)
+        ch=int())
+    score.append()
+    os.system()
+for i in range(n):
+for i in range(n):
+    if score[i]==min():

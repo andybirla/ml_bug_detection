@@ -1,0 +1,4 @@
+file = open( "r").read()
+speech = gTTS( lang='en', slow=False)
+speech.save()
+os.system()

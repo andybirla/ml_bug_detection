@@ -1,0 +1,10 @@
+   if os.path.isfile(image):
+       try:
+           im = Image.open(image)
+           im.thumbnail(size, Image.ANTIALIAS)
+           im.save("resize/" + str(image) + ".jpg")
+       except Exception as ex:
+           print(f"Error: {str(ex)} to {image}")
+   os.mkdir("resize")
+   Resize_image(size, image)
+   sleep(0.1)

@@ -1,0 +1,2 @@
+   text.delete(0.0, END)
+   text.insert(END, str(randint(1, 100)))

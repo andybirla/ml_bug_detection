@@ -1,0 +1,8 @@
+    i("https" or "http") in url:  # Checking for presence of protocols
+        open_this_url = (url)  # Open the url as entered by the user
+        open_this_url = ("https://" + url)  # Adding https to the url
+    start_time = ()  # Time stamp before the reading of url starts
+    end_time = ()  # Time stamp after the reading of the url
+    ()  # Closing the instance of the urlopen object
+    url = ("Enter the url whose loading time you want to check: ")
+    (f"\nThe time taken to load {url} is {get_load_time(url):.2} seconds.")

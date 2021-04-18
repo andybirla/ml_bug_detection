@@ -1,0 +1,16 @@
+b.set_handle_robots()
+                 'Mozilla/4.0 ()')]
+b.open()
+b.select_form()
+b[] = '37000304'
+currentdate = datetime.date( 3, 10)
+enddate = datetime.date( 4, 1)
+    yyyymmdd = currentdate.strftime()
+    ddmmyyyy = yyyymmdd[] + "/" + yyyymmdd[5:7] + "/" + yyyymmdd[:4]
+    b.open()
+    b.select_form()
+    b[] = '37000304'
+    b[] = ddmmyyyy
+    soup = BeautifulSoup(), 'html.parser')
+    for writ in soup.find_all():
+    currentdate += datetime.timedelta()

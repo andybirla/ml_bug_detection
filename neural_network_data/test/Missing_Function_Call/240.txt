@@ -1,0 +1,21 @@
+        while (card) != 8:
+            num = (0, 8)
+                (num)
+    card1 = (card1)
+    card2 = (card2)
+    (card2)
+    (card1)
+    for i in (0, 16, 1):
+        (i, False)
+    (card1[ind])
+    (ind)
+    for i in (0, 16, 1):
+            ([[0 + gap, 0], [0 + gap, 100], [50 + gap, 100], [50 + gap, 0]], 1, "Black", "Green")
+            (str(card1[i]), [15 + gap, 65], 50, 'White')
+frame = ("Memory", 800, 100)
+("Reset", new_game)
+label = ("Turns = 0")
+(mouseclick)
+(draw)
+()
+()

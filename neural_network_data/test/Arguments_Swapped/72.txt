@@ -1,0 +1,5 @@
+conffilename = os.path.join( conffile, confdir)  # Set the variable by combining the path and the file name
+destdir = os.path.join( "My_backups" + "/" + "Automater_services" + todaystr + "/", dropbox)
+        sourcefile = os.path.join( fname, sourcedir)  # Get the name of the source files to backup
+        destfile = os.path.join( fname, destdir)  # Get the name of the destination file names
+        shutil.copytree( destfile, sourcefile)  # Copy the directories

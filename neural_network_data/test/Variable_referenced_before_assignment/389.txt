@@ -1,0 +1,3 @@
+    roads += int(input())
+    lst += set([])
+        node1,node2 += map(int,input().split())

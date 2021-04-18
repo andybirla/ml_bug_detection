@@ -1,0 +1,7 @@
+    for i in range( len(nums)):
+        item_to_insert = nums[]
+        while j >= 0 and nums[] > item_to_insert:
+            nums[] = nums[j]
+        nums[] = item_to_insert
+random_list_of_nums = [ 1, 15, 28, 6]
+insertion_sort()

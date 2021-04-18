@@ -1,0 +1,15 @@
+    chrome_options = ()
+        "printing.print_preview_sticky_settings.appState": (settings)
+    ("prefs", prefs)
+    ("--kiosk-printing")
+        ().install(), options=chrome_options
+    browser = ()
+    (URL)
+    ("window.print();")
+    ()
+    URL = ("provide article URL: ")
+    if (URL).status_code == 200:
+            (URL)
+            ("Your article is successfully downloaded")
+            (e)
+        ("Enter a valid  working URL")

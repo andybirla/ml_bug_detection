@@ -1,0 +1,25 @@
+                tt = datetime.utcfromtimestamp()
+                string = tt.strftime()
+            label[] = display
+            label.after( count)
+    counter_label()
+    start[] = 'disabled'
+    stop[] = 'normal'
+    reset[] = 'normal'
+    start[] = 'normal'
+    stop[] = 'disabled'
+    reset[] = 'normal'
+		reset[] = 'disabled'
+		label[] = '00:00:00'
+		label[] = '00:00:00'
+root.title()
+root.minsize( height=70)
+label = Tkinter.Label( text='Ready!', fg='black', font='Verdana 30 bold')
+f = Tkinter.Frame()
+start = Tkinter.Button( text='Start', width=6, command=lambda: Start(label))
+stop = Tkinter.Button( text='Stop', width=6, state='disabled', command=Stop)
+reset = Tkinter.Button( text='Reset', width=6, state='disabled', command=lambda: Reset(label))
+f.pack( pady=5)
+start.pack()
+stop.pack()
+reset.pack()

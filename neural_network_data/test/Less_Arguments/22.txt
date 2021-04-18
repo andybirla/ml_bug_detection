@@ -1,0 +1,4 @@
+for _ in range())):
+    n = int())
+    if ():
+        c = c + s[]

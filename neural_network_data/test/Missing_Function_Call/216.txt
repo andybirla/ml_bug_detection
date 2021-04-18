@@ -1,0 +1,35 @@
+    your_birth_day = ("enter your birthday day number> ")
+    your_birth_month = ("cool, and the month number, please> ")
+    i(int(your_birth_month) == 12 and int(your_birth_day) >= 22) or (
+        (your_birth_month) == 1 and int(your_birth_day) <= 19
+    e(int(your_birth_month) == 1 and int(your_birth_day) >= 20) or (
+        (your_birth_month) == 2 and int(your_birth_day) <= 17
+    e(int(your_birth_month) == 2 and int(your_birth_day) >= 18) or (
+        (your_birth_month) == 3 and int(your_birth_day) <= 19
+    e(int(your_birth_month) == 3 and int(your_birth_day) >= 20) or (
+        (your_birth_month) == 4 and int(your_birth_day) <= 19
+    e(int(your_birth_month) == 4 and int(your_birth_day) >= 20) or (
+        (your_birth_month) == 5 and int(your_birth_day) <= 20
+    e(int(your_birth_month) == 5 and int(your_birth_day) >= 21) or (
+        (your_birth_month) == 6 and int(your_birth_day) <= 20
+    e(int(your_birth_month) == 6 and int(your_birth_day) >= 21) or (
+        (your_birth_month) == 7 and int(your_birth_day) <= 22
+    e(int(your_birth_month) == 7 and int(your_birth_day) >= 23) or (
+        (your_birth_month) == 8 and int(your_birth_day) <= 22
+    e(int(your_birth_month) == 8 and int(your_birth_day) >= 23) or (
+        (your_birth_month) == 9 and int(your_birth_day) <= 22
+    e(int(your_birth_month) == 9 and int(your_birth_day) >= 23) or (
+        (your_birth_month) == 10 and int(your_birth_day) <= 22
+    e(int(your_birth_month) == 10 and int(your_birth_day) >= 23) or (
+        (your_birth_month) == 11 and int(your_birth_day) <= 21
+    e(int(your_birth_month) == 11 and int(your_birth_day) >= 22) or (
+        (your_birth_month) == 12 and int(your_birth_day) <= 21
+    soup = (requests.get(url).content, "html.parser")
+    return ("div", class_="main-horoscope").p.text
+    ("Daily Horoscope. \n")
+    zodiac_sign = ("number> ")
+        ("choose some day:\n", "yesterday\n", "today\n", "tomorrow\n")
+        day = ("enter the day> ")
+        horoscope_text = (zodiac_sign, day)
+        (horoscope_text)
+        ("\nOk, don't worry. Soon you'll get it just pass this tiny quiz")

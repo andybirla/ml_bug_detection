@@ -1,0 +1,6 @@
+class (object):
+        ('My name is', name, 'and I have completed my', education)
+    myObj = ('Omkar')
+    ()
+    (myObj.name)                           # Can be accessed as it is public variable
+    (myObj._Person__education)             # Private variable can be accessed like this but NEVER EVER

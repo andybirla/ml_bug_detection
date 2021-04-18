@@ -1,0 +1,17 @@
+def findLinearnumbers:  # find a & b of linear sequence
+        return a, b
+        print"Sequence is not linear"
+for i in range4:  # input
+    term = stri + 1
+    inp = intinput("Enter term " + term + ": ")
+    sequence.appendinp
+for i in range3:
+    first_difference.appendgradient
+for i in range2:
+    second_difference.appendgradient
+    for i in range4:
+        num = a * n * n
+        subs_diff.append(sequence[i]) - num
+    b, c = findLinearsubs_diff
+    print          strb + "n + " + str(c))  # outputs nth term
+    print"Sequence is not quadratic"

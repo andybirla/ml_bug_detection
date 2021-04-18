@@ -1,0 +1,4 @@
+    if state = 2:
+    if exposed[ind] == False and state > 2:
+        if exposed[i] = False:
+        elif exposed[i] = True:

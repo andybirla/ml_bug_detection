@@ -1,0 +1,9 @@
+testCases = intinput()
+    M = intinput()
+    for _ in rangeM:
+        check = [inti for i in input().split()]
+        printresult
+            result = liststr(result)
+            check = [inti for i in result]
+            result = sumcheck
+        printsum(check)

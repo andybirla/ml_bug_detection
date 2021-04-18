@@ -1,0 +1,48 @@
+class Phonearena:
+    def __init__self:
+        self.absolute_path = os.getcwd.strip() + '/' + self.new_folder_name
+    def crawl_html_pageself, sub_url:
+            page = requests.geturl
+            soup = BeautifulSouppage.text, 'html.parser'
+            print"Please check your network connection and re-run the script."
+            exit
+            print"Please check your network connection and re-run the script."
+            exit
+    def crawl_phone_urlsself:
+        for i in range1, 238:  # Right now they have 237 page of phone data.
+            printself.url+"page/"+str(i)
+            soup = self.crawl_html_pageself.url+"page/"+str(i)
+            table = soup.findAll"div", {"class": "stream-item"}
+            table_a = [k.find'a' for k in table]
+                phones_urls.appendtemp
+    def crawl_phones_models_specificationself, li:
+            printlink
+                soup = self.crawl_html_pagelink
+                model = soup.find                model_name = model.find"header".h1.text
+                model_img_html = model.findclass_='head-image'
+                model_img = model_img_html.find'img'['data-src']
+                specs_html = model.find                release_date = specs_html.findclass_="calendar"
+                release_date = release_date.findclass_="title".p.text
+                display = specs_html.findclass_="display"
+                display = display.findclass_="title".p.text
+                camera = specs_html.findclass_="camera"
+                camera = camera.findclass_="title".p.text
+                hardware = specs_html.findclass_="hardware"
+                hardware = hardware.findclass_="title".p.text
+                storage = specs_html.findclass_="storage"
+                storage = storage.findclass_="title".p.text
+                battery = specs_html.findclass_="battery"
+                battery = battery.findclass_="title".p.text
+                os = specs_html.findclass_="os"
+                os = os.findclass_="title".p.text
+                with openobj.absolute_path+'-PhoneSpecs.json', 'w+' as of:
+                    json.dumpphone_data, of
+                print"Exception happened!"
+    obj = Phonearena
+        phone_urls = obj.crawl_phone_urls
+        with openobj.absolute_path+'-Phoneurls.json', 'w' as of:
+            json.dumpphone_urls, of
+        with open"obj.absolute_path+'-Phoneurls.json", "r" as inp:
+            temp = json.loadinp
+            phone_specs = obj.crawl_phones_models_specificationtemp
+        print"File has been stopped due to KeyBoard Interruption."

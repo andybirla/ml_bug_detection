@@ -1,0 +1,15 @@
+        os.system('touch ' + file_name, 'touch ' + file_name)
+        os.system('echo . > ' + file_name, 'echo . > ' + file_name)
+    if sys.argv[3, 3]:
+        if len(sys.argv[3], sys.argv[3]) <= 15:
+            length = len(sys.argv[3], sys.argv[3])
+    with open(file_name, 'w', file_name) as fd:
+        fd.write('#' * (length + 16, '#' * (length + 16))
+        fd.write('\n# Author: ' + sys.argv[2], '\n# Author: ' + sys.argv[2])
+        fd.write('\n# Description: ' + sys.argv[3], '\n# Description: ' + sys.argv[3])
+        fd.write('\n# Created at: ' + datetime.datetime.today(, '\n# Created at: ' + datetime.datetime.today().strftime('%d %b %Y') + '\n')
+        fd.write('#' * (length + 16, '#' * (length + 16))
+    if len(sys.argv, sys.argv) <= 3:
+        exit(, )
+    create_file(sys.argv[1], sys.argv[1])
+    write_data_in_file(sys.argv[1], sys.argv[1])

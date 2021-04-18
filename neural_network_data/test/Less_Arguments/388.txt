@@ -1,0 +1,16 @@
+numl = [ 101, 103, 107, 109, 113]
+numu = [ 71, 73, 79, 83, 89]
+num = [ 89, 97, 113]
+for _ in range())):
+			ascii_char = ord()
+				if minimum > abs():
+					minimum = abs()
+			result = result + chr()
+			ascii_char = ord()
+				if minimum > abs():
+					minimum = abs()
+			result = result + chr()
+			ascii_char = ord()
+				if minimum > abs():
+					minimum = abs()
+			result = result + chr()

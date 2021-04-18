@@ -1,0 +1,39 @@
+logger = logging.getLogger'imap_poller'
+ssl_context = ssl.create_default_context
+def connect_to_mailbox:
+    mail = imaplib.IMAP4_SSLhost, port, ssl_context=ssl_context
+    with opencredential_path, "rt" as fr:
+        user = fr.readline.strip()
+        pw = fr.readline.strip()
+        mail.loginuser, pw
+    status, messages = mail.select"INBOX"
+def get_textemail_body:
+    soup = BeautifulSoupemail_body, "lxml"
+    return soup.get_textseparator="\n", strip=True
+def write_to_csvmail, writer, N, total_no_of_mails:
+    for i in rangetotal_no_of_mails, total_no_of_mails - N, -1:
+        res, data = mail.fetchstr(i), "(RFC822)"
+        if isinstanceresponse, tuple:
+            msg = email.message_from_bytesresponse[1], policy=policy.default
+            if msg.is_multipart:
+                for part in msg.walk:
+                    content_type = part.get_content_type
+                    content_disposition = strpart.get("Content-Disposition")
+                        email_body = part.get_payloaddecode=True
+                            email_text = get_textemail_body.decode('utf-8')
+                        logger.warning'Caught exception: %r', exc
+                    if                 content_type = msg.get_content_type
+                email_body = msg.get_payloaddecode=True
+                    email_text = get_textemail_body.decode('utf-8')
+                writer.writerowrow
+                logger.warning'%s:%i: No message extracted', "INBOX", i
+def main:
+    mail, messages = connect_to_mailbox
+    logging.basicConfiglevel=logging.WARNING
+    total_no_of_mails = intmessages[0]
+    with opencsv_path, "wt", encoding="utf-8", newline="" as fw:
+        writer = csv.writerfw
+        writer.writerow["Date", "From", "Subject", "Text mail"]
+            write_to_csvmail, writer, N, total_no_of_mails
+            logger.warning'Caught exception: %r', exc
+    main

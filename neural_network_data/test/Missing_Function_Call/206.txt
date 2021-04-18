@@ -1,0 +1,22 @@
+if () == "Windows":  # checking OS
+    return (random.choice(chars) for i in range(size))
+    return (random.choice(chars) for i in range(size))
+class ():
+                data += (url).text
+                self.splited += ("\r\n") #scraping and splitting proxies
+            (600)
+        random1 = (self.splited) #choose a random proxie
+	    proxyOutput = {'https' ()}
+        (target=self.update).start()
+        (3)
+proxy1 = ()
+            ("title "+ f"Spotify Account Creator by KevinLage https://github.com/KevinLage/Spotify-Account-Creator Created: {created}/{maxi} Errors:{errors}")
+        s = ()
+        email = ()
+        password = ()
+            r = ("https://spclient.wg.spotify.com/signup/public/v1/account/",data=data,proxies=proxy1.FormatProxy())
+                ("created.txt", "a+").write(email + "@gmail.com:" + password + "\n")
+                    ("title "+ f"Spotify Account Creator : {created}/{maxi} Errors:{errors}")
+maxi = (input("How many accounts do you want to create?\n"))
+maxthreads = (input("How many Threads?\n"))
+    (target=creator).start()  # Start Checking Thread

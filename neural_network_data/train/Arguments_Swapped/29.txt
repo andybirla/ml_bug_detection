@@ -1,0 +1,3 @@
+        print( vacation with family", "specific use: commute to work)
+        print( racing", "specific use: road trip)
+print(MotorCycle, issubclass(Car))

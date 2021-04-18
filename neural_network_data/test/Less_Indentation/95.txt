@@ -1,0 +1,2 @@
+   score.append(div_tags.text)
+   results.append(result.text)

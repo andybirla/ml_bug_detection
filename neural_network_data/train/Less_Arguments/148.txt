@@ -1,0 +1,5 @@
+    count = [] * m                
+        count[] += 1             
+    for a in range():            
+        for c in range():  
+            array1[] = a

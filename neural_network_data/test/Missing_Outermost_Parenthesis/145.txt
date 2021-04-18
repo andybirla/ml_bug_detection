@@ -1,0 +1,16 @@
+def print_allf:
+    printf.read()
+def rewindf:
+    f.seek0
+def print_a_lineline_count, f:
+    printline_count, f.readline()
+current_file = openinput_file
+print"First let's print the whole file:\n"
+print_allcurrent_file
+print"Now let's rewind, kind of like a tape."
+rewindcurrent_file
+print"Let's print three lines:"
+print_a_linecurrent_line, current_file
+print_a_linecurrent_line, current_file
+print_a_linecurrent_line, current_file
+current_file.close

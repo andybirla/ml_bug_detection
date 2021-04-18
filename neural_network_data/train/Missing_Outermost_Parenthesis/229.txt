@@ -1,0 +1,23 @@
+class Graph:
+    def __init__self, count:
+    def printGraphself:
+        for i in self.vertex.keys:
+            printi,' -> ', ' -> '.join([str(j) for j in self.vertex[i]])
+    def addEdgeself, fromVertex, toVertex:
+        if fromVertex in self.vertex.keys:
+            self.vertex[fromVertex].appendtoVertex
+    def topologicalSortself:
+        for vertex in rangeself.count:
+                self.topologicalSortRecvertex, visited, stack
+        print' '.join([str(i) for i in stack])
+    def topologicalSortRecself, vertex, visited, stack:
+                    self.topologicalSortRecadjacentNode, visited, stack
+        stack.insert0,vertex
+    g= Graph6
+    g.addEdge5, 2
+    g.addEdge5, 0
+    g.addEdge4, 0
+    g.addEdge4, 1
+    g.addEdge2, 3
+    g.addEdge3, 1
+    g.topologicalSort

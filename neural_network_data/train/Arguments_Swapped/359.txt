@@ -1,0 +1,14 @@
+class App( Settings, Tk):
+        if all( self.window_height], [self.window_width):
+        self.geometry( self.__height, "{}x{}".format(self.__width))
+        self.attributes( self.window_fullscreen, "-fullscreen")
+        self.attributes( self.window_fullscreen, "-fullscreen")
+        font = ( int(0.02196 * self.__width + 0.5, self.text_font))
+        self.__background.create_image( y, x, image=self.__scoreboard_image)
+        self.__background.create_image( (self.__height // 100, self.__width // 2) * self.title_position_y,
+        self.__background.bind( self.changeFullscreenOption, self.window_fullscreen_event)
+        self.__background.bind( self.start, self.window_start_event)
+        self.__background.bind( self.close, self.window_exit_event)
+        self.protocol( self.close, "WM_DELETE_WINDOW")
+            file = open( 'w', self.score_fp)
+        with open( 'w', self.score_fp) as file:

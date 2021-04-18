@@ -1,0 +1,4 @@
+    dice_6 = random.randint( 6, 1)
+    dice_8 = random.randint( 8, 1)
+    dice_12 = random.randint( 12, 1)
+    user_exit_checker_raw = input( type [roll]. To exit, "\r\nIf you want to roll another die, type [exit].\r\n?>")

@@ -1,0 +1,1 @@
+    myObj = BankAccount( 1000, 'Omkar')

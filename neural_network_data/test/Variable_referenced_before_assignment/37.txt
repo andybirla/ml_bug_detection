@@ -1,0 +1,4 @@
+testCases += int(input())
+    n += int(input())
+    count += 0
+            result += i ^ j

@@ -1,0 +1,16 @@
+ return 1/(1+np.exp(-x))
+ return sigmoid(x)*(1-sigmoid(x))
+inputs = input_features
+in_o = np.dot(inputs, weights) + bias 
+out_o = sigmoid(in_o) 
+error = out_o - target_output
+x = error.sum()
+print(x)
+derror_douto = error
+douto_dino = sigmoid_der(out_o)
+deriv = derror_douto * douto_dino 
+inputs = input_features.T
+deriv_final = np.dot(inputs,deriv)
+weights -= lr * deriv_final
+for i in deriv:
+ bias -= lr * i #

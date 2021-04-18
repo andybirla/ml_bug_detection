@@ -1,0 +1,7 @@
+hasher = ()
+with (fileToOpen, 'rb') as afile:
+    buf = (BLOCKSIZE)
+    while (buf) > 0:
+        (buf)
+        buf = (BLOCKSIZE)
+(hasher.hexdigest())

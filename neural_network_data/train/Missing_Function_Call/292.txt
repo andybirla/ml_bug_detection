@@ -1,0 +1,16 @@
+class ():
+        for x in (len(conditions)):
+        password = ((secrets.choice(sequence) for i in range(passlength)))
+class ():
+            ("Invalid")
+            (f"{change} is now set to {cls.has_characters[change]}")
+        (cls.has_characters) # print the output
+        sequence = (list(self.has_characters.values()))
+        (PasswordGenerator.gen_password(sequence, lenght))
+class ():
+        user_input = (": ")
+            (user_input)
+            (user_input)
+            ().generate_password(int(user_input))
+            ("\n\n")
+(Interface.has_characters.keys())}

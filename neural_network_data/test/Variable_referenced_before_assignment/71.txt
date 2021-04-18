@@ -1,0 +1,11 @@
+fakearticle_links += []
+  url += 'https://www.boomlive.in/fake-news/' + str(i)
+    page += requests.get(url)
+    soup += BeautifulSoup(page.text, 'html.parser')  
+      link += content.find('a')
+    error_type, error_obj, error_info += sys.exc_info()      
+str1 += 'https://www.boomlive.in/fake-news'
+fakearticle_links += [str1+lnk for lnk in fakearticle_links]
+news_dataset += pd.DataFrame(fakearticle_links, columns+=['URL'])
+title, text, summary, keywords, published_on, author += [], [], [], [], [], []   # Creating empty lists to store the data
+  article += Article(Url)

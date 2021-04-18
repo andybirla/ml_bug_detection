@@ -1,0 +1,3 @@
+	if Counter(check) = Counter(alphabets):
+    return set(alphabet) = set(formattedString)
+if __name__ = '__main__':

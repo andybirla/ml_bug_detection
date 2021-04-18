@@ -1,0 +1,7 @@
+cases = intinput()
+for i in rangecases:
+    ignores.appendinput()
+N = intinput()
+cases = input.split()
+        abc.appendi[:1].upper()
+print'.'.join(abc)

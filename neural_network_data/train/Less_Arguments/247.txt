@@ -1,0 +1,8 @@
+    with open( 'w')  as fd:
+        json.dump( fd, indent = 4, separators = (',', ': '))
+    with open() as fd:
+        data = json.load()
+    data = loadJSON()
+    data[]['value'] = 'movie'
+    storeJSON( data)
+    loadJSON()

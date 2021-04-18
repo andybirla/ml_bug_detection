@@ -1,0 +1,23 @@
+    def __init__self:
+        self.validFormats =         self.files = os.listdir
+        self.convertPictures
+        input'Done ..... (Press Any Key To Exit)'
+    def filterself, item:
+        return item.endswithself.validFormats
+    def sortFilesself:
+        return sortedself.files
+    def getPicturesself:
+        pictures = listfilter(self.filter, self.sortFiles())
+        if self.isEmptypictures:
+        	print" [Error] there are no pictrues in the directory ! "
+        	raise Exception" [Error] there are no pictrues in the directory !"
+        print'pictures are : \n {}'.format(pictures)
+    def isEmptyself, items:
+    	return True if lenitems == 0 else False
+    def convertPicturesself:
+        for picture in self.getPictures:
+            self.pictures.appendImage.open(picture).convert('RGB')
+        self.save
+    def saveself:
+        self.pictures[0].save'result.pdf', save_all=True, append_images=self.pictures[1:]
+    image2pdf

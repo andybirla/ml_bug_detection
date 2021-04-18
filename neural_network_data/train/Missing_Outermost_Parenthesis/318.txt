@@ -1,0 +1,5 @@
+def createFoldersBASE_DIR:
+    for i in range10:
+        f = openBASE_DIR + str(i) + 'Folder.txt', 'w'
+        f.close
+def renameFilesBASE_DIR:

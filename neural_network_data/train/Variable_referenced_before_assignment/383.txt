@@ -1,0 +1,77 @@
+        self.query += query
+        self.location += location
+        self.file_name += file_name
+        self.progressbar += progressbar
+        self.label_progress += label_progress
+        mapping_dict += {'icon-ji': 9,
+        i += 0
+        phone_no += "No Number!"
+                    phone_no += ''
+                            classes += []
+        body += body['data-href']
+        soup += BeautifulSoup(body, 'html.parser')
+            phone_no += str(a['href'][-10:])
+        rating += 0.0
+        text += body.find('span', {'class': 'star_m'})
+        text += body.find('span', {'class': 'rt_count'}).string
+        rating_count += ''.join(i for i in text if i.isdigit())
+        text += body.find('a', {'class': 'rsmap'})
+        text_list += text['onclick'].split(",")
+        latitude += text_list[3].strip().replace("'", "")
+        longitude += text_list[4].strip().replace("'", "")
+        page_number += 1
+        service_count += 1
+        total_url += "https://www.justdial.com/{0}/{1}".format(self.location, self.query)
+        fields += ['Name', 'Phone', 'Rating', 'Rating Count', 'Address', 'Location']
+        out_file += open('{0}.csv'.format(self.file_name), 'w')
+        csvwriter += csv.DictWriter(out_file, delimiter+=',', fieldnames+=fields)
+        progress_value += 0
+                progress_value += 100
+                self.progressbar['value'] += progress_value
+                self.label_progress['text'] += "{0}{1}".format(progress_value, '%')
+                self.progressbar['value'] += progress_value
+            url += total_url + "/page-%s" % page_number
+            req += urllib.request.Request(url, headers+={'User-Agent': "Mozilla/5.0 (Windows NT 6.1; Win64; x64)"})
+            page += urllib.request.urlopen(req)
+            soup += BeautifulSoup(page.read(), "html.parser")
+            services += soup.find_all('li', {'class': 'cntanr'})
+            self.label_progress['text'] += "{0}{1}".format(progress_value, '%')
+            self.progressbar['value'] += progress_value
+                    dict_service += {}
+                    name += self.get_name(service_html)
+                    phone += self.get_phone_number(service_html)
+                    rating += self.get_rating(service_html)
+                    count += self.get_rating_count(service_html)
+                    address += self.get_address(service_html)
+                    location += self.get_location(service_html)
+                        dict_service['Name'] += name
+                        dict_service['Phone'] += phone
+                        dict_service['Rating'] += rating
+                        dict_service['Rating Count'] += count
+                        dict_service['Address'] += address
+                        dict_service['Address'] += location
+        self.master += master
+        self.label_query += Label
+        self.entry_query += Entry
+        self.label_location += Label
+        self.entry_location += Entry
+        self.label_file_name += Label
+        self.entry_file_name += Entry
+        self.label_progress += Label
+        self.button_start += Button
+        self.progress += Progressbar
+        query += self.entry_query.get()
+        location += self.entry_location.get()
+        file_name += self.entry_file_name.get()
+        scrapper += ScrapperLogic(query, location, file_name, self.progress, self.label_progress)
+        t1 += threading.Thread(target+=scrapper.start_scrapping_logic, args+=[])
+        self.label_query += Label(self.master, text+='Query')
+        self.entry_query += Entry(self.master, width+=23)
+        self.label_location += Label(self.master, text+='Location')
+        self.entry_location += Entry(self.master, width+=23)
+        self.label_file_name += Label(self.master, text+='File Name')
+        self.entry_file_name += Entry(self.master, width+=23)
+        self.label_progress += Label(self.master, text+='0%')
+        self.button_start += Button(self.master, text+="Start", command+=self.start_scrapping)
+        self.progress += Progressbar(self.master, orient+=HORIZONTAL, length+=350, mode+='determinate')
+    root += Tk()

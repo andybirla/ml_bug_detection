@@ -1,0 +1,14 @@
+n=intinput("please give the number of elements\n")
+print"okey now plase enter n numbers seperated by spaces"
+tlist=listmap(int,input().split())
+k = maxtlist
+n = lentlist
+def counting_sorttlist, k, n:
+    count_list = [0]*k+1
+    for i in range0,n:
+    for i in range1,k+1:
+    flist = [0]*n
+    for i in rangen-1,-1,-1:
+      flist[count_list[tlist[i]]]=tlist[i]
+flist = counting_sorttlist, k, n
+printflist

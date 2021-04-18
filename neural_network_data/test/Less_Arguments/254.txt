@@ -1,0 +1,3 @@
+confdir = os.getenv()  # Set the variable confdir from the OS environment variable
+conffilename = os.path.join( conffile)  # Set the variable conffilename by joining confdir and conffile together
+for env_check in open():  # Open the config file and read all the settings

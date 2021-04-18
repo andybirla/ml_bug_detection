@@ -1,0 +1,19 @@
+cap = cv2.VideoCapture0
+face_cascade = cv2.CascadeClassifier'face.xml'
+nose_cascade = cv2.CascadeClassifier'Nose.xml'
+mustache = cv2.imread'image/mustache.png', -1
+while True:
+    ret, frame = cap.read
+    gray = cv2.cvtColorframe, cv2.COLOR_BGR2GRAY
+    faces = face_cascade.detectMultiScale    frame = cv2.cvtColorframe, cv2.COLOR_BGR2BGRA
+    for x, y, w, h in faces:
+        nose = nose_cascade.detectMultiScale        for nx, ny, nw, nh in nose:
+            mustache2 = image_resizemustache.copy(), width=nw
+            for i in range0, mw:
+                for j in range0, mh:
+                        roi_color[ny + intnh / 2.0 + i, nx +
+    frame = cv2.cvtColorframe, cv2.COLOR_BGRA2BGR
+    cv2.imshow'frame', frame
+    if cv2.waitKey20 & 0xFF == ord('x'):
+cap.release
+cv2.destroyAllWindows

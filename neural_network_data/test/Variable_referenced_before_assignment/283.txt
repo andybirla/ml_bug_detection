@@ -1,0 +1,5 @@
+N += int(input("Enter The Size Of Array"))
+list += []
+    temp += int(input("Enter The Intger Numbers"))
+finalList += []
+d += int(input("Enter The Number Of Times You Want To Rotate The Array"))

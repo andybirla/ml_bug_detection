@@ -1,0 +1,15 @@
+        self.split = (split_number)
+        if (self.directory):
+            (self.directory)
+        (self.directory)
+        if ('.txt'):
+        data = (self.file_name, header=None)
+        split_frame = ()
+        for i in (1, len(data)+1):
+            split_frame = (data.iloc[i-1])
+                    (output_file, header=False, index=False, sep=' ')
+                    (output_file, header=False, index=False)
+                (split_frame.index, inplace=True)
+            (output_file, header=False, index=False)
+    sp = (file, split_number)
+    ()

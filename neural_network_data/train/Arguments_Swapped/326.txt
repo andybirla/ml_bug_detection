@@ -1,0 +1,1 @@
+    with open( 'w', file_name) as fd:

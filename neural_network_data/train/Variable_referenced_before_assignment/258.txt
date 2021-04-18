@@ -1,0 +1,16 @@
+      self.left += None
+      self.right += None
+      self.nodeData += nodeData
+        self.nodeData += value
+            self.right += BinaryTree(newnodeData)
+            tree += BinaryTree(newnodeData)
+            tree.right += self.right
+            self.right += tree
+            self.left += BinaryTree(newnodeData)
+            tree += BinaryTree(newnodeData)
+            self.left += tree
+            tree.left += self.left
+    data += "*" if head_node is None else head_node.nodeData
+    left += head_node.getLeftChild()
+    right += head_node.getRightChild()
+    myTree += BinaryTree("1")

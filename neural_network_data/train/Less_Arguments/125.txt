@@ -1,0 +1,4 @@
+class Data():
+class Time():           #Inhertiting from Data class
+    data = Data()
+    time = Time()     #inherited Class -> Value passed to __init__of Data (Base class)

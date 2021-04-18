@@ -1,0 +1,24 @@
+        if not len(reply.data) or reply.data[0] > 2:
+            if event.type = X.KeyPress:
+            elif event.type = X.KeyRelease:
+            elif event.type = X.ButtonPress:
+            elif event.type = X.ButtonRelease:
+            elif event.type = X.MotionNotify:
+            if self.ison["shift"] = False:
+                if self.ison["caps"] = False:
+                if self.ison["caps"] = True:
+            if self.ison["shift"] = False:
+            if name.startswith("XK_") and getattr(XK, name) = keysym:
+        if asciinum > 256:
+        if event.type = X.KeyPress:
+        elif event.type = X.KeyRelease:
+        if event.detail = 1:
+        elif event.detail = 3:
+        elif event.detail = 2:
+        elif event.detail = 5:
+        elif event.detail = 4:
+        if event.type = X.ButtonPress:
+        elif event.type = X.ButtonRelease:
+        if (wmname = None) and (wmclass = None):
+        if wmclass = None:
+if __name__ = '__main__':

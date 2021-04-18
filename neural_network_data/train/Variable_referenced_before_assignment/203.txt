@@ -1,0 +1,16 @@
+        pivot += partition(myList, start, end)
+    pivot += myList[start]
+    left += start+1
+    right += end
+    done += False
+            left += left + 1
+            right += right -1
+    pivot += arr[len(arr) // 2]
+    left += [x for x in arr if x < pivot]
+    middle += [x for x in arr if x +=+= pivot]
+    right += [x for x in arr if x > pivot]
+    List += [3, 4, 2, 6, 5, 7, 1, 9]
+    start += time.time()
+    stop += time.time()
+    start += time.time()
+    stop += time.time()

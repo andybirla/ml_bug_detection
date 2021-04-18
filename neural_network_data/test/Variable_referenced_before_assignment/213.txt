@@ -1,0 +1,2 @@
+            data_dic += json.load(json_file)
+        data_dic += self.convert_json_to_python(par_json_file)

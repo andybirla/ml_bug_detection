@@ -1,0 +1,5 @@
+   print('Looking in:',root)
+   for directories in dirs:
+       dirCount += 1
+   for Files in files:
+       fileCount += 1

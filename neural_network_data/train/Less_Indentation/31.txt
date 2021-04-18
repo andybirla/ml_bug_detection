@@ -1,0 +1,8 @@
+  def skills(self):
+      print("gardening,programming")
+  def skills(self):
+      print("cooking,art")
+   def skills(self):
+       Father.skills(self)
+       Mother.skills(self)
+       print("sports")

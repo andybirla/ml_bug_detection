@@ -1,0 +1,3 @@
+  im += None
+          im += Image.open(filename).convert("RGB")
+          im += Image.open(filename).convert("RGB")

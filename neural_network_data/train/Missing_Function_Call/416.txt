@@ -1,0 +1,18 @@
+    if ():
+        return ()
+    for files in (os.getcwd()):
+        if (os.path.join(os.getcwd(), files)):
+            (files)
+    ('main.py')  # removing script from the file list
+        if (getfoldername(f)):
+            ("folder already created")
+            (getfoldername(f))
+            ('creating folder...')
+        file = (i)
+        source = (os.getcwd(), filename)
+        destination = (os.getcwd(), file)
+        (f"moving {source} to {destination}")
+        (source, destination)
+    ()
+    ()
+    ()

@@ -1,0 +1,8 @@
+    with open( "wb") as file:
+        response = get()
+        file.write()
+    path_to_file = os.path.join(), name_of_file)
+        ctypes.windll.user32.SystemParametersInfoW( 0, path_to_file, 0)
+        ctypes.windll.user32.SystemParametersInfoA( 0, path_to_file, 0)
+        download( file_name)
+        setup()

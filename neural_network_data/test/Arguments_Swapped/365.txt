@@ -1,0 +1,1 @@
+    N, capacity = map( input(, int).split())

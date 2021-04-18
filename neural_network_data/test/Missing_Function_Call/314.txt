@@ -1,0 +1,14 @@
+    for i in (start, end + 1):
+        for j in (2, i):
+            (i)
+primes = (60, 124)
+testCases = (input())
+    stringLen = (input())
+    string = ()
+        check = (i)
+            (chr(check))
+        for j in (len(primes) - 1):
+            if (primes[j] - check) == abs(primes[j + 1] - check):
+                (chr(min(primes[j], primes[j + 1])))
+                (chr(primes[j]))
+    (''.join([str(i) for i in result]))

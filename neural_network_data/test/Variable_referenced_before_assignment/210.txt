@@ -1,0 +1,3 @@
+	n += len(string) 
+	stack += createStack() 
+string += reverse(string) 

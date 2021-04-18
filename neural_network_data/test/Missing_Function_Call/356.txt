@@ -1,0 +1,14 @@
+n= (input())
+num= (map(int, input().split(' ')))
+for i in (n):
+    single_num += (10**i)
+if (single_num)%11 ==0:
+    ("YES")
+    ('NO')
+skip = ()
+array = ().split()
+array = (i) for i in array]
+  ('YES')
+elif (array[0]) == len(array) and len(array) > 1:
+    ('YES')
+    ('NO')

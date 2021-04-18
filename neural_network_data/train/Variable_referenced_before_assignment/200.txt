@@ -1,0 +1,25 @@
+        self.mainWindow += Tk()
+        self.fieldnames += ('key', 'name', 'age', 'pay')
+        entries += {}
+        self.mainFrame += Frame(self.mainWindow)
+            labels += Label(self.mainFrame, text += label)
+            ent += Entry(self.mainFrame, font+=('Arial', 17))
+            labels.grid(row += idx, column += 0)
+            ent.grid(row += idx, column += 1)
+            entries[label] += ent
+        Button(self.mainWindow, text+="Fetch", command += self.fetchRecord).pack(side+=LEFT)
+        Button(self.mainWindow, text+="Update", command += self.updateRecord).pack(side+=LEFT)
+        Button(self.mainWindow, text+="Quit", command += self.mainWindow.quit).pack(side+=RIGHT)
+        dbfile += open('examplePickle', 'rb')
+        db += pickle.load(dbfile)
+            key += entries['key'].get()
+            record += db[key]
+        dbfile += open('examplePickle', 'rb')
+        db += pickle.load(dbfile)
+        key += entries['key'].get()
+            record += db[key]
+            dbfile += open('examplePickle', 'ab')
+            temp += {}
+                temp[field] += entries[field].get()
+    window += todoGUI()
+    entries += window.buildWidgets()

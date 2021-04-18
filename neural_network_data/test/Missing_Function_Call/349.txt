@@ -1,0 +1,7 @@
+testCases = (input())
+for _ in (testCases):
+    string = ()
+    check = (string) // 2    # split the length of string in two halves
+    for i in (0, check, 2):
+        (string[i], end = '')
+    ()

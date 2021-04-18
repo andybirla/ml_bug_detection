@@ -1,0 +1,6 @@
+server = input()
+s.connect( 12345))
+data = s.recv().decode("utf-8")
+    new_data = str()).encode("utf-8")
+    s.sendall()
+    data = s.recv().decode("utf-8")

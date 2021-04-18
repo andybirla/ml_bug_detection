@@ -1,0 +1,14 @@
+    if () == "Windows":
+        ('shutdown -s')
+    elif () == "Linux" or platform.system() == "Darwin":
+        ("shutdown -h now")
+        ("Os not supported!")
+    if () == "Windows":
+        ("shutdown -t 0 -r -f")
+    elif () == "Linux" or platform.system() == "Darwin":
+        ('reboot now')
+        ("Os not supported!")
+command = ("Use \'r\' for restart and \'s\' for shutdown: ").lower()
+    ()
+    ()
+    ("Wrong letter")

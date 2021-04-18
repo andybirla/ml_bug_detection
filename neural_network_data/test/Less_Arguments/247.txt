@@ -1,0 +1,5 @@
+soc=socket.socket(socket.SOCK_STREAM)
+soc.bind(),2905))
+soc.listen()
+    currentTime = time.ctime()) + "\r\n"
+    clientsocket.send())

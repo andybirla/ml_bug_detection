@@ -1,0 +1,5 @@
+		microphone.adjust_for_ambient_noise()
+		audio = microphone.listen()
+			phrase = microphone.recognize_google( language='en')
+	with open('w') as file:
+		file.write() 

@@ -1,0 +1,9 @@
+n, q += map(int, input().split())
+array += [int(i) for i in input().split()]
+    mid += (low + high) // 2
+        low += mid + 1
+        high += mid - 1
+    number += int(input())
+    ans += binarySearch(0,len(array), number)
+in_ += input().split()
+arr += [x for x in input().split()]

@@ -1,0 +1,13 @@
+    for filename in (work_dir):
+        split_file = (filename)
+                (work_dir, filename),
+                (work_dir, newfile)
+    ("rename is done!")
+    (os.listdir(work_dir))
+    parser = (description='change extension of files in a working directory')
+    ('old_ext', metavar='OLD_EXT', type=str, nargs=1, help='old extension')
+    ('new_ext', metavar='NEW_EXT', type=str, nargs=1, help='new extension')
+    parser = ()
+    args = (parser.parse_args())
+    (work_dir, old_ext, new_ext)
+    ()

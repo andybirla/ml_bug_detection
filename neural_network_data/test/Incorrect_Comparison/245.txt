@@ -1,0 +1,2 @@
+    if(usr = usr1 and psw = psw1):
+if __name__="__main__":

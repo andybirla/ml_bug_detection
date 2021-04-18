@@ -1,0 +1,8 @@
+def calc_squarenumbers, q:
+        q.putn*n
+    q = multiprocessing.Queue
+    p = multiprocessing.Processtarget=calc_square, args=(numbers,q)
+    p.start
+    p.join
+    while q.empty is False:
+        printq.get()

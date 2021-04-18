@@ -1,0 +1,77 @@
+   b = txt1.get()
+   txt1.delete(0, END)
+   b1 = b + btn1["text"]
+   txt1.insert(0, b1)
+   b = txt1.get()
+   txt1.delete(0, END)
+   b1 = b + btn2["text"]
+   txt1.insert(0, b1)
+   b = txt1.get()
+   txt1.delete(0, END)
+   b1 = b + btn3["text"]
+   txt1.insert(0, b1)
+   b = txt1.get()
+   txt1.delete(0, END)
+   b1 = b + btn4["text"]
+   txt1.insert(0, b1)
+   b = txt1.get()
+   txt1.delete(0, END)
+   b1 = b + btn5["text"]
+   txt1.insert(0, b1)
+   b = txt1.get()
+   txt1.delete(0, END)
+   b1 = b + btn6["text"]
+   txt1.insert(0, b1)
+   b = txt1.get()
+   txt1.delete(0, END)
+   b1 = b + btn7["text"]
+   txt1.insert(0, b1)
+   b = txt1.get()
+   txt1.delete(0, END)
+   b1 = b + btn8["text"]
+   txt1.insert(0, b1)
+   b = txt1.get()
+   txt1.delete(0, END)
+   b1 = b + btn9["text"]
+   txt1.insert(0, b1)
+   b = txt1.get()
+   txt1.delete(0, END)
+   b1 = b + btn0["text"]
+   txt1.insert(0, b1)
+   global x
+   add.b = (eval(txt1.get()))
+   txt1.delete(0, END)
+   x = x + 1
+   global x
+   subtract.b = (eval(txt1.get()))
+   txt1.delete(0, END)
+   x = x + 2
+   b = txt1.get()
+   global x
+   if x == 1:
+       c = (eval(txt1.get())) + add.b
+       cls()
+       txt1.insert(0, c)
+   elif x == 2:
+       c = subtract.b - (eval(txt1.get()))
+       cls()
+       txt1.insert(0, c)
+   elif x == 3:
+       c = multiply.b*(eval(txt1.get()))
+       cls()
+       txt1.insert(0, c)
+   elif x == 4:
+       c = divide.b/(eval(txt1.get()))
+       cls()
+       txt1.insert(0,c)
+   global x
+   x = 0
+   txt1.delete(0, END)
+   global x
+   multiply.b = (eval(txt1.get()))
+   txt1.delete(0, END)
+   x = x + 3
+   global x
+   divide.b = (eval(txt1.get()))
+   txt1.delete(0, END)
+   x = x + 4

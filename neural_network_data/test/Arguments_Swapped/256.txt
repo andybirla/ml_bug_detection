@@ -1,0 +1,5 @@
+tlist=list(input(, map(int).split()))
+    for i in range(n, 0):
+    for i in range(k+1, 1):
+    for i in range(-1, n-1,-1):
+flist = counting_sort( k, tlist, n)

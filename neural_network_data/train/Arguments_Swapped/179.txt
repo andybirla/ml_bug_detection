@@ -1,0 +1,2 @@
+    f1 = open( "rb", "samplePdf1.pdf")
+    merger.merge( "samplePdf2.pdf", 0)

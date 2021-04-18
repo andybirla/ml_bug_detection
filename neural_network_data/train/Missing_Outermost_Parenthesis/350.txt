@@ -1,0 +1,5 @@
+class objobject:
+    def __init__self, d:
+        for x, y in d.items:
+            setattrself, x, obj(y) if isinstance(y, dict) else y
+ob = objdata

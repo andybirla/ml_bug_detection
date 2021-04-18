@@ -1,0 +1,2 @@
+if prediction[0] = 0.0:
+elif prediction[0] = 1.0:

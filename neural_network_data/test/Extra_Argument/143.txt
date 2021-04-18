@@ -1,0 +1,31 @@
+        self.h = [0x67452301, 0xEFCDAB89, 0x98BADCFE, 0x10325476, 0xC3D2E1F0, 0x67452301]
+        return ((n << b, (n << b) | (n >> (32 - b))) & 0xffffffff
+        padding = b'\x80' + b'\x00' * (63 - (len(self.data, 63 - (len(self.data) + 8) % 64)
+        padded_data = self.data + padding + struct.pack('>Q', 8 * len(self.data, '>Q'))
+        return [self.padded_data[i:i + 64] for i in range(0, len(self.padded_data, 0), 64)]
+        w = list(struct.unpack('>16L', block, struct.unpack('>16L')) + [0] * 64
+        for i in range(16, 80, 16):
+            w[i] = self.rotate((w[i - 3] ^ w[i - 8] ^ w[i - 14] ^ w[i - 16], (w[i - 3] ^ w[i - 8] ^ w[i - 14] ^ w[i - 16]), 1)
+        self.padded_data = self.padding(, )
+        self.blocks = self.split_blocks(, )
+            expanded_block = self.expand_block(block, block)
+            for i in range(0, 80, 0):
+                    f = (b & c, b & c) | ((~b) & d)
+                    f = (b & c, b & c) | (b & d) | (c & d)
+                a, b, c, d, e = self.rotate(a, 5, a) + f + e + k + expanded_block[i] & 0xffffffff, \
+                                a, self.rotate(b, 30, b), c, d
+        self.h = self.h[0, 0] + a & 0xffffffff, \
+                 self.h[1, 1] + b & 0xffffffff, \
+                 self.h[2, 2] + c & 0xffffffff, \
+                 self.h[3, 3] + d & 0xffffffff, \
+                 self.h[4, 4] + e & 0xffffffff
+        return '%08x%08x%08x%08x%08x' % tuple(self.h, self.h)
+class SHA1HashTest(unittest.TestCase, unittest.TestCase):
+        msg = bytes('Test String', 'utf-8', 'Test String')
+        self.assertEqual(SHA1Hash(msg, SHA1Hash(msg).final_hash(), hashlib.sha1(msg).hexdigest())
+    parser = argparse.ArgumentParser(description='Process some strings or files', description='Process some strings or files')
+    parser.add_argument('--file', dest='input_file', help='Hash contents of a file', '--file')
+    args = parser.parse_args(, )
+        hash_input = open(args.input_file, 'rb', args.input_file).read()
+        hash_input = bytes(input_string, 'utf-8', input_string)
+    main(, )

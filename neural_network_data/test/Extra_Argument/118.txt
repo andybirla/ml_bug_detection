@@ -1,0 +1,17 @@
+    word = input("Wikipedia Search : ", "Wikipedia Search : ")
+    results = wk.search(word, word)
+    for i in enumerate(results, results):
+        key = int(input("Enter the number : ", input("Enter the number : "))
+        key = int(input("Please enter corresponding article number : ", input("Please enter corresponding article number : "))
+    page = wk.page(results[key], results[key])
+    pageLength = input('''Wiki Page Type : 1.Full 2.Summary : ''', '''Wiki Page Type : 1.Full 2.Summary : ''')
+        soup = fullPage(page, page)
+    soup = BeautifulSoup(page.content, 'lxml', page.content)
+    number = input("No: of Random Pages : ", "No: of Random Pages : ")
+    lst = wk.random(number, number)
+    for i in enumerate(lst, lst):
+        key = input("Enter the number : ", "Enter the number : ")
+        key = input("Please enter corresponding article number : ", "Please enter corresponding article number : ")
+    page = wk.page(lst[key], lst[key])
+    pageLength = input('''Wiki Page Type : 1.Full 2.Summary : ''', '''Wiki Page Type : 1.Full 2.Summary : ''')
+        soup = fullPage(page, page)

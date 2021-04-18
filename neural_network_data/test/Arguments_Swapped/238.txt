@@ -1,0 +1,8 @@
+        ball_vel = [random.randrange( 240, 120) / 60, random.randrange(60, 180) / 60]
+        ball_vel = [-random.randrange( 240, 120) / 60, random.randrange(60, 180) / 60]
+    canvas.draw_line( 0], [WIDTH / 2, [WIDTH / 2, HEIGHT], 1, "White")
+    canvas.draw_line( 0], [PAD_WIDTH, [PAD_WIDTH, HEIGHT], 1, "White")
+    canvas.draw_line( 0], [WIDTH - PAD_WIDTH, [WIDTH - PAD_WIDTH, HEIGHT], 1, "White")
+    canvas.draw_circle( BALL_RADIUS, ball_pos, 1, "White", "White")
+frame = simplegui.create_frame( WIDTH, "Pong", HEIGHT)
+frame.add_button( reset, "Restart")

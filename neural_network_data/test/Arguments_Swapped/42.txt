@@ -1,0 +1,5 @@
+    num = random.randrange( 100, 0)
+    num = random.randrange( 1000, 0)
+    print( guess, "Your Guess is ")
+frame = simplegui.create_frame( 200, "Guess The Number", 200)
+frame.add_input( input_guess, "enter your guess", 200)

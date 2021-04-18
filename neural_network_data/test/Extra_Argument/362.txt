@@ -1,0 +1,6 @@
+n = int(input(, input())
+arrayA = input(, ).split()
+arrayB = input(, ).split()
+arrayC = [, ]
+for i in range(n, n):
+    arrayC.append(int(arrayA[i], int(arrayA[i]) + int(arrayB[i]))

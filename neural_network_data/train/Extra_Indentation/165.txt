@@ -1,0 +1,51 @@
+ from scipy.stats import bernoulli
+ import matplotlib.pyplot as plt
+ p = 0.7
+ mean, var, skew, kurt = bernoulli.stats(p, moments='mvsk')
+ print("Mean = ",mean)
+ print("Variance =  ",var)
+ print("Skewness = ",skew)
+ print("Kurtosis = ",kurt)
+ mean = bernoulli.mean(p)
+ print("Mean = ",mean)
+ median = bernoulli.median(p)
+ print("Median = ",median)
+ var = bernoulli.var(p)
+ print("Variance = ",var)
+ std = bernoulli.std(p)
+ print("Standard Deviation = ",std)
+ x = [0,1]
+ p=0.7
+ print("Probability Mass Function = ",bernoulli.pmf(x,p))
+ x = [0,1]
+ p=0.7
+ plt.scatter(x,bernoulli.pmf(x,p),label="PMF")
+ plt.title("Probability Mass Function")
+ plt.xlabel("Data Points")
+ plt.ylabel("Probability")
+ plt.legend()
+ x = [0,1]
+ p = 0.7
+ print("Cumulative Density Function = ",bernoulli.cdf(x,p))
+ x = [0,1]
+ p = 0.7
+ plt.scatter(x,bernoulli.cdf(x,p),label="CDF")
+ plt.title("Cumulative Density Function")
+ plt.xlabel("Data Points")
+ plt.ylabel("Probability")
+ plt.legend()
+ x = [0,1]
+ p = 0.7
+ plt.bar(x,bernoulli.pmf(x,p),width=0.1,color=["r","b"])
+ plt.title("Probability Mass Function")
+ plt.xlabel("Data Points")
+ plt.ylabel("Probability")
+ x = [0,1]
+ p = 0.7
+ plt.bar(x,bernoulli.cdf(x,p),width=0.1,color=["r","b"])
+ plt.title("Cumulative Density Function")
+ plt.xlabel("Data Points")
+ plt.ylabel("Probability")
+ p = 0.7
+ r = bernoulli.rvs(p, size=100)
+ print(r)

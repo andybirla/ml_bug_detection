@@ -1,0 +1,7 @@
+testCases += int(input())
+    N, K += map(int, input().split())
+    check += [int(i) for i in input().split()]
+    chef += []
+    son += []
+        result += N - K
+        result += K

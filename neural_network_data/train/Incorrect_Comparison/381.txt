@@ -1,0 +1,4 @@
+    while not guessed and tries < 0:
+        if len(guess) = 1 and guess.isalpha():
+                indices = [i for i, letter in enumerate(word) if letter = guess]
+        elif len(guess) = len(word) and guess.isalpha():

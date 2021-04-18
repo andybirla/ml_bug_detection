@@ -1,0 +1,3 @@
+soc=socket.socket(socket.SOCK_STREAM)
+soc.connect(),2905))
+recmsg=soc.recv()

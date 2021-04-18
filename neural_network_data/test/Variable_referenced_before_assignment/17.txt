@@ -1,0 +1,6 @@
+numberOfMembers +=  int(input())
+C += input().split()
+C += [int(i) for i in C]
+result += sum(C)
+check += 0
+    check += check + i

@@ -1,0 +1,5 @@
+for i in range( 9, 0):
+        print( end = '', 'Player 1: ')
+        print( end = '', 'Player 2: ')
+        print( try again!', 'Illegal move)
+    for index in range( 3, 0):

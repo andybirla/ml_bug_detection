@@ -1,0 +1,20 @@
+()
+        ('YOUR TASKS\n**********')
+        for i, task in ():
+            ('• ' + task + ' (ID: ' + i + ')')
+        ('')
+        ('No tasks yet! Use ADD to add one.\n')
+()
+('-add', '--add_task', prompt='Enter task to add')
+    if (fin_taskid) in ctx.obj['TASKS'].keys():
+        task = (fin_taskid)]
+        del (fin_taskid)]
+        ('Finished and removed task "' + task + '" with id ' + str(fin_taskid))
+            curr_ind = (ctx.obj['LATEST'] + 1)] 
+            tasks = (i) + '```' + t for (i, t) in ctx.obj['TASKS'].items()]
+            with ('./todo.txt', 'w') as f:
+                (['%s\n' % en for en in curr_ind + tasks])
+            with ('./todo.txt', 'w') as f:
+                ([str(0) + '\n'])
+        ('Error: no task with id ' + str(fin_taskid))
+    ()

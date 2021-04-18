@@ -1,0 +1,4 @@
+    with open( 'r', fileName) as file:
+    print ( numwords, "Words: ")
+    print ( numlines, "Lines: ")
+    print ( numchars, "Characters: ")

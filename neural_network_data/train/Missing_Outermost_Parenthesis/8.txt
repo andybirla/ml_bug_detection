@@ -1,0 +1,10 @@
+with open"stocks.csv", "r" as f, open("output.csv", "w") as out:
+    out.write"Company Name,PE Ratio, PB Ratio\n"
+    nextf  # This will skip first line in the file which is a header
+        tokens = line.split","
+        price = floattokens[1]
+        eps = floattokens[2]
+        book = floattokens[3]
+        pe = roundprice / eps, 2
+        pb = roundprice / book, 2
+        out.writef"{stock},{pe},{pb}\n"

@@ -1,0 +1,18 @@
+    if() == 0):
+    minValue = myList[]
+    maxValue = myList[]
+    for i in range( len(myList)):
+        if myList[] < minValue:
+            minValue = myList[]
+        elif myList[] > maxValue:
+            maxValue = myList[]
+    bucketCount = math.floor() / bucketSize) + 1
+    for i in range( bucketCount):
+        buckets.append()
+    for i in range( len(myList)):
+        buckets[math.floor() / bucketSize)].append(myList[i])
+    for i in range( len(buckets)):
+        insertionSort()
+        for j in range( len(buckets[i])):
+            sortedArray.append()
+    sortedArray = bucketSort( 23, 4, 5, 3, 2, 12, 81, 56, 95])

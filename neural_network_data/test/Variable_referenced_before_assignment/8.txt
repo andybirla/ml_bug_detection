@@ -1,0 +1,2 @@
+    number += input().strip()
+    count += number.count('4') + number.count('7')

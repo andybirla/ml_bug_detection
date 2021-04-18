@@ -1,0 +1,15 @@
+def bucketSortmyList, bucketSize=DEFAULT_BUCKET_SIZE:
+    iflen(myList) == 0:
+        print'You don\'t have any elements in array!'
+    for i in range0, len(myList):
+    bucketCount = math.floor(maxValue - minValue) / bucketSize + 1
+    for i in range0, bucketCount:
+        buckets.append[]
+    for i in range0, len(myList):
+        buckets[math.floor(myList[i] - minValue) / bucketSize].append(myList[i])
+    for i in range0, len(buckets):
+        insertionSortbuckets[i]
+        for j in range0, len(buckets[i]):
+            sortedArray.appendbuckets[i][j]
+    sortedArray = bucketSort[12, 23, 4, 5, 3, 2, 12, 81, 56, 95]
+    printsortedArray

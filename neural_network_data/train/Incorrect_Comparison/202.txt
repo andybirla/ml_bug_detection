@@ -1,0 +1,8 @@
+            if player = computer:
+            elif player = 'R':
+                if computer = 'P':
+            elif player = 'S':
+                if computer = 'R':
+            elif player = 'P':
+                if computer = 'S':
+if __name__ = '__main__':

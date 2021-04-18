@@ -1,0 +1,4 @@
+mydb = mysql.connector.connectmycursor = mydb.cursor
+mycursor.execute"SELECT column FROM table"
+myresult = mycursor.fetchall
+    printx

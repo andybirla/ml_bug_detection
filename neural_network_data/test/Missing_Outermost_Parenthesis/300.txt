@@ -1,0 +1,23 @@
+    destLocation = strsys.argv[1]
+    destLocation = strinput('Enter the Path of directory: ')
+def ChangeDirectorydir:
+        os.chdirdir
+        print'Error! Cannot change the Directory'
+        print'Enter a valid directory!'
+        ChangeDirectorystr(input('Enter the Path of directory: '))
+ChangeDirectorydestLocation
+def Organizedirs, name:
+        os.mkdirname
+        print'{} Folder Created'.format(name)
+        print'{} Folder Exist'.format(name)
+    src = '{}\\{}'.formatdestLocation, dirs
+    dest = '{}\{}'.formatdestLocation, name
+    os.chdirdest
+    shutil.movesrc, '{}\\{}'.format(dest, dirs)
+    printos.getcwd()
+    os.chdirdestLocation
+for dirs in os.listdiros.getcwd():
+        for name, extensions_list in zip            if dirs.split'.'[-1].upper() in extensions_list:
+                Organizedirs, name
+            Organizedirs, 'Folders'
+print'Done Arranging Files and Folder in your specified directory'

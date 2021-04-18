@@ -1,0 +1,18 @@
+n, q = (int, input().split())
+array = (i) for i in input().split()]
+(0, 0)
+()
+  (low <= high):
+    mid =(low + high) // 2
+for i in (q):
+    number = (input())
+    ans = (0,len(array), number)
+        ('YES')
+        ('NO')
+in_ = ().split()
+arr = [x for x in ().split()]
+arr (arr)   # since python set is a hashtable and O(n) in hashtbale is O(1)
+for i in (int(in_[1])):
+    if () in arr:
+        ("YES")
+        ("NO")

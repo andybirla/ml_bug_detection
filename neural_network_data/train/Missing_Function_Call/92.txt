@@ -1,0 +1,17 @@
+    for i in (100):
+        (0.01)
+        ()
+        ()
+    for i in (100):
+        (0.01)
+        ()
+        ()
+    balance = ('i', 200)
+    lock = ()
+    d = (target=deposit, args=(balance,lock))
+    w = (target=withdraw, args=(balance,lock))
+    ()
+    ()
+    ()
+    ()
+    (balance.value)

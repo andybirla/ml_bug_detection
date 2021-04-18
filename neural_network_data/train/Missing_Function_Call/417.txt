@@ -1,0 +1,13 @@
+parser = ()
+("-l", "--issue", required=True, help="Comics Issue Number")
+args = (parser.parse_args())
+response = (url)
+    soup = (response.content, 'html.parser')
+    image_link = ('img')[2]['src']
+    image_name = ('/')[-1]
+    r = (image_url, stream=True)
+        with (image_name, 'wb') as f:
+            (r.raw, f)
+        ('Image successfully Downloaded: ', image_name)
+        ('Image Couldn\'t be retreived')
+    ("Issue number is invalid")

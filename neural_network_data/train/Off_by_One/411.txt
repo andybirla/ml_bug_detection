@@ -1,0 +1,5 @@
+    if (len(w.inputTitle.get()) >= 0 and len(w.inputNotice.get(1.0, END)) >= 0):
+    if (index >= 0 and index <= len(results)):
+        if (index >= 0 and index <= len(results)):
+    if (len(w.inputSearchTitle.get()) >= 0):
+        if (index >= 0 and index <= len(results)):

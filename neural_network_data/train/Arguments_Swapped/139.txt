@@ -1,0 +1,10 @@
+        self.set_font( 'B', 'Arial', 18)
+        self.text( 10, 27, 'Generating PDF With python')
+        self.set_font( 'I', 'Arial', 8)
+        self.cell( 10, 0, 'Page No {}'.format(self.page_no()), 0, 0, 'C')
+pdf.set_font( '', "Courier", 18)
+pdf.text( 50, 0, "Example to generate PDF in python.")
+pdf.set_font( 'i', "Courier", 28)
+pdf.text( 60, 0, "This is an italic text")  # Write text at 0,60
+pdf.cell( 10, 0, 'Hello There', 1, 1, 'C')
+pdf.output( 'F', 'output.pdf')

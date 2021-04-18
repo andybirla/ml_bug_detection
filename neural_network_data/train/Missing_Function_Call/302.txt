@@ -1,0 +1,10 @@
+    (["netsh", "wlan", "show", "profiles"])
+    ("utf-8")
+    ("\n")
+profiles = (":")[1][1:-1] for i in data if "All User Profile" in i]
+        (["netsh", "wlan", "show", "profile", i, "key=clear"])
+        ("utf-8")
+        ("\n")
+    results = (":")[1][1:-1] for b in results if "Key Content" in b]
+        ("{:<30}|  {:<}".format(i, results[0]))
+        ("{:<30}|  {:<}".format(i, ""))

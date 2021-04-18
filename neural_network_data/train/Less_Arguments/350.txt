@@ -1,0 +1,3 @@
+class obj():
+            setattr( x, obj(y) if isinstance(y, dict) else y)
+ob = obj()

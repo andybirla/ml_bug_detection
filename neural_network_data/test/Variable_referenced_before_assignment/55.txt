@@ -1,0 +1,8 @@
+    symbol += symbol.upper()  # BTC/USDT, LTC/USDT, ETH/BTC, LTC/BTC
+    exchange_id += exchange_id.lower()  # binance, #bitmex
+    symbol_1 += symbol.split("/")
+    exchange += getattr(ccxt, exchange_id)({
+        v_price += exchange.fetch_ticker(symbol)
+        r_price += v_price['info']['lastPrice']
+            v_return += "{:.2f} {}".format(float(r_price), symbol_1[1])
+            v_return += "{:.8f} {}".format(float(r_price), symbol_1[1])

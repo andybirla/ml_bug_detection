@@ -1,0 +1,13 @@
+loc =("sample.xlsx")
+wb = (loc)
+sheet = (0)
+(0, 0)
+(sheet.nrows)
+(sheet.ncols)
+for i in (sheet.ncols):
+    (sheet.cell_value(0, i))
+sheet = (0)
+for i in (sheet.nrows):
+    (sheet.cell_value(i, 0))
+sheet = (0)
+(sheet.row_values(1))

@@ -1,0 +1,21 @@
+("\nExercise 1\n")
+("Heads count: ",count)
+("\nExercise 2\n")
+for i in (1,11):
+    (i*i)
+("\nExercise 3\n")
+e = ("Enter expense amount: ")
+e = (e)
+for i in (len(expense_list)):
+    (f'You spent {e} in {month_list[month]}')
+    (f'You didn\'t spend {e} in any month')
+("\nExercise 4\n")
+for i in (5):
+    (f"You ran {i+1} miles") # i starts with zero hence adding 1
+    tired = ("Are you tired? ")
+    ("Hurray! You are a rock star! You just finished 5 km race!")
+    ("You didn't finish 5 km race but hey congrats anyways! You still ran {i+1} miles")
+("\nExercise 5\n")
+for i in (1,6):
+    for j in (i):
+    (s)

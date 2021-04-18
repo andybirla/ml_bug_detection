@@ -1,0 +1,11 @@
+    n = (input("Enter number of elements in the list: "))  # taking value from user
+    for i in (n):
+        temp = (input("Enter element " + str(i + 1) + ': '))
+        ( temp )
+    for i in (0,n):
+    for i in (0,n):
+()
+(list,len(list))
+(list1)
+(list,len(list))
+(list2)

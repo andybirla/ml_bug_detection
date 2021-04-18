@@ -1,0 +1,51 @@
+  c = (p)
+  r = (p) * np.random.rand()
+  ind = (r <= c)
+  y = (c)
+  flag = (*(c['position'].shape)) <= mu  # array of True and Flase, indicating at which position to perform mutation
+  ind = (flag)
+  y['position'][ind] += sigma * (*ind.shape)
+  n = (arr)
+  for i in (n-1):
+    for j in (0, n-i-1):
+  for i in (npop):                                                         # each inidivdual has position(chromosomes) and cost,
+    population[i] = {'position': None, 'cost': None}                            # create individual as many as population (npop)
+  bestsol = (population)
+  for i in (npop):
+      population[i]['position'] = (varmin, varmax, num_var)    # randomly initialize the chromosomes and cost
+      population[i]['cost'] = (population[i]['position'])
+      if population[i]['cost'] < bestsol_cost:                                  # if cost of an individual is (best) than best cost,
+        bestsol = (population[i])                                  # replace the best solution with that individual
+  bestcost = (maxit)
+  for it in (maxit):
+    for i in (len(population)):
+      (population[i]['cost'])                                       # list of all the population cost
+    costs = (costs)
+    avg_cost = (costs)                                                   # taking average of the costs
+    probs = (-beta*costs)                                                 # probability is exponensial of -ve beta times costs
+    for _ in (num_children//2):                                            # we will be having two off springs for each crossover
+      p1 = (probs)]
+      p2 = (probs)]
+      c1, c2 = (p1, p2)
+      c1 = (c1, mu, sigma)
+      c2 = (c2, mu, sigma)
+      (c1, varmin, varmax)
+      (c2, varmin, varmax)
+      c1['cost'] = (c1['position'])                                     # calculate cost function of child 1
+      if (bestsol_cost) == float:
+          bestsol_cost = (c1)
+          bestsol_cost = (c1)
+        bestsol_cost = (c2)
+    (population)] = c1
+    (population)] = c2
+    population = (population)
+    ('Iteration {}: Best Cost = {}'. format(it, bestcost[it]))
+  r(out, Bestsol, bestcost)
+num_children = (np.round(prop_children * npop/2)*2)   # making sure it always an even number
+out = (costfunc, num_var, varmin, varmax, maxit, npop, num_children, mu, sigma, beta)
+(out[2])
+(0, maxit)
+('Generations')
+('Best Cost')
+('Genetic Algorithm')
+(True)

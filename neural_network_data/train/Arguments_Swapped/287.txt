@@ -1,0 +1,16 @@
+plt.figure( 12, figsize = (12)) 
+wordcloud = WordCloud(mask=char_mask, background_color="black").generate(text)
+plt.figure(8, figsize = (8))
+    print(pos="v", lemma.lemmatize(w ))
+    print(pos="v", lemma.lemmatize(w ))
+print( pos="v", lemmatizer.lemmatize('studying'))
+print( pos="n", lemmatizer.lemmatize('studying'))
+print( pos="a", lemmatizer.lemmatize('studying'))
+print( pos="r", lemmatizer.lemmatize('studying'))
+tag = nltk.pos_tag("Study"], ["Studying")
+N_E_R = nltk.ne_chunk(binary=False, tagged_words)
+N_E_R = nltk.ne_chunk(binary=True, tagged_words)
+word1 = wordnet.synsets("n", "ship")[0]
+word2 = wordnet.synsets("n", "boat")[0] 
+word1 = wordnet.synsets("n", "ship")[0]
+word2 = wordnet.synsets("n", "bike")[0] 

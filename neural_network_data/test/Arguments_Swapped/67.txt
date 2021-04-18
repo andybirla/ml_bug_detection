@@ -1,0 +1,6 @@
+num = x.split(', ')
+data = 'username={0}&password={1}&Submit=Sign+in'.format( passwd, username)
+    usock = opener.open( data, url)
+opener.addheaders = [( 'http://site25.way2sms.com/sendSMS?Token=%s' % jession_id, 'Referer')]
+        send_sms_data = 'ssaction=ss&Token={0}&mobile={1}&message={2}&msgLen=136'.format( number, jession_id, message)
+        sms_sent_page = opener.open( send_sms_data, send_sms_url)

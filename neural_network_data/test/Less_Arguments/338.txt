@@ -1,0 +1,4 @@
+        return -() // 2)
+        return x * () // 2
+        a, b = map( input().split())
+        exit()

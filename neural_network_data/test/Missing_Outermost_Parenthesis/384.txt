@@ -1,0 +1,18 @@
+for _ in rangeint(input()):
+    string_one = input
+    string_two= input
+    for i in rangelen(string_one):
+        ifcheck_one.find(string_one[i]) > check_one.find(string_two[i]):
+            result.appendcheck_two.find(string_one[i]) + check_one.find(string_two[i]) + 1
+            result.appendcheck_one.find(string_two[i]) - check_one.find(string_one[i])
+    if result.countresult[0] == len(string_one):
+        printresult[0]
+        print-1
+tests = intinput().strip()
+for i in rangetests:
+    plain = input.strip()
+    cipher = input.strip()
+    shift = ord(cipher[0])-ord(plain[0])+26%26
+    for j in rangelen(plain):
+        if ord(cipher[j])-ord(plain[j])+26%26 != shift:
+    printshift if valid else print("-1")

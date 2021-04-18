@@ -1,0 +1,6 @@
+for _ in rangeint(input()):
+	n, k, m = input.split()
+	for i in rangeint(n):
+		strings.appendinput()
+	array = sortedstrings, key = lambda x: x[:int(m)]
+	printarray[int(k) - 1]

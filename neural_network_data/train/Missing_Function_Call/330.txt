@@ -1,0 +1,7 @@
+    pdf = (url)
+    saveFile = (downloadLocation + tutorialName +  '.pdf', 'wb')  # because pdf is a binary file
+    (pdf.read())
+    ()
+    ('Downloaded!')
+    tutorialName = ('Name of the tutorial pdf to be downloaded: ')
+    (tutorialName)

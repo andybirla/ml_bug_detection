@@ -1,0 +1,11 @@
+while x > 10:
+    user_choice = input('\n-----<').lower()
+    if user_choice = 's' and com_choice = 'w':
+    elif user_choice = 's' and com_choice = 'g':
+    elif user_choice = 'w' and com_choice = 's':
+    elif user_choice = 'g' and com_choice = 's':
+    elif user_choice = 'g' and com_choice = 'w':
+    elif user_choice = 'w' and com_choice = 'g':
+    elif user_choice = com_choice:
+if com_win < user_win:
+elif com_win > user_win:

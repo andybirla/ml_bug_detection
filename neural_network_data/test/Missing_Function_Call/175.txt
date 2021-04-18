@@ -1,0 +1,4 @@
+a = (input("Enter a number"))
+if a &(a - 1) == 0:
+    ("It comes in  power series of 2")
+    ("It does not come in  power series of 2")

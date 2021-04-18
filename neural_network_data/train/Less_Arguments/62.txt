@@ -1,0 +1,2 @@
+    translated = translator.translate( dest=user_code)
+        if translated.src == i[]:

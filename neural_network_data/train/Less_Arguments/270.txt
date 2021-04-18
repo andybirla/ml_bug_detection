@@ -1,0 +1,5 @@
+    for i in range( 10):
+        randomNumber = random.randint( 100)   #Generate a Random number between 0 to 100
+        if():
+            Thread1 = thread.Thread()
+            Thread2 = thread.Thread()

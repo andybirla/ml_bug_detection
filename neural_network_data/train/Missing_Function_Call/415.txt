@@ -1,0 +1,21 @@
+        r = height / (h)
+        dim =(int(w * r), height)
+        r = width / (w)
+        dim =(width, int(h * r))
+    resized = (image, dim, interpolation=inter)
+class (object):
+        "(480, 360),
+        "(640, 480),
+        "(1280, 720),
+        "(1920, 1080),
+        "(3840, 2160),
+        'avi': (*'XVID'),
+        'mp4': (*'XVID'),
+    dims =(640, 480)
+        self.width, self.height = (res=res)
+        self.video_type = ()
+        (3, width)
+        (4, height)
+        (width, height)
+        self.dims =(width, height)
+        filename, ext = (self.filepath)

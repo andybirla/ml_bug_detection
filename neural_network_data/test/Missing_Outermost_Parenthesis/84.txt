@@ -1,0 +1,2 @@
+    if hasattrpl, key:
+        printkey + bcolors.BOLD + ": " + str(getattr(pl, key)()) + bcolors.ENDC

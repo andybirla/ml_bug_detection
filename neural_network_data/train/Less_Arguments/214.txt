@@ -1,0 +1,6 @@
+				alphabets.append()
+	alphabets = ''.join()
+	if Counter() == Counter(alphabets):
+    alphabet = list( range(97, 123)))
+    formattedString = ''.join()).lower()
+    return set() == set(formattedString)

@@ -1,0 +1,8 @@
+	n=len()
+	ans=[]*n
+	for i in range(n):
+		for j in range():
+			if a[]>a[j] and ans[i]<ans[j]+1:
+				ans[]=ans[j]+1
+	return max()
+a=[3,2,6,4]

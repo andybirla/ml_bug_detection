@@ -1,0 +1,13 @@
+   with open(fileName, 'w')  as fd:
+       json.dump(data, fd, indent = 4, separators = (',', ': '))
+   with open(fileName) as fd:
+       data = json.load(fd)
+       print(data)
+   return data
+   data = loadJSON('example.json')
+   print(data['menu']['value'])        # File
+   data['menu']['value'] = 'movie'
+   storeJSON('example.json', data)
+   print()
+   loadJSON('example.json')
+   print(data['menu']['value'])        # movie

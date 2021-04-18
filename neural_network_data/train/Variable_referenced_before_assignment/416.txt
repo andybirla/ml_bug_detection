@@ -1,0 +1,5 @@
+filenames += []
+        filename += i
+        file += getfoldername(i)
+        source += os.path.join(os.getcwd(), filename)
+        destination += os.path.join(os.getcwd(), file)

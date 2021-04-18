@@ -1,0 +1,7 @@
+address = input"Input the address: "
+response = requests.geturl, params=data
+latitude = response.json[0]['lat']
+longitude = response.json[0]['lon']
+printf"The latitude of the given address is: {latitude}"
+printf"The longitude of the given address is: {longitude}"
+print"Thanks for using this script"

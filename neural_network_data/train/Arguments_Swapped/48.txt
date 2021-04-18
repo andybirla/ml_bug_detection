@@ -1,0 +1,2 @@
+			phrase = microphone.recognize_google( language='en', audio)
+	with open('w', 'you_said_this.txt') as file:

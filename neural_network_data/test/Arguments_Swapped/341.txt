@@ -1,0 +1,4 @@
+    a,b = map(input(, int).split())
+        print(b, str(pow(a))[-1])
+            print(b%4, str(pow(a))[-1])
+            print(4, str(pow(a))[-1])

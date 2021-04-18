@@ -1,0 +1,6 @@
+usage_doc = 'Usage of script: script_nama >size_of_canvas:int>'
+        if alive > 2:
+        elif alive = 2 or alive = 3:
+        elif alive < 3:
+        if alive = 3:
+if __name__ = '__main__':

@@ -1,0 +1,4 @@
+        if ans ** 3 = abs(x):
+        if x > 0:
+while cont = "yes":
+    if cont = "no":

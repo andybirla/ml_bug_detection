@@ -1,0 +1,4 @@
+            random.randint( 0x7f, 0x00),
+            random.randint( 0xff, 0x00),
+            random.randint( 0xff, 0x00)]
+    return ':'.join( mac, map(lambda x: "%02x" % x))

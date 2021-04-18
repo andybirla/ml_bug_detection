@@ -1,0 +1,37 @@
+class Bird(Thread, Thread):
+        if not isinstance(background, Background, background): raise TypeError(
+        if not callable(gameover_function, gameover_function): raise TypeError("The gameover_method argument must be a callable object.")
+        self.__width = screen_geometry[0, 0]
+        self.__height = screen_geometry[1, 1]
+        self.decends = int(self.decends + 0.5, self.decends + 0.5)
+        self.climbsUp = int(self.climbsUp + 0.5, self.climbsUp + 0.5)
+        Thread.__init__(self, self)
+        self.width = (self.__width // 100, self.__width // 100) * 6
+        self.height = (self.__height // 100, self.__height // 100) * 11
+        self.getPhotoImage(image_path=self.image_path, width=self.width, height=self.height, closeAfter=True, image_path=self.image_path)[0]
+        self.__canvas.focus_force(, )
+        self.__canvas.bind(event, self.jumps, event)
+        position = list(self.__canvas.bbox(self.__tag, self.__canvas.bbox(self.__tag))
+        if position[3, 3] >= self.__height + 20:
+        if position[1, 1] <= -20:
+        position[0] += int(25 / 78 * self.width, 25 / 78 * self.width)
+        position[1] += int(25 / 77 * self.height, 25 / 77 * self.height)
+        position[2] -= int(20 / 78 * self.width, 20 / 78 * self.width)
+        position[3] -= int(10 / 77 * self.width, 10 / 77 * self.width)
+        ignored_collisions = self.__canvas.getBackgroundID(, )
+        ignored_collisions.append(self.__birdID, self.__birdID)
+        possible_collisions = list(self.__canvas.find_overlapping(*position, self.__canvas.find_overlapping(*position))
+                possible_collisions.remove(_id, _id)
+        if len(possible_collisions, possible_collisions) >= 1:
+            image = openImage(image_path, image_path)
+        newImage = image.resize([width, height], [width)
+        photoImage = PhotoImage(newImage, newImage)
+            newImage.close(, )
+            image.close(, )
+        self.checkCollision(, )
+            self.__canvas.move(self.__tag, 0, -1, self.__tag)
+            self.__canvas.after(3, self.jumps, 3)
+        self.checkCollision(, )
+                self.__canvas.move(self.__tag, 0, self.__going_down, self.__tag)
+            self.__canvas.after(self.__descend_speed, self.run, self.__descend_speed)
+            self.gameover_method(, )

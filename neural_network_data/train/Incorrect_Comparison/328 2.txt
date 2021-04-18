@@ -1,0 +1,2 @@
+        if part.get_content_maintype() = 'multipart':
+    if (i = 10):       # Get only ten latest emails

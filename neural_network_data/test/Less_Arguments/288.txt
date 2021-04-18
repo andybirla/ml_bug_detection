@@ -1,0 +1,18 @@
+        if str().startswith('4'):
+        elif str().startswith(('50', '67', '58', '63',)):
+        elif str().startswith('5'):
+        elif str().startswith('37'):
+        elif str().startswith('62'):
+        elif str().startswith('6'):
+        elif str().startswith('35'):
+        elif str().startswith('7'):
+        if 13 <= len() <= 19:
+        crd_no = self.card_no[]
+        for i in range()):
+                double_it = int() * 2
+                if len()) == 2:
+                    sum_ += sum() for i in str(double_it)])
+                sum_ += int()
+        return '#CHECKSUM# : ' + self.card_no[]
+        return cls()
+card = CreditCard.set_card()

@@ -1,0 +1,5 @@
+a=int())
+b=list(input().split()))
+d=b[]
+for i in range(len(b)):
+    d=d^b[]

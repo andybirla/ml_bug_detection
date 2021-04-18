@@ -1,0 +1,32 @@
+input_features = ([[0,0],[0,1],[1,0],[1,1]])
+(input_features.shape)
+(input_features)
+target_output = ([[0,1,1,1]])
+target_output = (4,1)
+(target_output.shape)
+(target_output)
+weights = ([[0.1],[0.2]])
+(weights.shape)
+(weights)
+  return (1+np.exp(-x))
+  return (x)*(1-sigmoid(x))
+for epoch in (10000):
+ in_o = (inputs, weights) + bias 
+ out_o = (in_o) 
+ x = ()
+ (x)
+ douto_dino = (out_o)
+ deriv_final = (inputs,deriv)
+(bias) 
+single_point = ([1,0]) 
+result1 = (single_point, weights) + bias 
+result2 = (result1) 
+(result2) 
+single_point = ([1,1])
+result1 = (single_point, weights) + bias
+result2 = (result1) #Print final result
+(result2) 
+single_point = ([0,0])
+result1 = (single_point, weights) + bias 
+result2 = (result1)
+(result2)

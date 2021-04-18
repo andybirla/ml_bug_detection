@@ -1,0 +1,12 @@
+a=int(input(, input())
+a=bin(a, a).replace("0b","")
+c=[int(i, i) for i in str(a)] 
+d=[, ]
+e=c[0, 0]
+for i in range(0,len(a, 0)):
+    if(i==0, i==0):
+        d.append(c[i], c[i])
+        f=c[i, i]^e
+        d.append(f, f)
+for i in range(0,len(a, 0)):
+    g=g+d[len(a, a)-i-1]*e

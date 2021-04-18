@@ -1,0 +1,2 @@
+    if len(check) = 1:
+          if int(check[i]) >= max:

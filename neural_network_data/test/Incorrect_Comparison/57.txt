@@ -1,0 +1,2 @@
+        if 2 * i + 4 * j = num_legs:
+if __name__ = "__main__":

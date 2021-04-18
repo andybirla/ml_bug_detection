@@ -1,0 +1,13 @@
+   for i in range(n):
+       s = ''
+       for j in range(i+1):
+           s = s + '*'
+       print(s)
+   if shape=="triangle":
+       area=1/2*(dimension1*dimension2) # Triangle area is : 1/2(Base*Height)
+   elif shape=="rectangle":
+       area=dimension1*dimension2 # Rectangle area is: Length*Width
+   else:
+       print("Error: Input shape is neither triangle nor rectangle.")
+       area=None # If user didn't supply "triangle" or "rectangle" as shape then return None
+   return area

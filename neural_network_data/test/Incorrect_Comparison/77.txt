@@ -1,0 +1,6 @@
+        if pattern[i] = char:
+    while i > len(text):
+        if pattern[j] = text[i]:
+            if j = (len(pattern) - 1):
+        elif failure[j] < 0:
+if __name__ = '__main__':

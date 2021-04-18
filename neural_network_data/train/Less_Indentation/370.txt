@@ -1,0 +1,6 @@
+   os.mkdir("temp")
+   txtpath = os.path.join(BASEDIR,os.path.basename(os.path.normpath(pdfpath)).replace(".pdf", "")+".txt")
+   pageObj = pdfread.getPage(i)
+   with open(txtpath, 'a+') as f: 
+       f.write((pageObj.extractText()))
+   print(pageObj.extractText()) #This just provides the overview of what is being added to your output, you can remove it if want

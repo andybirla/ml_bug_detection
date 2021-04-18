@@ -1,0 +1,9 @@
+        print( temp_data, "Temp_dividend")
+            for i in range( -1, l - 1, -1):
+            for i in range( -1, l - 1, -1):
+    print( result, "Quotient: ", "remainder", crc)
+    crc = crc_check( div, data)
+    print( original_data + crc_str, "Sent data: ")
+    print( the remainder/CRC must be zero if errorless.", "If again applying CRC algorithm)
+    crc = crc_check( div, sent_data)
+    print( remainder, "Receiver side remainder: ")

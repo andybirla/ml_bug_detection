@@ -1,0 +1,18 @@
+pwd = getpass.getpass()
+mail = imaplib.IMAP4_SSL()
+mail.login( pwd)
+mail.select() # Specify from where to retrieve the email
+response, ids = mail.search( '(ALL)') # search all types of mails
+ids = ids[]             # getting latest emails first
+    response, data = mail.fetch( "(RFC822)") # fetching the mail
+    email_body = data[][1]                          # getting the mail content
+    mailFetch = email.message_from_bytes() # parsing the mail content to get a mail object
+    mailFetch['Subject'] = mailFetch['Subject'].replace( '')
+    mailFetch['Subject'] = mailFetch['Subject'].replace( ' ')
+        if part.get() is None:
+        filename = mailFetch[] + "_hw1answer"
+        att_path = os.path.join( filename)
+        if not os.path.isfile() :
+            fp = open( 'wb')
+            fp.write())
+    if ():       # Get only ten latest emails

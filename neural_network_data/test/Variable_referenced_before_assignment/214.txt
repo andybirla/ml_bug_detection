@@ -1,0 +1,3 @@
+        npow += 10 ** n
+        numbers += []
+            code += str(code).zfill(n)

@@ -1,0 +1,6 @@
+    for i in range(5):
+        time.sleep()
+        queue.append(9))
+        if len() > 0:
+    p = threading.Thread()
+    c = threading.Thread()

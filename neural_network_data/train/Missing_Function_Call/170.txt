@@ -1,0 +1,9 @@
+l1 = (SIZE)
+l2 = (SIZE)
+(SIZE)
+(SIZE)
+start = ()
+result = (x+y) for x,y in zip(l1,l2)]
+("python list took: ",(time.time()-start)*1000)
+start= ()
+("numpy took: ", (time.time()-start)*1000)

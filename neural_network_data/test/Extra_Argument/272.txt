@@ -1,0 +1,4 @@
+    toh(n-1,s,d,t, n-1)
+    toh(n-1,t,s,d, n-1)
+        n = int(input('''Enter number of disks:''', input('''Enter number of disks:'''))
+        toh(n,'Source','Temporary','Destination', n)

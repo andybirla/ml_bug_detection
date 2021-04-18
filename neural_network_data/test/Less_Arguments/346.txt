@@ -1,0 +1,3 @@
+testCase1 = int())
+testCase2 = int())
+c = list() - set(b))

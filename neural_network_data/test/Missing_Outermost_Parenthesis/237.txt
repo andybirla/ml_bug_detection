@@ -1,0 +1,15 @@
+def name_to_numbername:
+def number_to_namenumber:
+def gameplayer_choice:
+    print
+    printname
+    number = name_to_numbername
+    comp_number = random.randrange0, 2
+    comp_choice = number_to_namecomp_number
+    printcomp_choice
+    comp = -intcomp_number
+    play = intnumber
+    diff = comp + play % 5
+        print"you won!!!"
+        print"draw"
+        print"you lose!!!"

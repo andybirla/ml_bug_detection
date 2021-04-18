@@ -1,0 +1,18 @@
+class ():
+        for i in ():
+            (i,' -> ', ' -> '.join([str(j) for j in self.vertex[i]]))
+        if fromVertex in ():
+            (toVertex)
+        for vertex in (self.count):
+                (vertex, visited, stack)
+        (' '.join([str(i) for i in stack]))
+                    (adjacentNode, visited, stack)
+        (0,vertex)
+    g= (6)
+    (5, 2)
+    (5, 0)
+    (4, 0)
+    (4, 1)
+    (2, 3)
+    (3, 1)
+    ()

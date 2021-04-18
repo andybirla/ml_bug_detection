@@ -1,0 +1,14 @@
+for i in (passLen):
+    w(len(myPass)) <= 2:
+        index = (len(lChars))
+        myPassLen = (myPass)
+    w(len(myPass)) <= 5:
+        index = (len(digits))
+        myPassLen = (myPass)
+    w(len(myPass)) <= 7:
+        index = (len(specialChars))
+        myPassLen = (myPass)
+    w(len(myPass)) <= 10:
+        index = (len(uChars))
+        myPassLen = (myPass)
+(myPass)

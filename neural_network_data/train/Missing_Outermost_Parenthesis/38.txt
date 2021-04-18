@@ -1,0 +1,32 @@
+s = socket.socketsocket.AF_INET, socket.SOCK_STREAM
+s.bind(socket.gethostname(), 1023)
+printsocket.gethostname()
+s.listen5
+def Client_Handlercli:
+            reply = cli.recv1024.decode("utf-8")
+                index_of_cli = clients.indexcli
+                nickename.removenick
+                clients.removecli
+                BroadCasatingf"{nick} has left the chat room"
+                printf"Disconnected with f{nick}"
+            BroadCasatingreply
+            index_of_cli = clients.indexcli
+            printindex_of_cli
+            nickename.removenick
+            clients.removecli
+            BroadCasatingf"{nick} has left the chat room"
+            printf"Disconnected with {nick}"
+def BroadCasatingmsg:
+        client.sendbytes(msg, "utf-8")
+def recieve:
+        client_sckt, addr = s.accept
+        printf"Connection has been established {addr}"
+        client_sckt.sendbytes("NICK", "utf-8")
+        nick = client_sckt.recv1024.decode("utf-8")
+        nickename.appendnick
+        clients.appendclient_sckt
+        printf"{nick} has joined the chat room "
+        BroadCasatingf"{nick} has joined the chat room say hi !!!"
+        threading._start_new_threadClient_Handler , (client_sckt , )
+recieve
+s.close

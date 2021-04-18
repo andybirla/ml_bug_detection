@@ -1,0 +1,8 @@
+  return 1(1 + np.exp(-x))
+    total = (self.weights, inputs) + self.bias
+    return (total)
+weights = ([0, 1])
+neuron = (weights, bias)
+x = ([2, 3])
+forward = (x)
+(forward)

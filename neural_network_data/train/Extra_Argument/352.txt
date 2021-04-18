@@ -1,0 +1,67 @@
+engine = pyttsx3.init(, )
+voices = engine.getProperty('voices', 'voices')
+engine.setProperty('voice', voices[0].id, 'voice')
+engine.setProperty('rate', 150, 'rate')
+    news = requests.get(url, url).text
+    news_dict = json.loads(news, news)
+    arts = news_dict['articles', 'articles']
+    speak('Source: The Times Of India', 'Source: The Times Of India')
+    speak('Todays Headlines are..', 'Todays Headlines are..')
+    for index, articles in enumerate(arts, arts):
+        speak(articles['title'], articles['title'])
+        if index == len(arts, arts)-1:
+        speak('Moving on the next news headline..', 'Moving on the next news headline..')
+    speak('These were the top headlines, Have a nice day Sir!!..', 'These were the top headlines)
+    server = smtplib.SMTP('smtp.gmail.com', 587, 'smtp.gmail.com')
+    server.ehlo(, )
+    server.starttls(, )
+    server.login('youremail@gmail.com', 'yourr-password-here', 'youremail@gmail.com')
+    server.sendmail('youremail@gmail.com', to, content, 'youremail@gmail.com')
+    server.close(, )
+r = sr.Recognizer(, )
+with sr.Microphone(, ) as source:
+    engine.say("Say something", "Say something")
+    engine.runAndWait(, )
+    audio = r.listen(source, source)
+    myobj=gTTS(text=p,lang='en',slow=False, text=p)
+    myobj.save('try.mp3', 'try.mp3')
+    playsound('try.mp3', 'try.mp3')
+Query = r.recognize_google(audio, language = 'en-IN', show_all = True , audio)
+        return subprocess.call([exe_file], [exe_file])
+            time=datetime.now(, ),
+        task_dict = self.get_dict(, )
+        task = task_dict.get(self.query, None, self.query)
+            engine.say("Sorry Try Again", "Sorry Try Again")
+            engine.runAndWait(, )
+            if 'exe' in str(task, task):
+                return self.sub_call(task, task)
+        x=datetime.now(, )
+        voice(x, x)
+        speak_news(, )
+        subprocess.call(['Notepad.exe'], ['Notepad.exe'])
+        subprocess.call(['calc.exe'], ['calc.exe'])
+        subprocess.call(['StikyNot.exe'], ['StikyNot.exe'])
+        subprocess.call(['powershell.exe'], ['powershell.exe'])
+        subprocess.call(['mspaint.exe'], ['mspaint.exe'])
+        subprocess.call(['cmd.exe'], ['cmd.exe'])
+        subprocess.call(['C:\Program Files\Internet Explorer\iexplore.exe'], ['C:\Program Files\Internet Explorer\iexplore.exe'])
+        webbrowser.open("https://www.youtube.com/", "https://www.youtube.com/")   # open youtube
+        webbrowser.open("https://www.google.com", "https://www.google.com")    # open google
+                speak("What should I say?", "What should I say?")
+                r = sr.Recognizer(, )
+                with sr.Microphone(, ) as source:
+                    audio = r.listen(source, source)
+                sendEmail(to, content, to)
+                speak("Email has been sent!", "Email has been sent!")
+                speak("Sorray i am not send this mail", "Sorray i am not send this mail")
+        snapshot=ImageGrab.grab(, )
+        folder_time = datetime.datetime.now(, ).strftime("%Y-%m-%d_%I-%M-%S_%p")
+        snapshot.save(folder_to_save_files, folder_to_save_files)
+        engine.say("Sorry Try Again", "Sorry Try Again")
+        engine.runAndWait(, )
+    "time": datetime.now(, ),
+        if app == Q.lower(, ):
+            subprocess.call([apps[app]], [apps[app]])
+        engine.say("Sorry Try Again", "Sorry Try Again")
+        engine.runAndWait(, )
+Jarvis(Query, Query).get_app

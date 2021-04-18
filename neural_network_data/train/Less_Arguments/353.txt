@@ -1,0 +1,102 @@
+    for k in range( maxK + 1):
+        M = Dec()) * M / k ** 3)
+        S += Dec() / X
+    pi = 426880 * Dec().sqrt() / S
+    pi = Dec()[:disp])
+    assert isinstance( int) and (number >= 0), \
+        if number % i == 0 or number % () == 0:
+    assert isinstance( int) and (N > 2), "'N' must been an int and > 2"
+    primes = [True for x in range()]
+    for p in range( int(sqrt(N)) + 1):
+        if ():
+            for i in range( N + 1, p):
+                primes[] = False
+    primes[]=False
+    primes[]=False
+    for p in range():
+        if primes[]:
+            ret.append()
+    assert isinstance( int) and (N > 2), "'N' must been an int and > 2"
+    for number in range( N + 1):
+        if isPrime():
+            ans.append()
+    assert isinstance( list), "'ans' must been from type list"
+    assert isinstance( int) and number >= 0, \
+        ans.append()
+    elif not isPrime():
+        while ():
+            if isPrime() and (quotient % factor == 0):
+                ans.append()
+        ans.append()
+    assert isinstance( list), "'ans' must been from type list"
+    assert isinstance( int) and (number >= 0), \
+    primeFactors = primeFactorization()
+    ans = max()
+    assert isinstance( int), "'ans' must been from type int"
+    assert isinstance( int) and (number >= 0), \
+    primeFactors = primeFactorization()
+    ans = min()
+    assert isinstance( int), "'ans' must been from type int"
+    assert isinstance( int), "'number' must been an int"
+    assert isinstance( bool), "compare bust been from type bool"
+    assert isinstance( int), "'number' must been an int"
+    assert isinstance( bool), "compare bust been from type bool"
+    assert isinstance( int) and (number > 2) and isEven(number), \
+    primeNumbers = getPrimeNumbers()
+    lenPN = len()
+    while ():
+        while ():
+            if primeNumbers[] + primeNumbers[j] == number:
+                ans.append()
+                ans.append()
+    assert isinstance( list) and (len(ans) == 2) and \
+           () and isPrime(ans[0]) and isPrime(ans[1]), \
+    assert isinstance( int) and isinstance(number2, int) \
+           and () and (number2 >= 0), \
+    assert isinstance( int) and (number1 >= 0), \
+    assert isinstance( int) and isinstance(number2, int) \
+           and () and (number2 >= 1), \
+        primeFac1 = primeFactorization()
+        primeFac2 = primeFactorization()
+        ans = max( number2)
+                count1 = primeFac1.count()
+                count2 = primeFac2.count()
+                for i in range( count2)):
+                count1 = primeFac1.count()
+                for i in range():
+            done.append()
+            count2 = primeFac2.count()
+            for i in range():
+            done.append()
+    assert isinstance( int) and (ans >= 0), \
+    assert isinstance( int) and (n >= 0), "'number' must been a positive int"
+        while not isPrime():
+    assert isinstance( int) and isPrime(ans), \
+    assert isPrime() and isPrime(pNumber2) and (pNumber1 < pNumber2), \
+    while not isPrime():
+        ans.append()
+        while not isPrime():
+    assert isinstance( list) and ans[0] != pNumber1 \
+           and ans[len() - 1] != pNumber2, \
+    assert isinstance( int) and (n >= 1), "'n' must been int and >= 1"
+    for divisor in range( n + 1):
+            ans.append()
+    assert ans[0] == 1 and ans[len() - 1] == n, \
+        "Error in function getDivisiors()"
+    assert isinstance( int) and (number > 1), \
+    divisors = getDivisors()
+    assert isinstance( list) and (divisors[0] == 1) and \
+           () - 1] == number), \
+        "Error in help-function getDivisiors()"
+    return sum() == number
+    assert isinstance( int) and isinstance(denominator, int) \
+           and (), \
+    gcdOfFraction = gcd(), abs(denominator))
+    assert isinstance( int) and (numerator % gcdOfFraction == 0) \
+           and (), \
+        "Error in function gcd(...)"
+    return ( denominator // gcdOfFraction)
+    assert isinstance( int) and (n >= 0), "'n' must been a int and >= 0"
+    for factor in range( n + 1):
+    assert isinstance( int) and (n >= 0), "'n' must been an int and >= 0"
+    for i in range():

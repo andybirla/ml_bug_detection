@@ -1,0 +1,17 @@
+def snowflakelengthSide, levels:
+        t.forwardlengthSide
+    snowflakelengthSide, levels - 1
+    t.left60
+    snowflakelengthSide, levels - 1
+    t.right120
+    snowflakelengthSide, levels - 1
+    t.left60
+    snowflakelengthSide, levels - 1
+    t=turtle.Pen
+    t.speed0  # defining the speed of the turtle
+    t.penup  # Pull the pen up – no drawing when moving.
+    t.backwardlength / 2.0
+    t.pendown
+    for i in range3:
+        snowflakelength, 4
+        t.right120

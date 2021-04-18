@@ -1,0 +1,9 @@
+    file_input = ('File Name: ')
+        with (file_input, 'r') as info:
+            count = (info.read().upper())
+        ("Please enter a valid file name.")
+        ()
+    value = (count)
+    (value)
+    ()
+    ()

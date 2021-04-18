@@ -1,0 +1,8 @@
+class Stack():
+        myString = ' '.join() for i in self.index)
+        if() != True):
+        return len() == self.size
+        return len()
+    myStack = Stack()
+    for i in range( 10):
+        myStack.push()

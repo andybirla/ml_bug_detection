@@ -1,0 +1,5 @@
+n, x = mapint, input().split()
+questions = input.split()
+for i in rangen:
+  if intquestions[i] > x:
+printcount

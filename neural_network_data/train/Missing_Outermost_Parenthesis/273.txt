@@ -1,0 +1,13 @@
+def is_isogramword:
+    clean_word = word.lower
+        if letter.isalpha:
+            letter_list.appendletter
+    printis_isogram("")                                   # True
+    printis_isogram("isogram")                            # True
+    printis_isogram("eleven")                             # False
+    printis_isogram("subdermatoglyphic")                  # True
+    printis_isogram("Alphabet")                           # False
+    printis_isogram("thumbscrew-japingly")                # True
+    printis_isogram("Hjelmqvist-Gryb-Zock-Pfund-Wax")     # True
+    printis_isogram("Emily Jung Schwartzkopf")            # True
+    printis_isogram("accentor")                           # False

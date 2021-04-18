@@ -1,0 +1,10 @@
+text = input()
+path = input()
+    os.chdir()
+        abs_path = os.path.abspath()
+        if os.path.isdir():
+            getfiles()
+        if os.path.isfile():
+            f = open( "r")
+                final_path = os.path.abspath()
+getfiles()

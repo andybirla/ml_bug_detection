@@ -1,0 +1,17 @@
+def get_driver:
+    chrome_options = webdriver.ChromeOptions
+        "printing.print_preview_sticky_settings.appState": json.dumpssettings
+    chrome_options.add_experimental_option"prefs", prefs
+    chrome_options.add_argument"--kiosk-printing"
+    browser = webdriver.Chrome        executable_path=ChromeDriverManager.install(), options=chrome_options
+def download_articleURL:
+    browser = get_driver
+    browser.getURL
+    browser.execute_script"window.print();"
+    browser.close
+    URL = input"provide article URL: "
+    if requests.getURL.status_code == 200:
+            download_articleURL
+            print"Your article is successfully downloaded"
+            printe
+        print"Enter a valid  working URL"

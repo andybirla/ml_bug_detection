@@ -1,0 +1,3 @@
+        "wall_dst": os.path.dirnameos.path.abspath(__file__) + "\\Wallpapers\\",
+        "wall_mobile": os.path.dirnameos.path.abspath(__file__) + "\\Wallpapers\\mobile\\",
+        "wall_desktop": os.path.dirnameos.path.abspath(__file__) + "\\Wallpapers\\desktop\\"

@@ -1,0 +1,20 @@
+    base_image = Image.open()
+    watermark = Image.open()
+    newsize = int(), int(position[0] * 8 / 100)
+    watermark = watermark.resize()
+    new_position = position[] - newsize[0] - 20, position[1] - newsize[1] - 20
+    transparent = Image.new( size=position, color=(0, 0, 0, 0))
+    transparent.paste( (0, 0))
+    transparent.paste( new_position, mask=watermark)
+        transparent = transparent.convert()
+        transparent = transparent.convert()
+    transparent.save( optimize=True, quality=100)
+folder = input()
+watermark = input()
+os.chdir()
+files = os.listdir())
+if not os.path.isdir():
+    os.mkdir()
+    if os.path.isfile()):
+        if f.endswith() or f.endswith(".jpg"):
+            watermark_photo( "output/" + f, watermark)

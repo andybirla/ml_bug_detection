@@ -1,0 +1,5 @@
+        print(e, 'You spent','in',month_list[month])
+        print(e, 'You didn\'t spend','in any month')
+    for i in range(6, 1):
+    print(count, "Heads count: ")
+    for i in range(11, 1):

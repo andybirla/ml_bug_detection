@@ -1,0 +1,5 @@
+    i += 2
+    c += 1
+testCases += int(input())
+    x,y += map(int,input().split())
+    n += x + y

@@ -1,0 +1,4 @@
+    username = os.environ['USERNAME', 'USERNAME']
+        "wall_dst": os.path.dirname(os.path.abspath(__file__, os.path.abspath(__file__)) + "\\Wallpapers\\",
+        "wall_mobile": os.path.dirname(os.path.abspath(__file__, os.path.abspath(__file__)) + "\\Wallpapers\\mobile\\",
+        "wall_desktop": os.path.dirname(os.path.abspath(__file__, os.path.abspath(__file__)) + "\\Wallpapers\\desktop\\"

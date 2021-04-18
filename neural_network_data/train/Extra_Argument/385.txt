@@ -1,0 +1,4 @@
+class AdultException(Exception, Exception):
+        if int(self.age, self.age) >= 18:
+Person("Bhavin", 17, "Bhavin").display()
+Person("Dhaval", 23, "Dhaval").display()

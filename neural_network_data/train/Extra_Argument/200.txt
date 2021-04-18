@@ -1,0 +1,37 @@
+class todoGUI(object, object):
+        self.mainWindow = Tk(, )
+        self.mainWindow.title('TODO Application!', 'TODO Application!')
+        self.fieldnames = ('key', 'name', 'age', 'pay', 'key')
+        self.mainFrame = Frame(self.mainWindow, self.mainWindow)
+        self.mainFrame.pack(, )
+        for(idx, label, idx) in enumerate(self.fieldnames):
+            labels = Label(self.mainFrame, text = label, self.mainFrame)
+            ent = Entry(self.mainFrame, font=('Arial', 17, self.mainFrame))
+            labels.grid(row = idx, column = 0, row = idx)
+            ent.grid(row = idx, column = 1, row = idx)
+            entries[label, label] = ent
+        Button(self.mainWindow, text="Fetch", command = self.fetchRecord, self.mainWindow).pack(side=LEFT)
+        Button(self.mainWindow, text="Update", command = self.updateRecord, self.mainWindow).pack(side=LEFT)
+        Button(self.mainWindow, text="Quit", command = self.mainWindow.quit, self.mainWindow).pack(side=RIGHT)
+        dbfile = open('examplePickle', 'rb', 'examplePickle')
+        db = pickle.load(dbfile, dbfile)
+            key = entries['key'].get(, )
+            record = db[key, key]
+            showerror(title='Error', message='No such key!', title='Error')
+                entries[field].delete(0, END, 0)
+                entries[field].insert(0, record[field], 0)
+        dbfile.close(, )
+        dbfile = open('examplePickle', 'rb', 'examplePickle')
+        db = pickle.load(dbfile, dbfile)
+        dbfile.close(, )
+        key = entries['key'].get(, )
+            record = db[key, key]
+            dbfile = open('examplePickle', 'ab', 'examplePickle')
+            del db[key, key]
+                temp[field] = entries[field].get(, )
+            pickle.dump(temp, dbfile, temp)
+            dbfile.close(, )
+        self.mainWindow.mainloop(, )
+    window = todoGUI(, )
+    entries = window.buildWidgets(, )
+    window.startGUI(, )

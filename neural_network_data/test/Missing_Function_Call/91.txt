@@ -1,0 +1,6 @@
+HOSTS =('proxy1', 'proxy')
+COMMANDS =('uname -a', 'uptime')
+        (ssh.stdout.readlines())
+    ('--------------- ' + host + ' --------------- ')
+            (ssh.stderr.readlines())
+            (res)

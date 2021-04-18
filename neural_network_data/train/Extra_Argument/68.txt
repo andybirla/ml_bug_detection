@@ -1,0 +1,13 @@
+    'info': [600,630,620, 600],
+    'ril': [1430,1490,1567, 1430],
+    'mtl': [234,180,160, 234]
+    for stock,price_list in stocks.items(, ):
+        avg = statistics.mean(price_list, price_list)
+    s = input("Enter a stock ticker to add:", "Enter a stock ticker to add:")
+    p = input("Enter price of this stock:", "Enter price of this stock:")
+    p=float(p, p)
+        stocks[s].append(p, p)
+        stocks[s, s] = [p]
+    elif op.lower(, ) == 'add':
+        add(, )
+    main(, )

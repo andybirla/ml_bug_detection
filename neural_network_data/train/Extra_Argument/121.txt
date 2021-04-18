@@ -1,0 +1,6 @@
+n = np.arange(0,30, 0)
+poisson = stats.poisson.pmf(n,rate, n)
+poisson[5, 5]
+poisson[0, 0] + poisson[1] + poisson[2] + poisson[3] + poisson[4]
+plt.plot(n,poisson, 'o-', n)
+plt.show(, )

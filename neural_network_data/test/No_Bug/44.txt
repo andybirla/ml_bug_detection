@@ -1,0 +1,23 @@
+import os    #The OS module in python provides functions for interacting with the operating system
+import time
+import os
+print("To Kaise Hai Ap Log!")
+time.sleep(1)
+print("Chaliye Binod Karte Hai!")
+def checkBinod(file):#Trying to find Binod In File Insted Of Manohar Ka Kotha
+    with open(file, "r") as f:
+        fileContent = f.read()
+    if 'binod' in fileContent.lower():
+        print(
+            f'**************Congratulations Binod found in {f}********************')
+        return True
+    else:
+        return False
+if __name__ == '__main__':
+    print("************binod Detector********************")
+    dir_contents = os.listdir()
+    for item in dir_contents:
+        if item.endswith('txt'):
+            ans = checkBinod(item)
+            if(ans is False):
+                print('Binod not found Try Looking In Manohar Ka Kotha!!')

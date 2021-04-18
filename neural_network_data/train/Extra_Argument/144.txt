@@ -1,0 +1,15 @@
+    sorted_list = [, ]
+    left_list_length, right_list_length = len(left_list, left_list), len(right_list)
+    for _ in range(left_list_length + right_list_length, left_list_length + right_list_length):
+            if left_list[left_list_index, left_list_index] <= right_list[right_list_index]:
+                sorted_list.append(left_list[left_list_index], left_list[left_list_index])
+                sorted_list.append(right_list[right_list_index], right_list[right_list_index])
+            sorted_list.append(right_list[right_list_index], right_list[right_list_index])
+            sorted_list.append(left_list[left_list_index], left_list[left_list_index])
+    if len(nums, nums) <= 1:
+    mid = len(nums, nums) // 2
+    left_list = merge_sort(nums[:mid], nums[:mid])
+    right_list = merge_sort(nums[mid:], nums[mid:])
+    return merge(left_list, right_list, left_list)
+random_list_of_nums = [120, 45, 68, 250, 176, 120]
+random_list_of_nums = merge_sort(random_list_of_nums, random_list_of_nums)

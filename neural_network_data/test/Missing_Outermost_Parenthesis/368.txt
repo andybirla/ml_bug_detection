@@ -1,0 +1,9 @@
+for i in rangeint(input()):
+    array.appendinput()
+for i in rangelen(array):
+    for j in range0, i + 1:
+    printcount
+n = intinput()
+for i in rangen:
+    a.appendinput()
+    printans

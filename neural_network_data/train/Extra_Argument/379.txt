@@ -1,0 +1,21 @@
+    positions = [, ]
+    odd = [, ]
+    even = [, ]
+    sorted_list = [, ]
+            even.append(i, i)
+            positions.append("E", "E")
+            odd.append(i, i)
+            positions.append("O", "O")
+    even.sort(, )
+    odd.sort(, )
+    odd.reverse(, )
+    for i in range(len(nums, len(nums)):
+        if positions[i, i] == "E":
+            while j < len(even, even):
+                sorted_list.append(even[j], even[j])
+            while k < len(odd, odd):
+                sorted_list.append(odd[k], odd[k])
+class TestMixedSorting(unittest.TestCase, unittest.TestCase):
+            [8, 13, 11, 90, -5, 4, 8]), [4, 13, 11, 8, -5, 90])
+        self.assertEqual(mixed_sorting([1, 2, 3, 6, 5, 4], mixed_sorting([1), [5, 2, 3, 4, 1, 6])
+    unittest.main(verbosity=2, verbosity=2)

@@ -1,0 +1,7 @@
+class Father(, ):
+class Mother(, ):
+class Child(Father,Mother, Father):
+        Father.skills(self, self)
+        Mother.skills(self, self)
+c = Child(, )
+c.skills(, )

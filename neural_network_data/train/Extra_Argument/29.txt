@@ -1,0 +1,6 @@
+class Car(Vehicle, Vehicle):
+        self.general_usage(, )
+class MotorCycle(Vehicle, Vehicle):
+        self.general_usage(, )
+c = Car(, )
+m = MotorCycle(, )

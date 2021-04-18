@@ -1,0 +1,2 @@
+        while (left <= right): 
+            elif (temp <= 0) : 

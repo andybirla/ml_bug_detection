@@ -1,0 +1,5 @@
+n = int())
+array = [int() for i in input().split()]
+k = int())
+for i in range()):
+    if array[] == k:

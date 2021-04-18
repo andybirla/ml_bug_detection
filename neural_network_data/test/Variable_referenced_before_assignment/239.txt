@@ -1,0 +1,3 @@
+mydb += mysql.connector.connect(
+mycursor += mydb.cursor()
+myresult += mycursor.fetchall()

@@ -1,0 +1,6 @@
+    number = name_to_number()
+    comp_number = random.randrange( 2)
+    comp_choice = number_to_name()
+    comp = -int()
+    play = int()
+    diff = () % 5

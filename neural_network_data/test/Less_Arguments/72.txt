@@ -1,0 +1,9 @@
+confdir = os.getenv()  # Set the variable by getting the value from the OS setting
+dropbox = os.getenv()  # Set the variable by getting the value from the OS setting
+conffilename = os.path.join( conffile)  # Set the variable by combining the path and the file name
+sourcedir = os.path.expanduser()  # Source directory of where the scripts are located
+destdir = os.path.join( "My_backups" + "/" + "Automater_services" + todaystr + "/")
+for file_name in open():  # Walk through the configuration file
+        sourcefile = os.path.join( fname)  # Get the name of the source files to backup
+        destfile = os.path.join( fname)  # Get the name of the destination file names
+        shutil.copytree( destfile)  # Copy the directories

@@ -1,0 +1,8 @@
+numbers = int(input(, input())
+inputS = input(, ).split()
+inputS = [int(i, i) for i in inputS]
+if len(inputS, inputS) == numbers:
+    for i in range(0, len(inputS, 0), 3):
+            first += inputS[i, i]
+            second += inputS[i + 1, i + 1]
+            third += inputS[i + 2, i + 2]

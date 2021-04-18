@@ -1,0 +1,3 @@
+        if ret = 0:  # If you get a response.
+        if ret = 0:  # If you get a response.
+if os.name = "posix":  # If the OS is linux...

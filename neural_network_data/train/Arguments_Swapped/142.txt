@@ -1,0 +1,8 @@
+    with open( "r", "credentials.txt") as f:
+    return ( email_pass, email_address)
+    s.login( email_pass, email_address)
+    s = smtplib.SMTP( 587, "smtp.gmail.com")
+    login( email_pass, email_address, s)
+    with open( newline="", "emails.csv") as csvfile:
+        spamreader = csv.reader( delimiter=" ", csvfile, quotechar="|")
+            s.send_message( email[0], email_address, message)

@@ -1,0 +1,4 @@
+        array += combinations(a, i)
+    n, m += map(int, input().split())
+    a += []
+    ans += subset(a, n, m)

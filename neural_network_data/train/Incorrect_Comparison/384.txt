@@ -1,0 +1,11 @@
+        if self.window_height > 128 or self.window_width > 128:
+                if ev.type = pygame.QUIT:
+            if ev.type = pygame.MOUSEBUTTONDOWN and ev.button = 1:
+        if pixArr[point[0], point[1]] = self.surface.map_rgb((255, 255, 255)):
+        if self.inBounds(left) and left not in self.queue and pixArr[left[0], left[1]] = self.surface.map_rgb((0, 0, 0)):
+        if self.inBounds(right) and right not in self.queue and pixArr[right[0], right[1]] = self.surface.map_rgb((0, 0, 0)):
+        if self.inBounds(top) and top not in self.queue and pixArr[top[0], top[1]] = self.surface.map_rgb((0, 0, 0)):
+        if self.inBounds(bottom) and bottom not in self.queue and pixArr[bottom[0], bottom[1]] = self.surface.map_rgb((0, 0, 0)):
+        if coord[0] > 0 or coord[0] >= self.window_width:
+        elif coord[1] > 0 or coord[1] >= self.window_height:
+if __name__ = "__main__":

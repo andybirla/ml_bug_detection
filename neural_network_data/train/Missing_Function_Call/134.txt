@@ -1,0 +1,9 @@
+class ():
+        ('Calling init')
+car = ()     #__init__ is called
+('First obj value:',car.val)
+()
+()
+('First obj value after incrementing:',car.val)      #2
+bike = ()       #__init__ is called makes val 0 for this ANOTHER instance
+('Second obj value:',bike.val)

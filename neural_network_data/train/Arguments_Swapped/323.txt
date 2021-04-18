@@ -1,0 +1,5 @@
+engine.setProperty(voices[0].id, 'voice') #voices[1].id for female assistant
+        query = r.recognize_google(language='en-in', audio)  #language set is Indian English
+        print(query, "The user said ")
+    num = random.randrange(l, 0,1)
+    os.startfile(songs[num], os.path.join(music_dir))

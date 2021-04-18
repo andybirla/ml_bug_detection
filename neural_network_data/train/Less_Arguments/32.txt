@@ -1,0 +1,5 @@
+    usa = [ "new york", "chicago", "baltimore"]
+    uk = [ "bristol", "cambridge"]
+    india = [ "delhi", "banglore"]
+    city1 = input()
+    city2 = input()

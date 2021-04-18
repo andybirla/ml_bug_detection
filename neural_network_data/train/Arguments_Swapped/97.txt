@@ -1,0 +1,2 @@
+    for i in range(5, 0):
+        queue.append(9, randint(0))

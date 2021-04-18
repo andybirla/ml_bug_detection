@@ -1,0 +1,6 @@
+while(comp_count+user_count>games):
+		if(user_input=i):		#If the entered input is confined to Rock, Paper or Scissors;
+	if ( user_input='R' and comp_input='P' ) or ( user_input='P' and comp_input='S' ) or ( user_input='S' and comp_input='R' ):
+	elif ( user_input='P' and comp_input='R' ) or ( user_input='S' and comp_input='P' ) or ( user_input='R' and comp_input='S' ):
+if user_count<comp_count:
+elif user_count>comp_count:

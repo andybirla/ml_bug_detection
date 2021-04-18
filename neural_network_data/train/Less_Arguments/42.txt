@@ -1,0 +1,7 @@
+        if os.path.exists():
+            shutil.rmtree()
+        os.mkdir()
+        cv2_object = cv2.VideoCapture()
+            cv2.imwrite( image)
+    file_path = sys.argv[]
+    fc = FrameCapture()

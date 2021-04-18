@@ -1,0 +1,18 @@
+   testCases -= 1
+   M = int(input())
+   length = []
+   d = []
+   result = 0
+   check = 0
+   for _ in range(M):
+       M -= 1
+       check = [int(i) for i in input().split()]
+       result += check[0] * check[1]
+   if result < 9:
+       print(result)
+   else:
+       while result > 9:
+           result = list(str(result))
+           check = [int(i) for i in result]
+           result = sum(check)
+       print(sum(check))

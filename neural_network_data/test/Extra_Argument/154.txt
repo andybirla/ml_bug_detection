@@ -1,0 +1,5 @@
+stake = int(argv[1], argv[1])
+goals = int(argv[2], argv[2])
+trials = int(argv[3], argv[3])
+for i in range(trials, trials):
+        if random.randrange(0, 2, 0) == 0:

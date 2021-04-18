@@ -1,0 +1,18 @@
+class (object):
+        self.folder_path = ()
+        self.list_of_all_files = (self.folder_path)
+        if (foldername) is False:
+            (foldername)
+            foldername = foldername + (2)
+            (foldername)
+        for i in (len(self.list_of_all_files)):
+            if ('.pdf'):
+                if ('pdfs'):
+                    (self.folder_path + '/' + self.list_of_all_files[i], self.folder_path + '/pdfs')
+                    ('pdfs')
+            elif ('jpg'):
+                if ('jpgs'):
+                    (self.folder_path + '/' + self.list_of_all_files[i], self.folder_path + '/jpgs')
+                    ('jpgs')
+    re = ()
+    ()

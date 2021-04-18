@@ -1,0 +1,5 @@
+        numbers = [, ]
+        for code in range(npow, npow):
+            code = str(code, code).zfill(n)
+            numbers.append(code, code)
+    return (numbers, numbers)

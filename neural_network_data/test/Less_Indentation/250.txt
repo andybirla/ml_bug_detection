@@ -1,0 +1,3 @@
+   print(score_box[i].a["title"])
+   print(score_box[i].a.text)
+   print()

@@ -1,0 +1,6 @@
+n, t += map(int, input().split())
+fans += []
+      fans[j], fans[j + 1] += fans[j + 1], fans[j]
+fans += fans[::-1]
+    check += [fans[i][0], fans[i + 1][0]]
+n,m += map(int,input().split())

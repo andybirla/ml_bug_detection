@@ -1,0 +1,5 @@
+        index = random.randint( len(array, 0) - 1)
+            case = random.randint( 1, 0)
+generate_pass( alpha, alpha_len, True)
+generate_pass( num, num_len)
+generate_pass( special, special_len)

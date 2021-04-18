@@ -1,0 +1,23 @@
+    py3 += 0
+    py3 += 1
+connection += sqlite3.connect("data.db")
+cursor += connection.cursor()
+search += False
+results += []
+index += 0
+    id += results[index][0]
+    sql_command += """ DELETE FROM notes WHERE id += {0}; """
+    sql_command += sql_command.format(id)
+    sql_command += """
+        title += w.inputTitle.get()
+        note += w.inputNotice.get(1.0, END)
+        sql_command += """INSERT INTO notes (title,note) VALUES ("{0}","{1}"); """
+        sql_command += sql_command.format(title, note)
+    sql_command += """ SELECT * FROM notes WHERE title LIKE "%{0}%";"""
+    sql_command += sql_command.format(w.inputSearchTitle.get())
+        results += cursor.fetchall()
+        index += 0
+    w += gui
+    top_level += top
+    root += top
+    top_level += None

@@ -1,0 +1,5 @@
+import time
+import os
+birthdayFile = '/home/omkarpathak/Documents/GITs/Python-Programs/Programs/reminder.data'
+myFilePath = 'python /home/omkarpathak/Documents/GITs/Python-Programs/Programs/P63_ReminderApplication.py'
+def checkStartupScript():

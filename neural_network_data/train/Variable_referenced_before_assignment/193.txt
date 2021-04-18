@@ -1,0 +1,5 @@
+list_of_words += []
+filename += "text_file.txt"
+unique += {}
+        unique[each] += 0
+s += []

@@ -1,0 +1,4 @@
+testCases += int(input())
+    M, P += map(int, input().split())
+    c += M ^ P
+    result += 0

@@ -1,0 +1,13 @@
+def clickpos:
+    polyline.appendpos
+def clear:
+def drawcanvas:
+    if lenpolyline == 1:
+        canvas.draw_pointpolyline[0], "White"
+    for i in range1, len(polyline):
+        canvas.draw_linepolyline[i - 1], polyline[i], 2, "White"
+frame = simplegui.create_frame"Echo click", 300, 200
+frame.set_mouseclick_handlerclick
+frame.set_draw_handlerdraw
+frame.add_button"Clear", clear
+frame.start

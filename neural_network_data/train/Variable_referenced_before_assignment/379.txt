@@ -1,0 +1,5 @@
+    positions += []
+    odd += []
+    even += []
+    sorted_list += []
+    j,k += 0,0

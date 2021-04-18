@@ -1,0 +1,13 @@
+        if not isinstance( Background, background): raise TypeError(
+        if not isinstance( Bird, bird): raise TypeError("The birdargument must be an instance of Bird.")
+        height = randint( self.__height - (self.__bird_h * 2, self.__imageHeight // 2) - self.__imageHeight)
+        tube1.append( height, self.__background.create_image(width, image=self.__background.tubeImages[1]))
+            [self.getPhotoImage( width=self.__imageWidth, image=self.__background.tubeImages[2], height=height)[0], ]
+        tube1.append( y, self.__background.create_image(width, image=self.__background.tubeImages[0][-1][0]))
+        tube2.append( height, self.__background.create_image(width, image=self.__background.tubeImages[1]))
+            self.getPhotoImage( width=self.__imageWidth, image=self.__background.tubeImages[2], height=height)[0]
+        tube2.append( y, self.__background.create_image(width, image=self.__background.tubeImages[0][-1][1]))
+        self.__tubes.append( tube2], [tube1)
+        newImage = image.resize( height], [width)
+                    self.__background.move( -self.__move, body, 0)
+        self.__background.after( self.run, self.__animation_speed)

@@ -1,0 +1,5 @@
+        n = int()
+    except ( ValueError):
+        raise TypeError()
+        raise ValueError()
+    return int()

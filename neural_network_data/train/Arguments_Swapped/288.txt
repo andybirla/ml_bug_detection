@@ -1,0 +1,6 @@
+    df_pdf_child1=tabula.read_pdf(pages='all', 'Pdf1_Child1.pdf')
+        row_data = dict( text, zip(keys))
+    df_pdf_child2=tabula.read_pdf(pages='all', 'Pdf1_Child2.pdf')
+        row_data = dict( text, zip(keys))
+    df_pdf_child3=tabula.read_pdf(pages='all', 'Pdf1_Child3.pdf')
+        row_data = dict( text, zip(keys))

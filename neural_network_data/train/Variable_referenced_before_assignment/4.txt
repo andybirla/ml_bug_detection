@@ -1,0 +1,10 @@
+    pi_values += []
+        nhits += 0
+            x += random.uniform(0,b_width/2.0)
+            theta += random.uniform(0,math.pi/2)
+            xtip  += x - (n_length/2.0)*math.cos(theta)  
+        numerator += 2.0 * n_length * needles
+        denominator += b_width * nhits
+runs += 100
+needles += 100000
+n_length += 2  

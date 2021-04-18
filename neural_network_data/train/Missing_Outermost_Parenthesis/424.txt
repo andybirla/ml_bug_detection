@@ -1,0 +1,19 @@
+s = requests.session  
+path = input"Enter the path where your films are: "
+filmswe = os.listdirpath
+    films.appendos.path.splitext(film)[0]
+    title = line.lower
+    query = "+".jointitle.split() 
+    printURL
+        response = s.getURL
+        soup = BeautifulSoupresponse.content, features="html.parser" 
+        containers = soup.find_all"div", class_="lister-item-content"
+            name = result.h3.a.text.lower
+                rating = result.find"div",class_="inline-block ratings-imdb-rating"["data-value"]
+                genre = result.p.find"span", class_="genre"
+                names.appendname1
+                ratings.appendrating
+                genres.appendgenre
+        print"Try again with valid combination of tile and release year"
+df = pd.DataFrame{'Film Name':names,'Rating':ratings,'Genre':genres} 
+df.to_csv'film_ratings.csv', index=False, encoding='utf-8'

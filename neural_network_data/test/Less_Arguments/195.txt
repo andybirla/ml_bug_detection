@@ -1,0 +1,4 @@
+ pyttsx3.speak()
+ if () or ("Notepad" in x)) and (("open" in x) or ("run" in x) or ("Open" in x) or ("Run" in x)) :
+ 	pyttsx3.speak( sir")
+ 	os.system()

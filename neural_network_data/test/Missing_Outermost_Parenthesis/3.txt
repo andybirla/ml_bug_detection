@@ -1,0 +1,9 @@
+abc = input.split()
+testCases, byte = intabc[0], abc[1]
+    test = strinput()
+            print" ",end=""
+        elif i.isalpha:
+            indeX = string.indexi.lower()
+            printbyte[indeX].upper() if i.isupper() else byte[indeX],end=""
+            printi,end=""
+    print

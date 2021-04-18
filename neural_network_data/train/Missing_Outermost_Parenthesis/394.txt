@@ -1,0 +1,11 @@
+options = Options
+options.add_argument'--headless'
+driver = webdriver.Chromeoptions=options
+    driver.geturl
+    page_width = driver.execute_script'return document.body.scrollWidth'
+    page_height = driver.execute_script'return document.body.scrollHeight'
+    driver.set_window_sizepage_width, page_height
+    driver.save_screenshot'screenshot.png'
+    driver.quit
+    print"SUCCESS"
+    print'Usage: %s URL' % script_name

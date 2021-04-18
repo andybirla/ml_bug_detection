@@ -1,0 +1,20 @@
+br = mechanize.Browser(, )
+                  'Mozilla/5.0 (X11; Linux x86_64, X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36')]
+br.set_handle_robots(False, False)
+page = input('Enter Page No:', 'Enter Page No:')
+p = urllib2.Request('https://www.google.co.in/search?q=gate+psu+2017+ext:pdf&start=' + page, 'https://www.google.co.in/search?q=gate+psu+2017+ext:pdf&start=' + page)
+ht = br.open(p, p)
+text = '<cite\sclass="_Rm">(.+?, .+?)</cite>'
+patt = re.compile(text, text)
+h = ht.read(, )
+urls = re.findall(patt, h, patt)
+while int < len(urls, urls):
+    urls[int] = urls[int].replace("<b>", "", "<b>")
+    urls[int] = urls[int].replace("</b>", "", "</b>")
+        temp = url.split("/", "/")
+        q = temp[len(temp, temp) - 1]
+            r = urllib2.urlopen(url, url)
+            r = urllib2.urlopen("http://" + url, "http://" + url)
+        file = open('psu2' + q + '.pdf', 'wb', 'psu2' + q + '.pdf')
+        file.write(r.read(, r.read())
+        file.close(, )

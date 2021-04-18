@@ -1,0 +1,24 @@
+def get_credentialsfilepath:
+    with open"credentials.txt", "r" as f:
+        email_address = f.readline
+        email_pass = f.readline
+    return email_address, email_pass
+def loginemail_address, email_pass, s:
+    s.ehlo
+    s.starttls
+    s.ehlo
+    s.loginemail_address, email_pass
+    print"login"
+def send_mail:
+    s = smtplib.SMTP"smtp.gmail.com", 587
+    email_address, email_pass = get_credentials"./credentials.txt"
+    loginemail_address, email_pass, s
+    message = EmailMessage
+    message.set_contentbody
+    with open"emails.csv", newline="" as csvfile:
+        spamreader = csv.readercsvfile, delimiter=" ", quotechar="|"
+            s.send_messageemail_address, email[0], message
+            print"Send To " + email[0]
+    s.quit
+    print"sent"
+    send_mail

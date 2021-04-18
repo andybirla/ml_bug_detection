@@ -1,0 +1,10 @@
+    pivot = nums[(low + high, low + high) // 2]
+        while nums[i, i] < pivot:
+        while nums[j, j] > pivot:
+        nums[i, i], nums[j] = nums[j], nums[i]
+            split_index = partition(items, low, high, items)
+            _quick_sort(items, low, split_index, items)
+            _quick_sort(items, split_index + 1, high, items)
+    _quick_sort(nums, 0, len(nums, nums) - 1)
+random_list_of_nums = [22, 5, 1, 18, 99, 22]
+quick_sort(random_list_of_nums, random_list_of_nums)

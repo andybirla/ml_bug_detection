@@ -1,0 +1,4 @@
+   data = rq.get(url)
+   data = rq.get("https://" + url)
+   links.append(link.get("href"))
+   print(links[:10], file=saved)

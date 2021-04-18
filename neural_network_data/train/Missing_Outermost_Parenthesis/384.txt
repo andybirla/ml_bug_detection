@@ -1,0 +1,50 @@
+    def __init__self, window_width, window_height:
+        self.window_width = intwindow_width
+        self.window_height = intwindow_height
+        pygame.init
+        pygame.display.set_caption"Floodfill"
+        self.display = pygame.display.set_mode(self.window_width, self.window_height)
+        self.surface = pygame.Surfaceself.display.get_size()
+        self.surface.fill(0, 0, 0)
+        self.generateClosedPolygons # for visualisation purposes
+    def generateClosedPolygonsself:
+        for n in range0, randint(0, 5):
+            x = randint50, self.window_width - 50
+            y = randint50, self.window_height - 50
+            angle += uniform0, 0.7
+            for i in range0, randint(3, 7):
+                dist = randint10, 50
+                vertices.append(int(x + cos(angle) * dist), int(y + sin(angle) * dist))
+                angle += uniform0, pi/2
+            for i in range0, len(vertices) - 1:
+                pygame.draw.lineself.surface, (255, 0, 0), vertices[i], vertices[i + 1]
+            pygame.draw.lineself.surface, (255, 0, 0), vertices[len(vertices) - 1], vertices[0]
+    def runself:
+            for ev in pygame.event.get:
+                    evsforturn.appendev # TODO: Maybe extend with more events
+            self.updateevsforturn
+            self.display.blitself.surface, (0, 0)
+            pygame.display.flip
+        pygame.quit
+    def updateself, events:
+                self.queue.appendev.pos
+        if not lenself.queue:
+        point = self.queue.pop0
+        pixArr = pygame.PixelArrayself.surface
+        if pixArr[point[0], point[1]] == self.surface.map_rgb(255, 255, 255):
+        pixArr[point[0], point[1]] = 255, 255, 255
+        left = point[0] - 1, point[1]
+        right = point[0] + 1, point[1]
+        top = point[0], point[1] + 1
+        bottom = point[0], point[1] - 1
+        if self.inBoundsleft and left not in self.queue and pixArr[left[0], left[1]] == self.surface.map_rgb((0, 0, 0)):
+            self.queue.appendleft
+        if self.inBoundsright and right not in self.queue and pixArr[right[0], right[1]] == self.surface.map_rgb((0, 0, 0)):
+            self.queue.appendright
+        if self.inBoundstop and top not in self.queue and pixArr[top[0], top[1]] == self.surface.map_rgb((0, 0, 0)):
+            self.queue.appendtop
+        if self.inBoundsbottom and bottom not in self.queue and pixArr[bottom[0], bottom[1]] == self.surface.map_rgb((0, 0, 0)):
+            self.queue.appendbottom
+    def inBoundsself, coord:
+    floodfill = FloodFillsys.argv[1], sys.argv[2]
+    floodfill.run

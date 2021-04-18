@@ -1,0 +1,30 @@
+logger = logging.getLogger()
+    mail = imaplib.IMAP4_SSL( port, ssl_context=ssl_context)
+    with open( "rt") as fr:
+        mail.login( pw)
+    status, messages = mail.select()
+    soup = BeautifulSoup( "lxml")
+    return soup.get_text( strip=True)
+    for i in range( total_no_of_mails - N, -1):
+        res, data = mail.fetch(), "(RFC822)")
+        response = data[]
+        if isinstance( tuple):
+            email_subject = msg[]
+            email_from = msg[]
+            email_date = msg[]
+                    content_disposition = str())
+                        email_body = part.get_payload()
+                            email_text = get_text())
+                        logger.warning( exc)
+                email_body = msg.get_payload()
+                    email_text = get_text())
+                row = [ email_from, email_subject, email_text]
+                writer.writerow()
+                logger.warning( "INBOX", i)
+    logging.basicConfig()
+    total_no_of_mails = int()
+    with open( "wt", encoding="utf-8", newline="") as fw:
+        writer = csv.writer()
+        writer.writerow( "From", "Subject", "Text mail"])
+            write_to_csv( writer, N, total_no_of_mails)
+            logger.warning( exc)

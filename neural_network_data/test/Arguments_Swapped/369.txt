@@ -1,0 +1,2 @@
+n, x = map( input(, int).split())
+    for j in range( n, i + 1):

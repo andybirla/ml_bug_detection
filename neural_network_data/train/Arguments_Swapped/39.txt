@@ -1,0 +1,5 @@
+s = socket.socket( socket.SOCK_STREAM, socket.AF_INET )
+s.connect( 1023, (hostname ))
+                print( nickname, "Welcome to Chat room :: " )
+                s.send( "utf-8", bytes(nickname ))
+            s.send( "utf-8", bytes(reply_msg ))

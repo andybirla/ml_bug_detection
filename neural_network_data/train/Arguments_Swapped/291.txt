@@ -1,0 +1,1 @@
+    img=exifread.process_file('rb', open(filename))

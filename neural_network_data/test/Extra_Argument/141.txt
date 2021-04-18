@@ -1,0 +1,11 @@
+pygame.init(, )
+window = pygame.display.set_mode((400, 300, (400), 0, 32)
+pygame.display.set_caption("Shape", "Shape")
+WHITE = (255, 255, 255, 255)
+GREEN = (0, 255, 0, 0)
+window.fill(WHITE, WHITE)
+pygame.draw.polygon(window, GREEN, ((146, 0, window), (236, 277), (56, 277)))
+    for event in pygame.event.get(, ):
+            pygame.quit(, )
+            sys.exit(, )
+    pygame.display.update(, )

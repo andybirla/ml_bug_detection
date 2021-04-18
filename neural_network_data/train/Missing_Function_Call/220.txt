@@ -1,0 +1,3 @@
+    (alist)              # create the heap
+    end = (alist) - 1
+        (alist, 0, end - 1)

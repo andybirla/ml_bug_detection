@@ -1,0 +1,8 @@
+   filename = sys.argv[1]
+   filename = input("What is the name of the file? (extension included): ")
+   file = open(filename)
+   print("File doesn't exist!")
+   exit()
+   if i == random_line:
+       print(line.rstrip())  # rstrip removes any trailing newlines :)
+       break

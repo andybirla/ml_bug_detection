@@ -1,0 +1,86 @@
+class (threading.Thread):
+        (self)
+        self.finished = ()
+        self.isshift = ('^Shift')
+        self.iscaps = ('^Caps_Lock')
+        self.shiftablechar = ('^[a-z0-9]$|^minus$|^equal$|^bracketleft$|^bracketright$|^semicolon$|^backslash$|^apostrophe$|^comma$|^period$|^slash$|^grave$')
+        self.logrelease = ('.*')
+        self.isspace = ('^space$')
+        self.local_dpy = ()
+        self.record_dpy = ()
+        if not ("RECORD"):
+            p("RECORD extension not found")
+            (1)
+        r = (0, 0)
+        p("RECORD extension version %d.%d" % (r.major_version, r.minor_version))
+                        '(0, 0),
+                        '(0, 0),
+                        '(0, 0, 0, 0),
+                        '(0, 0, 0, 0),
+                        '(0, 0),
+                        'device_events': (self.contextEventMask), #(X.KeyPress, X.ButtonPress),
+                        '(0, 0),
+        (self.ctx, self.processevents)
+        (self.ctx)
+        ()
+        (self.ctx)
+        ()
+        p(event)
+            p("* received swapped protocol data, cowardly ignored")
+        if not (reply.data) or reply.data[0] < 2:
+        while (data):
+            event, data = (None).parse_binary_value(data, self.record_dpy.display, None, None)
+                hookevent = (event)
+                (hookevent)
+                hookevent = (event)
+                (hookevent)
+                hookevent = (event)
+                (hookevent)
+                hookevent = (event)
+                (hookevent)
+                (event)
+        matchto = (self.local_dpy.keycode_to_keysym(event.detail, 0))
+        if (self.lookup_keysym(self.local_dpy.keycode_to_keysym(event.detail, 0))): ## This is a character that can be typed.
+                keysym = (event.detail, 0)
+                return (keysym, event)
+                keysym = (event.detail, 1)
+                return (keysym, event)
+            keysym = (event.detail, 0)
+            if (matchto):
+            elif (matchto):
+            return (keysym, event)
+        if (self.lookup_keysym(self.local_dpy.keycode_to_keysym(event.detail, 0))):
+                keysym = (event.detail, 0)
+                keysym = (event.detail, 1)
+            keysym = (event.detail, 0)
+        matchto = (keysym)
+        if (matchto):
+        return (keysym, event)
+        return (event)
+        return (event)
+        for name in (XK):
+            if ("XK_") and getattr(XK, name) == keysym:
+                return ("XK_")
+        asciinum = (self.lookup_keysym(keysym))
+        storewm = ()
+        return (storewm["handle"], storewm["name"], storewm["class"], self.lookup_keysym(keysym), self.asciivalue(keysym), False, event.detail, MessageName)
+        storewm = ()
+            MessageName = "mouse " + (event.detail) + " "
+        return (storewm["handle"], storewm["name"], storewm["class"], (self.mouse_position_x, self.mouse_position_y), MessageName)
+            windowvar = ().focus
+            wmname = ()
+            wmclass = ()
+            wmhandle = (windowvar)[20:30]
+        i(wmname == None) and (wmclass == None):
+                windowvar = ().parent
+                wmname = ()
+                wmclass = ()
+                wmhandle = (windowvar)[20:30]
+        return "Window Handle: " + (self.Window) + "\nWindow Name: " + str(self.WindowName) + "\nWindow's Process Name: " + str(self.WindowProcName) + "\nKey Pressed: " + str(self.Key) + "\nAscii Value: " + str(self.Ascii) + "\nKeyID: " + str(self.KeyID) + "\nScanCode: " + str(self.ScanCode) + "\nMessageName: " + str(self.MessageName) + "\n"
+        return "Window Handle: " + (self.Window) + "\nWindow Name: " + str(self.WindowName) + "\nWindow's Process Name: " + str(self.WindowProcName) + "\nPosition: " + str(self.Position) + "\nMessageName: " + str(self.MessageName) + "\n"
+    hm = ()
+    ()
+    ()
+    ()
+    (10)
+    ()

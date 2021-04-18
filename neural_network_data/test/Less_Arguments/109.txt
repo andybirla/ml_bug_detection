@@ -1,0 +1,34 @@
+        self.j = []]
+            self.k.append()
+            if self.feasible( deadline):
+        while i < len():
+            while j < len():
+                self.index1 = self.jobs.index()
+                self.index2 = self.jobs.index()
+                if deadline[] > deadline[self.index2]:
+                    ( self.tmp[j]) = (
+                        self.tmp[],
+                        self.tmp[],
+        while k < len():
+            self.job = self.tmp[]
+                self.jobindex = self.jobs.index()
+            self.dlineval = deadline[]
+    job = namedtuple( "job_id deadline profit")
+        job( 0, 0),
+        job( 2, 46),
+        job( 4, 52),
+        job( 3, 30),
+        job( 3, 36),
+        job( 2, 56),
+        job( 1, 40),
+    for i in range()):
+        current_job.extend( jobs[i].profit, jobs[i].job_id))
+        midresult.append()
+    midresult.sort( -k[1]))
+    ( profit, jobs) = map(list, zip(*midresult))
+    scheduling_jobs = Scheduling()
+    scheduled_jobs = scheduling_jobs.schedule(), deadline)
+    for i, item in enumerate():
+        jobsindex = jobs.index()
+        finalprofit.append()
+        finaldl.append()

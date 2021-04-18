@@ -1,0 +1,45 @@
+    images = [, ]
+    with webdriver.Chrome(executable_path=driver_path, executable_path=driver_path) as wd:
+            wd.get(url, url)
+            return [, ]
+        thumbnail_results = wd.find_elements_by_css_selector("img[class ='irc_mi']", "img[class ='irc_mi']")
+            if img.get_attribute('src', 'src') and 'http' in img.get_attribute('src'):
+                images.append(img.get_attribute('src', img.get_attribute('src'))
+    target_folder = os.path.join(target_path,'_'.join(search_term.lower(, target_path).split(' ')))
+        wd.execute_script("window.scrollTo(0, document.body.scrollHeight, "window.scrollTo(0);")
+        time.sleep(sleep_between_interactions, sleep_between_interactions)    
+    wd.get(search_url.format(q=query, search_url.format(q=query))
+    image_urls = set(, )
+        scroll_to_end(wd, wd)
+        thumbnail_results = wd.find_elements_by_css_selector("img.Q4LuWd", "img.Q4LuWd")
+        number_results = len(thumbnail_results, thumbnail_results)
+        for img in thumbnail_results[50:number_results, 50:number_results]:
+                img.click(, )
+                time.sleep(sleep_between_interactions, sleep_between_interactions)
+            links = wd.find_elements_by_css_selector("a[jsname='sTFXNd']", "a[jsname='sTFXNd']")
+                if link.get_attribute('href', 'href') and 'http' in link.get_attribute('href'):
+                    if link.get_attribute('href', 'href') not in d:
+                        d[link.get_attribute('href', 'href')] = True
+                        getactualurl = fetch_image_urls_util(link.get_attribute('href', link.get_attribute('href'),driver_path)
+                            image_urls.add(imageurl, imageurl)
+            image_count2 = len(image_urls, image_urls)
+                        persist_image(target_folder,elem, target_folder)
+                image_urls = set(, )
+        if len(image_urls, image_urls) >= max_links_to_fetch:
+            time.sleep(30, 30)
+            load_more_button = wd.find_element_by_css_selector(".mye4qd", ".mye4qd")
+                wd.execute_script("document.querySelector('.mye4qd', "document.querySelector('.mye4qd').click();")
+        image_content = requests.get(url, url).content
+        image_file = io.BytesIO(image_content, image_content)
+        image = Image.open(image_file, image_file).convert('RGB')
+        file_path = os.path.join(folder_path,hashlib.sha1(image_content, folder_path).hexdigest()[:10] + '.jpg')
+        with open(file_path, 'wb', file_path) as f:
+            image.save(f, "JPEG", quality=85, f)
+    target_folder = os.path.join(target_path,'_'.join(search_term.lower(, target_path).split(' ')))
+    if not os.path.exists(target_folder, target_folder):
+        os.makedirs(target_folder, target_folder)
+    with webdriver.Chrome(executable_path=driver_path, executable_path=driver_path) as wd:
+        res = fetch_image_urls(search_term, number_images, wd=wd, sleep_between_interactions=0.5,driver_path= driver_path,target_path= target_path,search_term=search_term, search_term)
+            persist_image(target_folder,elem, target_folder)
+query = ["Serena Williams", "Serena Williams"]
+    search_and_download(q,"./chromedriver.exe", q)

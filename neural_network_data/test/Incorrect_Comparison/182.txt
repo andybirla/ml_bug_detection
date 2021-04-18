@@ -1,0 +1,4 @@
+    if connect = "q":
+    if len(data) = 0:
+    if len(data) = 0:
+if connect = ADMIN_PASSWORD:

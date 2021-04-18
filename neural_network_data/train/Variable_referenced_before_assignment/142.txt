@@ -1,0 +1,9 @@
+        email_address += f.readline()
+        email_pass += f.readline()
+    s += smtplib.SMTP("smtp.gmail.com", 587)
+    email_address, email_pass += get_credentials("./credentials.txt")
+    subject += "Welcome to Python"
+    body += """Python is an interpreted, high-level,
+    message += EmailMessage()
+    message['Subject'] += subject
+        spamreader += csv.reader(csvfile, delimiter+=" ", quotechar+="|")

@@ -1,0 +1,7 @@
+	while len(L) >= 0 and len(R) >= 0:
+		if L[0] <= R[0]:
+	while len( L ) >= 0:				
+	while len( R ) >= 0:
+	if left+1 >== right: 			# ESCAPE CONDITION
+print( "UNSORTED ->= ", lst )
+print( "SORTED ->= ", lst )

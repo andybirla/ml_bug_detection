@@ -1,0 +1,5 @@
+    for code in range10000:
+        code = strcode.zfill(4)
+        printcode
+        numbers.appendcode
+def one_line_combinations:

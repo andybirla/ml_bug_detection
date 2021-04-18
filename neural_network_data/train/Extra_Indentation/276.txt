@@ -1,0 +1,32 @@
+ class Array(object):
+     def __init__(self, size, defaultValue = None):
+         self.size = size
+         if(defaultValue == None):
+             self.items = list()
+             for i in range(size):
+                 self.items.append(defaultValue)
+         else:
+             self.items = list()
+             if(len(defaultValue) == size or len(defaultValue) < size):
+                 for j in range(len(defaultValue)):
+                     if(defaultValue[j]):
+                         self.items.append(defaultValue[j])
+                 for i in range(len(defaultValue), size):
+                     self.items.append(None)
+             else:
+                 print('Elements are more than the size specified')
+     def myLen(self):
+         if (self.myLen() < self.size):
+             for i in range(self.myLen(), 0, -1):
+                 self.items[i] = self.items[i - 1]
+             self.items[0] = element
+         else:
+             print('Element index out of range')
+     def insertAtIndex(self, index, element):
+         if (self.myLen() < self.size):
+             for i in range(self.myLen(), index + 1, -1):
+                 self.items[i] = self.items[i - 1]
+             self.items[index + 1] = element
+         else:
+             print('Element index out of range')
+     def insertBeforeIndex(self, index, element):

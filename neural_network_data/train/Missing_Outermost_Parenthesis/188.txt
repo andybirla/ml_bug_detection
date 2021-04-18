@@ -1,0 +1,2 @@
+password = "".joinrandom.sample(total, length)
+printpassword

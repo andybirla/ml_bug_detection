@@ -1,0 +1,2 @@
+        for j in range( len(List,  i + 1)): # Compare i and i + 1 element
+    print(selectionSort(List, 'Sorted List:'))

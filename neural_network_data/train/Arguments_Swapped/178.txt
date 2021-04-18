@@ -1,0 +1,7 @@
+    gray = cv.cvtColor( cv.COLOR_BGR2GRAY, img ) # converting to grayscale image to perform smoother
+    eyes = face_cascade_eye.detectMultiScale( 1.1 , img , 7)
+    for( y , x ,w ,h ) in faces:
+         cv.rectangle( (x , img , y) , (x+w , y+h) , (0 , 255 , 0) , 1)
+    for( b , a , c , d) in eyes:
+         cv.rectangle( (a , img, b), (a+c, b+d), (255, 0, 0), 1)
+    cv.imshow( img , 'img' )

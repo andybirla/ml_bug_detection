@@ -1,0 +1,14 @@
+translator = ()
+        ("Code : Language")  # Heading of language option menu
+        for i in ():
+            (f"{i[0]} => {i[1]}")
+        ()  # adding an empty space
+        for lan_code in ():
+                (f"You have selected {language[lan_code]}")
+            ("It's not a valid language code!")
+        (f"\nHave a nice Day!")
+    translated = (string, dest=user_code)
+    (f"\n{language[user_code]} translation: {translated.text}")
+    (f"Pronunciation : {translated.pronunciation}")
+    for i in ():  # checking if the source language is listed on language dict and printing it
+            (f"Translated from : {i[1]}")

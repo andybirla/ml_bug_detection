@@ -1,0 +1,7 @@
+print"\n### Vowel counter ###\n"
+string = input"Enter a string: ".lower()
+def checkVowelsletter:
+    for i in rangelen(vowels):
+for i in rangelen(string):
+    if checkVowelsstring[i]:
+printf"\n### {vowelscounter} vowel(s) were found in the string. ###"

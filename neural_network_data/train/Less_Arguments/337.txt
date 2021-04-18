@@ -1,0 +1,21 @@
+    files = glob.glob()
+    return os.path.abspath()
+    if not os.path.isdir():
+        os.makedirs()
+    copy2( dst)
+    for i in range( len(data), count):
+        if i + count-1 > len():
+            start, end = ( len(data))
+            start, end = ( i+count-1)
+        yield data[]
+    files = get_files()
+    splited_data = split( count)
+    for idx, folder in enumerate():
+            copyfiles(), getfullpath(name))
+    if len() != 3:
+        sys.exit()
+    if len() == 3:
+        path = sys.argv[]
+        if os.path.isdir():
+            count = sys.argv[]
+            start_process( int(count))

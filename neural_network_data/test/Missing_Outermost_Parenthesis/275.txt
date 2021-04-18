@@ -1,0 +1,13 @@
+x,li,small,maxx,c = input,list(),0,0,1
+for i in rangelen(x):
+               li.appendint(x[i])
+for i in rangelen(li)-1,-1,-1:
+    ifi==0:
+        print"No Number Possible"
+    ifli[i]>li[i-1]:
+for i in rangesmall+1,len(li):
+    ifli[i]>li[small] and li[i]<li[maxx]:
+li = li[:small+1] + sortedli[small+1:]
+ifc:
+    for i in rangelen(li):
+        printli[i],end = '' 

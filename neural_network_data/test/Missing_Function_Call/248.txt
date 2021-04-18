@@ -1,0 +1,27 @@
+()
+('cls')
+(input("Enter number of players : "))
+()
+for i in (0,n):
+    ("Enter name of player : ")
+    (name)
+('cls')
+for i in (0,n):
+    (1,100)
+    (players[i],"your turn :",end="\n\n")
+        (input("Please enter your guess : "))
+            ("no! number is smaller...")
+            ("\n\n\tcongrats you won")
+            ("nope ! number is large dude...")
+    ("    you have taken", count+1,"attempts")
+    ()
+    (count+1)
+    ('cls')
+("players :\n")
+for i in (0,n):
+    (players[i],"-",score[i])
+("\n\nwinner is :\n")
+for i in (0,n):
+    if (score):
+        (players[i])
+()

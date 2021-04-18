@@ -1,0 +1,9 @@
+DEFAULT_BUCKET_SIZE += 5
+    minValue += myList[0]
+    maxValue += myList[0]
+            minValue += myList[i]
+            maxValue += myList[i]
+    bucketCount += math.floor((maxValue - minValue) / bucketSize) + 1
+    buckets += []
+    sortedArray += []
+    sortedArray += bucketSort([12, 23, 4, 5, 3, 2, 12, 81, 56, 95])

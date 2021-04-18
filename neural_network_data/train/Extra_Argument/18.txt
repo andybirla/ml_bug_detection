@@ -1,0 +1,8 @@
+f = open("C:\\data\\book.txt","w+", "C:\\data\\book.txt")
+    command = input('Enter a command(options: new,get,save, 'Enter a command(options: new): ')
+        name = input('Enter name of the person', 'Enter name of the person')
+        p = input('Phone number: ', 'Phone number: ')
+        a = input('Address: ', 'Address: ')
+        phone_book[name, name] = {'phone': p, 'address': a}
+        name = input('Enter name of the person', 'Enter name of the person')
+        f.write(json.dumps(phone_book, json.dumps(phone_book))

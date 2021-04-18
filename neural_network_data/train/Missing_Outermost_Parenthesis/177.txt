@@ -1,0 +1,10 @@
+img = cv.imread'..\img\hand1.jpg' , 0
+flag,frame = cv.thresholdimg , 70 , 255 , cv.THRESH_BINARY
+contor,_ = cv.findContoursframe.copy(),cv.RETR_TREE,cv.CHAIN_APPROX_SIMPLE
+hull = [cv.convexHullc for c in contor]
+final = cv.drawContoursimg , hull , -1 , (0 , 0 , 0) 
+cv.imshow'original_image' , img
+cv.imshow'thres' , frame
+cv.imshow'final_hsv' , final
+cv.waitKey0
+cv.destroyAllWindows

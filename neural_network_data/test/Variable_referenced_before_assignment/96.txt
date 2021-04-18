@@ -1,0 +1,5 @@
+page_count += 10
+url += 'https://en.wikipedia.org/w/api.php?action+=query&list+=random&rnnamespace+=0&rnlimit+=' + str(
+    response += requests.get(url)
+        jsonData += response.json()['query']['random']
+        i += input("Which page you want to see, enter index..[r: for retry,n: exit]?").lower()

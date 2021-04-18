@@ -1,0 +1,15 @@
+text = ("input text : ")
+path = ("path : ")
+    (path)
+    files = ()
+        abs_path = (file_name)
+        if (abs_path):
+            (abs_path)
+        if (abs_path):
+            f = (file_name, "r")
+            if text in ():
+                (text + " found in ")
+                final_path = (file_name)
+                (final_path)
+        (text + " not found! ")
+(path)

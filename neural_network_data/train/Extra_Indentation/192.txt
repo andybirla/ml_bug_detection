@@ -1,0 +1,26 @@
+ def find_Triplets_with_zero_sum(arr, num): 
+     found = False
+     arr.sort() 
+     for index in range(0, num - 1) : 
+         left = index + 1
+         right = num - 1
+         curr = arr[index] # current element
+         while (left < right): 
+             temp = curr + arr[left] + arr[right] 
+             if (temp == 0) : 
+                 print(curr, arr[left], arr[right]) 
+                 left += 1
+                 right -= 1
+                 found = True
+             elif (temp < 0) : 
+                 left += 1
+             else: 
+                 right -= 1
+     if (found == False): 
+         print(" No Triplet Found") 
+ if __name__ == "__main__":
+     n = int(input('Enter size of array\n'))
+     print('Enter elements of array\n')
+     arr = list(map(int,input().split()))
+     print('Triplets with 0 sum are as : ')
+     find_Triplets_with_zero_sum(arr, n) 

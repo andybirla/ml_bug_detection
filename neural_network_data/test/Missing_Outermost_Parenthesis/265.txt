@@ -1,0 +1,19 @@
+def createStack: 
+def isEmptystack: 
+	return lenstack == 0
+def pushstack, item: 
+	stack.appenditem 
+	printitem + " pushed to stack " 
+def popstack: 
+	if isEmpty(stack): 
+		return str-maxsize -1 # return minus infinite 
+	return stack.pop 
+def peekstack: 
+	if isEmpty(stack): 
+		return str-maxsize -1 # return minus infinite 
+	return stack[lenstack - 1] 
+stack = createStack 
+pushstack, str(10) 
+pushstack, str(20) 
+pushstack, str(30) 
+printpop(stack) + " popped from stack" 

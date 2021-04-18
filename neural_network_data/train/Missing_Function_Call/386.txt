@@ -1,0 +1,22 @@
+path = ("Enter Path : ")
+url = ("Enter URL : ")
+    driver = (executable_path=r"{}".format(path))
+    (url)
+    ("loading.....")
+    res = ("return document.documentElement.outerHTML")
+    soup = (res, "lxml")
+    imglinks = ("img", src=True)
+            if (exe) > 0:
+        img_data = (img_link).content
+        with (output + "\\" + str(index + 1) + extension, "wb+") as f:
+            (img_data)
+        ()
+result = (path, url)
+(60)
+img_links = (result)
+if not (output):
+    (output)
+for index, img_link in (img_links):
+    ("Downloading...")
+        (img_link, index)
+("Download Complete!!")

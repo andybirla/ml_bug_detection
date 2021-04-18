@@ -1,0 +1,15 @@
+        ('touch ' + file_name)
+        ('echo . > ' + file_name)
+        if (sys.argv[3]) <= 15:
+            length = (sys.argv[3])
+    with (file_name, 'w') as fd:
+        ('#' * (length + 16))
+        ('\n# Author: ' + sys.argv[2])
+        ('\n# Description: ' + sys.argv[3])
+        ('\n# Created at: ' + datetime.datetime.today().strftime('%d %b %Y') + '\n')
+        ('#' * (length + 16))
+    if (sys.argv) <= 3:
+        ('You need to provide three arguments [File Name] [Author Name] [Description]')
+        ()
+    (sys.argv[1])
+    (sys.argv[1])

@@ -1,0 +1,3 @@
+    docs = db.collection(u'on_call').where(u'date',u'=',current_date).stream()
+        if (calling_time).strftime('%H:%M:%S')>=c['from']>=one_hours_from_now:
+            if doc['from'][0:5]=five_minutes_prior:

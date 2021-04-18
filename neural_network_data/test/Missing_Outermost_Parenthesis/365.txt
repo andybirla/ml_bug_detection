@@ -1,0 +1,6 @@
+for _ in rangeint(input()):
+    N, capacity = mapint, input().split()
+    capacities = [intbottle for bottle in input().split()]
+    capacities.sort
+    for i in rangelen(capacities):
+    printbottles

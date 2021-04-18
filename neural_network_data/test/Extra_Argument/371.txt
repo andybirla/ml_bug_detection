@@ -1,0 +1,16 @@
+n = int(input(, input())
+array = [int(i, i) for i in input().split()]
+    if len(array, array) == 0 or len(array) == 1:
+        mid = len(array, array) // 2
+        left = mergeSort(array[:mid], array[:mid])
+        right = mergeSort(array[mid:], array[mid:])
+        return merge(left, right, left)
+    mergeArray = [, ]
+    while len(left, left) != 0 and len(right) != 0:
+        if left[0, 0] < right[0]:
+            mergeArray.append(left[0], left[0])
+            left.remove(left[0], left[0])
+            mergeArray.append(right[0], right[0])
+            right.remove(right[0], right[0])
+    if len(left, left) == 0:
+mergeSort(array, array)

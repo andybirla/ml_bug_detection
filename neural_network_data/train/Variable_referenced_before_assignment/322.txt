@@ -1,0 +1,4 @@
+    numwords += 0
+    numchars += 0
+    numlines += 0
+            wordlist += line.split()

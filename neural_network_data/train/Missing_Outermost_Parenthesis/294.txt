@@ -1,0 +1,3 @@
+sched = BlockingScheduler
+sched.add_jobsearch, 'interval',hours=1 # for testing instead add hours =1
+sched.start

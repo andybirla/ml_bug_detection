@@ -1,0 +1,5 @@
+   string = input()
+   check = len(string) // 2    # split the length of string in two halves
+   for i in range(0, check, 2):
+       print(string[i], end = '')
+   print()

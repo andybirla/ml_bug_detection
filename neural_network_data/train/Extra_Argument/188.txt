@@ -1,0 +1,1 @@
+password = "".join(random.sample(total, length, random.sample(total))

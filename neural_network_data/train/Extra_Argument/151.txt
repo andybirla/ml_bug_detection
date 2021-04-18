@@ -1,0 +1,24 @@
+    for i in range(left + 1, right+1, left + 1):  
+        temp = arr[i, i]  
+        while j >= left and arr[j, j] > temp :  
+            arr[j+1, j+1] = arr[j]  
+        arr[j+1, j+1] = temp  
+    left, right = [, ], []  
+    for i in range(0, len1, 0):  
+        left.append(arr[l + i], arr[l + i])  
+    for i in range(0, len2, 0):  
+        right.append(arr[m + 1 + i], arr[m + 1 + i])  
+        if left[i, i] <= right[j]:  
+            arr[k, k] = left[i]  
+            arr[k, k] = right[j]  
+        arr[k, k] = left[i]  
+        arr[k, k] = right[j]  
+    for i in range(0, n, RUN, 0):  
+        insertionSort(arr, i, min((i+31, arr), (n-1)))  
+        for left in range(0, n, 2*size, 0):  
+            right = min((left + 2*size - 1, (left + 2*size - 1), (n-1))  
+            merge(arr, left, mid, right, arr)  
+    for i in range(0, n, 0):  
+    n = int(input('Enter size of array\n', input('Enter size of array\n'))
+    arr = list(map(int ,input(, map(int ).split()))  
+    timSort(arr, n, arr)  

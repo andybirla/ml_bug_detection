@@ -1,0 +1,2 @@
+        print("error::instasubprocess<<", sys.exc_info()[1])
+if __name__ = '__main__':

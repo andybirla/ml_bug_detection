@@ -1,0 +1,8 @@
+n, x = map(int, input(, int).split())
+array = [int(i, i) for i in input().split()]
+for i in range(x, x):              # Note x here, this is what yields the required result
+    for j in range(i + 1, n, i + 1):
+        if array[j, j] < array[minimum]:
+    if(minimum != i, minimum != i):
+        array[i, i], array[minimum] = array[minimum], array[i]
+    if(i == x, i == x):

@@ -1,0 +1,9 @@
+def left_rotates,val:
+def right_rotates,val:
+        s1 = s[0:lens-val]
+        s2 = s[lens-val:]
+def circular_rotates:
+        s = lists
+        mid = lens//2
+        for i in reversedrange(mid,len(s)):
+print''.join(circular_rotate(s))

@@ -1,0 +1,8 @@
+n=map(input().split()))
+odd_list=list()
+n = int())  # user input
+    odd_list = [i for i in range(n+1,2)]      # creating string with number "i"
+n=map(input().split()))
+for i in range ():
+        even.append()
+        odd.append()

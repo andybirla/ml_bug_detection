@@ -1,0 +1,35 @@
+   def __init__(self):
+       self.vertexList = {}
+       self.count = 0
+   def addVertex(self, key):
+       self.count += 1
+       newVertex = Vertex(key)
+       self.vertexList[key] = newVertex
+       return newVertex
+   def getVertex(self, vertex):
+       if vertex in self.vertexList:
+           return self.vertexList[vertex]
+       else:
+           return None
+   def addEdge(self, fromEdge, toEdge, cost = 0):
+       if fromEdge not in self.vertexList:
+           newVertex = self.addVertex(fromEdge)
+       if toEdge not in self.vertexList:
+           newVertex = self.addVertex(toEdge)
+       self.vertexList[fromEdge].addNeighbour(self.vertexList[toEdge], cost)
+   def getVertices(self):
+       return self.vertexList.keys()
+   def __iter__(self):
+       return iter(self.vertexList.values())
+   graph = Graph()
+   graph.addVertex('A')
+   graph.addVertex('B')
+   graph.addVertex('C')
+   graph.addVertex('D')
+   graph.addEdge('A', 'B', 5)
+   graph.addEdge('A', 'C', 6)
+   graph.addEdge('A', 'D', 2)
+   graph.addEdge('C', 'D', 3)
+   for vertex in graph:
+       for vertexes in vertex.getEdges():
+           print('({}, {}) => {}'.format(vertex.getKey(), vertexes.getKey(), vertex.getWeight(vertexes)))

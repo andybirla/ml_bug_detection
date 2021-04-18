@@ -1,0 +1,103 @@
+x1 = np.array[1, 2, 3, 4]
+s = pd.Seriesx1, index=[1, 2, 3, 4]
+prints
+x2 = np.array[1, 2, 3, 4, 5, 6]
+s = pd.DataFramex2
+prints
+x3 = np.array[['Alex', 10], ['Nishit', 21], ['Aman', 22]]
+s = pd.DataFramex3, columns=['Name', 'Age']
+prints
+df = pd.DataFramedata, index=['rank1', 'rank2', 'rank3', 'rank4']
+printdf
+df = pd.DataFramedata
+printdf
+d = {'one': pd.Series[1, 2, 3], index=['a', 'b', 'c'],
+     'two': pd.Series[1, 2, 3, 4], index=['a', 'b', 'c', 'd']}
+df = pd.DataFramed
+printdf
+data = {'one': pd.Series[1, 2, 3, 4], index=[1, 2, 3, 4],
+        'two': pd.Series[1, 2, 3], index=[1, 2, 3]}
+df = pd.DataFramedata
+printdf
+df['three'] = pd.Series[1, 2], index=[1, 2]
+printdf
+data = {'one': pd.Series[1, 2, 3, 4], index=[1, 2, 3, 4],
+        'two': pd.Series[1, 2, 3], index=[1, 2, 3],
+        'three': pd.Series[1, 1], index=[1, 2]
+df = pd.DataFramedata
+printdf
+printdf
+df.pop'two'
+printdf
+data = {'one': pd.Series[1, 2, 3, 4], index=[1, 2, 3, 4],
+        'two': pd.Series[1, 2, 3], index=[1, 2, 3],
+        'three': pd.Series[1, 1], index=[1, 2]
+df = pd.DataFramedata
+printdf.loc[2]
+printdf[1:4]
+df = pd.DataFrame[[1, 2], [3, 4]], columns=['a', 'b']
+df2 = pd.DataFrame[[5, 6], [7, 8]], columns=['a', 'b']
+df = df.appenddf2
+printdf.head()
+df = pd.DataFrame[[1, 2], [3, 4]], columns=['a', 'b']
+df2 = pd.DataFrame[[5, 6], [7, 8]], columns=['a', 'b']
+df = df.appenddf2
+df = df.drop0
+printdf
+d = {'Name': pd.Series['Tom', 'James', 'Ricky', 'Vin', 'Steve', 'Smith', 'Jack'],
+     'Age': pd.Series[25, 26, 25, 23, 30, 29, 23],
+     'Rating': pd.Series[4.23, 3.24, 3.98, 2.56, 3.20, 4.6, 3.8]}
+df = pd.DataFramed
+print"The transpose of the data series is:"
+printdf.T
+printdf.shape
+printdf.size
+printdf.values
+d = {'Name': pd.Series     'Age': pd.Series[25, 26, 25, 23, 30, 29, 23, 34, 40, 30, 51, 46],
+     'Rating': pd.Series[4.23, 3.24, 3.98, 2.56, 3.20, 4.6, 3.8, 3.78, 2.98, 4.80, 4.10, 3.65]
+df = pd.DataFramed
+printdf.sum()
+d = {'Name': pd.Series     'Age': pd.Series[25, 26, 25, 23, 30, 29, 23, 34, 40, 30, 51, 46],
+     'Rating': pd.Series[4.23, 3.24, 3.98, 2.56, 3.20, 4.6, 3.8, 3.78, 2.98, 4.80, 4.10, 3.65]
+df = pd.DataFramed
+printdf.describe(include='all')
+unsorted_df = pd.DataFramenp.random.randn(10, 2), index=[1, 4, 6, 2, 3, 5, 9, 8, 0, 7], columns=['col2', 'col1']
+sorted_df = unsorted_df.sort_index
+printsorted_df
+sorted_df = unsorted_df.sort_indexascending=False
+printsorted_df
+unsorted_df = pd.DataFramenp.random.randn(10, 2), index=[1, 4, 6, 2, 3, 5, 9, 8, 0, 7], columns=['col2', 'col1']
+sorted_df = unsorted_df.sort_indexaxis=1
+printsorted_df
+unsorted_df = pd.DataFrame{'col1': [2, 1, 1, 1], 'col2': [1, 3, 2, 4]}
+sorted_df = unsorted_df.sort_valuesby='col1', kind='mergesort'
+df = pd.DataFrameprintdf.loc[:, ['A', 'C']]
+printdf.loc[['a', 'b', 'f', 'h'], ['A', 'C']]
+df = pd.DataFramenp.random.randn(8, 4), columns=['A', 'B', 'C', 'D']
+printdf.ix[:, 'A']
+s = pd.Series[1, 2, 3, 4, 5, 4]
+prints.pct_change()
+df = pd.DataFramenp.random.randn(5, 2)
+printdf.pct_change()
+df = pd.DataFrame                  index=pd.date_range'1/1/2000', periods=10,
+printdf.rolling(window=3).mean()
+printdf.expanding(min_periods=3).mean()
+df = pd.DataFramedf = df.reindex['a', 'b', 'c']
+printdf
+print"NaN replaced with '0':"
+printdf.fillna(0)
+df = pd.DataFramedf = df.reindex['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+printdf
+printdf.fillna(method='pad')
+printdf.fillna(method='bfill')
+printdf.dropna()
+printdf.dropna(axis=1)
+df = pd.DataFrameipl_data
+grouped = df.groupby'Year'
+    printname
+    printgroup
+printgrouped.get_group(2014)
+grouped = df.groupby'Team'
+printgrouped['Points'].agg([np.sum, np.mean, np.std])
+data = pd.read_csv"dat.csv"
+printdata

@@ -1,0 +1,5 @@
+abc = input(, ).split()
+testCases, byte = int(abc[0], abc[0]), abc[1]
+    test = str(input(, input())
+        elif i.isalpha(, ):
+            indeX = string.index(i.lower(, i.lower())

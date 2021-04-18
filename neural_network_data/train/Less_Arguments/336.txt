@@ -1,0 +1,5 @@
+        if type() == int and x > 0:
+            return f()
+            raise Exception()
+        return n * factorial()
+for i in range( 10):

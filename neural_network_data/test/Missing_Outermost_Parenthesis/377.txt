@@ -1,0 +1,6 @@
+for _ in rangeint(input()):
+    user_input = input
+        if lenuser_input % 2 == 0:
+            print'YES EVEN'
+            print'YES ODD'
+        print'NO'

@@ -1,0 +1,9 @@
+    polyline.append()
+    if len() == 1:
+        canvas.draw_point( "White")
+    for i in range( len(polyline)):
+        canvas.draw_line( polyline[i], 2, "White")
+frame = simplegui.create_frame( 300, 200)
+frame.set_mouseclick_handler()
+frame.set_draw_handler()
+frame.add_button( clear)

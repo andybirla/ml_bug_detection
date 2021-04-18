@@ -1,0 +1,44 @@
+    ('Use the arrow keys to move, press the space bar to pause, and press ESC to quit')
+    (1)
+    ()
+    win = (20, 60, 0, 0)
+    (1)
+    ()
+    (0)
+    (0)
+    (1)
+    ()
+    s = ('.snake_highscore.txt', 'r')
+    hscore = ()
+    ()
+    (food[0], food[1], '*')  # Prints or shows the food
+        (0)
+        (0, 2, 'Score : ' + str(score) + ' ')  # Printing 'Score' and
+        (0, 27, ' SNAKE ')  # 'SNAKE' strings
+        (0, 37, 'Highscore: ' + str(hscore) + ' ')
+            (150 - (len(snake) / 5 + len(snake) / 10) % 120))  # Increases the speed of Snake as its length increases
+        event = ()
+        if key == (' '):  # If SPACE BAR is pressed, wait for another
+            key = -1  # o(Pause/Resume)
+            (0, 40, 'PAUSED')
+            while key != (' '):
+                key = ()
+        (0, [snake[0][0] + (key == KEY_DOWN and 1) + (key == KEY_UP and -1),
+                         snake[0][1] +(key == KEY_LEFT and -1) + (key == KEY_RIGHT and 1)])
+                food = (1, 18), randint(1, 58)]  # Calculating next food's coordinates
+            (food[0], food[1], '*')
+            last = ()  # [1] If it does not eat the food, length decreases
+            (last[0], last[1], ' ')
+        (snake[0][0], snake[0][1], '#')
+    ()
+    ( "Score - " + str(score))
+    if score > (hscore):
+        s = ('.snake_highscore.txt', 'w')
+        (str(score))
+        ()
+()
+if score > (hscore):
+    s = ('.snake_highscore.txt', 'w')
+    (str(score))
+    ()
+("Score - " + str(score))

@@ -1,0 +1,13 @@
+        if card.rank = 'Ace':
+        while self.value < 21 and self.aces:
+            if chips.bet > chips.total or chips.bet >= 0:
+        if x.lower() = '1':
+        elif x.lower() = '0':
+        if player_hand.value < 21:
+    if player_hand.value >= 21:
+        while dealer_hand.value > 17:
+        if dealer_hand.value < 21:
+        elif dealer_hand.value < player_hand.value:
+        elif dealer_hand.value > player_hand.value:
+    if player_chips.total < 0:
+        if new_game.lower() = '1':

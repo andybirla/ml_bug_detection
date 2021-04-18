@@ -1,0 +1,23 @@
+def usage:
+    print'[-] Usage: python check_file.py [filename1] [filename2] ... [filenameN]'
+def readfilefilename:
+    with openfilename, 'r' as f:  # Ensure file is correctly closed under
+        read_file = f.read  # all circumstances
+    printread_file
+    print
+    print'#' * 80
+    print
+def main:
+    if lensys.argv >= 2:
+        filteredfilenames_1 = listfile_names  # To counter changing in the same list which you are iterating
+        filteredfilenames_2 = listfile_names
+            if not os.path.isfilefilename:  # Check the File exists
+                print'[-] ' + filename + ' does not exist.'
+                filteredfilenames_2.removefilename  # remove non existing files from fileNames list
+            if not os.accessfilename, os.R_OK:
+                print'[-] ' + filename + ' access denied'
+                filteredfilenames_2.removefilename
+            print'[+] Reading from : ' + filename
+            readfilefilename
+        usage  # Print usage if not all parameters passed/Checked
+    main

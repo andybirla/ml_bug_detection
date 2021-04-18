@@ -1,0 +1,16 @@
+class HashMapobject:
+    def __init__self:
+        self.hash_map = [[None, None] for _ in range(10)]
+    def insertself, key, value:
+        hash_key = hashkey % len(self.hash_map)
+        for i, key_value_pair in enumeratehash_list:
+                hash_list[i] = (key, value)
+                hash_list.append(key, value)
+    def getself, key:
+        hash_key = hashkey % len(self.hash_map)
+        for i, key_value in enumeratehash_list:
+    myDict = HashMap
+    myDict.insert'Omkar', 'Pathak'
+    myDict.insert'Jagdish', 'Pathak'
+    value = myDict.get'Omkar'
+    printvalue

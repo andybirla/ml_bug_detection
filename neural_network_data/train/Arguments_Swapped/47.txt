@@ -1,0 +1,5 @@
+driver.execute_script( 500, 'window.scrollTo(1);')
+driver.execute_script( 3000, 'window.scrollTo(1);')
+for username, comment in zip( comment_elems, username_elems):
+with open( 'w', filename, newline='', encoding='utf-8') as f: 
+    w = csv.DictWriter(['Author', f,'Comment']) 

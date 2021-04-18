@@ -1,0 +1,83 @@
+ import random
+ import matplotlib.pyplot as plt
+ choice = input("Do you want to bet on Even number or odd number \n")
+ if choice=="Even":
+     def pickNote():
+         note = random.randint(1,100)
+         if note%2!=0 or note==10:
+             return False
+         elif note%2==0:
+             return True
+ elif choice=="Odd":
+     def pickNote():
+         note = random.randint(1,100)
+         if note%2==0 or note==11:
+             return False
+         elif note%2==1:
+             return True  
+ def play(total_money, bet_money, total_plays):
+     num_of_plays = []
+     money = []
+     play = 1
+     for play in range(total_plays):
+         if pickNote():
+             total_money = total_money + bet_money
+             num_of_plays.append(play)
+             money.append(total_money)
+         else:
+             total_money = total_money - bet_money 
+             num_of_plays.append(play)
+             money.append(total_money)
+     plt.ylabel('Player Money in $')
+     plt.xlabel('Number of bets')
+     plt.plot(num_of_plays,money)
+     final_funds.append(money[-1])
+     return(final_funds)
+ final_funds= []
+ for i in range(10):
+     ending_fund = play(10000,100,50)
+ print(ending_fund)
+ print(sum(ending_fund))
+ print("The player started with $10,000")
+ print("The player left with $",str(sum(ending_fund)/len(ending_fund)))
+ final_funds= []
+ for i in range(1000):
+     ending_fund = play(10000,100,50)
+ print("The player started with $10,000")
+ print("The player left with $",str(sum(ending_fund)/len(ending_fund)))
+ final_funds= []
+ for i in range(10):
+     ending_fund = play(10000,100,5)
+ print("Number of bets = 5")
+ print("The player started with $10,000")
+ print("The player left with $",str(sum(ending_fund)/len(ending_fund)))
+ final_funds= []
+ for i in range(10):
+     ending_fund = play(10000,100,10)
+ print("Number of bets = 10")
+ print("The player started with $10,000")
+ print("The player left with $",str(sum(ending_fund)/len(ending_fund)))
+ final_funds= []
+ for i in range(10):
+     ending_fund = play(10000,100,100)
+ print("Number of bets = 100")
+ print("The player started with $10,000")
+ print("The player left with $",str(sum(ending_fund)/len(ending_fund)))
+ final_funds= []
+ for i in range(10):
+     ending_fund = play(10000,100,1000)
+ print("Number of bets = 1000")
+ print("The player started with $10,000")
+ print("The player left with $",str(sum(ending_fund)/len(ending_fund)))
+ final_funds= []
+ for i in range(10):
+     ending_fund = play(10000,100,5000)
+ print("Number of bets = 5000")
+ print("The player started with $10,000")
+ print("The player left with $",str(sum(ending_fund)/len(ending_fund)))
+ final_funds= []
+ for i in range(10):
+     ending_fund = play(10000,100,10000)
+ print("Number of bets = 10000")
+ print("The player started with $10,000")
+ print("The player left with $",str(sum(ending_fund)/len(ending_fund)))

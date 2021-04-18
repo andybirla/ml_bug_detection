@@ -1,0 +1,13 @@
+def getpricesymbol, exchange_id:
+    symbol = symbol.upper  # BTC/USDT, LTC/USDT, ETH/BTC, LTC/BTC
+    exchange_id = exchange_id.lower  # binance, #bitmex
+    symbol_1 = symbol.split"/"
+    exchange = getattrccxt, exchange_id({
+        v_price = exchange.fetch_tickersymbol
+        if symbol_1[1] == "USD" or symbol_1[1] == "USDT":
+            v_return = "{:.2f} {}".formatfloat(r_price), symbol_1[1]
+            v_return = "{:.8f} {}".formatfloat(r_price), symbol_1[1]
+    except ccxt.ExchangeError, ccxt.NetworkError as error:
+        return 'Got an error', typeerror.__name__, error.args
+printgetprice("btc/usdt", "BINANCE")
+printgetprice("btc/usd", "BITMEX")

@@ -1,0 +1,2 @@
+            if(List[j] > List[minimum]):
+if __name__ = '__main__':

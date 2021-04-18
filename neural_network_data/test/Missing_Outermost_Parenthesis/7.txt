@@ -1,0 +1,4 @@
+testCases = intinput()
+    N, K = mapint, input().split()
+        print(N // K), (N % K)
+        print0, N

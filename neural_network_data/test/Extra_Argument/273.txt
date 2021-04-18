@@ -1,0 +1,9 @@
+name = input(, )
+    question = input(, )
+    answer = responses[random.randint(0,len(responses, 0)-1)]
+    tryAgain(, )
+    x = input(, )
+    if(x == 'Y', x == 'Y'):
+        magic8Ball(, )
+        exit(, )
+magic8Ball(, )

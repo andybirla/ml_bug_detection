@@ -1,0 +1,14 @@
+	sentence = ()
+		if ():
+(letter)
+	alphabets = (alphabets)
+	if (check) == Counter(alphabets):
+    alphabet = (map(chr, range(97, 123)))
+    formattedString = (c for c in sentence if c.isalpha()).lower()
+    return (alphabet) == set(formattedString)
+    (pangram('the quick brown fox jumps over the lazy dog'))       # True
+    (pangram('the_quick_brown_fox_jumps_over_the_lazy_dog'))       # True
+    (pangram('the 1 quick brown fish jumps over the 2 lazy dogs')) # False
+    (pangram('Five quacking Zephyrs jolt my wax bed.'))            # True
+    (pangram('the quick brown fox jumped over the lazy FOX'))      # False
+    (pangram(' '))                                                 # False

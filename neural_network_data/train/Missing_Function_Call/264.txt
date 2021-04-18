@@ -1,0 +1,5 @@
+    for i in (len(List) - 1): #For iterating n - 1 times
+        for j in ( i + 1, len(List)): # Compare i and i + 1 element
+            (List[j] < List[minimum]):
+        (minimum != i):
+    ('Sorted List:',selectionSort(List))

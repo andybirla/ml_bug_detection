@@ -1,0 +1,5 @@
+for _ in rangeint(input()):
+    n = intinput()
+    if n <= 26:
+        prints[:n]
+        print c

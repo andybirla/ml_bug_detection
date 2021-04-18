@@ -1,0 +1,4 @@
+            x = float()))
+            if ():
+    for i in range():
+        x = 3.9 * x * ()

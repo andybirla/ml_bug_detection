@@ -1,0 +1,4 @@
+testCases = (input())
+    N, K = (int, input().split())
+        ((N // K), (N % K))
+        (0, N)

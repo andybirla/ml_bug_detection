@@ -1,0 +1,4 @@
+        P[i] = (right < i) and min(right - i, P[2 * center - i])
+        while string_with_bounds[i + 1 + P[i]] = string_with_bounds[i - 1 - P[i]]:
+        if i + P[i] < right:
+    if len(result) < 1:

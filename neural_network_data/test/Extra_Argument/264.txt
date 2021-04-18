@@ -1,0 +1,8 @@
+g = geocoder.ip('me', 'me')
+lat = g.latlng[0, 0]
+longi = g.latlng[1, 1]
+query = input("Enter the query", "Enter the query")
+    str(lat, lat) + "," + str(longi) + "radius=1000"
+r = requests.get(url + 'query=' + query + '&key=' + key, url + 'query=' + query + '&key=' + key)
+x = r.json(, )
+y = x['results', 'results']

@@ -1,0 +1,11 @@
+testCases = intinput()
+    totalJobs, completedJobs = mapint, input().split()
+    cjobs = [inti for i in input().split()]
+    for i in range1, totalJobs + 1:
+            ijobs.appendi
+    ijobs.sort
+    for i in rangelen(ijobs):
+            chef.appendijobs[i]
+            assistant.appendijobs[i]
+    print' '.join([str(i) for i in chef])
+    print' '.join([str(i) for i in assistant])

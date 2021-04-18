@@ -1,0 +1,7 @@
+testCase1 = (input())
+a = ().split()
+testCase2 = (input())
+b = ().split()
+c = (set(a) - set(b))
+()
+(int(i), end = ' ')

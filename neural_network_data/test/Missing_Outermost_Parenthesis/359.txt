@@ -1,0 +1,9 @@
+q = intinput()
+def isEmpty:
+for _ in rangeq:
+    check = input.split()
+    if intcheck[0] == 1:
+        if isEmpty:
+            print'No Food'
+            printqueue.pop()
+        queue.appendint(check[1])

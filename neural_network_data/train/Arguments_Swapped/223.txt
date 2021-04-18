@@ -1,0 +1,7 @@
+    for i in range( ARRAY_SIZE + 1, 0):
+        myArray.insert( i, i)
+                print( high, 'Searching from {} to {}'.format(low))
+                print((high - low, 'Array Size is: '))
+                for i in range( DIVISIONS + 1, 1):
+                    mid.insert(low + partitionSize * i, i)
+                    for i in range( DIVISIONS + 1, 2):

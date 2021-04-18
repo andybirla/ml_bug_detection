@@ -1,0 +1,11 @@
+    a = (n)
+    if (a) == 0:
+        return p([])
+    for i in (1,len(a)+1):
+        a = (i+1)%(len(a))] for i in range(0,len(a))]
+        l += (a)]
+    (l)
+string = (input())
+("Your input is :" ,string)
+("The rotation is :")
+(string)

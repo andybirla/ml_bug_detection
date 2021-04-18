@@ -1,0 +1,2 @@
+requestURL = input()
+    response = urlopen()

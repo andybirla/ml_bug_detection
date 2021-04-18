@@ -1,0 +1,5 @@
+(input_URL)
+(fit=True)
+img = (fill_color="red", back_color="white")
+("url_qrcode.png")
+(qr.data_list)

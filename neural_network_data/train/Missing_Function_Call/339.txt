@@ -1,0 +1,8 @@
+    with ("websites.txt", "r") as fr:
+            website = ()
+            status = (website).status_code
+    with ("website_status.csv", "w", newline="") as fw:
+        csv_writers = (fw)
+        for key in ():
+            ([key, status_dict[key]])
+    ()

@@ -1,0 +1,16 @@
+engine = pyttsx3.init()
+voices = engine.getProperty()
+engine.setProperty(voices[0].id) #voices[1].id for female assistant
+    engine.say()
+        audio = r.listen()
+        query = r.recognize_google(language='en-in')  #language set is Indian English
+        speak()
+        speak()
+        speak()
+    speak()
+    songs = os.listdir()
+    l = len()
+    num = random.randrange(l,1)
+    os.startfile(songs[num]))
+    speak()
+    speak()

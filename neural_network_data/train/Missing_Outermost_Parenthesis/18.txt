@@ -1,0 +1,9 @@
+f = open"C:\\data\\book.txt","w+"
+    command = input'Enter a command(options: new,get,save): '
+        name = input'Enter name of the person'
+        p = input'Phone number: '
+        a = input'Address: '
+        name = input'Enter name of the person'
+            printphone_book[name]
+            print'person not found in address book'
+        f.writejson.dumps(phone_book)

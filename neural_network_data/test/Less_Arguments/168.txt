@@ -1,0 +1,21 @@
+    a = numbers[] - numbers[0]
+    a1 = numbers[] - numbers[1]
+        b = numbers[] - a
+        return ( b)
+for i in range():  # input
+    term = str()
+    inp = int())
+    sequence.append()
+for i in range():
+    gradient = sequence[] - sequence[i]
+    first_difference.append()
+for i in range():
+    gradient = first_difference[] - first_difference[i]
+    second_difference.append()
+if second_difference[] == second_difference[1]:  # checks to see if consistent
+    a = second_difference[] / 2
+    for i in range():
+        num = a * ()
+        subs_diff.append() - num)
+    b, c = findLinear()
+          str() + "n + " + str(c))  # outputs nth term

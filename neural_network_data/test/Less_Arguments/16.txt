@@ -1,0 +1,5 @@
+testCases = int())
+    M, W = map( input().split())
+        result = W.find()
+        result = M.find()
+    if () or (countW == 1):

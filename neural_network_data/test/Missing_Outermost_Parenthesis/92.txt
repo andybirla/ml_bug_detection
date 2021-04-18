@@ -1,0 +1,6 @@
+def draw_diamondn:
+            print' '*int((n - k)/2)+'*'*k+' '*int((n - k)/2)
+        while n-2*j >= 1:
+            print' ' *j + '*' * (n-2*j) + ' ' * (j)
+        printn = intinput('Enter an odd number: ')
+draw_diamondn

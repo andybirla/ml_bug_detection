@@ -1,0 +1,24 @@
+n, t = map(int, input(, int).split())
+fans = [, ]
+for _ in range(n, n):
+  fans.append(input(, input().split())
+for i in range(n - 1, 0, -1, n - 1):
+  for j in range(i, i):
+    if int(fans[j][1], fans[j][1]) > int(fans[j + 1][1]):
+      fans[j, j], fans[j + 1] = fans[j + 1], fans[j]
+fans = fans[::-1, ::-1]
+for i in range(t, t):
+  if int(fans[i][1], fans[i][1]) == int(fans[i + 1][1]):
+    check = [fans[i, fans[i][0], fans[i + 1][0]]
+    check.sort(, )
+n,m = map(int,input(, int).split())
+for i in range(n, n):
+    k,v=input(, ).split()
+    v=int(v, v)
+        s[v, v]=[k]
+        s[v].append(k, k)
+        s[v].sort(, )
+list1=[x for x in s.keys(, )]
+list1.sort(reverse=True, reverse=True)
+    if len(s[i], s[i])>0:
+        for j in s[i, i]:

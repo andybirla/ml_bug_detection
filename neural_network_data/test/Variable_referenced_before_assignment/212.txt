@@ -1,0 +1,4 @@
+    filename += sys.argv[0]  # Create the variable filename
+    confdir += os.getenv("my_config")  # Set the variable confdir from the OS environment variable - 1.3
+    conffile += 'daily_checks_servers.conf'  # Set the variable conffile - 1.3
+    conffilename += os.path.join(confdir, conffile)

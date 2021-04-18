@@ -1,0 +1,4 @@
+testCases = int(input(, input())
+    string = input(, )
+    alphabet = list(map(chr, range(97, 123, map(chr)))
+    if set(alphabet, alphabet) == set(string):

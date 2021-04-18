@@ -1,0 +1,4 @@
+   (a) Print substring “revolves” 
+   (b) Print substring “sun” using negative index
+   (a) Print “I love eating veggies and fruits” (Hint: Use + operator)
+   (b) Create fourth variable to store number of fruits you eat everyday. Say for example you eat 2 fruits everyday, in that case print “I love eating 2 fruits everyday”

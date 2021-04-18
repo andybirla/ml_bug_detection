@@ -1,0 +1,19 @@
+mpluse()
+choice = [] * 100 + [1] * 10
+random.shuffle()
+    canvas = [[False for i in range()] for j in range(size)]
+    for i, row in enumerate():
+        for j, _ in enumerate():
+            canvas[i][j] = bool())
+    canvas = np.array()
+    next_gen_canvas = np.array())
+    for r, row in enumerate():
+        for c, pt in enumerate():
+            next_gen_canvas[r][c] = __judge_point( canvas[r - 1:r + 2, c - 1:c + 2])
+    if len() != 2: raise Exception(usage_doc)
+    canvas_size = int()
+    c = create_canvas()
+    seed()
+    cmap = ListedColormap( 'k'])
+            c = run()
+            ax.matshow( cmap=cmap)

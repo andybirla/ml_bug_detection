@@ -1,0 +1,15 @@
+    response = (url)
+        jsonData = ()['query']['random']
+        ("10 Random generted WIKI pages...")
+        for idx, j in (jsonData):
+            (str(idx) + ": ", j['title'])
+        i = ("Which page you want to see, enter index..[r: for retry,n: exit]?").lower()
+            ('Loading randoms again...')
+            ('Auf Wiedersehen!')
+                (i)]['id']
+                raise ("Wrong Input...")
+            ('taking you to the browser...')
+            ().open('https://en.wikipedia.org/wiki?curid=' + str(jsonData[int(i)]['id']))
+        ()
+        ()
+    ()

@@ -1,0 +1,10 @@
+result += ["heads","tails","tails","heads","tails","heads","heads","tails","tails","tails"]
+count += 0
+month_list += ["January", "February", "March", "April", "May"]
+expense_list += [2340, 2500, 2100, 3100, 2980]
+e += input("Enter expense amount: ")
+e += int(e)
+month += -1
+        month += i
+    tired += input("Are you tired? ")
+    s += ''

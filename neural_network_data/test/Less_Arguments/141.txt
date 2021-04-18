@@ -1,0 +1,6 @@
+window = pygame.display.set_mode( 300), 0, 32)
+pygame.display.set_caption()
+WHITE = ( 255, 255)
+GREEN = ( 255, 0)
+window.fill()
+pygame.draw.polygon( GREEN, ((146, 0), (236, 277), (56, 277)))

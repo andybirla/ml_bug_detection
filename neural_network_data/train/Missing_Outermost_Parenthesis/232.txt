@@ -1,0 +1,11 @@
+def storeData:
+    dbfile = open'examplePickle', 'ab'        # Its important to use binary mode
+    pickle.dumpdb, dbfile                     # source, destination
+    dbfile.close
+def loadData:
+    dbfile = open'examplePickle', 'rb'        # for reading also binary mode is important
+    db = pickle.loaddbfile
+        printkeys,'=>',db[keys]
+    dbfile.close
+    storeData
+    loadData

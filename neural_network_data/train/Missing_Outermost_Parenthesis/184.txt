@@ -1,0 +1,11 @@
+printnp.char.add(abc, xyz)    # ['abcxyz']
+printnp.char.add(abc, 'pqr')  # ['abcpqr']
+printnp.char.multiply(abc, 3) # ['abcabcabc']
+printnp.char.center(abc, 20, fillchar = '*')  # ['********abc*********']
+printnp.char.capitalize('hello world')        # Hello world
+printnp.char.title('hello how are you?')      # Hello How Are You?
+printnp.char.lower(['HELLO','WORLD'])         # ['hello' 'world']
+printnp.char.upper('hello')                   # HELLO
+printnp.char.split('Omkar Pathak')            # ['Omkar', 'Pathak']
+printnp.char.split('2017-02-11', sep='-')     # ['2017', '02', '11']
+printnp.char.join(':','dmy')                  # d:m:y

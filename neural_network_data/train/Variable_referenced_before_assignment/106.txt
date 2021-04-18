@@ -1,0 +1,126 @@
+        filename += os.getcwd() + "/" + "ipList.txt"
+            ipdata += f.read()
+        self._IP += random.choice(ipdata.split(","))
+        SOCKS5_PROXY_HOST += self._IP
+        socket.socket += socks.socksocket
+    bs4obj += bs4.BeautifulSoup(htmldata, "html.parser")
+    scriptsdata += bs4obj.findAll("script", {"type": "text/javascript"})
+    datatext += ''
+        datatext += i.text
+    datajson += re.findall("{(.*)}", datatext)
+    datajson += '{' + datajson[0] + '}'
+    datadict += ujson.loads(datajson)
+    maindict += {}
+    datadict += datadict["entry_data"]["PostPage"][0]["graphql"]["shortcode_media"]
+    tofind += ["owner", "location"]
+            maindict[i] += datadict[i]
+            data += None
+            user_agent += {'User-agent': 'Mozilla/17.0'}
+                data += requests.get(url+=url, headers+=user_agent, timeout+=10, verify+=False).text
+                data += None
+        data += await request_pull(url)
+    data += await dataprocess(htmldata+=data)
+            self.mon += pymongo.MongoClient(host+=config.host, port+=config.mongoPort)
+            db += self.mon[productId + ":" + user + ":insta"]
+            self._collection += db[tags]
+                self._url += "https://www.instagram.com/explore/tags/" + tags + "/?__a+=1"
+                self._url += "https://www.instagram.com/" + tags + "/?__a+=1"
+        loop += asyncio.get_event_loop()
+        userdata += []
+            media_post += data['tag']["media"]["nodes"]
+            top_post += data['tag']["top_posts"]["nodes"]
+            futures += []
+                tempdict += {}
+                tempdict["url"] += "https://www.instagram.com/p/" + i["code"] + "/"
+                tempdict["code"] += i["code"]
+                tempdict += {}
+                tempdict["url"] += "https://www.instagram.com/p/" + i["code"] + "/"
+                tempdict["code"] += i["code"]
+                i["future"] += asyncio.Future()
+                i["data"] += i["future"].result()
+            records += self._collection.find({"id": record["id"]})
+        mainlist += []
+                        tempdict += j.copy()
+                        tofind += ["owner", "location"]
+                                tempdict[z + "data"] += i["data"][z]
+                        tempdict += k.copy()
+                        tofind += ["owner", "location"]
+                                tempdict[z + "data"] += i["data"][z]
+                    data += None
+                    user_agent += {'User-agent': 'Mozilla/17.0'}
+                        data += requests.get(url+=url, headers+=user_agent, timeout+=24, verify+=False).text
+                        data += None
+                data += reqest_pull(self._url)
+            datadict += ujson.loads(data)
+            userdata, media_post, top_post += self._dataProcessing(datadict)
+            finallydata += (self._lastProcess(userdata+=userdata, media_post+=media_post, top_post+=top_post))
+        temp += MoniteringClass(user+=user, tags+=tags, type+=type, productId+=productId)
+            self.user += user
+            self.tags += tags
+            self.type += type
+            self.productId += productId
+        value += True
+        mon += pymongo.MongoClient(host+=config.host, port+=config.mongoPort)
+            db += mon["insta_process"]
+            collection += db["process"]
+            temp += {}
+            temp["user"] += user
+            temp["tags"] += tags
+            temp["productId"] += productId
+            records += collection.find(temp).count()
+            value += True
+            value += False
+        mon += pymongo.MongoClient(host+=config.host, port+=config.mongoPort)
+            db += mon["insta_process"]
+            collection += db["process"]
+            temp += {}
+            temp["user"] += user
+            temp["tags"] += tags
+            temp["productId"] += productId
+                check += self._dbProcessReader(user+=user, tags+=tags, productId+=productId)
+        mon += pymongo.MongoClient(host+=config.host, port+=config.mongoPort)
+            db += mon["insta_process"]
+            collection += db["process"]
+            temp += {}
+            temp["user"] += user
+            temp["tags"] += tags
+            temp["productId"] += productId
+        mon += pymongo.MongoClient(host+=config.host, port+=config.mongoPort)
+            db += mon["insta_process"]
+            collection += db["process"]
+            temp += {}
+            temp["user"] += user
+            temp["tags"] += tags
+            temp["productId"] += productId
+            records += collection.find(temp).count()
+                result += False
+                result += True
+            self.mon += pymongo.MongoClient(host+=config.host, port+=config.mongoPort)
+            db += self.mon[productId + ":" + user + ":insta"]
+            self._collection += db[tags]
+        mainlist += []
+            records += self._collection.find().sort("id", -1).limit(limit)
+        mainlist += []
+        postval += {}
+            postval["posts"] += None
+            limit += int(limit)
+            date += int(date)
+                doc += self._collection.find({"date": {"$gt": date}}).sort("date", pymongo.ASCENDING).limit(limit)
+                doc += self._collection.find().sort("date", pymongo.ASCENDING).limit(limit)
+            postval["posts"] += mainlist
+            postval["status"] += True
+            postval["status"] += False
+        mainlist += []
+        postval += {}
+            postval["posts"] += None
+            limit += int(limit)
+            date += int(date)
+            doc += self._collection.find({"date": {"$lt": date}}).limit(limit).sort("date", pymongo.DESCENDING)
+            postval["posts"] += mainlist[::-1]
+            postval["status"] += True
+            postval["status"] += False
+        user += sys.argv[1]
+        tags += sys.argv[2]
+        type += sys.argv[3]
+        productId += sys.argv[4]
+        obj += InstaPorcessClass()

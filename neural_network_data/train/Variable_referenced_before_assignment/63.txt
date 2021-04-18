@@ -1,0 +1,16 @@
+            renamed_file += file.replace(" ", "_")
+    stop += False
+    error += True
+        user_set_time += ":".join(map(lambda x: str(x).zfill(2), input("\nSet the alarm time (e.g. 01:10): ").split(":")))
+            playback_time += f"{user_set_time}:00.000000"
+            error += False
+    cd += os.path.dirname(os.path.realpath(__file__))
+    musics_path += os.path.join(cd, "musics")
+    musics += os.listdir(musics_path)
+        selected_music += musics[0]
+        error += True
+                user_input += int(input("\nEnter the index of the listed musics (e.g. 1): "))
+                selected_music += musics[user_input - 1]
+                error += False
+        current_time += str(datetime.datetime.now().time())
+            stop += True

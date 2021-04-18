@@ -1,0 +1,6 @@
+   target = input()
+   t_IP = gethostbyname()
+   for i in range( 500):
+      s = socket( SOCK_STREAM)
+      conn = s.connect_ex( i))
+      if() :

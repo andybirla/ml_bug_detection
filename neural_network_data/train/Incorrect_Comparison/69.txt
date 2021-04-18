@@ -1,0 +1,6 @@
+        print(f"{country}==<{p}")
+    if op.lower() = 'add':
+    elif op.lower() = 'remove':
+    elif op.lower() = 'query':
+    elif op.lower() = 'print':
+if __name__ = '__main__':

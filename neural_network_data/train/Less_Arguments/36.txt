@@ -1,0 +1,15 @@
+os.chdir()
+    "images": [ ".png", ".jpeg", ".gif"],
+    "videos": [ ".mkv"],
+    "musics": [ ".wav"],
+    "zip": [ ".tgz", ".rar", ".tar"],
+    "documents": [ ".docx", ".csv", ".xlsx", ".pptx", ".doc", ".ppt", ".xls"],
+    "setup": [ ".exe"],
+    "programs": [ ".c", ".cpp", ".php", ".C", ".CPP"],
+    "design": [ ".psd"]
+    keys = list())
+        for ext in extentions[]:
+            if file.endswith():
+    dist = sorting()
+            shutil.move( "../download-sorting/" + dist)
+            shutil.move( "../download-sorting/others")

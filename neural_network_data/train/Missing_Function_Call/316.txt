@@ -1,0 +1,8 @@
+if () == "Windows":
+elif () == "Linux":
+with (pathToHosts,'r+') as file:
+    ()
+    (0)
+        if not (site in line for site in websites):
+            (line)
+    ()

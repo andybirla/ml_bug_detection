@@ -1,0 +1,6 @@
+def circle_calcradius:
+    area=math.pi*radius**2
+    r=input"Enter a radius:"
+    r=floatr
+    area, c, d = circle_calcr
+    printf"area {area}, circumference {c}, diameter {d}"

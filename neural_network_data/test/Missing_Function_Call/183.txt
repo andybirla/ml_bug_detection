@@ -1,0 +1,30 @@
+    myDict = {"All angles are less than 90°.":"Acute Angle Triangle","Has a right a(90°)":"Right Angle Triangle",
+    display = ("**************Enter the angles of your triangle to know it's type*********")
+    angle1 = (input("Enter angle 1 : "))
+    (angle1 < 180 and angle1 > 0):
+        (angle1)
+        ("Please enter a value less than 180°")
+        angle1 = (input())
+        (angle1)
+    angle2 = (input("Enter angle2 : "))
+    (angle2 < 180 and angle2 > 0):
+        (angle2)
+        ("Please enter a value less than 180°")
+        angle2 = (input("Enter angle 2 :"))
+        (angle2)
+    angle3 = (input("Enter angle3 : "))
+    (angle3 < 180 and angle3 > 0):
+        (angle3)
+        ("Please enter a value less than 180°")
+        angle3 = (input("Enter angle3 : "))
+        (angle3)
+    (sum_of_angles > 180 or sum_of_angles < 180):
+        ("It is not a triangle!Please enter valid angles.")
+    ("You have entered : " +str(angles))
+    (angle1 == 90 or angle2 ==90 or angle3 == 90):
+        (myDict.get("Has a right angle (90°)"))
+    (angle1 < 90 and angle2 < 90 and angle3 < 90):
+        (myDict.get("All angles are less than 90°."))
+    (angle1 > 90 or angle2 > 90 or angle3 > 90):
+        (myDict.get("Has an angle more than 90°"))
+()

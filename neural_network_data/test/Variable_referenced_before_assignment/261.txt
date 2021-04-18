@@ -1,0 +1,4 @@
+    f += open('server_startup_' + strftime("%Y-%m-%d") + '.log', 'a')  # Open the logfile
+        ret += subprocess.call("ping -n 3 %s" % server, shell+=True, stdout+=open('NUL', 'w'),
+    f += open('server_startup_' + strftime("%Y-%m-%d") + '.log', 'a')  # Open the logfile
+        ret += subprocess.call("ping -c 3 %s" % server, shell+=True, stdout+=open('/dev/null', 'w'),

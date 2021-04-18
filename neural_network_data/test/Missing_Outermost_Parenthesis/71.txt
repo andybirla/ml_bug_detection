@@ -1,0 +1,26 @@
+for i in range1, 159:
+  url = 'https://www.boomlive.in/fake-news/' + stri
+    page=requests.geturl 
+    page = requests.geturl
+    soup = BeautifulSouppage.text, 'html.parser'  
+    for content in soup.find_all'h2', attrs={'class':'entry-title'}:
+      link = content.find'a'
+      fakearticle_links.appendlink.get('href') 
+    error_type, error_obj, error_info = sys.exc_info      
+    print 'ERROR FOR LINK:',url
+    print error_type, 'Line:', error_info.tb_lineno
+lenfakearticle_links
+news_dataset = pd.DataFramefakearticle_links, columns=['URL']
+news_dataset.head
+  article = ArticleUrl
+    article.download
+    article.parse
+    article.nlp
+  title.appendarticle.title                    # extracts the title of the article
+  text.appendarticle.text                      # extracts the whole text of article
+  summary.appendarticle.summary                # gives us a summary abou the article
+  keywords.append', '.join(article.keywords)   # the main keywords used in it
+  published_on.appendarticle.publish_date      # the date on which it was published
+  author.appendarticle.authors                 # the authors of the article
+news_dataset.to_csv'Fake_news.csv'
+files.download'Fake_news.csv'

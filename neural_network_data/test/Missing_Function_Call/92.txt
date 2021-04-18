@@ -1,0 +1,6 @@
+            (' '*int((n - k)/2)+'*'*k+' '*int((n - k)/2))
+        w(n-2*j) >= 1:
+            (' ' *j + '*' * (n-2*j) + ' ' * (j))
+        ('Not an odd number. Can\'t draw a diamond :(')
+n = (input('Enter an odd number: '))
+(n)

@@ -1,0 +1,2 @@
+    myList.insert( element, 0)
+      enqueue( [int(userInput[1], myList), int(userInput[2])])

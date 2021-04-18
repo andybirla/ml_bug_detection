@@ -1,0 +1,9 @@
+url = input"Enter Link: "
+if "https" or "http" in url:
+    data = rq.geturl
+    data = rq.get"https://" + url
+soup = BeautifulSoupdata.text, "html.parser"
+for link in soup.find_all"a":
+    links.appendlink.get("href")
+with open"myLinks.txt", 'a' as saved:
+    printlinks[:10], file=saved

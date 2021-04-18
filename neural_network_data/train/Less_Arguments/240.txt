@@ -1,0 +1,12 @@
+class Node():
+class LinkedList():
+        temp = Node()
+        temp.setNext()
+            previous.setNext())
+            elements.append())
+    myList.add()
+    myList.add()
+    myList.add()
+    myList.add()
+    myList.add()
+    myList.remove()

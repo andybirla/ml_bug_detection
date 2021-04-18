@@ -1,0 +1,2 @@
+    while gap >= 0:
+            while j >== gap and myList[j - gap] >= currentItem:

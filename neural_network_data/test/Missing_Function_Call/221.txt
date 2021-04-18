@@ -1,0 +1,10 @@
+    (pos)
+    if (polyline) == 1:
+        (polyline[0], "White")
+    for i in (1, len(polyline)):
+        (polyline[i - 1], polyline[i], 2, "White")
+frame = ("Echo click", 300, 200)
+(click)
+(draw)
+("Clear", clear)
+()

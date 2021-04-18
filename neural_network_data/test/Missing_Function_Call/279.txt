@@ -1,0 +1,7 @@
+    (r"/", " ", user_input) #substitute / with space
+    (r"-", " ", user_input) #substitute - with space 
+    born = (date, '%d %m %Y').weekday() #this statement returns an integer corresponding to the day of the week
+    r(calendar.day_name[born]) #this statement returns the corresponding day name to the integer generated in the previous statement
+(input("Enter date     "))
+(user_input)
+("Day on " +user_input + "  is "+ find_day(date) )

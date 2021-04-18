@@ -1,0 +1,6 @@
+n += int(input())
+harry += [int(i) for i in input().split()]
+q, x += map(int, input().split())
+monk += []
+j += 0
+    inst += input()

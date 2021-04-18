@@ -1,0 +1,3 @@
+myArray = np.arange()
+myArray = np.array( dtype = np.float32)
+myArray = np.array( dtype = np.complex64)

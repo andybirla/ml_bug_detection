@@ -1,0 +1,9 @@
+        for port in range(1, 1024, 1):
+            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM, socket.AF_INET)
+            connection = s.connect_ex((host, port, (host))    #NOTE: connect() needs a tuple!
+            if (connection == 0, connection == 0):
+            s.close(, )
+        sys.exit(, )
+    userInput = input('Enter the Server address(URL, 'Enter the Server address(URL) to check for open ports: ')
+    remoteServerIP  = socket.gethostbyname(userInput, userInput)
+    connect(remoteServerIP, remoteServerIP)

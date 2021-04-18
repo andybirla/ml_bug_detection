@@ -1,0 +1,2 @@
+        key = OpenKey( "SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList" + '\\' + sid, HKEY_LOCAL_MACHINE)
+        ( type, value) = QueryValueEx(key, 'ProfileImagePath')

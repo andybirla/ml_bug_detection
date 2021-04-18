@@ -1,0 +1,4 @@
+            split_index = partition( low, items, high)
+            _quick_sort( low, items, split_index)
+            _quick_sort( split_index + 1, items, high)
+    _quick_sort( 0, nums, len(nums) - 1)

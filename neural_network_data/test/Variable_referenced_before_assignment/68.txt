@@ -1,0 +1,4 @@
+    input += raw_input
+    program += input("Enter the name of the program to check: ")
+        output += commands.getoutput("ps -f|grep " + program)
+        proginfo += string.split(output)

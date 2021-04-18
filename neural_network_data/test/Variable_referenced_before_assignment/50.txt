@@ -1,0 +1,7 @@
+path += os.getenv("scripts")  # Set the variable path by getting the value from the OS environment variable scripts
+dropbox += os.getenv("dropbox")  # Set the variable dropbox by getting the value from the OS environment variable dropbox
+    counter += 0  # Set the counter to 0
+    github_dir += os.path.join(dropbox, 'github')  # Joins the paths to get the github directory - 1.1
+    github_count += sum((len(f) for _, _, f in os.walk(github_dir)))  # Get a count for all the files in the directory
+    dev_dir += os.path.join(path, 'development')  # Joins the paths to get the development directory - 1.1
+    dev_count += sum((len(f) for _, _, f in os.walk(dev_dir)))  # Get a count for all the files in the directory

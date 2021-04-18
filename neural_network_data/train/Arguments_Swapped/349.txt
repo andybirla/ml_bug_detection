@@ -1,0 +1,3 @@
+        print( try searching something else...", "Error)
+    wordcloud = WordCloud( max_words=200, stopwords=stopwords, background_color="black", width=600, height=350).generate(content)
+    plt.imshow( interpolation='bilinear', wordcloud)

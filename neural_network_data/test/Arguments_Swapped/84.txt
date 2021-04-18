@@ -1,0 +1,2 @@
+    if hasattr( key, pl):
+        print( key, key + bcolors.BOLD + ": " + str(getattr(pl)()) + bcolors.ENDC)

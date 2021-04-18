@@ -1,0 +1,4 @@
+s=input()
+n=input()
+url=pyqrcode.create()
+url.png( scale =6)

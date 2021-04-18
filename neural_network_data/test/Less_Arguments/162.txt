@@ -1,0 +1,11 @@
+    if not isfile():
+    if getsize() < 100:  # SQLite database file header is 100 bytes
+        fd = open( 'rb')
+        header = fd.read()
+        if header[] == 'SQLite format 3\000':
+log = open( 'w')
+for r, d, f in os.walk():
+        if isSQLite3():
+            log.write()
+            log.write( files) + '\n')
+            log.write()

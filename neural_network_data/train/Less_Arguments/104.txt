@@ -1,0 +1,65 @@
+class StartHandlerinsta():
+    executor = ThreadPoolExecutor()
+            instasubprocess( tags=tags, type=type, productId=productId)
+            q = self.get_argument()
+            user = self.get_argument()
+            type = self.get_argument()
+            productId = self.get_argument()
+            self.send_error()
+            q = q.replace( "")
+        self.background_task( tags=q, type=type, productId=productId)
+        temp[] = q
+        temp[] = user
+        temp[] = True
+        temp[] = productId
+        self.write())
+class StopHandlerinsta():
+            q = self.get_argument()
+            user = self.get_argument()
+            productId = self.get_argument()
+            self.send_error()
+        result = obj.deletProcess( user=user, productId=productId)
+        temp[] = q
+        temp[] = user
+        temp[] = productId
+        temp[] = result
+        self.write())
+class StatusHandlerinsta():
+            q = self.get_argument()
+            user = self.get_argument()
+            productId = self.get_argument()
+            self.send_error()
+        result = obj.statusCheck( user=user, productId=productId)
+        temp[] = q
+        temp[] = user
+        temp[] = result
+        temp[] = productId
+        self.write())
+class SenderHandlerinstaLess():
+            q = self.get_argument()
+            user = self.get_argument()
+            type = self.get_argument()
+            productId = self.get_argument()
+            date = self.get_argument()
+            limit = self.get_argument()
+            self.send_error()
+        recordsobj = DBDataFetcher( tags=q, type=type, productId=productId)
+        data = recordsobj.DBFetcherLess( date=date)
+        self.write()
+class SenderHandlerinstaGreater():
+            q = self.get_argument()
+            user = self.get_argument()
+            type = self.get_argument()
+            productId = self.get_argument()
+            date = self.get_argument()
+            limit = self.get_argument()
+            self.send_error()
+        recordsobj = DBDataFetcher( tags=q, type=type, productId=productId)
+        data = recordsobj.DBFetcherGreater( date=date)
+        self.write()
+    application = tornado.web.Application( StartHandlerinsta),
+                                           ( StopHandlerinsta),
+                                           ( StatusHandlerinsta),
+                                           ( SenderHandlerinstaLess),
+                                           ( SenderHandlerinstaGreater), ])
+    application.listen()

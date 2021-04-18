@@ -1,0 +1,17 @@
+def get_arrayx, y:
+    a = np.shapex
+    b = np.shapey
+        print"Array of powers without using np.power: ", np_pow_array
+        print"Array of powers using np.power: ", np.power(x, y)
+        print"Error : Shape of the given arrays is not equal."
+np_arr1 = np.array3
+np_arr2 = np.array4
+np_arr3 = np.array[1, 2]
+np_arr4 = np.array[3, 4]
+np_arr5 = np.array[[1,2], [3,4]]
+np_arr6 = np.array[[5,6], [7,8]]
+get_arraynp_arr1, np_arr2
+print
+get_arraynp_arr3, np_arr4
+print
+get_arraynp_arr5, np_arr6

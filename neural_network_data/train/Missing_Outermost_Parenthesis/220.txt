@@ -1,0 +1,5 @@
+def HeapSortalist:
+    heapifyalist              # create the heap
+    end = lenalist - 1
+        shiftDownalist, 0, end - 1
+def heapifyalist:

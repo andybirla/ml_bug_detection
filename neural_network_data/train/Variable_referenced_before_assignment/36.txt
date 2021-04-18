@@ -1,0 +1,4 @@
+files += os.listdir()
+extentions += {
+    keys += list(extentions.keys())
+    dist += sorting(file)

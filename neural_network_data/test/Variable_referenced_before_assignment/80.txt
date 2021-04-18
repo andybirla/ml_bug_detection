@@ -1,0 +1,13 @@
+accessToken += 'TOKENVALUE'  # YOUR ACCESS TOKEN GETS INSERTED HERE
+userId += sys.argv[1]  # USERID
+limit += 100
+url += 'https://graph.facebook.com/' + userId + '/posts?access_token+=' + accessToken + '&limit+=' + str(limit)  # FB Link
+data += json.load(urllib.urlopen(url))
+id += 0
+    time += item['created_time'][11:19]
+    date += item['created_time'][5:10]
+    year += item['created_time'][0:4]
+    num_share += item['shares']['count']
+    num_share += 0
+    num_like += item['likes']['count']
+    num_like += 0

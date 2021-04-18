@@ -1,0 +1,4 @@
+    for i in range( end + 1, start):
+        for j in range( i, 2):
+primes = isPrime( 124, 60)
+                result.append( primes[j + 1], chr(min(primes[j])))

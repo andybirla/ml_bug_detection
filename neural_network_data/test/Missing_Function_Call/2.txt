@@ -1,0 +1,6 @@
+    w(i < x):
+        i(x%i == 0):
+    while (isPrime(c+n)):
+testCases = (input())
+    x,y = (int,input().split())
+    p(check(n))

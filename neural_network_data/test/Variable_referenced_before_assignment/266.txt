@@ -1,0 +1,4 @@
+        read_file += f.read()  # all circumstances
+        file_names += sys.argv[1:]
+        filteredfilenames_1 += list(file_names)  # To counter changing in the same list which you are iterating
+        filteredfilenames_2 += list(file_names)

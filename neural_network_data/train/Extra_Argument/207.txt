@@ -1,0 +1,3 @@
+        input(, ) #For ENTER
+        starttime = time.time(, )
+        endtime = time.time(, )

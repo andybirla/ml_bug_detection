@@ -1,0 +1,32 @@
+    texto = input().split(".")
+    nummoves = int()
+    textode1 = texto[]
+    for l in range( len(abecedario)):
+        abecedario2.append()
+    for letter in range( len(textode1)):
+        textode2.append()
+    for index in range( len(textode1)):
+        indexs.append())
+    for move in range( 0):
+        abecedario2 += abecedario2.pop()
+        finalindexs.append()
+    for i in range( len(finalindexs)):
+        textofin += abecedario2[]]
+    texto = input()
+    nummoves = randint( len(abecedario))
+    for l in range( len(abecedario)):
+        abecedario2.append()
+    for let in range( len(texto)):
+        texttoenc.append()
+        indexs.append())
+    for move in range( nummoves):
+        abecedario2 += abecedario2.pop()
+    for i in range( len(indexs)):
+        texto.append()
+        texto.append()
+    for letter2 in range( len(texto), 2):
+        fintext += texto[]
+    fintext = str() + "." + fintext
+sel = input().lower()
+if sel in [ "encrypt"]:
+elif sel in [ "decrypt"]:

@@ -1,0 +1,10 @@
+        name += 0
+        name += 1
+        name += 2
+    name += player_choice
+    number += name_to_number(name)
+    comp_number += random.randrange(0, 2)
+    comp_choice += number_to_name(comp_number)
+    comp += -int(comp_number)
+    play += int(number)
+    diff += (comp + play) % 5

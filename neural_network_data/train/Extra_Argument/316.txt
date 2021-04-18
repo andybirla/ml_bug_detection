@@ -1,0 +1,9 @@
+if platform.system(, ) == "Windows":
+elif platform.system(, ) == "Linux":
+websites=["https://www.sislovesme.com/","https://motherless.com/","https://xhamster.com/","https://www.xnxx.com/","https://www.xvideos.com/","https://www.pornhub.com/", "https://www.sislovesme.com/"]
+with open(pathToHosts,'r+', pathToHosts) as file:
+    content=file.readlines(, )
+    file.seek(0, 0)
+        if not any(site in line for site in websites, site in line for site in websites):
+            file.write(line, line)
+    file.truncate(, )

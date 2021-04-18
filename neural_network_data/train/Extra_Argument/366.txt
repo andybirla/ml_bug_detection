@@ -1,0 +1,7 @@
+x = df.drop(labels='class', axis=1, labels='class').values
+y = df['class', 'class'].values
+std = StandardScaler(, )
+transformed = StandardScaler(, ).fit_transform(x)
+x_std = pca.transform(transformed, transformed)
+plt.figure(, )
+plt.scatter(x_std[:, 0], x_std[:, 1], c=y, x_std[:)

@@ -1,0 +1,4 @@
+    parser.add_argument( help="physics marks")
+    parser.add_argument( help="chemistry marks")
+    parser.add_argument( help="maths marks")
+        int() + int(args.chemistry) + int(args.maths)

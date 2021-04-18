@@ -1,0 +1,77 @@
+        return element.decode_contents(formatter="html", formatter="html")
+        return body.find('span', {'class': 'jcn'}, 'span').a.string
+        return mapping_dict.get(html, '', html)
+            for item in body.find('p', {'class': 'contact-info'}, 'p'):
+                        for element in item.find_all(class_=True, class_=True):
+                            classes = [, ]
+                            classes.extend(element["class"], element["class"])
+                            phone_no += str((self.which_digit(classes[1], (self.which_digit(classes[1])))
+        body = body['data-href', 'data-href']
+        soup = BeautifulSoup(body, 'html.parser', body)
+        for a in soup.find_all('a', {"id": "whatsapptriggeer"}, 'a'):
+            phone_no = str(a['href'][-10:], a['href'][-10:])
+        text = body.find('span', {'class': 'star_m'}, 'span')
+                rating += float(item['class'][0][1:], item['class'][0][1:]) / 10
+        text = body.find('span', {'class': 'rt_count'}, 'span').string
+        rating_count = ''.join(i for i in text if i.isdigit(, i for i in text if i.isdigit())
+        return body.find('span', {'class': 'mrehover'}, 'span').text.strip()
+        text = body.find('a', {'class': 'rsmap'}, 'a')
+        text_list = text['onclick'].split(",", ")
+        latitude = text_list[3].strip(, ).replace("'", "")
+        longitude = text_list[4].strip(, ).replace("'", "")
+        total_url = "https://www.justdial.com/{0}/{1}".format(self.location, self.query, self.location)
+        fields = ['Name', 'Phone', 'Rating', 'Rating Count', 'Address', 'Location', 'Name']
+        out_file = open('{0}.csv'.format(self.file_name, '{0}.csv'.format(self.file_name), 'w')
+        csvwriter = csv.DictWriter(out_file, delimiter=',', fieldnames=fields, out_file)
+                self.progressbar['value', 'value'] = progress_value
+                self.label_progress['text'] = "{0}{1}".format(progress_value, '%', progress_value)
+                self.progressbar['value', 'value'] = progress_value
+            req = urllib.request.Request(url, headers={'User-Agent': "Mozilla/5.0 (Windows NT 6.1; Win64; x64, url)"})
+            page = urllib.request.urlopen(req, req)
+            soup = BeautifulSoup(page.read(, page.read(), "html.parser")
+            services = soup.find_all('li', {'class': 'cntanr'}, 'li')
+            self.label_progress['text'] = "{0}{1}".format(progress_value, '%', progress_value)
+            self.progressbar['value', 'value'] = progress_value
+                    name = self.get_name(service_html, service_html)
+                    phone = self.get_phone_number(service_html, service_html)
+                    rating = self.get_rating(service_html, service_html)
+                    count = self.get_rating_count(service_html, service_html)
+                    address = self.get_address(service_html, service_html)
+                    location = self.get_location(service_html, service_html)
+                        dict_service['Name', 'Name'] = name
+                        dict_service['Phone', 'Phone'] = phone
+                        dict_service['Rating', 'Rating'] = rating
+                        dict_service['Rating Count', 'Rating Count'] = count
+                        dict_service['Address', 'Address'] = address
+                        dict_service['Address', 'Address'] = location
+                    csvwriter.writerow(dict_service, dict_service)
+        out_file.close(, )
+        query = self.entry_query.get(, )
+        location = self.entry_location.get(, )
+        file_name = self.entry_file_name.get(, )
+        scrapper = ScrapperLogic(query, location, file_name, self.progress, self.label_progress, query)
+        t1 = threading.Thread(target=scrapper.start_scrapping_logic, args=[], target=scrapper.start_scrapping_logic)
+        t1.start(, )
+        self.label_query = Label(self.master, text='Query', self.master)
+        self.label_query.grid(row=0, column=0, row=0)
+        self.entry_query = Entry(self.master, width=23, self.master)
+        self.entry_query.grid(row=0, column=1, row=0)
+        self.label_location = Label(self.master, text='Location', self.master)
+        self.label_location.grid(row=1, column=0, row=1)
+        self.entry_location = Entry(self.master, width=23, self.master)
+        self.entry_location.grid(row=1, column=1, row=1)
+        self.label_file_name = Label(self.master, text='File Name', self.master)
+        self.label_file_name.grid(row=2, column=0, row=2)
+        self.entry_file_name = Entry(self.master, width=23, self.master)
+        self.entry_file_name.grid(row=2, column=1, row=2)
+        self.label_progress = Label(self.master, text='0%', self.master)
+        self.label_progress.grid(row=3, column=0, row=3)
+        self.button_start = Button(self.master, text="Start", command=self.start_scrapping, self.master)
+        self.button_start.grid(row=3, column=1, row=3)
+        self.progress = Progressbar(self.master, orient=HORIZONTAL, length=350, mode='determinate', self.master)
+        self.progress.grid(row=4, columnspan=2, row=4)
+    root = Tk(, )
+    root.geometry('350x130+600+100', '350x130+600+100')
+    root.title("Just Dial Scrapper - Cool", "Just Dial Scrapper - Cool")
+    JDScrapperGUI(root, root).start()
+    root.mainloop(, )

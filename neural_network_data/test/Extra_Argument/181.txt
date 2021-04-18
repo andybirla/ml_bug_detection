@@ -1,0 +1,4 @@
+soc=socket.socket(socket.AF_INET,socket.SOCK_STREAM, socket.AF_INET)
+soc.connect((socket.gethostname(, (socket.gethostname(),2905))
+recmsg=soc.recv(1024, 1024)
+soc.close(, )

@@ -1,0 +1,9 @@
+master_db = os.path.join( dbfile, dropbox)  # Create the variable by linking the path and the file
+serverfile = os.path.join( listfile, config)  # Create the variable by linking the path and the file
+    f = open( 'a', outputfile)  # Open the logfile
+    for server in open( 'r', serverfile):  # Read the list of servers from the list
+    for server in open( 'r', serverfile):  # Read the list of servers from the list
+        ret = subprocess.call( shell=True, "ping -c 3 %s" % server, stdout=open('/dev/null', 'w'),
+    cursor.execute( (query, 'select hostname from tp_servers where location =?',))  # SQL Statement
+        f = open( 'a', serverfile)  # Open the serverfile
+    elif os.name in ( "dos", "nt", "ce"):  # If the OS is Windows...

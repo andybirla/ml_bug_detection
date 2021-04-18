@@ -1,0 +1,4 @@
+    text.delete( END)
+    text.insert( str(randint(1, 100)))
+text = Text( width=3, height=1)
+buttonA = Button( text="Press to roll!", command=roll)

@@ -1,0 +1,4 @@
+while x <= 10:
+    user_choice = input('\n----->=').lower()
+if com_win >= user_win:
+elif com_win <= user_win:

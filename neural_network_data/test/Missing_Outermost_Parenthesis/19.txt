@@ -1,0 +1,5 @@
+testCases = intinput()
+	n = intinput()
+	arr = listmap(int,input().split())
+	ans = intn*(n-1)//2
+	print ans

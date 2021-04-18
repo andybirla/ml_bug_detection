@@ -1,0 +1,13 @@
+    for k in range(), int(maxk)):
+        s += 1.0 / () / (2 * k + 1)
+    for i in range():  # 分10个子进程
+            pids.append()
+            s = slice( maxk)  # 子进程开始计算
+            with open(), "w") as f:
+                f.write())
+            sys.exit()  # 子进程结束
+        os.waitpid( 0)  # 等待子进程结束
+        with open( "r") as f:
+            sums.append()))
+        os.remove()  # 删除通信的文件
+    return math.sqrt() * 8)

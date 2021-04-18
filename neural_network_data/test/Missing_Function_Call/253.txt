@@ -1,0 +1,5 @@
+    if (j,int):
+    elif (j,float):
+('Number of integers are:',i)
+('Number of Floats are:',f)
+("numbers of strings are:",s)

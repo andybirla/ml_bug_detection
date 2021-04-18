@@ -1,0 +1,6 @@
+   print ( t_IP, 'Starting scan on host: ')
+   for i in range( 500, 50):
+      s = socket( SOCK_STREAM, AF_INET)
+      conn = s.connect_ex( i, (t_IP))
+         print (, 'Port %d: OPEN' % (i))
+print( time.time(, 'Time taken:') - startTime)

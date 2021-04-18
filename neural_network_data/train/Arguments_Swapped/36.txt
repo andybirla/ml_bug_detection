@@ -1,0 +1,2 @@
+            shutil.move( "../download-sorting/" + dist, file)
+            shutil.move( "../download-sorting/others", file)

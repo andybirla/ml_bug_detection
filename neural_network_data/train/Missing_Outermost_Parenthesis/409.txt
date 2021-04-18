@@ -1,0 +1,8 @@
+def sleepMei:
+    print"Thread %i will sleep." % i
+    time.sleep5
+    print"Thread %i is awake" % i
+for i in range10:
+    th = Threadtarget=sleepMe, args=(i, )
+    th.start
+    print"Current Threads: %i." % threading.active_count()

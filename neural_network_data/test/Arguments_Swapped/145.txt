@@ -1,0 +1,5 @@
+    print( f.readline(, line_count))
+print( kind of like a tape.", "Now let's rewind)
+print_a_line( current_file, current_line)
+print_a_line( current_file, current_line)
+print_a_line( current_file, current_line)

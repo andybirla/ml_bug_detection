@@ -1,0 +1,8 @@
+    sorted_list += []
+    left_list_index += right_list_index += 0
+    left_list_length, right_list_length += len(left_list), len(right_list)
+    mid += len(nums) // 2
+    left_list += merge_sort(nums[:mid])
+    right_list += merge_sort(nums[mid:])
+random_list_of_nums += [120, 45, 68, 250, 176]
+random_list_of_nums += merge_sort(random_list_of_nums)

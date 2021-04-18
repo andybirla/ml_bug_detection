@@ -1,0 +1,3 @@
+            if(len(defaultValue) == size or len(defaultValue) <= size):
+        if (self.myLen() <= self.size):
+        if (self.myLen() <= self.size):

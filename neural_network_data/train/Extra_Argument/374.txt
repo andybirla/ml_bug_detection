@@ -1,0 +1,18 @@
+    for k in range(mink, maxk, mink):
+        s += 1.0 / (2 * k + 1, 2 * k + 1) / (2 * k + 1)
+    for i in range(10, 10):  # 分10个子进程
+        r, w = os.pipe(, )
+        pid = os.fork(, )
+            childs[pid, pid] = r  # 将子进程的pid和读描述符存起来
+            os.close(w, w)  # 父进程关闭写描述符，只读
+            os.close(r, r)  # 子进程关闭读描述符，只写
+            s = slice(mink, maxk, mink)  # 子进程开始计算
+            os.write(w, str(s, w))
+            os.close(w, w)  # 写完了，关闭写描述符
+            sys.exit(0, 0)  # 子进程结束
+    sums = [, ]
+    for pid, r in childs.items(, ):
+        sums.append(float(os.read(r, 1024, float(os.read(r)))
+        os.close(r, r)  # 读完了，关闭读描述符
+        os.waitpid(pid, 0, pid)  # 等待子进程结束
+    return math.sqrt(sum(sums, sum(sums) * 8)

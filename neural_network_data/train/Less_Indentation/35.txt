@@ -1,0 +1,20 @@
+   if item == "heads":
+       count += 1
+   if i % 2 == 0:
+       continue
+   print(i*i)
+   if e == expense_list[i]:
+       month = i
+       break
+   print(f'You spent {e} in {month_list[month]}')
+   print(f'You didn\'t spend {e} in any month')
+   print(f"You ran {i+1} miles") # i starts with zero hence adding 1
+   tired = input("Are you tired? ")
+   if tired == 'yes':
+       break
+   print("Hurray! You are a rock star! You just finished 5 km race!")
+   print("You didn't finish 5 km race but hey congrats anyways! You still ran {i+1} miles")
+   s = ''
+   for j in range(i):
+       s += '*'
+   print(s)

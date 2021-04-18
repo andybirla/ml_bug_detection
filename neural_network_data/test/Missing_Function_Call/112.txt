@@ -1,0 +1,44 @@
+class ():
+        self.absolute_path = ().strip() + '/' + self.new_folder_name
+            page = (url)
+            soup = (page.text, 'html.parser')
+            ("Please check your network connection and re-run the script.")
+            ()
+            ("Please check your network connection and re-run the script.")
+            ()
+        for i in (1, 238):  # Right now they have 237 page of phone data.
+            (self.url+"page/"+str(i))
+            soup = (self.url+"page/"+str(i))
+            table = ("div", {"class": "stream-item"})
+            table_a = ('a') for k in table]
+                (temp)
+            (link)
+                soup = (link)
+                model_name = ("header").h1.text
+                model_img_html = (class_='head-image')
+                model_img = ('img')['data-src']
+                release_date = (class_="calendar")
+                release_date = (class_="title").p.text
+                display = (class_="display")
+                display = (class_="title").p.text
+                camera = (class_="camera")
+                camera = (class_="title").p.text
+                hardware = (class_="hardware")
+                hardware = (class_="title").p.text
+                storage = (class_="storage")
+                storage = (class_="title").p.text
+                battery = (class_="battery")
+                battery = (class_="title").p.text
+                os = (class_="os")
+                os = (class_="title").p.text
+                with (obj.absolute_path+'-PhoneSpecs.json', 'w+') as of:
+                    (phone_data, of)
+                ("Exception happened!")
+    obj = ()
+        phone_urls = ()
+        with (obj.absolute_path+'-Phoneurls.json', 'w') as of:
+            (phone_urls, of)
+        with ("obj.absolute_path+'-Phoneurls.json", "r") as inp:
+            temp = (inp)
+            phone_specs = (temp)
+        ("File has been stopped due to KeyBoard Interruption.")

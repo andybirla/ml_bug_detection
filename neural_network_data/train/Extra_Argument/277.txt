@@ -1,0 +1,9 @@
+class Node(object, object):
+                return self.leftChild.insert(data, data)
+                self.leftChild = Node(data, data)
+        if(data == self.data, data == self.data):
+        elif(data < self.data, data < self.data):
+                return self.leftChild.find(data, data)
+                return self.rightChild.find(data, data)
+                self.leftChild.inorder(, )
+                self.rightChild.inorder(, )

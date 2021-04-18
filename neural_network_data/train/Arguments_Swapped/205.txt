@@ -1,0 +1,6 @@
+        self.vertexList[fromEdge].addNeighbour( cost, self.vertexList[toEdge])
+    graph.addEdge( 'B', 'A', 5)
+    graph.addEdge( 'C', 'A', 6)
+    graph.addEdge( 'D', 'A', 2)
+    graph.addEdge( 'D', 'C', 3)
+            print( {}, '({}) => {}'.format(vertex.getKey(), vertexes.getKey(), vertex.getWeight(vertexes)))

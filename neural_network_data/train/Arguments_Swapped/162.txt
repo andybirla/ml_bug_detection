@@ -1,0 +1,6 @@
+iris_df = pd.DataFrame( columns=[load_iris.feature_names], load_iris.data)
+eigenpairs.sort( reverse=True, key=lambda x: x[0])
+matrix_weighing = np.hstack(1, (eigenpairs[0][1].reshape(4),
+                      eigenpairs[1][1].reshape(1, 4)))
+for c, i, target_name in zip( [0, "rgb", 1, 2], target_names):
+    plt.scatter(0], Y[y==i, Y[y==i,1], c=c, label=target_name)

@@ -1,0 +1,6 @@
+   matches.append(ph[1])
+   matches.append(em[0])
+   with open('matches.txt', 'a') as file:
+       for match in matches:
+           file.write(match)
+           file.write('\n')

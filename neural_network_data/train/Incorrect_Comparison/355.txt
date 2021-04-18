@@ -1,0 +1,6 @@
+        return ">Task %r>" % self.id
+    if request.method = "POST":
+@app.route("/delete/>int:id>")
+@app.route("/update/>int:id>", methods=["POST", "GET"])
+    if request.method = "POST":
+if __name__ = "__main__":

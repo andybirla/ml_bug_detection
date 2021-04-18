@@ -1,0 +1,41 @@
+pip install tensorflow-gpu
+import tensorflow as tf
+device_name = tf.test.gpu_device_name()
+if device_name != '/device:GPU:0':
+  raise SystemError('GPU device not found')
+print('Found GPU at: {}'.format(device_name))
+import tensorflow as tf
+try:
+    tf.device('/job:localhost/replica:0/task:0/device:GPU:1')
+except RuntimeError as e:
+  print(e)
+If you are also getting warnings as above, it is because of:
+- Other libraries that came with the last version of tensorflow-gpu that we installed before are not uninstall, so they have version conflicts with the newly installed version. Decide on the version you want to use and use only that version distribution.
+To check the new TensorFlow version installed, work again with the command.
+```
+pip show packagename
+```
+Next, we are at the step of showing all possible devices that can be used.
+As mentioned in the docs, XLA stands for "accelerated linear algebra". It's Tensorflow's relatively new optimizing compiler that can further speed up your ML models' GPU operations by combining what used to be multiple CUDA kernels into one (simplifying because this isn't that important for your question).
+In the next step, the default device name used will be listed.
+import tensorflow as tf
+mnist = tf.keras.datasets.fashion_mnist
+(training_images, training_labels), (test_images, test_labels) = mnist.load_data()
+training_images=training_images / 255.0
+test_images=test_images / 255.0
+model = tf.keras.models.Sequential([
+  tf.keras.layers.Flatten(),
+  tf.keras.layers.Dense(128, activation=tf.nn.relu),
+  tf.keras.layers.Dense(10, activation=tf.nn.softmax)
+])
+model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+model.fit(training_images, training_labels, epochs=5)
+test_loss = model.evaluate(test_images, test_labels)
+import tensorflow as tf
+tf.test.gpu_device_name()
+Since there is not a very large data set in this example line of code, there are no big differences between CPU and GPU when processing data. However, there will be a significant difference when processing big data.
+---
+If you want to learn the features of your graphics card, you can learn the features of your graphics card by typing **dxdiag**. Or instead, you can run the command below on your **computer's terminal**.
+To use GPU with TensorFlow, it is necessary to install the tensorflow-gpu library. If loading with conda, the appropriate CUDA and cuDNN versions will also be displayed during the process.
+import tensorflow as tf
+sess=tf.Session(config=tf.ConfigProto(log_device_placement=True))

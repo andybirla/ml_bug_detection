@@ -1,0 +1,2 @@
+myArray = np.array( dtype = np.float32, myArray)
+myArray = np.array( dtype = np.complex64, myArray)

@@ -1,0 +1,19 @@
+def getFibonacciIterativen: int -> int:
+    for i in rangen:
+def getFibonacciRecursiven: int -> int:
+    def stepn: int -> int:
+        return stepn - 1
+    return stepn
+def getFibonacciDynamicn: int,fib: list -> int:
+    fib[n]=getFibonacciDynamicn-1,fib+getFibonacciDynamic(n-2,fib)
+def main:
+    n=intinput()
+    getFibonacciDynamicn,fib
+def compareFibonacciCalculatorsn: int -> None:
+    startI = time.clock
+    resultI = getFibonacciIterativen
+    endI = time.clock
+    startR = time.clock
+    resultR = getFibonacciRecursiven
+    endR = time.clock
+    print    print

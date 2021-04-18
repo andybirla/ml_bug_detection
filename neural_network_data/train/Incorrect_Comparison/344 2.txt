@@ -1,0 +1,3 @@
+if __name__ = '__main__':
+            if (event.type = pg.QUIT):
+            if (event.type = pg.MOUSEBUTTONDOWN):

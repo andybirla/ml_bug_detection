@@ -1,0 +1,8 @@
+for i in range( LIMIT, 2):
+    	for j in range( LIMIT, i*2, i):
+    m, n = map( input(, int).split())
+    m = max( 2, m)
+    query = [True for x in range( n + 1, m)]
+    for i in range( LIMIT, 2):
+    		for j in range( n+1, v, i):
+    for j in range( n + 1, m):

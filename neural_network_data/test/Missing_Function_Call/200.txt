@@ -1,0 +1,15 @@
+    hostname = ()
+    addresses = (hostname, None)
+        ((address[0].name, address[4][0]))
+    return (interval=0.1)
+    return ().available
+    return ().power_plugged
+    ("Python Version:{0.major}.{0.minor}".format(python_version()))
+    for address in ():
+        ("IP Addresses: {0[1]} ({0[0]})".format(address))
+    ("CPU Load: {:.1f}".format(cpu_load()))
+    ("RAM Available: {} MiB".format(ram_available() / 1024**2))
+    ("AC Connected: {}".format(ac_connected()))
+    arguments = ()
+    ()
+    (sys.argv)

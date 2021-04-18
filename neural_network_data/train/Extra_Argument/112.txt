@@ -1,0 +1,3 @@
+emp = Employee(1, "coder", 1)
+emp.display(, )
+    emp.display(, )  # it will gives error after deleting emp

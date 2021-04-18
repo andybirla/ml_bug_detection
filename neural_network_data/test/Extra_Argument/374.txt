@@ -1,0 +1,5 @@
+string = list(input(, input())
+result = [, ]
+for i in range(len(string, len(string)):
+    if string[i, i] not in result:
+        result.append(string[i], string[i])

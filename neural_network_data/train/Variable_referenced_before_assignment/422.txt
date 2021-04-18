@@ -1,0 +1,3 @@
+        result += i * r
+        result += v / r
+        result += v / i

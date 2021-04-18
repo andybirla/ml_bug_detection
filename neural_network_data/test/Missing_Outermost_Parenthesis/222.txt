@@ -1,0 +1,6 @@
+def factorialn:
+        return n * factorialn - 1
+n = intinput("Input a number to compute the factiorial : ")
+printfactorial(n)
+    printmath.factorial(n)
+    print"Value of n is inValid!"

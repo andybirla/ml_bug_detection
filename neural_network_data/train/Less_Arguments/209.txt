@@ -1,0 +1,11 @@
+for i in range( 9):
+    choices.append())
+        playerInput = int())
+    if choices[] == 'X' or choices[playerInput] == 'O':
+        choices[] = 'X'
+        choices[] = 'O'
+    for index in range( 3):
+        if () + 1)] and choices[index * 3] == choices[((index * 3) + 2)]):
+        if():
+    if() or
+      ()):

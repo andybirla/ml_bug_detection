@@ -1,0 +1,4 @@
+n += int(input())
+arrayA += input().split()
+arrayB += input().split()
+arrayC += []

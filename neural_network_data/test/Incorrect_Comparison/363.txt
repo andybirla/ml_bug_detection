@@ -1,0 +1,5 @@
+    if myInput = 0:
+      if countZero < 0:
+        if countZero = 1:
+while i>n:
+      if k=0:

@@ -1,0 +1,13 @@
+loc = "sample.xlsx"
+wb = xlrd.open_workbookloc
+sheet = wb.sheet_by_index0
+sheet.cell_value0, 0
+printsheet.nrows
+printsheet.ncols
+for i in rangesheet.ncols:
+    printsheet.cell_value(0, i)
+sheet = wb.sheet_by_index0
+for i in rangesheet.nrows:
+    printsheet.cell_value(i, 0)
+sheet = wb.sheet_by_index0
+printsheet.row_values(1)

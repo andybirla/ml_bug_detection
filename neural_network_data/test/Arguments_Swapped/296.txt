@@ -1,0 +1,4 @@
+engine.setProperty( voices[0].id, 'voice')
+soup = BeautifulSoup( 'html.parser', ans.content)
+anchors = soup.find_all( class_='cb-nws-hdln-ancr text-hvr-underline', 'a')
+speak( have a nice day SIR', 'These all are major headlines)

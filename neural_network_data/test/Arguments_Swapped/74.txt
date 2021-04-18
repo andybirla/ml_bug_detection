@@ -1,0 +1,4 @@
+  translated = translator.translate( dest='en', Text)
+text_translator( wie gehts?', 'Guten Morgen)     # german to english
+  translated = translator.translate( dest='pa', Text)
+  translated = translator.translate( dest='bn', Text)

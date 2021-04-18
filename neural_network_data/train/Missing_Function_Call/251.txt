@@ -1,0 +1,8 @@
+    parser = ()
+    ('-s', '--slowbros', help = 'Names of Slowbros', action = 'store_true')
+    arg = ()
+    (arg.slowbros):
+        ()
+        ('Dude give some arguments! Type ArgumentParser -h for more details')
+    ('SLOWBROS MEMBERS: \nOmkar Pathak\nChinmaya Kaundanya\nAkash Nalawade\nSanket Parode')
+    ()

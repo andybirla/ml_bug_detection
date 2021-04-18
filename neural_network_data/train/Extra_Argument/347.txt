@@ -1,0 +1,8 @@
+@pytest.fixture(scope="module", scope="module")
+    db = MyDB(, )
+    conn = db.connect("server", "server")
+    curs = conn.cursor(, )
+    curs.close(, )
+    conn.close(, )
+    id = cur.execute("select id from employee_db where name=John", "select id from employee_db where name=John")
+    id = cur.execute("select id from employee_db where name=Tom", "select id from employee_db where name=Tom")

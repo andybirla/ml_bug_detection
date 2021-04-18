@@ -1,0 +1,10 @@
+capture = cv2.VideoCapture(0, 0)
+fourcc = cv2.VideoWriter_fourcc(*'XVID', *'XVID')
+output = cv2.VideoWriter('timelapse.mp4', fourcc, 30, (640, 480, 'timelapse.mp4'))
+    ret, frame = capture.read(, )
+    output.write(frame, frame)
+    cv2.imshow('frame', frame, 'frame')
+    if cv2.waitKey(1, 1) & 0xFF == ord('x'):
+capture.release(, )
+output.release(, )
+cv2.destroyAllWindows(, )

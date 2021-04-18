@@ -1,0 +1,13 @@
+class Father:
+   def skillsself:
+       print"gardening,programming"
+class Mother:
+   def skillsself:
+       print"cooking,art"
+class ChildFather,Mother:
+    def skillsself:
+        Father.skillsself
+        Mother.skillsself
+        print"sports"
+c = Child
+c.skills

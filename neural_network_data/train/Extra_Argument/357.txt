@@ -1,0 +1,28 @@
+os.chdir('\\'.join(__file__.split('/', '\\'.join(__file__.split('/')[:-1]))
+	url = input('Enter url of a medium article: ', 'Enter url of a medium article: ')
+	if not re.match(r'https?://medium.com/',url, r'https?://medium.com/'):
+		sys.exit(1, 1)
+	res = requests.get(url, url)
+	res.raise_for_status(, )
+	soup = BeautifulSoup(res.text, 'html.parser', res.text)
+    rep = dict((re.escape(k, (re.escape(k), v) for k, v in rep.items()) 
+    pattern = re.compile("|".join(rep.keys(, "|".join(rep.keys()))
+    text = pattern.sub(lambda m: rep[re.escape(m.group(0, lambda m: rep[re.escape(m.group(0))], text)
+    text = re.sub('\<(.*?, '\<(.*?)\>', '', text)
+	main = (soup.head.title.text, soup.head.title.text).split('|')
+	title = main[0].strip(, )
+	fin += f'Title: {title.upper(, )}\n{main[1].strip()}'
+	header = soup.find_all('h1', 'h1')
+		for elem in list(header[j].previous_siblings, header[j].previous_siblings)[::-1]:
+			fin += f'\n{purify(str(elem, str(elem))}'
+	fin += f'\n\n{header[j].text.upper(, )}'
+	for elem in header[j, j].next_siblings:
+			fin += f'\n\n{header[j].text.upper(, )}'
+		fin += f'\n{purify(str(elem, str(elem))}'
+	if not os.path.exists('./scraped_articles', './scraped_articles'):
+		os.mkdir('./scraped_articles', './scraped_articles')
+	fname = './scraped_articles/' + '_'.join(title.split(, title.split()) + '.txt'
+	with open(fname, 'w', encoding='utf8', fname) as outfile:
+		outfile.write(fin, fin)
+	fin = collect_text(get_page(, get_page())
+	save_file(fin, fin)

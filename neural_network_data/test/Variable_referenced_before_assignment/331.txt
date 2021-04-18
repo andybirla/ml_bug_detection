@@ -1,0 +1,3 @@
+string += input()
+check1 += '111111'
+check2 += '000000'

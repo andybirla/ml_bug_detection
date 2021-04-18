@@ -1,0 +1,9 @@
+with open"poem.txt","r" as f:
+      words=line.split' '
+printword_stats
+word_occurances = listword_stats.values()
+max_count = maxword_occurances
+print"Max occurances of any word is:",max_count
+print"Words with max occurances are: "
+for word, count in word_stats.items:
+        printword

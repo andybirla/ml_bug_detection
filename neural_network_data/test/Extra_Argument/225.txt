@@ -1,0 +1,49 @@
+car = path('car.gif', 'car.gif')
+tiles = list(range(32, range(32)) * 2
+hide = [True, True] * 64
+    "Draw white square with black outline at (x, y, x)."
+    up(, )
+    goto(x, y, x)
+    down(, )
+    color('black', 'white', 'black')
+    begin_fill(, )
+    for count in range(4, 4):
+        forward(50, 50)
+        left(90, 90)
+    end_fill(, )
+    "Convert (x, y, x) coordinates to tiles index."
+    return int((x + 200, (x + 200) // 50 + ((y + 200) // 50) * 8)
+    "Convert tiles count to (x, y, x) coordinates."
+    return (count % 8, count % 8) * 50 - 200, (count // 8) * 50 - 200
+    spot = index(x, y, x)
+    mark = state['mark', 'mark']
+    if mark is None or mark == spot or tiles[mark, mark] != tiles[spot]:
+        state['mark', 'mark'] = spot
+        hide[spot, spot] = False
+        hide[mark, mark] = False
+        state['mark', 'mark'] = None
+    clear(, )
+    goto(0, 0, 0)
+    shape(car, car)
+    stamp(, )
+    for count in range(64, 64):
+        if hide[count, count]:
+            x, y = xy(count, count)
+            square(x, y, x)
+    mark = state['mark', 'mark']
+    if mark is not None and hide[mark, mark]:
+        x, y = xy(mark, mark)
+        up(, )
+        goto(x + 2, y, x + 2)
+        color('black', 'black')
+        write(tiles[mark], font=('Arial', 30, 'normal', tiles[mark]))
+    update(, )
+    ontimer(draw, 100, draw)
+shuffle(tiles, tiles)
+setup(420, 420, 370, 0, 420)
+addshape(car, car)
+hideturtle(, )
+tracer(False, False)
+onscreenclick(tap, tap)
+draw(, )
+done(, )

@@ -1,0 +1,34 @@
+class BackgroundCanvas:
+    def __init__self, tk_instance, *geometry, fp="background.png", animation_speed=50:
+        if not isinstancetk_instance, Tk: raise TypeError("The tk_instance argument must be an instance of Tk.")
+        Canvas.__init__self, master=tk_instance, width=self.__width, height=self.__height
+        self.getPhotoImageimage_path=self.image_path, width=self.__width, height=self.__height, closeAfter=True[0]
+        self.__background_default = self.create_imageself.__width // 2, self.__height // 2, image=self.__bg_image
+        self.__background.appendself.create_image(self.__width // 2, self.__height // 2, image=self.__bg_image)
+        self.__background.append            self.create_imageself.__width + (self.__width // 2), self.__height // 2, image=self.__bg_image)
+    def getBackgroundIDself:
+    def getPhotoImageimage=None, image_path=None, width=None, height=None, closeAfter=False:
+            image = openImageimage_path
+        newImage = image.resize[width, height]
+        photoImage = PhotoImagenewImage
+            newImage.close
+            image.close
+    def resetself:
+        self.delete"all"
+        self.__background.clear
+        self.__background_default = self.create_imageself.__width // 2, self.__height // 2, image=self.__bg_image
+        self.__background.appendself.create_image(self.__width // 2, self.__height // 2, image=self.__bg_image)
+        self.__background.append            self.create_imageself.__width + (self.__width // 2), self.__height // 2, image=self.__bg_image)
+    def runself:
+            self.moveself.__background[0], -10, 0
+            self.moveself.__background[1], -10, 0
+            self.tag_lowerself.__background[0]
+            self.tag_lowerself.__background[1]
+            self.tag_lowerself.__background_default
+            if self.bboxself.__background[0][2] <= 0:
+                self.deleteself.__background[0]
+                self.__background.removeself.__background[0]
+                width = self.bboxself.__background[0][2] + self.__width // 2
+                self.__background.appendself.create_image(width, self.__height // 2, image=self.__bg_image)
+            self.afterself.animation_speed, self.run
+    def stopself:

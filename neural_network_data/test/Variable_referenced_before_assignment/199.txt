@@ -1,0 +1,4 @@
+    loop += True  # controls while-loop
+            user_input += int(input("Enter Your choice: "))
+                loop += False  # aborts while-loop
+x += get_user_input(1, 6)

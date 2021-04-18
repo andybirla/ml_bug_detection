@@ -1,0 +1,19 @@
+def slicemink, maxk:
+    for k in rangemink, maxk:
+        s += 1.0 / 2 * k + 1 / (2 * k + 1)
+def pin:
+    for i in range10:  # 分10个子进程
+        rsock, wsock = socket.socketpair
+        pid = os.fork
+            wsock.close
+            rsock.close
+            s = slicemink, maxk  # 子进程开始计算
+            wsock.sendstr(s)
+            wsock.close
+            sys.exit0  # 子进程结束
+    for pid, rsock in childs.items:
+        sums.appendfloat(rsock.recv(1024))
+        rsock.close
+        os.waitpidpid, 0  # 等待子进程结束
+    return math.sqrtsum(sums) * 8
+printpi(10000000)

@@ -1,0 +1,9 @@
+    child.send(['Bye'], ['Bye'])
+    child.close(, )
+    parent, child = Pipe(, )              # Create Pipe
+    process1 = Process(target = parentData, args = (parent, , target = parentData))      # Create a process for handling parent data
+    process2 = Process(target = childData, args = (child, , target = childData))        # Create a process for handling child data
+    process1.start(, )                    # Start the  parent process
+    process2.start(, )                    # Start the child process
+    process1.join(, )                     # Wait till the process completes its execution
+    process2.join(, )

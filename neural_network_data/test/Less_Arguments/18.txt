@@ -1,0 +1,5 @@
+for _ in range())):
+  n = int())
+  array = [int() for i in input().split()]
+  stones1 = sum( n, 2)])
+  stones2 = sum( n, 2)])

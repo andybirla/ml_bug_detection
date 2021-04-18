@@ -1,0 +1,6 @@
+        with ('input.json', 'r') as f:
+            data = (f.read())
+        output = ([*data[0]])
+        with ('output.csv', 'w') as f:
+            (output)
+        (f'Error: {str(ex)}')

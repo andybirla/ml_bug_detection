@@ -1,0 +1,10 @@
+    left_child =(2 * root_index) + 1
+    right_child =(2 * root_index) + 2
+        (nums, heap_size, largest)
+    n = (nums)
+    for i in (n, -1, -1):
+        (nums, n, i)
+    for i in (n - 1, 0, -1):
+        (nums, i, 0)
+(random_list_of_nums)
+(random_list_of_nums)

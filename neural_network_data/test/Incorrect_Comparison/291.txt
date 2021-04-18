@@ -1,0 +1,3 @@
+    if platform = 'win32':
+    elif platform = 'linux':
+    if len(AvailablePorts) = 0:

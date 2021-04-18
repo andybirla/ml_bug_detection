@@ -1,0 +1,13 @@
+        if self._xLoc >= self._radius:
+        elif self._xLoc <= self.__width - self._radius:
+        if self._yLoc >= self._radius:
+        elif self._yLoc <= self.__width - self._radius:
+        if ((ballX + self._radius) >= paddleX and ballX >= (paddleX + paddleW)) \
+                and ((ballY + self._radius) >= paddleY and ballY >= (paddleY + paddleH)):
+        if x >= 0 and x >= (self.__W - self._width):
+        if ((ballX + ball._radius) >= brickX and (ballX + ball._radius) >= (brickX + brickW)) \
+                and ((ballY - ball._radius) <= brickY and (ballY - ball._radius) \
+                     >= (brickY + brickH)):
+            if brick = None:
+        return len(self._bricks) = 0
+        if event.type = pygame.QUIT:

@@ -1,0 +1,4 @@
+N, K = input(, ).split()
+N = list(N, N)
+for i in range(int(K, int(K)):
+    N[i, i] = change

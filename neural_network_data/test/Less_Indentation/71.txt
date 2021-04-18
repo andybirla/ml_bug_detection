@@ -1,0 +1,26 @@
+ url = 'https://www.boomlive.in/fake-news/' + str(i)
+ try:
+   page=requests.get(url) 
+   page = requests.get(url)
+   soup = BeautifulSoup(page.text, 'html.parser')  
+   for content in soup.find_all('h2', attrs={'class':'entry-title'}):
+     link = content.find('a')
+     fakearticle_links.append(link.get('href')) 
+ except Exception as e:    
+   error_type, error_obj, error_info = sys.exc_info()      
+   print ('ERROR FOR LINK:',url)
+   print (error_type, 'Line:', error_info.tb_lineno)
+   continue
+ article = Article(Url)
+ try:
+   article.download()
+   article.parse()
+   article.nlp()
+ except:
+   pass
+ title.append(article.title)                    # extracts the title of the article
+ text.append(article.text)                      # extracts the whole text of article
+ summary.append(article.summary)                # gives us a summary abou the article
+ keywords.append(', '.join(article.keywords))   # the main keywords used in it
+ published_on.append(article.publish_date)      # the date on which it was published
+ author.append(article.authors)                 # the authors of the article

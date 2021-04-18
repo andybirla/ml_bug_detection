@@ -1,0 +1,29 @@
+def downloadways:
+        print'Ways list is empty. Downloading is impossible'
+    print'downloading..'
+    success_files = set
+    failure_files = set
+    event_loop = asyncio.get_event_loop
+        event_loop.run_until_complete            async_downloaderways, event_loop, success_files, failure_files
+        event_loop.close
+    print'Download complete'
+    print'-' * 100
+        print'success:'
+            printfile
+        print'failure:'
+            printfile
+async def async_downloaderways, loop, success_files, failure_files:
+    async with aiohttp.ClientSession as session:
+            download_file_by_url        for task in asyncio.as_completedcoroutines:
+                failure_files.addurl
+                success_files.addurl
+async def download_file_by_urlurl, session=None:
+    file_name = basenameurl
+        async with session.geturl as response:
+                print                print            data = await response.read
+            with openfile_name, 'wb' as file:
+                file.writedata
+        print        print        print'\t{} from {} : Success'.format(file_name, url)
+def test:
+    downloadways
+    test

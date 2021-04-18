@@ -1,0 +1,6 @@
+testCases += int(input())
+    N += input()
+    A += list(map(int,input().split()))
+    K += int(input())
+    result += A[K - 1]
+    A += sorted(A)

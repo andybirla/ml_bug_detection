@@ -1,0 +1,7 @@
+    with (pathToSend, 'rb') as fobj:
+        ('STOR ' + pathToRecv, fobj)
+    ftp = ('127.0.0.1')
+    ('omkarpathak', '8149omkar')
+    ('Logged in..')
+    (ftp, pathToSend, pathToRecv)
+    ()

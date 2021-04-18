@@ -1,0 +1,15 @@
+    if (image):
+            im = (image)
+            (size, Image.ANTIALIAS)
+            ("resize/" + str(image) + ".jpg")
+            (f"Error: {str(ex)} to {image}")
+path = ("Enter Path to images : ")
+size = ("Size Height , Width : ")
+size = (map(int, size.split(",")))
+(path)
+list_images = (path)
+    ("resize")
+for image in (list_images, desc="Resizing Images"):
+    (size, image)
+    (0.1)
+("Resizing Completed!")

@@ -1,0 +1,2 @@
+   if string[i] not in result:
+       result.append(string[i])

@@ -1,0 +1,1 @@
+ftp += FTP('xxx.xxx.x.x')  # Enter the ip address or the domain name here

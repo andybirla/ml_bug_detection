@@ -1,0 +1,19 @@
+def slicemink, maxk:
+    for k in rangemink, maxk:
+        s += 1.0 / 2 * k + 1 / (2 * k + 1)
+def pin:
+    for i in range10:  # 分10个子进程
+        r, w = os.pipe
+        pid = os.fork
+            os.closew  # 父进程关闭写描述符，只读
+            os.closer  # 子进程关闭读描述符，只写
+            s = slicemink, maxk  # 子进程开始计算
+            os.writew, str(s)
+            os.closew  # 写完了，关闭写描述符
+            sys.exit0  # 子进程结束
+    for pid, r in childs.items:
+        sums.appendfloat(os.read(r, 1024))
+        os.closer  # 读完了，关闭读描述符
+        os.waitpidpid, 0  # 等待子进程结束
+    return math.sqrtsum(sums) * 8
+printpi(10000000)

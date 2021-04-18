@@ -1,0 +1,6 @@
+    chrome_options += webdriver.ChromeOptions()
+    settings += {
+    prefs += {
+    browser += webdriver.Chrome(
+    browser += get_driver()
+    URL += input("provide article URL: ")

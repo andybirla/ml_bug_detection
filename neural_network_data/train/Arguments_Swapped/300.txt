@@ -1,0 +1,5 @@
+printc( sys.argv[1], colors.CYAN)
+printc( sys.argv[1], colors.GREEN)
+printc( sys.argv[1], colors.YELLOW)
+printc( sys.argv[1], colors.BLUE)
+printc( sys.argv[1], colors.RED)

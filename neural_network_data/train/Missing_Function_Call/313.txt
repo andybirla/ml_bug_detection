@@ -1,0 +1,12 @@
+data = ("https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/FuelConsumptionCo2.csv")
+()
+train = (int((len(data)*0.8)))]
+test = (int((len(data)*0.8))):]
+regr = ()
+train_y = (train["CO2EMISSIONS"])
+(train_x,train_y)
+test_y = (test["CO2EMISSIONS"])
+coeff_data = (regr.coef_ , X.columns , columns=["Coefficients"])
+Y_pred = (test_x)
+R = (test_y , Y_pred)
+("R² :",R)

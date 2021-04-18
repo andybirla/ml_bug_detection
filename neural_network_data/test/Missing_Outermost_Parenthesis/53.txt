@@ -1,0 +1,24 @@
+app = Flask__name__
+ask = Askapp, "/reddit_reader"
+def get_headlines:
+    sess = requests.Session
+    sess.headers.update{'User-Agent': 'I am testing Alexa: nobi'}
+    sess.post"https://www.reddit.com/api/login/", data=user_pass_dict
+    time.sleep1
+    html = sess.geturl
+    data = json.loadshtml.content.decode("utf-8")
+    titles = [unidecode.unidecodelisting['data']['title'] for listing in data['data']['children']]
+    titles = '... '.join[i for i in titles]
+@app.route"/"
+def homepage:
+def start_skill:
+    return questionwelcome_message
+@ask.intent"YesIntent"
+def share_headlines:
+    headlines = get_headlines
+    headline_msg = "The current world news headlines are {}".formatheadlines
+    return statementheadline_msg
+@ask.intent"NooIntent"
+def no_intent:
+    return statementbye_text
+    app.runport=8000, debug=True

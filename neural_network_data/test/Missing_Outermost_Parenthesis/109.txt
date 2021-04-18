@@ -1,0 +1,38 @@
+    def __init__self, jobs: List[int] -> None:
+    def scheduleself, total_jobs: int, deadline: List[int] -> List[int]:
+            self.k = self.j.copy
+            self.k.appendself.jobs[self.x]
+            if self.feasibleself.k, deadline:
+                self.j = self.k.copy
+    def feasibleself, profit_jobs: List[int], deadline: List[int] -> bool:
+        while i < lenself.tmp:
+            while j < lenself.tmp:
+                self.index1 = self.jobs.indexself.tmp[i]
+                self.index2 = self.jobs.indexself.tmp[j]
+                    self.tmp[i], self.tmp[j] = (
+        while k < lenself.tmp:
+                self.jobindex = self.jobs.indexself.job
+def main:
+    job = namedtuple"job", "job_id deadline profit"
+        job0, 0, 0,
+        job1, 2, 46,
+        job2, 4, 52,
+        job3, 3, 30,
+        job4, 3, 36,
+        job5, 2, 56,
+        job6, 1, 40,
+    for i in rangelen(jobs):
+        current_job.extend(jobs[i].deadline, jobs[i].profit, jobs[i].job_id)
+        midresult.appendcurrent_job
+    midresult.sortkey=lambda k: (k[0], -k[1])
+    deadline, profit, jobs = map(list, zip(*midresult))
+    scheduling_jobs = Schedulingjobs
+    scheduled_jobs = scheduling_jobs.schedulelen(jobs), deadline
+    printf"\n Jobs {scheduled_jobs}"
+    for i, item in enumeratescheduled_jobs:
+        jobsindex = jobs.indexitem
+        finalprofit.appendprofit[jobsindex]
+        finaldl.appenddeadline[jobsindex]
+    printf"\n Profit {finalprofit}"
+    printf"\n Deadline {finaldl}"
+    main

@@ -1,0 +1,8 @@
+for _ in (int(input())):
+    roads = (input())
+    lst = ([])
+    for i in (roads):
+        node1,node2 = (int,input().split())
+        (node1)
+        (node2)
+    (len(lst))

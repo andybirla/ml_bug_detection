@@ -1,0 +1,9 @@
+n = (input())
+array = (i) for i in input().split()]
+arrayCheck = (set(array))
+k = (input())
+for i in (len(arrayCheck)):
+    count = (arrayCheck[i])
+        (arrayCheck[i])
+()
+(nos[0])

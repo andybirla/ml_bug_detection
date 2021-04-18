@@ -1,0 +1,6 @@
+   for i in range(len(vowels)):
+       if letter == vowels[i]:
+           return True
+   return False
+   if checkVowels(string[i]):
+       vowelscounter = vowelscounter + 1

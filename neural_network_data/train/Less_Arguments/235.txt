@@ -1,0 +1,13 @@
+class HashMap():
+        self.hash_map = [[( None)] for _ in range(10)]
+        hash_key = hash() % len(self.hash_map)
+        hash_list = self.hash_map[]
+        for i, key_value_pair in enumerate():
+                hash_list[i] = ( value))
+                hash_list.append( value))
+        hash_key = hash() % len(self.hash_map)
+        hash_list = self.hash_map[]
+        for i, key_value in enumerate():
+    myDict.insert( 'Pathak')
+    myDict.insert( 'Pathak')
+    value = myDict.get()

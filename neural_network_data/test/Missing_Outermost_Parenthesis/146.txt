@@ -1,0 +1,14 @@
+def input_list:
+    n = intinput("Enter number of elements in the list: ")  # taking value from user
+    for i in rangen:
+        temp = intinput("Enter element " + str(i + 1) + ': ')
+        list.append temp 
+def insertion_sortlist,n:
+    for i in range0,n:
+def insertion_sort_desclist,n:
+    for i in range0,n:
+input_list
+list1=insertion_sortlist,len(list)
+printlist1
+list2=insertion_sort_desclist,len(list)
+printlist2

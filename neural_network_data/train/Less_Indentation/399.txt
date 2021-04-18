@@ -1,0 +1,4 @@
+   print("Both cities are in india")
+   print("Both cities are in pakistan")
+   print("Both cities are in bangladesh")
+   print("They don't belong to same country")

@@ -1,0 +1,9 @@
+   cash = stake
+   while cash > 0 and cash < goals:
+       bets += 1
+       if random.randrange(0, 2) == 0:
+           cash += 1
+       else:
+           cash -= 1
+   if cash == goals:
+       wins += 1

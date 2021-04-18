@@ -1,0 +1,96 @@
+   netflix_csv_file = open("netflix_rating.csv", mode = "w")
+   rating_files = ['combined_data_4.txt']
+   for file in rating_files:
+       with open(file) as f:
+           for line in f:
+               line = line.strip()
+               if line.endswith(":"):
+                   movie_id = line.replace(":", "")
+               else:
+                   row_data = []
+                   row_data = [item for item in line.split(",")]
+                   row_data.insert(0, movie_id)
+                   netflix_csv_file.write(",".join(row_data))
+                   netflix_csv_file.write('\n')
+   netflix_csv_file.close()
+   df = pd.read_csv('netflix_rating.csv', sep=",", names = ["movie_id","customer_id", "rating", "date"])
+   return df
+   sparse_data = sparse.csr_matrix((df.rating, (df.customer_id, df.movie_id)))
+   return sparse_data
+   ax = 1 if is_user else 0
+   sum_of_ratings = sparse_matrix.sum(axis = ax).A1
+   no_of_ratings = (sparse_matrix != 0).sum(axis = ax).A1
+   rows, cols = sparse_matrix.shape
+   average_ratings = {i: sum_of_ratings[i]/no_of_ratings[i] for i in range(rows if is_user else cols) if no_of_ratings[i] != 0}
+   return average_ratings
+   row_index, col_index = sparse_matrix.nonzero()
+   rows = np.unique(row_index)
+   similar_arr = np.zeros(61700).reshape(617,100)
+   for row in rows[:limit]:
+       sim = cosine_similarity(sparse_matrix.getrow(row), train_sparse_data).ravel()
+       similar_indices = sim.argsort()[-limit:]
+       similar = sim[similar_indices]
+       similar_arr[row] = similar
+   return similar_arr
+                             header = None, names=['movie_id', 'year_of_release', 'movie_title'],
+                             index_col = "movie_id", encoding = "iso8859_2")
+   similarity = cosine_similarity(sparse_matrix.T, dense_output = False)
+   no_of_similar_movies = movie_titles_df.loc[movie_id][1], similarity[movie_id].count_nonzero()
+   return no_of_similar_movies
+   users, movies, ratings = sparse.find(sparse_matrix)
+   uniq_users = np.unique(users)
+   uniq_movies = np.unique(movies)
+   np.random.seed(15)
+   user = np.random.choice(uniq_users, no_of_users, replace = False)
+   movie = np.random.choice(uniq_movies, no_of_movies, replace = True)
+   mask = np.logical_and(np.isin(users, user), np.isin(movies, movie))
+   sparse_matrix = sparse.csr_matrix((ratings[mask], (users[mask], movies[mask])),
+                                                    shape = (max(user)+1, max(movie)+1))
+   return sparse_matrix
+   global_avg_rating = get_average_rating(sample_sparse_matrix, False)
+   global_avg_users = get_average_rating(sample_sparse_matrix, True)
+   global_avg_movies = get_average_rating(sample_sparse_matrix, False)
+   sample_train_users, sample_train_movies, sample_train_ratings = sparse.find(sample_sparse_matrix)
+   new_features_csv_file = open("new_features.csv", mode = "w")
+   for user, movie, rating in zip(sample_train_users, sample_train_movies, sample_train_ratings):
+       similar_arr = list()
+       similar_arr.append(user)
+       similar_arr.append(movie)
+       similar_arr.append(sample_sparse_matrix.sum()/sample_sparse_matrix.count_nonzero())
+       similar_users = cosine_similarity(sample_sparse_matrix[user], sample_sparse_matrix).ravel()
+       indices = np.argsort(-similar_users)[1:]
+       ratings = sample_sparse_matrix[indices, movie].toarray().ravel()
+       top_similar_user_ratings = list(ratings[ratings != 0][:5])
+       top_similar_user_ratings.extend([global_avg_rating[movie]] * (5 - len(ratings)))
+       similar_arr.extend(top_similar_user_ratings)
+       similar_movies = cosine_similarity(sample_sparse_matrix[:,movie].T, sample_sparse_matrix.T).ravel()
+       similar_movies_indices = np.argsort(-similar_movies)[1:]
+       similar_movies_ratings = sample_sparse_matrix[user, similar_movies_indices].toarray().ravel()
+       top_similar_movie_ratings = list(similar_movies_ratings[similar_movies_ratings != 0][:5])
+       top_similar_movie_ratings.extend([global_avg_users[user]] * (5-len(top_similar_movie_ratings)))
+       similar_arr.extend(top_similar_movie_ratings)
+       similar_arr.append(global_avg_users[user])
+       similar_arr.append(global_avg_movies[movie])
+       similar_arr.append(rating)
+       new_features_csv_file.write(",".join(map(str, similar_arr)))
+       new_features_csv_file.write("\n")
+   new_features_csv_file.close()
+   new_features_df = pd.read_csv('new_features.csv', names = ["user_id", "movie_id", "gloabl_average", "similar_user_rating1",
+                                                              "similar_user_rating2", "similar_user_rating3",
+                                                              "similar_user_rating4", "similar_user_rating5",
+                                                              "similar_movie_rating1", "similar_movie_rating2",
+                                                              "similar_movie_rating3", "similar_movie_rating4",
+                                                              "similar_movie_rating5", "user_average",
+                                                              "movie_average", "rating"])
+   return new_features_df
+   rmse = np.sqrt(mean_squared_error(y_true, y_pred))
+   return rmse
+   fig = plt.figure(figsize = (8, 6))
+   ax = fig.add_axes([0,0,1,1])
+   model.plot_importance(clf, ax = ax, height = 0.3)
+   plt.xlabel("F Score", fontsize = 20)
+   plt.ylabel("Features", fontsize = 20)
+   plt.title("Feature Importance", fontsize = 20)
+   plt.tick_params(labelsize = 15)
+   plt.show()
+plot_importance(xgb, clf)

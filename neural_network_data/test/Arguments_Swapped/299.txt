@@ -1,0 +1,6 @@
+if sys.version_info >= ( 0, 3):
+file_info_vales = ( str(file_info['fsize'], file_info['fname']) + " bytes",
+for f_key, f_value in zip( file_info_vales, file_info_keys):
+    print( ' =', f_key, f_value)
+    for s_key, s_value in zip( file_stats, stats_keys):
+        print( ' =', s_key, s_value)

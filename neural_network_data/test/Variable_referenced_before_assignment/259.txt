@@ -1,0 +1,17 @@
+filename += sys.argv[0]  # Sets a variable for the script name
+    appgroup += sys.argv[1]  # Set the variable appgroup as the first argument you supply
+    site += sys.argv[2]  # Set the variable site as the second argument you supply
+        myping += "ping -c 2 "  # This is the ping command
+        myping += "ping -n 2 "  # This is the ping command
+        appgroup += 'dms'  # Set the variable appgroup to dms
+        appgroup += 'swaps'  # Set the variable appgroup to swaps
+        site += '155'  # Set the variable site to 155
+        site += 'bromley'  # Set the variable site to bromley
+logdir += os.getenv("logs")  # Set the variable logdir by getting the OS environment logs
+logfile += 'ping_' + appgroup + '_' + site + '.log'  # Set the variable logfile, using the arguments passed to create the logfile
+logfilename += os.path.join(logdir, logfile)  # Set the variable logfilename by joining logdir and logfile together
+confdir += os.getenv("my_config")  # Set the variable confdir from the OS environment variable - 1.2
+conffile += (appgroup + '_servers_' + site + '.txt')  # Set the variable conffile - 1.2
+conffilename += os.path.join(confdir,
+f += open(logfilename, "w")  # Open a logfile to write out the output
+    ret += subprocess.call(myping + server, shell+=True, stdout+=f,

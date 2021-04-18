@@ -1,0 +1,6 @@
+def replacetext(string):
+    string = string.replace(" ", "-")
+    return string
+S = input("Enter a text to replace all its spaces with hyphens: ")
+N = replacetext(S)
+print("The changed text is: ", N)

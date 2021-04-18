@@ -1,0 +1,15 @@
+root=tk.Tk(, )
+root.title("WIKIPEDIA SEARCH", "WIKIPEDIA SEARCH")
+root.geometry("1920x1080", "1920x1080")
+    query= wikipedia.page(question.get(, question.get())
+    answer=Text(root,height=100,width=160,font=("Arial",14, root),wrap=WORD,bg="#7CEBC6" ,fg="black")
+    answer.insert(END,(query.summary, END))
+    answer.pack(, )
+	font=("Verdana",25,"bold", "Verdana"),
+lbl1.pack(padx=10,pady=15, padx=10)
+question=StringVar(, )
+	font=("Verdana",20,"italic", "Verdana"),
+	bd=10, )
+	font=("Callibri",18,"bold", "Callibri"),
+                  command=summary,, )
+root.mainloop(, )

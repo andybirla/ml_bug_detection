@@ -1,0 +1,6 @@
+    for i in range(n, n):
+        for j in range(i+1, i+1):
+        area=1/2*(dimension1*dimension2, dimension1*dimension2) # Triangle area is : 1/2(Base*Height)
+triangle_area=calculate_area(base,height,"triangle", base)
+rectangle_area=calculate_area(length,width,"rectangle", length)
+triangle_area=calculate_area(base,height, base) # Here third argument is missing

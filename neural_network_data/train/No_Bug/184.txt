@@ -1,0 +1,14 @@
+import numpy as np
+abc = ['abc']
+xyz = ['xyz']
+print(np.char.add(abc, xyz))    # ['abcxyz']
+print(np.char.add(abc, 'pqr'))  # ['abcpqr']
+print(np.char.multiply(abc, 3)) # ['abcabcabc']
+print(np.char.center(abc, 20, fillchar = '*'))  # ['********abc*********']
+print(np.char.capitalize('hello world'))        # Hello world
+print(np.char.title('hello how are you?'))      # Hello How Are You?
+print(np.char.lower(['HELLO','WORLD']))         # ['hello' 'world']
+print(np.char.upper('hello'))                   # HELLO
+print(np.char.split('Omkar Pathak'))            # ['Omkar', 'Pathak']
+print(np.char.split('2017-02-11', sep='-'))     # ['2017', '02', '11']
+print(np.char.join(':','dmy'))                  # d:m:y

@@ -1,0 +1,67 @@
+def get_inputentry, argu:
+    entry.insertEND, argu
+def backspaceentry:
+    input_len = lenentry.get()
+    entry.deleteinput_len - 1
+def clearentry:
+    entry.delete0, END
+def calcentry:
+    input_info = entry.get
+        output = streval(input_info.strip())
+        popupmsg
+    clearentry
+    entry.insertEND, output
+def popupmsg:
+    popup = Tk
+    popup.resizable0, 0
+    popup.geometry"120x100"
+    popup.title"Alert"
+    label = Labelpopup, text="Cannot divide by 0 ! \n Enter valid values"
+    label.packside="top", fill="x", pady=10
+    B1 = Buttonpopup, text="Okay", bg="#DDDDDD", command=popup.destroy
+    B1.pack
+def cal:
+    root = Tk
+    root.title"Calc"
+    root.resizable0, 0
+    entry_font = font.Fontsize=15
+    entry = Entryroot, justify="right", font=entry_font
+    entry.grid    num_button = partial    cal_button = partial    button7 = num_button                         command=lambda: get_inputentry, '7')
+    button7.gridrow=2, column=0, pady=5
+    button8 = num_buttontext='8', command=lambda: get_input(entry, '8')
+    button8.gridrow=2, column=1, pady=5
+    button9 = num_buttontext='9', command=lambda: get_input(entry, '9')
+    button9.gridrow=2, column=2, pady=5
+    button10 = cal_buttontext='+', command=lambda: get_input(entry, '+')
+    button10.gridrow=4, column=3, pady=5
+    button4 = num_buttontext='4', command=lambda: get_input(entry, '4')
+    button4.gridrow=3, column=0, pady=5
+    button5 = num_buttontext='5', command=lambda: get_input(entry, '5')
+    button5.gridrow=3, column=1, pady=5
+    button6 = num_buttontext='6', command=lambda: get_input(entry, '6')
+    button6.gridrow=3, column=2, pady=5
+    button11 = cal_buttontext='-', command=lambda: get_input(entry, '-')
+    button11.gridrow=3, column=3, pady=5
+    button1 = num_buttontext='1', command=lambda: get_input(entry, '1')
+    button1.gridrow=4, column=0, pady=5
+    button2 = num_buttontext='2', command=lambda: get_input(entry, '2')
+    button2.gridrow=4, column=1, pady=5
+    button3 = num_buttontext='3', command=lambda: get_input(entry, '3')
+    button3.gridrow=4, column=2, pady=5
+    button12 = cal_buttontext='*', command=lambda: get_input(entry, '*')
+    button12.gridrow=2, column=3, pady=5
+    button0 = num_buttontext='0', command=lambda: get_input(entry, '0')
+    button0.gridrow=5, column=0,  pady=5
+    button13 = num_buttontext='.', command=lambda: get_input(entry, '.')
+    button13.gridrow=5, column=1, pady=5
+    button14 = Button                      command=lambda: get_inputentry, '/')
+    button14.gridrow=1, column=3, pady=5
+    button15 = Button                      command=lambda: backspaceentry, activebackground=button_active_bg)
+    button15.grid    button16 = Button                      command=lambda: clearentry, activebackground=button_active_bg)
+    button16.gridrow=1, column=2, pady=5
+    button17 = Button                      command=lambda: calcentry, activebackground=button_active_bg)
+    button17.gridrow=5, column=3, pady=5
+    button18 = Button                      command=lambda: get_inputentry, '**')
+    button18.gridrow=5, column=2, pady=5
+    root.mainloop
+    cal

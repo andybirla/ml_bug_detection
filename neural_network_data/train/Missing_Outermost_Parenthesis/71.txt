@@ -1,0 +1,2 @@
+def calc_totala,b:
+def calc_multiplya,b:

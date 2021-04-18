@@ -1,0 +1,10 @@
+def main:
+    file_input = input'File Name: '
+        with openfile_input, 'r' as info:
+            count = collections.Counterinfo.read().upper()
+        print"Please enter a valid file name."
+        main
+    value = pprint.pformatcount
+    printvalue
+    exit
+    main

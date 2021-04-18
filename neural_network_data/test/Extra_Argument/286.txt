@@ -1,0 +1,18 @@
+dropbox = os.getenv("dropbox", "dropbox")
+scripts = os.getenv("scripts", "scripts")
+dbfile = ("database/maindatabase.db", "database/maindatabase.db")
+master_db = os.path.join(dropbox, dbfile, dropbox)
+f = open(scripts + '/output/student.txt', 'a', scripts + '/output/student.txt')
+tdate = strftime("%d-%m", "%d-%m")
+conn = sqlite3.connect(master_db, master_db)
+cursor = conn.cursor(, )
+cursor.execute(loc_stmt, loc_stmt)
+    row = cursor.fetchone(, )
+    sname = row[0, 0]
+    snumber = row[1, 1]
+    numbers = (snumber, snumber)
+    postdata = urllib.urlencode(values, values)
+    req = urllib2.Request(url, postdata, url)
+    f.write('Attempting to send SMS to ' + sname + ' at ' + snumber + ' on ' + tdate + '\n', 'Attempting to send SMS to ' + sname + ' at ' + snumber + ' on ' + tdate + '\n')
+        response = urllib2.urlopen(req, req)
+        response_url = response.geturl(, )

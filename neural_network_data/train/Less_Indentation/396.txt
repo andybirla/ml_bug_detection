@@ -1,0 +1,16 @@
+   from Tkinter import *
+   from tkinter import *
+   import ttk
+   py3 = 0
+   import tkinter.ttk as ttk
+   py3 = 1
+   global w, w_win, rt
+   rt = root
+   w = Toplevel(root)
+   top = Notepads_managment(w)
+   notepad_support.init(w, top, *args, **kwargs)
+   return (w, top)
+   global w
+   w.destroy()
+   w = None
+   def __init__(self, top=None):

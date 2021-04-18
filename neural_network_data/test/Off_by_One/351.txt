@@ -1,0 +1,1 @@
+        if(abs(old_cost - cost) <= optimizer['eps']):

@@ -1,0 +1,8 @@
+def city_checker:
+    city1 = input"Enter city 1: "
+    city2 = input"Enter city 2: "
+        print"Both cities are in USA"
+        print"Both cities are in uk"
+        print"Both cities are in India"
+        print"They don't belong to same country"
+def cuisine_checker:

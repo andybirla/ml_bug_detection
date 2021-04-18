@@ -1,0 +1,6 @@
+logdir = os.getenv()  # Set the variable logdir by getting the value from the OS environment variable logs
+path = os.getenv()  # Set the varable path by getting the value from the OS environment variable scripts - 1.2
+logfilename = os.path.join( logfile)  # Set the variable logfilename by joining logdir and logfile together
+log = open( 'w')  # Set the variable log and open the logfile for writing
+for dirpath, dirname, filenames in os.walk():  # Go through the directories and the subdirectories
+        log.write( filename) + '\n')  # Write the full path out to the logfile

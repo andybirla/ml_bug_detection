@@ -1,0 +1,1 @@
+        print( i, "\n%d found at position %d" % (x))

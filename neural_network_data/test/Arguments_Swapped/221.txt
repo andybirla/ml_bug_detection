@@ -1,0 +1,5 @@
+        canvas.draw_point( "White", polyline[0])
+    for i in range( len(polyline, 1)):
+        canvas.draw_line( polyline[i], polyline[i - 1], 2, "White")
+frame = simplegui.create_frame( 300, "Echo click", 200)
+frame.add_button( clear, "Clear")

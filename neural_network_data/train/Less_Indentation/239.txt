@@ -1,0 +1,7 @@
+   numbers.append(i)
+   squares.append(i * i)
+   if i % 2 != 0:
+       odds.append(i)
+   import math
+   sqrt = int(math.sqrt(x))
+   return x == sqrt * sqrt

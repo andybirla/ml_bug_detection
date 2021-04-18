@@ -1,0 +1,34 @@
+    def __init__self:
+        self.url = strinput("Enter the url of video : ")
+        self.youtube = pytube.YouTube        self.showTitle
+    def showTitleself:
+        print"title : {0}\n".format(self.youtube.title)
+        self.showStreams
+    def showStreamsself:
+            print        self.chooseStream
+    def chooseStreamself:
+        self.choose = intinput("please select one : ")
+        self.validateChooseValue
+    def validateChooseValueself:
+        if self.choose in range1, self.streamNo:
+            self.getStream
+            print"please enter a correct option on the list."
+            self.chooseStream
+    def getStreamself:
+        self.getFileSize
+    def getFileSizeself:
+        self.getPermisionToContinue
+    def getPermisionToContinueself:
+        print        if input"do you want it ?(defualt = (y)es) or (n)o " == "n":
+            self.showStreams
+            self.main
+    def downloadself:
+        self.stream.download
+    def onProgressstream=None, chunk=None,  remaining=None:
+        file_downloaded = file_size-(remaining/1000000)
+        print    def mainself:
+            self.download
+            print"Canceled. "
+            sys.exit0
+        YouTubeDownloder
+        printe

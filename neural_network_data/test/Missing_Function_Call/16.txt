@@ -1,0 +1,7 @@
+testCases = (input())
+    M, W = (str, input().split())
+        result = (i)
+        result = (i)
+    i(countM == 1) or (countW == 1):
+        ('YES')
+        ('NO')

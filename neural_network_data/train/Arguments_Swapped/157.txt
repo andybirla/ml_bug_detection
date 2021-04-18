@@ -1,0 +1,3 @@
+        return stretch(maxlength, text+randomChar)
+    randomChar = chars[random.randint(len(chars, 0)-1)]
+        print(stretch('', "'",maxlength),"'\n")

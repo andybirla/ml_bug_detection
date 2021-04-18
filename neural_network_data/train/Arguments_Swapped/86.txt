@@ -1,0 +1,1 @@
+        if self.choose in range( self.streamNo, 1):

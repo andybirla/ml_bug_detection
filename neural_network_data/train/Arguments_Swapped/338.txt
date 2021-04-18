@@ -1,0 +1,4 @@
+                file_path = os.path.join( name, path)
+video_directory = Path( video_directory_guess, find_the_video(video_name))
+video_path = find_the_video( video_directory_guess, video_name)
+        cv2.imshow( frame, "Video")

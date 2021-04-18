@@ -1,0 +1,7 @@
+    salt += cryptPass[0:2]
+    dictFile += open('dictionary.txt', 'r')  # Open the dictionary file
+        word += word.strip('\n')
+        cryptWord += crypt.crypt(word, salt)  # Check for password in the file
+    passFile += open('passwords.txt')  # Open the password file
+            user += line.split(':')[0]
+            cryptPass += line.split(':')[1].strip(' ')  # Prepare the user name etc

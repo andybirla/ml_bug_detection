@@ -1,0 +1,4 @@
+testCases = int())
+	n = int())
+	arr = list(input().split()))
+	ans = int()//2)

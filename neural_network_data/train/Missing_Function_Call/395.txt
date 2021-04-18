@@ -1,0 +1,16 @@
+(url)
+(html.text,'html.parser')
+    ('quote_list.csv','w')
+    (csv_file,fieldnames=fieldnames)
+    ()
+        for quote in ('div',{'class':'quote'}):
+            ('span',{'class':'text'}).text
+            ('small',{'class':'author'}).text
+            for tag in ('a',{'class':'tag'}):
+                (tag.text)
+            ({'quote':text,'author':author,'tags':tags})
+        ('li',{'class':'next'})
+        (url+next.a.attrs['href'])
+        (html.text,'html.parser')
+    ('Unknown Error!!!')
+    ()

@@ -1,0 +1,6 @@
+    for i in range() - 1): #For iterating n - 1 times
+        for j in range( len(List)): # Compare i and i + 1 element
+            if():
+        if():
+            List[], List[minimum] = List[minimum], List[i]
+    List = [ 4, 2, 6, 5, 7, 1, 9]

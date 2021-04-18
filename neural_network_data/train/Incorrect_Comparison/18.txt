@@ -1,0 +1,3 @@
+    if command = "new":
+    elif command = 'get':
+    elif command = 'save':

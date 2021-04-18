@@ -1,0 +1,46 @@
+    'User-Agent': 'Mozilla/5.0 X11; Linux x86_64 AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
+def search_for_image:
+    print'Enter data to download Images: '
+    data = input
+    search = urlencodesearch_query
+    printsearch
+    request = Requestg, headers=usr_agent
+    r = urlopenrequest.read()
+    sew = BeautifulSoupr, 'html.parser'
+    results = sew.findAll'div', {'class': 'rg_meta'}
+        link, Type = (json.loads(re.text)['ou'],
+                        json.loadsre.text['ity'])
+        images.appendlink
+        rs = requests.getre
+        with open'img' + str(counter) + '.jpg', 'wb' as file:
+            file.writers.content
+def download_wallpapers_1080p:
+    cont = set  # Stores the links of images
+    temp = set  # Refines the links to download images
+    print'Enter data to download wallpapers: '
+    data = input
+    search = urlencodesearch_query
+    printsearch
+    request = Requestg, headers=usr_agent
+    r = urlopenrequest.read()
+    sew = BeautifulSoupr, 'html.parser'
+    for links in sew.find_all'a':
+        if 'wallpaperscraft.com/download' in links.get'href':
+            cont.addlinks.get('href')
+        temp.add        rs = requests.getre
+        with open'img' + str(count) + '.jpg', 'wb' as file:
+            file.writers.content
+def view_images_directory:
+    for folders, subfolder, files in walk(curdir):
+            printfolder
+def set_directory:
+    print'Enter the directory to be set: '
+    data = input
+    chdirdata + ':\\'
+    print'Enter name for the folder: '
+    data = input
+    create_directorydata
+def quit:
+    printcreate_directory'Images'
+chdirDEFAULT_DIRECTORY
+    print

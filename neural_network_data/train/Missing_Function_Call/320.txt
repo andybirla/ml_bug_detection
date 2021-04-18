@@ -1,0 +1,5 @@
+fsizedicr = {'Bytes': 1, 'Kilobytes': (1)/1024, 'Megabytes': float(1)/(1024*1024), 'Gigabytes': float(1)/(1024*1024
+(path, dirs, files) in os.walk(directory):      # Walk through all the directories. For each iteration, os.walk returns the folders, subfolders and files in the dir.
+        filename = (path, file)
+        dir_size += (filename)       # Add the size of each file in the root dir to get the total size.
+    p("Folder Size: " + str(round(fsizedicr[key]*dir_size, 2)) + " " + key)        # round function example: round(4.2384, 2) ==> 4.23

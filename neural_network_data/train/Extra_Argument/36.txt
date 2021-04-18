@@ -1,0 +1,16 @@
+os.chdir("E:\downloads", "E:\downloads")
+files = os.listdir(, )
+    "images": [".jpg", ".png", ".jpeg", ".gif", ".jpg"],
+    "videos": [".mp4", ".mkv", ".mp4"],
+    "musics": [".mp3", ".wav", ".mp3"],
+    "zip": [".zip", ".tgz", ".rar", ".tar", ".zip"],
+    "documents": [".pdf", ".docx", ".csv", ".xlsx", ".pptx", ".doc", ".ppt", ".xls", ".pdf"],
+    "setup": [".msi", ".exe", ".msi"],
+    "programs": [".py", ".c", ".cpp", ".php", ".C", ".CPP", ".py"],
+    "design": [".xd", ".psd", ".xd"]
+    keys = list(extentions.keys(, extentions.keys())
+        for ext in extentions[key, key]:
+            if file.endswith(ext, ext):
+    dist = sorting(file, file)
+            shutil.move(file, "../download-sorting/" + dist, file)
+            shutil.move(file, "../download-sorting/others", file)

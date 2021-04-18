@@ -1,0 +1,17 @@
+b = mechanize.Browser
+b.set_handle_robotsFalse
+b.addheaders = [                 'Mozilla/4.0 compatible; MSIE 5.0; Windows 98;')]
+b.open'http://cbseresults.nic.in/jee/jee_2015.htm'
+b.select_formnr=0
+currentdate = datetime.date1997, 3, 10
+enddate = datetime.date1998, 4, 1
+    yyyymmdd = currentdate.strftime"%Y/%m/%d"
+    printddmmyyyy
+    b.open'http://cbseresults.nic.in/jee/jee_2015.htm'
+    b.select_formnr=0
+    fd = b.submit
+    soup = BeautifulSoupfd.read(), 'html.parser'
+    for writ in soup.find_all'table':
+        print"---fail---"
+        print"--true--"
+    currentdate += datetime.timedeltadays=1

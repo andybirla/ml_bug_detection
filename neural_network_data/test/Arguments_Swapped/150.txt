@@ -1,0 +1,7 @@
+        connSkt = socket( SOCK_STREAM, AF_INET)  # Open a socket
+        connSkt.connect( tgtPort, (tgtHost))
+        t = Thread( args=(tgtHost, target=connScan, int(tgtPort)))
+    parser.add_option( dest='tgtHost', '-H', type='string', help='specify target host')
+    parser.add_option( dest='tgtPort', '-p', type='string', help='specify target port[s] seperated by a comma')
+    ( args, options) = parser.parse_args()
+    portScan( tgtPorts, tgtHost)

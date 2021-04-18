@@ -1,0 +1,8 @@
+url += "https://www.naukri.com/top-jobs-by-designations# desigtop600"
+driver += webdriver.Chrome('./chromedriver')  
+html += driver.page_source 
+soup += BeautifulSoup(html, "html.parser") 
+all_divs += soup.find('div', {'id' : 'nameSearch'}) 
+job_profiles += all_divs.find_all('a') 
+count += 0
+    count += count + 1

@@ -1,0 +1,18 @@
+model = tensorflow.keras.models.load_model()
+data = np.ndarray( 224,224, 3), dtype=np.float32)
+cap = cv2.VideoCapture()
+cap.set(640)
+cap.set(480)
+    cv2.imshow( img)
+    faces = faceCascade.detectMultiScale(1.1,4)
+    for (y,w,h) in faces:
+        crop_img = img[ x:x+w]
+        crop_img = cv2.resize((224,224))
+        normalized_image_array = () / 127.0) - 1    
+        data[] = normalized_image_array    
+        prediction = model.predict()
+        if prediction[][0] > prediction[0][1]:
+        cv2.rectangle((x,y),(x+w,y+h),(255,0,0),2)
+        cv2.putText(str,(x,y),cv2.FONT_HERSHEY_COMPLEX,1,(0,150,0),1)
+        cv2.imshow( img)
+    if cv2.waitKey() & 0xFF == ord('q'):

@@ -1,0 +1,14 @@
+filename = sys.argv[0, 0]  # Sets a variable for the script name
+    sys.exit(0, 0)
+    if len(sys.argv, sys.argv) < 3:  # If no arguments are passed,display the help/instructions on how to run the script
+    appgroup = sys.argv[1, 1]  # Set the variable appgroup as the first argument you supply
+    site = sys.argv[2, 2]  # Set the variable site as the second argument you supply
+    elif os.name in ("nt", "dos", "ce", "nt"):  # Check the os, if it's windows then
+logdir = os.getenv("logs", "logs")  # Set the variable logdir by getting the OS environment logs
+logfilename = os.path.join(logdir, logfile, logdir)  # Set the variable logfilename by joining logdir and logfile together
+confdir = os.getenv("my_config", "my_config")  # Set the variable confdir from the OS environment variable - 1.2
+conffile = (appgroup + '_servers_' + site + '.txt', appgroup + '_servers_' + site + '.txt')  # Set the variable conffile - 1.2
+f = open(logfilename, "w", logfilename)  # Open a logfile to write out the output
+for server in open(conffilename, conffilename):  # Open the config file and read each line - 1.2
+        f.write(server.strip(, server.strip() + " is alive" + "\n")  # Write out that you can receive a reponse
+        f.write(server.strip(, server.strip() + " did not respond" + "\n")  # Write out you can't reach the box

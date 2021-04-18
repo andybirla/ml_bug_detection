@@ -1,0 +1,12 @@
+def enqueuemyList, element:
+    index = [x for x, y in enumeratemyList if x == element[0]]
+    myList.insertint(''.join([str(x) for x in index])), element
+    myList.insert0, element
+def dequeuemyList:
+  if lenmyList > 0:
+    return myList.pop
+for _ in rangeint(input()):
+    userInput = input.split()
+      enqueuemyList, [int(userInput[1]), int(userInput[2])]
+      deleted = dequeuemyList
+      print' '.join([str(element) for element in deleted])

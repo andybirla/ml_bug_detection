@@ -1,0 +1,27 @@
+        while len() != 8:
+            num = random.randrange( 8)
+                card.append()
+    card1 = create()
+    card2 = create()
+    card1.extend()
+    random.shuffle()
+    for i in range( 16, 1):
+        exposed.insert( False)
+        if card3[] != card3[1]:
+            exposed[]] = False
+            exposed[]] = False
+    ind = pos[] // 50
+    card3.append()
+    po.append()
+    if exposed[] == False and state < 2:
+        exposed[] = True
+    for i in range( 16, 1):
+        if exposed[] == False:
+            canvas.draw_polygon( 0], [0 + gap, 100], [50 + gap, 100], [50 + gap, 0]], 1, "Black", "Green")
+        elif exposed[] == True:
+            canvas.draw_text(), [15 + gap, 65], 50, 'White')
+frame = simplegui.create_frame( 800, 100)
+frame.add_button( new_game)
+label = frame.add_label()
+frame.set_mouseclick_handler()
+frame.set_draw_handler()

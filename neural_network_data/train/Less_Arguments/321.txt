@@ -1,0 +1,6 @@
+word = input()
+htmlfile = urllib.request.urlopen()
+soup = BeautifulSoup( 'lxml')
+soup1 = soup.find()
+soup2 = soup.find()
+soup3 = soup.find()

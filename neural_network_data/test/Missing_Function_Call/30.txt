@@ -1,0 +1,3 @@
+for _ in (int(input())):
+    (input())
+    (a|a+1)

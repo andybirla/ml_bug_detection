@@ -1,0 +1,6 @@
+for _ in r(int(input())):
+    (input())
+    (map(int,input().split()))
+    for i in (0,a):
+        (b[i]&1):
+    (ans*a2)

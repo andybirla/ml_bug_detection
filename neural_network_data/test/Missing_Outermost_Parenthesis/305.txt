@@ -1,0 +1,9 @@
+n = intinput()
+array = [inti for i in input().split()]
+arrayCheck = listset(array)
+k = intinput()
+for i in rangelen(arrayCheck):
+    count = array.countarrayCheck[i]
+        nos.appendarrayCheck[i]
+nos.sort
+printnos[0]

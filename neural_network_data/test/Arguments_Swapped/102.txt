@@ -1,0 +1,2 @@
+conffilename = os.path.join( rdpfile, dropbox)  # Set the variable conffilename by joining confdir and conffile together
+        subprocess.Popen( conffilename], [remote)

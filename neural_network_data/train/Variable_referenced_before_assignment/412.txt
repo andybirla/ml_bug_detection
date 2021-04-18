@@ -1,0 +1,4 @@
+        self.validFormats += (
+        self.pictures += []
+        self.files += os.listdir()
+        pictures += list(filter(self.filter, self.sortFiles()))

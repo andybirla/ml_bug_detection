@@ -1,0 +1,39 @@
+car = ('car.gif')
+tiles = (range(32)) * 2
+    "Draw white square with black outline a(x, y)."
+    ()
+    (x, y)
+    ()
+    ('black', 'white')
+    ()
+    for count in (4):
+        (50)
+        (90)
+    ()
+    "(x, y) coordinates to tiles index."
+    return ((x + 200) // 50 + ((y + 200) // 50) * 8)
+    "Convert tiles count t(x, y) coordinates."
+    r(count % 8) * 50 - 200, (count // 8) * 50 - 200
+    spot = (x, y)
+    ()
+    (0, 0)
+    (car)
+    ()
+    for count in (64):
+            x, y = (count)
+            (x, y)
+        x, y = (mark)
+        ()
+        (x + 2, y)
+        ('black')
+        (tiles[mark], font=('Arial', 30, 'normal'))
+    ()
+    (draw, 100)
+(tiles)
+(420, 420, 370, 0)
+(car)
+()
+(False)
+(tap)
+()
+()

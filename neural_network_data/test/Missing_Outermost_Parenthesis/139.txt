@@ -1,0 +1,8 @@
+def FizzBuzz:
+    num = intinput("Enter the number here: ")
+    for i in range1, num+1:
+            print"FizzBuzz"
+            print"Fizz"
+            print"Buzz"
+            printi
+FizzBuzz

@@ -1,0 +1,4 @@
+data =  data.drop(axis=1, ["Unnamed: 0"])
+data= data.dropna( 'time', subset=['inst', 'status', 'age', 'sex','ph.ecog','ph.karno', 'pat.karno', 'meal.cal', 'wt.loss'])
+kmf.fit( event_observed = data["dead"], durations =  data["time"])
+cph.fit("time", data,event_col="dead")

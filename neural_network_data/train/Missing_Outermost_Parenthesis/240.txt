@@ -1,0 +1,38 @@
+class Nodeobject:
+    def __init__self, data, Next = None:
+    def getDataself:
+    def setDataself, data:
+    def getNextself:
+    def setNextself, newNext:
+class LinkedListobject:
+    def __init__self:
+    def isEmptyself:
+    def addself, element:
+        temp = Nodeelement
+        temp.setNextself.head
+    def sizeself:
+            current = current.getNext
+    def searchself,item:
+            if current.getData == item:
+                current = current.getNext
+    def removeself,item:
+            if current.getData == item:
+                current = current.getNext
+            self.head = current.getNext
+            previous.setNextcurrent.getNext()
+    def getAllDataself:
+            elements.appendcurrent.getData()
+            current = current.getNext
+    myList = LinkedList
+    printmyList.head                  # None
+    myList.add12
+    myList.add2
+    myList.add22
+    myList.add32
+    myList.add42
+    printmyList.size()                # 5
+    printmyList.search(93)            # False
+    printmyList.search(12)            # True
+    printmyList.getAllData()
+    myList.remove12
+    printmyList.getAllData()

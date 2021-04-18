@@ -1,0 +1,14 @@
+parser = argparse.ArgumentParser
+parser.add_argument"-l", "--zippedfile", required=True, help="Zipped file"
+args = varsparser.parse_args()
+if os.path.existszip_file == False:
+    sys.exit"No such file present in the directory"
+def extractzip_file:
+    file_name = zip_file.split".zip"[0]
+    if zip_file.endswith".zip":
+        current_working_directory = os.getcwd
+        with zipfile.ZipFilezip_file, 'r' as zip_object:
+            zip_object.extractallnew_directory
+        print"Extracted successfully!!!"
+        print"Not a zip file"
+extractzip_file 

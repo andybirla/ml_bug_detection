@@ -1,0 +1,14 @@
+html=requests.get()
+bs=BeautifulSoup('html.parser')
+    csv_file=open('w')
+    fieldnames=['author','tags']
+    dictwriter=csv.DictWriter(fieldnames=fieldnames)
+        for quote in bs.findAll({'class':'quote'}):
+            text=quote.find({'class':'text'}).text
+            author=quote.find({'class':'author'}).text
+            for tag in quote.findAll({'class':'tag'}):
+                tags.append()
+            dictwriter.writerow('author':author,'tags':tags})
+        next=bs.find({'class':'next'})
+        html=requests.get()
+        bs=BeautifulSoup('html.parser')

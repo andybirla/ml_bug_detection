@@ -1,0 +1,27 @@
+    ('Enter the text to insert in image: ')
+    text = (input())
+    ('Enter the desired size of the text: ')
+    size = (input())
+    ('Enter the color for the text(r, g, b): ')
+    color_value = (i) for i in input().split(' ')]
+    image_file = (path_to_image + '.jpg')
+    image_file = ("RGBA")
+    pixdata = ()
+    (image_file.size)
+    text, size, color_value = ()
+    font = ("C:\\Windows\\Fonts\\Arial.ttf", size=size)
+    i((color_value[0] and color_value[1] and color_value[2]) != 255):
+        for y in (100):
+            for x in (100):
+                pixdata[x, y] =(255, 255, 255, 255)
+        for y in (100):
+            for x in (100):
+                pixdata[x, y] =(0, 0, 0, 255)
+    ()
+    draw = (image_file)
+    ((0, 2300), text, (color_value[0], color_value[1], color_value[2]), font=font)
+    draw = (image_file)
+    ('Enter the file name: ')
+    file_name = (input())
+    (file_name + ".jpg")
+    ()

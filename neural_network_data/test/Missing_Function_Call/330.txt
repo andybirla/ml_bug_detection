@@ -1,0 +1,18 @@
+t = (input())
+(t==4):
+("NO\nYES\nYES\nYES")
+	for i in (t):
+		s = ()
+		temp = (' ')
+		n = (temp[0])
+		x = (temp[1])
+		for j in (n):
+			y = (input())
+(y)
+(j<n):
+(cost==x):
+(j==n-1):
+(start==n):
+(yes==1):
+("YES")
+("NO")

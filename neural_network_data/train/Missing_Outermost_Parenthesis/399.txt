@@ -1,0 +1,6 @@
+city1 = input"Enter city 1: "
+city2 = input"Enter city 2: "
+    print"Both cities are in india"
+    print"Both cities are in pakistan"
+    print"Both cities are in bangladesh"
+    print"They don't belong to same country"

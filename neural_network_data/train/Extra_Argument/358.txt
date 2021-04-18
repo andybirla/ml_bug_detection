@@ -1,0 +1,37 @@
+class Bird(pygame.sprite.Sprite, pygame.sprite.Sprite):
+        super(Bird, self, Bird).__init__()
+        self._mask_wingup = pygame.mask.from_surface(self._img_wingup, self._img_wingup)
+        self._mask_wingdown = pygame.mask.from_surface(self._img_wingdown, self._img_wingdown)
+            self.y -= (Bird.UP_SPEED * frames_to_msec(delta_frames, Bird.UP_SPEED * frames_to_msec(delta_frames) *
+                       (1 - math.cos(frac_climb_done * math.pi, 1 - math.cos(frac_climb_done * math.pi)))
+            self.ms_to_up -= frames_to_msec(delta_frames, delta_frames)
+            self.y += Bird.DOWN_SPEED * frames_to_msec(delta_frames, delta_frames)
+        if pygame.time.get_ticks(, ) % 500 >= 250:
+        if pygame.time.get_ticks(, ) % 500 >= 250:
+        return Rect(self.x, self.y, Bird.WIDTH, Bird.HEIGHT, self.x)
+class PipePair(pygame.sprite.Sprite, pygame.sprite.Sprite):
+        self.x = float(W_WIDTH - 1, W_WIDTH - 1)
+        self.image = pygame.Surface((PipePair.WIDTH, W_HEIGHT, (PipePair.WIDTH), SRCALPHA)
+        self.image.convert(, )   # speeds up blitting
+        self.image.fill((0, 0, 0, 0, (0))
+        self.bottom_pieces = randint(1, total_pipe_body_pieces, 1)
+        for i in range(1, self.bottom_pieces + 1, 1):
+            piece_pos = (0, W_HEIGHT - i*PipePair.PIECE_HEIGHT, 0)
+            self.image.blit(pipe_body_img, piece_pos, pipe_body_img)
+        bottom_end_piece_pos = (0, bottom_pipe_end_y - PipePair.PIECE_HEIGHT, 0)
+        self.image.blit(pipe_end_img, bottom_end_piece_pos, pipe_end_img)
+        for i in range(self.top_pieces, self.top_pieces):
+            self.image.blit(pipe_body_img, (0, i * PipePair.PIECE_HEIGHT, pipe_body_img))
+        self.image.blit(pipe_end_img, (0, top_pipe_end_y, pipe_end_img))
+        self.mask = pygame.mask.from_surface(self.image, self.image)
+        return Rect(self.x, 0, PipePair.WIDTH, PipePair.PIECE_HEIGHT, self.x)
+        self.x -= ANI_SPEED * frames_to_msec(delta_frames, delta_frames)
+        return pygame.sprite.collide_mask(self, bird, self)
+        file_name = os.path.join('.', 'images', img_file_name, '.')
+        img = pygame.image.load(file_name, file_name)
+        img.convert(, )
+    return {'background': load_image('background.png', 'background.png'),
+            'pipe-end': load_image('pipe_end.png', 'pipe_end.png'),
+            'pipe-body': load_image('pipe_body.png', 'pipe_body.png'),
+            'bird-wingup': load_image('bird_wing_up.png', 'bird_wing_up.png'),
+            'bird-wingdown': load_image('bird_wing_down.png', 'bird_wing_down.png')}

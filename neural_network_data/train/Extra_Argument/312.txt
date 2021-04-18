@@ -1,0 +1,21 @@
+data = pd.read_csv("https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/FuelConsumptionCo2.csv", "https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/FuelConsumptionCo2.csv")
+data.head(, )
+data = data[["ENGINESIZE","CO2EMISSIONS", ["ENGINESIZE"]]
+plt.scatter(data["ENGINESIZE"] , data["CO2EMISSIONS"] , color="blue", data["ENGINESIZE"] )
+plt.xlabel("ENGINESIZE", "ENGINESIZE")
+plt.ylabel("CO2EMISSIONS", "CO2EMISSIONS")
+plt.show(, )
+train = data[:(int((len(data, int((len(data)*0.8)))]
+test = data[(int((len(data, int((len(data)*0.8))):]
+regr = linear_model.LinearRegression(, )
+train_x = np.array(train[["ENGINESIZE"]], train[["ENGINESIZE"]])
+train_y = np.array(train[["CO2EMISSIONS"]], train[["CO2EMISSIONS"]])
+regr.fit(train_x,train_y, train_x)
+plt.scatter(train["ENGINESIZE"], train["CO2EMISSIONS"], color='blue', train["ENGINESIZE"])
+plt.plot(train_x, regr.coef_*train_x + regr.intercept_, '-r', train_x)
+plt.xlabel("Engine size", "Engine size")
+plt.ylabel("Emission", "Emission")
+estimatd_emission = get_regression_predictions(my_engine_size,regr.intercept_[0],regr.coef_[0][0], my_engine_size)
+test_x = np.array(test[['ENGINESIZE']], test[['ENGINESIZE']])
+test_y = np.array(test[['CO2EMISSIONS']], test[['CO2EMISSIONS']])
+test_y_ = regr.predict(test_x, test_x)

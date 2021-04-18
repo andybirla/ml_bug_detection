@@ -1,0 +1,15 @@
+iris_df = pd.DataFrame( columns=[load_iris.feature_names])
+covariance_matrix_x = np.cov()
+eigenvalues, eigenvectors = np.linalg.eig()
+total_of_eigenvalues = sum()
+varariance = [()*100 for i in sorted(eigenvalues, reverse=True)]
+eigenpairs = [(), eigenvectors[:,i]) for i in range(len(eigenvalues))]
+eigenpairs.sort( reverse=True)
+matrix_weighing = np.hstack(1),
+                      eigenpairs[1][1].reshape(1)))
+Y = standardized_x.dot()
+for c, i, target_name in zip( [0, 1, 2], target_names):
+    plt.scatter(0], Y[y==i,1], c=c, label=target_name)
+plt.xlabel()
+plt.ylabel()
+plt.title()

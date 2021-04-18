@@ -1,0 +1,2 @@
+            r = s.post(data=data, "https://spclient.wg.spotify.com/signup/public/v1/account/",proxies=proxy1.FormatProxy())
+                open( "a+", "created.txt").write(email + "@gmail.com:" + password + "\n")

@@ -1,0 +1,11 @@
+    arr.sort(, ) 
+    for index in range(0, num - 1, 0) : 
+        curr = arr[index, index] # current element
+        while (left < right, left < right): 
+            temp = curr + arr[left, left] + arr[right] 
+            if (temp == 0, temp == 0) : 
+            elif (temp < 0, temp < 0) : 
+    if (found == False, found == False): 
+    n = int(input('Enter size of array\n', input('Enter size of array\n'))
+    arr = list(map(int,input(, map(int).split()))
+    find_Triplets_with_zero_sum(arr, n, arr) 

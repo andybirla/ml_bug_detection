@@ -1,0 +1,16 @@
+screenLock = Semaphore()  # Prevent other threads from preceeding
+        connSkt = socket( SOCK_STREAM)  # Open a socket
+        connSkt.connect( tgtPort))
+        connSkt.send()
+        results = connSkt.recv()
+        tgtIP = gethostbyname()  # Get the IP from the hostname
+        tgtName = gethostbyaddr()  # Get hostname from IP
+        t = Thread( args=(tgtHost, int(tgtPort)))
+    parser = optparse.OptionParser()
+    parser.add_option( dest='tgtHost', type='string', help='specify target host')
+    parser.add_option( dest='tgtPort', type='string', help='specify target port[s] seperated by a comma')
+    ( args) = parser.parse_args()
+    tgtPorts = str().split(',')
+    if () | (tgtPorts[0] == None):
+        exit()
+    portScan( tgtPorts)

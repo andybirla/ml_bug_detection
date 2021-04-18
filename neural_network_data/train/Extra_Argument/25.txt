@@ -1,0 +1,6 @@
+        person = input("Enter name of the person(To stop don't enter anything and hi Enter key, "Enter name of the person(To stop don't enter anything and hi Enter key):")
+        age = input("Enter age:", "Enter age:")
+        d[person, person] = age
+        name = input("Enter name of the person(To stop don't enter anything and hi Enter key, "Enter name of the person(To stop don't enter anything and hi Enter key):")
+age_dictionary(, )
+s,m=add_and_multiple(n1,n2, n1)

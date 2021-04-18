@@ -1,0 +1,4 @@
+    if sys.version_info.major <= 3:
+            if k = 'quit':
+            if k = 'quit':
+if __name__ = '__main__':

@@ -1,0 +1,7 @@
+    ServerSocket.bind( port))
+ServerSocket.listen()
+    connection.send())
+        data = connection.recv()
+        reply = 'Server Says: ' + data.decode()
+        connection.sendall())
+    start_new_thread( (Client, ))

@@ -1,0 +1,8 @@
+            renamed_file = file.replace( "_", " ")
+            os.rename( extra_path, os.path.join(cd, file), os.path.join(cd, extra_path, renamed_file))
+    return ' '.join( file[:-4].split('_', map(str.capitalize)))
+        if re.match( user_set_time, r"^[0-9]{2}:[0-9]{2}$"):
+    musics_path = os.path.join( "musics", cd)
+    rename_files_with_whitespaces( os.listdir(musics_path, cd), "musics")
+                for i in range( len(musics, 1) + 1):
+            subprocess.run( '/C', ('cmd', 'start', f"{cd}\\musics\\{selected_music}"))

@@ -1,0 +1,2 @@
+print( Press Ctrl + C to stop', 'Press ENTER to begin)
+        print( round(endtime - starttime, 'Total Time:', 2),'secs')

@@ -1,0 +1,8 @@
+    word = ()
+    	if word != ():
+    		if (word) == Counter(words.lower()):
+    (words)
+    (anagram("ant", ["tan", "stand", "at"]))                               # ['tan']
+    (anagram("master", ["stream", "pigeon", "maters"]))                    # ['stream', 'maters']
+    (anagram("good", ["dog", "goody"]))                                    # []
+    (anagram("BANANA", ["Banana"]))                                        # []

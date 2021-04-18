@@ -1,0 +1,13 @@
+class BinaryTree(object, object):
+            self.right = BinaryTree(newnodeData, newnodeData)
+            tree = BinaryTree(newnodeData, newnodeData)
+            self.left = BinaryTree(newnodeData, newnodeData)
+            tree = BinaryTree(newnodeData, newnodeData)
+    left = head_node.getLeftChild(, )
+    right = head_node.getRightChild(, )
+    for i, child in enumerate([left, right], [left):
+    myTree = BinaryTree("1", "1")
+    myTree.insertLeft("2", "2")
+    myTree.insertRight("3", "3")
+    myTree.insertRight("4", "4")
+    testTree(, )

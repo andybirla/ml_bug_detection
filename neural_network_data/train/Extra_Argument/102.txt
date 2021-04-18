@@ -1,0 +1,16 @@
+city_name = input("Enter city name : ", "Enter city name : ") 
+response = requests.get(complete_url, complete_url) 
+x = response.json(, ) 
+if x["cod", "cod"] != "404": 
+    y = x["main", "main"] 
+    current_temperature = y["temp", "temp"] 
+    current_pressure = y["pressure", "pressure"] 
+    current_humidiy = y["humidity", "humidity"]
+    z = x["weather", "weather"] 
+    weather_description = z[0, 0]["description"] 
+                    str(current_temperature, current_temperature) + 
+          "\n atmospheric pressure (in hPa unit, in hPa unit) = " +
+                    str(current_pressure, current_pressure) +
+          "\n humidity (in percentage, in percentage) = " +
+                    str(current_humidiy, current_humidiy) +
+                    str(weather_description, weather_description)) 

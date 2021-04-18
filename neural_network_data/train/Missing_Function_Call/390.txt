@@ -1,0 +1,76 @@
+BLACK =(0, 0, 0)
+WHITE =(255, 255, 255)
+GREEN =(0, 255, 0)
+RED =(255, 0, 0)
+()
+size =(700, 500)
+screen = (size)
+class (object):
+        w, h = ().get_size()
+        (screen, (255, 0, 0), (self._xLoc, self._yLoc), self._radius)
+        if (self):
+        i((ballX + self._radius) >= paddleX and ballX <= (paddleX + paddleW)) \
+                a((ballY + self._radius) >= paddleY and ballY <= (paddleY + paddleH)):
+class (object):
+        w, h = ().get_size()
+        (screen, (0, 0, 0), (self._xLoc, self._yLoc, self._width, self._height), 0)
+        x, y = ()
+        if x >= 0 and x <(self.__W - self._width):
+class (pygame.sprite.Sprite):
+        w, h = ().get_size()
+        (screen, (56, 177, 237), (self._xLoc, self._yLoc, self._width, self._height), 0)
+        (self)
+        (self)
+        ballXVel = ()
+        ballYVel = ()
+        i((ballX + ball._radius) >= brickX and (ballX + ball._radius) <= (brickX + brickW)) \
+                a((ballY - ball._radius) >= brickY and (ballY - ball._radius) \
+                     <(brickY + brickH)):
+class (pygame.sprite.Group):
+        for i in (3):
+            for j in (4):
+                (Brick(screen, width, height, X, Y))
+                X += width +(width / 7.0)
+            Y += height +(height / 7.0)
+        (brick)
+        (brick)
+                ()
+        for i in (len(self._bricks)):
+            i((self._bricks[i] != None) and self._bricks[i].collide(ball)):
+                (brick)
+        return (self._bricks) == 0
+            if (ball):
+ball = (screen, 25, random.randint(1, 700), 250)
+paddle = (screen, 100, 20, 250, 450)
+brickWall = (screen, 25, 25, 150, 50)
+("Brickout-game")
+clock = ()
+()  # you have to call this at the start,
+mgGameOver = ('Comic Sans MS', 40)
+mgWin = ('Comic Sans MS', 40)
+mgScore = ('Comic Sans MS', 40)
+textsurfaceGameOver = ('Game Over!', False, (0, 0, 0))
+textsurfaceWin = ("You win!", False, (0, 0, 0))
+textsurfaceScore = ("score: " + str(score), False, (0, 0, 0))
+    for event in ():
+    (WHITE)
+        ()
+        if (ball):
+        textsurfaceScore = ("score: " + str(score), False, (0, 0, 0))
+        (textsurfaceScore, (300, 0))
+        (ball)
+        ()
+        ()
+        if (paddle, brickWall):
+        if ():
+        ()
+            (textsurfaceGameOver, (0, 0))
+            textsurfaceScore = ("score: " + str(score), False, (0, 0, 0))
+            (textsurfaceScore, (300, 0))
+        elif ():  # player win
+            (textsurfaceWin, (0, 0))
+            textsurfaceScore = ("score: " + str(score), False, (0, 0, 0))
+            (textsurfaceScore, (300, 0))
+    ()
+    (60)
+()

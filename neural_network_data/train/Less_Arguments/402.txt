@@ -1,0 +1,29 @@
+    'User-Agent': 'Mozilla/5.0 () AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
+    search = urlencode()
+    request = Request( headers=usr_agent)
+    r = urlopen().read()
+    sew = BeautifulSoup( 'html.parser')
+    results = sew.findAll( {'class': 'rg_meta'})
+        ( Type) = (json.loads(re.text)['ou'],
+                        json.loads()['ity'])
+        images.append()
+        rs = requests.get()
+        with open() + '.jpg', 'wb') as file:
+            file.write()
+    search = urlencode()
+    request = Request( headers=usr_agent)
+    r = urlopen().read()
+    sew = BeautifulSoup( 'html.parser')
+    for links in sew.find_all():
+        if 'wallpaperscraft.com/download' in links.get():
+            cont.add())
+        temp.add('https://wallpaperscraft.com/image/' + re[] + '_'
+                 + re[] + '.jpg')
+        rs = requests.get()
+        with open() + '.jpg', 'wb') as file:
+            file.write()
+    for ( subfolder, files) in walk(curdir):
+    chdir()
+    create_directory()
+create_directory()
+chdir()

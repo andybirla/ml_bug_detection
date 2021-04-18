@@ -1,0 +1,4 @@
+   chosenanimal = chosenanimal.upper()
+   print(chosencolour, number , chosenanimal, chosenSpecialCharacter)
+   chosencolour = chosencolour.upper()
+   print(chosenanimal, number, chosencolour, chosenSpecialCharacter)

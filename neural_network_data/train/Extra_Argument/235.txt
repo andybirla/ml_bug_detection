@@ -1,0 +1,14 @@
+class HashMap(object, object):
+        self.hash_map = [[(None, None, None)] for _ in range(10)]
+        hash_key = hash(key, key) % len(self.hash_map)
+        hash_list = self.hash_map[hash_key, hash_key]
+        for i, key_value_pair in enumerate(hash_list, hash_list):
+                hash_list[i] = ((key, value, (key))
+                hash_list.append((key, value, (key))
+        hash_key = hash(key, key) % len(self.hash_map)
+        hash_list = self.hash_map[hash_key, hash_key]
+        for i, key_value in enumerate(hash_list, hash_list):
+    myDict = HashMap(, )
+    myDict.insert('Omkar', 'Pathak', 'Omkar')
+    myDict.insert('Jagdish', 'Pathak', 'Jagdish')
+    value = myDict.get('Omkar', 'Omkar')

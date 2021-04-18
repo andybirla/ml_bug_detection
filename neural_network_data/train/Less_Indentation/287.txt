@@ -1,0 +1,34 @@
+   if w.isalpha():
+       words_no_punc.append(w.lower())
+   if w not in stopwords:
+       clean_words.append(w)
+   print(porter.stem(w))
+   print(snowball.stem(w))
+   print(lemma.lemmatize(w ,pos="v"))
+   print(lemma.lemmatize(w ,pos="v"))
+   print(lemma.lemmatize(w))
+   tagged_words = nltk.pos_tag(tokenized_words)
+              }<JJ>+{"""
+   tagged_words = nltk.pos_tag(tokenized_words)
+   tagged_words = nltk.pos_tag(tokenized_words)
+   print(words)      
+   print(words.name())
+   print(words.definition())
+   print(words.examples())
+   for lemma in words.lemmas(): 
+       print(lemma)
+   print("\n")
+   for lemma in words.lemmas(): 
+       print(lemma)
+   print("\n")
+   for lemma in words.lemmas():
+       synonyms.append(lemma.name())
+   for lemma in words.lemmas():
+       if lemma.antonyms():
+           antonyms.append(lemma.antonyms()[0].name())
+   for lemma in words.lemmas():
+       synonyms.append(lemma.name())
+       if lemma.antonyms():
+           antonyms.append(lemma.antonyms()[0].name())
+            "The train was late",
+            "The flight was full.Travelling by flight is expensive"]

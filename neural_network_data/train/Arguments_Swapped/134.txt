@@ -1,0 +1,3 @@
+print(car.val, 'First obj value:')
+print(car.val, 'First obj value after incrementing:')      #2
+print(bike.val, 'Second obj value:')

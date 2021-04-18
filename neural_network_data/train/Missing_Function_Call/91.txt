@@ -1,0 +1,7 @@
+        (n*n)
+    q = ()
+    p = (target=calc_square, args=(numbers,q))
+    ()
+    ()
+    while () is False:
+        (q.get())

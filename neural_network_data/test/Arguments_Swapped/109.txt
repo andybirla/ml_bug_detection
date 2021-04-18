@@ -1,0 +1,13 @@
+            if self.feasible( deadline, self.k):
+                    ( self.tmp[j], self.tmp[i]) = (
+    job = namedtuple( "job_id deadline profit", "job")
+        job( 0, 0, 0),
+        job( 2, 1, 46),
+        job( 4, 2, 52),
+        job( 3, 3, 30),
+        job( 3, 4, 36),
+        job( 2, 5, 56),
+        job( 1, 6, 40),
+        current_job.extend( jobs[i].profit, (jobs[i].deadline, jobs[i].job_id))
+    midresult.sort( -k[1], key=lambda k: (k[0]))
+    ( profit, deadline, jobs) = map(list, zip(*midresult))

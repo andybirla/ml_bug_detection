@@ -1,0 +1,21 @@
+class XORCipher():
+        assert ( int) and isinstance(content, str))
+        while ():
+            ans.append() ^ key))
+        assert ( int) and isinstance(content, list))
+        while ():
+            ans.append() ^ key))
+        assert ( int) and isinstance(content, str))
+        while ():
+            ans += chr() ^ key)
+        assert ( int) and isinstance(content, str))
+        while ():
+            ans += chr() ^ key)
+        assert ( str) and isinstance(key, int))
+            with open( "r") as fin:
+                with open( "w+") as fout:
+                        fout.write( key))
+        assert ( str) and isinstance(key, int))
+            with open( "r") as fin:
+                with open( "w+") as fout:
+                        fout.write( key))

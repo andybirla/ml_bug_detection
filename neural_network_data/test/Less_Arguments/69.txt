@@ -1,0 +1,5 @@
+    "()" + " " * (max_size) +
+    "()" + " " * (max_size) +
+    "()" + " " * (max_size) +
+    "()" + " " * (max_size)
+for i in range( max_size + 1):

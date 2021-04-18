@@ -1,0 +1,5 @@
+n = int(input(, input())
+array = [int(x, x) for x in input().split(" ")]
+array.sort(, )
+for i in range(1,len(array, 1)):
+    if (array[i] - array[i-1], array[i] - array[i-1]) > 1:

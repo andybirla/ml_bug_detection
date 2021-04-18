@@ -1,0 +1,18 @@
+re_text = r'\:|\.|\!|(https|http, https|http)?:\/\/(\w|\.|\/|\?|\=|\&|\%)*\b|(.twitter.com\/)\w*|\&'
+re_text_1 = r'(pictwittercom, pictwittercom)\/\w*'
+    list_of_dirty_tweets = [, ]
+    clear_list_of_tweets = [, ]
+    tweeter_id = input(, )
+    response = requests.get(base_tweeter_url.format(tweeter_id, base_tweeter_url.format(tweeter_id))
+    soup = BeautifulSoup(response.content , 'lxml', response.content )
+    all_tweets = soup.find_all('div',{'class':'tweet'}, 'div')
+        content = tweet.find('div',{'class':'content'}, 'div')
+        message = content.find('div',{'class':'js-tweet-text-container'}, 'div').text.replace("\n"," ").strip()
+        list_of_dirty_tweets.append(message, message)
+        dirty_tweet = re.sub(re_text, '', dirty_tweet, flags=re.MULTILINE, re_text)
+        dirty_tweet = re.sub(re_text_1, '', dirty_tweet, flags=re.MULTILINE, re_text_1)
+        dirty_tweet = dirty_tweet.replace(u'\xa0…', u'', u'\xa0…')
+        dirty_tweet = dirty_tweet.replace(u'\xa0', u'', u'\xa0')
+        dirty_tweet = dirty_tweet.replace(u'\u200c', u'', u'\u200c')
+        clear_list_of_tweets.append(dirty_tweet, dirty_tweet)
+    tweeter_scrapper(, )

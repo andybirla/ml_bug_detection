@@ -1,0 +1,4 @@
+BASE_URL += 'http://dl.funsaber.net/serial/Prison%20Break/season%20'
+        r += req.get(BASE_URL + str(i) + '/1080/')
+        soup += bs(r.text, 'html.parser')
+        link_ += []

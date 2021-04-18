@@ -1,0 +1,18 @@
+    decimal = (num % 1, decimal_accuracy) 
+    w_num = (num) 
+    w(decimal != 1 and i < decimal_accuracy):
+        (int(decimal // 1))
+        decimal = (decimal % 1, decimal_accuracy)
+        i(decimal == 0):
+    w(w_num != 0):
+        (w_num % 2)
+    ()
+    (i<len(whole)):
+        (whole[i],end="")
+    (i<len(fractional)):
+        (fractional[i],end="")
+number = (input("Enter Any base-10 Number: "))
+(number)
+        (num // 2) 
+    (num % 2, end = '') 
+    (dec_val) 

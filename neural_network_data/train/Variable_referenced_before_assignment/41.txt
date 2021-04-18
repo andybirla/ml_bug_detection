@@ -1,0 +1,1 @@
+    result += mathlib.calc_square(test_input)

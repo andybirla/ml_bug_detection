@@ -1,0 +1,4 @@
+(True):
+    a, b, c = (int, input().split())
+        p('AP', c + b - a)
+        p('GP', c * (b // a))

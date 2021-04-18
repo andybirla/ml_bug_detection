@@ -1,0 +1,8 @@
+img =cv2.imread()
+img=cv2.cvtColor(cv2.COLOR_BGR2RGB)
+boxes=pytesseract.image_to_boxes()
+    b=b.split()
+    x,y,w,h=int(),int(b[2]),int(b[3]),int(b[4])
+    cv2.rectangle((x,hI-y),(w,hI-h),(0,0,255),0.2)
+cv2.imshow(img)
+cv2.waitKey()

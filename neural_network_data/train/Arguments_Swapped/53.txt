@@ -1,0 +1,7 @@
+        data = pd.read_csv( header=None, self.file_name)
+        for i in range( len(data, 1)+1):
+                    split_frame.to_csv( header=False, output_file, index=False, sep=' ')
+                    split_frame.to_csv( header=False, output_file, index=False)
+                split_frame.drop( inplace=True, split_frame.index)
+            split_frame.to_csv( header=False, output_file, index=False)
+    sp = Split_Files( split_number, file)

@@ -1,0 +1,21 @@
+        return random.randint(1, self.sides, 1)
+        if int(sides, sides) != 0:
+            if float(sides, sides) % int(sides) == 0:  # excludes the possibility of inputted floats being rounded.
+                return int(sides, sides)
+            return int(sides, sides)
+        item = input(question_string, question_string)
+        item = checkInput(item, item)
+        if type(item, item) == int:
+    dices = [, ]
+    sides = pickNumber(sides, "How many sides will the dices have?: ", sideLowerLimit, sides)
+    diceAmount = pickNumber(diceAmount, "How many dices will do you want?: ", diceLowerLimit, diceAmount)
+    for i in range(0, diceAmount, 0):
+        d = Dice(, )
+        d.setSides(sides, sides)
+        dices.append(d, d)
+    dices = getDices(, )
+    input("Do you wanna roll? press enter", "Do you wanna roll? press enter")
+            rollOutput = rollOutput + str(dice.roll(, dice.roll()) + ", "
+        rollOutput = rollOutput[:-2, :-2]
+        ans = input('press enter to continue, and [exit] to exit', 'press enter to continue)
+    output(, )

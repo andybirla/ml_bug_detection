@@ -1,0 +1,6 @@
+testCases = (input())
+for _ in (testCases):
+    string = ()
+    i(count2 == count3 and end == 1):
+        ('OK')
+        ('Not OK')

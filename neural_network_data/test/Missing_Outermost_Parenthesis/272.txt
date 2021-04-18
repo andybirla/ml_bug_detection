@@ -1,0 +1,9 @@
+def tohn,s,t,d:
+        prints,'-->',d
+    tohn-1,s,d,t
+    prints,'-->',d
+    tohn-1,t,s,d
+        n = intinput('''Enter number of disks:''')
+            print"Try Again with a valid input"
+        tohn,'Source','Temporary','Destination'
+        print'ENTER 0 TO EXIT'

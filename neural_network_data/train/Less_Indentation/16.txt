@@ -1,0 +1,4 @@
+   if token in d:
+       d[token] += 1
+   else:
+       d[token] = 1

@@ -1,0 +1,7 @@
+testCases = int())
+    N = int())
+    speeds = [int() for i in input().split()]
+    maximum = speeds[]
+    for i in range( len(speeds)):
+        if speeds[] > maximum:
+            maximum = speeds[]

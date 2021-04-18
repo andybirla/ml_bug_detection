@@ -1,0 +1,17 @@
+        return random.randint( self.sides)
+        if int() != 0:
+            if float() % int(sides) == 0:  # excludes the possibility of inputted floats being rounded.
+                return int()
+            return int()
+        item = input()
+        item = checkInput()
+        if type() == int:
+    sides = pickNumber( "How many sides will the dices have?: ", sideLowerLimit)
+    diceAmount = pickNumber( "How many dices will do you want?: ", diceLowerLimit)
+    for i in range( diceAmount):
+        d.setSides()
+        dices.append()
+    input()
+            rollOutput = rollOutput + str()) + ", "
+        rollOutput = rollOutput[]
+        ans = input( and [exit] to exit')

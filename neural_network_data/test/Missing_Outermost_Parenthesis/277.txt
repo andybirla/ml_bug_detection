@@ -1,0 +1,20 @@
+def check_ratiox:
+		x = floatx
+		raise argparse.ArgumentTypeError"%r not a floating-point literal" % (x,)
+	if x < 0.0 or x > 1.0:
+		raise argparse.ArgumentTypeError"%r not in range [0.0, 1.0]" % (x)
+desc = 'Script to move specified number of filesgiven in ratio from the src directory to dest directory.'
+parser = argparse.ArgumentParserusage = usage, description = desc
+parser.add_argument	help = 'REQUIRED Path to directory from which we cut files. Space not allowed in path.')
+parser.add_argument	help = 'REQUIRED Path to directory to which we move files. Space not allowed in path.')
+parser.add_argument	help = "REQUIRED Ratio of files in 'src' and 'dest' directory.")
+args = parser.parse_args
+files = os.listdirsrc
+size = intratio * len(files)
+print'Move {} files from {} to {} ? [y/n]'.format(size, src, dest)
+if input.lower() == 'y':
+	for f in random.samplefiles, size:
+		    os.renameos.path.join(src, f), os.path.join(dest, f)
+			printe
+	print'Successful'
+	print'Cancelled'

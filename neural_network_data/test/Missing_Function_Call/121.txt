@@ -1,0 +1,22 @@
+n = (input("Enter number of elements in the list: "))  # taking value from user
+for i in (n):
+    temp = (input("Enter element" + str(i + 1) + ': '))
+    ( temp )
+	for i in ( left, mid ):	# LOADING
+( ori_lst[i] )
+	for i in ( mid, right ):	# LOADING
+( ori_lst[i] )
+	while (L) > 0 and len(R) > 0:
+( L[0] )
+( R[0] )
+	while ( L ) > 0:				
+( L[0] )
+	while ( R ) > 0:
+( R[0] )
+	mid = left +( right - left ) // 2
+( L, left, mid ) 		# LEFT
+( L, mid, right ) 	# RIGHT
+( L, left, mid, right ) 	# MERGE
+( "UNSORTED -> ", lst )
+( lst, 0, n )
+( "SORTED -> ", lst )

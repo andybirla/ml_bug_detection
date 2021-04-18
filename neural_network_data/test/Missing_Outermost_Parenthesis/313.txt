@@ -1,0 +1,4 @@
+def factorialnumber:
+        return number * factorialnumber - 1
+number = intinput()
+printfactorial(number)

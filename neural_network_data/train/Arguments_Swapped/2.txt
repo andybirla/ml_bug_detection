@@ -1,0 +1,3 @@
+    return random.randint(1, 0) 
+        plt.axhline( color='r', y=0.5, linestyle='-')
+print(answer, "Final value :")

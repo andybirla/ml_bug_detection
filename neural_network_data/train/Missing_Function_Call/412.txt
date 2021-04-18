@@ -1,0 +1,16 @@
+        self.files = ()
+        ()
+        ('Done ..... (Press Any Key To Exit)')
+        return (self.validFormats)
+        return (self.files)
+        pictures = (filter(self.filter, self.sortFiles()))
+        if (pictures):
+        (" [Error] there are no pictrues in the directory ! ")
+        	raise (" [Error] there are no pictrues in the directory !")
+        ('pictures are : \n {}'.format(pictures))
+    	return True if (items) == 0 else False
+        for picture in ():
+            (Image.open(picture).convert('RGB'))
+        ()
+        ('result.pdf', save_all=True, append_images=self.pictures[1:])
+    ()

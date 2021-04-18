@@ -1,0 +1,1 @@
+x = get_user_input( 6, 1)

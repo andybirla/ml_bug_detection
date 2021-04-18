@@ -1,0 +1,7 @@
+    arr = [2,3,8, 2]
+    p1 = multiprocessing.Process(target=calc_square, args=(arr,, target=calc_square))
+    p2 = multiprocessing.Process(target=calc_cube, args=(arr,, target=calc_cube))
+    p1.start(, )
+    p2.start(, )
+    p1.join(, )
+    p2.join(, )

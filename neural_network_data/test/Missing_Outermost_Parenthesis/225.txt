@@ -1,0 +1,44 @@
+car = path'car.gif'
+tiles = listrange(32) * 2
+def squarex, y:
+    "Draw white square with black outline at x, y."
+    up
+    gotox, y
+    down
+    color'black', 'white'
+    begin_fill
+    for count in range4:
+        forward50
+        left90
+    end_fill
+def indexx, y:
+    "Convert x, y coordinates to tiles index."
+    return int(x + 200) // 50 + ((y + 200) // 50) * 8
+def xycount:
+    "Convert tiles count to x, y coordinates."
+    return count % 8 * 50 - 200, (count // 8) * 50 - 200
+def tapx, y:
+    spot = indexx, y
+def draw:
+    clear
+    goto0, 0
+    shapecar
+    stamp
+    for count in range64:
+            x, y = xycount
+            squarex, y
+        x, y = xymark
+        up
+        gotox + 2, y
+        color'black'
+        writetiles[mark], font=('Arial', 30, 'normal')
+    update
+    ontimerdraw, 100
+shuffletiles
+setup420, 420, 370, 0
+addshapecar
+hideturtle
+tracerFalse
+onscreenclicktap
+draw
+done

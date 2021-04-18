@@ -1,0 +1,4 @@
+    while (decimal != 1 and i <= decimal_accuracy):
+    while(i<=len(whole)):
+    while(i<=len(fractional)):
+    if num >= 1: 

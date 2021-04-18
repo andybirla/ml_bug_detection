@@ -1,0 +1,1 @@
+myobj = gTTS( lang=language, text=mytext, slow=False) 

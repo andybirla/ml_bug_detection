@@ -1,0 +1,5 @@
+archive_url += "http://www-personal.umich.edu/~csev/books/py4inf/media/"
+    r += requests.get(archive_url)
+    soup += BeautifulSoup(r.content, 'html5lib')
+    links += soup.findAll('a')
+    video_links += [archive_url + link['href'] for link in links if link['href'].endswith('mp4')]

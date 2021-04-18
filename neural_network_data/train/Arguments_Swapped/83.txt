@@ -1,0 +1,1 @@
+    a = input(w for water or g for gun: ", "Type s for snake)

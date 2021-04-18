@@ -1,0 +1,5 @@
+        os.system()
+        os.system()
+        os.system()
+        os.system()
+command = input().lower()

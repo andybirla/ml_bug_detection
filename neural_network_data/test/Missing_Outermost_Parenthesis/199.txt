@@ -1,0 +1,6 @@
+def get_user_inputstart, end:
+            user_input = intinput("Enter Your choice: ")
+                print"Please try again. Not in valid bounds."
+            print"Please try again. Only numbers"
+x = get_user_input1, 6
+printx

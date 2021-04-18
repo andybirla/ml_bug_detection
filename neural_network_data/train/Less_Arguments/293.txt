@@ -1,0 +1,13 @@
+client=Client( auth_token)
+cred = credentials.Certificate()
+database_reference = db.collection()
+    one_hours_from_now = ()).strftime('%H:%M:%S')  
+    current_date=str( gmtime()))
+    docs = db.collection().where(u'date',u'==',current_date).stream()
+        if ().strftime('%H:%M:%S')<=c['from']<=one_hours_from_now:
+            list_of_docs.append()
+    while():
+        five_minutes_prior= ()).strftime('%H:%M')
+            if doc[][0:5]==five_minutes_prior:
+                phone_number= doc[]
+                list_of_docs.remove()

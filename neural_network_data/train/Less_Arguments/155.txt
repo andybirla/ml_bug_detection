@@ -1,0 +1,8 @@
+exp = [2350,2600,2130,2190]
+exp.append()
+exp[] = exp[3] - 200
+heros=['thor','hulk','iron man','captain america']
+heros.append()
+heros.remove()
+heros.insert('black panther')
+heros[]=['doctor strange']

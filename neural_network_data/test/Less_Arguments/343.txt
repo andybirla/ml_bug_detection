@@ -1,0 +1,7 @@
+testCases = int())
+for _ in range():
+    check = int())
+    men = sorted( input().split()))[::-1]
+    women = sorted( input().split()))[::-1]
+    for i in range( check):
+        result += men[] * women[i]

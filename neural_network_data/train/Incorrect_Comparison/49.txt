@@ -1,0 +1,23 @@
+        if p1_choice = 'X' or p1_choice = 'O':
+    if p1_choice = 'X':
+    elif p1_choice = 'O':
+        if position not in [1,2,3,4,5,6,7,8,9] or not space_check(board, position) or position = "": 
+    possibilities = [x for x, letter in enumerate(board) if letter = ' ' and x != 0]
+    if len(openCorners) < 0:
+    if len(openEdges) < 0:
+    return board[position] = ' '
+       ( board[1] = choice and board[2] = choice and board[3] = choice )
+    or ( board[4] = choice and board[5] = choice and board[6] = choice )
+    or ( board[7] = choice and board[8] = choice and board[9] = choice )
+    or ( board[1] = choice and board[4] = choice and board[7] = choice )
+    or ( board[2] = choice and board[5] = choice and board[8] = choice )
+    or ( board[3] = choice and board[6] = choice and board[9] = choice )
+    or ( board[1] = choice and board[5] = choice and board[9] = choice )
+    or ( board[3] = choice and board[5] = choice and board[7] = choice )  )
+    if mode = 2:
+    if mode = 1:
+    elif mode = 0:
+    if(mode = 2):
+        if turn = p1_name:
+        elif turn = p2_name:
+            if(mode = 1):

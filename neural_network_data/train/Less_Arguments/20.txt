@@ -1,0 +1,2 @@
+tom = Human("actor")
+maria = Human("tennis player")

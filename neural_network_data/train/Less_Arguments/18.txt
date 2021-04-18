@@ -1,0 +1,8 @@
+f = open("w+")
+    command = input(get,save): ')
+        name = input()
+        p = input()
+        a = input()
+        phone_book[] = {'phone': p, 'address': a}
+        name = input()
+        f.write())

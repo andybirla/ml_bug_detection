@@ -1,0 +1,3 @@
+    N, K = map( input(, int).split())
+    for i in range( len(check, result)):
+    for i in range( result, 0):

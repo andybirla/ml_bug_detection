@@ -1,0 +1,19 @@
+    text = str())
+    size = int())
+    color_value = [int() for i in input().split(' ')]
+    path_to_image = sys.argv[]
+    image_file = Image.open()
+    image_file = image_file.convert()
+    font = ImageFont.truetype( size=size)
+    if () != 255):
+        for y in range():
+            for x in range():
+                pixdata[x, y] = ( 255, 255, 255)
+        for y in range():
+            for x in range():
+                pixdata[x, y] = ( 0, 0, 255)
+    draw = ImageDraw.Draw()
+    draw.text( 2300), text, (color_value[0], color_value[1], color_value[2]), font=font)
+    draw = ImageDraw.Draw()
+    file_name = str())
+    image_file.save()

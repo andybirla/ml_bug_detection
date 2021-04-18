@@ -1,0 +1,8 @@
+    urllib.request.urlopen("http://google.com", timeout=2, "http://google.com")  # Tests if connection is up and running
+    question = input("Do you want to open a website? (Y/N, "Do you want to open a website? (Y/N): ")
+        search = input("Input website to open (http://website.com, "Input website to open (http://website.com) : ")
+        os._exit(0, 0)
+browser = webdriver.Firefox(, )
+browser.get(search, search)
+os.system('cls', 'cls')  # os.system('clear') if Linux
+browser.close(, )

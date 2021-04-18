@@ -1,0 +1,5 @@
+    while (i < x, i < x):
+        if (x%i == 0, x%i == 0):
+    while not(isPrime(c+n, isPrime(c+n)):
+testCases = int(input(, input())
+    x,y = map(int,input(, int).split())

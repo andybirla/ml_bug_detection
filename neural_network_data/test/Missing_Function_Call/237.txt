@@ -1,0 +1,12 @@
+    ()
+    (name)
+    number = (name)
+    comp_number = (0, 2)
+    comp_choice = (comp_number)
+    (comp_choice)
+    comp = (comp_number)
+    play = (number)
+    diff =(comp + play) % 5
+        ("you won!!!")
+        ("draw")
+        ("you lose!!!")

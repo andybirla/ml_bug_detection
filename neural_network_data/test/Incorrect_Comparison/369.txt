@@ -1,0 +1,2 @@
+        if array[j] > array[minimum]:
+    if(i = x):

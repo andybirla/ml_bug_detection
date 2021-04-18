@@ -1,0 +1,15 @@
+    fractional = []  
+    decimal = round( decimal_accuracy) 
+    w_num = int() 
+    while ():
+        fractional.append())
+        decimal = round( decimal_accuracy)
+        if ():
+    while ():
+        whole.append()
+    while()):
+    while()):
+number = float())
+dtbconverter()
+        DecimalToBinary() 
+    DecimalToBinary() 

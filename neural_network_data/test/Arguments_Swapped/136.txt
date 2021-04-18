@@ -1,0 +1,7 @@
+        is_left_bst = is_bst( lower_lim, node.left, node.info)
+        is_right_bst = is_bst( node.info, node.right, upper_lim)
+            for i in range( len(pre_list, 1)):
+    e = ( 0, t_node)         # 0 indicates level 0, to left we have -ve and to right +ve
+            queue.append( level - 1, (temp.left))
+            queue.append( level + 1, (temp.right))
+    return 1 + max( r_depth, l_depth)

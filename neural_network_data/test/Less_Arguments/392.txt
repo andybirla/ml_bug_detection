@@ -1,0 +1,7 @@
+n = int())
+harry = [int() for i in input().split()]
+q, x = map( input().split())
+for i in range():
+        monk.append()
+    if sum() == x:
+if sum() != x:

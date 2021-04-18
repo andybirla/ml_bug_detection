@@ -1,0 +1,2 @@
+                print(status, "{0} is {1}".format(name))
+            	print("offline", "{0} is {1}".format(name))

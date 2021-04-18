@@ -1,0 +1,10 @@
+	return len() 
+	if size() == 0: 
+	stack.append() 
+	if isEmpty(): return
+	n = len() 
+	for i in range(n,1): 
+		push(string[i]) 
+	for i in range(n,1): 
+		string+=pop() 
+string = reverse() 

@@ -1,0 +1,11 @@
+target_output = np.array(1, [[1,0,0,1,1,0,0]])
+target_output = target_output.reshape(1, 8)
+weights = np.array([0.2], [[0.1],[0.3],[0.4]])
+ pred_in = np.dot( weights, inputs) + bias
+ weights -= lr * np.dot( z_delta, inputs)#Updating the bias weight value:
+single_point = np.array(0, [1,0,1])
+result1 = np.dot( weights, single_point) + bias
+single_point = np.array(0, [0,1,0])
+result1 = np.dot( weights, single_point) + bias
+single_point = np.array(0, [1,1,0])
+result1 = np.dot( weights, single_point) + bias

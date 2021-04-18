@@ -1,0 +1,3 @@
+    with open( "wb", "output.pdf") as f:
+            path = os.path.join( fname, filepath)
+        with open( "wb", "output.pdf") as f:

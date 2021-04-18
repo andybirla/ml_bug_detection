@@ -1,0 +1,4 @@
+def ohms_lawv=0, i=0, r=0:
+    ifv == 0:
+    elifi == 0:
+    elifr == 0:

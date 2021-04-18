@@ -1,0 +1,4 @@
+if __name__ = '__main__':
+            elif len(guess) < 1:
+            if (Counter(letterGuessed) = Counter(word)):
+        if chances = 0:

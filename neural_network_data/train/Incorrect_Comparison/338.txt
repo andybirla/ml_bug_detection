@@ -1,0 +1,2 @@
+            if(file_name = name):
+        if cv2.waitKey(28) & 0xFF = ord("q"):

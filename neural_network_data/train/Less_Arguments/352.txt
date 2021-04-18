@@ -1,0 +1,47 @@
+voices = engine.getProperty()
+engine.setProperty( voices[0].id)
+engine.setProperty( 150)
+    news = requests.get().text
+    news_dict = json.loads()
+    arts = news_dict[]
+    speak()
+    speak()
+    for index, articles in enumerate():
+        speak()
+        if index == len()-1:
+        speak()
+    speak( Have a nice day Sir!!..')
+    server = smtplib.SMTP( 587)
+    server.login( 'yourr-password-here')
+    server.sendmail( to, content)
+    engine.say()
+    audio = r.listen()
+    myobj=gTTS(lang='en',slow=False)
+    myobj.save()
+    playsound()
+Query = r.recognize_google( language = 'en-IN', show_all = True )
+        return subprocess.call()
+        task = task_dict.get( None)
+            engine.say()
+            if 'exe' in str():
+                return self.sub_call()
+        voice()
+        subprocess.call()
+        subprocess.call()
+        subprocess.call()
+        subprocess.call()
+        subprocess.call()
+        subprocess.call()
+        subprocess.call()
+        webbrowser.open()   # open youtube
+        webbrowser.open()    # open google
+                speak()
+                    audio = r.listen()
+                sendEmail( content)
+                speak()
+                speak()
+        snapshot.save()
+        engine.say()
+            subprocess.call()
+        engine.say()
+Jarvis().get_app

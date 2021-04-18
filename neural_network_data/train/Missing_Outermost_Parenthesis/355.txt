@@ -1,0 +1,30 @@
+app = Flask__name__
+db = SQLAlchemyapp
+class Tododb.Model:
+    id = db.Columndb.Integer, primary_key=True
+    content = db.Columndb.String(200), nullable=False
+    completed = db.Columndb.Integer, default=0
+    pub_date = db.Columndb.DateTime, nullable=False, default=datetime.utcnow
+    def __repr__self:
+@app.route"/", methods=["POST", "GET"]
+def index:
+        new_task = Todocontent=task_content
+            db.session.addnew_task
+            db.session.commit
+            return redirect"/"
+        tasks = Todo.query.order_byTodo.pub_date.all()
+        return render_template"index.html", tasks=tasks
+@app.route"/delete/<int:id>"
+def deleteid:
+    task = Todo.query.get_or_404id
+        db.session.deletetask
+        db.session.commit
+        return redirect"/"
+@app.route"/update/<int:id>", methods=["POST", "GET"]
+def updateid:
+    task = Todo.query.get_or_404id
+            db.session.commit
+            return redirect"/"
+        tasks = Todo.query.order_byTodo.pub_date.all()
+        return render_template"index.html", update_task=task, tasks=tasks
+    app.rundebug=True

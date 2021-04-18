@@ -1,0 +1,6 @@
+        with open( 'r') as f:
+            data = json.loads())
+        output = ','.join()
+            output += f'\n{obj[]},{obj["age"]},{obj["birthyear"]}'
+        with open( 'w') as f:
+            f.write()

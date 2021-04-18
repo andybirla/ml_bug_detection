@@ -1,0 +1,7 @@
+translator += Translator()
+language += {"bn": "Bangla",
+allow += True  # variable to control correct language code input
+    user_code += input(
+                allow += False
+    string += input(
+    translated += translator.translate(string, dest+=user_code)

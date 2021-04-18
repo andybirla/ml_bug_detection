@@ -1,0 +1,8 @@
+    input()
+    user_dice_chooser = input()
+    user_dice_chooser = int()
+    dice_6 = random.randint( 6)
+    dice_8 = random.randint( 8)
+    dice_12 = random.randint( 12)
+    user_exit_checker_raw = input( type [roll]. To exit, type [exit].\r\n?>")
+    user_exit_checker = ())

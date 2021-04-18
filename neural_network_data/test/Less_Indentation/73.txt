@@ -1,0 +1,12 @@
+   a = int(input('Enter The number'))
+   list.append(a)
+   smallest = list[i+1]
+   k = 0
+   for j in range(i+1,len(list)):
+       if(list[j]<=smallest):
+           smallest = list[j]
+           k = j
+   if(smallest<list[i]):
+       temp = list[i]
+       list[i] = list[k]
+       list[k] = temp

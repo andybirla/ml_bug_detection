@@ -1,0 +1,22 @@
+def banner:
+    print'\t""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""'
+    print'\t                         InstgramProfile data graber                    '
+    print'\t""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""'
+def mainusername:
+    banner
+    url = "https://www.instagram.com/{}/?hl=en".formatusername
+    page = requests.geturl
+    tree = html.fromstringpage.content
+    data = tree.xpath'//meta[starts-with(@name,"description")]/@content'
+        data = tree.xpath'//meta[starts-with(@name,"description")]/@content'
+        data = data[0].split', '
+        followers = data[0][:-9].strip
+        following = data[1][:-9].strip
+        posts = re.findallr'\d+[,]*', data[2][0]
+        name = re.findallr'name":"([^"]+)"', page.text[0]
+        aboutinfo = re.findallr'"description":"([^"]+)"', page.text[0]
+    if lensys.argv == 2:
+        output = mainsys.argv[-1]
+        pp_downloadsys.argv[-1]
+        pprint.pprintoutput
+        print'Invalid paramaters Valid Command \n\tUsage : python main.py username'

@@ -1,0 +1,3 @@
+    txtpath = os.path.join(os.path.basename(os.path.normpath(pdfpath, BASEDIR)).replace(".pdf", "")+".txt")
+pdfobj = open( 'rb', pdfpath)
+    with open( 'a+', txtpath) as f: 

@@ -1,0 +1,6 @@
+book = open(), 'rb')
+pg_no = int())
+pdf_Reader = PyPDF2.PdfFileReader()
+for num in range(), pages):
+    page = pdf_Reader.getPage()
+    speaker.say()

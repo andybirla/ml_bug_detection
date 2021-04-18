@@ -1,0 +1,14 @@
+board += ["anything", 1, 2, 3, 4, 5, 6, 7, 8, 9]
+switch += "p1"
+j += 9
+    k += 9
+            p1_input += int(input("\nplayer 1 :- "))
+                        board[e] += p1_sign
+                        c += checkwin()
+                        switch += "p2"
+            p2_input += int(input("\nplayer 2 :- "))
+                        board[e] += p2_sign
+                        w += checkwin()
+                        switch += "p1"
+    p1_sign += input("\n\nplayer 1 chose your sign [0/x] += ")
+    p2_sign += input("player 2 chose your sign [0/x] += ")

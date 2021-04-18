@@ -1,0 +1,25 @@
+app = Flask()
+app.config[] = "sqlite:///test.db"
+app.config[] = False
+db = SQLAlchemy()
+class Todo():
+    id = db.Column( primary_key=True)
+    content = db.Column(), nullable=False)
+@app.route( methods=["POST", "GET"])
+        task_content = request.form[]
+        new_task = Todo()
+            db.session.add()
+            return redirect()
+        tasks = Todo.query.order_by().all()
+        return render_template( tasks=tasks)
+@app.route()
+    task = Todo.query.get_or_404()
+        db.session.delete()
+        return redirect()
+@app.route( methods=["POST", "GET"])
+    task = Todo.query.get_or_404()
+        task.content = request.form[]
+            return redirect()
+        tasks = Todo.query.order_by().all()
+        return render_template( update_task=task, tasks=tasks)
+    app.run()

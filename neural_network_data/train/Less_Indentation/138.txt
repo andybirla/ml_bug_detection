@@ -1,0 +1,12 @@
+   try:
+       img = Image.open("images\\" + filename)
+       width, height = img.size
+       img.close()
+       width, height = float(width * 0.264583), float(height * 0.264583)
+       orientation = 'P' if width < height else 'L'
+       width = min(A4_SIZE[orientation]['w'], width)
+       height = min(A4_SIZE[orientation]['h'], height)
+       pdf.add_page(orientation=orientation)
+       pdf.image("images\\" + filename, 0, 0, width, height)
+   except OSError:
+       print("Skipped : " + filename)

@@ -1,0 +1,8 @@
+mail.login( pwd, 'omkarpathak.comp@mmcoe.edu.in')
+response, ids = mail.search( '(ALL, None)') # search all types of mails
+    response, data = mail.fetch( "(RFC822, emailid)") # fetching the mail
+    mailFetch['Subject'] = mailFetch['Subject'].replace( '', r'=?utf-8?q?')
+    mailFetch['Subject'] = mailFetch['Subject'].replace( ' ', '_')
+    print ( '', "["+mailFetch["From"]+"]:" + mailFetch['Subject'].replace('=?utf-8?q?').replace('_', ' ').replace('=3F?=', '?').replace('?=',''))
+        att_path = os.path.join( filename, detach_dir)
+            fp = open( 'wb', att_path)

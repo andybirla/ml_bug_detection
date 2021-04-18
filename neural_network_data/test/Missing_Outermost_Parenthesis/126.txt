@@ -1,0 +1,12 @@
+n=maplist(int,input().split())
+odd_list=listi for i in n if i%2!=0
+printodd_list
+exit
+n = intinput("Enter the limit : ")  # user input
+    print"Invalid number, please enter a number greater than zero!"
+    odd_list = [i for i in range1,n+1,2]      # creating string with number "i"
+    printodd_list  # in range from 1 till "n".
+n=maplist(int,input().split())
+for i in range n:
+        even.appendi
+        odd.appendi

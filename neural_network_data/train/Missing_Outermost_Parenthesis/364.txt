@@ -1,0 +1,9 @@
+    parser = argparse.ArgumentParser
+    parser.add_argument"--physics", help="physics marks"
+    parser.add_argument"--chemistry", help="chemistry marks"
+    parser.add_argument"--maths", help="maths marks"
+    args = parser.parse_args
+    printargs.physics
+    printargs.chemistry
+    printargs.maths
+    print        intargs.physics + int(args.chemistry) + int(args.maths)

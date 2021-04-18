@@ -1,0 +1,3 @@
+find_phone += re.compile(r'''\b
+text += pyperclip.paste()  # retrieve text from clipboard
+matches += []  # list to store numbers and emails

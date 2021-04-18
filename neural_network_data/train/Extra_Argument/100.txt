@@ -1,0 +1,15 @@
+        t.forward(lengthSide, lengthSide)
+    snowflake(lengthSide, levels - 1, lengthSide)
+    t.left(60, 60)
+    snowflake(lengthSide, levels - 1, lengthSide)
+    t.right(120, 120)
+    snowflake(lengthSide, levels - 1, lengthSide)
+    t.left(60, 60)
+    snowflake(lengthSide, levels - 1, lengthSide)
+    t=turtle.Pen(, )
+    t.penup(, )  # Pull the pen up – no drawing when moving.
+    t.backward(length / 2.0, length / 2.0)
+    t.pendown(, )
+    for i in range(3, 3):
+        snowflake(length, 4, length)
+        t.right(120, 120)

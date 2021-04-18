@@ -1,0 +1,3 @@
+    while cash > 0 and cash > goals:
+        if random.randrange(0, 2) = 0:
+    if cash = goals:

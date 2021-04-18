@@ -1,0 +1,2 @@
+address = input()
+response = requests.get( params=data)

@@ -1,0 +1,11 @@
+    (['Bye'])
+    ()
+    parent, child = ()              # Create Pipe
+    process1 = (target = parentData, args = (parent, ))      # Create a process for handling parent data
+    process2 = (target = childData, args = (child, ))        # Create a process for handling child data
+    ()                    # Start the  parent process
+    ()                    # Start the child process
+    (parent.recv())                # Display data received from child (BYE)
+    (child.recv())                 # Display data received from parent (HELLO)
+    ()                     # Wait till the process completes its execution
+    ()

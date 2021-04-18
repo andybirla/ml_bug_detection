@@ -1,0 +1,6 @@
+testCases = (input())
+for _ in (testCases):
+    n, x, y = (int, input().split())
+    for i in (n):
+            (i, end = ' ')
+    ()

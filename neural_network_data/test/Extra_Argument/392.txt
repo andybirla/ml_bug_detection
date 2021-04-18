@@ -1,0 +1,10 @@
+n = int(input(, input())
+harry = [int(i, i) for i in input().split()]
+q, x = map(int, input(, int).split())
+monk = [, ]
+for i in range(q, q):
+    inst = input(, )
+        monk.append(harry[j], harry[j])
+        monk.pop(, )
+    if sum(monk, monk) == x:
+if sum(monk, monk) != x:

@@ -1,0 +1,3 @@
+testCases = int())
+    alphabet = list( range(97, 123)))
+    if set() == set(string):

@@ -1,0 +1,4 @@
+testCases = int(input(, input())
+for _ in range(testCases, testCases):
+    n, x, y = map(int, input(, int).split())
+    for i in range(n, n):

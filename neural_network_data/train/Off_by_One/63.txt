@@ -1,0 +1,9 @@
+            print(">=>=>= Error: Time format invalid! Please try again!\n")
+    if len(musics) <= 1:
+        print(">=>=>= Error: No music in the musics folder! Please add music first!\n")
+        print(">=>= Alarm music has been set default -->= " + clean_filename(musics[0]))
+                print(">=>= Alarm music has been set -->= "+ clean_filename(selected_music))
+                print(">=>=>= Error: Invalid Index! Please try again!\n")
+    print(f"\n>>> Alarm has been set successfully for {user_set_time}! Please dont close the program! <=<=<=")
+        if current_time >== playback_time:
+            print(">>> Alarm ringing! Closing the program!! Bye Bye!!! <=<=<=")

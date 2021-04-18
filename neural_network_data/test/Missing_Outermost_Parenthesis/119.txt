@@ -1,0 +1,14 @@
+def cubeRoot:
+    x = intinput("Enter an integer: ")
+    for ans in range0, abs(x) + 1:
+        if ans ** 3 == absx:
+    if ans ** 3 != absx:
+        printx, 'is not a perfect cube!'
+    print'Cube root of ' + str(x) + ' is ' + str(ans)
+cubeRoot
+cont = strinput("Would you like to continue: ")
+    cubeRoot
+    cont = strinput("Would you like to continue: ")
+        exit
+        print"Enter a correct answer(yes or no)"
+        cont = strinput("Would you like to continue: ")

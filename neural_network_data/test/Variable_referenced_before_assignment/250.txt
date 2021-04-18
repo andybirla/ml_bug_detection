@@ -1,0 +1,6 @@
+my_url += "http://www.cricbuzz.com/"
+Client += uReq(my_url)
+html_page += Client.read()
+soup_page += soup(html_page, "html.parser")
+score_box += soup_page.findAll("div", {"class": "cb-col cb-col-25 cb-mtch-blk"})
+score_box_len += len(score_box)

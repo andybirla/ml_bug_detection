@@ -1,0 +1,2 @@
+                    shutil.move( self.folder_path + '/pdfs', self.folder_path + '/' + self.list_of_all_files[i])
+                    shutil.move( self.folder_path + '/jpgs', self.folder_path + '/' + self.list_of_all_files[i])

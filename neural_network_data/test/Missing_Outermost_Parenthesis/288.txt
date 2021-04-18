@@ -1,0 +1,28 @@
+    def __init__self, card_no:
+    def companyself:
+        if strself.card_no.startswith('4'):
+        elif strself.card_no.startswith(('50', '67', '58', '63',)):
+        elif strself.card_no.startswith('5'):
+        elif strself.card_no.startswith('37'):
+        elif strself.card_no.startswith('62'):
+        elif strself.card_no.startswith('6'):
+        elif strself.card_no.startswith('35'):
+        elif strself.card_no.startswith('7'):
+    def first_checkself:
+        if 13 <= lenself.card_no <= 19:
+    def validateself:
+        for i in rangelen(crd_no):
+                double_it = intcrd_no[i] * 2
+                if lenstr(double_it) == 2:
+                    sum_ += sum[eval(i) for i in str(double_it)]
+                sum_ += intcrd_no[i]
+    def checksumself:
+    def set_cardcls, card_to_check:
+        return clscard_to_check
+card_number = input
+card = CreditCard.set_cardcard_number
+printcard.company
+print'Card : ', card.card_no
+printcard.first_check()
+printcard.checksum
+printcard.validate()

@@ -1,0 +1,9 @@
+   for i in range(length):
+       index = random.randint(0, len(array) - 1)
+       character = array[index]
+       if is_alpha:
+           case = random.randint(0, 1)
+           if case == 1:
+               character = character.upper()
+       password.append(character)
+   gen_password = gen_password + str(i)

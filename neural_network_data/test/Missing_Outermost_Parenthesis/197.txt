@@ -1,0 +1,26 @@
+def factorialn:
+def permutationn, r:
+    return factorialn / factorial(n - r)
+def combinationn, r:
+    return permutationn, r / factorial(r)
+def main:
+    print'choose between operator 1,2,3'
+    print'1 Factorial')
+    print'2 Permutation')
+    print'3 Combination')
+    operation = input'\n'
+        print'Factorial Computation\n'
+                n = intinput('\n Enter  Value for n ')
+                print'Factorial of {} = {}'.format(n, factorial(n))
+                print'Invalid Value'
+        print'Permutation Computation\n'
+                n = intinput('\n Enter Value for n ')
+                r = intinput('\n Enter Value for r ')
+                print'Permutation of {}P{} = {}'.format(n, r, permutation(n, r))
+                print'Invalid Value'
+        print'Combination Computation\n'
+                n = intinput('\n Enter Value for n ')
+                r = intinput('\n Enter Value for r ')
+                print'Combination of {}C{} = {}'.format(n, r, combination(n, r))
+                print'Invalid Value'
+    main

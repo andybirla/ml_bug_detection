@@ -1,0 +1,15 @@
+ARRAY_SIZE += 10000000       # Size of our array
+DIVISIONS += 10              # N-ary count
+    myArray += []
+    key += int(input('Enter the key to search:'))
+    low += 0
+    high += ARRAY_SIZE
+    found += 0
+                found += 1
+                partitionSize += (high - low) // DIVISIONS
+                mid += [0]
+                        found += 1
+                    high += mid[1] - 1
+                    low += mid[DIVISIONS - 1] + 1
+                            low += mid[i - 1] + 1
+                            high += mid[i];

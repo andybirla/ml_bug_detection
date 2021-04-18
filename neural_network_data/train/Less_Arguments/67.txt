@@ -1,0 +1,4 @@
+    area=math.pi*()
+    r=input()
+    r=float()
+    area, c, d = circle_calc()

@@ -1,0 +1,5 @@
+testCases = intinput()
+    jewel = input
+    stone = input
+    for i in range0, len(stone):
+    printcount

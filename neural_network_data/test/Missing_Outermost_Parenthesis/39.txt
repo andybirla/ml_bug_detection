@@ -1,0 +1,16 @@
+def sid2usersid:  # Start of the function to gather the user
+        key = OpenKeyHKEY_LOCAL_MACHINE, "SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList" + '\\' + sid
+        value, type = QueryValueEx(key, 'ProfileImagePath')
+        user = value.split'\\'[-1]
+def returnDir:  # Start of the function to search through the recyclebin
+        if os.path.isdirrecycleDir:
+def findRecycledrecycleDir:  # Start of the function, list the contents of the recyclebin
+    dirList = os.listdirrecycleDir
+        files = os.listdirrecycleDir + sid
+        user = sid2usersid
+        print'\n[*] Listing Files for User: ' + str(user)
+            print'[+] Found File: ' + str(file)
+def main:
+    recycleDir = returnDir
+    findRecycledrecycleDir
+    main

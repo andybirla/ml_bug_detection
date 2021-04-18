@@ -1,0 +1,16 @@
+    for k in (int(mink), int(maxk)):
+        s += 1.0 /(2 * k + 1) / (2 * k + 1)
+    for i in (10):  # 分10个子进程
+        pid = ()
+            (pid)
+            s = (mink, maxk)  # 子进程开始计算
+            with ("%d" % os.getpid(), "w") as f:
+                (str(s))
+            (0)  # 子进程结束
+        (pid, 0)  # 等待子进程结束
+        with ("%d" % pid, "r") as f:
+            (float(f.read()))
+        ("%d" % pid)  # 删除通信的文件
+    return (sum(sums) * 8)
+    ("start")
+    (pi(10000000))

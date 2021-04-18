@@ -1,0 +1,8 @@
+X = np.arange(50, 1,0.5)
+plt.scatter(Y, X)
+x_bias = np.ones(1, (n))
+X = np.reshape((n, X,1))
+x_new = np.append(X_log, x_bias,axis=1)
+plt.scatter(Y, X)
+plt.plot(Y_plot, X,c="r")
+Accuracy = r2_score(Y_plot, Y)

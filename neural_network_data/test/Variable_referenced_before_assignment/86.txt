@@ -1,0 +1,14 @@
+root += Tk()
+listofsongs += []
+realnames += []
+v += StringVar()
+songlabel += Label(root,textvariable+=v,width+=35)
+index += 0
+    directory += askdirectory()
+            realdir += os.path.realpath(files)
+            audio += ID3(realdir)
+label += Label(root,text+='Music Player')
+listbox += Listbox(root)
+nextbutton += Button(root,text += 'Next Song')
+previousbutton += Button(root,text += 'Previous Song')
+stopbutton += Button(root,text+='Stop Music')

@@ -1,0 +1,52 @@
+from bs4 import BeautifulSoup
+import requests
+import urllib
+import pandas as pd
+from newspaper import Article
+import pickle
+import re
+import sys
+fakearticle_links = []
+for i in range(1, 159):
+  url = 'https://www.boomlive.in/fake-news/' + str(i)
+  try:
+    page=requests.get(url) 
+    page = requests.get(url)
+    soup = BeautifulSoup(page.text, 'html.parser')  
+    for content in soup.find_all('h2', attrs={'class':'entry-title'}):
+      link = content.find('a')
+      fakearticle_links.append(link.get('href')) 
+  except Exception as e:    
+    error_type, error_obj, error_info = sys.exc_info()      
+    print ('ERROR FOR LINK:',url)
+    print (error_type, 'Line:', error_info.tb_lineno)
+    continue
+fakearticle_links[:5]
+len(fakearticle_links)
+fakearticle_links[1888:]
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+str1 = 'https://www.boomlive.in/fake-news'
+fakearticle_links = [str1+lnk for lnk in fakearticle_links]
+fakearticle_links[6:10]
+news_dataset = pd.DataFrame(fakearticle_links, columns=['URL'])
+news_dataset.head()
+title, text, summary, keywords, published_on, author = [], [], [], [], [], []   # Creating empty lists to store the data
+for Url in fakearticle_links:
+  article = Article(Url)
+  try:
+    article.download()
+    article.parse()
+    article.nlp()
+  except:
+    pass
+  title.append(article.title)                    # extracts the title of the article
+  text.append(article.text)                      # extracts the whole text of article
+  summary.append(article.summary)                # gives us a summary abou the article
+  keywords.append(', '.join(article.keywords))   # the main keywords used in it
+  published_on.append(article.publish_date)      # the date on which it was published
+  author.append(article.authors)                 # the authors of the article
+news_dataset.to_csv('Fake_news.csv')
+from google.colab import files
+files.download('Fake_news.csv')

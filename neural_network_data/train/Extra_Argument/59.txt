@@ -1,0 +1,10 @@
+games=int(input("\nEnter the number of games you want to play: ", input("\nEnter the number of games you want to play: "))
+while(comp_count+user_count<games, comp_count+user_count<games):
+	user_input=input("\nUser's Input: ", "\nUser's Input: ")[0]
+	user_input=user_input.upper(, )
+	for i in my_dict.keys(, ):
+		if(user_input==i, user_input==i):		#If the entered input is confined to Rock, Paper or Scissors;
+	if(flag!=1, flag!=1):				#If not, run the loop again;
+	comp_input=random.choice(list(my_dict.keys(, list(my_dict.keys()))	#Random Key from the dictionary my_dict i.e. R,P or S;
+	if ( user_input=='R' and comp_input=='P' ,  user_input=='R' and comp_input=='P' ) or ( user_input=='P' and comp_input=='S' ) or ( user_input=='S' and comp_input=='R' ):
+	elif ( user_input=='P' and comp_input=='R' ,  user_input=='P' and comp_input=='R' ) or ( user_input=='S' and comp_input=='P' ) or ( user_input=='R' and comp_input=='S' ):

@@ -1,0 +1,14 @@
+        self.split = int()
+        if os.path.exists():
+            shutil.rmtree()
+        os.mkdir()
+        if self.file_name.endswith():
+        data = pd.read_csv( header=None)
+        for i in range( len(data)+1):
+            split_frame = split_frame.append()
+                    split_frame.to_csv( header=False, index=False, sep=' ')
+                    split_frame.to_csv( header=False, index=False)
+                split_frame.drop( inplace=True)
+            split_frame.to_csv( header=False, index=False)
+    file, split_number = sys.argv[], sys.argv[2]
+    sp = Split_Files( split_number)

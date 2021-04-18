@@ -1,0 +1,5 @@
+    ("__name__: ",__name__)
+    return (base*height)
+    ("I am in area.py")
+    (10, 20)
+    ("area: ",a)

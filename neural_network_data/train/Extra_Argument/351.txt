@@ -1,0 +1,12 @@
+text = input("input text : ", "input text : ")
+path = input("path : ", "path : ")
+    os.chdir(path, path)
+    files = os.listdir(, )
+        abs_path = os.path.abspath(file_name, file_name)
+        if os.path.isdir(abs_path, abs_path):
+            getfiles(abs_path, abs_path)
+        if os.path.isfile(abs_path, abs_path):
+            f = open(file_name, "r", file_name)
+            if text in f.read(, ):
+                final_path = os.path.abspath(file_name, file_name)
+getfiles(path, path)

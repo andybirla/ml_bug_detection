@@ -1,0 +1,2 @@
+            if List[j] < currentNumber :
+if __name__ = '__main__':

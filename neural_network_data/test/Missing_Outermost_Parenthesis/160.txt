@@ -1,0 +1,12 @@
+def main:
+    if lensys.argv > 1:
+        keyword = ' '.joinsys.argv[1:]
+        keyword = pyperclip.paste
+    res = requests.get'http://google.com/search?q=' + keyword
+    res.raise_for_status
+    soup = bs4.BeautifulSoupres.text
+    linkElems = soup.select'.r a'
+    numOpen = min5, len(linkElems)
+    for i in rangenumOpen:
+        webbrowser.open'http://google.com' + linkElems[i].get('href')
+    main

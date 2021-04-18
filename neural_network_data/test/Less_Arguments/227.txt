@@ -1,0 +1,9 @@
+    directory = sys.argv[]  # Set the variable directory to be the argument supplied by user.
+    sys.exit()
+             'Kilobytes': float() / 1024,
+             'Megabytes': float() / (1024 * 1024),
+             'Gigabytes': float() / (1024 * 1024 * 1024)}
+for ( dirs, files) in os.walk(
+        filename = os.path.join( file)
+        dir_size += os.path.getsize()  # Add the size of each file in the root dir to get the total size.
+fsizeList = [str( 2)) + " " + key for key in fsizedicr]  # List of units

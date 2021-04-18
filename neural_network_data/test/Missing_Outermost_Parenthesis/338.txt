@@ -1,0 +1,8 @@
+def sumx:
+        return --x * (-x + 1) // 2
+        return x * x + 1 // 2
+        a, b = mapint, input().split()
+            printsum(a) - sum(b + 1)
+            printsum(b) + sum(a)
+            printsum(b) - sum(a - 1)
+        exit0

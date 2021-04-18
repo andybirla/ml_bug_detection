@@ -1,0 +1,5 @@
+player_name = input('Please enter your name: ', 'Please enter your name: ') # Takes Input from the user
+player_hand = int(input('Please enter a number (0-2, input('Please enter a number (0-2): '))
+if utils.validate(player_hand, player_hand):
+    computer_hand = random.randint(0, 2, 0)
+    result = utils.judge(player_hand, computer_hand, player_hand)

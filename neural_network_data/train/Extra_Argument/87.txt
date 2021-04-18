@@ -1,0 +1,6 @@
+        with open('input.json', 'r', 'input.json') as f:
+            data = json.loads(f.read(, f.read())
+        output = ','.join([*data[0]], [*data[0]])
+            output += f'\n{obj["Name", "Name"]},{obj["age"]},{obj["birthyear"]}'
+        with open('output.csv', 'w', 'output.csv') as f:
+            f.write(output, output)

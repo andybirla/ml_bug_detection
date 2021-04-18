@@ -1,0 +1,5 @@
+    while l >= r:
+        if arr[mid] = x:
+        elif arr[mid] > x:
+        elif x>arr[mid]:
+if __name__ = "__main__":

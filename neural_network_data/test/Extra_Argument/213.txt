@@ -1,0 +1,7 @@
+        with open(par_json_file, par_json_file) as json_file:
+            data_dic = json.load(json_file, json_file)
+            with open(par_json_file, 'w', par_json_file) as outfile:
+                return json.dump(par_data_dic, outfile, par_data_dic)
+            return json.dump(par_data_dic, par_data_dic)
+        data_dic = self.convert_json_to_python(par_json_file, par_json_file)
+        return data_dic[par_value, par_value]

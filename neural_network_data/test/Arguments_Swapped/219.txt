@@ -1,0 +1,1 @@
+print( We will play this game 10 times', 'I am Mr. Computer)

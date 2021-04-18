@@ -1,0 +1,7 @@
+message[]=fro_add
+message['To']=",".join()
+message[]="Testinf mail"
+message.attach('plain'))
+mail=smtplib.SMTP(587)
+mail.login(password)
+mail.sendmail(to_add,text)

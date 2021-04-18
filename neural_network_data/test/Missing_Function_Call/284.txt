@@ -1,0 +1,15 @@
+    input = ()
+    CheckDir = ("Enter the name of the directory to check : ")
+    ()
+    if (CheckDir):  # Checks if the dir exists
+        ("The directory exists")
+        ("No directory found for " + CheckDir)  # Output if no directory
+        ()
+        option = ("Would you like this directory create? y/n: ")
+            ("Goodbye")
+            ()
+            (CheckDir)  # Creates a new dir for the given name
+            ("Directory created for " + CheckDir)
+            ("Not an option. Exiting")
+            ()
+    ()

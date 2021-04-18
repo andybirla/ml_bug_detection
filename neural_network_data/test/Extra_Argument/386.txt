@@ -1,0 +1,6 @@
+for _ in range(int(input(, int(input())):
+    user_input = input(, )
+    string = [, ]
+    for i in range(len(user_input, len(user_input)):
+        if user_input[i, i] not in string:
+            string.append(user_input[i], user_input[i])

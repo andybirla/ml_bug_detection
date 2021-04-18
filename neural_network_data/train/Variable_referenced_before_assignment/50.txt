@@ -1,0 +1,12 @@
+        proxies += {proxy_type: proxy_address}
+        proxy_status: str += ''
+            r += requests.get(f'https://{iptest}', proxies+=proxies)
+            r += requests.get(f'http://{iptest}', proxies+=proxies)
+            json_response: dict += r.json()
+                proxy_status += 'Proxy functional'
+                proxy_status += 'Proxy not functional'
+            proxy_status += 'Invalid response'
+        proxy_status += 'Proxy error'
+    csv_path: Path += Path(csv_path)
+        pr_file: pd.DataFrame += pd.read_csv(csv_path)
+    proxies: list += []

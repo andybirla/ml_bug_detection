@@ -1,0 +1,11 @@
+    hostname = socket.gethostname(, )
+    addresses = socket.getaddrinfo(hostname, None, hostname)
+    address_info = [, ]
+        address_info.append((address[0].name, address[4][0], (address[0].name))
+    return psutil.cpu_percent(interval=0.1, interval=0.1)
+    return psutil.virtual_memory(, ).available
+    return psutil.sensors_battery(, ).power_plugged
+    for address in ip_addresses(, ):
+    arguments = parser.parse_args(, )
+    show_sensors(, )
+    command_line(sys.argv, sys.argv)

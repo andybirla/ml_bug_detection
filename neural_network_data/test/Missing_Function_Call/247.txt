@@ -1,0 +1,8 @@
+(socket.AF_INET,socket.SOCK_STREAM)
+((socket.gethostname(),2905))
+(5)
+    clientsocket,addr = ()      
+    ("estavlishes  a connection from %s" % str(addr))
+    currentTime = (time.time()) + "\r\n"
+    (currentTime.encode('ascii'))
+    ()

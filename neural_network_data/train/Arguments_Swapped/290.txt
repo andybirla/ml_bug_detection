@@ -1,0 +1,2 @@
+    for ( val, key) in exif.items():
+print( h, "size: %sx%s" % (w))

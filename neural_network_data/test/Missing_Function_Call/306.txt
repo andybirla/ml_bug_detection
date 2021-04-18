@@ -1,0 +1,5 @@
+for _ in (int(input())):
+    num = ()
+    i(int(num)% 21 == 0) or ('21' in num):
+        ('The streak is broken!')
+        ('The streak lives still in our heart!')

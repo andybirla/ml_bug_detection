@@ -1,0 +1,7 @@
+g = geocoder.ip()
+lat = g.latlng[]
+longi = g.latlng[]
+query = input()
+    str() + "," + str(longi) + "radius=1000"
+r = requests.get()
+y = x[]

@@ -1,0 +1,5 @@
+        time.sleep()
+        time.sleep()
+arr = [3,8,9]
+t1= threading.Thread( args=(arr,))
+t2= threading.Thread( args=(arr,))

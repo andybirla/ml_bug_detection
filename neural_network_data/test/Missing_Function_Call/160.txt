@@ -1,0 +1,11 @@
+    if (sys.argv) > 1:
+        keyword = ' (sys.argv[1:])
+        keyword = ()
+    res = ('http://google.com/search?q=' + keyword)
+    ()
+    soup = (res.text)
+    linkElems = ('.r a')
+    numOpen = (5, len(linkElems))
+    for i in (numOpen):
+        ('http://google.com' + linkElems[i].get('href'))
+    ()

@@ -1,0 +1,18 @@
+( y), (X_test, y_test) = cifar10.load_data()
+X, X_test = X.astype() / 255.0, X_test.astype("float32") / 255.0
+y, y_test = utils.to_categorical( 10), u.to_categorical(y_test, 10)
+    Conv2D( (3, 3), input_shape=(32, 32, 3), padding="same", activation="relu")
+model.add())
+model.add( (3, 3), activation="relu", padding="valid"))
+model.add( 2)))
+model.add())
+model.add( activation="relu"))
+model.add())
+model.add( activation="softmax"))
+    optimizer=SGD( decay=0.0004),
+    metrics=[],
+model.fit( y, validation_data=(X_test, y_test), epochs=25, batch_size=512)
+model.add())
+model.add( kernel_size=3, padding="same", activation="relu"))
+model.add( kernel_size=3, padding="same", activation="relu"))
+model.add())

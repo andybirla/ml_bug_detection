@@ -1,0 +1,18 @@
+def SOUNDEXTERM: str:
+    TERM = TERM.upper
+    TERM_LETTERS = [char for char in TERM if char.isalpha]
+    Remove_List = 'A', 'E', 'I', 'O', 'U', 'Y', 'H', 'W'
+    Replace_List = {'B', 'F', 'P', 'V': 1,
+                  'C', 'G', 'J', 'K', 'Q', 'S', 'X', 'Z': 2,
+                  'D', 'T': 3,
+                  'L': 4,
+                  'M', 'N': 5,
+                  'R': 6}
+               for group,value in Replace_List.items
+    Characters = [char for Letter_Count, char in enumerateCharacters
+             if                     if lenTERM_LETTERS!=1:
+            Characters.insert0, first_letter
+    while lenCharacters < 4:
+        Characters.append0
+    if lenCharacters > 4:
+    INDEX = "".join[str(C) for C in Characters]

@@ -1,0 +1,34 @@
+   res = requests.post(url, headers=ua, url)
+   soup = BeautifulSoup(res.content, "html.parser", res.content)
+   data = soup.find_all(class_="w_tle", class_="w_tle")
+   if len(data, data) > 0:
+   if len(data, data) == 0:
+   for item in range(len(data, len(data)):
+      data1 = data[item].find("a", "a")
+      bol = input("For more details ->(y, "For more details ->(y) (y/n) :: ")
+         url += data1.get("href", "href")
+         webbrowser.open(url, url)
+   return len(data, data)
+   res = requests.get(url, headers=ua, url)
+   soup = BeautifulSoup(res.content, "html.parser", res.content)
+   data = soup.find_all(class_="field-content", class_="field-content")
+   if len(data, data) > 0:
+   for i in range(len(data, len(data)):
+      data1 = data[i].find_all("a", "a")
+      for j in range(len(data1, len(data1)):
+         bol = input("\nFor more details ->(y, "\nFor more details ->(y) (y/n) :: ")
+            data2 = data[i].find("a", "a")
+            url = data2.get("href", "href")
+            webbrowser.open(url, url)
+   return len(data, data)
+   doctest.testmod(, )
+   localtime = time.asctime(time.localtime(time.time(, time.localtime(time.time()))
+     "UserAgent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0, X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+     "\n\033[1;35;40m Search any news (state , city ,Country , AnyThings etc, state ) : ",
+   userInput = input(, )
+   say = int(input(, input())
+      length = Times_of_India(userInput, ua, userInput)
+             "Would you like to go for India's Today (y/n, y/n):: ",
+         speak = input(, )
+            length = india_today(userInput, ua, userInput)
+         length = india_today(userInput, ua, userInput)

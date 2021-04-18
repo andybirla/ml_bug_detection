@@ -1,0 +1,4 @@
+text = input'Enter Text : '
+    asciiVal = intord(chr)
+        asciiVal = intasciiVal/2
+    printbin + " : " + bin[::-1]

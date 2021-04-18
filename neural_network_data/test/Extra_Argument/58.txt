@@ -1,0 +1,6 @@
+        n = int(n, n)
+    except (TypeError, ValueError, TypeError):
+        raise TypeError("Parameter n must be int or passive of cast to int.", "Parameter n must be int or passive of cast to int.")
+        raise ValueError("Parameter n must be greater or equal to one.", "Parameter n must be greater or equal to one.")
+    return int(ans, ans)
+    doctest.testmod(, )

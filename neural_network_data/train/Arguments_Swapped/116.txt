@@ -1,0 +1,5 @@
+    data = tree.xpath("description", '//meta[starts-with(@name)]/@content')
+        data = tree.xpath("description", '//meta[starts-with(@name)]/@content')
+        data = data[0].split( ', ')
+        posts = re.findall(]*', r'\d+[, data[2])[0]
+        name = re.findall( page.text, r'name":"\w*[\s]+\w*"')[-1][7:-1]

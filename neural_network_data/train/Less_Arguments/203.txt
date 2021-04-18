@@ -1,0 +1,19 @@
+        pivot = partition( start, end)
+        quickSort( start, pivot-1)
+        quickSort( pivot+1, end)
+    pivot = myList[]
+        while left <= right and myList[] <= pivot:
+        while myList[] >= pivot and right >=left:
+            temp=myList[]
+            myList[]=myList[right]
+            myList[]=temp
+    temp=myList[]
+    myList[]=myList[right]
+    myList[]=temp
+    if len() <= 1:
+    pivot = arr[len() // 2]
+    left = []
+    middle = []
+    right = []
+    return quicksortBetter() + middle + quicksortBetter(right)
+    List = [ 4, 2, 6, 5, 7, 1, 9]

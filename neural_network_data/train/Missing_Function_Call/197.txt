@@ -1,0 +1,6 @@
+    if (x) == 0 or len(x) == 1:
+        middle = (x)//2
+        a = (x[:middle])
+        b = (x[middle:])
+        return (a,b)
+    ('Sorted List:',mergeSort(List))

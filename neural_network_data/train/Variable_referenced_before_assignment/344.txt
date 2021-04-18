@@ -1,0 +1,12 @@
+fps += 60
+WIN += pg.display.set_mode((st.width, st.height))
+    x, y += pos
+    row += y // sq_size
+    col += x // sq_size
+    run += True
+    clock += pg.time.Clock()
+    board += checker_board()
+    game += checker(WIN)
+                run += False
+                pos += pg.mouse.get_pos()
+                row, col += get_row_col_mouse(pos)

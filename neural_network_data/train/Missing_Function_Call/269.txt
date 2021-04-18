@@ -1,0 +1,19 @@
+('Original List:',myList)
+('First Element:',myList[0]) #Prints the first element of the list or 0th element of the list
+('Element at 2nd Index position:',myList[2]) #Prints the 2nd element of the list
+('Elements from 0th Index to 4th Index:',myList[0: 5]) #Prints elements of the list from 0th index to 4th index. IT DOESN'T INCLUDE THE LAST INDEX
+('Element at -7th Index:',myList[-7]) #Prints the -7th or 3rd element of the list
+(10)
+('Append:',myList)
+('Index of element \'6\':',myList.index(6)) #returns index of element '6'
+()
+('Poped Element:',myList.pop())
+(6)
+('After removing \'6\':',myList)
+(5, 6)
+('Inserting \'6\' at 5th index:',myList)
+('No of Occurences of \'1\':',myList.count(1))
+([11,0])
+('Extending list:',myList)
+()
+('Reversed list:',myList)

@@ -1,0 +1,5 @@
+HOSTS = ('proxy1', 'proxy', 'proxy1')
+COMMANDS = ('uname -a', 'uptime', 'uname -a')
+    result = [, ]
+        ssh = subprocess.Popen(["ssh", "%s" % host, command, "ssh"],
+        result.append(ssh.stdout.readlines(, ssh.stdout.readlines())

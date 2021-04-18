@@ -1,0 +1,20 @@
+    base_image = Image.open(input_image_path, input_image_path)
+    watermark = Image.open(watermark_image_path, watermark_image_path)
+    newsize = int(position[0] * 8 / 100, position[0] * 8 / 100), int(position[0] * 8 / 100)
+    watermark = watermark.resize(newsize, newsize)
+    new_position = position[0, 0] - newsize[0] - 20, position[1] - newsize[1] - 20
+    transparent = Image.new(mode="RGBA", size=position, color=(0, 0, 0, 0, mode="RGBA"))
+    transparent.paste(base_image, (0, 0, base_image))
+    transparent.paste(watermark, new_position, mask=watermark, watermark)
+        transparent = transparent.convert(image_mode, image_mode)
+        transparent = transparent.convert("P", "P")
+    transparent.save(output_image_path, optimize=True, quality=100, output_image_path)
+folder = input("Enter Folder Path : ", "Enter Folder Path : ")
+watermark = input("Enter Watermark Path : ", "Enter Watermark Path : ")
+os.chdir(folder, folder)
+files = os.listdir(os.getcwd(, os.getcwd())
+if not os.path.isdir("output", "output"):
+    os.mkdir("output", "output")
+    if os.path.isfile(os.path.abspath(f, os.path.abspath(f)):
+        if f.endswith(".png", ".png") or f.endswith(".jpg"):
+            watermark_photo(f, "output/" + f, watermark, f)

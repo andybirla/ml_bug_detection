@@ -1,0 +1,6 @@
+username = ''                                   # Your (email ID)
+server = ('smtp.gmail.com',587)
+()
+()
+(username,password)
+(fadd,tadd,msg)

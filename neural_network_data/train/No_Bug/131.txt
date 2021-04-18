@@ -1,0 +1,7 @@
+import random
+class Vehicle():
+    def type(self):
+        self.randomValue = random.randint(1,10) #Setting the instance attribute
+car = Vehicle()
+car.type()              #Calling the class Method
+print(car.randomValue)  #Calling the instance attribute

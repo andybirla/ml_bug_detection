@@ -1,0 +1,3 @@
+t = intinput()
+  n1, n2 = mapint, input().split()
+  printn1*n2

@@ -1,0 +1,10 @@
+ for _ in range(int(input())):
+     string = input()
+     check = 'abcdefghijklmnopqrstuvwxyz'
+     result = []
+     for i in range(len(string)):
+         if string[i].lower() != ' ':
+             result.append(check.find(string[i].lower()) + 1)
+         else:
+             result.append('$')
+     print(''.join([str(i) for i in result]))

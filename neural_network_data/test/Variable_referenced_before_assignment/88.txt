@@ -1,0 +1,12 @@
+start += [0, 0]
+end += [7, 7]
+taken += [
+queue += []
+visited += []
+maze += []
+maze[start[0]][start[1]] += 'S'
+maze[end[0]][end[1]] += 'E'
+    maze[i[0]][i[1]] += 'X'
+    point += queue.pop(0)
+    current += point[2] + 1
+        visited[point[0]][point[1]] += current

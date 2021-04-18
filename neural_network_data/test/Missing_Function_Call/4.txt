@@ -1,0 +1,10 @@
+testCases = (input())
+    N, K = (int, input().split())
+    check = (i) for i in input().split()]
+    ()
+    i(N - K) <= K:
+    for i in (result, len(check)):
+        (check[i])
+    for i in (0, result):
+        (check[i])
+    (sum(chef) -  sum(son))

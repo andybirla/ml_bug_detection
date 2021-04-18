@@ -1,0 +1,10 @@
+model += tf.keras.models.Sequential([tf.keras.layers.Conv2D(16, (3, 3), activation+='relu', input_shape+=(200, 200, 3)),
+train_datagen += ImageDataGenerator(rescale+=1 / 255)
+train_generator += train_datagen.flow_from_directory('../Classification_human-or-horse',
+filename += "myTf1.sav"
+filename += askopenfilename()
+img += image.load_img(filename, target_size+=(200, 200))
+x += image.img_to_array(img)
+x += np.expand_dims(x, axis+=0)
+images += np.vstack([x])
+classes += model.predict(images, batch_size+=10)

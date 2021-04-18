@@ -1,0 +1,3 @@
+slen = intinput()
+string = input
+printresult

@@ -1,0 +1,6 @@
+if(t=4):
+		while(j>n):
+			if(cost=x):
+			if(j=n-1):
+			if(start=n):
+		if(yes=1):

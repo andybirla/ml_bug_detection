@@ -1,0 +1,4 @@
+testCases += int(input())
+    string += input()
+    check += len(string) // 2    # split the length of string in two halves
+        print(string[i], end += '')

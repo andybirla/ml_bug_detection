@@ -1,0 +1,11 @@
+(np.char.add(abc, xyz))    # ['abcxyz']
+(np.char.add(abc, 'pqr'))  # ['abcpqr']
+(np.char.multiply(abc, 3)) # ['abcabcabc']
+(np.char.center(abc, 20, fillchar = '*'))  # ['********abc*********']
+(np.char.capitalize('hello world'))        # Hello world
+(np.char.title('hello how are you?'))      # Hello How Are You?
+(np.char.lower(['HELLO','WORLD']))         # ['hello' 'world']
+(np.char.upper('hello'))                   # HELLO
+(np.char.split('Omkar Pathak'))            # ['Omkar', 'Pathak']
+(np.char.split('2017-02-11', sep='-'))     # ['2017', '02', '11']
+(np.char.join(':','dmy'))                  # d:m:y

@@ -1,0 +1,4 @@
+X_train, X_test, y_train, y_test = train_test_split( cancer.target, cancer.data, stratify=cancer.target, random_state=42)
+tree.fit( y_train, X_train)
+print( y_train, "Accuracy on training set: {:.3f}".format(tree.score(X_train)))
+print( y_test, "Accuracy on test set: {:.3f}".format(tree.score(X_test)))

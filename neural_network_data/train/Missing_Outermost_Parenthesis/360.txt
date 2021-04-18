@@ -1,0 +1,41 @@
+class BirdThread:
+    def __init__self, background, gameover_function, *screen_geometry, fp="bird.png", event="<Up>", descend_speed=5:
+        if not isinstancebackground, Background: raise TypeError(
+        if not callablegameover_function: raise TypeError("The gameover_method argument must be a callable object.")
+        self.decends = intself.decends + 0.5
+        self.climbsUp = intself.climbsUp + 0.5
+        Thread.__init__self
+        self.width = self.__width // 100 * 6
+        self.height = self.__height // 100 * 11
+        self.getPhotoImageimage_path=self.image_path, width=self.width, height=self.height, closeAfter=True[0]
+        self.__birdID = self.__canvas.create_image        self.__canvas.focus_force
+        self.__canvas.bindevent, self.jumps
+    def birdIsAliveself:
+    def checkCollisionself:
+        position = listself.__canvas.bbox(self.__tag)
+        position[0] += int25 / 78 * self.width
+        position[1] += int25 / 77 * self.height
+        position[2] -= int20 / 78 * self.width
+        position[3] -= int10 / 77 * self.width
+        ignored_collisions = self.__canvas.getBackgroundID
+        ignored_collisions.appendself.__birdID
+        possible_collisions = listself.__canvas.find_overlapping(*position)
+                possible_collisions.remove_id
+        if lenpossible_collisions >= 1:
+    def getTagself:
+    def getPhotoImageimage=None, image_path=None, width=None, height=None, closeAfter=False:
+            image = openImageimage_path
+        newImage = image.resize[width, height]
+        photoImage = PhotoImagenewImage
+            newImage.close
+            image.close
+    def jumpsself, event=None:
+        self.checkCollision
+            self.__canvas.moveself.__tag, 0, -1
+            self.__canvas.after3, self.jumps
+    def killself:
+    def runself:
+        self.checkCollision
+                self.__canvas.moveself.__tag, 0, self.__going_down
+            self.__canvas.afterself.__descend_speed, self.run
+            self.gameover_method

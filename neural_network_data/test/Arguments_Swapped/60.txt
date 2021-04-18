@@ -1,0 +1,2 @@
+    if not os.path.exists( TESTDIR, os.path.join(home)):  # os.path.join() for making a full path safely
+        os.makedirs( TESTDIR, os.path.join(home))  # If not create the directory, inside their home directory

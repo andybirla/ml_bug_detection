@@ -1,0 +1,27 @@
+mpluse'TkAgg'
+random.shufflechoice
+def create_canvassize:
+    canvas = [[False for i in rangesize] for j in range(size)]
+def seedcanvas:
+    for i, row in enumeratecanvas:
+        for j, _ in enumeraterow:
+            canvas[i][j] = boolrandom.getrandbits(1)
+def runcanvas:
+    canvas = np.arraycanvas
+    next_gen_canvas = np.arraycreate_canvas(canvas.shape[0])
+    for r, row in enumeratecanvas:
+        for c, pt in enumeraterow:
+            next_gen_canvas[r][c] = __judge_pointpt, canvas[r - 1:r + 2, c - 1:c + 2]
+    return canvas.tolist
+def __judge_pointpt, neighbours:
+    if lensys.argv != 2: raise Exception(usage_doc)
+    canvas_size = intsys.argv[1]
+    c = create_canvascanvas_size
+    seedc
+    fig, ax = plt.subplots
+    fig.show
+    cmap = ListedColormap['w', 'k']
+            c = runc
+            ax.matshowc, cmap=cmap
+            fig.canvas.draw
+            ax.cla

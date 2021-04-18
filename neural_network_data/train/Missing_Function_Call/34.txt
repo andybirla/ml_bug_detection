@@ -1,0 +1,8 @@
+requestURL = ("Enter the URL to be invoked: ")
+    response = (requestURL)
+    ('Status code : ' + str(response.code) + ' ' + emoji.emojize(':thumbs_up:'))
+    ('Message : ' + 'Request succeeded. Request returned message - ' + response.reason)
+    ('Status : ' + str(e.code) + ' ' + emoji.emojize(':thumbs_down:'))
+    ('Message : Request failed. Request returned reason - ' + e.reason)
+    ('Status :',  str(e.reason).split(']')[0].replace('[','') +  ' ' + emoji.emojize(':thumbs_down:'))
+    ('Message : '+ str(e.reason).split(']')[1])

@@ -1,0 +1,5 @@
+    src = '{}\\{}'.format( dirs, destLocation)
+    dest = '{}\{}'.format( name, destLocation)
+    shutil.move( '{}\\{}'.format(dest, src, dirs))
+                Organize( name, dirs)
+            Organize( 'Folders', dirs)

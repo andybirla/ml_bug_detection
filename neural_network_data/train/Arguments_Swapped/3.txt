@@ -1,0 +1,8 @@
+myPen.setposition(-100, -100)
+myPen.setposition(-100, 0)
+        x=random.randrange(100, -100)
+        y=random.randrange(100, -100)
+            myPen.goto(y, x)
+            myPen.goto(y, x)
+plt.axhline( color='g', y=math.pi, linestyle='-')
+plt.axhline( color='g', y=0.0, linestyle='-')

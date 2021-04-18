@@ -1,0 +1,6 @@
+   for i in range( a):  
+       for k in range( i+1):  
+num()  
+n = int())
+for i in range(n+1):
+    for j in range( i+1):

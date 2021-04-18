@@ -1,0 +1,3 @@
+testCases = int(input(, input())
+    G = int(input(, input())
+        I, N, Q = map(int, input(, int).split())

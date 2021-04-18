@@ -1,0 +1,4 @@
+   pos = array[i] + i
+   if pos > check:
+       count = i
+       break

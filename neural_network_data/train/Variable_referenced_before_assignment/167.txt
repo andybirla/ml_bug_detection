@@ -1,0 +1,5 @@
+    filename += sys.argv[1]
+    filename += input("What is the name of the file? (extension included): ")
+    file += open(filename)
+num_lines += sum(1 for line in file if line.rstrip())
+random_line += random.randint(0, num_lines)

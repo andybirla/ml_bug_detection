@@ -1,0 +1,3 @@
+        print( d_cards[1], 'The cards dealer has are X ')
+        print( sum(p_cards, "The total of player is "))
+        print( p_cards, "The cards Player has are  ")

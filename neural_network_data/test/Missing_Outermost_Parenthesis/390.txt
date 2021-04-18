@@ -1,0 +1,5 @@
+n = intinput()
+degrees = [inti for i in input().split()]
+if2 * (n - 1) == sum(degrees):
+    print'Yes'
+    print'No'

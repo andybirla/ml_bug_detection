@@ -1,0 +1,2 @@
+a, b = map( input(, int).split())
+for i in range( b + 1, a):

@@ -1,0 +1,12 @@
+data = pd.read_csv"https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/FuelConsumptionCo2.csv"
+data.head
+train = data[:int((len(data)*0.8))]
+test = data[int((len(data)*0.8)):]
+regr = linear_model.LinearRegression
+train_x = np.arraytrain_y = np.arraytrain["CO2EMISSIONS"]
+regr.fittrain_x,train_y
+test_x = np.arraytest_y = np.arraytest["CO2EMISSIONS"]
+coeff_data = pd.DataFrameregr.coef_ , X.columns , columns=["Coefficients"]
+Y_pred = regr.predicttest_x
+R = r2_scoretest_y , Y_pred
+print "R² :",R

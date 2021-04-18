@@ -1,0 +1,3 @@
+(input('enter first number: '))
+(input('enter first number: '))
+('sum is: ',sum(n1,n2))

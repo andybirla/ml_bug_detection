@@ -1,0 +1,26 @@
+printbcolors.OKBLUE + bcolors.BOLD + "Welcome to the game 'Snake-Water-Gun'.\nWanna play? Type Y or N" + bcolors.ENDC
+b = input
+    print"Ok bubyeee! See you later"
+    print"There will be 10 matches and the one who won max matches will win Let's start"
+    c = random.choiceli
+    a = input"Type s for snake,w for water or g for gun: "
+        printbcolors.HEADERS + "Game draws.Play again" + bcolors.ENDC
+        printf"{10-i} matches left"
+        printbcolors.FAIL +"It's Snake v/s Gun You lose!" + bcolors.ENDC
+        printf"{10-i} matches left"
+        printbcolors.OKGREEN + "It's Snake v/s Water. You won" + bcolors.ENDC
+        printf"{10-i} matches left"
+        printbcolors.FAIL +"It's Snake v/s Gun You lose!" + bcolors.ENDC
+        printf"{10-i} matches left"
+        printbcolors.OKGREEN + "It's Snake v/s Water. You won" + bcolors.ENDC
+        printf"{10-i} matches left"
+        printbcolors.FAIL +"It's Snake v/s Gun You lose!" + bcolors.ENDC
+        printf"{10-i} matches left"
+        printbcolors.OKGREEN + "It's Snake v/s Water. You won" + bcolors.ENDC
+        printf"{10-i} matches left"
+        print"Wrong input"
+    printf"You won {w} times and computer won {l} times.Final result is..."
+    time.sleep3
+        printbcolors.OKGREEN + bcolors.BOLD + "Woooh!!!!!!! Congratulations you won" + bcolors.ENDC
+        print"Game draws!!!!!!!"
+        printbcolors.FAIL + bcolors.BOLD + "You lose!!!.Better luck next time" + bcolors.ENDC

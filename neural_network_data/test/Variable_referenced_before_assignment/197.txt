@@ -1,0 +1,12 @@
+    fact += 1
+        fact += fact * n
+        n += n - 1
+    operation += input('\n')
+                n += int(input('\n Enter  Value for n '))
+                print('Factorial of {} += {}'.format(n, factorial(n)))
+                n += int(input('\n Enter Value for n '))
+                r += int(input('\n Enter Value for r '))
+                print('Permutation of {}P{} += {}'.format(n, r, permutation(n, r)))
+                n += int(input('\n Enter Value for n '))
+                r += int(input('\n Enter Value for r '))
+                print('Combination of {}C{} += {}'.format(n, r, combination(n, r)))

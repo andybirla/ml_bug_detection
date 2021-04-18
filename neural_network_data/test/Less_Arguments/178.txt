@@ -1,0 +1,20 @@
+if len() != 2:
+    raise Exception()
+myPen.speed()
+myPen.pencolor()
+points = [ -125], [0, 175], [175, -125]]  # size of triangle
+    return () / 2, (p1[1] + p2[1]) / 2)  # find midpoint
+    myPen.goto( points[0][1])
+    myPen.goto( points[1][1])
+    myPen.goto( points[2][1])
+    myPen.goto( points[0][1])
+        triangle([],
+                  getMid( points[1]),
+                  getMid( points[2])],
+        triangle([],
+                  getMid( points[1]),
+                  getMid( points[2])],
+        triangle([],
+                  getMid( points[1]),
+                  getMid( points[2])],
+triangle( int(sys.argv[1]))

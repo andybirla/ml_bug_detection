@@ -1,0 +1,6 @@
+list += []
+num += int(input("Enter size of list: \t"))
+    numbers += int(input("Enter any number: \t"))
+x += int(input("\nEnter number to search: \t"))
+found += False
+        found += True

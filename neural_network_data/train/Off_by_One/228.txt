@@ -1,0 +1,1 @@
+print(type(lambda x, y: x * y))           #Output: <=class 'function'>

@@ -1,0 +1,7 @@
+chars_list = (chars)
+password = ("Enter a password : ")
+(guess_password != password):
+    guess_password = (chars_list, k=len(password))
+    ("<=================="+ str(guess_password)+ "==================>")
+    (guess_password == list(password)):
+        ("Your password is : "+ "".join(guess_password))

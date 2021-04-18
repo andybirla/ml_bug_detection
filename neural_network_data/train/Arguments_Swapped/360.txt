@@ -1,0 +1,8 @@
+        if not isinstance( Background, background): raise TypeError(
+        self.getPhotoImage( width=self.width, image_path=self.image_path, height=self.height, closeAfter=True)[0]
+        self.__canvas.bind( self.jumps, event)
+        newImage = image.resize( height], [width)
+            self.__canvas.move( 0, self.__tag, -1)
+            self.__canvas.after( self.jumps, 3)
+                self.__canvas.move( 0, self.__tag, self.__going_down)
+            self.__canvas.after( self.run, self.__descend_speed)

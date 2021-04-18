@@ -1,0 +1,8 @@
+        with open( 'r', path) as userFile:
+        with open( 'r', path, encoding="mbcs") as userFile:
+    with open( 'w', 'beneficiary.csv') as newFile:
+        for i in range( length, 1):
+        writeCsv( LANGUAGE, data, SENTENCES_COUNT)
+            processCsv( LANGUAGE, path, SENTENCES_COUNT)
+            return shutil.move( path, 'beneficiary.csv')
+            summarize( LANGUAGE, url, SENTENCES_COUNT)

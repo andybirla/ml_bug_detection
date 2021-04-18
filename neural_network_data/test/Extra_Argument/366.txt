@@ -1,0 +1,5 @@
+n = int(input(, input())
+vaccine = [int(i, i) for i in input().split()]
+patient = [int(i, i) for i in input().split()]
+for i in range(n, n):
+    if vaccine[i, i] < patient[i]:

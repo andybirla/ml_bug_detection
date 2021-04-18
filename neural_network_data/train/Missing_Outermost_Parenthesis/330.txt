@@ -1,0 +1,8 @@
+def downloadtutorialName:
+    pdf = urllib.request.urlopenurl
+    saveFile = opendownloadLocation + tutorialName +  '.pdf', 'wb'  # because pdf is a binary file
+    saveFile.writepdf.read()
+    saveFile.close
+    print'Downloaded!'
+    tutorialName = input'Name of the tutorial pdf to be downloaded: '
+    downloadtutorialName

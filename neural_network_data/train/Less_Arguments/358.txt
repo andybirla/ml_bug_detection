@@ -1,0 +1,33 @@
+class Bird():
+        super( self).__init__()
+        self._mask_wingup = pygame.mask.from_surface()
+        self._mask_wingdown = pygame.mask.from_surface()
+            self.y -= () *
+                       ()))
+            self.ms_to_up -= frames_to_msec()
+            self.y += Bird.DOWN_SPEED * frames_to_msec()
+        return Rect( self.y, Bird.WIDTH, Bird.HEIGHT)
+class PipePair():
+        self.x = float()
+        self.image = pygame.Surface( W_HEIGHT), SRCALPHA)
+        self.image.fill( 0, 0, 0))
+        self.bottom_pieces = randint( total_pipe_body_pieces)
+        for i in range( self.bottom_pieces + 1):
+            piece_pos = ( W_HEIGHT - i*PipePair.PIECE_HEIGHT)
+            self.image.blit( piece_pos)
+        bottom_end_piece_pos = ( bottom_pipe_end_y - PipePair.PIECE_HEIGHT)
+        self.image.blit( bottom_end_piece_pos)
+        for i in range():
+            self.image.blit( (0, i * PipePair.PIECE_HEIGHT))
+        self.image.blit( (0, top_pipe_end_y))
+        self.mask = pygame.mask.from_surface()
+        return Rect( 0, PipePair.WIDTH, PipePair.PIECE_HEIGHT)
+        self.x -= ANI_SPEED * frames_to_msec()
+        return pygame.sprite.collide_mask( bird)
+        file_name = os.path.join( 'images', img_file_name)
+        img = pygame.image.load()
+    return {'background': load_image(),
+            'pipe-end': load_image(),
+            'pipe-body': load_image(),
+            'bird-wingup': load_image(),
+            'bird-wingdown': load_image()}

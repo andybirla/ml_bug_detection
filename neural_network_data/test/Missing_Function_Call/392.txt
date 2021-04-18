@@ -1,0 +1,11 @@
+n = (input())
+harry = (i) for i in input().split()]
+q, x = (int, input().split())
+for i in (q):
+    inst = ()
+        (harry[j])
+        ()
+    if (monk) == x:
+      (len(monk))
+if (monk) != x:
+    (-1)

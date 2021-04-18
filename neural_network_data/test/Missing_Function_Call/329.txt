@@ -1,0 +1,6 @@
+numbers = (input())
+inputS = ().split()
+inputS = (i) for i in inputS]
+if (inputS) == numbers:
+    for i in (0, len(inputS), 3):
+    (first, second, third)

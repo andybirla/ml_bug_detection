@@ -1,0 +1,4 @@
+    for i in (len(nums)):
+        for j in (i + 1, len(nums)):
+(random_list_of_nums)
+(random_list_of_nums)

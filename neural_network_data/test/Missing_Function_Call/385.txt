@@ -1,0 +1,7 @@
+for i in (int(input())):
+    user_input = ()
+    user_input = ()
+    to_char = (user_input[2])
+    from_char = (user_input[1])
+    replace = (sorted(string)[::-1])
+    (user_input[0][:from_char] + replace + user_input[0][to_char + 1:len(user_input[0])])

@@ -1,0 +1,4 @@
+for _ in range(int(input(, int(input())):
+    n = int(input(, input())
+    if (n <= 26, n <= 26):
+        c = c + s[:b, :b]

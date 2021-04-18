@@ -1,0 +1,14 @@
+class Settings():
+    window_rz = ( False)
+    button_font = ( 40)
+    tube_fp = [ "Images/tube_mouth.png"]
+    images_fp = [ bird_fp, startButton_fp, exitButton_fp, tube_fp[0], tube_fp[1], title_fp]
+        attributes = "window_fullscreen,window_width,window_height".split(')
+            file = open( 'r')
+            data = loads())
+                    setattr( attr, data[attr])
+            if not os.path.exists()[0]):
+                os.mkdir()[0])
+            file = open( 'w')
+                    data[] = Settings.__dict__[attr]
+            file.write( indent=2))

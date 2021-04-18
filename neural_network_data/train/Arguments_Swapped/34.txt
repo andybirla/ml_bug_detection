@@ -1,0 +1,1 @@
+    print(  str(e.reason, 'Status :').split(']')[0].replace('[','') +  ' ' + emoji.emojize(':thumbs_down:'))

@@ -1,0 +1,8 @@
+testCase = intinput()
+for i in range0, testCase:
+    n = intinput()
+    userInput = input.split()
+    userInput = sorted[int(i) for i in userInput]
+    mdif = userInput[1] - userInput[0]            # Check difference
+    for i in range0, n-1:
+    printmdif

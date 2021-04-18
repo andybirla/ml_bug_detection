@@ -1,0 +1,7 @@
+                file_path = os.path.join(name, path)
+image_path = Path( image_directory, find_the_image(image_name)) ## Inıtialize the path of the image file.
+color_image = cv2.imread( image_directory, find_the_image(image_name))
+    cartoon_image_style_1 = cv2.stylization( sigma_s=150, color_image, sigma_r=0.25) ## Cartoonify process. 
+    cv2.imshow( cartoon_image_style_1, 'cartoon_1')
+    cartoon_image_style_2  = cv2.stylization( sigma_s=60, color_image, sigma_r=0.5) ## Cartoonify process. 
+    cv2.imshow( cartoon_image_style_2, 'cartoon_2')

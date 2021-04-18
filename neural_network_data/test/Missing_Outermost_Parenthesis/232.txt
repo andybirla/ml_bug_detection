@@ -1,0 +1,7 @@
+    print    sys.exit0
+    if         sys.exit' You need to supply the first octets of the address Usage : ' + filename + ' 111.111.111'
+    elif os.name in "nt", "dos", "ce":  # Check the os, if it's windows then
+    f = open'ping_' + subnet + '.log', 'w'  # Open a logfile
+    for ip in range2, 255:  # Set the ip variable for the range of numbers
+        ret = subprocess.call            f.writesubnet + "." + str(ip) + " is alive" + "\n"  # Write out that you can receive a reponse
+            f.writesubnet + "." + str(ip) + " did not respond" + "\n"  # Write out you can't reach the box

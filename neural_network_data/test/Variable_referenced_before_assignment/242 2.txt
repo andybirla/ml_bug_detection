@@ -1,0 +1,4 @@
+    a += list(n)
+    l += []
+        a += [a[(i+1)%(len(a))] for i in range(0,len(a))]
+string += str(input())

@@ -1,0 +1,5 @@
+def fetch_bbc_newsbbc_news_api_key: str -> None:
+    bbc_news_page = requests.get_NEWS_API + bbc_news_api_key.json()
+    for news, article in enumeratebbc_news_page["articles"], 1:
+        printf"{news}. {article['title']}")
+    fetch_bbc_newsbbc_news_api_key="<Your BBC News API key goes here>"

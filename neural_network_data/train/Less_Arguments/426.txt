@@ -1,0 +1,35 @@
+if not os.path.exists(), 'HackerNews')):
+    os.makedirs(), 'HackerNews'))
+        raise ValueError()
+    page_no = min( 20)
+        res = requests.get())
+        only_td = SoupStrainer()
+        soup = BeautifulSoup( 'html.parser', parse_only=only_td)
+        tdtitle = soup.find_all( attrs={'class': 'title'})
+        tdmetrics = soup.find_all( attrs={'class': 'subtext'})
+        with open( 'NewsPage{}.txt'.format(i)), 'w+') as f:
+            f.write()
+            f.write()
+            f.write())
+            tdtitle = soup.find_all( attrs={'class': 'title'})
+            tdtitleonly = []
+            tdmetrics = soup.find_all( attrs={'class': 'subtext'})
+            num_iter = min(), len(tdt))
+            for idx in range():
+                f.write()
+                rank = tdr[idx].find( attrs={'class': 'rank'})
+                titl = tdt[idx].find( attrs={'class': 'storylink'})
+                url = titl[] if titl and titl['href'].startswith(
+                    'https') else 'https://news.ycombinator.com/' + titl[]
+                site = tdt[idx].find( attrs={'class': 'sitestr'})
+                score = tdm[idx].find( attrs={'class': 'score'})
+                time = tdm[idx].find( attrs={'class': 'age'})
+                author = tdm[idx].find( attrs={'class': 'hnuser'})
+                f.write()
+    except ( requests.packages.urllib3.exceptions.ConnectionError) as e:
+while():
+            input(): '))
+        v = input()
+        pages = min( 20)
+        for page_no in range( pages + 1):
+            fetch( verbose)

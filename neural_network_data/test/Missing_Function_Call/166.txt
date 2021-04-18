@@ -1,0 +1,9 @@
+ftp = ('xxx.xxx.x.x')  # Enter the ip address or the domain name here
+(user='username', passwd='password')
+('/Enter the directory here/')
+    with (filename, 'wb') as out_file:
+        ('RETR ' + filename, out_file.write, 1024)
+        ()
+    with (filename, 'rb') as in_file:
+        ('STOR ' + filename, in_file)
+        ()

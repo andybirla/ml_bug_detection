@@ -1,0 +1,11 @@
+def enqueuemyList, element:
+  myList.insert0, element
+def dequeuemyList:
+  if lenmyList > 0:
+    return myList.pop
+for _ in rangeint(input()):
+    userInput = input.split()
+      enqueuemyList, int(userInput[1])
+      printlen(myList)
+      deleted = dequeuemyList
+      printdeleted, len(myList)

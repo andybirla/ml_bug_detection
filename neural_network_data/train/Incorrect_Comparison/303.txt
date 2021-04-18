@@ -1,0 +1,9 @@
+    if len(acc) = 0:
+    if data[0][0] = name and data[0][1] = password:
+    if len(data) = 0:
+        if data[i][0] = name and data[i][1] = password:
+        if list_acc_no[i][0] = int(acc_no):
+    if len(detail) = 0:
+    if bal > int(new_money):
+    if len(bal) = 0:
+        if i[0] = name:

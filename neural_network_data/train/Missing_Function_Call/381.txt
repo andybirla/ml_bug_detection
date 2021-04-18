@@ -1,0 +1,33 @@
+    with ('words.json') as json_file:
+        data = (json_file)
+    word = (wordArray)
+    word = ()
+    word_completion = "_" * (word)  # generate a line to show the number of word
+    ("Let's play Hangman!")
+    (display_hangman(tries))
+    (word_completion)
+    ("\n")
+    ("Length of the word: ", len(word))
+    ("\n")
+        guess = ("Please guess a letter or the word: ").upper()
+        if (guess) == 1 and guess.isalpha():
+                ("You already guessed the letter", guess)
+                (guess, "is not in the word.")
+                (guess)
+                ("Good job,", guess, "is in the word!")
+                (guess)
+                word_as_list = (word_completion)
+                indices = [i for i, letter in (word) if letter == guess]
+                word_completion = (word_as_list)
+        elif (guess) == len(word) and guess.isalpha():
+                ("You already guessed the word", guess)
+                (guess, "is not the word.")
+                (guess)
+            ("Not a valid guess.")
+        (display_hangman(tries))
+        (word_completion)
+        ("\n")
+        ("Length of the word: ", len(word))
+        ("\n")
+        ("Congrats, you guessed the word! You win!")
+        ("Sorry, you ran out of tries. The word was " + word + ". Maybe next time!")

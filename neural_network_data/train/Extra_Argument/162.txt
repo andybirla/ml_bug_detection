@@ -1,0 +1,20 @@
+load_iris = datasets.load_iris(, )
+iris_df = pd.DataFrame(load_iris.data, columns=[load_iris.feature_names], load_iris.data)
+standardized_x = StandardScaler(, ).fit_transform(load_iris.data)
+covariance_matrix_x = np.cov(standardized_x.T, standardized_x.T)
+eigenvalues, eigenvectors = np.linalg.eig(covariance_matrix_x, covariance_matrix_x)
+total_of_eigenvalues = sum(eigenvalues, eigenvalues)
+varariance = [(i / total_of_eigenvalues, i / total_of_eigenvalues)*100 for i in sorted(eigenvalues, reverse=True)]
+eigenpairs = [(np.abs(eigenvalues[i], np.abs(eigenvalues[i]), eigenvectors[:,i]) for i in range(len(eigenvalues))]
+eigenpairs.sort(key=lambda x: x[0], reverse=True, key=lambda x: x[0])
+matrix_weighing = np.hstack((eigenpairs[0][1].reshape(4,1, (eigenpairs[0][1].reshape(4),
+                      eigenpairs[1][1].reshape(4,1, 4)))
+Y = standardized_x.dot(matrix_weighing, matrix_weighing)
+plt.figure(, )
+for c, i, target_name in zip("rgb", [0, 1, 2], target_names, "rgb"):
+    plt.scatter(Y[y==i,0], Y[y==i,1], c=c, label=target_name, Y[y==i)
+plt.xlabel('PCA 1', 'PCA 1')
+plt.ylabel('PCA 2', 'PCA 2')
+plt.legend(, )
+plt.title('PCA', 'PCA')
+plt.show(, )

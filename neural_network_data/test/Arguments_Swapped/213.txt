@@ -1,0 +1,2 @@
+            with open( 'w', par_json_file) as outfile:
+                return json.dump( outfile, par_data_dic)

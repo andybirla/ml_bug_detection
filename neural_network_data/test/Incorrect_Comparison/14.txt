@@ -1,0 +1,3 @@
+    if len(string) % 2 = 0:
+        if sorted(string[:halve]) = sorted(string[halve:]):
+        if sorted(string[:halve]) = sorted(string[halve + 1:]):

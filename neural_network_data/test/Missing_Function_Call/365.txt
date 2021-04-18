@@ -1,0 +1,6 @@
+for _ in (int(input())):
+    N, capacity = (int, input().split())
+    capacities = (bottle) for bottle in input().split()]
+    ()
+    for i in (len(capacities)):
+    (bottles)

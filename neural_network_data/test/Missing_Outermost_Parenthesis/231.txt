@@ -1,0 +1,57 @@
+def Times_of_IndiauserInput, ua:
+   res = requests.posturl, headers=ua
+   soup = BeautifulSoupres.content, "html.parser"
+   data = soup.find_allclass_="w_tle"
+   if lendata > 0:
+      print"News available :", "\N{slightly smiling face}"
+   if lendata == 0:
+   for item in rangelen(data):
+      printbold_start, "\033[1;32;40m \nNEWS : ", item + 1, bold_end, end="  "
+      data1 = data[item].find"a"
+      printbold_start, data1.get_text(), bold_end
+      bol = input"For more details ->(y) (y/n) :: "
+         url += data1.get"href"
+         print"%s" % url
+         webbrowser.openurl
+   return lendata
+def india_todayuserInput, ua:
+   res = requests.geturl, headers=ua
+   soup = BeautifulSoupres.content, "html.parser"
+   data = soup.find_allclass_="field-content"
+   if lendata > 0:
+      print"\nNews available : ", "\N{slightly smiling face}"
+   for i in rangelen(data):
+      data1 = data[i].find_all"a"
+      for j in rangelen(data1):
+         printbold_start, "\033[1;32;40m\nNEWS ", k + 1, bold_end, end=" : "
+         printbold_start, data1[j].get_text(), bold_end
+         bol = input"\nFor more details ->(y) (y/n) :: "
+            data2 = data[i].find"a"
+            url = data2.get"href"
+            webbrowser.openurl
+   return lendata
+   doctest.testmod
+   print"\033[5;31;40m"
+   print   print"\n"
+   localtime = time.asctimetime.localtime(time.time())
+   printbold_start, localtime, bold_end
+     "UserAgent": "Mozilla/5.0 X11; Ubuntu; Linux x86_64; rv:69.0 Gecko/20100101 Firefox/69.0"
+   print     "\n\033[1;35;40m Search any news state , city ,Country , AnyThings etc : ",
+   userInput = input
+   printbold_start, "\033[1;33;40m \n"
+   print"Which news channel data would you prefer"
+   print"1. Times of india"
+   print"2. India's Today", bold_end
+   say = intinput()
+      length = Times_of_IndiauserInput, ua
+         print"Sorry Here No News Available", "\N{expressionless face}"
+         print"\n"
+         print             "Would you like to go for India's Today y/n:: ",
+         speak = input
+            length = india_todayuserInput, ua
+               print"Sorry No news", "\N{expressionless face}"
+               print"\nThank you", "\U0001f600"
+         length = india_todayuserInput, ua
+            print"Sorry No news"
+            print"\nThank you", "\U0001f600"
+      print"Sorry", "\N{expressionless face}"

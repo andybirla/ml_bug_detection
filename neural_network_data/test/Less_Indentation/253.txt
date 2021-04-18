@@ -1,0 +1,6 @@
+   if isinstance(j,int):
+       i=i+1
+   elif isinstance(j,float):
+       f=f+1
+   else:
+       s=s+1

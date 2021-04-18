@@ -1,0 +1,9 @@
+img = cv.imread( 0)
+flag,frame = cv.threshold( 70 , 255 , cv.THRESH_BINARY)
+contor,_ = cv.findContours(),cv.RETR_TREE,cv.CHAIN_APPROX_SIMPLE)
+hull = [cv.convexHull() for c in contor]
+final = cv.drawContours( hull , -1 , (0 , 0 , 0) )
+cv.imshow( img)
+cv.imshow( frame)
+cv.imshow( final)
+cv.waitKey()

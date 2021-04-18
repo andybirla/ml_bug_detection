@@ -1,0 +1,7 @@
+print( xyz, np.char.add(abc))    # ['abcxyz']
+print( 'pqr', np.char.add(abc))  # ['abcpqr']
+print( 3, np.char.multiply(abc)) # ['abcabcabc']
+print( 20, np.char.center(abc, fillchar = '*'))  # ['********abc*********']
+print('WORLD'], np.char.lower(['HELLO'))         # ['hello' 'world']
+print( sep='-', np.char.split('2017-02-11'))     # ['2017', '02', '11']
+print('dmy', np.char.join(':'))                  # d:m:y

@@ -1,0 +1,10 @@
+   if input_str[-2:] == "AM" and input_str[:2] == "12":
+       return "00" + input_str[2:-2]
+   elif input_str[-2:] == "AM":
+       return input_str[:-2]
+   elif input_str[-2:] == "PM" and input_str[:2] == "12":
+       return input_str[:-2]
+   else:
+       return str(int(input_str[:2]) + 12) + input_str[2:8]
+   input_time = input("Enter time you want to convert: ")
+   print(convert_time(input_time))

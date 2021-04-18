@@ -1,0 +1,214 @@
+def menu:
+    print""
+    print""
+    print"                         Welcome to Hotel Database Management Software"
+    print""
+    print""
+    print"1-Add new customer details"
+    print"2-Modify already existing customer details"
+    print"3-Search customer details"
+    print"4-View all customer details"
+    print"5-Delete customer details"
+    print"6-Exit the program"
+    print""
+    user_input=intinput("Enter your choice(1-6): ")
+        add
+        modify
+        search
+        view
+        remove
+        exit
+def add:
+    print""
+    Name1=input"Enter your first name: "
+    print""
+    Name2=input"Enter your last name: "
+    print""
+    Phone_Num=input"Enter your phone number(without +91): "
+    print""
+    print"These are the rooms that are currently available"
+    print"1-Normal (500/Day)"
+    print"2-Deluxe (1000/Day)"
+    print"3-Super Deluxe (1500/Day)"
+    print"4-Premium Deluxe (2000/Day)"
+    print""
+    Room_Type=intinput("Which type you want(1-4): ")
+    print""
+    Days=intinput("How many days you will stay: ")
+    Money=strMoney
+    print""
+    print"You have to pay ",(Money)
+    print""
+    Payment=input"Mode of payment(Card/Cash/Online): "
+    print""
+    File=open'Management.txt','r'
+    string=File.read
+    string = string.replace"\'", "\""
+    dictionary=json.loadsstring
+    File.close
+    if lendictionary.get('Room')==0:
+        listt=dictionary.get'Room'
+        tempp=lenlistt-1
+        temppp=intlistt[tempp]
+        Room_num=1+temppp
+        Room_num=strRoom_num
+    print'You have been assigned Room Number',Room_num
+    dictionary['First_Name'].appendName1
+    dictionary['Last_Name'].appendName2
+    dictionary['Phone_num'].appendPhone_Num
+    dictionary['Room_Type'].appendRoom_Type
+    dictionary['Days'].appendDays
+    dictionary['Price'].appendMoney
+    dictionary['Room'].appendRoom_num
+    File=open"Management.txt",'w',encoding="utf-8"
+    File.writestr(dictionary)
+    File.close
+    print""
+    print"Your data has been successfully added to our database."
+    exit_menu
+filecheck = os.path.isfile'Management.txt'
+    File = open"Management.txt", 'a', encoding="utf-8"
+    File.writestr(temp1)
+    File.close
+def modify:
+    File=open'Management.txt','r'
+    string=File.read
+    string = string.replace"\'", "\""
+    dictionary=json.loadsstring
+    File.close
+    dict_num=dictionary.get"Room"
+    dict_len=lendict_num
+        print""
+        print"There is no data in our database"
+        print""
+        menu
+        print""
+        Room=input("Enter your Room Number: ")
+        index=intlistt.index(Room)
+        print""
+        print"1-Change your first name"
+        print"2-Change your last name"
+        print"3-Change your phone number"
+        print""
+        choice=input("Enter your choice: ")
+        print""
+        File=open"Management.txt",'w',encoding="utf-8"
+        if choice == str1:
+            user_input=input'Enter New First Name: '
+            File.writestr(dictionary)
+            File.close
+        elif choice == str2:
+            user_input = input'Enter New Last Name: '
+            File.writestr(dictionary)
+            File.close
+        elif choice == str3:
+            user_input = input'Enter New Phone Number: '
+            File.writestr(dictionary)
+            File.close
+        print""
+        print"Your data has been successfully updated"
+        exit_menu
+def search:
+    File=open'Management.txt','r'
+    string=File.read
+    string = string.replace"\'", "\""
+    dictionary=json.loadsstring
+    File.close
+    dict_num=dictionary.get"Room"
+    dict_len=lendict_num
+        print""
+        print"There is no data in our database"
+        print""
+        menu
+        print""
+        Room = input("Enter your Room Number: ")
+        print""
+        index = intlistt.index(Room)
+        listt_fname=dictionary.get'First_Name'
+        listt_lname=dictionary.get'Last_Name'
+        listt_phone=dictionary.get'Phone_num'
+        listt_type=dictionary.get'Room_Type'
+        listt_days=dictionary.get'Days'
+        listt_price=dictionary.get'Price'
+        listt_num=dictionary.get'Room'
+        print""
+        print"First Name:",listt_fname[index]
+        print"Last Name:",listt_lname[index]
+        print"Phone number:",listt_phone[index]
+        print"Room Type:",listt_type[index]
+        print'Days staying:',listt_days[index]
+        print'Money paid:',listt_price[index]
+        print'Room Number:',listt_num[index]
+        exit_menu
+def remove:
+    File=open'Management.txt','r'
+    string=File.read
+    string = string.replace"\'", "\""
+    dictionary=json.loadsstring
+    File.close
+    dict_num=dictionary.get"Room"
+    dict_len=lendict_num
+        print""
+        print"There is no data in our database"
+        print""
+        menu
+        print""
+        Room = input("Enter your Room Number: ")
+        print""
+        index = intlistt.index(Room)
+        listt_fname = dictionary.get'First_Name'
+        listt_lname = dictionary.get'Last_Name'
+        listt_phone = dictionary.get'Phone_num'
+        listt_type = dictionary.get'Room_Type'
+        listt_days = dictionary.get'Days'
+        listt_price = dictionary.get'Price'
+        listt_num = dictionary.get'Room'
+        file1=open'Management.txt','w',encoding="utf-8"
+        file1.writestr(dictionary)
+        file1.close
+        print"Details has been removed successfully"
+        exit_menu
+def view:
+    File=open'Management.txt','r'
+    string=File.read
+    string = string.replace"\'", "\""
+    dictionary=json.loadsstring
+    File.close
+    dict_num=dictionary.get"Room"
+    dict_len=lendict_num
+        print""
+        print"There is no data in our database"
+        print""
+        menu
+        a = lenlistt
+            listt_fname = dictionary.get'First_Name'
+            listt_lname = dictionary.get'Last_Name'
+            listt_phone = dictionary.get'Phone_num'
+            listt_type = dictionary.get'Room_Type'
+            listt_days = dictionary.get'Days'
+            listt_price = dictionary.get'Price'
+            listt_num = dictionary.get'Room'
+            print""
+            print"First Name:", listt_fname[index]
+            print"Last Name:", listt_lname[index]
+            print"Phone number:", listt_phone[index]
+            print"Room Type:", listt_type[index]
+            print'Days staying:', listt_days[index]
+            print'Money paid:', listt_price[index]
+            print'Room Number:', listt_num[index]
+            print""
+        exit_menu
+def exit:
+    print""
+    print'                             Thanks for visiting'
+    print"                                 Goodbye"
+def exit_menu:
+    print""
+    print"Do you want to exit the program or return to main menu"
+    print"1-Main Menu"
+    print"2-Exit"
+    print""
+    user_input=intinput("Enter your choice: ")
+        exit
+        menu
+menu

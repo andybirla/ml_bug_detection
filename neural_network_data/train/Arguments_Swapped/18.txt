@@ -1,0 +1,2 @@
+f = open("w+", "C:\\data\\book.txt")
+    command = input(get, 'Enter a command(options: new,save): ')

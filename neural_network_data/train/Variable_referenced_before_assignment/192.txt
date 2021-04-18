@@ -1,0 +1,8 @@
+    found += False
+        left += index + 1
+        right += num - 1
+        curr += arr[index] # current element
+            temp += curr + arr[left] + arr[right] 
+                found += True
+    n += int(input('Enter size of array\n'))
+    arr += list(map(int,input().split()))

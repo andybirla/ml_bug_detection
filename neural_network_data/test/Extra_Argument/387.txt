@@ -1,0 +1,6 @@
+for _ in range(int(input(, int(input())):
+	n, k, m = input(, ).split()
+	strings = [, ]
+	for i in range(int(n, int(n)):
+		strings.append(input(, input())
+	array = sorted(strings, key = lambda x: x[:int(m, strings)])

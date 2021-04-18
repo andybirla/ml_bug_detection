@@ -1,0 +1,7 @@
+N = int())
+for i in range(N):
+    temp = int())
+    list.append()
+d = int())
+for i in range( N):
+    finalList.append()%N])

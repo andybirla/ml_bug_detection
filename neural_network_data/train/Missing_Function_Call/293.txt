@@ -1,0 +1,16 @@
+(acc_sid, auth_token)
+cred = ('key.json')
+db = ()
+database_reference = ('on_call')
+    calling_time = ()
+    one_hours_from_now =(calling_time + timedelta(hours=1)).strftime('%H:%M:%S')  
+    (strftime("%d-%m-%Y", gmtime()))
+    docs = (u'on_call').where(u'date',u'==',current_date).stream()
+        ()
+        i(calling_time).strftime('%H:%M:%S')<=c['from']<=one_hours_from_now:
+            (c)
+    (list_of_docs)
+    (list_of_docs):
+        ().strftime('%H:%M')
+        f(timestamp + timedelta(minutes=5)).strftime('%H:%M')
+                (doc)

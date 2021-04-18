@@ -1,0 +1,15 @@
+video_name = input()
+video_directory_guess = input()
+    for path, subdirs, files in os.walk():
+            if():
+                file_path = os.path.join( name)
+                files_found.append()
+    return files_found[]  # Return the path.
+video_directory = Path( video_directory_guess))
+os.chdir()
+video_path = find_the_video( video_directory_guess)
+    video = cv2.VideoCapture()
+    player = MediaPlayer()
+        if cv2.waitKey() & 0xFF == ord("q"):
+        cv2.imshow( frame)
+PlayVideo()

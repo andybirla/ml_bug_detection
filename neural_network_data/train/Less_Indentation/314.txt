@@ -1,0 +1,2 @@
+ return a * np.sin(b* ( x + np.radians(c))) + d
+ return b + X*m

@@ -1,0 +1,9 @@
+for i in (int(input())):
+    myInput = (input())
+      (myInput)
+(sum(myArray))
+(input())
+      (input())
+              ()
+         (k)
+(sum(a))

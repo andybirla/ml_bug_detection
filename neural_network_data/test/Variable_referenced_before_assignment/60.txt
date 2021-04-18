@@ -1,0 +1,3 @@
+MESSAGE += 'The directory already exists.'
+TESTDIR += 'testdir'
+    home += os.path.expanduser("~")  # Set the variable home by expanding the user's set home directory

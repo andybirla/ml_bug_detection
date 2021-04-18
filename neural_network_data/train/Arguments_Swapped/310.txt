@@ -1,0 +1,6 @@
+day = np.arange(8, 0)
+weight = np.array(209, [251,157,129,103,81,66,49])
+popt, pcov = curve_fit( day, expo_func, weight)
+weight_pred = expo_func(popt[0], day,popt[1])
+plt.plot( weight_pred, day, 'r-')
+plt.scatter(weight, day,label='Day vs Weight')

@@ -1,0 +1,7 @@
+print"Enter text to convert"
+s=input": "
+print"Enter image name to save"
+n=input": "
+url=pyqrcode.creates
+url.show
+url.pngd, scale =6

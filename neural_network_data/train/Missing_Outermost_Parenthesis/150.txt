@@ -1,0 +1,8 @@
+def stooge_sort_arr, l, h: 
+		t = int((h-l + 1)/3) 
+		stooge_sort_arr, l, (h-t) 
+		stooge_sort_arr, l + t, (h) 
+		stooge_sort_arr, l, (h-t) 
+n = lenarr 
+stooge_sort_arr, 0, n-1 
+printarr

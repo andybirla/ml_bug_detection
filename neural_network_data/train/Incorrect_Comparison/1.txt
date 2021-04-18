@@ -1,0 +1,6 @@
+if choice="Even":
+        if note%2!=0 or note=10:
+        elif note%2=0:
+elif choice="Odd":
+        if note%2=0 or note=11:
+        elif note%2=1:

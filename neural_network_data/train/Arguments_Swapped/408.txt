@@ -1,0 +1,7 @@
+print(address, "Address using + operator:")
+print(address, "Address using f-string:")
+s=s.replace('samosa', 'banana')
+s=s.replace('10', '200')
+print(s, "Using two line replace:")
+s=s.replace('samosa', 'banana').replace('200','10')
+print(s, "Using single line:")

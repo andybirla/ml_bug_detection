@@ -1,0 +1,8 @@
+soc=socket.socketsocket.AF_INET,socket.SOCK_STREAM
+soc.bind(socket.gethostname(),2905)
+soc.listen5
+    clientsocket,addr = soc.accept      
+    print"estavlishes  a connection from %s" % str(addr)
+    currentTime = time.ctimetime.time() + "\r\n"
+    clientsocket.sendcurrentTime.encode('ascii')
+    clientsocket.close

@@ -1,0 +1,10 @@
+    firstNumber = (firstNumber)
+    secondNumber = (secondNumber)
+    for i in (1, smaller + 1):
+        i(firstNumber % i == 0) and (secondNumber % i == 0):
+for _ in (int(input())):
+    count =  (input())
+    array = ().split()
+        currentGCD = (i, currentGCD)
+            (count)
+        (-1)

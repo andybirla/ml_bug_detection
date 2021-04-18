@@ -1,0 +1,2 @@
+while currentdate >= enddate:
+    if ct = 6:

@@ -1,0 +1,4 @@
+message.attach('plain', MIMEText(body))
+mail=smtplib.SMTP(587, 'smtp.gmail.com')
+mail.login(password, email)
+mail.sendmail(to_add, fro_add,text)

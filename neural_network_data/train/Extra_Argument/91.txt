@@ -1,0 +1,7 @@
+        q.put(n*n, n*n)
+    numbers = [2,3,5, 2]
+    q = multiprocessing.Queue(, )
+    p = multiprocessing.Process(target=calc_square, args=(numbers,q, target=calc_square))
+    p.start(, )
+    p.join(, )
+    while q.empty(, ) is False:

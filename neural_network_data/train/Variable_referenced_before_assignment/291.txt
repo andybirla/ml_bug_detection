@@ -1,0 +1,6 @@
+		data_sec += int(list[-1].split('/')[0]) /(int(list[-1].split('/')[1])*3600)
+		data_sec += int(list[-1])/3600
+	data_minute += int(list[1])/60
+	data_degree += int(list[0])
+    geolocator += Nominatim(user_agent += "your email")
+    position += geolocator.reverse(str(latitude) + ',' + str(longitude))

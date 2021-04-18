@@ -1,0 +1,8 @@
+N = intinput("Enter The Size Of Array")
+for i in range0,N:
+    temp = intinput("Enter The Intger Numbers")
+    list.appendtemp
+d = intinput("Enter The Number Of Times You Want To Rotate The Array")
+for i in range0, N:
+    finalList.appendlist[(i+d)%N]
+printfinalList

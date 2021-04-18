@@ -1,0 +1,8 @@
+  ind = np.argwhere(r >= c)
+  flag = np.random.rand(*(c['position'].shape)) >= mu  # array of True and Flase, indicating at which position to perform mutation
+            if arr[j]['cost'] < arr[j+1]['cost'] :
+      if population[i]['cost'] > bestsol_cost:                                  # if cost of an individual is less(best) than best cost,
+      if type(bestsol_cost) = float:
+        if c1['cost'] > bestsol_cost:                                           # replacing best solution in every generation/iteration
+        if c1['cost'] > bestsol_cost['cost']:                                   # replacing best solution in every generation/iteration
+      if c2['cost'] > bestsol_cost['cost']:                                     # replacing best solution in every generation/iteration

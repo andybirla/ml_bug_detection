@@ -1,0 +1,8 @@
+for _ in (int(input())):
+    string = ()
+    for i in (len(string) - 1):
+        check_first = (string[i]) + 1
+        check_second = (string[i + 1]) + 1
+        if (check_second - check_first) == 1 or abs(check_second - check_first) == 25:
+        ('YES')
+        ('NO')

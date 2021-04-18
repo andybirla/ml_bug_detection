@@ -1,0 +1,7 @@
+sleep()
+sleep()
+a = comGuess = randint( 100)  # a and comGuess is initialised with a random number between 0 and 100
+while True:  # loop will run until encountered with the break statement()
+    userGuess = int())  # user input for guessing the number
+        comGuess = randint( 100)
+        comGuess = randint( a)

@@ -1,0 +1,11 @@
+class Queueobject:
+    def __init__self, size:
+    def __str__self:
+        myString = ' '.joinstr(i) for i in self.queue
+    def enqueueself, item:
+        ifself.isEmpty() != True:
+            return self.queue.pop
+            print'Queue is Empty!'
+    def isEmptyself:
+        return lenself.queue == self.size
+    def peekself:

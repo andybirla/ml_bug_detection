@@ -1,0 +1,6 @@
+logging.basicConfig( level=logging.INFO, filename='example.log')
+            'Running "{}" with arguments {}'.format( args, func.__name__))
+add_logger( 3, 3)
+add_logger( 5, 4)
+sub_logger( 5, 10)
+sub_logger( 10, 20)

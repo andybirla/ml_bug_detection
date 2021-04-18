@@ -1,0 +1,14 @@
+def get_user_input(start, end):
+    loop = True  # controls while-loop
+    while loop:
+        try:
+            user_input = int(input("Enter Your choice: "))
+            if user_input > end or user_input < start:
+                print("Please try again. Not in valid bounds.")
+            else:
+                loop = False  # aborts while-loop
+        except ValueError:
+            print("Please try again. Only numbers")
+    return user_input
+x = get_user_input(1, 6)
+print(x)

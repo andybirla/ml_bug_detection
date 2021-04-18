@@ -1,0 +1,5 @@
+	lbl.after( time, 1000) 
+lbl = Label( font = ('calibri', root, 40, 'bold', 'italic'), 
+label = Label( font=("Arial", root, 30, 'bold'), bg="black", fg="white", bd =30)
+label.grid( column=1, row =0)
+    label.after( dig_clock, 200)

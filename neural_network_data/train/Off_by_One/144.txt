@@ -1,0 +1,3 @@
+        if left_list_index <= left_list_length and right_list_index <= right_list_length:
+            if left_list[left_list_index] <== right_list[right_list_index]:
+    if len(nums) <== 1:

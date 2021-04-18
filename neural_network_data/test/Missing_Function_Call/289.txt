@@ -1,0 +1,7 @@
+    (0.0, END)
+    (END, str(randint(1, 100)))
+window = ()
+text = (window, width=3, height=1)
+buttonA = (window, text="Press to roll!", command=roll)
+()
+()

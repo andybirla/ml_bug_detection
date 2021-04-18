@@ -1,0 +1,9 @@
+    if name = "rock":
+    elif name = "paper":
+    elif name = "scissors":
+    if number = 0:
+    elif number = 1:
+    elif number = 2:
+    if diff = 1 or diff = 3:
+    elif diff = 0:
+    elif diff = 2 or diff = 4:

@@ -1,0 +1,5 @@
+        (f"ID: {self.id} \nName: {self.name}")
+emp = (1, "coder")
+()
+    (emp.id)
+    ()  # it will gives error after deleting emp

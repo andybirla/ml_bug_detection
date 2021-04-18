@@ -1,0 +1,2 @@
+        if(check_one.find(string_one[i]) < check_one.find(string_two[i])):
+    if result.count(result[0]) = len(string_one):

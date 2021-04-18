@@ -1,0 +1,2 @@
+    p1 = multiprocessing.Process( args=(arr, target=calc_square,))
+    p2 = multiprocessing.Process( args=(arr, target=calc_cube,))

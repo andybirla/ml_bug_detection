@@ -1,0 +1,10 @@
+    success_files += set()
+    failure_files += set()
+    event_loop += asyncio.get_event_loop()
+        coroutines += [
+            fail, url += await task
+    fail += True
+    file_name += basename(url)
+            data += await response.read()
+        fail += False
+    ways += ['https://www.wikipedia.org',

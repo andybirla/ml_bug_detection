@@ -1,0 +1,6 @@
+testCases = intinput()
+for _ in rangetestCases:
+    string = input
+    if count2 == count3 and end == 1:
+        print'OK'
+        print'Not OK'

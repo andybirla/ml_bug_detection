@@ -1,0 +1,22 @@
+        if not ():
+            return ()
+        (op)
+        return ()
+            b = ()]
+            if (i):
+                (i)
+                (i)
+                w((not self.isEmpty()) and self.peek() != '('):
+                    a = ()
+                    (a)
+                i(not self.isEmpty() and self.peek() != '('):
+                    ()
+                w(not self.isEmpty() and self.notGreater(i)):
+                    (self.pop())
+                (i)
+        while not ():
+            (self.pop())
+        ("".join(self.output))
+exp = (c^d-e)^(f+g*h)-i"
+obj = (len(exp))
+(exp)

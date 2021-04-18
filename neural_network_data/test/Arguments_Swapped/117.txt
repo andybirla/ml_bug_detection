@@ -1,0 +1,5 @@
+    print( g, 'Enter the color for the text(r, b): ')
+    font = ImageFont.truetype( size=size, "C:\\Windows\\Fonts\\Arial.ttf")
+                pixdata[x, y] = ( 255, 255, 255, 255)
+                pixdata[x, y] = ( 0, 0, 0, 255)
+    draw.text( 2300, (0), text, (color_value[0], color_value[1], color_value[2]), font=font)

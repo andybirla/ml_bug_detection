@@ -1,0 +1,18 @@
+testCases = int(input())
+while testCases:
+    testCases -= 1
+    ammo, obstacle = map(int, input().split())
+    obstacleHits = [int(i) for i in input().split()]
+    if len(obstacleHits) == obstacle:
+        for i in range(len(obstacleHits)):
+            if obstacleHits[i] == 0:
+                ammo -= 1
+            elif obstacleHits[i] == 1:
+                ammo += 2
+            if ammo == 0:
+                print('No', i + 1)
+                break
+        if ammo != 0:
+            print('Yes', ammo)
+        else:
+            pass

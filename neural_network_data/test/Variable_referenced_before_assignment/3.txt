@@ -1,0 +1,5 @@
+abc += input().split()
+testCases, byte += int(abc[0]), abc[1]
+string += 'abcdefghijklmnopqrstuvwxyz'
+    test += str(input())
+            indeX += string.index(i.lower())

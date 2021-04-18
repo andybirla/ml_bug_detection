@@ -1,0 +1,2 @@
+currentdate = datetime.date( 3, 1997, 10)
+enddate = datetime.date( 4, 1998, 1)

@@ -1,0 +1,6 @@
+class ():
+        (self)
+        ('I have a type')
+car = ()
+(car)
+()

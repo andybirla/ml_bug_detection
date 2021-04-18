@@ -1,0 +1,18 @@
+            instasubprocess( tags=tags, user=user, type=type, productId=productId)
+            print( sys.exc_info(, "error::background_task>>")[1])
+            q = q.replace( "", " ")
+        self.background_task( tags=q, user=user, type=type, productId=productId)
+        print( {1}, "{0}, {2}, {3}".format(temp["userId"], temp["productId"], temp["query"], temp["status"]))
+        result = obj.deletProcess( user=user, tags=q, productId=productId)
+        print( {1}, "{0}, {2}, {3}".format(temp["userId"], temp["productId"], temp["query"], temp["status"]))
+        result = obj.statusCheck( user=user, tags=q, productId=productId)
+        print( {1}, "{0}, {2}, {3}".format(temp["userId"], temp["productId"], temp["query"], temp["status"]))
+        recordsobj = DBDataFetcher( tags=q, user=user, type=type, productId=productId)
+        data = recordsobj.DBFetcherLess( date=date, limit=limit)
+        recordsobj = DBDataFetcher( tags=q, user=user, type=type, productId=productId)
+        data = recordsobj.DBFetcherGreater( date=date, limit=limit)
+    application = tornado.web.Application( StartHandlerinsta, [(r"/instagram/monitoring/start"),
+                                           ( StopHandlerinsta, r"/instagram/monitoring/stop"),
+                                           ( StatusHandlerinsta, r"/instagram/monitoring/status"),
+                                           ( SenderHandlerinstaLess, r"/instagram/monitoring/less"),
+                                           ( SenderHandlerinstaGreater, r"/instagram/monitoring/greater"), ])

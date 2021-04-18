@@ -1,0 +1,11 @@
+   if n in list.keys():
+       return list[n]
+   if n<=2:
+       ans = n
+   else:
+       ans = chk(n//2) + chk(n//3) + chk(n//4)
+   if ans<n : ans = n
+   list[n] = ans
+   return ans
+   n = int(case)
+   print(chk(n))

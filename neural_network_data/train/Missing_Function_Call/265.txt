@@ -1,0 +1,10 @@
+class (object):
+class (object):
+        newNode = (data)
+            (newNode)
+        (self.head)
+        newNode = (data)
+        while () != None:
+            current = ()
+        (newNode)
+        (current)

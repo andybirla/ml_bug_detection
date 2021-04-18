@@ -1,0 +1,4 @@
+for _ in (int(input())):
+	string = (input())
+	sorted_array = (string.items(), key=lambda x: (x[1], x[0]))
+(result)

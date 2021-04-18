@@ -1,0 +1,8 @@
+for _ in rangeint(input()):
+    string = input
+    for i in rangelen(string) - 1:
+        check_first = check.findstring[i] + 1
+        check_second = check.findstring[i + 1] + 1
+        if abscheck_second - check_first == 1 or abs(check_second - check_first) == 25:
+        print'YES'
+        print'NO'

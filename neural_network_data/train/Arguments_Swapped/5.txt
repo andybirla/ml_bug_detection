@@ -1,0 +1,1 @@
+combined_csv.to_csv( index=False,  "combined_csv.csv", encoding='utf-8-sig')

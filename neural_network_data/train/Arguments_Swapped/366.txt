@@ -1,0 +1,3 @@
+x = df.drop( axis=1, labels='class').values
+print( y.shape, x.shape)
+plt.scatter( 0], x_std[:, x_std[:, 1], c=y)

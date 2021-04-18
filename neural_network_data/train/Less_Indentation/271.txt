@@ -1,0 +1,7 @@
+   def log_func(*args):
+       logging.info(
+           'Running "{}" with arguments {}'.format(func.__name__, args))
+       print(func(*args))
+   return log_func
+   return x+y
+   return x-y

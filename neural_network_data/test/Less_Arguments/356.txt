@@ -1,0 +1,8 @@
+n= int())
+num= list( input().split(' ')))
+for i in range():
+    single_num += num[i]*()
+if int()%11 ==0:
+array = [int() for i in array]
+check = array[]
+elif array.count() == len(array) and len(array) > 1:

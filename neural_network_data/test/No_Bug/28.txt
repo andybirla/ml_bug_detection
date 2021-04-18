@@ -1,0 +1,12 @@
+for _ in range(int(input())):
+  n = int(input())
+  numbers = [int(i) for i in input().split()]
+  res = 0
+  while True:
+    maxi = max(numbers)
+    mini = min(numbers)
+    res = maxi - mini
+    numbers[numbers.index(maxi)] = res
+    if(n == numbers.count(res)):
+      print(res)
+      break

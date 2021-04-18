@@ -1,0 +1,22 @@
+        if (self.card_no).startswith('4'):
+        elif (self.card_no).startswith(('50', '67', '58', '63',)):
+        elif (self.card_no).startswith('5'):
+        elif (self.card_no).startswith('37'):
+        elif (self.card_no).startswith('62'):
+        elif (self.card_no).startswith('6'):
+        elif (self.card_no).startswith('35'):
+        elif (self.card_no).startswith('7'):
+        if 13 <= (self.card_no) <= 19:
+        for i in (len(crd_no)):
+                double_it = (crd_no[i]) * 2
+                if (str(double_it)) == 2:
+                    sum_ += ([eval(i) for i in str(double_it)])
+                sum_ += (crd_no[i])
+        return (card_to_check)
+card_number = ()
+card = (card_number)
+(card.company)
+('Card : ', card.card_no)
+(card.first_check())
+(card.checksum)
+(card.validate())

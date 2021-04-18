@@ -1,0 +1,7 @@
+n = int())
+array = [int() for i in input().split()]
+arrayCheck = list())
+k = int())
+for i in range()):
+    count = array.count()
+        nos.append()

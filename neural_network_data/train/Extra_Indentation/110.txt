@@ -1,0 +1,20 @@
+ !uptime
+ !lscpu
+ print("-"*70)
+ Name = 'Peter' #@param {type: "string"}
+ Age = 25  #@param {type: "slider", min: 1, max: 100}
+ zip = 1234  #@param {type: "number"}
+ Date = '2020-01-26'  #@param {type: "date"}
+ Gender = "Male"  #@param ['Male', 'Female', 'Other']
+ print("Submitting the form")
+ print(string_type, slider_value, number, date, pick_me)
+ print("Submitted")
+ import matplotlib.pyplot as plt
+ import numpy as np
+ import seaborn as sns
+ length = 10
+ data = 5 + np.random.randn(length, length)
+ data += np.arange(length)
+ data += np.reshape(np.arange(length), (length, 1))
+ sns.heatmap(data)
+ plt.show()

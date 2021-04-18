@@ -1,0 +1,4 @@
+myobj = (text=mytext, lang=language, slow=False) 
+("hello_world.mp3") 
+("Audio Saved")
+("mpg321 welcome.mp3") 

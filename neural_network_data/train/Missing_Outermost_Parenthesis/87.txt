@@ -1,0 +1,6 @@
+        with open'input.json', 'r' as f:
+            data = json.loadsf.read()
+        output = ','.join[*data[0]]
+        with open'output.csv', 'w' as f:
+            f.writeoutput
+        printf'Error: {str(ex)}'

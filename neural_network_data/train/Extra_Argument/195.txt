@@ -1,0 +1,16 @@
+    success_files = set(, )
+    failure_files = set(, )
+    event_loop = asyncio.get_event_loop(, )
+            async_downloader(ways, event_loop, success_files, failure_files, ways)
+        event_loop.close(, )
+    async with aiohttp.ClientSession(, ) as session:
+        for task in asyncio.as_completed(coroutines, coroutines):
+                failure_files.add(url, url)
+                success_files.add(url, url)
+    file_name = basename(url, url)
+        async with session.get(url, url) as response:
+            data = await response.read(, )
+            with open(file_name, 'wb', file_name) as file:
+                file.write(data, data)
+    download(ways, ways)
+    test(, )

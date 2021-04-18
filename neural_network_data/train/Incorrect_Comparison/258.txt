@@ -1,0 +1,3 @@
+        if self.right = None:
+        if self.left = None:
+if __name__ = '__main__':

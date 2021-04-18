@@ -1,0 +1,7 @@
+    input("<")
+    user_dice_chooser = input("<")
+    if user_dice_chooser = 6:
+    elif user_dice_chooser = 8:
+    elif user_dice_chooser = 12:
+    user_exit_checker_raw = input("\r\nIf you want to roll another die, type [roll]. To exit, type [exit].\r\n?<")
+    if user_exit_checker = "roll":

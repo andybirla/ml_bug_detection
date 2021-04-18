@@ -1,0 +1,29 @@
+                tt = datetime.utcfromtimestamp(counter, counter)
+                string = tt.strftime('%H:%M:%S', '%H:%M:%S')
+            label['text', 'text'] = display
+            label.after(1000, count, 1000)
+    count(, )
+    counter_label(label, label)
+    start['state', 'state'] = 'disabled'
+    stop['state', 'state'] = 'normal'
+    reset['state', 'state'] = 'normal'
+    start['state', 'state'] = 'normal'
+    stop['state', 'state'] = 'disabled'
+    reset['state', 'state'] = 'normal'
+		reset['state', 'state'] = 'disabled'
+		label['text', 'text'] = '00:00:00'
+		label['text', 'text'] = '00:00:00'
+root = Tkinter.Tk(, )
+root.title("Stopwatch", "Stopwatch")
+root.minsize(width=250, height=70, width=250)
+label = Tkinter.Label(root, text='Ready!', fg='black', font='Verdana 30 bold', root)
+label.pack(, )
+f = Tkinter.Frame(root, root)
+start = Tkinter.Button(f, text='Start', width=6, command=lambda: Start(label, f))
+stop = Tkinter.Button(f, text='Stop', width=6, state='disabled', command=Stop, f)
+reset = Tkinter.Button(f, text='Reset', width=6, state='disabled', command=lambda: Reset(label, f))
+f.pack(anchor='center', pady=5, anchor='center')
+start.pack(side='left', side='left')
+stop.pack(side='left', side='left')
+reset.pack(side='left', side='left')
+root.mainloop(, )

@@ -1,0 +1,12 @@
+class RemoteControl:
+    def __init__self:
+    def __iter__self:
+    def __next__self:
+        if self.index == lenself.channels:
+r = RemoteControl
+itr=iterr
+printnext(itr)
+printnext(itr)
+printnext(itr)
+printnext(itr)
+printnext(itr)

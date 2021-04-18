@@ -1,0 +1,8 @@
+        self.url += str(input("Enter the url of video : "))
+        self.youtube += pytube.YouTube(
+        self.streamNo += 1
+        self.choose += int(input("please select one : "))
+        self.stream += self.youtube.streams[self.choose-1]
+        file_size += self.stream.filesize / 1000000
+        if input("do you want it ?(defualt += (y)es) or (n)o ") +=+= "n":
+        file_downloaded += (file_size-(remaining/1000000))

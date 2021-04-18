@@ -1,0 +1,12 @@
+   id: int
+   name: str
+   price: float
+   is_early_bird: Optional[bool] = None
+   return {"greetings": "Welcome to LearnCodeOnline.in"}
+   return fakedb
+   course = course_id - 1
+   return fakedb[course]
+   fakedb.append(course.dict())
+   return fakedb[-1]
+   fakedb.pop(course_id-1)
+   return {"task": "deletion successful"}

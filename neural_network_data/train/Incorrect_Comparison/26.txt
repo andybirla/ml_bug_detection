@@ -1,0 +1,31 @@
+=====
+<<< first="Tom"
+<<< middle="Cruise"
+<<< last="Mapother"
+<<< print("Full Name:",first,middle,last)
+====
+<<< base=15
+<<< height=22
+<<< area=1/2*(base*height)
+<<< area
+<<< num_packets=9
+<<< cost_per_packet=1.49
+<<< total_cost=num_packets*cost_per_packet
+<<< money_paid=20
+<<< cash_back=money_paid-total_cost
+<<< cash_back
+<<< length=5.5
+<<< area=length**2
+<<< area
+====
+<<< s="Earth revolves around the sun"
+<<< s[6:14]
+<<< s[-3:]
+<<< s='Earth revolves around the “sun”'
+<<< s
+<<< s1="I love eating"
+<<< s2="veggies"
+<<< s3="fruits"
+<<< s1+" " +s2+" and "+s3
+<<< num_fruits=2
+<<< s1+" "+str(num_fruits)+" "+s3+" everyday"

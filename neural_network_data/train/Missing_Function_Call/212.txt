@@ -1,0 +1,2 @@
+        ('insideDecorator Function executed before {}'.format(myFunc.__name__))
+        return (*args)

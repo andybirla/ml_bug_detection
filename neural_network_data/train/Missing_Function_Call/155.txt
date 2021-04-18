@@ -1,0 +1,15 @@
+("In feb this much extra was spent compared to jan:",exp[1]-exp[0]) # 150
+("Expense for first quarter:",exp[0]+exp[1]+exp[2]) # 7150
+("Did I spent 2000$ in any month? ", 2000 in exp) # False
+(1980)
+("Expenses at the end of June:",exp) # [2200, 2350, 2600, 2130, 2190, 1980]
+("Expenses after 200$ return in April:",exp) # [2200, 2350, 2600, 1930, 2190, 1980]
+(len(heros))
+('black panther')
+(heros)
+('black panther')
+(3,'black panther')
+(heros)
+(heros)
+()
+(heros)

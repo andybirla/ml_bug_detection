@@ -1,0 +1,3 @@
+        self.channels += ["HBO","cnn","abc","espn"]
+        self.index += -1
+r += RemoteControl()

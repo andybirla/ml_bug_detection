@@ -1,0 +1,4 @@
+def write_to_filefilename, txt:
+    with openfilename, 'w' as file_object:
+        s = file_object.writetxt
+    write_to_file'test.txt', 'I am beven'

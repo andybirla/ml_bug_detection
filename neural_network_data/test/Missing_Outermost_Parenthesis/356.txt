@@ -1,0 +1,14 @@
+n= intinput()
+num= listmap(int, input().split(' '))
+for i in rangen:
+    single_num += num[i]*10**i
+if intsingle_num%11 ==0:
+    print"YES"
+    print'NO'
+skip = input
+array = input.split()
+array = [inti for i in array]
+  print'YES'
+elif array.countarray[0] == len(array) and len(array) > 1:
+    print'YES'
+    print'NO'

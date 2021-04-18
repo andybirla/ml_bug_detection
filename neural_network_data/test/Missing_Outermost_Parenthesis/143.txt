@@ -1,0 +1,34 @@
+    def __init__self, data:
+    def rotaten, b:
+        return (n << b) | (n >> (32 - b)) & 0xffffffff
+    def paddingself:
+        padding = b'\x80' + b'\x00' * 63 - (len(self.data) + 8) % 64
+        padded_data = self.data + padding + struct.pack'>Q', 8 * len(self.data)
+    def split_blocksself:
+        return [self.padded_data[i:i + 64] for i in range0, len(self.padded_data), 64]
+    def expand_blockself, block:
+        w = liststruct.unpack('>16L', block) + [0] * 64
+        for i in range16, 80:
+            w[i] = self.rotate(w[i - 3] ^ w[i - 8] ^ w[i - 14] ^ w[i - 16]), 1
+    def final_hashself:
+        self.padded_data = self.padding
+        self.blocks = self.split_blocks
+            expanded_block = self.expand_blockblock
+            for i in range0, 80:
+                    f = b & c | ((~b) & d)
+                    f = b & c | (b & d) | (c & d)
+                a, b, c, d, e = self.rotatea, 5 + f + e + k + expanded_block[i] & 0xffffffff, \
+                                a, self.rotateb, 30, c, d
+        return '%08x%08x%08x%08x%08x' % tupleself.h
+class SHA1HashTestunittest.TestCase:
+    def testMatchHashesself:
+        msg = bytes'Test String', 'utf-8'
+        self.assertEqualSHA1Hash(msg).final_hash(), hashlib.sha1(msg).hexdigest()
+def main:
+    parser = argparse.ArgumentParserdescription='Process some strings or files'
+    parser.add_argument    parser.add_argument'--file', dest='input_file', help='Hash contents of a file'
+    args = parser.parse_args
+        hash_input = openargs.input_file, 'rb'.read()
+        hash_input = bytesinput_string, 'utf-8'
+    printSHA1Hash(hash_input).final_hash()
+    main

@@ -1,0 +1,12 @@
+   directory = sys.argv[1]  # Set the variable directory to be the argument supplied by user.
+   sys.exit("Must provide an argument.")
+            'Kilobytes': float(1) / 1024,
+            'Megabytes': float(1) / (1024 * 1024),
+            'Gigabytes': float(1) / (1024 * 1024 * 1024)}
+       directory):  # Walk through all the directories. For each iteration, os.walk returns the folders, subfolders and files in the dir.
+   for file in files:  # Get all the files
+       filename = os.path.join(path, file)
+       dir_size += os.path.getsize(filename)  # Add the size of each file in the root dir to get the total size.
+   print("File Empty")  # Sanity check to eliminate corner-case of empty file.
+   for units in sorted(fsizeList)[::-1]:  # Reverse sort list of units so smallest magnitude units print first.
+       print("Folder Size: " + units)

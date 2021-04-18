@@ -1,0 +1,6 @@
+testCases = intinput()
+for i in rangetestCases:
+    number1, number2 = maplist, input().split()
+    result = int''.join(number1[::-1]) + int(''.join(number2[::-1]))
+    result = liststr(result)
+    printint(''.join(result[::-1]))

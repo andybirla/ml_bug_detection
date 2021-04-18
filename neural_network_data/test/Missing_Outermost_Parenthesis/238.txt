@@ -1,0 +1,24 @@
+def spawn_balldirection:
+        ball_vel = [random.randrange120, 240 / 60, random.randrange(60, 180) / 60]
+        ball_vel = [-random.randrange120, 240 / 60, random.randrange(60, 180) / 60]
+def reset:
+def new_game:
+    reset
+    spawn_ballRIGHT
+def drawcanvas:
+    canvas.draw_line[WIDTH / 2, 0], [WIDTH / 2, HEIGHT], 1, "White"
+    canvas.draw_line[PAD_WIDTH, 0], [PAD_WIDTH, HEIGHT], 1, "White"
+    canvas.draw_line[WIDTH - PAD_WIDTH, 0], [WIDTH - PAD_WIDTH, HEIGHT], 1, "White"
+    canvas.draw_circleball_pos, BALL_RADIUS, 1, "White", "White"
+    canvas.draw_line    canvas.draw_line    if             paddle1_pos + PAD_HEIGHT / 2 + HEIGHT / 2)) and ball_pos[0] ==     if             paddle2_pos + PAD_HEIGHT / 2 + HEIGHT / 2)) and ball_pos[0] ==     canvas.draw_textstr(score1), (250, 30), 40, "White"
+    canvas.draw_textstr(score2), (330, 30), 40, "White"
+def keydownkey:
+def keyupkey:
+frame = simplegui.create_frame"Pong", WIDTH, HEIGHT
+frame.set_draw_handlerdraw
+frame.set_keydown_handlerkeydown
+frame.set_keyup_handlerkeyup
+frame.add_button"Restart", reset
+new_game
+print
+frame.start

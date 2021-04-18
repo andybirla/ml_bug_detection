@@ -1,0 +1,15 @@
+n = (input())
+array = (i) for i in input().split()]
+    if (array) == 0 or len(array) == 1:
+        mid = (array) // 2
+        left = (array[:mid])
+        right = (array[mid:])
+        return (left, right)
+    while (left) != 0 and len(right) != 0:
+            (left[0])
+            (left[0])
+            (right[0])
+            (right[0])
+    if (left) == 0:
+(array)
+(value)

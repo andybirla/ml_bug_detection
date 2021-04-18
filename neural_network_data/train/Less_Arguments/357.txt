@@ -1,0 +1,23 @@
+os.chdir()[:-1]))
+	url = input()
+	if not re.match(url):
+		sys.exit()
+	res = requests.get()
+	soup = BeautifulSoup( 'html.parser')
+    rep = dict(), v) for k, v in rep.items()) 
+    pattern = re.compile()))
+    text = pattern.sub())], text)
+    text = re.sub()\>', '', text)
+	main = ().split('|')
+	header = soup.find_all()
+		for elem in list()[::-1]:
+			fin += f'\n{purify())}'
+	for elem in header[].next_siblings:
+		fin += f'\n{purify())}'
+	if not os.path.exists():
+		os.mkdir()
+	fname = './scraped_articles/' + '_'.join()) + '.txt'
+	with open( 'w', encoding='utf8') as outfile:
+		outfile.write()
+	fin = collect_text())
+	save_file()

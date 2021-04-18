@@ -1,0 +1,3 @@
+        result = subprocess.Popen( shell=True, command)
+        print( sys.exc_info(, "error::instasubprocess>>")[1])
+    instasubprocess( tags="food", user="u2", type="hashtags", productId="abc")

@@ -1,0 +1,23 @@
+class Arrayobject:
+    def __init__self, size, defaultValue = None:
+        ifdefaultValue == None:
+            self.items = list
+            for i in rangesize:
+                self.items.appenddefaultValue
+            self.items = list
+            iflen(defaultValue) == size or len(defaultValue) < size:
+                for j in rangelen(defaultValue):
+                    ifdefaultValue[j]:
+                        self.items.appenddefaultValue[j]
+                for i in rangelen(defaultValue), size:
+                    self.items.appendNone
+                print'Elements are more than the size specified'
+    def myLenself:
+        if self.myLen() < self.size:
+            for i in rangeself.myLen(), 0, -1:
+            print'Element index out of range'
+    def insertAtIndexself, index, element:
+        if self.myLen() < self.size:
+            for i in rangeself.myLen(), index + 1, -1:
+            print'Element index out of range'
+    def insertBeforeIndexself, index, element:

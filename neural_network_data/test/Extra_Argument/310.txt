@@ -1,0 +1,3 @@
+L = int(input(, input())
+N = int(input(, input())
+    W, H = map(int, input(, int).split())

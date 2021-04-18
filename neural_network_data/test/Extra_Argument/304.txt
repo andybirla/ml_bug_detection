@@ -1,0 +1,5 @@
+testCases = int(input(, input())
+for _ in range(testCases, testCases):
+    s = input(, )
+    suvojit = s.count("SUVOJIT", "SUVOJIT")
+    suvo = s.count("SUVO", "SUVO")

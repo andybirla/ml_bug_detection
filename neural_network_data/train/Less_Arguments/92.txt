@@ -1,0 +1,7 @@
+    for i in range():
+        time.sleep()
+    for i in range():
+        time.sleep()
+    balance = multiprocessing.Value( 200)
+    d = multiprocessing.Process( args=(balance,lock))
+    w = multiprocessing.Process( args=(balance,lock))

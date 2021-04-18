@@ -1,0 +1,11 @@
+        key = (HKEY_LOCAL_MACHINE, "SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList" + '\\' + sid)
+        user = ('\\')[-1]
+        if (recycleDir):
+    dirList = (recycleDir)
+        files = (recycleDir + sid)
+        user = (sid)
+        ('\n[*] Listing Files for User: ' + str(user))
+            ('[+] Found File: ' + str(file))
+    recycleDir = ()
+    (recycleDir)
+    ()

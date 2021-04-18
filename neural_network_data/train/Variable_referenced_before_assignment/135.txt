@@ -1,0 +1,5 @@
+        self.name += name
+        self.__education += 'Engineering'         # Private Variable
+        name += self.name
+        education += self.__education             # Can only be accessed within the class
+    myObj += Person('Omkar')

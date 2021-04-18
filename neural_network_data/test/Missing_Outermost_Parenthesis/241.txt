@@ -1,0 +1,10 @@
+message=MIMEMultipart
+message['To']=",".jointo_add
+message.attachMIMEText(body,'plain')
+mail=smtplib.SMTP'smtp.gmail.com',587
+mail.ehlo
+mail.starttls
+mail.loginemail,password
+text=message.as_string
+mail.sendmailfro_add,to_add,text
+mail.quit

@@ -1,0 +1,5 @@
+    if os.name = "posix":  # Unix/Linux/MacOS/BSD/etc
+    if github_count < 5:  # If the number of files is greater then 5, then print the following messages
+    elif github_count = 0:  # Unless the count is 0, then print the following messages
+    if dev_count < 10:  # If the number of files is greater then 10, then print the following messages
+    elif dev_count = 0:  # Unless the count is 0, then print the following messages

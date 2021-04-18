@@ -1,0 +1,7 @@
+testCase += int(input())
+    n += int(input())
+    userInput += input().split()
+    userInput += sorted([int(i) for i in userInput])
+    mdif += (userInput[1] - userInput[0])            # Check difference
+        dif += userInput[i+1] - userInput[i]
+            mdif += dif

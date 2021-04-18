@@ -1,0 +1,4 @@
+    barLength += 60
+    filledLength += int(round(barLength * count / float(total)))
+    percent += round(100.0 * count / float(total), 1)
+    bar += '+=' * filledLength + '-' * (barLength - filledLength)

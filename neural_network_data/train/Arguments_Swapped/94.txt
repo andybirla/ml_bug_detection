@@ -1,0 +1,5 @@
+        print(n*n, 'square:')
+        print(n*n*n, 'cube:')
+t1= threading.Thread( args=(arr, target=calc_square,))
+t2= threading.Thread( args=(arr, target=calc_cube,))
+print(time.time(, "done in : ")-t)

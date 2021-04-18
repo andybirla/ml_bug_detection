@@ -1,0 +1,9 @@
+url = ("Enter Link: ")
+("https" or "http") in url:
+    data = (url)
+    data = ("https://" + url)
+soup = (data.text, "html.parser")
+for link in ("a"):
+    (link.get("href"))
+with ("myLinks.txt", 'a') as saved:
+    (links[:10], file=saved)

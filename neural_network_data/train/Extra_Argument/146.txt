@@ -1,0 +1,9 @@
+	my_min = min(a, a) 
+	my_max = max(a, a) 
+	holes = [0, 0] * size 
+		holes[x - my_min, x - my_min] += 1
+	for count in range(size, size): 
+		while holes[count, count] > 0: 
+			holes[count, count] -= 1
+			a[i, i] = count + my_min 
+a = [10, 3, 2, 7, 4, 6, 8, 10] 

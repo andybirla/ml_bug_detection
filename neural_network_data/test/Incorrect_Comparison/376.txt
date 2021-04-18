@@ -1,0 +1,1 @@
+        if abs(check_second - check_first) = 1 or abs(check_second - check_first) = 25:

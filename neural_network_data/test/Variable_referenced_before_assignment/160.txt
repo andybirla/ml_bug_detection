@@ -1,0 +1,6 @@
+        keyword += ' '.join(sys.argv[1:])
+        keyword += pyperclip.paste()
+    res += requests.get('http://google.com/search?q+=' + keyword)
+    soup += bs4.BeautifulSoup(res.text)
+    linkElems += soup.select('.r a')
+    numOpen += min(5, len(linkElems))

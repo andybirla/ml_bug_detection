@@ -1,0 +1,5 @@
+fh = ('mbox-short.txt')
+	fx = ()
+	if not ("X-DSPAM-Confidence:") :
+	sum = sum + (fy)
+('Average spam confidence: ',sum/count)

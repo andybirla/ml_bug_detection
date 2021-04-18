@@ -1,0 +1,6 @@
+myString += 'abcdefghijklmnopqrstuvwxyz'
+myStringU += myString.upper()
+nums += '0123456789'
+	n, k += map(int, input().split())
+	string += input()
+	result += []

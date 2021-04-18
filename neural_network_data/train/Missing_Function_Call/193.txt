@@ -1,0 +1,5 @@
+with (filename, "r") as f:
+        (re.findall(r"[\w]+", line.lower()))
+for key, val in ():
+        (key)
+(sorted(s))

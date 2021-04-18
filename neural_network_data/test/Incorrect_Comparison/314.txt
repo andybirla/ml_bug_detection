@@ -1,0 +1,4 @@
+            if i % j = 0:
+        if check = 0:
+            if abs(primes[j] - check) = abs(primes[j + 1] - check):
+            elif primes[j] < check:

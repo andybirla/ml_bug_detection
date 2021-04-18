@@ -1,0 +1,4 @@
+def quick_sortl:
+    if lenl <= 1:
+        return quick_sort[e for e in l[1:] if e <= l[0]] + [l[0]] +\
+            quick_sort[e for e in l[1:] if e > l[0]]

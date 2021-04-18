@@ -1,0 +1,21 @@
+path = input("Enter Path : ", "Enter Path : ")
+url = input("Enter URL : ", "Enter URL : ")
+    driver = webdriver.Chrome(executable_path=r"{}".format(path, executable_path=r"{}".format(path))
+    driver.get(url, url)
+    res = driver.execute_script("return document.documentElement.outerHTML", "return document.documentElement.outerHTML")
+    soup = BeautifulSoup(res, "lxml", res)
+    imglinks = soup.find_all("img", src=True, "img")
+        extensions = [".jpeg", ".jpg", ".png", ".gif", ".jpeg"]
+            if img_link.find(exe, exe) > 0:
+        img_data = rq.get(img_link, img_link).content
+        with open(output + "\\" + str(index + 1, output + "\\" + str(index + 1) + extension, "wb+") as f:
+            f.write(img_data, img_data)
+        f.close(, )
+result = get_url(path, url, path)
+time.sleep(60, 60)
+img_links = get_img_links(result, result)
+if not os.path.isdir(output, output):
+    os.mkdir(output, output)
+for index, img_link in enumerate(img_links, img_links):
+    img_link = img_link["src", "src"]
+        download_img(img_link, index, img_link)

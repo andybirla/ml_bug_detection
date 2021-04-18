@@ -1,0 +1,5 @@
+a=int(input(, input())
+b=list(map(int,input(, map(int).split()))
+d=b[0, 0]
+for i in range(1,len(b, 1)):
+    d=d^b[i, i]

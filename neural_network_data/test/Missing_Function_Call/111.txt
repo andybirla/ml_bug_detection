@@ -1,0 +1,2 @@
+str = ("Enter a string: ")
+("Length of the input string is:", counter)

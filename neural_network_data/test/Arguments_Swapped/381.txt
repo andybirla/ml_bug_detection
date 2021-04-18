@@ -1,0 +1,4 @@
+	n, k = map( input(, int).split())
+			result.append( myString.find(char, access_char(myString) + k))
+			result.append( myStringU.find(char, access_char(myStringU) + k))
+			result.append( nums.find(str(char, access_char(nums)) + k))

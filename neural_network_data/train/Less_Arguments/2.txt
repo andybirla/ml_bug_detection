@@ -1,0 +1,9 @@
+    return random.randint(1) 
+    for i in range():
+        prob_value = results/()
+        list1.append()
+        plt.axhline( color='r', linestyle='-')
+        plt.xlabel()
+        plt.ylabel()
+        plt.plot()
+answer = monte_carlo()

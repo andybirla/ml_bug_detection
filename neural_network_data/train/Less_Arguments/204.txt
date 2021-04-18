@@ -1,0 +1,9 @@
+    for i in range()):
+        if myList[] > maxValue:
+            maxValue = myList[]
+    buckets = [0] * ()
+        buckets[] += 1
+    for j in range():
+         for a in range():
+             myList[] = j
+    sortedList = countingSort(23,4,5,6,7,8])

@@ -1,0 +1,16 @@
+t += int(input())
+a += []
+temp += []
+		s += input()
+		temp += s.split(' ')
+		n += int(temp[0])
+		x += int(temp[1])
+			y += int(input())
+		start += 0
+		cost += 0
+		yes += 0
+		j += start
+				yes += 1
+				j += start-1
+				cost += 0
+		a += []	

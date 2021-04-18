@@ -1,0 +1,4 @@
+    print(end = ' ', "2")
+for i in range( userInput + 2, 3):
+    for j in range( int(math.sqrt(i, 2))+ 1):
+        print( end = ' ', i)

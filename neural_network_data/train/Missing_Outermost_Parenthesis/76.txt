@@ -1,0 +1,19 @@
+def print_patternn=5:
+    for i in rangen:
+        for j in rangei+1:
+        prints
+def calculate_areadimension1,dimension2,shape="triangle":
+        area=1/2*dimension1*dimension2 # Triangle area is : 1/2(Base*Height)
+        print"Error: Input shape is neither triangle nor rectangle."
+triangle_area=calculate_areabase,height,"triangle"
+print"Area of triangle is:",triangle_area
+rectangle_area=calculate_arealength,width,"rectangle"
+print"Area of rectangle is:",rectangle_area
+triangle_area=calculate_areabase,height # Here third argument is missing
+print"Area of triangle with no shape supplied: ",triangle_area
+print"Print pattern with input=3"
+print_pattern3
+print"Print pattern with input=4"
+print_pattern4
+print"Print pattern with no input number"
+print_pattern # Not supplying any input will use default argument which is 5

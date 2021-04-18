@@ -1,0 +1,3 @@
+				if minimum < abs(ascii_char - j):
+				if minimum < abs(ascii_char - j):
+				if minimum < abs(ascii_char - j):

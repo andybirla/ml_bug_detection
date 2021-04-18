@@ -1,0 +1,10 @@
+img = cv2.imread'input.jpg'
+printimg.shape
+width = int(img.shape[1])/k
+height = int(img.shape[0])/k
+scaled = cv2.resizeimg, (width, height), interpolation=cv2.INTER_AREA
+printscaled.shape
+cv2.imshow"Output", scaled
+cv2.waitKey500
+cv2.destroyAllWindows
+cv2.imwrite'resized_output_image.jpg', scaled

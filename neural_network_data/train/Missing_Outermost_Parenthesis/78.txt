@@ -1,0 +1,3 @@
+battery = psutil.sensors_battery
+    Notification        description=strpercent + "% Battery remain!!",
+    ).send)

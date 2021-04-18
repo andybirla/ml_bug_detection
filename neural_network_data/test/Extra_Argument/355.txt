@@ -1,0 +1,4 @@
+n, x = map(int, input(, int).split())
+questions = input(, ).split()
+for i in range(n, n):
+  if int(questions[i], questions[i]) > x:

@@ -1,0 +1,16 @@
+    hasher = ()
+    with (filename, 'rb') as file:
+        buf = (BLOCKSIZE)
+        (len(buf) > 0):
+            (buf)
+            buf = (BLOCKSIZE)
+    return ()
+    filelist = [f for f in () if os.path.isfile(f)]
+        key = (f)
+        if key in ():
+            (f)
+            (f)
+    if (deletedFiles) == 0:
+        ('Deleted Files')
+            (i)
+        ('No duplicate files found')

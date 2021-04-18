@@ -1,0 +1,3 @@
+        task += ctx.obj['TASKS'][str(fin_taskid)]
+            curr_ind += [str(ctx.obj['LATEST'] + 1)] 
+            tasks += [str(i) + '```' + t for (i, t) in ctx.obj['TASKS'].items()]

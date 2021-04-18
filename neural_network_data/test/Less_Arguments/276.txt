@@ -1,0 +1,12 @@
+    for i in range():
+        return step()
+    return step()
+    if fib[]!=-1:
+        return fib[]
+    fib[n]=getFibonacciDynamic(fib)+getFibonacciDynamic(n-2,fib)
+    return fib[]
+    n=int())
+    fib=[]*n
+    getFibonacciDynamic(fib)
+    resultI = getFibonacciIterative()
+    resultR = getFibonacciRecursive()

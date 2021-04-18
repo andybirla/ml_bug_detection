@@ -1,0 +1,4 @@
+                Lists[j], Lists[j+1] += Lists[j+1], Lists[j]
+array += []
+array_length += int(input(print("Enter the number of elements of array or enter the length of array")))
+    value += int(input(print("Enter the value in the array")))

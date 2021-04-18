@@ -1,0 +1,2 @@
+    clientsocket,addr += soc.accept()      
+    currentTime += time.ctime(time.time()) + "\r\n"

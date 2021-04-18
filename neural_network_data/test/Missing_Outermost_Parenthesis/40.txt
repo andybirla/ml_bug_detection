@@ -1,0 +1,20 @@
+def dtbconverternum: 
+    decimal = roundnum % 1, decimal_accuracy 
+    w_num = intnum 
+    while decimal != 1 and i < decimal_accuracy:
+        fractional.appendint(decimal // 1)
+        decimal = rounddecimal % 1, decimal_accuracy
+        if decimal == 0:
+    while w_num != 0:
+        whole.appendw_num % 2
+    whole.reverse
+    whilei<len(whole):
+        printwhole[i],end=""
+    whilei<len(fractional):
+        printfractional[i],end=""
+number = floatinput("Enter Any base-10 Number: ")
+dtbconverternumber
+def DecimalToBinarynum: 
+        DecimalToBinarynum // 2 
+    printnum % 2, end = '' 
+    DecimalToBinarydec_val 

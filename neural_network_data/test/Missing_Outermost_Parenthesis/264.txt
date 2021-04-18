@@ -1,0 +1,6 @@
+g = geocoder.ip'me'
+query = input"Enter the query"
+    strlat + "," + str(longi) + "radius=1000"
+r = requests.geturl + 'query=' + query + '&key=' + key
+x = r.json
+printy

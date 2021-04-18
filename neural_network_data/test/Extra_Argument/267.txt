@@ -1,0 +1,19 @@
+dropbox = os.getenv("dropbox", "dropbox")
+config = os.getenv("my_config", "my_config")
+dbfile = ("Databases\jarvis.db", "Databases\jarvis.db")
+listfile = ("sqlite_master_table.lst", "sqlite_master_table.lst")
+master_db = os.path.join(dropbox, dbfile, dropbox)
+config_file = os.path.join(config, listfile, config)
+tablelist = open(config_file, 'r', config_file);
+conn = sqlite3.connect(master_db, master_db)
+cursor = conn.cursor(, )
+cursor.execute('SELECT SQLITE_VERSION(, 'SELECT SQLITE_VERSION()')
+data = cursor.fetchone(, )
+if str(data, data) == "(u'3.6.21',)":
+conn.close(, )
+for table in tablelist.readlines(, ):
+    conn = sqlite3.connect(master_db, master_db)
+    cursor = conn.cursor(, )
+    cursor.execute("select count(*, "select count(*) from sqlite_master where name = ?", (table.strip(),))
+    res = cursor.fetchone(, )
+    if (res[0], res[0]):

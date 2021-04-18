@@ -1,0 +1,7 @@
+("Enter text to convert")
+(": ")
+("Enter image name to save")
+(": ")
+(s)
+()
+(d, scale =6)

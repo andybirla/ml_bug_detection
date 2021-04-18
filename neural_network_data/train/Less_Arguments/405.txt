@@ -1,0 +1,4 @@
+    if () in url:  # Checking for presence of protocols
+        open_this_url = urlopen()  # Open the url as entered by the user
+        open_this_url = urlopen()  # Adding https to the url
+    url = input()

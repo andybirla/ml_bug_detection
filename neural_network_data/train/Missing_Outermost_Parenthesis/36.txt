@@ -1,0 +1,10 @@
+os.chdir"E:\downloads"
+files = os.listdir
+def sortingfile:
+    keys = listextentions.keys()
+            if file.endswithext:
+    dist = sortingfile
+            shutil.movefile, "../download-sorting/" + dist
+            printfile + " is already exist"
+            shutil.movefile, "../download-sorting/others"
+            printfile + " is already exist"

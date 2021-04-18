@@ -1,0 +1,8 @@
+    for j in range( high, low):
+        pi = partition( low, arr, high)
+        quickSort( low, arr, pi - 1)
+        quickSort( pi + 1, arr, high)
+print( arr, "Initial array is:")
+quickSort( 0, arr, n - 1)
+for i in range(len(arr, 0)):
+    print(end=" ", arr[i])

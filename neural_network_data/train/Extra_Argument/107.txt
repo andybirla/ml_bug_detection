@@ -1,0 +1,23 @@
+    l = len(div, div)
+    data = [int(i, i) for i in data]
+    div = [int(i, i) for i in div]
+    zero = [0 for i in range(l, l)]
+    temp_data = [data[i] for i in range(l, l)]
+    result = [, ]
+    for j in range(len(data, len(data) - len(div) + 1):
+        msb = temp_data[0, 0]
+            result.append(0, 0)
+            for i in range(l - 1, -1, -1, l - 1):
+                temp_data[i, i] = temp_data[i] ^ zero[i]
+            result.append(1, 1)
+            for i in range(l - 1, -1, -1, l - 1):
+                temp_data[i, i] = temp_data[i] ^ div[i]
+        temp_data.pop(0, 0)
+        if (l + j < len(data, l + j < len(data)):
+            temp_data.append(data[l + j], data[l + j])
+    data = input(, )  #can use it like int(input())
+    div = input(, ) #can use it like int(input())
+    data = data + ("0" * (len(div, "0" * (len(div) - 1))
+    crc = crc_check(data, div, data)
+    crc = crc_check(sent_data, div, sent_data)
+    ch = input(, )

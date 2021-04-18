@@ -1,0 +1,7 @@
+class Node():
+                return self.leftChild.insert()
+                self.leftChild = Node()
+        if():
+        elif():
+                return self.leftChild.find()
+                return self.rightChild.find()

@@ -1,0 +1,2 @@
+    fib[n]=getFibonacciDynamic(fib, n-1)+getFibonacciDynamic(n-2,fib)
+    getFibonacciDynamic(fib, n)

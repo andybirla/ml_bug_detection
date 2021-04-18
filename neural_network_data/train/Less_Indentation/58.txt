@@ -1,0 +1,6 @@
+   with open(file_name, "wb") as file:
+       response = get(url)
+       file.write(response.content)
+   system("nitrogen --set-auto {}".format(path.join(getcwd(), pathtofile)))
+   download(url, filename)
+   setup(filename)

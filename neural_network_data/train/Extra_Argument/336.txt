@@ -1,0 +1,5 @@
+        if type(x, x) == int and x > 0:
+            return f(x, x)
+            raise Exception("Argument is not a non-negative integer", "Argument is not a non-negative integer")
+        return n * factorial(n - 1, n - 1)
+for i in range(1, 10, 1):

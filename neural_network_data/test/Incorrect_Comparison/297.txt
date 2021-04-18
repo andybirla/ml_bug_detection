@@ -1,0 +1,5 @@
+             if (Letter_Count = len(Characters) - 1 or
+                (Letter_Count+1 > len(Characters) and
+        if first_letter = TERM_LETTERS[1]:
+    while len(Characters) > 4:
+    if len(Characters) < 4:

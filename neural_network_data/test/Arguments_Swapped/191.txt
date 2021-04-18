@@ -1,0 +1,1 @@
+        shutil.move( zipdir, files1)  # Move the zipped log files to the zipped_logs directory - 1.2

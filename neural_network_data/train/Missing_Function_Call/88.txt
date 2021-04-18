@@ -1,0 +1,6 @@
+("Number guessing game")
+number = (1, 9)
+("Guess a number (between 1 and 9):")
+    guess = (input())
+        ("Your guess was too low: Guess a number higher than", guess)
+        ("Your guess was too high: Guess a number lower than", guess)

@@ -1,0 +1,29 @@
+path = ("scripts")  # Set the variable path by getting the value from the OS environment variable scripts
+dropbox = ("dropbox")  # Set the variable dropbox by getting the value from the OS environment variable dropbox
+        ('clear')  # Clear the Screen
+    elif os.name i("nt", "dos", "ce"):  # DOS/Windows
+        ('CLS')  # Clear the Screen
+    for root, dirs, files in (path):  # Loop through all the directories in the given path
+            counter += (extensions)  # Count the files
+    github_dir = (dropbox, 'github')  # Joins the paths to get the github directory - 1.1
+    github_count = ((len(f) for _, _, f in os.walk(github_dir)))  # Get a count for all the files in the directory
+        ('\nYou have too many in here, start uploading !!!!!')
+        ('You have: ' + str(github_count) + ' waiting to be uploaded to github!!')
+        ('\nGithub directory is all Clear')
+        ('\nYou have: ' + str(github_count) + ' waiting to be uploaded to github!!')
+    dev_dir = (path, 'development')  # Joins the paths to get the development directory - 1.1
+    dev_count = ((len(f) for _, _, f in os.walk(dev_dir)))  # Get a count for all the files in the directory
+        ('\nYou have too many in here, finish them or delete them !!!!!')
+        ('You have: ' + str(dev_count) + ' waiting to be finished!!')
+        ('\nDevelopment directory is all clear')
+()  # Call the function to clear the screen
+('\nYou have the following :\n')
+    (path, '.au3')))  # Run the count_files function to count the files with the extension we pass
+('Batch:\t' + str(count_files(path, ('.bat', ',cmd'))))  # 1.3
+('Perl:\t' + str(count_files(path, '.pl')))
+('PHP:\t' + str(count_files(path, '.php')))  # 1.2
+('Python:\t' + str(count_files(path, '.py')))
+('Shell:\t' + str(count_files(path, ('.ksh', '.sh', '.bash'))))
+('SQL:\t' + str(count_files(path, '.sql')))
+()  # Call the github function
+()  # Call the development function

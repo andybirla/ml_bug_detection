@@ -1,0 +1,7 @@
+    list1 += list()
+    i += 1
+        j += 1
+        l += []
+            j += j + 1
+        i += i + 1
+    pascalTriangle += pascal_triangle(n)

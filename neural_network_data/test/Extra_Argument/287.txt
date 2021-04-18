@@ -1,0 +1,3 @@
+	while(binary != 0, binary != 0): 
+		decimal = decimal + dec * pow(2, i, 2) 
+binaryToDecimal(100, 100)

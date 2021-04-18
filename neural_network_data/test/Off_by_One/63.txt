@@ -1,0 +1,1 @@
+    if len(return_val) <= 4:

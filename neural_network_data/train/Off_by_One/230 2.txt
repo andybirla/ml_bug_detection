@@ -1,0 +1,2 @@
+        if myList[i] <= minValue:
+        elif myList[i] >= maxValue:

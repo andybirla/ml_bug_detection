@@ -1,0 +1,472 @@
+for i in (len(list1)):
+  (list1[i][-1] == "1"):
+    for j in (len(list1)):
+      (list1[i]+list1[j][1:])
+  (list1[i][-1] == "2"):
+    for j in (len(list2)):
+      (list1[i]+list2[j][1:])
+  (list1[i][-1] == "3"):
+    for j in (len(list3)):
+      (list1[i]+list3[j][1:])
+  (list1[i][-1] == "4"):
+    for j in (len(list4)):
+      (list1[i]+list4[j][1:])
+  (list1[i][-1] == "5"):
+    for j in (len(list5)):
+      (list1[i]+list5[j][1:])
+  (list1[i][-1] == "6"):
+    for j in (len(list6)):
+      (list1[i]+list6[j][1:])
+  (list1[i][-1] == "7"):
+    for j in (len(list7)):
+      (list1[i]+list7[j][1:])
+for i in (len(list2)):
+  (list2[i][-1] == "1"):
+    for j in (len(list1)):
+      (list2[i]+list1[j][1:])
+  (list2[i][-1] == "2"):
+    for j in (len(list2)):
+      (list2[i]+list2[j][1:])
+  (list2[i][-1] == "3"):
+    for j in (len(list3)):
+      (list2[i]+list3[j][1:])
+  (list2[i][-1] == "4"):
+    for j in (len(list4)):
+      (list2[i]+list4[j][1:])
+  (list1[i][-1] == "5"):
+    for j in (len(list5)):
+      (list2[i]+list5[j][1:])
+  (list2[i][-1] == "6"):
+    for j in (len(list6)):
+      (list2[i]+list6[j][1:])
+  (list2[i][-1] == "7"):
+    for j in (len(list7)):
+      (list2[i]+list7[j][1:])
+for i in (len(list3)):
+  (list3[i][-1] == "1"):
+    for j in (len(list1)):
+      (list3[i]+list1[j][1:])
+  (list3[i][-1] == "2"):
+    for j in (len(list2)):
+      (list3[i]+list2[j][1:])
+  (list3[i][-1] == "3"):
+    for j in (len(list3)):
+      (list3[i]+list3[j][1:])
+  (list3[i][-1] == "4"):
+    for j in (len(list4)):
+      (list3[i]+list4[j][1:])
+  (list3[i][-1] == "5"):
+    for j in (len(list5)):
+      (list3[i]+list5[j][1:])
+  (list3[i][-1] == "6"):
+    for j in (len(list6)):
+      (list3[i]+list6[j][1:])
+  (list3[i][-1] == "7"):
+    for j in (len(list7)):
+      (list3[i]+list7[j][1:])
+for i in (len(list4)):
+  (list4[i][-1] == "1"):
+    for j in (len(list1)):
+      (list4[i]+list1[j][1:])
+  (list4[i][-1] == "2"):
+    for j in (len(list2)):
+      (list4[i]+list2[j][1:])
+  (list4[i][-1] == "3"):
+    for j in (len(list3)):
+      (list4[i]+list3[j][1:])
+  (list4[i][-1] == "4"):
+    for j in (len(list4)):
+      (list4[i]+list4[j][1:])
+  (list4[i][-1] == "5"):
+    for j in (len(list5)):
+      (list4[i]+list5[j][1:])
+  (list4[i][-1] == "6"):
+    for j in (len(list6)):
+      (list4[i]+list6[j][1:])
+  (list4[i][-1] == "7"):
+    for j in (len(list7)):
+      (list4[i]+list7[j][1:])
+for i in (len(list5)):
+  (list5[i][-1] == "1"):
+    for j in (len(list1)):
+      (list5[i]+list1[j][1:])
+  (list5[i][-1] == "2"):
+    for j in (len(list2)):
+      (list5[i]+list2[j][1:])
+  (list5[i][-1] == "3"):
+    for j in (len(list3)):
+      (list5[i]+list3[j][1:])
+  (list5[i][-1] == "4"):
+    for j in (len(list4)):
+      (list5[i]+list4[j][1:])
+  (list5[i][-1] == "5"):
+    for j in (len(list5)):
+      (list5[i]+list5[j][1:])
+  (list5[i][-1] == "6"):
+    for j in (len(list6)):
+      (list5[i]+list6[j][1:])
+  (list5[i][-1] == "7"):
+    for j in (len(list7)):
+      (list5[i]+list7[j][1:])
+for i in (len(list6)):
+  (list6[i][-1] == "1"):
+    for j in (len(list1)):
+      (list6[i]+list1[j][1:])
+  (list6[i][-1] == "2"):
+    for j in (len(list2)):
+      (list6[i]+list2[j][1:])
+  (list6[i][-1] == "3"):
+    for j in (len(list3)):
+      (list6[i]+list3[j][1:])
+  (list6[i][-1] == "4"):
+    for j in (len(list4)):
+      (list6[i]+list4[j][1:])
+  (list6[i][-1] == "5"):
+    for j in (len(list5)):
+      (list6[i]+list5[j][1:])
+  (list6[i][-1] == "6"):
+    for j in (len(list6)):
+      (list6[i]+list6[j][1:])
+  (list6[i][-1] == "7"):
+    for j in (len(list7)):
+      (list6[i]+list7[j][1:])
+for i in (len(list7)):
+  (list6[i][-1] == "1"):
+    for j in (len(list1)):
+      (list7[i]+list1[j][1:])
+  (list7[i][-1] == "2"):
+    for j in (len(list2)):
+      (list7[i]+list2[j][1:])
+  (list7[i][-1] == "3"):
+    for j in (len(list3)):
+      (list7[i]+list3[j][1:])
+  (list7[i][-1] == "4"):
+    for j in (len(list4)):
+      (list7[i]+list4[j][1:])
+  (list7[i][-1] == "5"):
+    for j in (len(list5)):
+      (list7[i]+list5[j][1:])
+  (list7[i][-1] == "6"):
+    for j in (len(list6)):
+      (list7[i]+list6[j][1:])
+  (list7[i][-1] == "7"):
+    for j in (len(list7)):
+      (list7[i]+list7[j][1:])
+one = (one)
+two = (two)
+three = (three)
+four = (four)
+five = (five)
+six = (six)
+seven = (seven)
+("Length of List one is",len(one),"\n")
+("Elements of List one:\n")
+(one)
+("=========================================================================")
+("\n")
+("Length of List two is",len(two),"\n")
+("Elements of List two:\n")
+(two)
+("=========================================================================")
+("\n")
+("Length of List three is",len(three),"\n")
+("Elements of List three:\n")
+(three)
+("=========================================================================")
+("\n")
+("Length of List four is",len(four),"\n")
+("Elements of List four:\n")
+(four)
+("=========================================================================")
+("\n")
+("Length of List five is",len(five),"\n")
+("Elements of List five:\n")
+(five)
+("=========================================================================")
+("\n")
+("Length of List six is",len(six),"\n")
+("Elements of List six:\n")
+(six)
+("=========================================================================")
+("\n")
+("Length of List seven is",len(seven),"\n")
+("Elements of List seven:\n")
+(seven)
+for i in (len(one)):
+  (one[i][-1] == "1"):
+    for j in (len(one)):
+      (one[i]+one[j][1:])
+  (one[i][-1] == "2"):
+    for j in (len(two)):
+      (one[i]+two[j][1:])
+  (one[i][-1] == "3"):
+    for j in (len(three)):
+      (one[i]+three[j][1:])
+  (one[i][-1] == "4"):
+    for j in (len(four)):
+      (one[i]+four[j][1:])
+  (one[i][-1] == "5"):
+    for j in (len(five)):
+      (one[i]+five[j][1:])
+  (one[i][-1] == "6"):
+    for j in (len(six)):
+      (one[i]+six[j][1:])
+  (one[i][-1] == "7"):
+    for j in (len(seven)):
+      (one[i]+seven[j][1:])
+for i in (len(two)):
+  (two[i][-1] == "1"):
+    for j in (len(one)):
+      (two[i]+one[j][1:])
+  (two[i][-1] == "2"):
+    for j in (len(two)):
+      (two[i]+two[j][1:])
+  (two[i][-1] == "3"):
+    for j in (len(three)):
+      (two[i]+three[j][1:])
+  (two[i][-1] == "4"):
+    for j in (len(four)):
+      (two[i]+four[j][1:])
+  (two[i][-1] == "5"):
+    for j in (len(five)):
+      (two[i]+five[j][1:])
+  (two[i][-1] == "6"):
+    for j in (len(six)):
+      (two[i]+six[j][1:])
+  (two[i][-1] == "7"):
+    for j in (len(seven)):
+      (two[i]+seven[j][1:])
+for i in (len(three)):
+  (three[i][-1] == "1"):
+    for j in (len(one)):
+      (three[i]+one[j][1:])
+  (three[i][-1] == "2"):
+    for j in (len(two)):
+      (three[i]+two[j][1:])
+  (three[i][-1] == "3"):
+    for j in (len(three)):
+      (three[i]+three[j][1:])
+  (three[i][-1] == "4"):
+    for j in (len(four)):
+      (three[i]+four[j][1:])
+  (three[i][-1] == "5"):
+    for j in (len(five)):
+      (three[i]+five[j][1:])
+  (three[i][-1] == "6"):
+    for j in (len(six)):
+      (three[i]+six[j][1:])
+  (three[i][-1] == "7"):
+    for j in (len(seven)):
+      (three[i]+seven[j][1:])
+for i in (len(four)):
+  (four[i][-1] == "1"):
+    for j in (len(one)):
+      (four[i]+one[j][1:])
+  (four[i][-1] == "2"):
+    for j in (len(two)):
+      (four[i]+two[j][1:])
+  (four[i][-1] == "3"):
+    for j in (len(three)):
+      (four[i]+three[j][1:])
+  (four[i][-1] == "4"):
+    for j in (len(four)):
+      (four[i]+four[j][1:])
+  (four[i][-1] == "5"):
+    for j in (len(five)):
+      (four[i]+five[j][1:])
+  (four[i][-1] == "6"):
+    for j in (len(six)):
+      (four[i]+six[j][1:])
+  (four[i][-1] == "7"):
+    for j in (len(seven)):
+      (four[i]+seven[j][1:])
+for i in (len(five)):
+  (five[i][-1] == "1"):
+    for j in (len(one)):
+      (five[i]+one[j][1:])
+  (five[i][-1] == "2"):
+    for j in (len(two)):
+      (five[i]+two[j][1:])
+  (five[i][-1] == "3"):
+    for j in (len(three)):
+      (five[i]+three[j][1:])
+  (five[i][-1] == "4"):
+    for j in (len(four)):
+      (five[i]+four[j][1:])
+  (five[i][-1] == "5"):
+    for j in (len(five)):
+      (five[i]+five[j][1:])
+  (five[i][-1] == "6"):
+    for j in (len(six)):
+      (five[i]+six[j][1:])
+  (five[i][-1] == "7"):
+    for j in (len(seven)):
+      (five[i]+seven[j][1:])
+for i in (len(six)):
+  (six[i][-1] == "1"):
+    for j in (len(one)):
+      (six[i]+one[j][1:])
+  (six[i][-1] == "2"):
+    for j in (len(two)):
+      (six[i]+two[j][1:])
+  (six[i][-1] == "3"):
+    for j in (len(three)):
+      (six[i]+three[j][1:])
+  (six[i][-1] == "4"):
+    for j in (len(four)):
+      (six[i]+four[j][1:])
+  (six[i][-1] == "5"):
+    for j in (len(five)):
+      (six[i]+five[j][1:])
+  (six[i][-1] == "6"):
+    for j in (len(six)):
+      (six[i]+six[j][1:])
+  (six[i][-1] == "7"):
+    for j in (len(seven)):
+      (six[i]+seven[j][1:])
+for i in (len(seven)):
+  (seven[i][-1] == "1"):
+    for j in (len(one)):
+      (seven[i]+one[j][1:])
+  (seven[i][-1] == "2"):
+    for j in (len(two)):
+      (seven[i]+two[j][1:])
+  (seven[i][-1] == "3"):
+    for j in (len(three)):
+      (seven[i]+three[j][1:])
+  (seven[i][-1] == "4"):
+    for j in (len(four)):
+      (seven[i]+four[j][1:])
+  (seven[i][-1] == "5"):
+    for j in (len(five)):
+      (seven[i]+five[j][1:])
+  (seven[i][-1] == "6"):
+    for j in (len(six)):
+      (seven[i]+six[j][1:])
+  (seven[i][-1] == "7"):
+    for j in (len(seven)):
+      (seven[i]+seven[j][1:])
+Fone = (Fone)
+Ftwo = (Ftwo)
+Fthree = (Fthree)
+Ffour = (Ffour)
+Ffive = (Ffive)
+Fsix = (Fsix)
+Fseven = (Fseven)
+("Length of the Final List One:",len(Fone))
+("Length of the Final List Two:",len(Ftwo))
+("Length of the Final List Three:",len(Fthree))
+("Length of the Final List Four:",len(Ffour))
+("Length of the Final List Five:",len(Ffive))
+("Length of the Final List Six:",len(Fsix))
+("Length of the Final List Seven:",len(Fseven))
+("\n")
+(Fone[:5])
+(Ftwo[:5])
+(Fthree[:5])
+(Ffour[:5])
+(Ffive[:5])
+(Fsix[:5])
+(Fseven[:5])
+for i in (len(Fone)):
+  (len(Fone[i])>=10):
+    (Fone[i][:10])
+for i in (len(Ftwo)):
+  (len(Ftwo[i])>=10):
+    (Ftwo[i][:10])
+for i in (len(Fthree)):
+  (len(Fthree[i])>=10):
+    (Fthree[i][:10])
+for i in (len(Ffour)):
+  (len(Ffour[i])>=10):
+    (Ffour[i][:10])
+for i in (len(Ffive)):
+  (len(Ffive[i])>=10):
+    (Ffive[i][:10])
+for i in (len(Fsix)):
+  (len(Fsix[i])>=10):
+    (Fsix[i][:10])
+for i in (len(Fseven)):
+  (len(Fseven[i])>=10):
+    (Fseven[i][:10])
+List_one = (List_one)
+List_two = (List_two)
+List_three = (List_three)
+List_four = (List_four)
+List_five = (List_five)
+List_six = (List_six)
+List_seven = (List_seven)
+("Length of the Final List One:",len(List_one))
+("Length of the Final List Two:",len(List_two))
+("Length of the Final List Three:",len(List_three))
+("Length of the Final List Four:",len(List_four))
+("Length of the Final List Five:",len(List_five))
+("Length of the Final List Six:",len(List_six))
+("Length of the Final List Seven:",len(List_seven))
+("\n")
+(List_one[:5])
+(List_two[:5])
+(List_three[:5])
+(List_four[:5])
+(List_five[:5])
+(List_six[:5])
+(List_seven[:5])
+for i in (len(List_one)):
+  for j in (10):
+    (a[j] == b[j]):
+      (a)
+list_1 = (list_1)
+(len(List_one) == len(list_1)):
+  ("Congratulations!!")
+  ("Solution route is successful on possible routes starting with 1")
+  ("Solution route may not work universally.")
+for i in (len(List_one)):
+  (List_one[i])
+for i in (len(List_two)):
+  (List_two[i])
+for i in (len(List_three)):
+  (List_three[i])
+for i in (len(List_four)):
+  (List_four[i])
+for i in (len(List_five)):
+  (List_five[i])
+for i in (len(List_six)):
+  (List_six[i])
+for i in (len(List_seven)):
+  (List_seven[i])
+  i(list_name == "List_one"):
+  e(list_name == "List_two"):
+  e(list_name == "List_three"):
+  e(list_name == "List_four"):
+  e(list_name == "List_five"):
+  e(list_name == "List_six"):
+  e(list_name == "List_seven"):
+  e(list_name == "List_all"):
+  for i in (len(List_name)):
+    for j in (10):
+      (a[j] == b[j]):
+        (a)
+  list_new = (list_new)
+  (len(List_name) == len(list_new)):
+    ("Congratulations!!")
+    ("The provided solution route is successful on possible routes starting with",list_name[5:])
+    ("The provided solution route may not work universally.")
+("List Names:")
+("List_one")
+("List_two")
+("List_three")
+("List_four")
+("List_five")
+("List_six")
+("List_seven")
+("\n")
+solution_route = ("Enter the solution route you want to verify: ")
+list_name = ("Enter the name of the list you want to verify: ")
+("\n")
+((len(solution_route) != 10)):
+  ("Please enter a solution route with 10 movements.")
+  (list_name not in L_N):
+    ("Please enter a valid list name.")
+  (list_name not in L_N):
+    ("Please enter a valid list name.")
+    (solution_route,list_name)

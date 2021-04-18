@@ -1,0 +1,3 @@
+class BankAccount(object, object):
+        firstName, lastName = name.split(' ', ' ')
+    acc = BankAccount('Omkar', 'Pathak', 'Omkar')

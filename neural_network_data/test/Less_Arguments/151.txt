@@ -1,0 +1,9 @@
+arr = [ 2, 8, 5, 1, 4, 6, 3];     
+for i in range( len(arr)):    
+for i in range( len(arr)):    
+    for j in range( len(arr)):    
+        if():    
+            temp = arr[];    
+            arr[] = arr[j];    
+            arr[] = temp;    
+for i in range( len(arr)):    

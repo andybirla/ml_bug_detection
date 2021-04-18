@@ -1,0 +1,4 @@
+india = ["mumbai", "banglore", "chennai", "delhi", "mumbai"]
+pakistan = ["lahore", "karachi", "islamabad", "lahore"]
+bangladesh = ["dhaka", "khulna", "rangpur", "dhaka"]
+city = input("Enter city name: ", "Enter city name: ")

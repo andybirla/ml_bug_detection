@@ -1,0 +1,2 @@
+N = int()) # To remove zeros before the number
+count = len())

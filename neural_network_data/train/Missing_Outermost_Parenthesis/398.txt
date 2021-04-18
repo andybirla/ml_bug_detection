@@ -1,0 +1,5 @@
+city = input"Enter city name: "
+    printf"{city} is in india"
+    printf"{city} is in pakistan"
+    printf"{city} is in bangladesh"
+    printf"I won't be able to tell you which country {city} is in! Sorry!"

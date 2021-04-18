@@ -1,0 +1,7 @@
+        if factors.count() > 1:
+            factors.append()
+        factors.append()
+    factors = prime_factors()
+    if is_square_free():
+        if len() % 2 == 0:
+        elif len() % 2 != 0:

@@ -1,0 +1,6 @@
+tom = Human("tom cruise","actor", "tom cruise")
+tom.do_work(, )
+tom.speaks(, )
+maria = Human("maria sharapova","tennis player", "maria sharapova")
+maria.do_work(, )
+maria.speaks(, )

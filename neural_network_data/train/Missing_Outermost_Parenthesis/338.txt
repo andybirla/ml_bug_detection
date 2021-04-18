@@ -1,0 +1,22 @@
+video_name = input"Name of the video file that you want to play:    "
+video_directory_guess = input"Directory that may contain the video:    "
+def find_the_videofile_name, directory_name:
+    for path, subdirs, files in os.walkdirectory_name:
+            iffile_name == name:
+                file_path = os.path.joinpath, name
+                files_found.appendfile_path
+    printfiles_found
+video_directory = Pathfind_the_video(video_name, video_directory_guess)
+os.chdirnew_working_directory
+video_path = find_the_videovideo_name, video_directory_guess
+def PlayVideovideo_path:
+    video = cv2.VideoCapturevideo_path
+    player = MediaPlayervideo_path
+        grabbed, frame = video.read
+        audio_frame, val = player.get_frame
+            print"End of video"
+        if cv2.waitKey28 & 0xFF == ord("q"):
+        cv2.imshow"Video", frame
+    video.release
+    cv2.destroyAllWindows
+PlayVideovideo_path

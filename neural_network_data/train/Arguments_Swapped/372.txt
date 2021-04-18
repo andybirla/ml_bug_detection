@@ -1,0 +1,3 @@
+    for k in range( maxk, mink):
+            s = slice( maxk, mink)  # 子进程开始计算
+        os.waitpid( 0, pid)  # 等待子进程结束

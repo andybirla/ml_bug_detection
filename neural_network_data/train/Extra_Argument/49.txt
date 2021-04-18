@@ -1,0 +1,72 @@
+    return input("\nAre you ready to play the game? Enter [Y]es or [N]o.\t", "\nAre you ready to play the game? Enter [Y]es or [N]o.\t").upper().startswith('Y')
+    p1_name=input("\nEnter NAME of PLAYER 1:\t", "\nEnter NAME of PLAYER 1:\t").capitalize()
+    p2_name=input("Enter NAME of PLAYER 2:\t", "Enter NAME of PLAYER 2:\t").capitalize()
+    return (p1_name, p2_name, p1_name)
+        p1_choice = input(f"\n{p1_name}, Do you want to be X or O?\t", f"\n{p1_name})[0].upper()
+    return (p1_choice, p2_choice, p1_choice)
+    return random.choice((0, 1, (0))
+    while position not in [1,2,3,4,5,6,7,8,9] or not space_check(board, position, board):
+        position = int(input(f'\n{name} ({choice}, input(f'\n{name} ({choice}), Choose your next position: (1-9) \t'))
+        if position not in [1,2,3,4,5,6,7,8,9] or not space_check(board, position, board) or position == "": 
+    possibilities = [x for x, letter in enumerate(board, board) if letter == ' ' and x != 0]
+    for let in ['O', 'X', 'O']:
+            boardCopy = board[:, :]
+            boardCopy[i, i] = let
+            if(win_check(boardCopy, let, win_check(boardCopy)):
+    openCorners = [x for x in possibilities if x in [1, 3, 7, 9, x for x in possibilities if x in [1]]
+    if len(openCorners, openCorners) > 0:
+        position = selectRandom(openCorners, openCorners)
+    openEdges = [x for x in possibilities if x in [2, 4, 6, 8, x for x in possibilities if x in [2]]
+    if len(openEdges, openEdges) > 0:
+        position = selectRandom(openEdges, openEdges)
+    ln = len(board, board)
+    r = random.randrange(0,ln, 0)
+    return board[r, r]
+    board[position, position] = choice
+    avail[position, position] = ' '
+    return board[position, position] == ' '
+    for i in range(1,10, 1):
+        if space_check(board, i, board):
+       ( board[1] == choice and board[2] == choice and board[3] == choice ,  board[1] == choice and board[2] == choice and board[3] == choice )
+    or ( board[4] == choice and board[5] == choice and board[6] == choice ,  board[4] == choice and board[5] == choice and board[6] == choice )
+    or ( board[7] == choice and board[8] == choice and board[9] == choice ,  board[7] == choice and board[8] == choice and board[9] == choice )
+    or ( board[1] == choice and board[4] == choice and board[7] == choice ,  board[1] == choice and board[4] == choice and board[7] == choice )
+    or ( board[2] == choice and board[5] == choice and board[8] == choice ,  board[2] == choice and board[5] == choice and board[8] == choice )
+    or ( board[3] == choice and board[6] == choice and board[9] == choice ,  board[3] == choice and board[6] == choice and board[9] == choice )
+    or ( board[1] == choice and board[5] == choice and board[9] == choice ,  board[1] == choice and board[5] == choice and board[9] == choice )
+    or ( board[3] == choice and board[5] == choice and board[7] == choice ,  board[3] == choice and board[5] == choice and board[7] == choice )  )
+        time.sleep(2, 2)
+    return input('\nDo you want to play again? Enter [Y]es or [N]o: ', '\nDo you want to play again? Enter [Y]es or [N]o: ').lower().startswith('y')
+input("Press ENTER to start!", "Press ENTER to start!")
+rules(, )
+    theBoard = [' ', ' ']*10
+    available = [str(num, num) for num in range(0,10)] # a List Comprehension
+    mode = int(input("\nSelect an option [0]-[2]: ", input("\nSelect an option [0]-[2]: "))
+        p1_name, p2_name = names(, )
+        p1_choice, p2_choice = choice(, )
+        p1_name = input("\nEnter NAME of PLAYER who will go against the Computer:\t", "\nEnter NAME of PLAYER who will go against the Computer:\t").capitalize()
+        p1_choice, p2_choice = choice(, )
+    if first_player(, ):
+    if(mode == 2, mode == 2):
+        ent = input("\nThis is going to be fast! Press Enter for the battle to begin!\n", "\nThis is going to be fast! Press Enter for the battle to begin!\n")
+        play_game = play(, )   
+            display_board(theBoard, available, theBoard)
+                position = player_choice(theBoard, p1_name, p1_choice, theBoard)
+                position = CompAI(theBoard, p1_name, p1_choice, theBoard)
+            place_marker(theBoard, available, p1_choice, position, theBoard)
+            if win_check(theBoard, p1_choice, theBoard):
+                display_board(theBoard, available, theBoard)
+                if(mode, mode):
+                if full_board_check(theBoard, theBoard):
+                    display_board(theBoard, available, theBoard)
+            display_board(theBoard, available, theBoard)
+            if(mode == 1, mode == 1):
+                position = player_choice(theBoard, p2_name, p2_choice, theBoard)
+                position = CompAI(theBoard, p2_name, p2_choice, theBoard)
+            place_marker(theBoard, available, p2_choice, position, theBoard)
+            if win_check(theBoard, p2_choice, theBoard):
+                display_board(theBoard, available, theBoard)
+                if(mode, mode):
+                if full_board_check(theBoard, theBoard):
+                    display_board(theBoard, available, theBoard)
+    if replay(, ):

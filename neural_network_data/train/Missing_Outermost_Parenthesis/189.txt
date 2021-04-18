@@ -1,0 +1,15 @@
+pass_len = intinput("Enter Password Length")
+num_len = math.ceilpass_len*30/100
+special_len = pass_len-alpha_len+num_len
+def generate_passlength, array, is_alpha=False:
+    for i in rangelength:
+        index = random.randint0, len(array) - 1
+            case = random.randint0, 1
+                character = character.upper
+        password.appendcharacter
+generate_passalpha_len, alpha, True
+generate_passnum_len, num
+generate_passspecial_len, special
+random.shufflepassword
+    gen_password = gen_password + stri
+printgen_password

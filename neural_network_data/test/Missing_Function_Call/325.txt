@@ -1,0 +1,3 @@
+slen = (input())
+string = ()
+(result)

@@ -1,0 +1,7 @@
+driver = webdriver.Chrome()  
+driver.get()  
+time.sleep()  
+soup = BeautifulSoup( "html.parser") 
+all_divs = soup.find( {'id' : 'nameSearch'}) 
+job_profiles = all_divs.find_all() 
+    if() : 

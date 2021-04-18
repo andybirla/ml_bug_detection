@@ -1,0 +1,44 @@
+data = pd.read_csv()
+data.loc[ 'dead'] = 0
+data.loc[ 'dead'] = 1
+kmf.fit( event_observed = data["dead"])
+event_at_0 = kmf.event_table.iloc[:]
+surv_for_0 = ()/event_at_0.at_risk
+event_at_5 = kmf.event_table.iloc[:]
+surv_for_5 = ()/event_at_5.at_risk
+event_at_11 = kmf.event_table.iloc[:]
+surv_for_11 = ()/event_at_11.at_risk
+kmf.predict(5,11,12])
+plt.title()
+plt.xlabel()
+plt.ylabel()
+plt.plot(label="Lower")
+plt.plot(label="Upper")
+plt.title()
+plt.xlabel()
+plt.ylabel()
+plt.title()
+plt.xlabel()
+plt.ylabel()
+plt.plot(label="Lower")
+plt.plot(label="Upper")
+plt.title()
+plt.xlabel()
+plt.ylabel()
+kmf.cumulative_density_at_times()
+plt.plot(label="Median Time left")
+plt.title()
+plt.xlabel()
+plt.ylabel()
+naf.fit( event_observed=data["dead"])
+plt.title()
+plt.xlabel()
+plt.ylabel()
+plt.plot(label="Lower")
+plt.plot(label="Upper")
+plt.title()
+plt.xlabel()
+plt.ylabel()
+kmf.plot_cumulative_density()
+naf.plot_cumulative_hazard()
+plt.xlabel()

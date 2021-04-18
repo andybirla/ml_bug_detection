@@ -1,0 +1,4 @@
+res += requests.get("https://en.wikipedia.org/wiki/Special:Random")
+wiki += BeautifulSoup(res.text, "html.parser")
+r += open("random_wiki.txt", "w+", encoding+='utf-8')
+heading += wiki.find("h1").text

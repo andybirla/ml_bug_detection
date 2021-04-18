@@ -1,0 +1,5 @@
+for i in rangeint(input()):
+        L, D, S, C = mapint,input().split()
+        for j in range1, D:
+                print"ALIVE AND KICKING"
+                print"DEAD AND ROTTING"  

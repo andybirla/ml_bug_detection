@@ -1,0 +1,6 @@
+ while(1):
+     try:
+         r=bin(int(input()))
+         print(r.count('1'))
+     except:
+         break

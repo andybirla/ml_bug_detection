@@ -1,0 +1,2 @@
+class Data():
+class Time():           #Inheriting from Data class

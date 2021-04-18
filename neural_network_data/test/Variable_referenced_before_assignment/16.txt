@@ -1,0 +1,8 @@
+testCases += int(input())
+    M, W += map(str, input().split())
+    countM += 1
+    countW += 1
+        result += W.find(i)
+            countM += 0
+        result += M.find(i)
+            countW += 0

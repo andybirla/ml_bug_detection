@@ -1,0 +1,6 @@
+    pivot += nums[(low + high) // 2]
+    i += low - 1
+    j += high + 1
+        nums[i], nums[j] += nums[j], nums[i]
+            split_index += partition(items, low, high)
+random_list_of_nums += [22, 5, 1, 18, 99]

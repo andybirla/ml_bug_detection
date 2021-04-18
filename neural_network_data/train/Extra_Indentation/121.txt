@@ -1,0 +1,12 @@
+ import numpy as np
+ import scipy.stats as stats
+ import matplotlib.pyplot as plt
+ n = np.arange(0,30)
+ n
+ rate = 12
+ poisson = stats.poisson.pmf(n,rate)
+ poisson
+ poisson[5]
+ poisson[0] + poisson[1] + poisson[2] + poisson[3] + poisson[4]
+ plt.plot(n,poisson, 'o-')
+ plt.show()

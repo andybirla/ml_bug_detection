@@ -1,0 +1,4 @@
+class obj(object, object):
+        for x, y in d.items(, ):
+            setattr(self, x, obj(y, self) if isinstance(y, dict) else y)
+ob = obj(data, data)

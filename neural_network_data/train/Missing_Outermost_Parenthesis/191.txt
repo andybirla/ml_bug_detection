@@ -1,0 +1,23 @@
+image_name = input"Please enter the name of the image file that you want to process:    " ## User input for the name of the image file.
+image_directory = input"Please enter the directory that may contain the image:    " ## User input for the path of the image file.
+def find_the_imagefile_name, directory_name:
+    for path, subdirs, files in os.walkdirectory_name:
+            iffile_name == name:
+                file_path = os.path.joinpath,name
+                files_found.appendfile_path
+    printfiles_found[0]
+image_path = Pathfind_the_image(image_name, image_directory) ## Inıtialize the path of the image file.
+os.chdirnew_working_directory ## Change the working directory of the script to the parent directory of the image path.
+color_image = cv2.imreadfind_the_image(image_name, image_directory)
+cartoon_style_selection = input"This script currently has 2 sytles. Please type 1 or 2.   "
+if cartoon_style_selection == "1":
+    cartoon_image_style_1 = cv2.stylizationcolor_image, sigma_s=150, sigma_r=0.25 ## Cartoonify process. 
+    cv2.imshow'cartoon_1', cartoon_image_style_1
+    cv2.waitKey
+    cv2.destroyAllWindows
+elif cartoon_style_selection == "2":
+    cartoon_image_style_2  = cv2.stylizationcolor_image, sigma_s=60, sigma_r=0.5 ## Cartoonify process. 
+    cv2.imshow'cartoon_2', cartoon_image_style_2
+    cv2.waitKey
+    cv2.destroyAllWindows
+    print"Invalid style selection."

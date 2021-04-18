@@ -1,0 +1,6 @@
+integer = [ 1, 2, 3, 4]
+binary = [ "1", "10", "11", "100"]
+z = zip( binary)
+integer = [ -1, 2, 3, 5, 0, -7]
+additive_inverse = []
+integer = [ -1, 2, -2, 3, -3]

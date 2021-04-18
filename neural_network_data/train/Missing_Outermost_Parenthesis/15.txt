@@ -1,0 +1,3 @@
+s=json.dumpsbook
+with open"c://data//book.txt","w" as f:
+    f.writes

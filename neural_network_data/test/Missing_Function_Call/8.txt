@@ -1,0 +1,4 @@
+for _ in (int(input())):
+    number = ().strip()
+    count = ('4') + number.count('7')
+    (int(len(number) - count))

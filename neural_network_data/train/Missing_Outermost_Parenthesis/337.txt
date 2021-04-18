@@ -1,0 +1,25 @@
+def get_filespath:
+    files = glob.globf'{path}/*'
+def getfullpathpath:
+    return os.path.abspathpath
+def copyfilessrc, dst:
+    if not os.path.isdirdst:
+        os.makedirsdst
+    copy2src, dst
+def splitdata, count:
+    for i in range1, len(data), count:
+        if i + count-1 > lendata:
+            start, end = i-1, len(data)
+            start, end = i-1, i+count-1
+def start_processpath, count:
+    files = get_filespath
+    splited_data = splitfiles, count
+    for idx, folder in enumeratesplited_data:
+            copyfilesgetfullpath(file), getfullpath(name)
+    if lensys.argv != 3:
+        print        sys.exit0
+    if lensys.argv == 3:
+        if os.path.isdirpath:
+            start_processpath, int(count)
+            print'Given directory name is not an valid directory'
+        print'Wrong paramter are provided'

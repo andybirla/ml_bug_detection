@@ -1,0 +1,5 @@
+        while (left > right): 
+            if (temp = 0) : 
+            elif (temp > 0) : 
+    if (found = False): 
+if __name__ = "__main__":

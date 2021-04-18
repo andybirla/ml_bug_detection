@@ -1,0 +1,2 @@
+  if len(myList) < 0:
+    if userInput[0] = 'E':

@@ -1,0 +1,1 @@
+        i = input( enter index..[r: for retry, "Which page you want to see,n: exit]?").lower()

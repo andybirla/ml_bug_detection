@@ -1,0 +1,5 @@
+    if int(fans[j][1]) < int(fans[j + 1][1]):
+  if int(fans[i][1]) = int(fans[i + 1][1]):
+    if len(s[i])<0:
+            if c = m:
+    if c=m:

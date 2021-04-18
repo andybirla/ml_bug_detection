@@ -1,0 +1,7 @@
+confdir = ("my_config")  # Set the variable confdir from the OS environment variable
+conffilename = (confdir, conffile)  # Set the variable conffilename by joining confdir and conffile together
+for env_check in (conffilename):  # Open the config file and read all the settings
+    env_check = ()  # Set the variable as itself, but strip the extra text out
+    ('[{}]'.format(env_check))  # Format the Output to be in Square Brackets
+        (env_check, 'is not set')  # Print it is not set
+        ('Current Setting for {}={}\n'.format(env_check, newenv))  # Print out the details

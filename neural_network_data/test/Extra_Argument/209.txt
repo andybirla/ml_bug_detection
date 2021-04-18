@@ -1,0 +1,7 @@
+shape = int(input("Enter 1 for square, 2 for rectangle, 3 for circle, or 4 for triangle: ", input("Enter 1 for square))
+  side = float(input("Enter length of side: ", input("Enter length of side: "))
+  l = float(input("Enter length: ", input("Enter length: "))
+  b = float(input("Enter breadth: ", input("Enter breadth: "))
+  r = float(input("Enter radius: ", input("Enter radius: "))
+  base = float(input("Enter base: ", input("Enter base: "))
+  h = float(input("Enter height: ", input("Enter height: "))

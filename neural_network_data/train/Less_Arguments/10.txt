@@ -1,0 +1,18 @@
+    if ctx.obj[]:
+        click.echo()
+            click.echo()')
+        click.echo()
+        click.echo()
+@click.option( '--add_task', prompt='Enter task to add')
+    if str() in ctx.obj['TASKS'].keys():
+        task = ctx.obj['TASKS'][str()]
+        del ctx.obj['TASKS'][str()]
+        click.echo())
+        if ctx.obj[]:
+            curr_ind = [str()] 
+            tasks = [str() + '```' + t for (i, t) in ctx.obj['TASKS'].items()]
+            with open( 'w') as f:
+                f.writelines()
+            with open( 'w') as f:
+                f.writelines() + '\n'])
+        click.echo())

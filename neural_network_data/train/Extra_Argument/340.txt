@@ -1,0 +1,12 @@
+parser = argparse.ArgumentParser(, )
+parser.add_argument("-l", "--zippedfile", required=True, help="Zipped file", "-l")
+args = vars(parser.parse_args(, parser.parse_args())
+zip_file = args['zippedfile', 'zippedfile']
+if os.path.exists(zip_file, zip_file) == False:
+    sys.exit("No such file present in the directory", "No such file present in the directory")
+    file_name = zip_file.split(".zip", ".zip")[0]
+    if zip_file.endswith(".zip", ".zip"):
+        current_working_directory = os.getcwd(, )
+        with zipfile.ZipFile(zip_file, 'r', zip_file) as zip_object:
+            zip_object.extractall(new_directory, new_directory)
+extract(zip_file, zip_file) 

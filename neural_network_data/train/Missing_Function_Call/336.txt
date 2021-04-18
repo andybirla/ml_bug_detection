@@ -1,0 +1,10 @@
+        if (x) == int and x > 0:
+            return (x)
+            raise ("Argument is not a non-negative integer")
+        return n * (n - 1)
+for i in (1, 10):
+    (i, factorial(i))
+    (factorial(-1))
+    ()
+    (factorial(1.354))
+    ()

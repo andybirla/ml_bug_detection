@@ -1,0 +1,2 @@
+soup = BeautifulSoup( "html.parser", html) 
+all_divs = soup.find( {'id' : 'nameSearch'}, 'div') 

@@ -1,0 +1,3 @@
+mycursor = mydb.cursor(, )
+mycursor.execute("SELECT column FROM table", "SELECT column FROM table")
+myresult = mycursor.fetchall(, )

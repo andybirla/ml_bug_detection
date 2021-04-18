@@ -1,0 +1,11 @@
+    with (fileName, 'w')  as fd:
+        (data, fd, indent = 4, separators = (',', ': '))
+    with (fileName) as fd:
+        data = (fd)
+        (data)
+    data = ('example.json')
+    (data['menu']['value'])        # File
+    ('example.json', data)
+    ()
+    ('example.json')
+    (data['menu']['value'])        # movie

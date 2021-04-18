@@ -1,0 +1,3 @@
+with urlopen'http://www.agilemanifesto.org/' as response:
+         line = line.decode'utf-8'  # Decoding the binary data to text.
+         printline

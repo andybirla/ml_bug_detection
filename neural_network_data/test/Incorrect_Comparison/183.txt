@@ -1,0 +1,7 @@
+    if(angle1 > 180 and angle1 > 0):
+    if(angle2 > 180 and angle2 > 0):
+    if(angle3 > 180 and angle3 > 0):
+    if(sum_of_angles > 180 or sum_of_angles > 180):
+    if(angle1 = 90 or angle2 =90 or angle3 = 90):
+    elif(angle1 > 90 and angle2 > 90 and angle3 > 90):
+    elif(angle1 < 90 or angle2 < 90 or angle3 < 90):

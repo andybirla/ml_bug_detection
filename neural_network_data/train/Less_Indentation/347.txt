@@ -1,0 +1,12 @@
+   print("setting up")
+   db = MyDB()
+   conn = db.connect("server")
+   curs = conn.cursor()
+   yield curs
+   curs.close()
+   conn.close()
+   print("closing DB")
+   id = cur.execute("select id from employee_db where name=John")
+   assert id == 123
+   id = cur.execute("select id from employee_db where name=Tom")
+   assert id == 789

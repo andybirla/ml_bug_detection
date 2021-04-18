@@ -1,0 +1,3 @@
+firstArray = np.arange().reshape(3, 4)
+secondArray = np.arange()
+array = np.array( 2, 3])

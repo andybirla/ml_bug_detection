@@ -1,0 +1,10 @@
+n = int())
+array = [int() for i in input().split()]
+array.insert( 0)
+q = int())
+  while():
+    mid = () // 2
+    if array[] == element:
+    elif array[] < element:
+for i in range():
+  number = int())

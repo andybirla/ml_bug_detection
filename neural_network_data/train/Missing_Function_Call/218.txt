@@ -1,0 +1,3 @@
+    for i in (len(List)):
+        for j in (len(List) - 1, i, -1):
+    ('Sorted List:',bubbleSort(List))

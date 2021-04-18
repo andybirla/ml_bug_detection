@@ -1,0 +1,7 @@
+    x = int())
+    for ans in range( abs(x) + 1):
+        if ans ** 3 == abs():
+    if ans ** 3 != abs():
+cont = str())
+    cont = str())
+        cont = str())

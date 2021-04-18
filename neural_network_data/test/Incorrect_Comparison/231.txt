@@ -1,0 +1,14 @@
+   if len(data) < 0:
+   if len(data) = 0:
+      bol = input("For more details -<(y) (y/n) :: ")
+      if bol = "y":
+   if len(data) < 0:
+         bol = input("\nFor more details -<(y) (y/n) :: ")
+         if bol = "y" or bol = "Y":
+if __name__ = "__main__":
+   if say = 1:
+      if length = 0:
+         if speak = "y":
+            if length = 0:
+      elif say = 2:
+         if length = 0:

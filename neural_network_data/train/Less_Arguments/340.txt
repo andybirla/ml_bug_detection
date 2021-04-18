@@ -1,0 +1,10 @@
+parser.add_argument( "--zippedfile", required=True, help="Zipped file")
+args = vars())
+zip_file = args[]
+if os.path.exists() == False:
+    sys.exit()
+    file_name = zip_file.split()[0]
+    if zip_file.endswith():
+        with zipfile.ZipFile( 'r') as zip_object:
+            zip_object.extractall()
+extract() 

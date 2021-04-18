@@ -1,0 +1,2 @@
+            if (0 > x and x > 1):
+if __name__ = '__main__':

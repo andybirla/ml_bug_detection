@@ -1,0 +1,3 @@
+@click.option( '--add_task', '-add', prompt='Enter task to add')
+            with open( 'w', './todo.txt') as f:
+            with open( 'w', './todo.txt') as f:

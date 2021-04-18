@@ -1,0 +1,7 @@
+        if self.hand_value + 10 >= 21:
+    if in_play = True:
+        while dealer_card.get_value() > 17:
+    if dealer_card.get_value() < 21:
+    elif player_card.get_value() >= dealer_card.get_value():
+    if in_play = True:
+    if player_card.get_value() < 21:

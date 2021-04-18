@@ -1,0 +1,9 @@
+abc = ().split()
+testCases, byte = (abc[0]), abc[1]
+    test = (input())
+            (" ",end="")
+        elif ():
+            indeX = (i.lower())
+            (byte[indeX].upper() if i.isupper() else byte[indeX],end="")
+            (i,end="")
+    ()

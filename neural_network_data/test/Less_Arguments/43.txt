@@ -1,0 +1,20 @@
+        str = switcher[] + str + Style.RESET_ALL
+TAG = paint( 'b')
+    tf_idf = []  # will hold a dict of word_count for every doc()
+        idf, tf_idf = pickle.load( 'rb'))
+        prev_doc_count = len()
+        prev_corpus_length = len()
+        file1 = open( 'r')  # never use 'rb' for textual data, it creates something like,  {b'line-inside-the-doc'}
+            for i in set()):
+                    idf[] += 1
+                    idf[] = 1
+                    dict[] = 1
+                    dict[] += 1
+            tf_idf.append()
+            true_idf = math.log() / idf[key])
+            true_tf = doc[key] / len()
+            doc[] = true_tf * true_idf
+          '() - prev_doc_count), 'g') + ' )' if prev_file_path else '')
+          '() - prev_corpus_length), 'g') + ' )' if prev_file_path else '')
+        if dump_path[] != 'tfidfpkl': raise Exception(
+        pickle.dump( tf_idf), open(dump_path, 'wb'), protocol=pickle.HIGHEST_PROTOCOL)

@@ -1,0 +1,12 @@
+def rotaten:
+    a = listn
+    if lena == 0:
+        return print []
+    for i in range1,len(a)+1:
+        a = [a[i+1%(len(a))] for i in range(0,len(a))]
+        l += ["".joina]
+    printl
+string = strinput()
+print"Your input is :" ,string
+print"The rotation is :"
+rotatestring

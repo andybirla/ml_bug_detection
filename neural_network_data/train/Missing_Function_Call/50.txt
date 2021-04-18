@@ -1,0 +1,12 @@
+(level=logging.INFO)
+    (f'Testing proxy: {proxy_address}')
+            r = (f'https://{iptest}', proxies=proxies)
+            r = (f'http://{iptest}', proxies=proxies)
+            json_response: dict = ()
+    (f'Proxy {proxy_address}: {proxy_status}')
+    csv_path: Path = (csv_path)
+    if ():
+        pr_file: pd.DataFrame = (csv_path)
+    for index, proxy in ():
+    (csv_path, proxies)
+            (proxy, iptest, csv_path)

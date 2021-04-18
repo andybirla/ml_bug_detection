@@ -1,0 +1,7 @@
+testCases += int(input())
+    n += input()
+    myList += []
+    count += 0
+    check += input().split()
+      max += int(check[0])
+            max += int(check[i])

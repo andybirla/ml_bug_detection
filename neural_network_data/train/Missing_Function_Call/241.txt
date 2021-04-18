@@ -1,0 +1,6 @@
+class (object):
+        myString = ' (str(i) for i in self.queue)
+        (self.isEmpty() != True):
+            return ()
+            ('Queue is Empty!')
+        return (self.queue) == self.size

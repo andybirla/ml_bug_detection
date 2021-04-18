@@ -1,0 +1,4 @@
+os.mkdir()
+for i in range(10):
+    os.rename(),'newDir' + str(i + 1))
+    time.sleep()

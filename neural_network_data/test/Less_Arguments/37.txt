@@ -1,0 +1,5 @@
+testCases = int())
+for _ in range():
+    n = int())
+    for i in range( n + 1):
+        for j in range( n + 1):

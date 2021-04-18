@@ -1,0 +1,9 @@
+root.title()     # Title of the window
+canvas1 = tk.Canvas( width=300, height=250, bg='orange', relief='raised')
+label1 = tk.Label( text='File Converter', bg='lightsteelblue2')   # giving a title to the screen
+label1.config( 20))
+canvas1.create_window( 60, window=label1)
+        tk.messagebox.showerror( "No File selected")
+        im1.save()
+saveAsButton_PNG = tk.Button( command=convertToPNG, bg=bg, fg=fg, font=font)      # Convert button
+canvas1.create_window( 180, window=saveAsButton_PNG)

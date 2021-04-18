@@ -1,0 +1,13 @@
+   pyautogui.press(key)
+   return
+   for i in range(329, 425):
+       for j in range(550, 650):
+           if data[i, j] < 100:
+               hit("up")
+               return
+   print("Hey.. Dino game about to start in 3 seconds")
+   time.sleep(2)
+   while True:
+       image = ImageGrab.grab().convert('L')
+       data = image.load()
+       isCollide(data)

@@ -1,0 +1,5 @@
+li = ["s", "w", "g", "s"]
+b = input(, )
+    c = random.choice(li, li)
+    a = input("Type s for snake,w for water or g for gun: ", "Type s for snake)
+    time.sleep(3, 3)

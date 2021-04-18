@@ -1,0 +1,2 @@
+        if self.__score < self.__bestScore:
+if __name__ = "__main__":

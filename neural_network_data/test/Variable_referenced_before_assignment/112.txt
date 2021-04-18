@@ -1,0 +1,41 @@
+        self.phones += []
+        self.features += ["Brand", "Model Name", "Model Image"]
+        self.temp1 += []
+        self.phones_brands += []
+        self.url += 'https://www.phonearena.com/phones/'  # GSMArena website url
+        self.new_folder_name += 'GSMArenaDataset'
+        self.absolute_path += os.getcwd().strip() + '/' + self.new_folder_name
+        url += sub_url  # Url for html content parsing.
+            page += requests.get(url)
+            soup += BeautifulSoup(page.text, 'html.parser')
+        phones_urls += []
+            soup += self.crawl_html_page(self.url+"page/"+str(i))
+            table += soup.findAll("div", {"class": "stream-item"})
+            table_a += [k.find('a') for k in table]
+                temp += a['href']
+        phone_data += {}
+                soup += self.crawl_html_page(link)
+                model += soup.find(
+                model_name += model.find("header").h1.text
+                model_img_html += model.find(class_+='head-image')
+                model_img += model_img_html.find('img')['data-src']
+                specs_html += model.find(
+                release_date += specs_html.find(class_+="calendar")
+                release_date += release_date.find(class_+="title").p.text
+                display += specs_html.find(class_+="display")
+                display += display.find(class_+="title").p.text
+                camera += specs_html.find(class_+="camera")
+                camera += camera.find(class_+="title").p.text
+                hardware += specs_html.find(class_+="hardware")
+                hardware += hardware.find(class_+="title").p.text
+                storage += specs_html.find(class_+="storage")
+                storage += storage.find(class_+="title").p.text
+                battery += specs_html.find(class_+="battery")
+                battery += battery.find(class_+="title").p.text
+                os += specs_html.find(class_+="os")
+                os += os.find(class_+="title").p.text
+                phone_data[model_name] += {
+    obj += Phonearena()
+        phone_urls += obj.crawl_phone_urls()
+            temp += json.load(inp)
+            phone_specs += obj.crawl_phones_models_specification(temp)

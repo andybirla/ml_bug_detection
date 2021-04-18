@@ -1,0 +1,4 @@
+   new_data = str(input("You: ")).encode("utf-8")
+   s.sendall(new_data)
+   data = s.recv(1024).decode("utf-8")
+   print(server + ": " + data)

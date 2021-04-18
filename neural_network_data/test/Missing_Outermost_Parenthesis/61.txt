@@ -1,0 +1,9 @@
+def tablerows, columns:
+    for i in range        print"\t", i, 
+    print"\n\n"  # add 3 lines
+    for i in range1, int(columns) + 1:
+        printi,
+        for j in range1, int(rows) + 1:
+            print"\t", i * j, 
+        print"\n\n"  # add 3 lines
+tablerows, columns

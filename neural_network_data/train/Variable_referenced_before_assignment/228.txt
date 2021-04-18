@@ -1,0 +1,4 @@
+myFunc += lambda x, y: x * y  
+myList += [i for i in range(10)]
+myFunc2 += lambda x: x * x
+squares += list(map(myFunc2, myList))

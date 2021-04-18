@@ -1,0 +1,15 @@
+class Queue(object):
+    def __init__(self, size):
+        self.queue = []
+        self.size = size
+    def __str__(self):
+        myString = ' '.join(str(i) for i in self.queue)
+        return myString
+    def enqueue(self, item):
+        if(self.isEmpty() != True):
+            return self.queue.pop()
+        else:
+            print('Queue is Empty!')
+    def isEmpty(self):
+        return len(self.queue) == self.size
+    def peek(self):

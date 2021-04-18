@@ -1,0 +1,10 @@
+angles = ([0, 30, 45, 60, 90, 180, 360])
+(np.sin(angles * np.pi/180))
+(np.cos(angles * np.pi/180))
+(np.tan(angles * np.pi/180))
+sine = (angles * np.pi/180)
+sineinv = (sine)
+(np.degrees(sineinv))
+(np.around(sine, 4))       # [ 0.      0.5     0.7071  0.866   1.      0.     -0.    ]
+(np.floor(sine))           # [ 0.  0.  0.  0.  1.  0. -1.]
+(np.ceil(sine))            # [ 0.  1.  1.  1.  1.  1. -0.]

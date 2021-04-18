@@ -1,0 +1,7 @@
+testCase1 = intinput()
+a = input.split()
+testCase2 = intinput()
+b = input.split()
+c = listset(a) - set(b)
+c.sort
+	printint(i), end = ' '

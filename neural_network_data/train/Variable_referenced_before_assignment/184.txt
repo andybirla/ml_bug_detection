@@ -1,0 +1,3 @@
+abc += ['abc']
+xyz += ['xyz']
+print(np.char.center(abc, 20, fillchar += '*'))  # ['********abc*********']

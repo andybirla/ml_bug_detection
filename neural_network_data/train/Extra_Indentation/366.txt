@@ -1,0 +1,13 @@
+ import pandas as pd
+ import numpy as np
+ from sklearn.datasets import load_iris
+ from sklearn.preprocessing import StandardScaler
+ import matplotlib.pyplot as plt
+ x = df.drop(labels='class', axis=1).values
+ y = df['class'].values
+ print(x.shape, y.shape)
+ std = StandardScaler()
+ transformed = StandardScaler().fit_transform(x)
+ x_std = pca.transform(transformed)
+ plt.figure()
+ plt.scatter(x_std[:, 0], x_std[:, 1], c=y)

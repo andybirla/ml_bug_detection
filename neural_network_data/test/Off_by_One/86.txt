@@ -1,0 +1,3 @@
+nextbutton.bind("<=Button-1>",nextsong)
+previousbutton.bind("<=Button-1>",prevsong)
+stopbutton.bind("<=Button-1>",stopsong)

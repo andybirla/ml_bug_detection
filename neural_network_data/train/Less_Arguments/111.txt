@@ -1,0 +1,20 @@
+data = requests.get().text
+data2 = json.loads() #brings whether request was successful,timestamp etc
+fx = data2[]
+    "AUD : Australian Dollar,Australia Dollar,Christmas Island,Cocos () Islands,Norfolk Island,Ashmore and Cartier Islands,Australian Antarctic Territory,Coral Sea Islands,Heard Island,McDonald Islands,Kiribati,Nauru",
+    "EUR : Euro,Euro Member Countries,Andorra,Austria,Azores,Baleares (),Belgium,Canary Islands,Cyprus,Finland,France,French Guiana,French Southern Territories,Germany,Greece,Guadeloupe,Holland (Netherlands),Holy See (Vatican City),Ireland (Eire),Italy,Luxembourg,Madeira Islands,Malta,Monaco,Montenegro,Netherlands",
+    "FKP : Falkland Island Pound,Falkland Islands () Pound",
+    "GBP : British Pound,United Kingdom Pound,United Kingdom (),England,Northern Ireland,Scotland,Wales,Falkland Islands,Gibraltar,Guernsey,Isle of Man,Jersey,Saint Helena and Ascension,South Georgia and the South Sandwich Islands,Tristan da Cunha",
+    "KPW : North Korean Won,Korea () Won",
+    "KRW : South Korean Won,Korea () Won",
+    "MMK : Burmese Kyat,Myanmar () Kyat",
+    "MVR : Maldivian Rufiyaa,Maldives () Rufiyaa",
+    "NPR : Nepalese Rupee,Nepal Rupee,India ()",
+    "XAF : Central African CFA Franc BEAC,Communaut&#233; Financi&#232;re Africaine () CFA Franc BEAC,Cameroon,Central African Republic,Chad,Congo/Brazzaville,Equatorial Guinea,Gabon",
+    "XDR : IMF Special Drawing Rights,International Monetary Fund () Special Drawing Rights",
+    "XOF : CFA Franc,Communaut&#233; Financi&#232;re Africaine () Franc,Benin,Burkina Faso,Ivory Coast,Guinea-Bissau,Mali,Niger,Senegal,Togo",
+    "XPF : CFP Franc,Comptoirs Fran&#231;ais du Pacifique () Franc,French Polynesia,New Caledonia,Wallis and Futuna Islands",
+        "Please specify the amount of currency to convert, from currency, to currency ().\nPress SHOW to see list of currencies available. \nPress Q to quit. \n"
+        qty, fromC, toC = query.split()
+        qty = float(), 2))
+        amount = round( 2)

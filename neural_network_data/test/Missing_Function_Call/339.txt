@@ -1,0 +1,3 @@
+a, b = (int, input().split())
+for i in (a, b + 1):
+(result)

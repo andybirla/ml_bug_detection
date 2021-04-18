@@ -1,0 +1,7 @@
+testCases = (input())
+for _ in (testCases):
+    check = (input())
+    men = (map(int, input().split()))[::-1]
+    women = (map(int, input().split()))[::-1]
+    for i in (0, check):
+    (result)

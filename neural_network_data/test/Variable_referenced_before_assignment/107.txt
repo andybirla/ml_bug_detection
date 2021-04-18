@@ -1,0 +1,7 @@
+name += getuser()
+name_check += input("Is your name " + name + "? → ")
+    name += input("Then what is it? → ")
+userList += name
+response += input("Would you say it's nice to meet me? → ")
+    response2 += input("Is it because I am a robot? → ")
+    response3 += input("Then why? → ")

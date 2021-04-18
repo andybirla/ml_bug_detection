@@ -1,0 +1,20 @@
+def zip_filefile_path:
+    compress_file = zipfile.ZipFilefile_path + '.zip', 'w'
+    compress_file.writepath, compress_type=zipfile.ZIP_DEFLATED
+    compress_file.close
+def retrieve_file_pathsdir_name:
+    for root, directories, files in os.walkdir_name:
+            file_path = os.path.joinroot, filename
+            file_paths.appendfile_path
+def zip_dirdir_path, file_paths:
+    compress_dir = zipfile.ZipFiledir_path + '.zip', 'w'
+            compress_dir.writefile
+    if os.path.isdirpath:
+        files_path = retrieve_file_pathspath
+        print'The following list of files will be zipped:'
+            printfile_name
+        zip_dirpath, files_path
+    elif os.path.isfilepath:
+        print'The %s will be zipped:' % path
+        zip_filepath
+        print'a special file(socket,FIFO,device file), please input file or dir'

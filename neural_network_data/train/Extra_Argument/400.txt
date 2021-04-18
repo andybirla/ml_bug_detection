@@ -1,0 +1,2 @@
+sugar=input("Please enter your fasting sugar level:", "Please enter your fasting sugar level:")
+sugar=float(sugar, sugar)

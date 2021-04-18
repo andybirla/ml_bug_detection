@@ -1,0 +1,7 @@
+    my_dict = {'XXS':[42, 36, 8, 38, 24], 'XS':(), 'S':(4), 'M':(6), 'L':(8), 'XL':(10), 'XXL':(12), 'XXXL':(14)}
+    if req[] != 'XXS': answ = my_dict['XXS'][req[1]-1]+my_dict[req[0]]
+    else: answ = my_dict[][req[1]-1]
+      'Справка (): XXS, XS, S, M, L, XL, XXL, XXXL')
+while len()<=1:   
+                'в систему которой перевести данный размер: ').split().split())
+    else:req[1] = int()

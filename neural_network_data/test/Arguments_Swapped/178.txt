@@ -1,0 +1,11 @@
+    myPen.goto( points[0][1], points[0][0])
+    myPen.goto( points[1][1], points[1][0])
+    myPen.goto( points[2][1], points[2][0])
+    myPen.goto( points[0][1], points[0][0])
+                  getMid( points[1], points[0]),
+                  getMid( points[2], points[0])],
+                  getMid( points[1], points[0]),
+                  getMid( points[2], points[1])],
+                  getMid( points[1], points[2]),
+                  getMid( points[2], points[0])],
+triangle( int(sys.argv[1], points))

@@ -1,0 +1,55 @@
+def spherex:
+  c = np.cumsump
+  r = sump * np.random.rand()
+  ind = np.argwherer <= c
+def crossoverp1, p2:
+  y = copy.deepcopyc
+  flag = np.random.rand*(c['position'].shape) <= mu  # array of True and Flase, indicating at which position to perform mutation
+  ind = np.argwhereflag
+  y['position'][ind] += sigma * np.random.randn*ind.shape
+def boundsc, varmin, varmax:
+  n = lenarr
+  for i in rangen-1:
+    for j in range0, n-i-1:
+def gacostfunc, num_var, varmin, varmax, maxit, npop, num_children, mu, sigma, beta:
+  for i in rangenpop:                                                         # each inidivdual has position(chromosomes) and cost,
+    population[i] = {'position': None, 'cost': None}                            # create individual as many as population sizenpop
+  bestsol = copy.deepcopypopulation
+  for i in rangenpop:
+      population[i]['position'] = np.random.uniformvarmin, varmax, num_var    # randomly initialize the chromosomes and cost
+      population[i]['cost'] = costfuncpopulation[i]['position']
+      if population[i]['cost'] < bestsol_cost:                                  # if cost of an individual is lessbest than best cost,
+        bestsol = copy.deepcopypopulation[i]                                  # replace the best solution with that individual
+  bestcost = np.emptymaxit
+  for it in rangemaxit:
+    for i in rangelen(population):
+      costs.appendpopulation[i]['cost']                                       # list of all the population cost
+    costs = np.arraycosts
+    avg_cost = np.meancosts                                                   # taking average of the costs
+    probs = np.exp-beta*costs                                                 # probability is exponensial of -ve beta times costs
+    for _ in rangenum_children//2:                                            # we will be having two off springs for each crossover
+      p1 = population[roulette_wheel_selectionprobs]
+      p2 = population[roulette_wheel_selectionprobs]
+      c1, c2 = crossoverp1, p2
+      c1 = mutatec1, mu, sigma
+      c2 = mutatec2, mu, sigma
+      boundsc1, varmin, varmax
+      boundsc2, varmin, varmax
+      c1['cost'] = costfuncc1['position']                                     # calculate cost function of child 1
+      if typebestsol_cost == float:
+          bestsol_cost = copy.deepcopyc1
+          bestsol_cost = copy.deepcopyc1
+        bestsol_cost = copy.deepcopyc2
+    population[lenpopulation] = c1
+    population[lenpopulation] = c2
+    population = sortpopulation
+    print'Iteration {}: Best Cost = {}'. format(it, bestcost[it])
+  return out, Bestsol, bestcost
+num_children = intnp.round(prop_children * npop/2)*2   # making sure it always an even number
+out = gacostfunc, num_var, varmin, varmax, maxit, npop, num_children, mu, sigma, beta
+plt.plotout[2]
+plt.xlim0, maxit
+plt.xlabel'Generations'
+plt.ylabel'Best Cost'
+plt.title'Genetic Algorithm'
+plt.gridTrue

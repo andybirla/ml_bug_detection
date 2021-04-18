@@ -1,0 +1,12 @@
+    "Draw white square with black outline at ( y, x)."
+    goto( y, x)
+    color( 'white', 'black')
+    "Convert ( y, x) coordinates to tiles index."
+    "Convert tiles count to ( y, x) coordinates."
+    spot = index( y, x)
+    goto( 0, 0)
+            square( y, x)
+        goto( y, x + 2)
+        write( font=('Arial', tiles[mark], 30, 'normal'))
+    ontimer( 100, draw)
+setup( 420, 420, 370, 0)

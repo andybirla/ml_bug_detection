@@ -1,0 +1,4 @@
+logsdir += "c:\logs\puttylogs"  # Set the Variable logsdir
+zipdir += "c:\logs\puttylogs\zipped_logs"  # Set the Variable zipdir - 1.2
+zip_program += "zip.exe"  # Set the Variable zip_program - 1.1
+        files1 += files + "." + strftime(

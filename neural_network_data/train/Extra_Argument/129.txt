@@ -1,0 +1,7 @@
+class Data(object, object):
+class Time(Data, Data):           #Inheriting from Data class
+    data = Data(, )
+    time = Time(, )
+    data.getData(, )
+    time.getTime(, )
+    time.getData(, )          #Inherited Data method

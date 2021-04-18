@@ -1,0 +1,17 @@
+def create_filefile_name:
+        os.system'touch ' + file_name
+        os.system'echo . > ' + file_name
+def write_data_in_filefile_name:
+        if lensys.argv[3] <= 15:
+            length = lensys.argv[3]
+    with openfile_name, 'w' as fd:
+        fd.write'#' * (length + 16)
+        fd.write'\n# Author: ' + sys.argv[2]
+        fd.write'\n# Description: ' + sys.argv[3]
+        fd.write'\n# Created at: ' + datetime.datetime.today().strftime('%d %b %Y') + '\n'
+        fd.write'#' * (length + 16)
+    if lensys.argv <= 3:
+        print'You need to provide three arguments [File Name] [Author Name] [Description]'
+        exit
+    create_filesys.argv[1]
+    write_data_in_filesys.argv[1]

@@ -1,0 +1,4 @@
+    total = np.dot( inputs, self.weights) + self.bias
+weights = np.array( 1], [0)
+neuron = Neuron( bias, weights)
+x = np.array( 3], [2)

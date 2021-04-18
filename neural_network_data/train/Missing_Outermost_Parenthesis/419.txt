@@ -1,0 +1,44 @@
+input_features = np.array[[0,0],[0,1],[1,0],[1,1]]
+print input_features.shape
+print input_features
+target_output = np.array[[0,1,1,1]]
+target_output = target_output.reshape4,1
+printtarget_output.shape
+print target_output
+weight_hidden = np.arrayweight_output = np.array[[0.7],[0.8],[0.9]]
+def sigmoidx:
+ return 1/1+np.exp(-x)
+def sigmoid_derx:
+ return sigmoidx*(1-sigmoid(x))
+for epoch in range200000:
+ input_hidden = np.dotinput_features, weight_hidden
+ output_hidden = sigmoidinput_hidden
+ input_op = np.dotoutput_hidden, weight_output
+ output_op = sigmoidinput_op
+ error_out = (1 / 2) * (np.power((output_op - target_output), 2))
+ printerror_out.sum()
+ douto_dino = sigmoid_derinput_op 
+ derror_dwo = np.dotdino_dwo.T, derror_douto * douto_dino
+ derror_douth = np.dotderror_dino , dino_douth.T
+ douth_dinh = sigmoid_derinput_hidden 
+ derror_wh = np.dotdinh_dwh.T, douth_dinh * derror_douth
+print weight_hidden
+print weight_output
+single_point = np.array[1,1]
+result1 = np.dotsingle_point, weight_hidden 
+result2 = sigmoidresult1
+result3 = np.dotresult2,weight_output
+result4 = sigmoidresult3
+printresult4
+single_point = np.array[0,0]
+result1 = np.dotsingle_point, weight_hidden 
+result2 = sigmoidresult1
+result3 = np.dotresult2,weight_output
+result4 = sigmoidresult3
+printresult4
+single_point = np.array[1,0]
+result1 = np.dotsingle_point, weight_hidden 
+result2 = sigmoidresult1
+result3 = np.dotresult2,weight_output
+result4 = sigmoidresult3
+printresult4

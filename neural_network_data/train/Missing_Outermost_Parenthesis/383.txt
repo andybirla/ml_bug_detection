@@ -1,0 +1,83 @@
+    def __init__self, query, location, file_name, progressbar, label_progress:
+    def inner_htmlelement:
+        return element.decode_contentsformatter="html"
+    def get_namebody:
+        return body.find'span', {'class': 'jcn'}.a.string
+    def which_digithtml:
+                       'icon-fe': '        return mapping_dict.gethtml, ''
+    def get_phone_numberself, body:
+            for item in body.find'p', {'class': 'contact-info'}:
+                        for element in item.find_allclass_=True:
+                            classes.extendelement["class"]
+                            phone_no += str(self.which_digit(classes[1]))
+        soup = BeautifulSoupbody, 'html.parser'
+        for a in soup.find_all'a', {"id": "whatsapptriggeer"}:
+            phone_no = stra['href'][-10:]
+    def get_ratingbody:
+        text = body.find'span', {'class': 'star_m'}
+                rating += floatitem['class'][0][1:] / 10
+    def get_rating_countbody:
+        text = body.find'span', {'class': 'rt_count'}.string
+        rating_count = ''.joini for i in text if i.isdigit()
+    def get_addressbody:
+        return body.find'span', {'class': 'mrehover'}.text.strip()
+    def get_locationbody:
+        text = body.find'a', {'class': 'rsmap'}
+        text_list = text['onclick'].split","
+        latitude = text_list[3].strip.replace("'", "")
+        longitude = text_list[4].strip.replace("'", "")
+    def start_scrapping_logicself:
+        total_url = "https://www.justdial.com/{0}/{1}".formatself.location, self.query
+        out_file = open'{0}.csv'.format(self.file_name), 'w'
+        csvwriter = csv.DictWriterout_file, delimiter=',', fieldnames=fields
+        csvwriter.writerow                self.label_progress['text'] = "{0}{1}".formatprogress_value, '%'
+            print"{0} {1}, {2}".format("Scrapping page number: ", page_number, url)
+            req = urllib.request.Requesturl, headers={'User-Agent': "Mozilla/5.0 (Windows NT 6.1; Win64; x64)"}
+            page = urllib.request.urlopenreq
+            soup = BeautifulSouppage.read(), "html.parser"
+            services = soup.find_all'li', {'class': 'cntanr'}
+            self.label_progress['text'] = "{0}{1}".formatprogress_value, '%'
+                    name = self.get_nameservice_html
+                    printname
+                    phone = self.get_phone_numberservice_html
+                    rating = self.get_ratingservice_html
+                    count = self.get_rating_countservice_html
+                    address = self.get_addressservice_html
+                    location = self.get_locationservice_html
+                        print'getting phone number'
+                    csvwriter.writerowdict_service
+                    print"#" + str(service_count) + " ", dict_service
+                    print"AttributeError Occurred 101"
+        out_file.close
+    def __init__self, master:
+    def start_scrappingself:
+        query = self.entry_query.get
+        location = self.entry_location.get
+        file_name = self.entry_file_name.get
+        scrapper = ScrapperLogicquery, location, file_name, self.progress, self.label_progress
+        t1 = threading.Threadtarget=scrapper.start_scrapping_logic, args=[]
+        t1.start
+    def startself:
+        self.label_query = Labelself.master, text='Query'
+        self.label_query.gridrow=0, column=0
+        self.entry_query = Entryself.master, width=23
+        self.entry_query.gridrow=0, column=1
+        self.label_location = Labelself.master, text='Location'
+        self.label_location.gridrow=1, column=0
+        self.entry_location = Entryself.master, width=23
+        self.entry_location.gridrow=1, column=1
+        self.label_file_name = Labelself.master, text='File Name'
+        self.label_file_name.gridrow=2, column=0
+        self.entry_file_name = Entryself.master, width=23
+        self.entry_file_name.gridrow=2, column=1
+        self.label_progress = Labelself.master, text='0%'
+        self.label_progress.gridrow=3, column=0
+        self.button_start = Buttonself.master, text="Start", command=self.start_scrapping
+        self.button_start.gridrow=3, column=1
+        self.progress = Progressbarself.master, orient=HORIZONTAL, length=350, mode='determinate'
+        self.progress.gridrow=4, columnspan=2
+    root = Tk
+    root.geometry'350x130+600+100'
+    root.title"Just Dial Scrapper - Cool"
+    JDScrapperGUIroot.start()
+    root.mainloop

@@ -1,0 +1,36 @@
+    input_len += len(entry.get())
+    input_info += entry.get()
+        output += str(eval(input_info.strip()))
+        output += ""
+    popup += Tk()
+    label += Label(popup, text+="Cannot divide by 0 ! \n Enter valid values")
+    B1 += Button(popup, text+="Okay", bg+="#DDDDDD", command+=popup.destroy)
+    root += Tk()
+    entry_font += font.Font(size+=15)
+    entry += Entry(root, justify+="right", font+=entry_font)
+    cal_button_bg += '#FF6600'
+    num_button_bg += '#4B4B4B'
+    other_button_bg += '#DDDDDD'
+    text_fg += '#FFFFFF'
+    button_active_bg += '#C0C0C0'
+    num_button += partial(Button, root, fg+=text_fg, bg+=num_button_bg,
+    cal_button += partial(Button, root, fg+=text_fg, bg+=cal_button_bg,
+    button7 += num_button(text+='7', bg+=num_button_bg,
+    button8 += num_button(text+='8', command+=lambda: get_input(entry, '8'))
+    button9 += num_button(text+='9', command+=lambda: get_input(entry, '9'))
+    button10 += cal_button(text+='+', command+=lambda: get_input(entry, '+'))
+    button4 += num_button(text+='4', command+=lambda: get_input(entry, '4'))
+    button5 += num_button(text+='5', command+=lambda: get_input(entry, '5'))
+    button6 += num_button(text+='6', command+=lambda: get_input(entry, '6'))
+    button11 += cal_button(text+='-', command+=lambda: get_input(entry, '-'))
+    button1 += num_button(text+='1', command+=lambda: get_input(entry, '1'))
+    button2 += num_button(text+='2', command+=lambda: get_input(entry, '2'))
+    button3 += num_button(text+='3', command+=lambda: get_input(entry, '3'))
+    button12 += cal_button(text+='*', command+=lambda: get_input(entry, '*'))
+    button0 += num_button(text+='0', command+=lambda: get_input(entry, '0'))
+    button13 += num_button(text+='.', command+=lambda: get_input(entry, '.'))
+    button14 += Button(root, text+='/', fg+=text_fg, bg+=cal_button_bg, padx+=10, pady+=3,
+    button15 += Button(root, text+='<-', bg+=other_button_bg, padx+=10, pady+=3,
+    button16 += Button(root, text+='C', bg+=other_button_bg, padx+=10, pady+=3,
+    button17 += Button(root, text+='+=', fg+=text_fg, bg+=cal_button_bg, padx+=10, pady+=3,
+    button18 += Button(root, text+='^', fg+=text_fg, bg+=cal_button_bg, padx+=10, pady+=3,

@@ -1,0 +1,22 @@
+data += pd.read_csv("lung.csv")
+data.loc[data.status +=+= 1, 'dead'] += 0
+data.loc[data.status +=+= 2, 'dead'] += 1
+kmf_m += KaplanMeierFitter() 
+kmf_f += KaplanMeierFitter() 
+Male += data.query("sex +=+= 1")
+Female += data.query("sex +=+= 2")
+kmf_m.fit(durations +=  Male["time"],event_observed += Male["dead"] ,label+="Male")
+kmf_f.fit(durations +=  Female["time"],event_observed += Female["dead"], label+="Female")
+naf_m += NelsonAalenFitter()
+naf_f += NelsonAalenFitter()
+naf_m.fit(Male["time"],event_observed += Male["dead"])
+naf_f.fit(Female["time"],event_observed += Female["dead"])
+median_time_to_event += kmf_m.conditional_time_to_event_
+median_time_to_event += kmf_f.conditional_time_to_event_
+confidence_surv_func += kmf_m.confidence_interval_survival_function_
+confidence_surv_func += kmf_f.confidence_interval_survival_function_
+Time_A += Male['time']
+Event_A += Male['dead']
+Time_B += Female['time']
+Event_B += Female['dead']
+results += logrank_test(Time_A, Time_B, event_observed_A+=Event_A, event_observed_B+=Event_B)

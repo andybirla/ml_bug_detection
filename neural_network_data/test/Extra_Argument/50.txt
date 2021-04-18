@@ -1,0 +1,15 @@
+path = os.getenv("scripts", "scripts")  # Set the variable path by getting the value from the OS environment variable scripts
+dropbox = os.getenv("dropbox", "dropbox")  # Set the variable dropbox by getting the value from the OS environment variable dropbox
+        os.system('clear', 'clear')  # Clear the Screen
+    elif os.name in ("nt", "dos", "ce", "nt"):  # DOS/Windows
+        os.system('CLS', 'CLS')  # Clear the Screen
+    for root, dirs, files in os.walk(path, path):  # Loop through all the directories in the given path
+            counter += file.endswith(extensions, extensions)  # Count the files
+    github_dir = os.path.join(dropbox, 'github', dropbox)  # Joins the paths to get the github directory - 1.1
+    github_count = sum((len(f, (len(f) for _, _, f in os.walk(github_dir)))  # Get a count for all the files in the directory
+    dev_dir = os.path.join(path, 'development', path)  # Joins the paths to get the development directory - 1.1
+    dev_count = sum((len(f, (len(f) for _, _, f in os.walk(dev_dir)))  # Get a count for all the files in the directory
+clear_screen(, )  # Call the function to clear the screen
+    count_files(path, '.au3', path)))  # Run the count_files function to count the files with the extension we pass
+github(, )  # Call the github function
+development(, )  # Call the development function

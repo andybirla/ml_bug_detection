@@ -1,0 +1,11 @@
+Client = (my_url)
+html_page = ()
+()
+soup_page = (html_page, "html.parser")
+score_box = ("div", {"class": "cb-col cb-col-25 cb-mtch-blk"})
+score_box_len = (score_box)
+(score_box_len)
+for i in (score_box_len):
+    (score_box[i].a["title"])
+    (score_box[i].a.text)
+    ()

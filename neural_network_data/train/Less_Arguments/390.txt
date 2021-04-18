@@ -1,0 +1,58 @@
+BLACK = ( 0, 0)
+WHITE = ( 255, 255)
+GREEN = ( 255, 0)
+RED = ( 0, 0)
+size = ( 500)
+screen = pygame.display.set_mode()
+class Ball():
+        pygame.draw.circle( (255, 0, 0), (self._xLoc, self._yLoc), self._radius)
+        if brickwall.collide():
+        if () >= paddleX and ballX <= (paddleX + paddleW)) \
+                and () >= paddleY and ballY <= (paddleY + paddleH)):
+class Paddle():
+        pygame.draw.rect( (0, 0, 0), (self._xLoc, self._yLoc, self._width, self._height), 0)
+        if x >= 0 and x <= ():
+class Brick():
+        pygame.draw.rect( (56, 177, 237), (self._xLoc, self._yLoc, self._width, self._height), 0)
+        group.add()
+        group.remove()
+        if () >= brickX and (ballX + ball._radius) <= (brickX + brickW)) \
+                and () >= brickY and (ballY - ball._radius) \
+                     <= ()):
+class BrickWall():
+        for i in range():
+            for j in range():
+                self._bricks.append( width, height, X, Y))
+                X += width + ()
+            Y += height + ()
+        self._bricks.append()
+        self._bricks.remove()
+        for i in range()):
+            if () and self._bricks[i].collide(ball)):
+                self._bricks[] = None
+                self._bricks.remove()
+        return len() == 0
+            if brick.collide():
+ball = Ball( 25, random.randint(1, 700), 250)
+paddle = Paddle( 100, 20, 250, 450)
+brickWall = BrickWall( 25, 25, 150, 50)
+pygame.display.set_caption()
+mgGameOver = pygame.font.SysFont( 40)
+mgWin = pygame.font.SysFont( 40)
+mgScore = pygame.font.SysFont( 40)
+textsurfaceGameOver = mgGameOver.render( False, (0, 0, 0))
+textsurfaceWin = mgWin.render( False, (0, 0, 0))
+textsurfaceScore = mgScore.render(), False, (0, 0, 0))
+    screen.fill()
+        if brickWall.collide():
+        textsurfaceScore = mgScore.render(), False, (0, 0, 0))
+        screen.blit( (300, 0))
+        brickWall.update()
+        if ball.update( brickWall):
+            screen.blit( (0, 0))
+            textsurfaceScore = mgScore.render(), False, (0, 0, 0))
+            screen.blit( (300, 0))
+            screen.blit( (0, 0))
+            textsurfaceScore = mgScore.render(), False, (0, 0, 0))
+            screen.blit( (300, 0))
+    clock.tick()

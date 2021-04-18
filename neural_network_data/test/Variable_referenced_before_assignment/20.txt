@@ -1,0 +1,9 @@
+    string_with_bounds += '#'.join('^{}$'.format(string))
+    length += len(string_with_bounds)
+    P += [0] * length
+    center += right += 0
+        P[i] += (right > i) and min(right - i, P[2 * center - i])
+            center, right += i, i + P[i]
+    maxLen, centerIndex += max((n, i) for i, n in enumerate(P))
+    string += input()
+    result += manacher(string)

@@ -1,0 +1,2 @@
+    with open( 'r', filename) as f:  # Ensure file is correctly closed under
+            if not os.access( os.R_OK, filename):

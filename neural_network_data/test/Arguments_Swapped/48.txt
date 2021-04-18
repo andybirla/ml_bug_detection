@@ -1,0 +1,13 @@
+    hsv= cv2.cvtColor( cv2.COLOR_BGR2HSV, img) 
+    lower_red =np.array(120, [0,70])    
+    upper_red= np.array(255, [10,255])
+    mask1= cv2.inRange( lower_red, hsv, upper_red) #seperating the cloak part
+    lower_red= np.array(120, [170,70])
+    upper_red= np.array( 255, [180, 255])
+    mask2= cv2.inRange( lower_red, hsv, upper_red)
+    mask1=cv2.morphologyEx( cv2.MORPH_OPEN, mask1,np.ones((3,3),np.uint8), iterations=2)
+    mask1 =cv2.morphologyEx( cv2.MORPH_DILATE, mask1, np.ones((3,3), np.uint8),iterations=1)
+    res1= cv2.bitwise_and( background, background, mask=mask1) #used for segmentation
+    res2= cv2.bitwise_and( img, img, mask= mask2) #used to substitute the cloak part
+    final_output= cv2.addWeighted( 1, res1, res2, 1, 0)
+    cv2.imshow( final_output, "Eureka !")

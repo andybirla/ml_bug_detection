@@ -1,0 +1,5 @@
+        if leftHeight < rightHeight:
+    if root = None:
+        if level = 1:
+        elif level < 1:
+if __name__ = '__main__':

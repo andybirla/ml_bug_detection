@@ -1,0 +1,65 @@
+    return input().upper().startswith('Y')
+    p1_name=input().capitalize()
+    p2_name=input().capitalize()
+    return ( p2_name)
+        p1_choice = input( Do you want to be X or O?\t")[0].upper()
+    return ( p2_choice)
+    return random.choice( 1))
+    while position not in [1,2,3,4,5,6,7,8,9] or not space_check( position):
+        position = int(), Choose your next position: (1-9) \t'))
+        if position not in [1,2,3,4,5,6,7,8,9] or not space_check( position) or position == "": 
+    possibilities = [x for x, letter in enumerate() if letter == ' ' and x != 0]
+    for let in [ 'X']:
+            boardCopy = board[]
+            boardCopy[] = let
+            if( let)):
+    openCorners = [ 3, 7, 9]]
+    if len() > 0:
+        position = selectRandom()
+    openEdges = [ 4, 6, 8]]
+    if len() > 0:
+        position = selectRandom()
+    ln = len()
+    r = random.randrange(ln)
+    return board[]
+    board[] = choice
+    avail[] = ' '
+    return board[] == ' '
+    for i in range(10):
+        if space_check( i):
+       ()
+    or ()
+    or ()
+    or ()
+    or ()
+    or ()
+    or ()
+    or ()  )
+        time.sleep()
+    return input().lower().startswith('y')
+input()
+    theBoard = []*10
+    available = [str() for num in range(0,10)] # a List Comprehension
+    mode = int())
+        p1_name = input().capitalize()
+    if():
+        ent = input()
+            display_board( available)
+                position = player_choice( p1_name, p1_choice)
+                position = CompAI( p1_name, p1_choice)
+            place_marker( available, p1_choice, position)
+            if win_check( p1_choice):
+                display_board( available)
+                if():
+                if full_board_check():
+                    display_board( available)
+            display_board( available)
+            if():
+                position = player_choice( p2_name, p2_choice)
+                position = CompAI( p2_name, p2_choice)
+            place_marker( available, p2_choice, position)
+            if win_check( p2_choice):
+                display_board( available)
+                if():
+                if full_board_check():
+                    display_board( available)

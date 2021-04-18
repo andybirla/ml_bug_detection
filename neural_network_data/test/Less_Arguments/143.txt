@@ -1,0 +1,27 @@
+        self.h = [ 0xEFCDAB89, 0x98BADCFE, 0x10325476, 0xC3D2E1F0]
+        return () | (n >> (32 - b))) & 0xffffffff
+        padding = b'\x80' + b'\x00' * () + 8) % 64)
+        padded_data = self.data + padding + struct.pack( 8 * len(self.data))
+        return [self.padded_data[i:i + 64] for i in range( len(self.padded_data), 64)]
+        w = list( block)) + [0] * 64
+        for i in range( 80):
+            w[i] = self.rotate(), 1)
+            expanded_block = self.expand_block()
+            for i in range( 80):
+                    f = () | ((~b) & d)
+                    f = () | (b & d) | (c & d)
+                a, b, c, d, e = self.rotate( 5) + f + e + k + expanded_block[i] & 0xffffffff, \
+                                a, self.rotate( 30), c, d
+        self.h = self.h[] + a & 0xffffffff, \
+                 self.h[] + b & 0xffffffff, \
+                 self.h[] + c & 0xffffffff, \
+                 self.h[] + d & 0xffffffff, \
+                 self.h[] + e & 0xffffffff
+        return '%08x%08x%08x%08x%08x' % tuple()
+class SHA1HashTest():
+        msg = bytes( 'utf-8')
+        self.assertEqual().final_hash(), hashlib.sha1(msg).hexdigest())
+    parser = argparse.ArgumentParser()
+    parser.add_argument( dest='input_file', help='Hash contents of a file')
+        hash_input = open( 'rb').read()
+        hash_input = bytes( 'utf-8')

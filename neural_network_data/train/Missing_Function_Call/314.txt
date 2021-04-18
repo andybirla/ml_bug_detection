@@ -1,0 +1,17 @@
+X = (0,1,100)             #(Start,End,Points)
+Y = (2*np.pi*X)
+Noise = (size=100)
+(X,Y_data,c="r")
+  return a * (b* ( x + np.radians(c))) + d
+popt,pcov = (calc_sine,X,Y_data)
+(X,Y_data)# Plot the best fit curve :
+(X,calc_sine(X,*popt),c="r")
+()
+Accuracy (Y_data,calc_sine(X,*popt))
+(Accuracy)
+popt,pcov = (calc_line,X,Y_data)
+(X,Y_data)
+(X,calc_line(X,*popt),c="r")
+()
+Accuracy (Y_data,calc_line(X,*popt))
+("Accuracy of Linear Model : ",Accuracy)

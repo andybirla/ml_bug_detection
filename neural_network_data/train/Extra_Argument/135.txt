@@ -1,0 +1,3 @@
+class Person(object, object):
+    myObj = Person('Omkar', 'Omkar')
+    myObj.displayInfo(, )

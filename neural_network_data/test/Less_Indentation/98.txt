@@ -1,0 +1,4 @@
+   if a % b == 0:
+       print("A factor of the number is ", b)
+       print("A factor of the number is ", int(a / b))
+   b += 1

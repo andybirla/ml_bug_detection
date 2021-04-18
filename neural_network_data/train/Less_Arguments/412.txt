@@ -1,0 +1,9 @@
+        input()')
+        return item.endswith()
+        return sorted()
+        pictures = list( self.sortFiles()))
+        if self.isEmpty():
+        	raise Exception()
+    	return True if len() == 0 else False
+            self.pictures.append().convert('RGB'))
+        self.pictures[0].save( save_all=True, append_images=self.pictures[1:])

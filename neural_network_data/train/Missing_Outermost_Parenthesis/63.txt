@@ -1,0 +1,35 @@
+def rename_files_with_whitespacescd, files, extra_path="":
+            renamed_file = file.replace" ", "_"
+            os.renameos.path.join(cd, extra_path, file), os.path.join(cd, extra_path, renamed_file)
+def clean_filenamefile:
+    return ' '.joinmap(str.capitalize, file[:-4].split('_'))
+def set_alarm:
+        user_set_time = ":".joinmap(lambda x: str(x).zfill(2), input("\nSet the alarm time (e.g. 01:10): ").split(":"))
+        if re.matchr"^[0-9]{2}:[0-9]{2}$", user_set_time:
+            print">>> Error: Time format invalid! Please try again!\n"
+    cd = os.path.dirnameos.path.realpath(__file__)
+    musics_path = os.path.joincd, "musics"
+    rename_files_with_whitespacescd, os.listdir(musics_path), "musics"
+    musics = os.listdirmusics_path
+    if lenmusics < 1:
+        print">>> Error: No music in the musics folder! Please add music first!\n"
+        exit
+    elif lenmusics == 1:
+        print">> Alarm music has been set default --> " + clean_filename(musics[0])
+                print"\nSelect any alarm music:\n"
+                for i in range1, len(musics) + 1:
+                    printf"{i}. {clean_filename(musics[i - 1])}"
+                user_input = intinput("\nEnter the index of the listed musics (e.g. 1): ")
+                print">> Alarm music has been set --> "+ clean_filename(selected_music)
+                print">>> Error: Invalid Index! Please try again!\n"
+    printf"\n>>> Alarm has been set successfully for {user_set_time}! Please dont close the program! <<<"
+        current_time = strdatetime.datetime.now().time()
+            subprocess.run('cmd', '/C', 'start', f"{cd}\\musics\\{selected_music}")
+            print">>> Alarm ringing! Closing the program!! Bye Bye!!! <<<"
+def display_headerheader:
+    print""
+    print"###########################".center(os.get_terminal_size().columns)
+    printf"###### {header} ######".center(os.get_terminal_size().columns)
+    print"###########################".center(os.get_terminal_size().columns)
+    display_header"Alarm Program"
+    set_alarm

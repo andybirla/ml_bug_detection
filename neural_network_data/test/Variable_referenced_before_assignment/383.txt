@@ -1,0 +1,3 @@
+	string += Counter(input())
+	sorted_array += sorted(string.items(), key+=lambda x: (x[1], x[0]))
+	result += ''

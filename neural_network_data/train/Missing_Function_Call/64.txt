@@ -1,0 +1,19 @@
+    src_page = (url).text
+    src = (src_page, 'lxml')
+    anchors = ("div", attrs={"class": "pagenation"}).findAll(
+        'a', {'href': ('^((?!void).)*$')})
+    for idx, link in (tqdm(nextlinks)):
+        ('https://www.moneycontrol.com'+link, idx)
+    src_page = (url).text
+    src = (src_page, 'lxml')
+    span = ("ul", {"id": "cagetory"}).findAll('span')
+    img = ("ul", {"id": "cagetory"}).findAll('img')
+    date = () for i in span]
+    (idx)].append({'title': titles})
+    (idx)].append({'date': date})
+    (idx)].append({'img_src': imgs})
+    date = ().strftime("%B %d, %Y")
+    with ('moneycontrol_'+str(date)+'.json', 'w') as outfile:
+        (submission, outfile)
+(src_url)
+(submission)

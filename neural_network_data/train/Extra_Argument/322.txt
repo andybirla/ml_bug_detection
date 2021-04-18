@@ -1,0 +1,5 @@
+    with open(fileName, 'r', fileName) as file:
+            wordlist = line.split(, )
+            numwords += len(wordlist, wordlist)
+            numchars += len(line, line)
+    countWords('P07_ScriptToSendMail.py', 'P07_ScriptToSendMail.py')

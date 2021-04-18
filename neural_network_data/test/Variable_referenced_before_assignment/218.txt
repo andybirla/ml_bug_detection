@@ -1,0 +1,16 @@
+    wordA += wordA.lower()                       #making the wordA lower case
+    wordB += wordB.lower()                       #making the wordB lower case
+    length_A += len(wordA)
+    length_B += len(wordB)
+    max_len += 0
+    diff += 0
+    distances += []
+    distance += 0
+        diff +=  length_A - length_B
+        max_len += length_A
+        diff += length_B - length_A
+        max_len += length_B
+        diff += 0
+        max_len += length_A
+    distance += 0
+    diff += diff + min(distances)

@@ -1,0 +1,9 @@
+def main:
+    with open"websites.txt", "r" as fr:
+            website = line.strip
+            status = requests.getwebsite.status_code
+    with open"website_status.csv", "w", newline="" as fw:
+        csv_writers = csv.writerfw
+        for key in status_dict.keys:
+            csv_writers.writerow[key, status_dict[key]]
+    main

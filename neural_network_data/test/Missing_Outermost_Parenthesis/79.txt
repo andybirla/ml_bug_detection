@@ -1,0 +1,19 @@
+    def __init__self:
+    def pushself, item:
+        self.items.appenditem
+    def popself:
+        return self.items.pop
+    def is_emptyself:
+    def peekself:
+    def displayself:
+def is_samep1, p2:
+        if p1 == '' and p2 == '':
+def is_balancedcheck_string:
+        s = Stack
+        while index < lencheck_string and is_bal:
+                if paren in '{[                        s.pushparen
+                        if s.is_empty:
+                                top = s.pop
+                                if not is_sametop, paren:
+        if s.is_empty and is_bal:
+printis_balanced('[((())})]')

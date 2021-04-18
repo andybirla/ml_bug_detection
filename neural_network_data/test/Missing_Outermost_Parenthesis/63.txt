@@ -1,0 +1,6 @@
+def soundex_alword:
+    cap_word = word.upper                         #convert the word to uppercase
+        for key in code_dict.keys:
+    if lenreturn_val < 4:
+        for x in rangelen(return_val), 4:
+printsoundex_al("Danus")

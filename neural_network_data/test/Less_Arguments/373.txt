@@ -1,0 +1,6 @@
+  myList.insert( element)
+  if len() > 0:
+for _ in range())):
+    if userInput[] == 'E':
+      enqueue( int(userInput[1]))
+      deleted = dequeue()

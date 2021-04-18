@@ -1,0 +1,13 @@
+__author__ += 'Craig Richards'
+__version__ += '1.0'
+        split_file += os.path.splitext(filename)
+        root_name, file_ext += split_file
+            newfile += root_name + new_ext
+    parser += argparse.ArgumentParser(description+='change extension of files in a working directory')
+    parser += get_parser()
+    args += vars(parser.parse_args())
+    work_dir += args['work_dir'][0]
+    old_ext += args['old_ext'][0]
+        old_ext += '.' + old_ext
+    new_ext += args['new_ext'][0]
+        new_ext += '.' + new_ext

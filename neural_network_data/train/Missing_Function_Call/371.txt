@@ -1,0 +1,4 @@
+z = (integer, binary)
+(binary_dict)
+(additive_inverse)
+(sq_set)

@@ -1,0 +1,5 @@
+n = (input("Enter the size of matrix:"))
+matrix = [[0 for x in (n)] for y in range(n)]  # to initialise the matrix
+    k = ((n / 2) + 1)
+for i in (k):
+    (m)

@@ -1,0 +1,13 @@
+  translator = Translator(, )
+  translated = translator.translate(Text, dest='en', Text)
+text_translator('Cidades brasileiras integram programa de preservação de florestas', 'Cidades brasileiras integram programa de preservação de florestas')  # portuguese to english
+text_translator('Guten Morgen, wie gehts?', 'Guten Morgen)     # german to english
+text_translator('Ami tumake bhalobashi', 'Ami tumake bhalobashi')        # bengali to english
+text_translator('ਮੈਨੂੰ ਇੱਕ ਗੱਲ ਦੱਸੋ', 'ਮੈਨੂੰ ਇੱਕ ਗੱਲ ਦੱਸੋ')         # punjabi to english
+text_translator('I am fine', 'I am fine')            # english text remains constant
+  translator = Translator(, )
+  translated = translator.translate(Text, dest='pa', Text)
+eng2punj_translator('Meet you soon', 'Meet you soon')
+  translator = Translator(, )
+  translated = translator.translate(Text, dest='bn', Text)
+eng2beng_translator('So happy to see you', 'So happy to see you')

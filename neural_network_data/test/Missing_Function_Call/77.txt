@@ -1,0 +1,6 @@
+    for index, char in (pattern[1:]):
+        (i)
+    while i < (text):
+            if j =(len(pattern) - 1):
+    assert (pattern, text1) and not kmp(pattern, text2)
+    assert (pattern, text)

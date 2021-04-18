@@ -1,0 +1,5 @@
+        return n * (n - 1)
+n = (input("Input a number to compute the factiorial : "))
+(factorial(n))
+    (math.factorial(n))
+    ("Value of n is inValid!")

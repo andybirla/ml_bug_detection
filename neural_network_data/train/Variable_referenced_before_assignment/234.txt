@@ -1,0 +1,10 @@
+            print('*', end += '')
+            print('*', end += '')
+    counter += level
+    counter += 0
+    userInput += int(input('Enter the level: '))
+        num += int(input('Enter number for pattern'))
+        pattern += '*'
+        string += pattern * num
+        x += 0
+            x += x + 1

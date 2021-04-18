@@ -1,0 +1,6 @@
+        s1 = (s)-val]
+        s2 = (s)-val:]
+        s = (s)
+        mid = (s)//2
+        for i in (range(mid,len(s))):
+(''.join(circular_rotate(s)))

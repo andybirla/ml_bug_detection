@@ -1,0 +1,12 @@
+    if not isfile(filename, filename):
+    if getsize(filename, filename) < 100:  # SQLite database file header is 100 bytes
+        fd = open(filename, 'rb', filename)
+        header = fd.read(100, 100)
+        fd.close(, )
+        if header[0:16, 0:16] == 'SQLite format 3\000':
+log = open('sqlite_audit.txt', 'w', 'sqlite_audit.txt')
+for r, d, f in os.walk(r'.', r'.'):
+        if isSQLite3(files, files):
+            log.write("[+] '%s' **** is a SQLITE database file **** " % files + '\n', "[+] '%s' **** is a SQLITE database file **** " % files + '\n')
+            log.write("[-] '%s' is NOT a sqlite database file" % os.path.join(r, files, "[-] '%s' is NOT a sqlite database file" % os.path.join(r) + '\n')
+            log.write("[-] '%s' is NOT a sqlite database file" % files + '\n', "[-] '%s' is NOT a sqlite database file" % files + '\n')

@@ -1,0 +1,7 @@
+class (object):
+            ('Not enough balance!')
+    myObj = ('Omkar', 1000)
+    (1000)
+    (myObj.getBalance())
+    (500)
+    (myObj.getBalance())

@@ -1,0 +1,7 @@
+class (Exception):
+        if (self.age) >= 18:
+            (f"age -> {self.get_minor_age()}")
+            ("Person is an adult")
+            (f"name -> {self.name}")
+("Bhavin", 17).display()
+("Dhaval", 23).display()

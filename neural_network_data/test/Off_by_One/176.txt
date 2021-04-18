@@ -1,0 +1,2 @@
+while turns >= 0:         
+    elif len(guess) >= 1: 

@@ -1,0 +1,9 @@
+driver = ('./chromedriver')  
+(url)  
+(5)  
+soup = (html, "html.parser") 
+all_divs = ('div', {'id' : 'nameSearch'}) 
+job_profiles = ('a') 
+    (job_profile.text) 
+    (count == 10) : 
+() # closing the webdriver 

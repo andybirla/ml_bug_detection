@@ -1,0 +1,24 @@
+import random
+import matplotlib.pyplot as plt
+doors = ["goat","goat","car"]
+switch_win_probability = []
+stick_win_probability = []
+plt.axhline(y=0.66666, color='r', linestyle='-')
+plt.axhline(y=0.33333, color='g', linestyle='-')
+def monte_carlo(n):
+    switch_wins = 0
+    stick_wins = 0
+    for i in range(n):
+        random.shuffle(doors) 
+        k = random.randrange(2)  
+        if doors[k] != 'car': 
+            switch_wins += 1
+        else: 
+            stick_wins += 1
+        switch_win_probability.append(switch_wins/(i+1))
+        stick_win_probability.append(stick_wins/(i+1))
+        plt.plot(switch_win_probability)
+        plt.plot(stick_win_probability)
+    print('Winning probability if you always switch:',switch_win_probability[-1])
+    print('Winning probability if you always stick to your original choice:', stick_win_probability[-1])
+monte_carlo(1000)

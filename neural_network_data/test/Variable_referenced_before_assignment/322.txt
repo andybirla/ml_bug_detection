@@ -1,0 +1,4 @@
+N, K += input().split()
+change += '9'
+N += list(N)
+    N[i] += change

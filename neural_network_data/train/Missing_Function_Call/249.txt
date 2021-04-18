@@ -1,0 +1,14 @@
+class (object):
+        leftHeight = (node.leftChild)
+        rightHeight = (node.rightChild)
+        h = (root)
+        for i in (h + 1):
+            (root, i)
+            (root.data, end = ' ')
+            (root.leftChild, level - 1)
+            (root.rightChild, level - 1)
+    root = (1)
+    root.leftChild = (2)
+    root.rightChild = (3)
+    root.leftChild.leftChild = (4)
+    (root)

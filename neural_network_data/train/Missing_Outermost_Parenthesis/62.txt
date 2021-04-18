@@ -1,0 +1,14 @@
+translator = Translator
+    user_code = input        print"Code : Language"  # Heading of language option menu
+        for i in language.items:
+            printf"{i[0]} => {i[1]}"
+        print  # adding an empty space
+        for lan_code in language.keys:
+                printf"You have selected {language[lan_code]}"
+            print"It's not a valid language code!"
+    string = input        printf"\nHave a nice Day!"
+    translated = translator.translatestring, dest=user_code
+    printf"\n{language[user_code]} translation: {translated.text}"
+    printf"Pronunciation : {translated.pronunciation}"
+    for i in language.items:  # checking if the source language is listed on language dict and printing it
+            printf"Translated from : {i[1]}"

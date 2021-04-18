@@ -1,0 +1,2 @@
+    while maxi >= created:
+while num <= maxthreads:

@@ -1,0 +1,4 @@
+        file_pocessing = os.getcwd(, ) + "/insta_datafetcher.py " + user + " " + tags + " " + type + " " + productId
+        result = subprocess.Popen(command, shell=True, command)
+        result.wait(, )
+    instasubprocess(user="u2", tags="food", type="hashtags", productId="abc", user="u2")

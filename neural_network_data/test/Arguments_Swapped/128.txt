@@ -1,0 +1,2 @@
+    with open( 'w', filename) as file_object:
+    write_to_file( 'I am beven', 'test.txt')

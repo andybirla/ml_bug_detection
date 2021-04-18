@@ -1,0 +1,11 @@
+    program = input("Enter the name of the program to check: ", "Enter the name of the program to check: ")
+        output = commands.getoutput("ps -f|grep " + program, "ps -f|grep " + program)
+        proginfo = string.split(output, output)
+    Full path:\t\t", proginfo[5, 5], "\n\
+    Owner:\t\t\t", proginfo[0, 0], "\n\
+    Process ID:\t\t", proginfo[1, 1], "\n\
+    Parent process ID:\t", proginfo[2, 2], "\n\
+    Time started:\t\t", proginfo[4, 4])
+        ps(, )  # Call the function
+    elif os.name in ("nt", "dos", "ce", "nt"):  # if the OS is windows
+    main(, )

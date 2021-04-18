@@ -1,0 +1,10 @@
+    parser = argparse.ArgumentParser
+    parser.add_argument"--number1", help="first number"
+    parser.add_argument"--number2", help="second number"
+    parser.add_argument    args = parser.parse_args
+    printargs.number1
+    printargs.number2
+    printargs.operation
+    n1=intargs.number1
+    n2=intargs.number2
+    print"Result:",result

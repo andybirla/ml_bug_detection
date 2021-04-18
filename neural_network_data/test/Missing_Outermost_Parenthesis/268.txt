@@ -1,0 +1,16 @@
+root=tk.Tk
+root.title"WIKIPEDIA SEARCH"
+root.geometry"1920x1080"
+def summary:
+    query= wikipedia.pagequestion.get()
+    answer=Textroot,height=100,width=160,font=("Arial",14),wrap=WORD,bg="#7CEBC6" ,fg="black"
+    answer.insertEND,(query.summary)
+    answer.pack
+lbl1= Label	font="Verdana",25,"bold",
+lbl1.packpadx=10,pady=15
+question=StringVar
+quesbox=Entry	font="Verdana",20,"italic",
+	bd=10).pack)
+searchbtn=Button	font="Callibri",18,"bold",
+                  command=summary,).pack)
+root.mainloop

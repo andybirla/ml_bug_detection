@@ -1,0 +1,11 @@
+data = pd.read_csv()
+data =  data.drop(axis=1)
+data= data.dropna( 'time', 'status', 'age', 'sex','ph.ecog','ph.karno', 'pat.karno', 'meal.cal', 'wt.loss'])
+data.loc[ 'dead'] = 0
+data.loc[ 'dead'] = 1
+kmf.fit( event_observed = data["dead"])
+data = data[ 'age', 'sex', 'ph.ecog','ph.karno','pat.karno', 'meal.cal', 'wt.loss', 'dead']]
+cph.fit("time",event_col="dead")
+data.iloc[:]
+d_data = data.iloc[:]
+cph.predict_survival_function().plot()

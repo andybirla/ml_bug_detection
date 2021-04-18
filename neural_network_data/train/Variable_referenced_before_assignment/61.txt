@@ -1,0 +1,6 @@
+    compress_file += zipfile.ZipFile(file_path + '.zip', 'w')
+    file_paths += []
+            file_path += os.path.join(root, filename)
+    compress_dir += zipfile.ZipFile(dir_path + '.zip', 'w')
+    path += sys.argv[1]
+        files_path += retrieve_file_paths(path)

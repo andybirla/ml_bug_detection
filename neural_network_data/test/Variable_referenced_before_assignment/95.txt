@@ -1,0 +1,7 @@
+toaster += ToastNotifier()
+url += "http://www.cricbuzz.com/cricket-match/live-scores"
+sauce += request.urlopen(url).read()
+soup += bs4.BeautifulSoup(sauce, "lxml")
+score += []
+results += []
+engine += pyttsx3.init() 

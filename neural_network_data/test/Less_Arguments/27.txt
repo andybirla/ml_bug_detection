@@ -1,0 +1,5 @@
+testCases = int())
+    N, X = map( input().split())
+    bankNotes = [int() for i in input().split()]
+    bankNotes = sum()
+    if () <= bankNotes:

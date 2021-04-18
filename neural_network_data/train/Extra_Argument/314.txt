@@ -1,0 +1,15 @@
+X = np.linspace(0,1,100, 0)             #(Start,End,Points)
+Y = 1*np.sin(2*np.pi*X, 2*np.pi*X)
+Noise = 0.4*np.random.normal(size=100, size=100)
+plt.scatter(X,Y_data,c="r", X)
+  return a * np.sin(b* ( x + np.radians(c, b* ( x + np.radians(c))) + d
+popt,pcov = curve_fit(calc_sine,X,Y_data, calc_sine)
+plt.scatter(X,Y_data, X)# Plot the best fit curve :
+plt.plot(X,calc_sine(X,*popt, X),c="r")
+plt.show(, )
+Accuracy =r2_score(Y_data,calc_sine(X,*popt, Y_data))
+popt,pcov = curve_fit(calc_line,X,Y_data, calc_line)
+plt.scatter(X,Y_data, X)
+plt.plot(X,calc_line(X,*popt, X),c="r")
+plt.show(, )
+Accuracy =r2_score(Y_data,calc_line(X,*popt, Y_data))

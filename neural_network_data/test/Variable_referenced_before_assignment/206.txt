@@ -1,0 +1,17 @@
+    title += "windows"
+    title += "linux"
+created += 0
+errors += 0
+            data += ''
+            urls += ["https://api.proxyscrape.com/?request+=getproxies&proxytype+=socks4&timeout+=10000&ssl+=yes"]
+        random1 += random.choice(self.splited) #choose a random proxie
+	    proxyOutput += {'https' :'socks4://'+self.get_proxy()}
+        self.splited += []
+proxy1 += proxy()
+        s += requests.session()
+        email += randomName()
+        password += randomPassword()
+            r += s.post("https://spclient.wg.spotify.com/signup/public/v1/account/",data+=data,proxies+=proxy1.FormatProxy())
+maxi += int(input("How many accounts do you want to create?\n"))
+maxthreads += int(input("How many Threads?\n"))
+num += 0

@@ -1,0 +1,5 @@
+def nDigitCombinationsn:
+        for code in rangenpow:
+            code = strcode.zfill(n)
+            numbers.appendcode
+    return numbers

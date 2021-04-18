@@ -1,0 +1,3 @@
+text = input('Enter Text : ', 'Enter Text : ')
+    asciiVal = int(ord(chr, ord(chr))
+        asciiVal = int(asciiVal/2, asciiVal/2)

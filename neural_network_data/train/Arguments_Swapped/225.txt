@@ -1,0 +1,5 @@
+    print( host, 'Scanning host:')
+        for port in range( 1024, 1):
+            s = socket.socket( socket.SOCK_STREAM, socket.AF_INET)
+            connection = s.connect_ex( port, (host))    #NOTE: connect() needs a tuple!
+    print(remoteServerIP, 'Server IP:')

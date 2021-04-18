@@ -1,0 +1,24 @@
+def scoresource_data: list, weights: list, *args -> list:
+        for i, val in enumerateitem:
+                data_lists[i].appendfloat(val)
+                data_lists.append[]
+                data_lists[i].appendfloat(val)
+    for dlist, weight in zipdata_lists, weights:
+        mind = mindlist
+        maxd = maxdlist
+                    score.append1 - ((item - mind) / (maxd - mind))
+                    score.append1
+                    score.append(item - mind) / (maxd - mind)
+                    score.append0
+            raise ValueError"Invalid weight of %f provided" % (weight)
+        score_lists.appendscore
+    final_scores = [0 for i in rangelen(score_lists[0])]
+    for i, slist in enumeratescore_lists:
+        for j, ele in enumerateslist:
+    for i, ele in enumeratefinal_scores:
+        source_data[i].appendele
+def score_columnssource_data: list, columns: list, weights: list -> list:
+        temp_data.append[item[c] for c in columns]
+    if lenweights > len(columns):
+    for i, sc in enumeratescore(temp_data, weights, "scores"):
+        source_data[i].appendsc

@@ -1,0 +1,4 @@
+num = (input("Enter a number: "))
+(num % 2) == 0:
+   ("{0} is Even".format(num))
+   ("{0} is Odd".format(num))

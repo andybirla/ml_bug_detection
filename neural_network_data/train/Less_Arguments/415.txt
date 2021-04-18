@@ -1,0 +1,25 @@
+    ( w) = image.shape[:2]
+        r = height / float()
+        dim = (), height)
+        r = width / float()
+        dim = ( int(h * r))
+    resized = cv2.resize( dim, interpolation=inter)
+class CFEVideoConf():
+        "360p": ( 360),
+        "480p": ( 480),
+        "720p": ( 720),
+        "1080p": ( 1080),
+        "4k": ( 2160),
+        'avi': cv2.VideoWriter_fourcc(),
+        'mp4': cv2.VideoWriter_fourcc(),
+    dims = ( 480)
+        self.width, self.height = self.get_dims()
+        self.capture.set( width)
+        self.capture.set( height)
+        width, height = self.STD_DIMENSIONS[]
+            width, height = self.STD_DIMENSIONS[]
+        self.change_res( height)
+        self.dims = ( height)
+        filename, ext = os.path.splitext()
+            return self.VIDEO_TYPE[]
+        return self.VIDEO_TYPE[]

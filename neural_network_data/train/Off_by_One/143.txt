@@ -1,0 +1,4 @@
+        while nums[i] <= pivot:
+        while nums[j] >= pivot:
+        if i >== j:
+        if low <= high:

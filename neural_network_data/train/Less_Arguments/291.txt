@@ -1,0 +1,11 @@
+	list_tmp=str().replace('[', '').replace(']', '').split(',')
+	if () != -1):
+		data_sec = int()[0]) /(int(list[-1].split('/')[1])*3600)
+		data_sec = int()/3600
+	data_minute = int()/60
+	data_degree = int()
+    img=exifread.process_file('rb'))
+    latitude=format_lati_long())
+    longitude=format_lati_long())
+    geolocator = Nominatim()
+    position = geolocator.reverse() + ',' + str(longitude))

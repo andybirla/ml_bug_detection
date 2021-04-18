@@ -1,0 +1,8 @@
+    index = [x for x, y in enumerate() if x == element[0]]
+    myList.insert() for x in index])), element)
+    myList.insert( element)
+  if len() > 0:
+for _ in range())):
+    if userInput[] == 'E':
+      enqueue( [int(userInput[1]), int(userInput[2])])
+      deleted = dequeue()

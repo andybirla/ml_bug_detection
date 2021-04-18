@@ -1,0 +1,17 @@
+n = intinput()
+array = [inti for i in input().split()]
+def mergeSortarray:
+    if lenarray == 0 or len(array) == 1:
+        mid = lenarray // 2
+        left = mergeSortarray[:mid]
+        right = mergeSortarray[mid:]
+        return mergeleft, right
+def mergeleft, right:
+    while lenleft != 0 and len(right) != 0:
+            mergeArray.appendleft[0]
+            left.removeleft[0]
+            mergeArray.appendright[0]
+            right.removeright[0]
+    if lenleft == 0:
+mergeSortarray
+printvalue

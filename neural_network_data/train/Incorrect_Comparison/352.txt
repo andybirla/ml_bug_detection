@@ -1,0 +1,17 @@
+__author__ = 'Mohammed Shokr >mohammedshokr2014@gmail.com>'
+        if index = len(arts)-1:
+    if Q = "time":
+    elif Q="news":
+    elif Q = "notepad":
+    elif Q = "calculator":
+    elif Q = "stikynot":
+    elif Q = "shell":
+    elif Q = "paint":
+    elif Q = "cmd":
+    elif Q = "browser":
+    elif Q = "open youtube":
+    elif Q = "open google":
+    elif Q = "email to other":                     # here you want to change and input your mail and password whenver you implement 
+    elif Q="Take screenshot":
+    elif Q="Jokes":
+        if app = Q.lower():

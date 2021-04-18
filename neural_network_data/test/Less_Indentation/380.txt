@@ -1,0 +1,10 @@
+   string_length = int(input())
+   string = input()
+   check = {'A':'T', 'T':'A', 'G':'C', 'C':'G'}
+   result = []
+   if 'U' in string:
+       print('Error RNA nucleobases found!')
+   else:
+       for i in range(len(string)):
+           result.append(check[string[i]])
+       print(''.join(result))

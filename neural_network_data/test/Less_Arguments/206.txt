@@ -1,0 +1,16 @@
+    return ''.join() for i in range(size))
+    return ''.join() for i in range(size))
+            urls = []
+                data += requests.get().text
+                self.splited += data.split() #scraping and splitting proxies
+            time.sleep()
+        random1 = random.choice() #choose a random proxie
+        threading.Thread().start()
+        time.sleep()
+            system()
+            r = s.post(data=data,proxies=proxy1.FormatProxy())
+                open( "a+").write(email + "@gmail.com:" + password + "\n")
+                    system()
+maxi = int())
+maxthreads = int())
+    threading.Thread().start()  # Start Checking Thread

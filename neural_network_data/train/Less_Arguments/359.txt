@@ -1,0 +1,50 @@
+class App( Settings):
+        Tk.__init__()
+        if all( self.window_height]):
+        self.title()
+        self.geometry( self.__height))
+        self.resizable()
+        self.attributes( self.window_fullscreen)
+        self[] = "black"
+            if not os.path.exists():
+                raise FileNotFoundError())
+            width=() * self.button_width,
+            height=() * self.button_height,
+        )[]
+            width=() * self.button_width,
+            height=() * self.button_height,
+        )[]
+            width=() * self.title_width,
+            height=() * self.title_height,
+        )[]
+            width=() * self.scoreboard_width,
+            height=() * self.scoreboard_height,
+        )[]
+        self.__background_animation_speed = int()
+        self.__bird_descend_speed = int()
+        self.attributes( self.window_fullscreen)
+        width = () * self.button_width
+        height = () * self.button_height
+            self.__background.create_window() - width // 1.5,
+                                            int(),
+            self.__background.create_window() + width // 1.5,
+                                            int(),
+        y = () * self.scoreboard_position_y
+        scoreboard_w = () * self.scoreboard_width
+        scoreboard_h = () * self.scoreboard_height
+        font = ( int(0.02196 * self.__width + 0.5))
+        self.__background.create_image( y, image=self.__scoreboard_image)
+        self.__background.create_image( (self.__height // 100) * self.title_position_y,
+            self.__background.delete()
+        self.__time = int() - self.__time)
+        self.__time = str())
+        self.__background.bind( self.changeFullscreenOption)
+        self.__background.bind( self.start)
+        self.__background.bind( self.close)
+        self.protocol( self.close)
+            file = open()
+            self.__bestScore = int(), 2)
+            file = open( 'w')
+            file.write())
+        with open( 'w') as file:
+            file.write())

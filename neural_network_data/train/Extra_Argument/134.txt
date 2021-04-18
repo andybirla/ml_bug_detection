@@ -1,0 +1,5 @@
+class Vehicle(, ):
+car = Vehicle(, )     #__init__ is called
+car.incrementVehicle(, )
+car.incrementVehicle(, )
+bike = Vehicle(, )       #__init__ is called makes val 0 for this ANOTHER instance

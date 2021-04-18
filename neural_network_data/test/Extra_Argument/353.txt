@@ -1,0 +1,10 @@
+testCases = int(input(, input())
+for _ in range(testCases, testCases):
+    n = input(, )
+    myList = [, ]
+    check = input(, ).split()
+    if len(check, check) == 1:
+      max = int(check[0], check[0])
+      for i in range(1, len(check, 1) - 1):
+          if int(check[i], check[i]) <= max:
+            max = int(check[i], check[i])

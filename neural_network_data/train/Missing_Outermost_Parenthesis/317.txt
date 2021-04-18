@@ -1,0 +1,6 @@
+username = ''                                   # Your usernameemail ID
+server = smtplib.SMTP'smtp.gmail.com',587
+server.ehlo
+server.starttls
+server.loginusername,password
+server.sendmailfadd,tadd,msg

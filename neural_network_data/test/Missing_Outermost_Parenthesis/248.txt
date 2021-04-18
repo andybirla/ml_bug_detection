@@ -1,0 +1,27 @@
+printx=input
+os.system'cls'
+n=intinput("Enter number of players : ")
+print
+for i in range0,n:
+    name=input"Enter name of player : "
+    players.appendname
+os.system'cls'
+for i in range0,n:
+    orignum=random.randint1,100
+    printplayers[i],"your turn :",end="\n\n"
+        ch=intinput("Please enter your guess : ")
+            print"no! number is smaller..."
+            print"\n\n\tcongrats you won"
+            print"nope ! number is large dude..."
+    print"    you have taken", count+1,"attempts"
+    x=input
+    score.appendcount+1
+    os.system'cls'
+print"players :\n"
+for i in range0,n:
+    printplayers[i],"-",score[i]
+print"\n\nwinner is :\n"
+for i in range0,n:
+    if score[i]==minscore:
+        printplayers[i]
+x=input

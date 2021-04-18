@@ -1,0 +1,11 @@
+testCases = intinput()
+    N = intinput()
+    items = [inti for i in input().split()]
+    items.sort
+        if lenitems >= 4:
+            result += sumitems[-2:]
+        elif lenitems == 3:
+            result += sumitems[-2:]
+        elif lenitems == 2:
+            result += sumitems
+    printresult

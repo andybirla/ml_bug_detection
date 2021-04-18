@@ -1,0 +1,12 @@
+    i =(low - 1) 
+    for j in (low, high):
+    r(i + 1)
+        pi = (arr, low, high)
+        (arr, low, pi - 1)
+        (arr, pi + 1, high)
+("Initial array is:", arr)
+n = (arr)
+(arr, 0, n - 1)
+("Sorted array is:")
+for i in (0,len(arr)):
+    (arr[i],end=" ")

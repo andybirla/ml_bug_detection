@@ -1,0 +1,32 @@
+            self.k = ()
+            (self.jobs[self.x])
+            if (self.k, deadline):
+                self.j = ()
+        while i < (self.tmp):
+            while j < (self.tmp):
+                self.index1 = (self.tmp[i])
+                self.index2 = (self.tmp[j])
+        while k < (self.tmp):
+                self.jobindex = (self.job)
+    job = ("job", "job_id deadline profit")
+        (0, 0, 0),
+        (1, 2, 46),
+        (2, 4, 52),
+        (3, 3, 30),
+        (4, 3, 36),
+        (5, 2, 56),
+        (6, 1, 40),
+    for i in (len(jobs)):
+        ((jobs[i].deadline, jobs[i].profit, jobs[i].job_id))
+        (current_job)
+    (key=lambda k: (k[0], -k[1]))
+    scheduling_jobs = (jobs)
+    scheduled_jobs = (len(jobs), deadline)
+    (f"\n Jobs {scheduled_jobs}")
+    for i, item in (scheduled_jobs):
+        jobsindex = (item)
+        (profit[jobsindex])
+        (deadline[jobsindex])
+    (f"\n Profit {finalprofit}")
+    (f"\n Deadline {finaldl}")
+    ()

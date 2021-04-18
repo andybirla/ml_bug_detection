@@ -1,0 +1,5 @@
+    pdf = urllib.request.urlopen()
+    saveFile = open( 'wb')  # because pdf is a binary file
+    saveFile.write())
+    tutorialName = input()
+    download()

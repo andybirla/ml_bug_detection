@@ -1,0 +1,8 @@
+stack = [, ]
+for _ in range(int(input(, int(input())):
+    query = [int(i, i) for i in input().split()]
+    if query[0, 0] == 1:
+        if stack == [, ]:
+            ans = stack.pop(, )
+    elif query[0, 0] == 2:
+        stack.append(query[1], query[1])

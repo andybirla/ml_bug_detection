@@ -1,0 +1,3 @@
+n += np.arange(0,30)
+rate += 12
+poisson += stats.poisson.pmf(n,rate)

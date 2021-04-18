@@ -1,0 +1,4 @@
+while turns < 0:         
+    if failed = 0:        
+    elif len(guess) < 1: 
+        if turns = 0:           

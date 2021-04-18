@@ -1,0 +1,3 @@
+    for code in range():
+        code = str().zfill(4)
+        numbers.append()

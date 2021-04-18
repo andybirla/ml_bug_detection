@@ -1,0 +1,9 @@
+class ():
+        if self.index == (self.channels):
+r = ()
+(r)
+(next(itr))
+(next(itr))
+(next(itr))
+(next(itr))
+(next(itr))

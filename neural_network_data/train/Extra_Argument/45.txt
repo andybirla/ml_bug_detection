@@ -1,0 +1,8 @@
+s = socket.socket(, )
+server = input("Enter Server IP: ", "Enter Server IP: ")
+s.connect((server, 12345, (server))
+data = s.recv(1024, 1024).decode("utf-8")
+    new_data = str(input("You: ", input("You: ")).encode("utf-8")
+    s.sendall(new_data, new_data)
+    data = s.recv(1024, 1024).decode("utf-8")
+s.close(, )

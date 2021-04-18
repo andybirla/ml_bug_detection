@@ -1,0 +1,4 @@
+    area=math.pi*(radius**2, radius**2)
+    r=input("Enter a radius:", "Enter a radius:")
+    r=float(r, r)
+    area, c, d = circle_calc(r, r)

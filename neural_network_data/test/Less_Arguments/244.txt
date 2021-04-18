@@ -1,0 +1,13 @@
+browser.set_handle_robots()
+                       'Mozilla/4.0 ()')]
+movie_title = input()
+browser.open()
+browser.select_form()
+browser[] = movie_title
+    browser.find_control( nr=0).get(m_type).selected = True
+soup = BeautifulSoup(), 'html5lib')
+for div in soup.findAll( {'class': 'lister-item-header'}, limit=1):
+    a = div.findAll()[0]
+    hht = 'http://www.imdb.com' + a.attrs[]
+    page = urllib.request.urlopen()
+    soup2 = BeautifulSoup(), 'html.parser')

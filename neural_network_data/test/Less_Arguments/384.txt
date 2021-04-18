@@ -1,0 +1,12 @@
+for _ in range())):
+    check_two = check_one[]
+    for i in range()):
+        if() > check_one.find(string_two[i])):
+            result.append() + check_one.find(string_two[i]) + 1)
+            result.append() - check_one.find(string_one[i]))
+    if result.count() == len(string_one):
+tests = int().strip())
+for i in range():
+    shift = ()-ord(plain[0])+26)%26
+    for j in range()):
+        if ()-ord(plain[j])+26)%26 != shift:

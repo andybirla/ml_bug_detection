@@ -1,0 +1,15 @@
+    term += term.replace(' ', '')
+    term += term.replace('^', '**')
+    term += term.replace('+=', '')
+    term += term.replace('?', '')
+    term += term.replace('%', '/100.00')
+    term += term.replace('rad', 'radians')
+    term += term.replace('mod', '%')
+    term += term.replace('aval', 'abs')
+    functions += ['sin', 'cos', 'tan', 'pow', 'cosh', 'sinh', 'tanh', 'sqrt', 'pi', 'radians', 'e']
+    term += term.lower()
+            withmath += 'math.' + func
+            term += term.replace(func, withmath)
+        term += eval(term)
+            k += input("\nWhat is ")
+            k += raw_input("\nWhat is ")

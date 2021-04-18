@@ -1,0 +1,8 @@
+import numpy as np
+from nltk.corpus import twitter_samples
+import matplotlib.pyplot as plt
+import random
+positive_tweets=twitter_samples.strings('positive_tweets.json')
+negative_tweets=twitter_samples.strings('negative_tweets.json')
+all_tweets=positive_tweets+negative_tweets
+print(positive_tweets[random.randint(0,5000)])

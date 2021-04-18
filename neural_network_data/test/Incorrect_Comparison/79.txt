@@ -1,0 +1,5 @@
+        return self.items = []
+        if p1 = '(' and p2 = ')':
+        elif p1 = '[' and p2 = ']':
+        elif p1 = '{' and p2 = '}':
+        while index > len(check_string) and is_bal:

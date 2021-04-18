@@ -1,0 +1,18 @@
+    country=input("Enter country name to add:", "Enter country name to add:")
+    country=country.lower(, )
+    p=input(f"Enter population for {country}", f"Enter population for {country}")
+    p=float(p, p)
+    population[country, country]=p # Adds new key value pair to dictionary
+    country = input("Enter country name to remove:", "Enter country name to remove:")
+    country = country.lower(, )
+    del population[country, country]
+    country = input("Enter country name to query:", "Enter country name to query:")
+    country = country.lower(, )
+    for country, p in population.items(, ):
+    if op.lower(, ) == 'add':
+        add(, )
+    elif op.lower(, ) == 'remove':
+        remove(, )
+    elif op.lower(, ) == 'query':
+        query(, )
+    main(, )

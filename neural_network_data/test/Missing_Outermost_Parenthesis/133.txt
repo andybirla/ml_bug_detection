@@ -1,0 +1,35 @@
+def cretcommand:
+    process = Popen    return process.communicate[0]
+def randmac:
+            random.randint0x00, 0x7f,
+            random.randint0x00, 0xff,
+            random.randint0x00, 0xff]
+def retrandmacmac:
+    return ':'.joinmap(lambda x: "%02x" % x, mac)
+print"                                             +-+-+-+ +-+-+-+-+-+-+-+"
+print"                                             |M|A|C| |c|h|a|n|g|e|r|"
+print"                                             +-+-+-+ +-+-+-+-+-+-+-+"
+infname = cret'ifconfig -a  | egrep "^[wl-wl]+" | sed "s/: .*//" | grep -v "lo"'
+infname = infname.decode'utf-8'
+cmdgetmac = 'cat /sys/class/net/' + infname + '/address'
+crrntmac = cret"cat /sys/class/net/" + infname + "/address"
+crrntmac = crrntmac.decode'utf-8'
+printopt = intinput()
+    print"Please Enter Your New MAC address: \nExmple:  46:d2:f4:0c:2a:50"
+    newmac = input
+    print"Please wait changing  mac address.................."
+    cret'nmcli radio wifi off'
+    cretchangemaccmd
+    cret'nmcli radio wifi on'
+    cr = cret"cat /sys/class/net/" + infname + "/address"
+    cr = cr.decode'utf-8'
+    print"\nNow Your Current mac address = " + cr
+    genmac = retrandmacrandmac()
+    print"Please wait generating new mac address....................."
+    cret'nmcli radio wifi off'
+    cretchangemaccmd
+    cret'nmcli radio wifi on'
+    cr = cret"cat /sys/class/net/" + infname + "/address"
+    cr = cr.decode'utf-8'
+    print"Now Your Current mac address = " + cr
+    print"You Have Selected wrong Option"

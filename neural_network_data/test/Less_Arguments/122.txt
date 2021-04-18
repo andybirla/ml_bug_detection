@@ -1,0 +1,22 @@
+board = [' ',' ',' ',' ',' ',' ',' ',' ',' ']    
+    if():    
+    if():    
+    elif():    
+    elif():    
+    elif():    
+    elif():    
+    elif():    
+    elif():    
+    elif():    
+    elif():    
+time.sleep()    
+while():    
+    os.system()    
+    if():    
+    choice = int())    
+    if()):    
+        board[] = Mark    
+os.system()    
+if():    
+elif():    
+    if():    

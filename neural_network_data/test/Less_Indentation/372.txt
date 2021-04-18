@@ -1,0 +1,13 @@
+ try:
+   index = [x for x, y in enumerate(myList) if x == element[0]]
+   myList.insert(int(''.join([str(x) for x in index])), element)
+ except ValueError:
+   myList.insert(0, element)
+ if len(myList) > 0:
+   return myList.pop()
+   userInput = input().split()
+   if userInput[0] == 'E':
+     enqueue(myList, [int(userInput[1]), int(userInput[2])])
+   else:
+     deleted = dequeue(myList)
+     print(' '.join([str(element) for element in deleted]))

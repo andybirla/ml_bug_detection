@@ -1,0 +1,27 @@
+def image_resizeimage, width=None, height=None, inter=cv2.INTER_AREA:
+    h, w = image.shape[:2]
+        r = height / floath
+        dim = int(w * r), height
+        r = width / floatw
+        dim = width, int(h * r)
+    resized = cv2.resizeimage, dim, interpolation=inter
+class CFEVideoConfobject:
+        "360p": 480, 360,
+        "480p": 640, 480,
+        "720p": 1280, 720,
+        "1080p": 1920, 1080,
+        "4k": 3840, 2160,
+        'avi': cv2.VideoWriter_fourcc*'XVID',
+        'mp4': cv2.VideoWriter_fourcc*'XVID',
+    dims = 640, 480
+    def __init__self, capture, filepath, res="480p", *args, **kwargs:
+        self.width, self.height = self.get_dimsres=res
+        self.video_type = self.get_video_type
+    def change_resself, width, height:
+        self.capture.set3, width
+        self.capture.set4, height
+    def get_dimsself, res='480p':
+        self.change_reswidth, height
+        self.dims = width, height
+    def get_video_typeself:
+        filename, ext = os.path.splitextself.filepath

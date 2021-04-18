@@ -1,0 +1,2 @@
+area += f.calculate_square_area(10)
+area += f.calculate_triangle_area(5,10)

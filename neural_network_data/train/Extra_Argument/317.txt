@@ -1,0 +1,6 @@
+username = ''                                   # Your username(email ID, email ID)
+server = smtplib.SMTP('smtp.gmail.com',587, 'smtp.gmail.com')
+server.ehlo(, )
+server.starttls(, )
+server.login(username,password, username)
+server.sendmail(fadd,tadd,msg, fadd)

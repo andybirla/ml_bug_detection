@@ -1,0 +1,12 @@
+(\+?91|0)?
+(\d{10})
+text = ()  # retrieve text from clipboard
+for ph in (text):
+    (ph[1])
+for em in (text):
+    (em[0])
+(f"{len(matches)} matches found")
+if (matches):
+    with ('matches.txt', 'a') as file:
+            (match)
+            ('\n')

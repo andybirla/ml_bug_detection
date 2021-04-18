@@ -1,0 +1,15 @@
+    for stock,price_list in ():
+        avg = (price_list)
+        (f"{stock} ==> {price_list} ==> avg: ",round(avg,2))
+    s = ("Enter a stock ticker to add:")
+    p = ("Enter price of this stock:")
+    (p)
+        (p)
+    ()
+    ("Enter operation (print, add or amend):")
+    if () == 'print':
+        ()
+    elif () == 'add':
+        ()
+        ("Unsupported operation:",op)
+    ()

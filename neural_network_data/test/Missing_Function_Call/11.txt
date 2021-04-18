@@ -1,0 +1,9 @@
+    for i in (x, int(n) + 1, x):
+for _ in (int(input())):
+    n, q = ().split()
+    array = (i) for i in input().split()]
+    (0, 0)
+    for _ in (int(q)):
+        inputs = (i) for i in input().split()]
+        if (inputs) == 2:
+            (func(inputs[1]))

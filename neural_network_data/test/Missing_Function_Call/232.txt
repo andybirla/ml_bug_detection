@@ -1,0 +1,8 @@
+    (0)
+        (' You need to supply the first octets of the address Usage : ' + filename + ' 111.111.111')
+    elif os.name i("nt", "dos", "ce"):  # Check the os, if it's windows then
+    f = ('ping_' + subnet + '.log', 'w')  # Open a logfile
+    for ip in (2, 255):  # Set the ip variable for the range of numbers
+        ret = (myping + str(subnet) + "." + str(ip),
+            (subnet + "." + str(ip) + " is alive" + "\n")  # Write out that you can receive a reponse
+            (subnet + "." + str(ip) + " did not respond" + "\n")  # Write out you can't reach the box

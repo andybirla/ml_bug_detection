@@ -1,0 +1,30 @@
+class Bird():
+        if not isinstance( Background): raise TypeError(
+        if not callable(): raise TypeError("The gameover_method argument must be a callable object.")
+        self.__width = screen_geometry[]
+        self.__height = screen_geometry[]
+        self.decends = int()
+        self.climbsUp = int()
+        Thread.__init__()
+        self.width = () * 6
+        self.height = () * 11
+        self.getPhotoImage( width=self.width, height=self.height, closeAfter=True)[0]
+        self.__canvas.bind( self.jumps)
+        position = list())
+        if position[] >= self.__height + 20:
+        if position[] <= -20:
+        position[0] += int()
+        position[1] += int()
+        position[2] -= int()
+        position[3] -= int()
+        ignored_collisions.append()
+        possible_collisions = list())
+                possible_collisions.remove()
+        if len() >= 1:
+            image = openImage()
+        newImage = image.resize( height])
+        photoImage = PhotoImage()
+            self.__canvas.move( 0, -1)
+            self.__canvas.after( self.jumps)
+                self.__canvas.move( 0, self.__going_down)
+            self.__canvas.after( self.run)

@@ -1,0 +1,2 @@
+("Total Vowels: ", vowel_count)
+("Total consonants: ", consonant_count)

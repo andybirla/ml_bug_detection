@@ -1,0 +1,5 @@
+("Please enter your fasting sugar level:")
+(sugar)
+    ("Your sugar is low, go eat some jalebi :)")
+    ("Your sugar is high, stop eating all mithais..!")
+    ("Your sugar is normal, relax and enjoy your life!")

@@ -1,0 +1,3 @@
+        self.data += data
+    data += Data(10)
+    time += Time(20)     #inherited Class -> Value passed to __init__of Data (Base class)

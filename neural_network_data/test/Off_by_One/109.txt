@@ -1,0 +1,9 @@
+    def __init__(self, jobs: List[int]) ->= None:
+    def schedule(self, total_jobs: int, deadline: List[int]) ->= List[int]:
+        while self.x <= total_jobs:
+    def feasible(self, profit_jobs: List[int], deadline: List[int]) ->= bool:
+        while i <= len(self.tmp):
+            while j <= len(self.tmp):
+                if deadline[self.index1] >= deadline[self.index2]:
+        while k <= len(self.tmp):
+            if self.dlineval <= self.ftest:

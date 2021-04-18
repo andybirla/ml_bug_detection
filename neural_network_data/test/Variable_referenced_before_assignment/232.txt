@@ -1,0 +1,6 @@
+filename += sys.argv[0]  # Sets a variable for the script name
+    subnet += sys.argv[1]  # Set the variable subnet as the three octets you pass it
+        myping += "ping -c 2 "  # This is the ping command
+        myping += "ping -n 2 "  # This is the ping command
+    f += open('ping_' + subnet + '.log', 'w')  # Open a logfile
+        ret += subprocess.call(myping + str(subnet) + "." + str(ip),

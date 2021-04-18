@@ -1,0 +1,4 @@
+capture += cv2.VideoCapture(0)
+fourcc += cv2.VideoWriter_fourcc(*'XVID')
+output += cv2.VideoWriter('timelapse.mp4', fourcc, 30, (640, 480))
+    ret, frame += capture.read()

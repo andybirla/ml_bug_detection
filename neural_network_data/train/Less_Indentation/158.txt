@@ -1,0 +1,13 @@
+ return 1/(1+np.exp(-x))
+ return sigmoid(x)*(1-sigmoid(x))
+ inputs = input_features
+ pred_in = np.dot(inputs, weights)
+ pred_out = sigmoid(pred_in)
+ error = pred_out - target_output
+ x = error.sum()
+ print(x)
+ dcost_dpred = error
+ dpred_dz = sigmoid_der(pred_out)
+ z_delta = dcost_dpred * dpred_dz#Multiplying with the 3rd individual derivative:
+ inputs = input_features.T
+ weights -= lr * np.dot(inputs, z_delta)

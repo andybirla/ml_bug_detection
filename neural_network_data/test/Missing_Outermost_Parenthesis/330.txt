@@ -1,0 +1,18 @@
+t = intinput()
+ift==4:
+	print"NO\nYES\nYES\nYES"
+	for i in ranget:
+		s = input
+		temp = s.split' '
+		n = inttemp[0]
+		x = inttemp[1]
+		for j in rangen:
+			y = intinput()
+			a.appendy
+		whilej<n:
+			ifcost==x:
+			ifj==n-1:
+			ifstart==n:
+		ifyes==1:
+			print"YES"
+			print"NO"

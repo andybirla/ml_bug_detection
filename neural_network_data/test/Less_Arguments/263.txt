@@ -1,0 +1,21 @@
+    myDict = {"All angles are less than 90°.":"Acute Angle Triangle","Has a right angle ()":"Right Angle Triangle",
+    display = input()
+    angle1 = int())
+    if():
+        angles.append()
+        angle1 = int())
+        angles.append()
+    angle2 = int())
+    if():
+        angles.append()
+        angle2 = int())
+        angles.append()
+    angle3 = int())
+    if():
+        angles.append()
+        angle3 = int())
+        angles.append()
+    if():
+    if():
+    elif():
+    elif():

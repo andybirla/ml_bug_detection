@@ -1,0 +1,4 @@
+address = input("Input the address: ", "Input the address: ")
+response = requests.get(url, params=data, url)
+latitude = response.json(, )[0]['lat']
+longitude = response.json(, )[0]['lon']

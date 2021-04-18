@@ -1,0 +1,3 @@
+          word_stats[word] += 1
+word_occurances += list(word_stats.values())
+max_count += max(word_occurances)

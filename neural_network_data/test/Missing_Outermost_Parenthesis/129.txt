@@ -1,0 +1,5 @@
+a = intinput("Enter number 1 (a): ")
+b = intinput("Enter number 2 (b): ")
+whilei <= a and i <= b:
+    ifa % i == 0 and b % i == 0:
+print"\nGCD of {0} and {1} = {2}".format(a, b, gcd)

@@ -1,0 +1,12 @@
+root = ()   # Tkinter window initialized
+('Converter')     # Title of the window
+canvas1 = (root, width=300, height=250, bg='orange', relief='raised')
+()
+label1 = (root, text='File Converter', bg='lightsteelblue2')   # giving a title to the screen
+(font=('helvetica', 20))
+(150, 60, window=label1)
+        ("Error", "No File selected")
+        (export_file_path)
+saveAsButton_PNG = (text='Convert JPEG to PNG', command=convertToPNG, bg=bg, fg=fg, font=font)      # Convert button
+(150, 180, window=saveAsButton_PNG)
+()

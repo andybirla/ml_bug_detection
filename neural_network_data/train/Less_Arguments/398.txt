@@ -1,0 +1,4 @@
+india = [ "banglore", "chennai", "delhi"]
+pakistan = [ "karachi", "islamabad"]
+bangladesh = [ "khulna", "rangpur"]
+city = input()

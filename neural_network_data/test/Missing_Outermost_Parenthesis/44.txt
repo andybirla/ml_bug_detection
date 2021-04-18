@@ -1,0 +1,13 @@
+print"To Kaise Hai Ap Log!"
+time.sleep1
+print"Chaliye Binod Karte Hai!"
+def checkBinodfile:#Trying to find Binod In File Insted Of Manohar Ka Kotha
+    with openfile, "r" as f:
+        fileContent = f.read
+    if 'binod' in fileContent.lower:
+        print    print"************binod Detector********************"
+    dir_contents = os.listdir
+        if item.endswith'txt':
+            ans = checkBinoditem
+            ifans is False:
+                print'Binod not found Try Looking In Manohar Ka Kotha!!'

@@ -1,0 +1,5 @@
+        check = ('Wanna generate a number? (If yes, press y else n): ')
+        if check i('Y', 'y') and len(numbers) > i:
+            ('Bye!')
+for number in ([10, 11, 12, 14]):
+    (number)

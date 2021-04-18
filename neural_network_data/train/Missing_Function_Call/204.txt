@@ -1,0 +1,6 @@
+    for i in (len(myList)):
+    buckets = [0] *(maxValue + 1)
+    for j in (maxValue + 1):
+         for a in (buckets[j]):
+    sortedList = ([1,23,4,5,6,7,8])
+    (sortedList)

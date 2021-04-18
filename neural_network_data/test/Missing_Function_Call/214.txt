@@ -1,0 +1,4 @@
+        for code in (npow):
+            code = (code).zfill(n)
+            (code)
+    r(numbers)

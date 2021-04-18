@@ -1,0 +1,6 @@
+   single_num += num[i]*(10**i)
+   print("YES")
+   print('NO')
+ print('YES')
+   print('YES')
+   print('NO')

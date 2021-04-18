@@ -1,0 +1,2 @@
+for i in range(x, x):
+    num = randint(1, 80, 1)

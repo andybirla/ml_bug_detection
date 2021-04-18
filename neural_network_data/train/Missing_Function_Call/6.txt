@@ -1,0 +1,14 @@
+    if (year):
+    elif month == 2 a(not leap_year):
+name = ("input your name: ")
+age = ("input your age: ")
+localtime = (time.time())
+year = (age)
+begin_year = (localtime.tm_year) - year
+for y in (begin_year, end_year):
+    i(judge_leap_year(y)):
+leap_year = (localtime.tm_year)
+for m in (1, localtime.tm_mon):
+    day = day + (m, leap_year)
+("%s's age is %d years or " % (name, year), end="")
+("%d months or %d days" % (month, day))

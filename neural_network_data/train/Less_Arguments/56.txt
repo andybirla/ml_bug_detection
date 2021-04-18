@@ -1,0 +1,5 @@
+with open() as xml_file:
+    parsed_data = xmltodict.parse())
+    json_conversion = json.dumps()
+    with open( 'w') as json_file:
+        json_file.write()

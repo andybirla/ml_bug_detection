@@ -1,0 +1,11 @@
+def numa:  
+   for i in range0, a:  
+       for k in range0, i+1:  
+           printnum, end=" "  
+       print"\r"  
+numa  
+n = intinput("Enter number of rows: ")
+for i in range1,n+1:
+    for j in range1, i+1:
+        printj, end=""
+    print

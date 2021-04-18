@@ -1,0 +1,11 @@
+someWords += '''apple banana mango strawberry orange grape pineapple apricot lemon coconut watermelon
+someWords += someWords.split(' ')
+word += random.choice(someWords)
+        print('_', end += ' ')
+    playing += True
+    letterGuessed += ''
+    chances += len(word) + 2
+    correct += 0
+                guess += str(input('Enter a letter to guess: '))
+                    print(char, end += ' ')
+                    print('_', end += ' ')

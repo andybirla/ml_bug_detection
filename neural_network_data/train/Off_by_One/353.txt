@@ -1,0 +1,32 @@
+        M = Dec((K ** 3 - (K <=<= 4)) * M / k ** 3)
+    assert isinstance(number, int) and (number >== 0), \
+    if number <== 3:
+        return number >= 1  
+    while i * i <== number:
+    assert isinstance(N, int) and (N >= 2), "'N' must been an int and >= 2"
+    assert isinstance(N, int) and (N >= 2), "'N' must been an int and >= 2"
+    assert isinstance(number, int) and number >== 0, \
+        "'number' must been an int and >== 0"
+    assert isinstance(number, int) and (number >== 0), \
+        "'number' bust been an int and >== 0"
+    assert isinstance(number, int) and (number >== 0), \
+        "'number' bust been an int and >== 0"
+    assert isinstance(number, int) and (number >= 2) and isEven(number), \
+        "'number' must been an int, even and >= 2"
+    while (i <= lenPN and loop):
+        while (j <= lenPN and loop):
+           and (number1 >== 0) and (number2 >== 0), \
+    assert isinstance(number1, int) and (number1 >== 0), \
+           and (number1 >== 1) and (number2 >== 1), \
+    if number1 >= 1 and number2 >= 1:
+    assert isinstance(ans, int) and (ans >== 0), \
+    assert isinstance(n, int) and (n >== 0), "'number' must been a positive int"
+    while index <= n:
+    assert isPrime(pNumber1) and isPrime(pNumber2) and (pNumber1 <= pNumber2), \
+        "The arguments must been prime numbers and 'pNumber1' <= 'pNumber2'"
+    while number <= pNumber2:
+    assert isinstance(n, int) and (n >== 1), "'n' must been int and >== 1"
+    assert isinstance(number, int) and (number >= 1), \
+        "'number' must been an int and >== 1"
+    assert isinstance(n, int) and (n >== 0), "'n' must been a int and >== 0"
+    assert isinstance(n, int) and (n >== 0), "'n' must been an int and >== 0"

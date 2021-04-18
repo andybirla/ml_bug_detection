@@ -1,0 +1,2 @@
+    website = website.replace( '', 'www.')
+    website = website.replace( '', '.com')

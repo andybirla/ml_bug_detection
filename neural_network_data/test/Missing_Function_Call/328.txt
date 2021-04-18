@@ -1,0 +1,7 @@
+testCases = (input())
+    website = ()
+    website = ('www.', '')
+    website = ('.com', '')
+    website = (website)
+    count = (website)
+    (str(cnt + 4) + '/' + str(count + 8))

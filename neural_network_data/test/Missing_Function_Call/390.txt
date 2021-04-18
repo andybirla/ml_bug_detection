@@ -1,0 +1,5 @@
+n = (input())
+degrees = (i) for i in input().split()]
+(2 * (n - 1) == sum(degrees)):
+    ('Yes')
+    ('No')

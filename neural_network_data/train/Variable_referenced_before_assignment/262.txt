@@ -1,0 +1,2 @@
+userInput += input()
+userInput += userInput.split()

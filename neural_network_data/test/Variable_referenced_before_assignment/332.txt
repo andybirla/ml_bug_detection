@@ -1,0 +1,3 @@
+T += int(input())
+        as1 += input()
+        bs += input()

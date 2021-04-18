@@ -1,0 +1,5 @@
+    a = ("Enter the word to be checked:- ")	 # incorrect spelling
+    ("original text: "+str(a))     #printing original text
+    b = (a)  #correcting the text
+    ("corrected text: "+str(b.correct()))
+    t = (input("Try Again? 1 : 0 "))

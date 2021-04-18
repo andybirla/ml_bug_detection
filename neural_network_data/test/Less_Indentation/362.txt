@@ -1,0 +1,1 @@
+   arrayC.append(int(arrayA[i]) + int(arrayB[i]))

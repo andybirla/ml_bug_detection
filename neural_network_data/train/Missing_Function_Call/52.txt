@@ -1,0 +1,13 @@
+if (filepath):
+    with ("output.pdf", "wb") as f:
+        for fname in (filepath):
+            if not (".jpg"):
+            path = (filepath, fname)
+            if (path):
+            (path)
+        (img2pdf.convert(imgs))
+elif (filepath):
+    if (".jpg"):
+        with ("output.pdf", "wb") as f:
+            (img2pdf.convert(filepath))
+    ("please input file or dir")

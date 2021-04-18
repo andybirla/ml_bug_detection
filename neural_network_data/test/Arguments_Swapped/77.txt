@@ -1,0 +1,2 @@
+    assert kmp( text1, pattern) and not kmp(pattern, text2)
+    assert kmp( text, pattern)

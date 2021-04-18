@@ -1,0 +1,12 @@
+date = ("Enter date(YYYY-MM-DD): ")
+r = (f"https://api.nasa.gov/planetary/apod?api_key={key}&date={date}")
+parsed = ()
+(f"{title}: {url}")
+img_ = (url, stream=True)
+(img_.headers)
+(img_.headers["content-type"], img_.headers["content-length"])
+(img_.status_code == 200 and (content_type == "image/jpeg" or content_type == "image/gif" or content_type == "image/png")):
+(not os.path.exists ("img/")):
+("img/")
+	with (path, "wb") as f:
+(chunk)

@@ -1,0 +1,14 @@
+        os.system()
+        os.system()
+    if sys.argv[]:
+        if len() <= 15:
+            length = len()
+    with open( 'w') as fd:
+        fd.write())
+        fd.write()
+        fd.write()
+        fd.write().strftime('%d %b %Y') + '\n')
+        fd.write())
+    if len() <= 3:
+    create_file()
+    write_data_in_file()

@@ -1,0 +1,10 @@
+testCases = intinput()
+    string = input        # input is already in string format so no need to type-cast
+    halve = lenstring // 2
+    if lenstring % 2 == 0:
+        if sortedstring[:halve] == sorted(string[halve:]):
+            print'YES'
+            print'NO'
+        if sortedstring[:halve] == sorted(string[halve + 1:]):
+            print'YES'
+            print'NO'

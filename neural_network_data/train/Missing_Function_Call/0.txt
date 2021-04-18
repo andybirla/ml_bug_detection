@@ -1,0 +1,12 @@
+(y=0.66666, color='r', linestyle='-')
+(y=0.33333, color='g', linestyle='-')
+    for i in (n):
+        (doors) 
+        k = (2)  
+        (switch_wins/(i+1))
+        (stick_wins/(i+1))
+        (switch_win_probability)
+        (stick_win_probability)
+    ('Winning probability if you always switch:',switch_win_probability[-1])
+    ('Winning probability if you always stick to your original choice:', stick_win_probability[-1])
+(1000)

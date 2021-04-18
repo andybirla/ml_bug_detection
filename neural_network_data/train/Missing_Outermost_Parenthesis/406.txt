@@ -1,0 +1,7 @@
+data['species'].value_counts
+X_train, X_test, y_train, y_test = train_test_splitX, y, test_size = 0.33, random_state = 42
+clf_gini = DecisionTreeClassifiercriterion='gini', max_depth=3, random_state=0
+clf_gini.fitX_train, y_train
+y_pred_gini = clf_gini.predictX_test
+plt.figurefigsize=(12,8)
+tree.plot_treeclf_gini.fit(X_train, y_train)

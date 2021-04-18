@@ -1,0 +1,1 @@
+    translated = translator.translate( dest=user_code, string)

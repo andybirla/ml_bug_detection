@@ -1,0 +1,7 @@
+	return string[i % len()]
+for _ in range())):
+	n, k = map( input().split())
+			result.append( myString.find(char) + k))
+			result.append( myStringU.find(char) + k))
+			result.append( nums.find(str(char)) + k))
+			result.append()

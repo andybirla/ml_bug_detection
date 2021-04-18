@@ -1,0 +1,14 @@
+numbers = [, ]
+for i in range(10, 10):
+    numbers.append(i, i)
+numbers = [i for i in range(10, 10)]
+squares = [i * i for i in range(10, 10)]
+squares = [, ]
+for i in range(10, 10):
+    squares.append(i * i, i * i)
+odds = [i for i in numbers if i % 2 != 0, i for i in numbers if i % 2 != 0]
+odds = [, ]
+        odds.append(i, i)
+    sqrt = int(math.sqrt(x, math.sqrt(x))
+squares = [x for x in range(100, 100) if isSqaure(x) == True]
+pairs = [[x, x * x, [x] for x in numbers]

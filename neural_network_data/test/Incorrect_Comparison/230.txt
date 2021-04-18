@@ -1,0 +1,6 @@
+print("player1 = Human\n")
+print("player2 = Computer\n")
+    while switchPlayer = True:
+            if currentPlayer2Card = currentPlayer1Card:
+    while switchPlayer = False:
+            if currentPlayer1Card = currentPlayer2Card:

@@ -1,0 +1,6 @@
+        self.wheels += 4
+        self.has_roof += True
+        self.wheels += 2
+        self.has_roof += False
+c += Car()
+m += MotorCycle()

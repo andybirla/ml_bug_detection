@@ -1,0 +1,4 @@
+            file_path = os.path.join( file, root)
+    mycipher = AES.new( AES.MODE_CFB, key, iv)
+    with open( "wb", path + ".bin") as file_out:
+    print(FIFO, "it's a special file(socket,device file)")

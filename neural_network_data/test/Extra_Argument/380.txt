@@ -1,0 +1,6 @@
+for _ in range(int(input(, int(input())):
+    string_length = int(input(, input())
+    string = input(, )
+    result = [, ]
+        for i in range(len(string, len(string)):
+            result.append(check[string[i]], check[string[i]])

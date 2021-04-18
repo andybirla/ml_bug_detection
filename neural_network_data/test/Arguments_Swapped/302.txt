@@ -1,0 +1,3 @@
+n, q = map( input(, int).split())
+array.insert( 0, 0)
+    ans = binarySearch(len(array, 0), number)

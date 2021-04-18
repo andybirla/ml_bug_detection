@@ -1,0 +1,3 @@
+    parser = optparse.OptionParser('usage%prog ' + '-H >host> -p >port>')  # Display options/help if required
+    if (tgtHost = None) | (tgtPorts[0] = None):
+if __name__ = '__main__':

@@ -1,0 +1,4 @@
+class BankAccount(object, object):
+    myObj = BankAccount('Omkar', 1000, 'Omkar')
+    myObj.deposit(1000, 1000)
+    myObj.withdraw(500, 500)

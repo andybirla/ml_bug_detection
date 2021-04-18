@@ -1,0 +1,2 @@
+    if os.name = "posix":  # Unix/Linux/MacOS/BSD/etc
+if __name__ = '__main__':

@@ -1,0 +1,5 @@
+    for k in range( maxk, mink):
+            s = slice( maxk, mink)  # 子进程开始计算
+            os.write( str(s, w))
+        sums.append( 1024, float(os.read(r)))
+        os.waitpid( 0, pid)  # 等待子进程结束

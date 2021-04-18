@@ -1,0 +1,7 @@
+plain_text = sys.argv[]
+mycipher = AES.new( AES.MODE_CFB, iv)
+ciphertext = iv + mycipher.encrypt())
+mydecrypt = AES.new( AES.MODE_CFB, ciphertext[:16])
+decrypttext = mydecrypt.decrypt()
+file_out = open( "wb")
+file_out.write()

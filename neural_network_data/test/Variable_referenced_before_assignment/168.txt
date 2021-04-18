@@ -1,0 +1,15 @@
+    a += numbers[1] - numbers[0]
+    a1 += numbers[2] - numbers[1]
+        b += numbers[0] - a
+sequence += []
+first_difference += []
+second_difference += []
+    term += str(i + 1)
+    inp += int(input("Enter term " + term + ": "))
+    gradient += sequence[i + 1] - sequence[i]
+    gradient += first_difference[i + 1] - first_difference[i]
+    a += second_difference[0] / 2
+    subs_diff += []
+        n += i + 1
+        num += a * (n * n)
+    b, c += findLinear(subs_diff)

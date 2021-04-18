@@ -1,0 +1,54 @@
+class TestXORCipherTestCase:
+    def setUpself:
+    @mock.patch'XOR_cipher.XORCipher.__init__'
+    def test__init__self, mock__init__:
+        XORCipher.__init__ = mock.MagicMock
+        XORCipher.__init__
+        XORCipher.__init__.assert_called
+    @mock.patch'XOR_cipher.XORCipher.encrypt'
+    def test_encryptself, mock_encrypt:
+        ans = mock.MagicMock
+        content = mock.MagicMock
+        key = mock.MagicMock
+        XORCipher.encrypt = mock.MagicMockreturn_value=ans
+        XORCipher.encryptcontent, key
+        XORCipher.encrypt.assert_called_withcontent, key
+    @mock.patch'XOR_cipher.XORCipher.decrypt'
+    def test_decryptself, mock_decrypt:
+        ans = mock.MagicMock
+        content = mock.MagicMock
+        key = mock.MagicMock
+        XORCipher.decrypt = mock.MagicMockreturn_value=ans
+        XORCipher.decryptcontent, key
+        XORCipher.decrypt.assert_called_withcontent, key
+    @mock.patch'XOR_cipher.XORCipher.encrypt_string'
+    def test_encrypt_stringself, mock_encrypt_string:
+        ans = mock.MagicMock
+        content = mock.MagicMock
+        key = mock.MagicMock
+        XORCipher.encrypt_string = mock.MagicMockreturn_value=ans
+        XORCipher.encrypt_stringcontent, key
+        XORCipher.encrypt_string.assert_called_withcontent, key
+    @mock.patch'XOR_cipher.XORCipher.decrypt_string'
+    def test_decrypt_stringself, mock_decrypt_string:
+        ans = mock.MagicMock
+        content = mock.MagicMock
+        key = mock.MagicMock
+        XORCipher.decrypt_string = mock.MagicMockreturn_value=ans
+        XORCipher.decrypt_stringcontent, key
+        XORCipher.decrypt_string.assert_called_withcontent, key
+    @mock.patch'XOR_cipher.XORCipher.encrypt_file'
+    def test_encrypt_fileself, mock_encrypt_file:
+        file = mock.MagicMock
+        key = mock.MagicMock
+        XORCipher.encrypt_file = mock.MagicMockreturn_value=True
+        XORCipher.encrypt_filefile, key
+        XORCipher.encrypt_file.assert_called_withfile, key
+    @mock.patch'XOR_cipher.XORCipher.decrypt_file'
+    def test_decrypt_fileself, mock_decrypt_file:
+        file = mock.MagicMock
+        key = mock.MagicMock
+        XORCipher.decrypt_string = mock.MagicMockreturn_value=True
+        XORCipher.decrypt_stringfile, key
+        XORCipher.decrypt_string.assert_called_withfile, key
+    unittest.main

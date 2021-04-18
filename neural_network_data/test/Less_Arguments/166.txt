@@ -1,0 +1,7 @@
+ftp = FTP()  # Enter the ip address or the domain name here
+ftp.login( passwd='password')
+ftp.cwd()
+    with open( 'wb') as out_file:
+        ftp.retrbinary( out_file.write, 1024)
+    with open( 'rb') as in_file:
+        ftp.storbinary( in_file)

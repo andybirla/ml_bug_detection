@@ -1,0 +1,6 @@
+def calculate_areabase, height:
+    print"__name__: ",__name__
+    return 1/2*base*height
+    print"I am in area.py"
+    a=calculate_area10, 20
+    print"area: ",a

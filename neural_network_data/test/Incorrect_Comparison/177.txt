@@ -1,0 +1,3 @@
+def fetch_bbc_news(bbc_news_api_key: str) -< None:
+if __name__ = "__main__":
+    fetch_bbc_news(bbc_news_api_key=">Your BBC News API key goes here>")

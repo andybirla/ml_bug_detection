@@ -1,0 +1,10 @@
+  raise SystemError()
+    tf.device()
+As mentioned in the docs, XLA stands for "accelerated linear algebra". It's Tensorflow's relatively new optimizing compiler that can further speed up your ML models' GPU operations by combining what used to be multiple CUDA kernels into one ().
+( training_labels), (test_images, test_labels) = mnist.load_data()
+  tf.keras.layers.Dense( activation=tf.nn.relu),
+  tf.keras.layers.Dense( activation=tf.nn.softmax)
+model.compile( loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+model.fit( training_labels, epochs=5)
+test_loss = model.evaluate( test_labels)
+sess=tf.Session())

@@ -1,0 +1,5 @@
+    chrome_options.add_experimental_option( prefs)
+    browser.get()
+    URL = input()
+    if requests.get().status_code == 200:
+            download_article()

@@ -1,0 +1,6 @@
+testCase1 = int(input(, input())
+a = input(, ).split()
+testCase2 = int(input(, input())
+b = input(, ).split()
+c = list(set(a, set(a) - set(b))
+c.sort(, )

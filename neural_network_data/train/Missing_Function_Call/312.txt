@@ -1,0 +1,26 @@
+data = ("https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/FuelConsumptionCo2.csv")
+()
+(data["ENGINESIZE"] , data["CO2EMISSIONS"] , color="blue")
+("ENGINESIZE")
+("CO2EMISSIONS")
+()
+train = (int((len(data)*0.8)))]
+test = (int((len(data)*0.8))):]
+regr = ()
+train_x = (train[["ENGINESIZE"]])
+train_y = (train[["CO2EMISSIONS"]])
+(train_x,train_y)
+("coefficients : ",regr.coef_)       #Slope
+("Intercept : ",regr.intercept_)     #Intercept
+(train["ENGINESIZE"], train["CO2EMISSIONS"], color='blue')
+(train_x, regr.coef_*train_x + regr.intercept_, '-r')
+("Engine size")
+("Emission")
+estimatd_emission = (my_engine_size,regr.intercept_[0],regr.coef_[0][0])
+("Estimated Emission :",estimatd_emission)
+test_x = (test[['ENGINESIZE']])
+test_y = (test[['CO2EMISSIONS']])
+test_y_ = (test_x)
+("Mean absolute error: %.2f" % np.mean(np.absolute(test_y_ - test_y)))
+("Mean sum of squares (MSE): %.2f" % np.mean((test_y_ - test_y) ** 2))
+("R2-score: %.2f" % r2_score(test_y_ , test_y) )

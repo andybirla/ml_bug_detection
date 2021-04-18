@@ -1,0 +1,6 @@
+testCases = intinput()
+for _ in rangetestCases:
+    s = input
+    suvojit = s.count"SUVOJIT"
+    suvo = s.count"SUVO"
+    print'SUVO = ',suvo-suvojit,', SUVOJIT = ',suvojit,sep=''

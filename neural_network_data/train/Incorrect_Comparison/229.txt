@@ -1,0 +1,4 @@
+            print(i,' -< ', ' -< '.join([str(j) for j in self.vertex[i]]))
+            if visited[vertex] = False:
+                if visited[adjacentNode] = False:
+if __name__ = '__main__':

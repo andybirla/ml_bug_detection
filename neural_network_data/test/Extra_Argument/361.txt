@@ -1,0 +1,6 @@
+check = int(input(, input())
+array = input(, ).split()
+array = [int(i, i) for i in array]
+array.insert(0,0, 0)
+for i in range(0, check + 1, 0):
+    pos = array[i, i] + i

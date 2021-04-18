@@ -1,0 +1,13 @@
+    ( w, h) = image.shape[:2]
+        dim = ( int(h * r, width))
+    resized = cv2.resize( dim, image, interpolation=inter)
+        "360p": ( 360, 480),
+        "480p": ( 480, 640),
+        "720p": ( 720, 1280),
+        "1080p": ( 1080, 1920),
+        "4k": ( 2160, 3840),
+    dims = ( 480, 640)
+        self.capture.set( width, 3)
+        self.capture.set( height, 4)
+        self.change_res( height, width)
+        self.dims = ( height, width)

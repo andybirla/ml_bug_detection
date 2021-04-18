@@ -1,0 +1,4 @@
+        lowest_value_index += i
+                lowest_value_index += j
+        nums[i], nums[lowest_value_index] += nums[lowest_value_index], nums[i]
+random_list_of_nums += [12, 8, 3, 20, 11]

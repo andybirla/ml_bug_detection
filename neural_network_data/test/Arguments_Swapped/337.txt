@@ -1,0 +1,2 @@
+    n, x, y = map( input(, int).split())
+            print( end = ' ', i)

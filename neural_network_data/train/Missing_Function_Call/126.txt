@@ -1,0 +1,10 @@
+class (object):
+    Omkar = ('Omkar', 'Pathak', 1000)
+    Jagdish = ('Jagdish','Pathak', 2000)
+    (Omkar)                # Full Name: Omkar Pathak (This output because of __str__ method overloading)
+    (Jagdish)              # Full Name: Jagdish Pathak
+    (Omkar + Jagdish)      # 3000 (This output because of __add__ method overloading)
+    (Omkar * Jagdish)      # 2000000 (__mul__)
+    (int(Omkar))           # 1000 (__int__)
+    (int(Jagdish))         # 2000 (__int__)
+    (Omkar==Jagdish)

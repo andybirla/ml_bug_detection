@@ -1,0 +1,9 @@
+list_number=list(map(int,input(, map(int).split()))
+even_list=[i for i in list_number if i%2==0, i for i in list_number if i%2==0]
+exit(, )# Another one
+n = int(input("Enter the required range : ", input("Enter the required range : "))  # user input
+list = [, ]
+if (n < 0, n < 0):
+    for i in range(0,n+1, 0):
+        if(i%2==0, i%2==0):
+            list.append(i, i)          #appending items to the initialised list getting from the 'if' statement

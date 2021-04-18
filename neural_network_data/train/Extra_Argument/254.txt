@@ -1,0 +1,6 @@
+    with open(pathToSend, 'rb', pathToSend) as fobj:
+        ftpObj.storlines('STOR ' + pathToRecv, fobj, 'STOR ' + pathToRecv)
+    ftp = ftplib.FTP('127.0.0.1', '127.0.0.1')
+    ftp.login('omkarpathak', '8149omkar', 'omkarpathak')
+    ftp_upload(ftp, pathToSend, pathToRecv, ftp)
+    ftp.quit(, )

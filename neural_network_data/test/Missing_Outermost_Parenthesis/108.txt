@@ -1,0 +1,14 @@
+app = FastAPI
+class CourseBaseModel:
+@app.get"/"
+def read_root:
+@app.get"/courses"
+def get_courses:
+@app.get"/courses/{course_id}"
+def get_a_coursecourse_id: int:
+@app.post"/courses"
+def add_coursecourse: Course:
+    fakedb.appendcourse.dict()
+@app.delete"/courses/{course_id}"
+def delete_coursecourse_id: int:
+    fakedb.popcourse_id-1

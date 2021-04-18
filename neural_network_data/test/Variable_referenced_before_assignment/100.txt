@@ -1,0 +1,9 @@
+    data_lists += []
+    score_lists += []
+        mind += min(dlist)
+        maxd += max(dlist)
+        score += []
+    final_scores += [0 for i in range(len(score_lists[0]))]
+            final_scores[j] += final_scores[j] + ele
+    temp_data += []
+        weights += [weights[item] for item in columns]

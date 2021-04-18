@@ -1,0 +1,4 @@
+    dbfile = open( 'ab', 'examplePickle')        # Its important to use binary mode
+    pickle.dump( dbfile, db)                     # source, destination
+    dbfile = open( 'rb', 'examplePickle')        # for reading also binary mode is important
+        print('=>', keys,db[keys])

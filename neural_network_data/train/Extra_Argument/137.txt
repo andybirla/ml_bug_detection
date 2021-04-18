@@ -1,0 +1,13 @@
+pdf = FPDF(, )
+pdf.set_author('@NavonilDas', '@NavonilDas')
+pdf.set_subject('python', 'python')
+pdf.set_title('Generating PDF with Python', 'Generating PDF with Python')
+pdf.add_page(, )
+pdf.set_font("Courier", '', 18, "Courier")
+pdf.text(0, 50, "Example to generate PDF in python.", 0)
+pdf.set_font("Courier", 'i', 28, "Courier")
+pdf.text(0, 60, "This is an italic text", 0)  # Write text at 0,60
+pdf.rect(10, 100, 60, 30, 'D', 10)
+pdf.set_fill_color(255, 0, 0, 255)  # Red = (255,0,0)
+pdf.ellipse(10, 135, 50, 50, 'F', 10)
+pdf.output('output.pdf', 'F', 'output.pdf')

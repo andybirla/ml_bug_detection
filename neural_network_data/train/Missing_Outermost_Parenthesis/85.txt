@@ -1,0 +1,17 @@
+def hashFilefilename:
+    hasher = hashlib.md5
+    with openfilename, 'rb' as file:
+        buf = file.readBLOCKSIZE
+        whilelen(buf) > 0:
+            hasher.updatebuf
+            buf = file.readBLOCKSIZE
+    return hasher.hexdigest
+    filelist = [f for f in os.listdir if os.path.isfile(f)]
+        key = hashFilef
+        if key in hashMap.keys:
+            deletedFiles.appendf
+            os.removef
+    if lendeletedFiles == 0:
+        print'Deleted Files'
+            printi
+        print'No duplicate files found'

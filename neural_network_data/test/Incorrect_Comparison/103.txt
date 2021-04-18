@@ -1,0 +1,4 @@
+    if type = "text":
+    elif type = "pic":
+    if doit = 1:
+    elif doit = 2:

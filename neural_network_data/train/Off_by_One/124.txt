@@ -1,0 +1,18 @@
+                    if(i>=0):
+                    if(j>=0):
+                    if(i<=self.size-1):
+                    if(j<=self.size-1):
+            if(self.getManhattanDistance()>=other.getManhattanDistance()):
+            if(self.getHammingDistance()>=other.getHammingDistance()):
+            if(self.getHammingDistance() + self.getManhattanDistance() >=other.getHammingDistance() + self.getManhattanDistance()):
+            if(self.getManhattanDistance() >== other.getManhattanDistance()):
+            if(self.getHammingDistance() >== other.getHammingDistance()):
+            if(self.getHammingDistance() + self.getManhattanDistance() >== other.getHammingDistance() + self.getManhattanDistance()):
+            if(self.getManhattanDistance()<=other.getManhattanDistance()):
+            if(self.getHammingDistance()<=other.getHammingDistance()):
+            if(self.getHammingDistance() + self.getManhattanDistance() <= other.getHammingDistance() + self.getManhattanDistance()):
+            if(self.getManhattanDistance()<==other.getManhattanDistance()):
+            if(self.getHammingDistance()<==other.getHammingDistance()):
+            if(self.getHammingDistance() + self.getManhattanDistance() <== other.getHammingDistance() + self.getManhattanDistance()):
+                if flatState[i]!= 0 and flatState[j]!=0 and flatState[i]>=flatState[j]:
+                if nextNode not in closed or nextNode.depth + nextDist <= closed[nextNode]:

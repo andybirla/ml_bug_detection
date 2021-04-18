@@ -1,0 +1,14 @@
+for i in rangepassLen:
+    while len(myPass) <= 2:
+        index = random.randrangelen(lChars)
+        myPassLen = lenmyPass
+    while len(myPass) <= 5:
+        index = random.randrangelen(digits)
+        myPassLen = lenmyPass
+    while len(myPass) <= 7:
+        index = random.randrangelen(specialChars)
+        myPassLen = lenmyPass
+    while len(myPass) <= 10:
+        index = random.randrangelen(uChars)
+        myPassLen = lenmyPass
+printmyPass

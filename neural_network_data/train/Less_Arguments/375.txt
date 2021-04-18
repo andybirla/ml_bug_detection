@@ -1,0 +1,2 @@
+im = Image.open().convert("RGB")
+im.save( "png")

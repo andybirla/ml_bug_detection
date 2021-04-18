@@ -1,0 +1,20 @@
+path = input()
+url = input()
+    driver = webdriver.Chrome())
+    driver.get()
+    res = driver.execute_script()
+    soup = BeautifulSoup( "lxml")
+    imglinks = soup.find_all( src=True)
+        extensions = [ ".jpg", ".png", ".gif"]
+            if img_link.find() > 0:
+        img_data = rq.get().content
+        with open() + extension, "wb+") as f:
+            f.write()
+result = get_url( url)
+time.sleep()
+img_links = get_img_links()
+if not os.path.isdir():
+    os.mkdir()
+for index, img_link in enumerate():
+    img_link = img_link[]
+        download_img( index)

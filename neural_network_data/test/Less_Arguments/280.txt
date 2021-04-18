@@ -1,0 +1,2 @@
+for server in open():  # Open the file and read each line
+    subprocess.Popen())  # Run the nslookup command for each server in the list

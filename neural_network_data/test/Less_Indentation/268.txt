@@ -1,0 +1,5 @@
+   query= wikipedia.page(question.get())
+   answer=Text(root,height=100,width=160,font=("Arial",14),wrap=WORD,bg="#7CEBC6" ,fg="black")
+   answer.insert(END,(query.summary))
+   answer.pack()
+                 command=summary,).pack()

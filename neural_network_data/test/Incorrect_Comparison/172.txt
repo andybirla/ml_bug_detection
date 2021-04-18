@@ -1,0 +1,4 @@
+    if main_type = 'text':
+    elif main_type = 'image':
+    elif main_type = 'audio':
+if __name__ = '__main__':

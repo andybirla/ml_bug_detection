@@ -1,0 +1,15 @@
+class RearrangeFile():
+        self.list_of_all_files = os.listdir()
+        if os.path.exists() is False:
+            os.mkdir()
+            foldername = foldername + str()
+            os.mkdir()
+        for i in range()):
+            if self.list_of_all_files[i].endswith():
+                if os.path.exists():
+                    shutil.move( self.folder_path + '/pdfs')
+                    os.mkdir()
+            elif self.list_of_all_files[i].endswith():
+                if os.path.exists():
+                    shutil.move( self.folder_path + '/jpgs')
+                    os.mkdir()

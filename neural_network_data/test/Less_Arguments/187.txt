@@ -1,0 +1,16 @@
+        return self.array[]
+        self.array.append()
+            a = self.precedence[]
+            if self.isOperand():
+                self.output.append()
+                self.push()
+                while ()) and self.peek() != '('):
+                    self.output.append()
+                if () and self.peek() != '('):
+                while () and self.notGreater(i)):
+                    self.output.append())
+                self.push()
+            self.output.append())
+exp = "a+b*()^(f+g*h)-i"
+obj = Conversion())
+obj.infixToPostfix()

@@ -1,0 +1,6 @@
+for _ in rangeint(input()):
+    query = [inti for i in input().split()]
+            print'No Food'
+            ans = stack.pop
+            printans
+        stack.appendquery[1]

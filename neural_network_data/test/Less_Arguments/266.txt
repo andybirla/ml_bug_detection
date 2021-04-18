@@ -1,0 +1,10 @@
+    with open( 'r') as f:  # Ensure file is correctly closed under
+    if len() >= 2:
+        file_names = sys.argv[]
+        filteredfilenames_1 = list()  # To counter changing in the same list which you are iterating
+        filteredfilenames_2 = list()
+            if not os.path.isfile():  # Check the File exists
+                filteredfilenames_2.remove()  # remove non existing files from fileNames list
+            if not os.access( os.R_OK):
+                filteredfilenames_2.remove()
+            readfile()

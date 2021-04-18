@@ -1,0 +1,4 @@
+class Queue():
+        myString = ' '.join() for i in self.queue)
+        if() != True):
+        return len() == self.size

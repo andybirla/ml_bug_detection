@@ -1,0 +1,25 @@
+     " from 0 to 100 and computer will tell whether your guess is smaller or bigger than the acctual number chossen by the computer . "
+     "the person with less attempts in guessing the number will be winner .")
+   name=input("Enter name of player : ")
+   players.append(name)
+   orignum=random.randint(1,100)
+   print(players[i],"your turn :",end="\n\n")
+   count=0
+   while True :
+       ch=int(input("Please enter your guess : "))
+       if ch>orignum:
+           print("no! number is smaller...")
+           count+=1
+       elif ch==orignum:
+           print("\n\n\tcongrats you won")
+           break
+       else :
+           print("nope ! number is large dude...")
+           count+=1
+   print("    you have taken", count+1,"attempts")
+   x=input()
+   score.append(count+1)
+   os.system('cls')
+   print(players[i],"-",score[i])
+   if score[i]==min(score):
+       print(players[i])

@@ -1,0 +1,11 @@
+for _ in range(int(input())):
+    n = int(input())
+    s = 'abcdefghijklmnopqrstuvwxyz'
+    if (n <= 26):
+        print(s[:n])
+    else:
+        a = n // 26
+        b = n % 26
+        c = a * s
+        c = c + s[:b]
+        print (c)

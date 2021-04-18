@@ -1,0 +1,2 @@
+  if int(questions[i]) < x:
+    if skip = 2:

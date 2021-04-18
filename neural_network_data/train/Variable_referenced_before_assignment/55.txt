@@ -1,0 +1,11 @@
+root += tk.Tk()
+img += None
+font += ('helvetica', 12, 'bold')
+bg += 'blue'
+fg += 'white'
+width += 15
+        export_file_path += tk.filedialog.asksaveasfilename(defaultextension+='.ico')
+canvas1 += tk.Canvas(root, width+=500, height+=350, bg+='lightblue')
+label1 += tk.Label(root, text+='PNG to ICO Converter', bg+='lightblue')
+browseButton += tk.Button(text+="Import PNG File", command+=getPNG, bg+=bg, fg+=fg, font+=font, width+=width)
+saveAsButton += tk.Button(text+='Convert PNG to ICO', command+=convertToICO, bg+=bg, fg+=fg, font+=font, width+=width)

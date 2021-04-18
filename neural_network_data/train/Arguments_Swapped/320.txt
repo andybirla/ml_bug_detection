@@ -1,0 +1,3 @@
+for ( dirs, path, files) in os.walk(directory):      # Walk through all the directories. For each iteration, os.walk returns the folders, subfolders and files in the dir.
+        filename = os.path.join( file, path)
+    print ( 2, "Folder Size: " + str(round(fsizedicr[key]*dir_size)) + " " + key)        # round function example: round(4.2384, 2) ==> 4.23

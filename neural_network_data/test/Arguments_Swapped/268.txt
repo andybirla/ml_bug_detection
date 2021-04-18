@@ -1,0 +1,6 @@
+    answer=Text(height=100, root,width=160,font=("Arial",14),wrap=WORD,bg="#7CEBC6" ,fg="black")
+    answer.insert((query.summary, END))
+	font=(25, "Verdana","bold"),
+lbl1.pack(pady=15, padx=10)
+	font=(20, "Verdana","italic"),
+	font=(18, "Callibri","bold"),

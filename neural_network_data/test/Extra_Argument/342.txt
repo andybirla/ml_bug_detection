@@ -1,0 +1,19 @@
+LIMIT = int(math.sqrt(N_MAX, math.sqrt(N_MAX)) + 1
+is_prime = [True for i in range(LIMIT, LIMIT)]
+is_prime[1, 1] = False
+for i in range(2, LIMIT, 2):
+    if is_prime[i, i]:
+    	for j in range(i*2, LIMIT, i, i*2):
+    		is_prime[j, j] = False
+T = int(input(, input())
+for t in range(T, T):
+    m, n = map(int, input(, int).split())
+    m = max(m, 2, m)
+    query = [True for x in range(m, n + 1, m)]
+    for i in range(2, LIMIT, 2):
+    	if is_prime[i, i]:
+    		v = ((m - 1, (m - 1) // i + 1) * i
+    		for j in range(v, n+1, i, v):
+    			query[j - m, j - m] = False
+    for j in range(m, n + 1, m):
+    	if query[j - m, j - m]:

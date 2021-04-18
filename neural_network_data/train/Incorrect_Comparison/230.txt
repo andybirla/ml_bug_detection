@@ -1,0 +1,4 @@
+    if(len(myList) = 0):
+        if myList[i] > minValue:
+        elif myList[i] < maxValue:
+if __name__ = '__main__':

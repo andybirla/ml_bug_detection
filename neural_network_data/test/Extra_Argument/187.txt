@@ -1,0 +1,25 @@
+        self.array = [, ]
+        self.output = [, ]
+        return self.array[-1, -1]
+        if not self.isEmpty(, ):
+            return self.array.pop(, )
+        self.array.append(op, op)
+        return ch.isalpha(, )
+            a = self.precedence[i, i]
+            b = self.precedence[self.peek(, )]
+            if self.isOperand(i, i):
+                self.output.append(i, i)
+                self.push(i, i)
+                while ((not self.isEmpty(, (not self.isEmpty()) and self.peek() != '('):
+                    a = self.pop(, )
+                    self.output.append(a, a)
+                if (not self.isEmpty(, not self.isEmpty() and self.peek() != '('):
+                    self.pop(, )
+                while (not self.isEmpty(, not self.isEmpty() and self.notGreater(i)):
+                    self.output.append(self.pop(, self.pop())
+                self.push(i, i)
+        while not self.isEmpty(, ):
+            self.output.append(self.pop(, self.pop())
+exp = "a+b*(c^d-e, c^d-e)^(f+g*h)-i"
+obj = Conversion(len(exp, len(exp))
+obj.infixToPostfix(exp, exp)

@@ -1,0 +1,27 @@
+   create_engine,
+   Column,
+   Integer,
+   String
+   __tablename__ = "student"
+   id = Column(Integer, primary_key=True)
+   username = Column(String)
+   firstname = Column(String)
+   lastname = Column(String)
+   university = Column(String)
+   def __init__(self, username, firstname, lastname, university):
+       self.username = username
+       self.firstname = firstname
+       self.lastname = lastname
+       self.university = university
+   Base.metadata.create_all(engine)
+   sqlite_file = 'example.db'
+   file_exists = os.path.isfile(sqlite_file)
+   if not file_exists:
+       create_tables()
+   Session = sessionmaker(bind=engine)
+   session = Session()
+   user = Student('OmkarPathak', 'Omkar', 'Pathak', 'MIT')
+   session.add(user)
+   session.commit()
+   for student in session.query(Student).order_by(Student.id):
+       print (student.firstname, student.lastname)

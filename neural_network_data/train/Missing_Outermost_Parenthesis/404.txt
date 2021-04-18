@@ -1,0 +1,11 @@
+top = tkinter.Tk
+top.title'Clock'
+top.resizable0,0
+def time: 
+    string = strftime'%H:%M:%S %p' 
+    clockTime.configtext = string 
+    clockTime.after1000, time
+clockTime = tkinter.Labeltop, font = ('calibri', 40, 'bold'), background = 'black', foreground = 'white'
+clockTime.packanchor = 'center'
+time 
+top.mainloop

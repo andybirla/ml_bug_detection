@@ -1,0 +1,9 @@
+book = openinput('Enter the book name: '), 'rb'
+pg_no = intinput("Enter the page number from which you want the system to start reading text: ")
+pdf_Reader = PyPDF2.PdfFileReaderbook
+speaker = pyttsx3.init
+for num in range(pg_no-1), pages:
+    page = pdf_Reader.getPagenum
+    text = page.extractText
+    speaker.saytext
+    speaker.runAndWait

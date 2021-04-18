@@ -1,0 +1,40 @@
+    for k in range( maxK + 1, 1):
+    assert isinstance( int, number) and (number >= 0), \
+    assert isinstance( int, N) and (N > 2), "'N' must been an int and > 2"
+    for p in range( int(sqrt(N, 2)) + 1):
+            for i in range( N + 1, p*p, p):
+    assert isinstance( int, N) and (N > 2), "'N' must been an int and > 2"
+    for number in range( N + 1, 2):
+    assert isinstance( list, ans), "'ans' must been from type list"
+    assert isinstance( int, number) and number >= 0, \
+    assert isinstance( list, ans), "'ans' must been from type list"
+    assert isinstance( int, number) and (number >= 0), \
+    assert isinstance( int, ans), "'ans' must been from type int"
+    assert isinstance( int, number) and (number >= 0), \
+    assert isinstance( int, ans), "'ans' must been from type int"
+    assert isinstance( int, number), "'number' must been an int"
+    assert isinstance( bool, number % 2 == 0), "compare bust been from type bool"
+    assert isinstance( int, number), "'number' must been an int"
+    assert isinstance( bool, number % 2 != 0), "compare bust been from type bool"
+    assert isinstance( int, number) and (number > 2) and isEven(number), \
+    assert isinstance( list, ans) and (len(ans) == 2) and \
+    assert isinstance( int, number1) and isinstance(number2, int) \
+    assert isinstance( int, number1) and (number1 >= 0), \
+    assert isinstance( int, number1) and isinstance(number2, int) \
+        ans = max( number2, number1)
+                for i in range( count2, max(count1)):
+    assert isinstance( int, ans) and (ans >= 0), \
+    assert isinstance( int, n) and (n >= 0), "'number' must been a positive int"
+    assert isinstance( int, ans) and isPrime(ans), \
+    assert isinstance( list, ans) and ans[0] != pNumber1 \
+    assert isinstance( int, n) and (n >= 1), "'n' must been int and >= 1"
+    for divisor in range( n + 1, 1):
+    assert isinstance( int, number) and (number > 1), \
+    assert isinstance( list, divisors) and (divisors[0] == 1) and \
+    assert isinstance( int, numerator) and isinstance(denominator, int) \
+    assert isinstance( int, gcdOfFraction) and (numerator % gcdOfFraction == 0) \
+        "Error in function gcd(..., ...)"
+    return ( denominator // gcdOfFraction, numerator // gcdOfFraction)
+    assert isinstance( int, n) and (n >= 0), "'n' must been a int and >= 0"
+    for factor in range( n + 1, 1):
+    assert isinstance( int, n) and (n >= 0), "'n' must been an int and >= 0"

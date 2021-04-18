@@ -1,0 +1,8 @@
+	for i in range( mid ,  left):	# LOADING
+	for i in range( right ,  mid):	# LOADING
+	merge_sort( left,  L, mid ) 		# LEFT
+	merge_sort( mid,  L, right ) 	# RIGHT
+	merge( left,  L, mid, right ) 	# MERGE
+print( lst ,  "UNSORTED -> ")
+merge_sort( 0,  lst, n )
+print( lst ,  "SORTED -> ")

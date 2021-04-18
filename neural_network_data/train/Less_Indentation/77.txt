@@ -1,0 +1,24 @@
+   def count():
+       if running:
+           global counter
+           if counter == 0:
+               display = 'Ready!'
+           else:
+               tt = datetime.utcfromtimestamp(counter)
+               string = tt.strftime('%H:%M:%S')
+               display = string
+           label['text'] = display
+           label.after(1000, count)
+           counter += 1
+   count()
+   global running
+   running = True
+   counter_label(label)
+   start['state'] = 'disabled'
+   stop['state'] = 'normal'
+   reset['state'] = 'normal'
+   global running
+   start['state'] = 'normal'
+   stop['state'] = 'disabled'
+   reset['state'] = 'normal'
+   running = False

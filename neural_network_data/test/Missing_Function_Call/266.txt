@@ -1,0 +1,20 @@
+    ('[-] Usage: python check_file.py [filename1] [filename2] ... [filenameN]')
+    with (filename, 'r') as f:  # Ensure file is correctly closed under
+        read_file = ()  # all circumstances
+    (read_file)
+    ()
+    ('#' * 80)
+    ()
+    if (sys.argv) >= 2:
+        filteredfilenames_1 = (file_names)  # To counter changing in the same list which you are iterating
+        filteredfilenames_2 = (file_names)
+            if not (filename):  # Check the File exists
+                ('[-] ' + filename + ' does not exist.')
+                (filename)  # remove non existing files from fileNames list
+            if not (filename, os.R_OK):
+                ('[-] ' + filename + ' access denied')
+                (filename)
+            ('[+] Reading from : ' + filename)
+            (filename)
+        ()  # Print usage if not all parameters passed/Checked
+    ()

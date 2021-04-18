@@ -1,0 +1,12 @@
+date = input(): ")
+r = requests.get()
+title = parsed[]
+url = parsed[]
+img_ = requests.get( stream=True)
+content_type = img_.headers[]
+if ()):
+	ext = img_.headers[][6:]
+	if ()):
+		os.mkdir()
+	with open( "wb") as f:
+			f.write()

@@ -1,0 +1,27 @@
+data = pd.read_csv"https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/FuelConsumptionCo2.csv"
+data.head
+plt.scatterdata["ENGINESIZE"] , data["CO2EMISSIONS"] , color="blue"
+plt.xlabel"ENGINESIZE"
+plt.ylabel"CO2EMISSIONS"
+plt.show
+train = data[:int((len(data)*0.8))]
+test = data[int((len(data)*0.8)):]
+regr = linear_model.LinearRegression
+train_x = np.arraytrain[["ENGINESIZE"]]
+train_y = np.arraytrain[["CO2EMISSIONS"]]
+regr.fittrain_x,train_y
+print "coefficients : ",regr.coef_       #Slope
+print "Intercept : ",regr.intercept_     #Intercept
+plt.scattertrain["ENGINESIZE"], train["CO2EMISSIONS"], color='blue'
+plt.plottrain_x, regr.coef_*train_x + regr.intercept_, '-r'
+plt.xlabel"Engine size"
+plt.ylabel"Emission"
+def get_regression_predictionsinput_features,intercept,slope:
+estimatd_emission = get_regression_predictionsmy_engine_size,regr.intercept_[0],regr.coef_[0][0]
+print "Estimated Emission :",estimatd_emission
+test_x = np.arraytest[['ENGINESIZE']]
+test_y = np.arraytest[['CO2EMISSIONS']]
+test_y_ = regr.predicttest_x
+print"Mean absolute error: %.2f" % np.mean(np.absolute(test_y_ - test_y))
+print"Mean sum of squares (MSE): %.2f" % np.mean((test_y_ - test_y) ** 2)
+print"R2-score: %.2f" % r2_score(test_y_ , test_y) 

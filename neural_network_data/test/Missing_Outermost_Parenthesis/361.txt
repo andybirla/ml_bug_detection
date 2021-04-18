@@ -1,0 +1,6 @@
+check = intinput()
+array = input.split()
+array = [inti for i in array]
+array.insert0,0
+for i in range0, check + 1:
+printcount

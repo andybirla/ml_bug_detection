@@ -1,0 +1,10 @@
+def main:
+    print"This program illustrates a chaotic function"
+            x = float(input("Enter a number between 0 and 1: "))
+            if 0 < x and x < 1:
+                print"Please enter correct number"
+            print"Please enter correct number"
+    for i in range10:
+        x = 3.9 * x * 1 - x
+        printx
+    main

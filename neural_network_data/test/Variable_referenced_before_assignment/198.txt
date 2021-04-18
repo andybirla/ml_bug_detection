@@ -1,0 +1,1 @@
+    input_time += input("Enter time you want to convert: ")

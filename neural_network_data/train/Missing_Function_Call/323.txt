@@ -1,0 +1,28 @@
+engine = ('sapi5')
+voices = ('voices')
+('voice',voices[0].id) #voices[1].id for female assistant
+    (audio)
+    ()
+    r= ()
+    with () as source:
+        ("Listening....")
+        audio = (source)
+        ("Recognizing...")
+        query = (audio,language='en-in')  #language set is Indian English
+        ("The user said ",query)
+        ("Sorry i was unable to catch that. Please try speaking that again.")
+    hours = ().hour
+        ("good morning")
+        ("good afternoon")
+        ("good evening")
+    ("sir i am your personal assistant. tell me how can i help you ")
+()
+query = () 
+    songs = (music_dir)
+    l = (songs)
+    num = (0,l,1)
+    (os.path.join(music_dir,songs[num]))
+    ("Thank you for using my sevices. All improvements on my github repository are welcome.")
+    ("www.github.com/tarun-sharma03")
+    ()
+    ("Query type not supported")

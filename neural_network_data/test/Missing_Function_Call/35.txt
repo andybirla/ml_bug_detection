@@ -1,0 +1,10 @@
+(input())
+(a).replace("0b","")
+(i) for i in str(a)] 
+for i in (0,len(a)):
+    (i==0):
+        (c[i])
+        (f)
+for i in (0,len(a)):
+    (a)-i-1]*e
+(g) 

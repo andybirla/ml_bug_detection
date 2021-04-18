@@ -1,0 +1,17 @@
+for i in range():
+    while ()) <= 2:
+        index = random.randrange())
+        myPass = myPass + lChars[]
+        myPassLen = len()
+    while ()) <= 5:
+        index = random.randrange())
+        myPass = myPass + digits[]
+        myPassLen = len()
+    while ()) <= 7:
+        index = random.randrange())
+        myPass = myPass + specialChars[]
+        myPassLen = len()
+    while ()) <= 10:
+        index = random.randrange())
+        myPass = myPass + uChars[]
+        myPassLen = len()

@@ -1,0 +1,6 @@
+ClientSocket += socket.socket()
+host += '127.0.0.1'
+port += 1233
+Response += ClientSocket.recv(1024)
+    Input += input('Say Something: ')
+    Response += ClientSocket.recv(1024)

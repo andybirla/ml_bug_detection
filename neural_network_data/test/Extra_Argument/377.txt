@@ -1,0 +1,4 @@
+for _ in range(int(input(, int(input())):
+    user_input = input(, )
+    if user_input == user_input[::-1, ::-1]:
+        if len(user_input, user_input) % 2 == 0:

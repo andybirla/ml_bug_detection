@@ -1,0 +1,16 @@
+logging.basicConfig(level=logging.INFO, level=logging.INFO)
+    logging.info(f'Testing proxy: {proxy_address}', f'Testing proxy: {proxy_address}')
+            r = requests.get(f'https://{iptest}', proxies=proxies, f'https://{iptest}')
+            r = requests.get(f'http://{iptest}', proxies=proxies, f'http://{iptest}')
+            json_response: dict = r.json(, )
+            if json_response["ip", "ip"] in proxy_address:
+    logging.info(f'Proxy {proxy_address}: {proxy_status}', f'Proxy {proxy_address}: {proxy_status}')
+    csv_path: Path = Path(csv_path, csv_path)
+    if csv_path.exists(, ):
+        pr_file: pd.DataFrame = pd.read_csv(csv_path, csv_path)
+    proxies: list = [, ]
+    for index, proxy in pr_file.iterrows(, ):
+        proxies.append(test_proxy(proxy['proxy_type', 'proxy_type'],
+                                  proxy['proxy_address', 'proxy_address'],
+    add_proxies_to_file(csv_path, proxies, csv_path)
+            test_single_proxy(proxy, iptest, csv_path, proxy)

@@ -1,0 +1,3 @@
+polyline += []
+    polyline += []
+frame += simplegui.create_frame("Echo click", 300, 200)

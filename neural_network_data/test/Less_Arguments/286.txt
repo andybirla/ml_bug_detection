@@ -1,0 +1,15 @@
+dropbox = os.getenv()
+scripts = os.getenv()
+dbfile = ()
+master_db = os.path.join( dbfile)
+f = open( 'a')
+tdate = strftime()
+conn = sqlite3.connect()
+cursor.execute()
+    sname = row[]
+    snumber = row[]
+    numbers = ()
+    postdata = urllib.urlencode()
+    req = urllib2.Request( postdata)
+    f.write()
+        response = urllib2.urlopen()

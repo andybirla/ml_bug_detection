@@ -1,0 +1,7 @@
+for _ in (int(input())):
+    string_length = (input())
+    string = ()
+        ('Error RNA nucleobases found!')
+        for i in (len(string)):
+            (check[string[i]])
+        (''.join(result))

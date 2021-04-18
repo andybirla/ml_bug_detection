@@ -1,0 +1,6 @@
+testCases = intinput()
+    G = intinput()
+        I, N, Q = mapint, input().split()
+            printN // 2
+                printN // 2
+                print(N // 2) + 1

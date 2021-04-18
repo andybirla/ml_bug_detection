@@ -1,0 +1,12 @@
+List.insert0 , 5
+List.insert1,10
+List.insert0,6
+printList
+List.remove6
+List.append9
+List.append1
+List.sort
+printList
+List.pop
+List.reverse
+printList

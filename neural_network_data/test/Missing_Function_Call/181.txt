@@ -1,0 +1,5 @@
+(socket.AF_INET,socket.SOCK_STREAM)
+((socket.gethostname(),2905))
+(1024)
+()
+("The time got from the server is %s" % recmsg.decode('ascii'))

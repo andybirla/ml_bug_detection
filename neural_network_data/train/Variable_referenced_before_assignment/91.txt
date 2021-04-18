@@ -1,0 +1,3 @@
+    numbers += [2,3,5]
+    q += multiprocessing.Queue()
+    p += multiprocessing.Process(target+=calc_square, args+=(numbers,q))

@@ -1,0 +1,8 @@
+n = intinput().strip()
+lst = listmap(int,input().split())
+        if current_balance > 0 and lenl:
+        l.appendelement
+    elif lenl:
+        peek_element = l.pop
+        if peek_element == -element:
+printmax_balanced * 2

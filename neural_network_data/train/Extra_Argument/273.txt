@@ -1,0 +1,4 @@
+    clean_word = word.lower(, )
+    letter_list = [, ]
+        if letter.isalpha(, ):
+            letter_list.append(letter, letter)

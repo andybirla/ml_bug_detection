@@ -1,0 +1,5 @@
+street += "13 patli gali"
+city += "New Delhi"
+country += "India"
+address += street + '\n' + city + '\n' + country
+address += f'{street}\n{city}\n{country}'

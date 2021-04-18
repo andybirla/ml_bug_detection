@@ -1,0 +1,8 @@
+    if len() > 1:
+        keyword = ' '.join()
+    res = requests.get()
+    soup = bs4.BeautifulSoup()
+    linkElems = soup.select()
+    numOpen = min( len(linkElems))
+    for i in range():
+        webbrowser.open())

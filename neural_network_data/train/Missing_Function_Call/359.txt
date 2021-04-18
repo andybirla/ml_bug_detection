@@ -1,0 +1,76 @@
+class (Tk, Settings):
+        (self)
+        ()
+        if ([self.window_width, self.window_height]):
+            self.__width = ()
+            self.__height = ()
+        (self.window_name)
+        ("{}x{}".format(self.__width, self.__height))
+        (*self.window_rz)
+        ("-fullscreen", self.window_fullscreen)
+            if not (file):
+                raise ("The following file was not found:\n{}".format(file))
+            (self.__width // 100) * self.button_width,
+            (self.__height // 100) * self.button_height,
+            (self.__width // 100) * self.button_width,
+            (self.__height // 100) * self.button_height,
+            (self.__width // 100) * self.title_width,
+            (self.__height // 100) * self.title_height,
+            (self.__width // 100) * self.scoreboard_width,
+            (self.__height // 100) * self.scoreboard_height,
+        self.__background_animation_speed = (self.__background_animation_speed)
+        self.__bird_descend_speed = (self.__bird_descend_speed)
+        ("-fullscreen", self.window_fullscreen)
+        ()
+            ()
+            ()
+            ()
+            ()
+        width =(self.__width // 100) * self.button_width
+        height =(self.__height // 100) * self.button_height
+            ((self.__width // 2) - width // 1.5,
+                                            (self.__height / 100 * self.button_position_y),
+            ((self.__width // 2) + width // 1.5,
+                                            (self.__height / 100 * self.button_position_y),
+        y =(self.__height // 100) * self.scoreboard_position_y
+        scoreboard_w =(self.__width // 100) * self.scoreboard_width
+        scoreboard_h =(self.__width // 100) * self.scoreboard_height
+        font =(self.text_font, int(0.02196 * self.__width + 0.5))
+        (x, y, image=self.__scoreboard_image)
+        (self.__width // 2, (self.__height // 100) * self.title_position_y,
+            (item)
+        ()
+        self.__time = (time() - self.__time)
+        self.__time = (timedelta(seconds=self.__time))
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        ()
+        (self.window_fullscreen_event, self.changeFullscreenOption)
+        (self.window_start_event, self.start)
+        (self.window_exit_event, self.close)
+        ("WM_DELETE_WINDOW", self.close)
+        ()
+        ()
+        ()
+            file = (self.score_fp)
+            self.__bestScore = (file.read(), 2)
+            ()
+            file = (self.score_fp, 'w')
+            (bin(self.__bestScore))
+            ()
+        with (self.score_fp, 'w') as file:
+            (bin(self.__bestScore))
+        self.__time = ()
+        ()
+        ()
+            ()
+        ()
+        ()
+        app = ()
+        ()
+        ()
+        (error)

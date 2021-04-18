@@ -1,0 +1,8 @@
+def pascalRown:
+        N = pascalRown-1
+        return [1] + [N[i] + N[i+1] for i in rangen-1] + [1]
+def pascalTrianglen:
+    for i in rangen:
+        triangle.appendpascalRow(i)
+    for i in pascalTriangle7:
+        printi

@@ -1,0 +1,25 @@
+def insertionSortarr, left, right:  
+    for i in rangeleft + 1, right+1:  
+def mergearr, l, m, r: 
+    for i in range0, len1:  
+        left.appendarr[l + i]  
+    for i in range0, len2:  
+        right.appendarr[m + 1 + i]  
+def timSortarr, n:  
+    for i in range0, n, RUN:  
+        insertionSortarr, i, min((i+31), (n-1))  
+        for left in range0, n, 2*size:  
+            right = min(left + 2*size - 1), (n-1)  
+            mergearr, left, mid, right  
+def printArrayarr, n:  
+    for i in range0, n:  
+        printarr[i], end = " "  
+    print  
+    n = intinput('Enter size of array\n')
+    print'Enter elements of array\n'
+    arr = listmap(int ,input().split())  
+    print"Given Array is"  
+    printArrayarr, n  
+    timSortarr, n  
+    print"After Sorting Array is"  
+    printArrayarr, n  

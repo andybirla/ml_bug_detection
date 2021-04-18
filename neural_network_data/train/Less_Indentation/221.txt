@@ -1,0 +1,11 @@
+   if n == 0:
+       return [1]
+   else:
+       N = pascalRow(n-1)
+       return [1] + [N[i] + N[i+1] for i in range(n-1)] + [1]
+   triangle = []
+   for i in range(n):
+       triangle.append(pascalRow(i))
+   return triangle
+   for i in pascalTriangle(7):
+       print(i)

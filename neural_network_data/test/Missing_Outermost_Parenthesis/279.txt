@@ -1,0 +1,9 @@
+def process_dateuser_input:
+    user_input=re.subr"/", " ", user_input #substitute / with space
+    user_input=re.subr"-", " ", user_input #substitute - with space 
+def find_daydate:
+    born = datetime.datetime.strptimedate, '%d %m %Y'.weekday() #this statement returns an integer corresponding to the day of the week
+    return calendar.day_name[born] #this statement returns the corresponding day name to the integer generated in the previous statement
+user_input=strinput("Enter date     ")
+date=process_dateuser_input
+print"Day on " +user_input + "  is "+ find_day(date) 

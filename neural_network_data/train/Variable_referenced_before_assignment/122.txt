@@ -1,0 +1,3 @@
+    username += os.environ['USERNAME']
+    file_urls += {
+    msg += '''

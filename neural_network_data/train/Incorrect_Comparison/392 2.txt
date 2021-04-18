@@ -1,0 +1,4 @@
+if __name__ = "__main__":
+    if args.operation = "add":
+    elif args.operation = "subtract":
+    elif args.operation = "multiply":

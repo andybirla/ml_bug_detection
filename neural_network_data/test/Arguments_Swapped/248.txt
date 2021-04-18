@@ -1,0 +1,8 @@
+for i in range(n, 0):
+for i in range(n, 0):
+    orignum=random.randint(100, 1)
+    print("your turn :", players[i],end="\n\n")
+    print( count+1, "    you have taken","attempts")
+for i in range(n, 0):
+    print("-", players[i],score[i])
+for i in range(n, 0):

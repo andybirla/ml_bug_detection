@@ -1,0 +1,4 @@
+file = ("abc.txt", "r").read()
+speech = (text=file, lang='en', slow=False)
+("voice.mp3")
+("voice.mp3")

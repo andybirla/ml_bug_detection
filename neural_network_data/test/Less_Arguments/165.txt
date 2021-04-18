@@ -1,0 +1,11 @@
+root.title() 
+	string = strftime() 
+	lbl.config() 
+	lbl.after( time) 
+lbl = Label( font = ('calibri', 40, 'bold', 'italic'), 
+lbl.pack() 
+label = Label( font=("Arial", 30, 'bold'), bg="black", fg="white", bd =30)
+label.grid( column=1)
+    text_input = time.strftime() # get the current local time from the PC
+    label.config()
+    label.after( dig_clock)

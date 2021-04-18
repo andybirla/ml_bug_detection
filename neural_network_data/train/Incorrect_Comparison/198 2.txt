@@ -1,0 +1,2 @@
+    		if Counter(word) = Counter(words.lower()):
+if __name__ = '__main__':

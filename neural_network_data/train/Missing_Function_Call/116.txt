@@ -1,0 +1,11 @@
+    url = (username)
+    page = (url)
+    tree = (page.content)
+    data = ('//meta[starts-with(@name,"description")]/@content')
+        data = ('//meta[starts-with(@name,"description")]/@content')
+        data = (', ')
+        followers = ()
+        following = ()
+        posts = (r'\d+[,]*', data[2])[0]
+        name = (r'name":"\w*[\s]+\w*"', page.text)[-1][7:-1]
+        aboutinfo = (r'"description":"([^"]+)"', page.text)[0]

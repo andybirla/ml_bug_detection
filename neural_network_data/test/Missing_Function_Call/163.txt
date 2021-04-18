@@ -1,0 +1,10 @@
+case = (1, 2)
+number = (1, 99)
+specialCharacters =( "!", "@", "#", "$", "%", "/", "?", ":" , "<", ">", "|" , "&", "*", "-", "=", "+", "_")
+chosenanimal = (0, len(animals) - 1)] # randint will return max lenght but , tuple has index from 0 to len-1
+chosencolour = (0, len(colour) - 1)]
+chosenSpecialCharacter = (0, len(specialCharacters) - 1)] 
+    chosenanimal = ()
+    (chosencolour, number , chosenanimal, chosenSpecialCharacter)
+    chosencolour = ()
+    (chosenanimal, number, chosencolour, chosenSpecialCharacter)

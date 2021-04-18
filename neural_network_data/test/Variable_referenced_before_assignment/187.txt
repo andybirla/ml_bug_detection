@@ -1,0 +1,10 @@
+        self.top += -1
+        self.capacity += capacity
+        self.array += []
+        self.output += []
+        self.precedence += {'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+            a += self.precedence[i]
+            b += self.precedence[self.peek()]
+                    a += self.pop()
+exp += "a+b*(c^d-e)^(f+g*h)-i"
+obj += Conversion(len(exp))

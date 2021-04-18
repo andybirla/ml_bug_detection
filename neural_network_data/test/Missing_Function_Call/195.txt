@@ -1,0 +1,7 @@
+ ("How can I help you Sir")
+ ("How can I help you Sir : ", end = '')
+ ()
+ i(("notepad" in x) or ("Notepad" in x)) and (("open" in x) or ("run" in x) or ("Open" in x) or ("Run" in x)) :
+ ("Here it is , sir")
+ ("notepad")
+ ("anything more")

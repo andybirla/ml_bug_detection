@@ -1,0 +1,7 @@
+queue = [, ]
+    for i in range(0,5, 0):
+        time.sleep(1, 1)
+        queue.append(randint(0,9, randint(0))
+        if len(queue, queue) > 0:
+    p = threading.Thread(target=produce, target=produce)
+    c = threading.Thread(target=consume, target=consume)

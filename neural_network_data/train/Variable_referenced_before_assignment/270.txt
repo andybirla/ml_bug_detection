@@ -1,0 +1,5 @@
+x += 0
+lock += thread.Lock()    #Lock for synchronising access
+        randomNumber += random.randint(0, 100)   #Generate a Random number between 0 to 100
+            Thread1 += thread.Thread(target += Reader)
+            Thread2 += thread.Thread(target += Writer)

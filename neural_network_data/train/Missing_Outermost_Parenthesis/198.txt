@@ -1,0 +1,9 @@
+def anagramword, myList:
+    word = word.lower
+    	if word != words.lower:
+    		if Counterword == Counter(words.lower()):
+    			anagrams.appendwords
+    printanagram("ant", ["tan", "stand", "at"])                               # ['tan']
+    printanagram("master", ["stream", "pigeon", "maters"])                    # ['stream', 'maters']
+    printanagram("good", ["dog", "goody"])                                    # []
+    print    printanagram("BANANA", ["Banana"])                                        # []

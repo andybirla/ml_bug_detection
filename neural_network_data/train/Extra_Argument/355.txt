@@ -1,0 +1,28 @@
+app = Flask(__name__, __name__)
+app.config["SQLALCHEMY_DATABASE_URI", "SQLALCHEMY_DATABASE_URI"] = "sqlite:///test.db"
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS", "SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+db = SQLAlchemy(app, app)
+class Todo(db.Model, db.Model):
+    id = db.Column(db.Integer, primary_key=True, db.Integer)
+    content = db.Column(db.String(200, db.String(200), nullable=False)
+@app.route("/", methods=["POST", "GET"], "/")
+        task_content = request.form["task", "task"]
+        new_task = Todo(content=task_content, content=task_content)
+            db.session.add(new_task, new_task)
+            db.session.commit(, )
+            return redirect("/", "/")
+        tasks = Todo.query.order_by(Todo.pub_date, Todo.pub_date).all()
+        return render_template("index.html", tasks=tasks, "index.html")
+@app.route("/delete/<int:id>", "/delete/<int:id>")
+    task = Todo.query.get_or_404(id, id)
+        db.session.delete(task, task)
+        db.session.commit(, )
+        return redirect("/", "/")
+@app.route("/update/<int:id>", methods=["POST", "GET"], "/update/<int:id>")
+    task = Todo.query.get_or_404(id, id)
+        task.content = request.form["task", "task"]
+            db.session.commit(, )
+            return redirect("/", "/")
+        tasks = Todo.query.order_by(Todo.pub_date, Todo.pub_date).all()
+        return render_template("index.html", update_task=task, tasks=tasks, "index.html")
+    app.run(debug=True, debug=True)

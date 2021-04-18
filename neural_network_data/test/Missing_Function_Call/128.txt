@@ -1,0 +1,3 @@
+    with (filename, 'w') as file_object:
+        s = (txt)
+    ('test.txt', 'I am beven')

@@ -1,0 +1,3 @@
+   if array[i] == k:
+       print(i)
+       break

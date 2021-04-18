@@ -1,0 +1,47 @@
+q= input""
+    os.system"shutdown -s"
+def progressstream=None, chunk=None,  remaining=None:
+    file_downloaded = file_size-remaining
+    per = round(file_downloaded/file_size)*100, 1
+    dBtn.configtext=f'{per}% downloaded'
+def startDownload:
+        URL = urlField.get
+        dBtn.configtext='Please wait...'
+        dBtn.configstate=DISABLED
+        path_save = askdirectory
+        ob = YouTubeURL, on_progress_callback=progress
+        x = ob.description.split"|"
+        dfile_size = rounddfile_size, 2
+        label.configtext='Size: ' + str(dfile_size) + ' MB'
+        label.packside=TOP, pady=10
+        desc.config                    'Views: ' + strround(ob.views/1000000, 2) + 'M')
+        desc.packside=TOP, pady=10
+        strm.downloadpath_save, strm.title
+        dBtn.configstate=NORMAL
+        showinfo"Download Finished", 'Downloaded Successfully'
+        urlField.delete0, END
+        label.pack_forget
+        desc.pack_forget
+        dBtn.configtext='Start Download'
+        printe
+        print'Error!!'
+def startDownloadthread:
+    thread = Threadtarget=startDownload
+    thread.start
+main = Tk
+main.title"My YouTube Downloader"
+main.configbg='#3498DB'
+main.iconbitmap'youtube-ios-app.ico'
+main.geometry"500x600"
+file = PhotoImagefile='photo.png'
+headingIcon = Labelmain, image=file
+headingIcon.packside=TOP
+urlField = Entrymain, font=("Times New Roman", 18), justify=CENTER
+urlField.packside=TOP, fill=X, padx=10, pady=15
+dBtn = ButtondBtn.packside=TOP
+label = Labelmain, text=''
+desc = Labelmain, text=''
+author = Labelmain, text="@G.S."
+author.configfont=("Courier", 44)
+author.packside=BOTTOM
+main.mainloop

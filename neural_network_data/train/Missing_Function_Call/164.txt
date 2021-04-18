@@ -1,0 +1,12 @@
+    new_width = (width / 20) 
+    new_height = (height / 40)
+    resized_image = (image, (new_width, new_height),)
+    thresh_image = (resized_image.shape)
+    for i, threshold in (threshold_list):
+    if (sys.argv) < 2:
+        ("Image Path not specified : Using sample_image.png\n")
+    if (sys.argv) == 2:
+        ("Using {} as Image Path\n".format(sys.argv[1]))
+    image = (image_path, 0)  # read image
+    ascii_art = (image)
+    (ascii_art)

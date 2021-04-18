@@ -1,0 +1,12 @@
+def parentDataparent:
+    child.send['Bye']
+    child.close
+    parent, child = Pipe              # Create Pipe
+    process1 = Processtarget = parentData, args = (parent, )      # Create a process for handling parent data
+    process2 = Processtarget = childData, args = (child, )        # Create a process for handling child data
+    process1.start                    # Start the  parent process
+    process2.start                    # Start the child process
+    printparent.recv()                # Display data received from child (BYE)
+    printchild.recv()                 # Display data received from parent (HELLO)
+    process1.join                     # Wait till the process completes its execution
+    process2.join

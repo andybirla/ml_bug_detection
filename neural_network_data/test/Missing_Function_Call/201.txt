@@ -1,0 +1,32 @@
+	for i in (len(board)): 
+		for j in (len(board)): 
+((i, j)) 
+(l) 
+	selection = (board) 
+	current_loc = (selection) 
+(board) 
+	for x in (len(board)): 
+		for y in (len(board)): 
+(win) 
+(win) 
+	for x in (len(board)): 
+		for y in (len(board)): 
+(win) 
+(win) 
+	for x in (len(board)): 
+		for x in (len(board)): 
+			y = (board) - 1 - x 
+(row_win(board, player) or
+(board,player) or
+(board,player)): 
+	if (board != 0) and winner == 0: 
+	board, winner, counter = (), 0, 1
+(board) 
+(2) 
+			board = (board, player) 
+("Board after " + str(counter) + " move") 
+(board) 
+(2) 
+			winner = (board) 
+(winner) 
+("Winner is: " + str(play_game())) 

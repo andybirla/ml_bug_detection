@@ -1,0 +1,4 @@
+for _ in range())):
+    string_length = int())
+        for i in range()):
+            result.append()

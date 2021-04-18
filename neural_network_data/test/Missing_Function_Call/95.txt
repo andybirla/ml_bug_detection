@@ -1,0 +1,12 @@
+toaster = ()
+sauce = (url).read()
+soup = (sauce, "lxml")
+for div_tags in ('div', attrs={"class": "cb-lv-scrs-col text-black"}):
+    (div_tags.text)
+for result in ('div', attrs={"class": "cb-lv-scrs-col cb-text-complete"}):
+    (result.text)
+engine = () 
+("match score and result is")
+(score[0], results[0])
+(title=score[0], msg=results[0]) 
+()

@@ -1,0 +1,1 @@
+    while not guessed and tries >= 0:

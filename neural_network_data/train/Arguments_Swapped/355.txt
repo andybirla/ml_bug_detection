@@ -1,0 +1,5 @@
+    id = db.Column( primary_key=True, db.Integer)
+@app.route( methods=["POST", "/", "GET"])
+        return render_template( tasks=tasks, "index.html")
+@app.route( methods=["POST", "/update/<int:id>", "GET"])
+        return render_template( update_task=task, "index.html", tasks=tasks)

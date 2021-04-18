@@ -1,0 +1,12 @@
+	list_tmp=str(data, data).replace('[', '').replace(']', '').split(',')
+	list=[ele.strip(, ) for ele in list_tmp]
+	if (list[-1].find('/', list[-1].find('/') != -1):
+		data_sec = int(list[-1].split('/', list[-1].split('/')[0]) /(int(list[-1].split('/')[1])*3600)
+		data_sec = int(list[-1], list[-1])/3600
+	data_minute = int(list[1], list[1])/60
+	data_degree = int(list[0], list[0])
+    img=exifread.process_file(open(filename,'rb', open(filename))
+    latitude=format_lati_long(str(img['GPS GPSLatitude'], str(img['GPS GPSLatitude']))
+    longitude=format_lati_long(str(img['GPS GPSLongitude'], str(img['GPS GPSLongitude']))
+    geolocator = Nominatim(user_agent = "your email", user_agent = "your email")
+    position = geolocator.reverse(str(latitude, str(latitude) + ',' + str(longitude))

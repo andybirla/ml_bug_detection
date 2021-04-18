@@ -1,0 +1,473 @@
+for i in rangelen(list1):
+  iflist1[i][-1] == "1":
+    for j in rangelen(list1):
+      one.appendlist1[i]+list1[j][1:]
+  eliflist1[i][-1] == "2":
+    for j in rangelen(list2):
+      one.appendlist1[i]+list2[j][1:]
+  eliflist1[i][-1] == "3":
+    for j in rangelen(list3):
+      one.appendlist1[i]+list3[j][1:]
+  eliflist1[i][-1] == "4":
+    for j in rangelen(list4):
+      one.appendlist1[i]+list4[j][1:]
+  eliflist1[i][-1] == "5":
+    for j in rangelen(list5):
+      one.appendlist1[i]+list5[j][1:]
+  eliflist1[i][-1] == "6":
+    for j in rangelen(list6):
+      one.appendlist1[i]+list6[j][1:]
+  eliflist1[i][-1] == "7":
+    for j in rangelen(list7):
+      one.appendlist1[i]+list7[j][1:]
+for i in rangelen(list2):
+  iflist2[i][-1] == "1":
+    for j in rangelen(list1):
+      two.appendlist2[i]+list1[j][1:]
+  eliflist2[i][-1] == "2":
+    for j in rangelen(list2):
+      two.appendlist2[i]+list2[j][1:]
+  eliflist2[i][-1] == "3":
+    for j in rangelen(list3):
+      two.appendlist2[i]+list3[j][1:]
+  eliflist2[i][-1] == "4":
+    for j in rangelen(list4):
+      two.appendlist2[i]+list4[j][1:]
+  eliflist1[i][-1] == "5":
+    for j in rangelen(list5):
+      two.appendlist2[i]+list5[j][1:]
+  eliflist2[i][-1] == "6":
+    for j in rangelen(list6):
+      two.appendlist2[i]+list6[j][1:]
+  eliflist2[i][-1] == "7":
+    for j in rangelen(list7):
+      two.appendlist2[i]+list7[j][1:]
+for i in rangelen(list3):
+  iflist3[i][-1] == "1":
+    for j in rangelen(list1):
+      three.appendlist3[i]+list1[j][1:]
+  eliflist3[i][-1] == "2":
+    for j in rangelen(list2):
+      three.appendlist3[i]+list2[j][1:]
+  eliflist3[i][-1] == "3":
+    for j in rangelen(list3):
+      three.appendlist3[i]+list3[j][1:]
+  eliflist3[i][-1] == "4":
+    for j in rangelen(list4):
+      three.appendlist3[i]+list4[j][1:]
+  eliflist3[i][-1] == "5":
+    for j in rangelen(list5):
+      three.appendlist3[i]+list5[j][1:]
+  eliflist3[i][-1] == "6":
+    for j in rangelen(list6):
+      three.appendlist3[i]+list6[j][1:]
+  eliflist3[i][-1] == "7":
+    for j in rangelen(list7):
+      three.appendlist3[i]+list7[j][1:]
+for i in rangelen(list4):
+  iflist4[i][-1] == "1":
+    for j in rangelen(list1):
+      four.appendlist4[i]+list1[j][1:]
+  eliflist4[i][-1] == "2":
+    for j in rangelen(list2):
+      four.appendlist4[i]+list2[j][1:]
+  eliflist4[i][-1] == "3":
+    for j in rangelen(list3):
+      four.appendlist4[i]+list3[j][1:]
+  eliflist4[i][-1] == "4":
+    for j in rangelen(list4):
+      four.appendlist4[i]+list4[j][1:]
+  eliflist4[i][-1] == "5":
+    for j in rangelen(list5):
+      four.appendlist4[i]+list5[j][1:]
+  eliflist4[i][-1] == "6":
+    for j in rangelen(list6):
+      four.appendlist4[i]+list6[j][1:]
+  eliflist4[i][-1] == "7":
+    for j in rangelen(list7):
+      four.appendlist4[i]+list7[j][1:]
+for i in rangelen(list5):
+  iflist5[i][-1] == "1":
+    for j in rangelen(list1):
+      five.appendlist5[i]+list1[j][1:]
+  eliflist5[i][-1] == "2":
+    for j in rangelen(list2):
+      five.appendlist5[i]+list2[j][1:]
+  eliflist5[i][-1] == "3":
+    for j in rangelen(list3):
+      five.appendlist5[i]+list3[j][1:]
+  eliflist5[i][-1] == "4":
+    for j in rangelen(list4):
+      five.appendlist5[i]+list4[j][1:]
+  eliflist5[i][-1] == "5":
+    for j in rangelen(list5):
+      five.appendlist5[i]+list5[j][1:]
+  eliflist5[i][-1] == "6":
+    for j in rangelen(list6):
+      five.appendlist5[i]+list6[j][1:]
+  eliflist5[i][-1] == "7":
+    for j in rangelen(list7):
+      five.appendlist5[i]+list7[j][1:]
+for i in rangelen(list6):
+  iflist6[i][-1] == "1":
+    for j in rangelen(list1):
+      six.appendlist6[i]+list1[j][1:]
+  eliflist6[i][-1] == "2":
+    for j in rangelen(list2):
+      six.appendlist6[i]+list2[j][1:]
+  eliflist6[i][-1] == "3":
+    for j in rangelen(list3):
+      six.appendlist6[i]+list3[j][1:]
+  eliflist6[i][-1] == "4":
+    for j in rangelen(list4):
+      six.appendlist6[i]+list4[j][1:]
+  eliflist6[i][-1] == "5":
+    for j in rangelen(list5):
+      six.appendlist6[i]+list5[j][1:]
+  eliflist6[i][-1] == "6":
+    for j in rangelen(list6):
+      six.appendlist6[i]+list6[j][1:]
+  eliflist6[i][-1] == "7":
+    for j in rangelen(list7):
+      six.appendlist6[i]+list7[j][1:]
+for i in rangelen(list7):
+  iflist6[i][-1] == "1":
+    for j in rangelen(list1):
+      seven.appendlist7[i]+list1[j][1:]
+  eliflist7[i][-1] == "2":
+    for j in rangelen(list2):
+      seven.appendlist7[i]+list2[j][1:]
+  eliflist7[i][-1] == "3":
+    for j in rangelen(list3):
+      seven.appendlist7[i]+list3[j][1:]
+  eliflist7[i][-1] == "4":
+    for j in rangelen(list4):
+      seven.appendlist7[i]+list4[j][1:]
+  eliflist7[i][-1] == "5":
+    for j in rangelen(list5):
+      seven.appendlist7[i]+list5[j][1:]
+  eliflist7[i][-1] == "6":
+    for j in rangelen(list6):
+      seven.appendlist7[i]+list6[j][1:]
+  eliflist7[i][-1] == "7":
+    for j in rangelen(list7):
+      seven.appendlist7[i]+list7[j][1:]
+one = np.uniqueone
+two = np.uniquetwo
+three = np.uniquethree
+four = np.uniquefour
+five = np.uniquefive
+six = np.uniquesix
+seven = np.uniqueseven
+print"Length of List one is",len(one),"\n"
+print"Elements of List one:\n"
+printone
+print"========================================================================="
+print"\n"
+print"Length of List two is",len(two),"\n"
+print"Elements of List two:\n"
+printtwo
+print"========================================================================="
+print"\n"
+print"Length of List three is",len(three),"\n"
+print"Elements of List three:\n"
+printthree
+print"========================================================================="
+print"\n"
+print"Length of List four is",len(four),"\n"
+print"Elements of List four:\n"
+printfour
+print"========================================================================="
+print"\n"
+print"Length of List five is",len(five),"\n"
+print"Elements of List five:\n"
+printfive
+print"========================================================================="
+print"\n"
+print"Length of List six is",len(six),"\n"
+print"Elements of List six:\n"
+printsix
+print"========================================================================="
+print"\n"
+print"Length of List seven is",len(seven),"\n"
+print"Elements of List seven:\n"
+printseven
+for i in rangelen(one):
+  ifone[i][-1] == "1":
+    for j in rangelen(one):
+      Fone.appendone[i]+one[j][1:]
+  elifone[i][-1] == "2":
+    for j in rangelen(two):
+      Fone.appendone[i]+two[j][1:]
+  elifone[i][-1] == "3":
+    for j in rangelen(three):
+      Fone.appendone[i]+three[j][1:]
+  elifone[i][-1] == "4":
+    for j in rangelen(four):
+      Fone.appendone[i]+four[j][1:]
+  elifone[i][-1] == "5":
+    for j in rangelen(five):
+      Fone.appendone[i]+five[j][1:]
+  elifone[i][-1] == "6":
+    for j in rangelen(six):
+      Fone.appendone[i]+six[j][1:]
+  elifone[i][-1] == "7":
+    for j in rangelen(seven):
+      Fone.appendone[i]+seven[j][1:]
+for i in rangelen(two):
+  iftwo[i][-1] == "1":
+    for j in rangelen(one):
+      Ftwo.appendtwo[i]+one[j][1:]
+  eliftwo[i][-1] == "2":
+    for j in rangelen(two):
+      Ftwo.appendtwo[i]+two[j][1:]
+  eliftwo[i][-1] == "3":
+    for j in rangelen(three):
+      Ftwo.appendtwo[i]+three[j][1:]
+  eliftwo[i][-1] == "4":
+    for j in rangelen(four):
+      Ftwo.appendtwo[i]+four[j][1:]
+  eliftwo[i][-1] == "5":
+    for j in rangelen(five):
+      Ftwo.appendtwo[i]+five[j][1:]
+  eliftwo[i][-1] == "6":
+    for j in rangelen(six):
+      Ftwo.appendtwo[i]+six[j][1:]
+  eliftwo[i][-1] == "7":
+    for j in rangelen(seven):
+      Ftwo.appendtwo[i]+seven[j][1:]
+for i in rangelen(three):
+  ifthree[i][-1] == "1":
+    for j in rangelen(one):
+      Fthree.appendthree[i]+one[j][1:]
+  elifthree[i][-1] == "2":
+    for j in rangelen(two):
+      Fthree.appendthree[i]+two[j][1:]
+  elifthree[i][-1] == "3":
+    for j in rangelen(three):
+      Fthree.appendthree[i]+three[j][1:]
+  elifthree[i][-1] == "4":
+    for j in rangelen(four):
+      Fthree.appendthree[i]+four[j][1:]
+  elifthree[i][-1] == "5":
+    for j in rangelen(five):
+      Fthree.appendthree[i]+five[j][1:]
+  elifthree[i][-1] == "6":
+    for j in rangelen(six):
+      Fthree.appendthree[i]+six[j][1:]
+  elifthree[i][-1] == "7":
+    for j in rangelen(seven):
+      Fthree.appendthree[i]+seven[j][1:]
+for i in rangelen(four):
+  iffour[i][-1] == "1":
+    for j in rangelen(one):
+      Ffour.appendfour[i]+one[j][1:]
+  eliffour[i][-1] == "2":
+    for j in rangelen(two):
+      Ffour.appendfour[i]+two[j][1:]
+  eliffour[i][-1] == "3":
+    for j in rangelen(three):
+      Ffour.appendfour[i]+three[j][1:]
+  eliffour[i][-1] == "4":
+    for j in rangelen(four):
+      Ffour.appendfour[i]+four[j][1:]
+  eliffour[i][-1] == "5":
+    for j in rangelen(five):
+      Ffour.appendfour[i]+five[j][1:]
+  eliffour[i][-1] == "6":
+    for j in rangelen(six):
+      Ffour.appendfour[i]+six[j][1:]
+  eliffour[i][-1] == "7":
+    for j in rangelen(seven):
+      Ffour.appendfour[i]+seven[j][1:]
+for i in rangelen(five):
+  iffive[i][-1] == "1":
+    for j in rangelen(one):
+      Ffive.appendfive[i]+one[j][1:]
+  eliffive[i][-1] == "2":
+    for j in rangelen(two):
+      Ffive.appendfive[i]+two[j][1:]
+  eliffive[i][-1] == "3":
+    for j in rangelen(three):
+      Ffive.appendfive[i]+three[j][1:]
+  eliffive[i][-1] == "4":
+    for j in rangelen(four):
+      Ffive.appendfive[i]+four[j][1:]
+  eliffive[i][-1] == "5":
+    for j in rangelen(five):
+      Ffive.appendfive[i]+five[j][1:]
+  eliffive[i][-1] == "6":
+    for j in rangelen(six):
+      Ffive.appendfive[i]+six[j][1:]
+  eliffive[i][-1] == "7":
+    for j in rangelen(seven):
+      Ffive.appendfive[i]+seven[j][1:]
+for i in rangelen(six):
+  ifsix[i][-1] == "1":
+    for j in rangelen(one):
+      Fsix.appendsix[i]+one[j][1:]
+  elifsix[i][-1] == "2":
+    for j in rangelen(two):
+      Fsix.appendsix[i]+two[j][1:]
+  elifsix[i][-1] == "3":
+    for j in rangelen(three):
+      Fsix.appendsix[i]+three[j][1:]
+  elifsix[i][-1] == "4":
+    for j in rangelen(four):
+      Fsix.appendsix[i]+four[j][1:]
+  elifsix[i][-1] == "5":
+    for j in rangelen(five):
+      Fsix.appendsix[i]+five[j][1:]
+  elifsix[i][-1] == "6":
+    for j in rangelen(six):
+      Fsix.appendsix[i]+six[j][1:]
+  elifsix[i][-1] == "7":
+    for j in rangelen(seven):
+      Fsix.appendsix[i]+seven[j][1:]
+for i in rangelen(seven):
+  ifseven[i][-1] == "1":
+    for j in rangelen(one):
+      Fseven.appendseven[i]+one[j][1:]
+  elifseven[i][-1] == "2":
+    for j in rangelen(two):
+      Fseven.appendseven[i]+two[j][1:]
+  elifseven[i][-1] == "3":
+    for j in rangelen(three):
+      Fseven.appendseven[i]+three[j][1:]
+  elifseven[i][-1] == "4":
+    for j in rangelen(four):
+      Fseven.appendseven[i]+four[j][1:]
+  elifseven[i][-1] == "5":
+    for j in rangelen(five):
+      Fseven.appendseven[i]+five[j][1:]
+  elifseven[i][-1] == "6":
+    for j in rangelen(six):
+      Fseven.appendseven[i]+six[j][1:]
+  elifseven[i][-1] == "7":
+    for j in rangelen(seven):
+      Fseven.appendseven[i]+seven[j][1:]
+Fone = np.uniqueFone
+Ftwo = np.uniqueFtwo
+Fthree = np.uniqueFthree
+Ffour = np.uniqueFfour
+Ffive = np.uniqueFfive
+Fsix = np.uniqueFsix
+Fseven = np.uniqueFseven
+print"Length of the Final List One:",len(Fone)
+print"Length of the Final List Two:",len(Ftwo)
+print"Length of the Final List Three:",len(Fthree)
+print"Length of the Final List Four:",len(Ffour)
+print"Length of the Final List Five:",len(Ffive)
+print"Length of the Final List Six:",len(Fsix)
+print"Length of the Final List Seven:",len(Fseven)
+print"\n"
+printFone[:5]
+printFtwo[:5]
+printFthree[:5]
+printFfour[:5]
+printFfive[:5]
+printFsix[:5]
+printFseven[:5]
+for i in rangelen(Fone):
+  iflen(Fone[i])>=10:
+    List_one.appendFone[i][:10]
+for i in rangelen(Ftwo):
+  iflen(Ftwo[i])>=10:
+    List_two.appendFtwo[i][:10]
+for i in rangelen(Fthree):
+  iflen(Fthree[i])>=10:
+    List_three.appendFthree[i][:10]
+for i in rangelen(Ffour):
+  iflen(Ffour[i])>=10:
+    List_four.appendFfour[i][:10]
+for i in rangelen(Ffive):
+  iflen(Ffive[i])>=10:
+    List_five.appendFfive[i][:10]
+for i in rangelen(Fsix):
+  iflen(Fsix[i])>=10:
+    List_six.appendFsix[i][:10]
+for i in rangelen(Fseven):
+  iflen(Fseven[i])>=10:
+    List_seven.appendFseven[i][:10]
+List_one = np.uniqueList_one
+List_two = np.uniqueList_two
+List_three = np.uniqueList_three
+List_four = np.uniqueList_four
+List_five = np.uniqueList_five
+List_six = np.uniqueList_six
+List_seven = np.uniqueList_seven
+print"Length of the Final List One:",len(List_one)
+print"Length of the Final List Two:",len(List_two)
+print"Length of the Final List Three:",len(List_three)
+print"Length of the Final List Four:",len(List_four)
+print"Length of the Final List Five:",len(List_five)
+print"Length of the Final List Six:",len(List_six)
+print"Length of the Final List Seven:",len(List_seven)
+print"\n"
+printList_one[:5]
+printList_two[:5]
+printList_three[:5]
+printList_four[:5]
+printList_five[:5]
+printList_six[:5]
+printList_seven[:5]
+for i in rangelen(List_one):
+  for j in range10:
+    ifa[j] == b[j]:
+      list_1.appenda
+list_1 = np.uniquelist_1
+iflen(List_one) == len(list_1):
+  print"Congratulations!!"
+  print"Solution route is successful on possible routes starting with 1"
+  print"Solution route may not work universally."
+for i in rangelen(List_one):
+  List_all.appendList_one[i]
+for i in rangelen(List_two):
+  List_all.appendList_two[i]
+for i in rangelen(List_three):
+  List_all.appendList_three[i]
+for i in rangelen(List_four):
+  List_all.appendList_four[i]
+for i in rangelen(List_five):
+  List_all.appendList_five[i]
+for i in rangelen(List_six):
+  List_all.appendList_six[i]
+for i in rangelen(List_seven):
+  List_all.appendList_seven[i]
+def verifysolution_route, list_name:
+  if list_name == "List_one":
+  elif list_name == "List_two":
+  elif list_name == "List_three":
+  elif list_name == "List_four":
+  elif list_name == "List_five":
+  elif list_name == "List_six":
+  elif list_name == "List_seven":
+  elif list_name == "List_all":
+  for i in rangelen(List_name):
+    for j in range10:
+      ifa[j] == b[j]:
+        list_new.appenda
+  list_new = np.uniquelist_new
+  iflen(List_name) == len(list_new):
+    print"Congratulations!!"
+    print"The provided solution route is successful on possible routes starting with",list_name[5:]
+    print"The provided solution route may not work universally."
+print"List Names:"
+print"List_one"
+print"List_two"
+print"List_three"
+print"List_four"
+print"List_five"
+print"List_six"
+print"List_seven"
+print"\n"
+solution_route = input"Enter the solution route you want to verify: "
+list_name = input"Enter the name of the list you want to verify: "
+print"\n"
+if(len(solution_route) != 10):
+  print"Please enter a solution route with 10 movements."
+  iflist_name not in L_N:
+    print"Please enter a valid list name."
+  iflist_name not in L_N:
+    print"Please enter a valid list name."
+    verifysolution_route,list_name

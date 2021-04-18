@@ -1,0 +1,3 @@
+filepath += sys.argv[1]
+        imgs += []
+            path += os.path.join(filepath, fname)

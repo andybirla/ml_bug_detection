@@ -1,0 +1,5 @@
+    decimal = round( decimal_accuracy, num % 1) 
+        decimal = round( decimal_accuracy, decimal % 1)
+        print(end="", whole[i])
+        print(end="", fractional[i])
+    print( end = '', num % 2) 

@@ -1,0 +1,7 @@
+stake = (argv[1])
+goals = (argv[2])
+trials = (argv[3])
+for i in (trials):
+        if (0, 2) == 0:
+("Your won: " + str(100 * wins // trials) + "$")
+("Your bets: " + str(bets // trials))

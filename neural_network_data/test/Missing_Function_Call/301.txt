@@ -1,0 +1,11 @@
+    f = ('file_name.jpg', 'wb')  # opening file in write binary('wb') mode with file_name.ext ext=extension
+    (requests.get(url).content)  # Writing File Content in file_name.jpg
+    ()
+    ("Succesfully Downloaded")
+        response = (url)
+        ('Failed Download!')
+            with ('file_name.jpg', 'wb') as f:
+                (requests.get(url).content)
+                ("Succesfully Downloaded")
+            ('Failed Download!')
+(url)

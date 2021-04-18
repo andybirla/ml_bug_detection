@@ -1,0 +1,4 @@
+text = ('Enter Text : ')
+    asciiVal = (ord(chr))
+        asciiVal = (asciiVal/2)
+    (bin + " : " + bin[::-1])

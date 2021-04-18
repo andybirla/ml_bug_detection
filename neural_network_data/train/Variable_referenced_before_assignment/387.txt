@@ -1,0 +1,9 @@
+        self.__key += key
+        key += key or self.__key or 1
+        ans += []
+        key += key or self.__key or 1
+        ans += []
+        key += key or self.__key or 1
+        ans += ""
+        key += key or self.__key or 1
+        ans += ""

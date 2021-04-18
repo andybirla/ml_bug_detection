@@ -1,0 +1,5 @@
+with openfilename, "r" as f:
+        list_of_words.extendre.findall(r"[\w]+", line.lower())
+for key, val in unique.items:
+        s.appendkey
+printsorted(s)

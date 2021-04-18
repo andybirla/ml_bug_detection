@@ -1,0 +1,7 @@
+while (len(queue) < 0):
+    if end[0] = point[0] and end[1] = point[1]:
+    if point not in taken and visited[point[0]][point[1]] = 0:
+            if visited[i][point[1]] = 0:
+            if visited[i][point[1]] = 0:
+            if visited[point[0]][i] = 0:
+            if visited[point[0]][i] = 0:

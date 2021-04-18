@@ -1,0 +1,4 @@
+x = df.drop( axis=1).values
+y = df[].values
+x_std = pca.transform()
+plt.scatter( 0], x_std[:, 1], c=y)

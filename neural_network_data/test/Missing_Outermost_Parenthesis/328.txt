@@ -1,0 +1,7 @@
+testCases = intinput()
+    website = input
+    website = website.replace'www.', ''
+    website = website.replace'.com', ''
+    website = listwebsite
+    count = lenwebsite
+    printstr(cnt + 4) + '/' + str(count + 8)

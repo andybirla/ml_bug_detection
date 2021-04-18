@@ -1,0 +1,15 @@
+switcher += {
+        str += switcher[color] + str + Style.RESET_ALL
+TAG += paint('TF-IDF-GENE/', 'b')
+    tf_idf += []  # will hold a dict of word_count for every doc(line in a doc in this case)
+    idf += {}
+        idf, tf_idf += pickle.load(open(prev_file_path, 'rb'))
+        prev_doc_count += len(idf)
+        prev_corpus_length += len(tf_idf)
+        file1 += open(f, 'r')  # never use 'rb' for textual data, it creates something like,  {b'line-inside-the-doc'}
+            dict += {}
+                    idf[i] += 1
+                    dict[word] += 1
+            true_idf += math.log(len(tf_idf) / idf[key])
+            true_tf += doc[key] / len(doc)
+            doc[key] += true_tf * true_idf

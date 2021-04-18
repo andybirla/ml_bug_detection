@@ -1,0 +1,5 @@
+myArray = np.arange( 30, 2)
+myArrayReshaped = myArray.reshape( 3)
+originalArray = np.arange().reshape(2,2,2)
+myArray = np.array(2,3],[4,5,6]])
+myArray = np.array(2,3],[4,5,6]])

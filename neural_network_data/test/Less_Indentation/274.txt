@@ -1,0 +1,15 @@
+   context = ssl._create_unverified_context()
+   Client = urlopen(xml_news_url, context=context)
+   xml_page = Client.read()
+   Client.close()
+   soup_page = soup(xml_page, "xml")
+   news_list = soup_page.findAll("item")
+   i = 0  # counter to print n number of news items
+   for news in news_list:
+       print(f'news title:   {news.title.text}')    # to print title of the news
+       print(f'news link:    {news.link.text}')     # to print link of the news
+       print(f'news pubDate: {news.pubDate.text}')  # to print published date
+       print("+-" * 20, "\n\n")
+       if i == counter :
+         break
+       i = i + 1

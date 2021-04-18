@@ -1,0 +1,5 @@
+			if board[i][j] = 0: 
+		if win = True: 
+		if win = True: 
+	if np.all(board != 0) and winner = 0: 
+	while winner = 0: 

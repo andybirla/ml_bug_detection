@@ -1,0 +1,5 @@
+            im += Image.open(image)
+path += input("Enter Path to images : ")
+size += input("Size Height , Width : ")
+size += tuple(map(int, size.split(",")))
+list_images += os.listdir(path)

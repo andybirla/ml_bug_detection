@@ -1,0 +1,5 @@
+book['tom', 'tom'] = {
+book['bob', 'bob'] = {
+s=json.dumps(book, book)
+with open("c://data//book.txt","w", "c://data//book.txt") as f:
+    f.write(s, s)

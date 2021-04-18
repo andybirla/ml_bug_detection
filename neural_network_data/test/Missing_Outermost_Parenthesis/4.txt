@@ -1,0 +1,10 @@
+testCases = intinput()
+    N, K = mapint, input().split()
+    check = [inti for i in input().split()]
+    check.sort
+    if N - K <= K:
+    for i in rangeresult, len(check):
+        chef.appendcheck[i]
+    for i in range0, result:
+        son.appendcheck[i]
+    printsum(chef) -  sum(son)

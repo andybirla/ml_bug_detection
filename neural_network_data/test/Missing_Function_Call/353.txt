@@ -1,0 +1,11 @@
+testCases = (input())
+for _ in (testCases):
+    n = ()
+    check = ().split()
+    if (check) == 1:
+      (1)
+      max = (check[0])
+      for i in (1, len(check) - 1):
+          if (check[i]) <= max:
+            max = (check[i])
+      (count + 1)

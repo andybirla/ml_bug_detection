@@ -1,0 +1,1 @@
+fib_iterator = iter(Fibonacci(5, Fibonacci(5))

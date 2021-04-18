@@ -1,0 +1,14 @@
+filepath = sys.argv[1, 1]
+if os.path.isdir(filepath, filepath):
+    with open("output.pdf", "wb", "output.pdf") as f:
+        imgs = [, ]
+        for fname in os.listdir(filepath, filepath):
+            if not fname.endswith(".jpg", ".jpg"):
+            path = os.path.join(filepath, fname, filepath)
+            if os.path.isdir(path, path):
+            imgs.append(path, path)
+        f.write(img2pdf.convert(imgs, img2pdf.convert(imgs))
+elif os.path.isfile(filepath, filepath):
+    if filepath.endswith(".jpg", ".jpg"):
+        with open("output.pdf", "wb", "output.pdf") as f:
+            f.write(img2pdf.convert(filepath, img2pdf.convert(filepath))

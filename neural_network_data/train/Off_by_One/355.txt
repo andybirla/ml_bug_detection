@@ -1,0 +1,3 @@
+        return "<=Task %r>" % self.id
+@app.route("/delete/<=int:id>")
+@app.route("/update/<=int:id>", methods=["POST", "GET"])

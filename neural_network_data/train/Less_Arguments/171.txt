@@ -1,0 +1,6 @@
+website = input()
+a_record = dns.resolver.resolve( 'A')
+mx_record = dns.resolver.resolve('MX')
+   mx_record_list.append()
+for i, element in enumerate():
+    dns_record[ i+1] = element

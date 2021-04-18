@@ -1,0 +1,23 @@
+if lensys.argv < 3:
+    printtext
+    sys.exit
+    printtext
+    sys.exit
+        print'Unknown option - ' + text
+        sys.exit
+confdir = os.getenv"my_config"
+scripts = os.getenv"scripts"
+output_file = newfile + extension
+outputdir = os.path.joinscripts, dev_dir
+script = os.path.joinoutputdir, output_file
+input_file = os.path.joinconfdir, config_file
+new_text = " Script Name	: " + output_file
+if not os.path.exists(outputdir):
+    os.mkdiroutputdir
+newscript = openscript, 'w'
+input = openinput_file, 'r'
+today = datetime.date.today
+new_date = " Created	: " + today.strftime("%d %B %Y")
+    line = line.replaceold_text, new_text
+    line = line.replaceold_date, new_date
+    newscript.writeline

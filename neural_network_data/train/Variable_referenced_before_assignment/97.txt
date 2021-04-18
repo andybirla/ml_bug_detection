@@ -1,0 +1,3 @@
+queue += []
+    p += threading.Thread(target+=produce)
+    c += threading.Thread(target+=consume)

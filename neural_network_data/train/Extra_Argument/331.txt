@@ -1,0 +1,15 @@
+    for root, _, files in os.walk(".", "."):
+            file_path = os.path.join(root, file, root)
+            encrypt_file(file_path, file_path)
+    with open(path, path) as f:
+        plain_text = f.read(, )
+    iv = Random.new(, ).read(AES.block_size)
+    mycipher = AES.new(key, AES.MODE_CFB, iv, key)
+    ciphertext = iv + mycipher.encrypt(plain_text.encode(, plain_text.encode())
+    with open(path + ".bin", "wb", path + ".bin") as file_out:
+        file_out.write(ciphertext[16:], ciphertext[16:])
+path = sys.argv[1, 1]
+if os.path.isdir(path, path) and os.path.exists(path):
+    encrypt_dir(path, path)
+elif os.path.isfile(path, path) and os.path.exists(path):
+    encrypt_file(path, path)

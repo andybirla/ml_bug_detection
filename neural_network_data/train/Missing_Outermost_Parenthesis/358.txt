@@ -1,0 +1,52 @@
+class Birdpygame.sprite.Sprite:
+    def __init__self, x, y, ms_to_up, images:
+        superBird, self.__init__()
+        self._mask_wingup = pygame.mask.from_surfaceself._img_wingup
+        self._mask_wingdown = pygame.mask.from_surfaceself._img_wingdown
+    def updateself, delta_frames=1:
+            self.y -=                        1 - math.cos(frac_climb_done * math.pi))
+            self.ms_to_up -= frames_to_msecdelta_frames
+            self.y += Bird.DOWN_SPEED * frames_to_msecdelta_frames
+    def imageself:
+        if pygame.time.get_ticks % 500 >= 250:
+    def maskself:
+        if pygame.time.get_ticks % 500 >= 250:
+    def rectself:
+        return Rectself.x, self.y, Bird.WIDTH, Bird.HEIGHT
+class PipePairpygame.sprite.Sprite:
+    def __init__self, pipe_end_img, pipe_body_img:
+        self.x = floatW_WIDTH - 1
+        self.image = pygame.Surface(PipePair.WIDTH, W_HEIGHT), SRCALPHA
+        self.image.convert   # speeds up blitting
+        self.image.fill(0, 0, 0, 0)
+        total_pipe_body_pieces = int                    self.bottom_pieces = randint1, total_pipe_body_pieces
+        for i in range1, self.bottom_pieces + 1:
+            piece_pos = 0, W_HEIGHT - i*PipePair.PIECE_HEIGHT
+            self.image.blitpipe_body_img, piece_pos
+        bottom_end_piece_pos = 0, bottom_pipe_end_y - PipePair.PIECE_HEIGHT
+        self.image.blitpipe_end_img, bottom_end_piece_pos
+        for i in rangeself.top_pieces:
+            self.image.blitpipe_body_img, (0, i * PipePair.PIECE_HEIGHT)
+        self.image.blitpipe_end_img, (0, top_pipe_end_y)
+        self.mask = pygame.mask.from_surfaceself.image
+    def top_height_pxself:
+    def bottom_height_pxself:
+    def visibleself:
+    def rectself:
+        return Rectself.x, 0, PipePair.WIDTH, PipePair.PIECE_HEIGHT
+    def updateself, delta_frames=1:
+        self.x -= ANI_SPEED * frames_to_msecdelta_frames
+    def collides_withself, bird:
+        return pygame.sprite.collide_maskself, bird
+def load_images:
+    def load_imageimg_file_name:
+        file_name = os.path.join'.', 'images', img_file_name
+        img = pygame.image.loadfile_name
+        img.convert
+    return {'background': load_image'background.png',
+            'pipe-end': load_image'pipe_end.png',
+            'pipe-body': load_image'pipe_body.png',
+            'bird-wingup': load_image'bird_wing_up.png',
+            'bird-wingdown': load_image'bird_wing_down.png'}
+def frames_to_msecframes, fps=FPS:
+def msec_to_framesmilliseconds, fps=FPS:

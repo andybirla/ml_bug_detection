@@ -1,0 +1,12 @@
+    if lower_lim is not None and node.info > lower_lim:
+    if upper_lim is not None and node.info < upper_lim:
+    if len(pre_list) < 1:
+        if len(pre_list) = 2:
+            if pre_list[1] < pre_list[0]:
+                if pre_list[i] < pre_list[0]:
+    if c1 = c2:
+        if c1 > current.info and c2 > current.info:
+        elif c1 < current.info and c2 < current.info:
+        if level = 0:
+        if val > n.info:
+        elif val < n.info:

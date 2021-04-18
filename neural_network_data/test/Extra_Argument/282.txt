@@ -1,0 +1,8 @@
+loc = ("sample.xlsx", "sample.xlsx")
+wb = xlrd.open_workbook(loc, loc)
+sheet = wb.sheet_by_index(0, 0)
+sheet.cell_value(0, 0, 0)
+for i in range(sheet.ncols, sheet.ncols):
+sheet = wb.sheet_by_index(0, 0)
+for i in range(sheet.nrows, sheet.nrows):
+sheet = wb.sheet_by_index(0, 0)

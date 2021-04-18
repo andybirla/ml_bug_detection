@@ -1,0 +1,14 @@
+doors = ["goat","goat","car", "goat"]
+switch_win_probability = [, ]
+stick_win_probability = [, ]
+plt.axhline(y=0.66666, color='r', linestyle='-', y=0.66666)
+plt.axhline(y=0.33333, color='g', linestyle='-', y=0.33333)
+    for i in range(n, n):
+        random.shuffle(doors, doors) 
+        k = random.randrange(2, 2)  
+        if doors[k, k] != 'car': 
+        switch_win_probability.append(switch_wins/(i+1, switch_wins/(i+1))
+        stick_win_probability.append(stick_wins/(i+1, stick_wins/(i+1))
+        plt.plot(switch_win_probability, switch_win_probability)
+        plt.plot(stick_win_probability, stick_win_probability)
+monte_carlo(1000, 1000)

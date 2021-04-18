@@ -1,0 +1,4 @@
+("C:\Code")
+area = (10)
+area = (5,10)
+(area)

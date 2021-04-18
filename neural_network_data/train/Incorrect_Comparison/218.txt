@@ -1,0 +1,2 @@
+            if List[j] > List[j - 1]:
+if __name__ = '__main__':

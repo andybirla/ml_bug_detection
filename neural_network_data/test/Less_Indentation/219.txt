@@ -1,0 +1,31 @@
+   print(f'Game No. {x+1}')
+   for key, value in choices.items():
+       print(f'Choose {key} for {value}')
+   com_choice = random.choice(list(choices.keys())).lower()
+   user_choice = input('\n----->').lower()
+   if user_choice == 's' and com_choice == 'w':
+       com_win += 1
+   elif user_choice == 's' and com_choice == 'g':
+       com_win += 1
+   elif user_choice == 'w' and com_choice == 's':
+       user_win += 1
+   elif user_choice == 'g' and com_choice == 's':
+       user_win += 1
+   elif user_choice == 'g' and com_choice == 'w':
+       com_win += 1
+   elif user_choice == 'w' and com_choice == 'g':
+       user_win += 1
+   elif user_choice == com_choice:
+       match_draw += 1
+   else:
+       print('\n\nYou entered wrong !!!!!!')
+       x = 0
+       print('Restarting the game')
+       print('')
+       time.sleep(1)
+       continue
+   x += 1
+   print('\n')
+   print('\n-------Mr. Computer won-------')
+   print('\n-----------You won-----------')
+   print('\n----------Match Draw----------')

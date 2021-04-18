@@ -1,0 +1,7 @@
+testCases = intinput()
+for _ in rangetestCases:
+    n = intinput()
+    string = listinput()
+        for i in rangestart, len(string) - 1, 2:
+        fixChars.appendstring[start]
+    printfixChars

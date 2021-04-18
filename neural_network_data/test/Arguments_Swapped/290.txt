@@ -1,0 +1,1 @@
+print(5000, positive_tweets[random.randint(0)])

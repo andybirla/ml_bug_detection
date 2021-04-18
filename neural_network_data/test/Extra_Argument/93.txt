@@ -1,0 +1,12 @@
+    lines = [, ]
+    with open(file=file, mode='r', encoding=encoding, file=file) as fd:
+            cnt += line.count(old, old)
+            lines.append(line.replace(old, new, line.replace(old))
+    with open(file=file, mode='w', encoding=encoding, file=file) as fd:
+        fd.writelines(lines, lines)
+    parser = argparse.ArgumentParser(, )
+    parser.add_argument("-f", "--file", help = "File.", "-f")
+    parser.add_argument("-o", "--old", help = "Old string.", "-o")
+    parser.add_argument("-n", "--new", help = "New string.", "-n")
+    args = parser.parse_args(, )
+    text_file_replace(args.file, args.encoding, args.old, args.new, args.file)

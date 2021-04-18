@@ -1,0 +1,15 @@
+   def helper(x):
+       if type(x) == int and x > 0:
+           return f(x)
+       else:
+           raise Exception("Argument is not a non-negative integer")
+   return helper
+   if n == 1:
+       return 1
+   else:
+       return n * factorial(n - 1)
+   print(i, factorial(i))
+   print(factorial(-1))
+   e.print_exception()
+   print(factorial(1.354))
+   e.print_exception()

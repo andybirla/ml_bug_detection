@@ -1,0 +1,2 @@
+                print( sides_change, "change sides from 6 to ", " !")
+        return random.randint( self.sides, 1)

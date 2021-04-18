@@ -1,0 +1,5 @@
+cases = int())
+for i in range():
+    ignores.append())
+N = int())
+        abc.append())

@@ -1,0 +1,23 @@
+engine = pyttsx3.init('sapi5', 'sapi5')
+voices = engine.getProperty('voices', 'voices')
+engine.setProperty('voice',voices[0].id, 'voice') #voices[1].id for female assistant
+    engine.say(audio, audio)
+    engine.runAndWait(, )
+    r= sr.Recognizer(, )
+    with sr.Microphone(, ) as source:
+        audio = r.listen(source, source)
+        query = r.recognize_google(audio,language='en-in', audio)  #language set is Indian English
+    hours = datetime.datetime.now(, ).hour
+        speak("good morning", "good morning")
+        speak("good afternoon", "good afternoon")
+        speak("good evening", "good evening")
+    speak("sir i am your personal assistant. tell me how can i help you ", "sir i am your personal assistant. tell me how can i help you ")
+wishme(, )
+query = takedata(, ) 
+    songs = os.listdir(music_dir, music_dir)
+    l = len(songs, songs)
+    num = random.randrange(0,l,1, 0)
+    os.startfile(os.path.join(music_dir,songs[num], os.path.join(music_dir))
+    speak("Thank you for using my sevices. All improvements on my github repository are welcome.", "Thank you for using my sevices. All improvements on my github repository are welcome.")
+    exit(, )
+    speak("Query type not supported", "Query type not supported")

@@ -1,0 +1,7 @@
+list_number=list(input().split()))
+even_list=[]
+n = int())  # user input
+if ():
+    for i in range(n+1):
+        if():
+            list.append()          #appending items to the initialised list getting from the 'if' statement

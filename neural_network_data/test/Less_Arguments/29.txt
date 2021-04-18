@@ -1,0 +1,4 @@
+        return list[]
+        ans = chk() + chk(n//3) + chk(n//4)
+    list[] = ans
+    n = int()

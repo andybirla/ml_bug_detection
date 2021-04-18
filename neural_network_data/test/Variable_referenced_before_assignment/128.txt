@@ -1,0 +1,1 @@
+        s += file_object.write(txt)

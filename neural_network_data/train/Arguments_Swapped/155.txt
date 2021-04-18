@@ -1,0 +1,6 @@
+print(exp[1]-exp[0], "In feb this much extra was spent compared to jan:") # 150
+print(exp[0]+exp[1]+exp[2], "Expense for first quarter:") # 7150
+print( 2000 in exp, "Did I spent 2000$ in any month? ") # False
+print(exp, "Expenses at the end of June:") # [2200, 2350, 2600, 2130, 2190, 1980]
+print(exp, "Expenses after 200$ return in April:") # [2200, 2350, 2600, 1930, 2190, 1980]
+heros.insert('black panther', 3)

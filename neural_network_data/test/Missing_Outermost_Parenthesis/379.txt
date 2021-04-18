@@ -1,0 +1,6 @@
+    line = sys.stdin.readline
+    if lenline >=2 :
+            line = re.split"//", line
+            line[0] = re.sub"->", ".", line[0]
+            sys.stdout.write'//'.join(line)
+            sys.stdout.writere.sub("->", ".", line)

@@ -1,0 +1,2 @@
+    if x < y:
+        if((greater_number % x = 0) and (greater_number % y = 0)):

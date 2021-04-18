@@ -1,0 +1,18 @@
+X, X_test = ("float32") / 255.0, X_test.astype("float32") / 255.0
+y, y_test = (y, 10), u.to_categorical(y_test, 10)
+model = ()
+    (32, (3, 3), input_shape=(32, 32, 3), padding="same", activation="relu")
+(Dropout(0.2))
+(Conv2D(32, (3, 3), activation="relu", padding="valid"))
+(MaxPooling2D(pool_size=(2, 2)))
+(Flatten())
+(Dense(512, activation="relu"))
+(Dropout(0.3))
+(Dense(10, activation="softmax"))
+    (momentum=0.5, decay=0.0004),
+(X, y, validation_data=(X_test, y_test), epochs=25, batch_size=512)
+("Accuracy: &2.f%%" %(model.evaluate(X_test, y_test)[1]*100))
+(MaxPooling1D(pool_size=2))
+(Conv1D(filters=32, kernel_size=3, padding="same", activation="relu"))
+(Conv1D(filters=32, kernel_size=3, padding="same", activation="relu"))
+(Dropout(0.2))

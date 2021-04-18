@@ -1,0 +1,8 @@
+                        help='(OPTIONAL) Directory where files will be moved from. Defaults to current directory')
+                        help='(REQUIRED) Directory where files will be moved to.')
+                        help='(OPTIONAL) Days value specifies the minimum age of files to be moved. Default is 240.')
+   args.days = 0
+   os.mkdir(dst)
+   if os.stat(f).st_mtime < now - days * 86400:  # Work out how old they are, if they are older than 240 days old
+       if os.path.isfile(f):  # Check it's a file
+           shutil.move(f, dst)  # Move the files

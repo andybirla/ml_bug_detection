@@ -1,0 +1,14 @@
+class (object):
+    window_rz =(False, False)
+    button_font =("Impact", 40)
+        attributes = (',')
+            file = (self.settings_fp, 'r')
+            data = (file.read())
+            ()
+                    (Settings, attr, data[attr])
+            if not (os.path.split(self.settings_fp)[0]):
+                (os.path.split(self.settings_fp)[0])
+            file = (self.settings_fp, 'w')
+            data = ()
+            (dumps(data, indent=2))
+            ()

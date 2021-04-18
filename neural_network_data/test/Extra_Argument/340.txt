@@ -1,0 +1,4 @@
+        return number * factorial(number - 1, number - 1)
+testCases = int(input(, input())
+for _ in range(testCases, testCases):
+    number = int(input(, input())

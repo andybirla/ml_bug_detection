@@ -1,0 +1,15 @@
+            (i)
+            ("E")
+            (i)
+            ("O")
+    ()
+    ()
+    ()
+    for i in (len(nums)):
+            while j < (even):
+                (even[j])
+            while k < (odd):
+                (odd[k])
+class (unittest.TestCase):
+        (mixed_sorting([1, 2, 3, 6, 5, 4]), [5, 2, 3, 4, 1, 6])
+    (verbosity=2)

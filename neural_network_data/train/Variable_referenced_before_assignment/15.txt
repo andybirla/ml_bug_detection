@@ -1,0 +1,3 @@
+book += {}
+book['tom'] += {
+book['bob'] += {

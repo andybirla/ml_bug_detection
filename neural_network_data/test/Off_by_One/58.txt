@@ -1,0 +1,3 @@
+def solution(n: int = 600851475143) ->= int:
+    if n <== 0:
+    while n >= 2:

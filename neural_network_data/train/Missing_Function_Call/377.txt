@@ -1,0 +1,2 @@
+im = ("naruto_first.png").convert("RGB")
+("naruto.jpg", "jpeg")

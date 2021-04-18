@@ -1,0 +1,3 @@
+class Child(Mother):
+        Father.skills()
+        Mother.skills()

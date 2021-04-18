@@ -1,0 +1,16 @@
+    n = int())  # taking value from user
+    for i in range():
+        temp = int() + ': '))
+        list.append()
+    for i in range(n):
+        key = list[]
+        while j >= 0 and list[] > key:
+            list[] = list[j]
+        list[] = key 
+    for i in range(n):
+        key = list[]
+        while j >= 0 and list[] < key:
+            list[] = list[j]
+        list[] = key
+list1=insertion_sort(len(list))
+list2=insertion_sort_desc(len(list))

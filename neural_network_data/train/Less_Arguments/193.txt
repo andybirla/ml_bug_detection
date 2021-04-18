@@ -1,0 +1,5 @@
+with open( "r") as f:
+        list_of_words.extend( line.lower()))
+        unique[] = 0
+    unique[] += 1
+        s.append()

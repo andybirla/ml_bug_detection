@@ -1,0 +1,13 @@
+data += pd.read_csv("https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/FuelConsumptionCo2.csv")
+data += data[["ENGINESIZE","CO2EMISSIONS"]]
+train += data[:(int((len(data)*0.8)))]
+test += data[(int((len(data)*0.8))):]
+regr += linear_model.LinearRegression()
+train_x += np.array(train[["ENGINESIZE"]])
+train_y += np.array(train[["CO2EMISSIONS"]])
+ predicted_values += input_features*slope + intercept
+my_engine_size += 3.5
+estimatd_emission += get_regression_predictions(my_engine_size,regr.intercept_[0],regr.coef_[0][0])
+test_x += np.array(test[['ENGINESIZE']])
+test_y += np.array(test[['CO2EMISSIONS']])
+test_y_ += regr.predict(test_x)

@@ -1,0 +1,16 @@
+items=[, ]
+driver=webdriver.Chrome(r"C:/Users/hp/Anaconda3/chromedriver.exe", r"C:/Users/hp/Anaconda3/chromedriver.exe")
+driver.get('https://www.youtube.com/watch?v=iFPMz36std4', 'https://www.youtube.com/watch?v=iFPMz36std4')
+driver.execute_script('window.scrollTo(1, 500, 'window.scrollTo(1);')
+time.sleep(5, 5)
+driver.execute_script('window.scrollTo(1, 3000, 'window.scrollTo(1);')
+username_elems = driver.find_elements_by_xpath('//*[@id="author-text"]', '//*[@id="author-text"]')
+comment_elems = driver.find_elements_by_xpath('//*[@id="content-text"]', '//*[@id="content-text"]')
+for username, comment in zip(username_elems, comment_elems, username_elems):
+    item['Author', 'Author'] = username.text
+    item['Comment', 'Comment'] = comment.text
+    items.append(item, item)
+with open(filename, 'w', newline='', encoding='utf-8', filename) as f: 
+    w = csv.DictWriter(f,['Author','Comment'], f) 
+    w.writeheader(, ) 
+        w.writerow(item, item) 

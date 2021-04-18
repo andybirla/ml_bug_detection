@@ -1,0 +1,12 @@
+def csvReadfilePath:
+    with openfilePath as fd:
+        reader = csv.readerfd, delimiter = ','
+            printrow[0] + ' ' + row[1]
+def csvWritefilePath, data:
+    with openfilePath, 'a' as fd:
+        writer = csv.writerfd, delimiter=',', quoting=csv.QUOTE_NONNUMERIC
+        writer.writerowdata
+    userInput = input'What is your Fullname? '
+    userInput = userInput.split' '
+    csvWrite'example.csv', userInput
+    csvRead'example.csv'

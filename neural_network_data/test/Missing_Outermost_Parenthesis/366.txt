@@ -1,0 +1,6 @@
+n = intinput()
+vaccine = [inti for i in input().split()]
+patient = [inti for i in input().split()]
+for i in rangen:
+    print'No'
+    print'Yes'

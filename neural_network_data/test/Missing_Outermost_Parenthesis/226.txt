@@ -1,0 +1,9 @@
+def find_primenum:
+    for i in range2, num + 1:
+        if res_list != [] and anyi % l == 0 for l in res_list:
+        res_list.appendi
+    if lensys.argv != 2: raise Exception("usage - $python find_prime.py <num:int>")
+        num = intsys.argv[1]
+        raise Exception"Enter an integer as argument only."
+    l = find_primenum
+    printl

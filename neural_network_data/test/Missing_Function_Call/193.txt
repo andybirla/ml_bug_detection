@@ -1,0 +1,14 @@
+cap = (0)
+frames_width = (cap.get(3))
+frames_height = (cap.get(4))
+fourcc = (*'MJPG')
+out = ('recording.avi', fourcc, 20.0, (frames_width, frames_height))
+(True):
+    ret, frame = ()
+        (frame)
+        gray = (frame, cv2.COLOR_BGR2GRAY)
+        ('frame', gray)
+        if (1) & 0xFF == ord('q'):
+()
+()
+()

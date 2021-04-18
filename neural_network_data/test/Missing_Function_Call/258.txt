@@ -1,0 +1,9 @@
+    (key)
+    for i in (329, 425):
+        for j in (550, 650):
+                ("up")
+    ("Hey.. Dino game about to start in 3 seconds")
+    (2)
+        image = ().convert('L')
+        data = ()
+        (data)

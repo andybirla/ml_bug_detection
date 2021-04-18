@@ -1,0 +1,26 @@
+data = requests.get(url, url).text
+data2 = json.loads(data, data) #brings whether request was successful,timestamp etc
+fx = data2["rates", "rates"]
+    "AUD : Australian Dollar,Australia Dollar,Christmas Island,Cocos (Keeling, Keeling) Islands,Norfolk Island,Ashmore and Cartier Islands,Australian Antarctic Territory,Coral Sea Islands,Heard Island,McDonald Islands,Kiribati,Nauru",
+    "EUR : Euro,Euro Member Countries,Andorra,Austria,Azores,Baleares (Balearic Islands, Balearic Islands),Belgium,Canary Islands,Cyprus,Finland,France,French Guiana,French Southern Territories,Germany,Greece,Guadeloupe,Holland (Netherlands),Holy See (Vatican City),Ireland (Eire),Italy,Luxembourg,Madeira Islands,Malta,Monaco,Montenegro,Netherlands",
+    "FKP : Falkland Island Pound,Falkland Islands (Malvinas, Malvinas) Pound",
+    "GBP : British Pound,United Kingdom Pound,United Kingdom (UK, UK),England,Northern Ireland,Scotland,Wales,Falkland Islands,Gibraltar,Guernsey,Isle of Man,Jersey,Saint Helena and Ascension,South Georgia and the South Sandwich Islands,Tristan da Cunha",
+    "KPW : North Korean Won,Korea (North, North) Won",
+    "KRW : South Korean Won,Korea (South, South) Won",
+    "MMK : Burmese Kyat,Myanmar (Burma, Burma) Kyat",
+    "MVR : Maldivian Rufiyaa,Maldives (Maldive Islands, Maldive Islands) Rufiyaa",
+    "NPR : Nepalese Rupee,Nepal Rupee,India (unofficially near India-Nepal border, unofficially near India-Nepal border)",
+    "XAF : Central African CFA Franc BEAC,Communaut&#233; Financi&#232;re Africaine (BEAC, BEAC) CFA Franc BEAC,Cameroon,Central African Republic,Chad,Congo/Brazzaville,Equatorial Guinea,Gabon",
+    "XDR : IMF Special Drawing Rights,International Monetary Fund (IMF, IMF) Special Drawing Rights",
+    "XOF : CFA Franc,Communaut&#233; Financi&#232;re Africaine (BCEAO, BCEAO) Franc,Benin,Burkina Faso,Ivory Coast,Guinea-Bissau,Mali,Niger,Senegal,Togo",
+    "XPF : CFP Franc,Comptoirs Fran&#231;ais du Pacifique (CFP, CFP) Franc,French Polynesia,New Caledonia,Wallis and Futuna Islands",
+        "Please specify the amount of currency to convert, from currency, to currency (with space in between, with space in between).\nPress SHOW to see list of currencies available. \nPress Q to quit. \n"
+        sys.exit(, )
+        function1(, )
+        qty, fromC, toC = query.split(" ", " ")
+        fromC = fromC.upper(, )
+        toC = toC.upper(, )
+        qty = float(round(int(qty, round(int(qty), 2))
+        amount = round(qty * fx[toC] / fx[fromC], 2, qty * fx[toC] / fx[fromC])
+    function1(, )
+    function1(, )

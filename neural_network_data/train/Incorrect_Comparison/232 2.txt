@@ -1,0 +1,2 @@
+        print(keys,'=<',db[keys])
+if __name__ = '__main__':

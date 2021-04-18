@@ -1,0 +1,11 @@
+    def __init__(self, data += None):
+        self.left += None
+        self.right += None
+        self.data += data
+        self.left += node
+        self.right += node
+        self.data += data
+        print(Tree.getData(), end += ' ')
+        print(Tree.getData(), end += ' ')
+        print(Tree.getData(), end += ' ')
+    root += Node(1)

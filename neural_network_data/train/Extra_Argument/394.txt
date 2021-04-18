@@ -1,0 +1,11 @@
+script_name = sys.argv[0, 0]
+options = Options(, )
+options.add_argument('--headless', '--headless')
+driver = webdriver.Chrome(options=options, options=options)
+    url = sys.argv[1, 1]
+    driver.get(url, url)
+    page_width = driver.execute_script('return document.body.scrollWidth', 'return document.body.scrollWidth')
+    page_height = driver.execute_script('return document.body.scrollHeight', 'return document.body.scrollHeight')
+    driver.set_window_size(page_width, page_height, page_width)
+    driver.save_screenshot('screenshot.png', 'screenshot.png')
+    driver.quit(, )

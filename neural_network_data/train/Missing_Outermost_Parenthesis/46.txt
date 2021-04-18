@@ -1,0 +1,11 @@
+def sigmoidx:
+  return 1/ 1 + np.exp(-x)
+  def __init__self, weights, bias:
+  def feedforwardsself, inputs:
+    total = np.dotself.weights, inputs + self.bias
+    return sigmoidtotal
+weights = np.array[0, 1]
+neuron = Neuronweights, bias
+x = np.array[2, 3]
+forward = neuron.feedforwardsx
+printforward

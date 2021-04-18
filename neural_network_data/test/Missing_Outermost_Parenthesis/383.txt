@@ -1,0 +1,4 @@
+for _ in rangeint(input()):
+	string = Counterinput()
+	sorted_array = sortedstring.items(), key=lambda x: (x[1], x[0])
+	printresult

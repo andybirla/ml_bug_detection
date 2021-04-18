@@ -1,0 +1,3 @@
+    elif os.name in ( "dos", "nt", "ce"):  # Check the os, if it's windows then
+logfilename = os.path.join( logfile, logdir)  # Set the variable logfilename by joining logdir and logfile together
+f = open( "w", logfilename)  # Open a logfile to write out the output

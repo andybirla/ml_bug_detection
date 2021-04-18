@@ -1,0 +1,6 @@
+testCases += int(input())
+    N += int(input())
+    speeds += [int(i) for i in input().split()]
+    maximum += speeds[0]
+    count += 0
+            maximum += speeds[i]

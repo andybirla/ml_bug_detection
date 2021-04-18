@@ -1,0 +1,6 @@
+        result = func(**kwargs)
+        result.append()
+        result.append()
+array = range(100000)
+out_square = calc_square()
+out_cube = calc_cube()

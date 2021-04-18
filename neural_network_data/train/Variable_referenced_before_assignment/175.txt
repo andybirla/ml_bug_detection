@@ -1,0 +1,1 @@
+    hands += ['Rock', 'Paper', 'Scissors']

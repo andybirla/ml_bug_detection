@@ -1,0 +1,7 @@
+n, x = mapint, input().split()
+array = [inti for i in input().split()]
+for i in rangex:              # Note x here, this is what yields the required result
+    for j in rangei + 1, n:
+    ifminimum != i:
+    ifi == x:
+print' '.join([str(i) for i in array])

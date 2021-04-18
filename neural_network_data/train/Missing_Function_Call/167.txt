@@ -1,0 +1,10 @@
+    filename = ("What is the name of the file? (extension included): ")
+    file = (filename)
+(FileNotFoundError, IOError):
+    ("File doesn't exist!")
+    ()
+num_lines = (1 for line in file if line.rstrip())
+random_line = (0, num_lines)
+(0)
+for i, line in (file):
+        (line.rstrip())  # rstrip removes any trailing newlines :)

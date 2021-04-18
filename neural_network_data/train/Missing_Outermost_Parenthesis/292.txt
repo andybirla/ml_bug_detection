@@ -1,0 +1,24 @@
+class PasswordGenerator:
+    def gen_sequenceconditions: #must have  conditions (in a list format), for each member of the list possible_characters
+        for x in rangelen(conditions):
+    def gen_passwordsequence, passlength=8:
+        password = ''.join(secrets.choice(sequence) for i in range(passlength))
+class Interface:
+    def change_has_characterscls, change:
+            print"Invalid"
+            printf"{change} is now set to {cls.has_characters[change]}"
+    def show_has_characterscls:
+        printcls.has_characters # print the output
+    def generate_passwordself, lenght:
+        sequence = PasswordGenerator.gen_sequencelist(self.has_characters.values())
+        printPasswordGenerator.gen_password(sequence, lenght)
+def list_to_vertical_stringlist:
+class Run:
+    def decide_operationself:
+        user_input = input": "
+            intuser_input
+            Interface.change_has_charactersuser_input
+            Interface.generate_password(int(user_input))
+            print"\n\n"
+    def runself:
+{list_to_vertical_stringInterface.has_characters.keys()}

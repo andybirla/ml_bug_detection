@@ -1,0 +1,7 @@
+numberOfMembers =  intinput()
+C = input.split()
+C = [inti for i in C]
+result = sumC
+for i in range1, len(C) + 1:
+    print'YES'
+    print'NO'

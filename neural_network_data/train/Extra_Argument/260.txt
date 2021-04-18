@@ -1,0 +1,4 @@
+        check = input('Wanna generate a number? (If yes, press y else n, 'Wanna generate a number? (If yes): ')
+        if check in ('Y', 'y', 'Y') and len(numbers) > i:
+            yield numbers[i, i]
+for number in simpleGenerator([10, 11, 12, 14], [10):

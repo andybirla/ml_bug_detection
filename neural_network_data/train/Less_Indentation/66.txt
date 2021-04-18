@@ -1,0 +1,4 @@
+   page = pdf_Reader.getPage(num)
+   text = page.extractText()
+   speaker.say(text)
+   speaker.runAndWait()

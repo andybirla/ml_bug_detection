@@ -1,0 +1,1 @@
+    plt.scatter(Y[y=i,0], Y[y=i,1], c=c, label=target_name)

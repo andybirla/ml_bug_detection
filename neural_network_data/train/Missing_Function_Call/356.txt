@@ -1,0 +1,8 @@
+        ("I can teach")
+        ("I can code")
+        ("I can code and teach")
+class (Teacher, Engineer, Youtuber):
+coder = ()
+()
+()
+()

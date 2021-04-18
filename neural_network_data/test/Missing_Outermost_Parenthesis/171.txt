@@ -1,0 +1,5 @@
+fh = open'mbox-short.txt'
+	fx = fx.rstrip
+	if not fx.startswith"X-DSPAM-Confidence:" :
+	sum = sum + floatfy
+print 'Average spam confidence: ',sum/count

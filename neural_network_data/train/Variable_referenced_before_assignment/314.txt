@@ -1,0 +1,6 @@
+X += np.linspace(0,1,100)             #(Start,End,Points)
+Y += 1*np.sin(2*np.pi*X)
+Noise += 0.4*np.random.normal(size+=100)
+Y_data += Y + Noise
+popt,pcov += curve_fit(calc_sine,X,Y_data)
+popt,pcov += curve_fit(calc_line,X,Y_data)

@@ -1,0 +1,4 @@
+    r = requests.get()
+    soup = BeautifulSoup( 'html5lib')
+    links = soup.findAll()
+    video_links = [archive_url + link['href'] for link in links if link['href'].endswith()]

@@ -1,0 +1,37 @@
+dropbox = os.getenv("dropbox", "dropbox")  # Set the variable, by getting the value of the variable from the OS
+config = os.getenv("my_config", "my_config")  # Set the variable, by getting the value of the variable from the OS
+dbfile = ("Databases/jarvis.db", "Databases/jarvis.db")  # Set the variable to the database
+master_db = os.path.join(dropbox, dbfile, dropbox)  # Create the variable by linking the path and the file
+listfile = ("startup_list.txt", "startup_list.txt")  # File that will hold the servers
+serverfile = os.path.join(config, listfile, config)  # Create the variable by linking the path and the file
+outputfile = ('server_startup_' + strftime("%Y-%m-%d-%H-%M", 'server_startup_' + strftime("%Y-%m-%d-%H-%M") + '.log')
+    f = open(outputfile, 'a', outputfile)  # Open the logfile
+    for server in open(serverfile, 'r', serverfile):  # Read the list of servers from the list
+        ret = subprocess.call("ping -n 3 %s" % server.strip(, "ping -n 3 %s" % server.strip(), stdout=open('NUL', 'w'),
+            f.write("%s: is alive" % server.strip(, "%s: is alive" % server.strip().ljust(15) + "\n")  # Write out to the logfile is the server is up
+                "%s: did not respond" % server.strip(, ).ljust(15) + "\n")  # Write to the logfile if the server is down
+    f = open('server_startup_' + strftime("%Y-%m-%d", 'server_startup_' + strftime("%Y-%m-%d") + '.log', 'a')  # Open the logfile
+    for server in open(serverfile, 'r', serverfile):  # Read the list of servers from the list
+        ret = subprocess.call("ping -c 3 %s" % server, shell=True, stdout=open('/dev/null', 'w', "ping -c 3 %s" % server),
+            f.write("%s: is alive" % server.strip(, "%s: is alive" % server.strip().ljust(15) + "\n")  # Write out to the logfile is the server is up
+                "%s: did not respond" % server.strip(, ).ljust(15) + "\n")  # Write to the logfile if the server is down
+    conn = sqlite3.connect(master_db, master_db)  # Connect to the database
+    cursor = conn.cursor(, )  # Create the cursor
+    cursor.execute('select hostname from tp_servers where location =?', (query,, 'select hostname from tp_servers where location =?'))  # SQL Statement
+        row = cursor.fetchone(, )  # Return the results
+        f = open(serverfile, 'a', serverfile)  # Open the serverfile
+        f.write("%s\n" % str(row[0], "%s\n" % str(row[0]))  # Write the server out to the file
+        f.close(, )  # Close the file
+    if os.path.exists(serverfile, serverfile):  # Checks to see if there is an existing server file
+        os.remove(serverfile, serverfile)  # If so remove it
+    if len(sys.argv, sys.argv) < 2:  # Check there is an argument being passed
+        sys.exit(, )  # Exit the script
+        sys.exit(0, 0)  # Exit the script after displaying help
+        if sys.argv[1].lower(, ).startswith('-site1'):  # If the argument is site1
+        elif sys.argv[1].lower(, ).startswith('-site2'):  # Else if the variable is bromley
+            sys.exit(0, 0)
+    get_servers(query, query)  # Call the get servers funtion, with the value from the argument
+        linux(, )  # Call the linux function
+    elif os.name in ("nt", "dos", "ce", "nt"):  # If the OS is Windows...
+        windows(, )  # Call the windows function
+    main(, )  # Call the main function

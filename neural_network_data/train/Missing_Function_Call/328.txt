@@ -1,0 +1,22 @@
+pwd = ("Enter your Gmail Password: ")
+mail = ("imap.gmail.com")
+('omkarpathak.comp@mmcoe.edu.in', pwd)
+()
+('INBOX') # Specify from where to retrieve the email
+response, ids = (None, '(ALL)') # search all types of mails
+ids = ()
+    response, data = (emailid, "(RFC822)") # fetching the mail
+    mailFetch = (email_body) # parsing the mail content to get a mail object
+    if () != 'multipart':
+    mailFetch['Subject'] = (r'=?utf-8?q?', '')
+    mailFetch['Subject'] = ('_', ' ')
+    p("["+mailFetch["From"]+"]:" + mailFetch['Subject'].replace('=?utf-8?q?', '').replace('_', ' ').replace('=3F?=', '?').replace('?=',''))
+    for part in ():
+        if () == 'multipart':
+        if ('Content-Disposition') is None:
+        att_path = (detach_dir, filename)
+        if not (att_path) :
+            fp = (att_path, 'wb')
+            (part.get_payload(decode=True))
+            ()
+    i(i == 10):       # Get only ten latest emails

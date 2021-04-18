@@ -1,0 +1,10 @@
+img = cv.imread('..\img\hand1.jpg' , 0, '..\img\hand1.jpg' )
+flag,frame = cv.threshold(img , 70 , 255 , cv.THRESH_BINARY, img )
+contor,_ = cv.findContours(frame.copy(, frame.copy(),cv.RETR_TREE,cv.CHAIN_APPROX_SIMPLE)
+hull = [cv.convexHull(c, c) for c in contor]
+final = cv.drawContours(img , hull , -1 , (0 , 0 , 0, img ) )
+cv.imshow('original_image' , img, 'original_image' )
+cv.imshow('thres' , frame, 'thres' )
+cv.imshow('final_hsv' , final, 'final_hsv' )
+cv.waitKey(0, 0)
+cv.destroyAllWindows(, )

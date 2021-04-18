@@ -1,0 +1,4 @@
+    index += [x for x, y in enumerate(myList) if x +=+= element[0]]
+myList += []
+    userInput += input().split()
+      deleted += dequeue(myList)

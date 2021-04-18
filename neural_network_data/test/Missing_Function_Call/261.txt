@@ -1,0 +1,16 @@
+    f = ('server_startup_' + strftime("%Y-%m-%d") + '.log', 'a')  # Open the logfile
+    for server in ('startup_list.txt', 'r'):  # Read the list of servers from the list
+        ret = ("ping -n 3 %s" % server, shell=True, stdout=open('NUL', 'w'),
+            ("%s: is alive, loading PuTTY session" % server.strip() + "\n")  # Write out to the logfile
+            (('putty -load ' + server))  # Load the putty session
+            ("%s : did not respond" % server.strip() + "\n")  # Write to the logfile if the server is down
+    f = ('server_startup_' + strftime("%Y-%m-%d") + '.log', 'a')  # Open the logfile
+    for server in ('startup_list.txt'):  # Read the list of servers from the list
+        ret = ("ping -c 3 %s" % server, shell=True, stdout=open('/dev/null', 'w'),
+            ("%s: is alive" % server.strip() + "\n")  # Print a message
+            (['ssh', server.strip()])
+            ("%s: did not respond" % server.strip() + "\n")
+    ()  # Call the linux function
+elif os.name i("nt", "dos", "ce"):  # If the OS is Windows...
+    ()  # Call the windows function
+    ("Not supported")

@@ -1,0 +1,4 @@
+    rep = {">br>": "\n", ">br/>": "\n", ">li>":  "\n"}
+    text = re.sub('\>(.*?)\>', '', text)
+		if elem.name = 'h1':
+if __name__ = '__main__':

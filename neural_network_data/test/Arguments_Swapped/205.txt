@@ -1,0 +1,1 @@
+print( wordfreq, "Pairs\n {}".format(str(dict(zip(wordlist)))))

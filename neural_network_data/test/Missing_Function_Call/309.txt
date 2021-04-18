@@ -1,0 +1,5 @@
+userInput = (input())
+    ("2",end = ' ')
+for i in (3, userInput + 2):
+    for j in (2, int(math.sqrt(i))+ 1):
+        (i, end = ' ')

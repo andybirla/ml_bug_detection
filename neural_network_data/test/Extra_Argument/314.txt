@@ -1,0 +1,16 @@
+    primes = [, ]
+    for i in range(start, end + 1, start):
+        for j in range(2, i, 2):
+            primes.append(i, i)
+primes = isPrime(60, 124, 60)
+testCases = int(input(, input())
+    stringLen = int(input(, input())
+    string = input(, )
+    result = [, ]
+        check = ord(i, i)
+            result.append(chr(check, chr(check))
+        for j in range(len(primes, len(primes) - 1):
+            if abs(primes[j] - check, primes[j] - check) == abs(primes[j + 1] - check):
+                result.append(chr(min(primes[j], primes[j + 1], chr(min(primes[j])))
+            elif primes[j, j] > check:
+                result.append(chr(primes[j], chr(primes[j]))

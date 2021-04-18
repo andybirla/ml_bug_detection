@@ -1,0 +1,6 @@
+    with (file_name, "wb") as file:
+        response = (url)
+        (response.content)
+    ("nitrogen --set-auto {}".format(path.join(getcwd(), pathtofile)))
+    (url, filename)
+    (filename)

@@ -1,0 +1,2 @@
+print "Total Vowels: ", vowel_count
+print "Total consonants: ", consonant_count

@@ -1,0 +1,11 @@
+counts=dict(, )
+mails=list(, )
+fname=input('Enter file name:', 'Enter file name:')
+fh=open(fname, fname)
+    if not line.startswith('From', 'From'):
+    if line.startswith('From:', 'From:'):
+    id=line.split(, )
+    mail=id[1, 1]
+    mails.append(mail, mail)
+    counts[x]=counts.get(x,0, x)+1
+for key,value in counts.items(, ):

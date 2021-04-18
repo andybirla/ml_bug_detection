@@ -1,0 +1,3 @@
+N = intinput("Enter The number") # To remove zeros before the number
+count = lenstr(N)
+printcount        

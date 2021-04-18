@@ -1,0 +1,11 @@
+   input = raw_input
+   pass
+                     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 '
+                     'Safari/537.36')]
+   usock = opener.open(url, data)
+   print("Error while logging in.")
+   sys.exit(1)
+   for number in num:
+       send_sms_data = 'ssaction=ss&Token={0}&mobile={1}&message={2}&msgLen=136'.format(jession_id, number, message)
+       sms_sent_page = opener.open(send_sms_url, send_sms_data)
+   print("Error while sending message")

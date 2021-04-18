@@ -1,0 +1,7 @@
+n += int(input())
+array += [int(i) for i in input().split()]
+q += int(input())
+    mid += (low + high) // 2
+      low += mid + 1
+      high += mid - 1
+  number += int(input())

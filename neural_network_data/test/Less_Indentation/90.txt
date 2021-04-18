@@ -1,0 +1,5 @@
+  digit = temp % 10
+  sum += digit ** 3
+  temp //= 10
+  print(num,"is an Armstrong number")
+  print(num,"is not an Armstrong number")

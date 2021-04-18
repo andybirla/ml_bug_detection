@@ -1,0 +1,13 @@
+engine = create_engine( echo=True)
+class Student():
+    id = Column( primary_key=True)
+    username = Column()
+    firstname = Column()
+    lastname = Column()
+    university = Column()
+    Base.metadata.create_all()
+    file_exists = os.path.isfile()
+    Session = sessionmaker()
+    user = Student( 'Omkar', 'Pathak', 'MIT')
+    session.add()
+    for student in session.query().order_by(Student.id):

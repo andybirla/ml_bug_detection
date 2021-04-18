@@ -1,0 +1,8 @@
+testCase = (input())
+for i in (0, testCase):
+    n = (input())
+    userInput = ().split()
+    userInput = ([int(i) for i in userInput])
+    mdif =(userInput[1] - userInput[0])            # Check difference
+    for i in (0, n-1):
+    (mdif)

@@ -1,0 +1,14 @@
+def find_Triplets_with_zero_sumarr, num: 
+    arr.sort 
+    for index in range0, num - 1 : 
+        while left < right: 
+            if temp == 0 : 
+                printcurr, arr[left], arr[right] 
+            elif temp < 0 : 
+    if found == False: 
+        print" No Triplet Found" 
+    n = intinput('Enter size of array\n')
+    print'Enter elements of array\n'
+    arr = listmap(int,input().split())
+    print'Triplets with 0 sum are as : '
+    find_Triplets_with_zero_sumarr, n 

@@ -1,0 +1,25 @@
+        ('Ways list is empty. Downloading is impossible')
+    ('downloading..')
+    success_files = ()
+    failure_files = ()
+    event_loop = ()
+            (ways, event_loop, success_files, failure_files)
+        ()
+    ('Download complete')
+    ('-' * 100)
+        ('success:')
+            (file)
+        ('failure:')
+            (file)
+    async with () as session:
+        for task in (coroutines):
+                (url)
+                (url)
+    file_name = (url)
+        async with (url) as response:
+            data = await ()
+            with (file_name, 'wb') as file:
+                (data)
+        ('\t{} from {} : Success'.format(file_name, url))
+    (ways)
+    ()

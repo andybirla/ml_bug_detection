@@ -1,0 +1,21 @@
+if len() < 3:
+    if '-python' in sys.argv[]:
+    elif '-bash' in sys.argv[]:
+    elif '-ksh' in sys.argv[]:
+    elif '-sql' in sys.argv[]:
+confdir = os.getenv()
+scripts = os.getenv()
+newfile = sys.argv[]
+output_file = ()
+outputdir = os.path.join( dev_dir)
+script = os.path.join( output_file)
+input_file = os.path.join( config_file)
+new_text = ()
+if not ()):
+    os.mkdir()
+newscript = open( 'w')
+input = open( 'r')
+new_date = ())
+    line = line.replace( new_text)
+    line = line.replace( new_date)
+    newscript.write()

@@ -1,0 +1,10 @@
+s += socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+clients += []
+nickename += []
+            reply += cli.recv(1024).decode("utf-8")
+                index_of_cli += clients.index(cli)
+                nick += nickename[index_of_cli]
+            index_of_cli += clients.index(cli)
+            nick += nickename[index_of_cli]
+        client_sckt, addr += s.accept()
+        nick += client_sckt.recv(1024).decode("utf-8")

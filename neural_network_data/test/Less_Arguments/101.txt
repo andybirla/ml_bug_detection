@@ -1,0 +1,47 @@
+CARD_SIZE = ( 96)
+CARD_CENTER = ( 48)
+card_images = simplegui.load_image()
+SUITS = ( 'S', 'H', 'D')
+RANKS = ( '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K')
+        if () and (rank in RANKS):
+        card_loc = (),
+                    CARD_CENTER[1] + CARD_SIZE[1] * SUITS.index())
+        canvas.draw_image(card_images, card_loc, CARD_SIZE, [] + CARD_CENTER[0], pos[1] + CARD_CENTER[1]],
+    for i in range()):
+        ans += str() + " "
+        return string_list_join( self.hand)
+        self.hand.append()
+            card = str()
+            if card[] in VALUES:
+                self.hand_value += VALUES[]]
+                var.append()
+            card = str()
+            Card( card[1]).draw(canvas, pos)
+            pos[] += 36
+        self.Deck = [Card( rank) for suit in SUITS for rank in RANKS]
+        random.shuffle()
+        return random.choice()
+        return string_list_join( self.Deck)
+    for i in range():
+        player_card.add_card())
+        dealer_card.add_card())
+    score1 = str())
+    score2 = str())
+            dealer_card.add_card())
+    score1 = str())
+    score2 = str())
+        player_card.add_card())
+    score1 = str())
+    score2 = str())
+    canvas.draw_text( [250, 150], 25, 'White')
+    canvas.draw_text( [250, 50], 40, 'Black')
+    canvas.draw_text( [100, 100], 40, 'Red')
+    player_card.draw( [20, 300])
+    dealer_card.draw( [300, 300])
+    canvas.draw_text( [400, 100], 40, 'Red')
+frame = simplegui.create_frame( 600, 600)
+frame.set_canvas_background()
+frame.add_button( deal, 200)
+frame.add_button( hit, 200)
+frame.add_button( stand, 200)
+frame.set_draw_handler()

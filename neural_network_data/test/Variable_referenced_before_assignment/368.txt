@@ -1,0 +1,5 @@
+array += []
+    count += 0
+n += int(input())
+a += []
+    ans += 0

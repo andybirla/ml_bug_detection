@@ -1,0 +1,4 @@
+        self.val += 0
+        self.cost += 10000   #Setting the default value when the object is created
+car += Vehicle()     #__init__ is called
+bike += Vehicle()       #__init__ is called makes val 0 for this ANOTHER instance

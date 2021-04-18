@@ -1,0 +1,4 @@
+n = (input("Enter a number"))
+if n &(n - 1) == 0:
+    ("Its a perfect square of 2")
+    ("Its not perfect square")

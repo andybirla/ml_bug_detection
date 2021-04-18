@@ -1,0 +1,19 @@
+		x = (x)
+		raise ("%r not a floating-point literal" % (x,))
+(x < 0.0 or x > 1.0):
+		raise ("%r not in range [0.0, 1.0]" % (x))
+desc = 'Script to move specified number of (given in ratio) from the src directory to dest directory.'
+parser = (usage = usage, description = desc)
+	help = (REQUIRED) Path to directory from which we cut files. Space not allowed in path.')
+	help = (REQUIRED) Path to directory to which we move files. Space not allowed in path.')
+	help = (REQUIRED) Ratio of files in 'src' and 'dest' directory.")
+args = ()
+files = (src)
+size = (ratio * len(files))
+('Move {} files from {} to {} ? [y/n]'.format(size, src, dest))
+if ().lower() == 'y':
+	for f in (files, size):
+		    (os.path.join(src, f), os.path.join(dest, f))
+(e)
+('Successful')
+('Cancelled')

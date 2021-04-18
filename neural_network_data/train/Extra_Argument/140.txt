@@ -1,0 +1,2 @@
+    hostname = input("Please enter website address(URL, "Please enter website address(URL):")
+get_hostname_IP(, )

@@ -1,0 +1,4 @@
+def suma,b:
+n1=intinput('enter first number: ')
+n2=intinput('enter first number: ')
+print'sum is: ',sum(n1,n2)

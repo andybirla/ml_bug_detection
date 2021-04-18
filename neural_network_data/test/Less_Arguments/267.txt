@@ -1,0 +1,13 @@
+dropbox = os.getenv()
+config = os.getenv()
+dbfile = ()
+listfile = ()
+master_db = os.path.join( dbfile)
+config_file = os.path.join( listfile)
+tablelist = open( 'r');
+conn = sqlite3.connect()
+cursor.execute()')
+if str() == "(u'3.6.21',)":
+    conn = sqlite3.connect()
+    cursor.execute() from sqlite_master where name = ?", (table.strip(),))
+    if ():

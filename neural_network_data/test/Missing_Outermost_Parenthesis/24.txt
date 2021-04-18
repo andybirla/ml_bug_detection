@@ -1,0 +1,8 @@
+N1, K1 = mapint, input().split()
+for i in range1, N1 + 1:
+    K.appendinput()
+    string = input
+    for i in rangelen(K):
+        elif len(string) >= int(K[i]):
+        print'GOOD'
+        print'BAD'

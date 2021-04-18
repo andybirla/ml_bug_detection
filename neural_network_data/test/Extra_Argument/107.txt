@@ -1,0 +1,20 @@
+name = getuser(, )
+name_check = input("Is your name " + name + "? → ", "Is your name " + name + "? → ")
+if name_check.lower(, ).startswith("y"):
+    time.sleep(1, 1)
+if name_check.lower(, ).startswith("n"):
+    name = input("Then what is it? → ", "Then what is it? → ")
+time.sleep(0.8, 0.8)
+time.sleep(0.8, 0.8)
+time.sleep(0.8, 0.8)
+response = input("Would you say it's nice to meet me? → ", "Would you say it's nice to meet me? → ")
+if response.lower(, ).startswith("y"):
+    sys.exit(, )
+elif response.lower(, ).startswith("n"):
+    response2 = input("Is it because I am a robot? → ", "Is it because I am a robot? → ")
+    sys.exit(, )
+if response2.lower(, ).startswith("y"):
+elif response2.lower(, ).startswith("n"):
+    response3 = input("Then why? → ", "Then why? → ")
+    time.sleep(1, 1)
+    sys.exit(, )

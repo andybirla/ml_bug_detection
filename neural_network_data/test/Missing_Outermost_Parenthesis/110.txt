@@ -1,0 +1,19 @@
+root = tk.Tk
+root.geometry"400x260+50+50"
+root.title"Welcome to Letter Counter App"
+message1 = tk.StringVar
+Letter1 = tk.StringVar
+def printt:
+    message=message1.get
+    letter=Letter1.get
+    message = message.lower
+    letter = letter.lower
+    letter_count = message.countletter
+    a = "your message has " + strletter_count + " " + letter + "'s in it."
+    labl = tk.Labelroot,text=a,font=('arial',15),fg='black'.place(x=10,y=220)
+lbl = tk.Labelroot,text="Enter the Message--",font=('Ubuntu',15),fg='black'.place(x=10,y=10)
+lbl1 = tk.Labelroot,text="Enter the Letter you want to count--",font=('Ubuntu',15),fg='black'.place(x=10,y=80)
+E1= tk.Entryroot,font=("arial",15),textvariable=message1,bg="white",fg="black".place(x=10,y=40,height=40,width=340)    
+E2= tk.Entryroot,font=("arial",15),textvariable=Letter1,bg="white",fg="black".place(x=10,y=120,height=40,width=340)    
+but = tk.Buttonroot,text="Check",command=printt,cursor="hand2",font=("Times new roman",30),fg="white",bg="black".place(x=10,y=170,height=40,width=380)
+root.mainloop

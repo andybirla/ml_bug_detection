@@ -1,0 +1,4 @@
+engine = create_engine( echo=True, 'sqlite:///example.db')
+    id = Column( primary_key=True, Integer)
+    user = Student( 'Omkar', 'OmkarPathak', 'Pathak', 'MIT')
+        print ( student.lastname, student.firstname)

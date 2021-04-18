@@ -1,0 +1,13 @@
+def checkf:
+    def helperx:
+        if typex == int and x > 0:
+            return fx
+            raise Exception"Argument is not a non-negative integer"
+def factorialn:
+        return n * factorialn - 1
+for i in range1, 10:
+    printi, factorial(i)
+    printfactorial(-1)
+    e.print_exception
+    printfactorial(1.354)
+    e.print_exception

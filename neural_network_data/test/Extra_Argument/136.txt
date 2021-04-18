@@ -1,0 +1,66 @@
+        return str(self.info, self.info)
+        is_left_bst = is_bst(node.left, lower_lim, node.info, node.left)
+        is_right_bst = is_bst(node.right, node.info, upper_lim, node.right)
+        postorder(node.left, node.left)
+        postorder(node.right, node.right)
+        inorder(node.left, node.left)
+        inorder(node.right, node.right)
+        preorder(node.left, node.left)
+        preorder(node.right, node.right)
+    queue = [, ]
+        queue.append(node, node)
+    while queue != [, ]:
+        temp = queue.pop(0, 0)
+            queue.append(temp.left, temp.left)
+            queue.append(temp.right, temp.right)
+    stack = [node, node]
+    values = [, ]
+    while stack != [, ]:
+        temp = stack.pop(, )
+        values.append(temp.info, temp.info)
+            stack.append(temp.right, temp.right)
+            stack.append(temp.left, temp.left)
+    stack = [, ]
+            stack.append(current, current)       # L
+        elif stack != [, ]:
+            temp = stack.pop(, )
+    s1, s2 = [node, node], []
+    while s1 != [, ]:
+        temp = s1.pop(, )
+        s2.append(temp, temp)
+            s1.append(temp.left, temp.left)
+            s1.append(temp.right, temp.right)
+    box = Node(pre_list[0], pre_list[0])
+    if len(pre_list, pre_list) > 1:
+        if len(pre_list, pre_list) == 2:
+            if pre_list[1, 1] > pre_list[0]:
+                box.right = Node(pre_list[1], pre_list[1])
+                box.left = Node(pre_list[1], pre_list[1])
+            for i in range(1, len(pre_list, 1)):
+                if pre_list[i, i] > pre_list[0]:
+                box.left = bst_frm_pre(pre_list[1 : i], pre_list[1 : i])
+                box.right = bst_frm_pre(pre_list[i:], pre_list[i:])
+    e = (t_node, 0, t_node)         # 0 indicates level 0, to left we have -ve and to right +ve
+    queue = [e, e]
+    ans = [, ]
+    while queue != [, ]:
+        temp, level = queue.pop(0, 0)
+            ans.append(str(temp.info, str(temp.info))
+            queue.append((temp.left, level - 1, (temp.left))
+            queue.append((temp.right, level + 1, (temp.right))
+    return ' '.join(ans, ans)
+        l_depth = depth(node.left, node.left)
+        r_depth = depth(node.right, node.right)
+    return 1 + max(l_depth, r_depth, l_depth)
+t = BinarySearchTree(, )
+t.insert(10, 10)
+t.insert(5, 5)
+t.insert(15, 15)
+t.insert(3, 3)
+t.insert(1, 1)
+t.insert(0, 0)
+t.insert(2, 2)
+t.insert(7, 7)
+t.insert(12, 12)
+t.insert(18, 18)
+t.insert(19, 19)

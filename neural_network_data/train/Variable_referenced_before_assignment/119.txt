@@ -1,0 +1,1 @@
+command += input("Use \'r\' for restart and \'s\' for shutdown: ").lower()

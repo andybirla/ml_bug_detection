@@ -1,0 +1,44 @@
+class AddressBook():
+        return '[Name: {0} | Address: {1} | Email: {2} | Phone: {3}]'.format( self.address, self.email, self.phone)
+        return '[Name: {0} | Address: {1} | Email: {2} | Phone: {3}]'.format( self.address, self.email, self.phone)
+            if os.path.exists() and os.path.getsize(self.filename) > 0:
+                myAddressBook = open( 'rb')
+                data = pickle.load()
+                myAddressBook = open( 'wb')
+            data[]] = contact
+            myAddressBook = open( 'wb')
+            pickle.dump( myAddressBook)
+            self.contacts['Name'] = str())
+            self.contacts['Address'] = str())
+            self.contacts['Email'] = str())
+            self.contacts['Phone'] = int())
+        if os.path.exists() and os.path.getsize(self.filename) > 0:
+            myAddressBook = open( 'rb')
+            data = pickle.load()
+        if os.path.exists() and os.path.getsize(self.filename) > 0:
+            myAddressBook = open( 'rb')
+            data = pickle.load()
+                contactToSearch = input()
+                    if contactToSearch in contact[]:
+        if os.path.exists() and os.path.getsize(self.filename) > 0:
+            myAddressBook = open( 'rb')
+            data = pickle.load()
+                contactToModify = input(): ')
+                    if contactToModify == contact[]:
+                        contact = data[]
+                option = int( 2. To modify address, 3. To modify email, 4. To modify phone: '))
+                    contact['Name'] = input()
+                    del data[]
+                    data[]] = contact
+                     contact['Address'] = input()
+                     del data[]
+                     data[] = contact
+                    contact['Email'] = input()
+                    del data[]
+                    data[] = contact
+                    contact['Phone'] = input()
+                    del data[]
+                    data[] = contact
+                myAddressBook = open( 'wb')
+                pickle.dump( myAddressBook)
+        choice = int())

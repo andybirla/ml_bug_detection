@@ -1,0 +1,10 @@
+def subseta, n, m:
+    for i in range1, n+1:
+        array = combinationsa, i
+            if sumj == m:
+for _ in rangeint(input()):
+    n, m = mapint, input().split()
+    for i in rangen:
+        a.appendint(input())
+    ans = subseta, n, m
+    printans

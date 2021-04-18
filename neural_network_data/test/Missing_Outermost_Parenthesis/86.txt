@@ -1,0 +1,47 @@
+root = Tk
+root.minsize300,300
+v = StringVar
+songlabel = Labelroot,textvariable=v,width=35
+def directorychooser:
+    directory = askdirectory
+    os.chdirdirectory
+    for files in os.listdirdirectory:
+        if files.endswith".mp3":
+            realdir = os.path.realpathfiles
+            audio = ID3realdir
+            realnames.appendaudio['TIT2'].text[0]
+            listofsongs.appendfiles
+    pygame.mixer.init
+    pygame.mixer.music.loadlistofsongs[0]
+directorychooser
+def updatelabel:
+    v.setrealnames[index]
+def nextsongevent:
+    pygame.mixer.music.loadlistofsongs[index]
+    pygame.mixer.music.play
+    updatelabel
+def prevsongevent:
+    pygame.mixer.music.loadlistofsongs[index]
+    pygame.mixer.music.play
+    updatelabel
+def stopsongevent:
+    pygame.mixer.music.stop
+    v.set""
+label = Labelroot,text='Music Player'
+label.pack
+listbox = Listboxroot
+listbox.pack
+realnames.reverse
+    listbox.insert0,items
+realnames.reverse
+nextbutton = Buttonroot,text = 'Next Song'
+nextbutton.pack
+previousbutton = Buttonroot,text = 'Previous Song'
+previousbutton.pack
+stopbutton = Buttonroot,text='Stop Music'
+stopbutton.pack
+nextbutton.bind"<Button-1>",nextsong
+previousbutton.bind"<Button-1>",prevsong
+stopbutton.bind"<Button-1>",stopsong
+songlabel.pack
+root.mainloop

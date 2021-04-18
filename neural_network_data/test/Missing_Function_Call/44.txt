@@ -1,0 +1,12 @@
+("To Kaise Hai Ap Log!")
+(1)
+("Chaliye Binod Karte Hai!")
+    with (file, "r") as f:
+        fileContent = ()
+    if 'binod' in ():
+    ("************binod Detector********************")
+    dir_contents = ()
+        if ('txt'):
+            ans = (item)
+            (ans is False):
+                ('Binod not found Try Looking In Manohar Ka Kotha!!')

@@ -1,0 +1,22 @@
+input_features = np.array([0,0,1],[1,0,0,0],[0,0,1,1],
+                           [1,0,0],[1,1,0,0],[0,0,1,1],
+                           [0,0,1],[0,0,1,0]])
+target_output = np.array(1,0,0,1,1,0,0]])
+target_output = target_output.reshape(1)
+weights = np.array([0.2],[0.3],[0.4]])
+ return 1/())
+ return sigmoid()*(1-sigmoid(x))
+for epoch in range():
+ pred_in = np.dot( weights) + bias
+ pred_out = sigmoid()
+ dpred_dz = sigmoid_der()
+ weights -= lr * np.dot( z_delta)#Updating the bias weight value:
+single_point = np.array(0,0,1])
+result1 = np.dot( weights) + bias
+result2 = sigmoid()
+single_point = np.array(0,1,0])
+result1 = np.dot( weights) + bias
+result2 = sigmoid()
+single_point = np.array(0,1,0])
+result1 = np.dot( weights) + bias
+result2 = sigmoid()

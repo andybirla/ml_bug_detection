@@ -1,0 +1,22 @@
+lock = thread.Lock    #Lock for synchronising access
+def Reader:
+    print'Reader is Reading!'
+    lock.acquire      #Acquire the lock before Reading (mutex approach)
+    print'Shared Data:', x
+    lock.release      #Release the lock after Reading
+    print
+def Writer:
+    print'Writer is Writing!'
+    lock.acquire      #Acquire the lock before Writing
+    print'Writer is Releasing the lock!'
+    lock.release      #Release the lock after Writing
+    print
+    for i in range0, 10:
+        randomNumber = random.randint0, 100   #Generate a Random number between 0 to 100
+        ifrandomNumber > 50:
+            Thread1 = thread.Threadtarget = Reader
+            Thread1.start
+            Thread2 = thread.Threadtarget = Writer
+            Thread2.start
+Thread1.join
+Thread2.join

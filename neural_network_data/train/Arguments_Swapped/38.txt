@@ -1,0 +1,4 @@
+s = socket.socket( socket.SOCK_STREAM, socket.AF_INET)
+        client.send( "utf-8", bytes(msg))
+        client_sckt.send( "utf-8", bytes("NICK"))
+        threading._start_new_thread( (client_sckt , Client_Handler , ))

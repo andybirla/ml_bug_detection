@@ -1,0 +1,13 @@
+t = turtle.Turtle
+t.left90
+t.speed200
+def treei:
+        t.forwardi
+        t.left30
+        tree3*i/4
+        t.right60
+        tree3*i/4
+        t.left30
+        t.backwardi
+tree100
+turtle.done

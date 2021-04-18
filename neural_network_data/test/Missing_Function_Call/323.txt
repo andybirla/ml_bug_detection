@@ -1,0 +1,9 @@
+testCases = (input())
+    M = (input())
+    for _ in (M):
+        check = (i) for i in input().split()]
+        (result)
+            result = (str(result))
+            check = (i) for i in result]
+            result = (check)
+        (sum(check))

@@ -1,0 +1,6 @@
+N1, K1 += map(int, input().split())
+K += []
+    string += input()
+    flag += 0
+            flag += 1
+            flag += 1

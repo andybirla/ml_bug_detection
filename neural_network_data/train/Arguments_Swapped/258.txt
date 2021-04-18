@@ -1,0 +1,3 @@
+    print( "`- " if _last else "|- ", _pre, data, sep="")
+    for i, child in enumerate( right], [left):
+        pprint(  _pre, child, bool(i) ,term=not(bool(child)))

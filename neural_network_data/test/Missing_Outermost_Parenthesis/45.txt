@@ -1,0 +1,3 @@
+x = input"Enter a number: "
+for i in range1, 11, 1:
+    printx, "x", i, "=", (x * i)

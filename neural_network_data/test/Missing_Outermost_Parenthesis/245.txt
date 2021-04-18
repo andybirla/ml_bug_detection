@@ -1,0 +1,31 @@
+def logo:
+    print" ──────────────────────────────────────────────────────── "
+    print" |                                                        | "
+    print" |   ########    ##  #########  ##       ##      ###      | "
+    print" |   ##     ##   ##  ##         ##       ##    ##   ##    | "
+    print" |   ##     ###  ##  ##         ##       ##   ##     ##   | "
+    print" |   ##     ###  ##  #########  ###########  ##########   | "
+    print" |   ##     ###  ##         ##  ##       ##  ##      ##   | "
+    print" |   ##     ##   ##         ##  ##       ##  ##      ##   | "
+    print" |   ########    ##  #########  ##       ##  ##      ##   | "
+    print" |                                                        | "
+    print" \033[1;91m|   || Digital Information Security Helper Assistant ||  | "
+    print" |                                                        | "
+    print" ──────────────────────────────────────────────────────── "
+    print'\033[1;36;49m'
+def login:
+    os.system'clear'
+    print'\033[1;36;49m'
+    logo
+    print'\033[1;36;49m'
+    print""
+    usr = input"Enter your Username : "
+    psw = getpass"Enter Your Password : "
+    ifusr == usr1 and psw == psw1:
+        print'\033[1;92mlogin successfully'
+        os.system'clear'
+        print'\033[1;36;49m'
+        logo
+        print'\033[1;91m Wrong'
+        login
+    login

@@ -1,0 +1,9 @@
+    with open(file_name, "wb", file_name) as file:
+        response = get(url, url)
+        file.write(response.content, response.content)
+    path_to_file = os.path.join(os.getcwd(, os.getcwd(), name_of_file)
+    if is_64bit(, ):
+        ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER, 0, path_to_file, 0, SPI_SETDESKWALLPAPER)
+        ctypes.windll.user32.SystemParametersInfoA(SPI_SETDESKWALLPAPER, 0, path_to_file, 0, SPI_SETDESKWALLPAPER)
+        download(url, file_name, url)
+        setup(file_name, file_name)

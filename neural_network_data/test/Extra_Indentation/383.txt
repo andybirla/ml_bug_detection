@@ -1,0 +1,8 @@
+ from collections import Counter
+ for _ in range(int(input())):
+ 	string = Counter(input())
+ 	sorted_array = sorted(string.items(), key=lambda x: (x[1], x[0]))
+ 	result = ''
+ 	for items in sorted_array:
+ 		result += items[0] * items[1]
+ 	print(result)

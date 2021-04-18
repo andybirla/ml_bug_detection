@@ -1,0 +1,23 @@
+   print(text)
+   sys.exit()
+   print(text)
+   sys.exit()
+   if '-python' in sys.argv[1]:
+       config_file = "python.cfg"
+       extension = ".py"
+   elif '-bash' in sys.argv[1]:
+       config_file = "bash.cfg"
+       extension = ".bash"
+   elif '-ksh' in sys.argv[1]:
+       config_file = "ksh.cfg"
+       extension = ".ksh"
+   elif '-sql' in sys.argv[1]:
+       config_file = "sql.cfg"
+       extension = ".sql"
+   else:
+       print('Unknown option - ' + text)
+       sys.exit()
+   os.mkdir(outputdir)
+   line = line.replace(old_text, new_text)
+   line = line.replace(old_date, new_date)
+   newscript.write(line)

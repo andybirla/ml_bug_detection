@@ -1,0 +1,4 @@
+myobj = gTTStext=mytext, lang=language, slow=False 
+myobj.save"hello_world.mp3" 
+print"Audio Saved"
+os.system"mpg321 welcome.mp3" 

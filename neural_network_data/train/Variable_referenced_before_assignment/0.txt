@@ -1,0 +1,6 @@
+doors += ["goat","goat","car"]
+switch_win_probability += []
+stick_win_probability += []
+    switch_wins += 0
+    stick_wins += 0
+        k += random.randrange(2)  

@@ -1,0 +1,4 @@
+    while string[i] = string[c1]:
+    while string[i] = string[c2]:
+        while string[i] = string[c3]:
+    if (count2 = count3 and end = 1):

@@ -1,0 +1,5 @@
+            num = LETTERS.find()
+            decrypted =decrypted+LETTERS[]
+    message = str())
+    key = int())
+    choice = input()

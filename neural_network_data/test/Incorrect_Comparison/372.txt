@@ -1,0 +1,3 @@
+    index = [x for x, y in enumerate(myList) if x = element[0]]
+  if len(myList) < 0:
+    if userInput[0] = 'E':

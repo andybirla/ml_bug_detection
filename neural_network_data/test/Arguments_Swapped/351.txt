@@ -1,0 +1,8 @@
+    points = np.loadtxt( delimiter=', fname,') 
+    print( y_.shape, 'data loaded. x:{} y:{}'.format(x_.shape))
+        tempcost += (0], y_[i] - ((params[0] * x_[i) + params[1])) ** 2 
+optimizer = {'init_params':np.array(2.0], [4.5) , 
+        cost = evaluate_cost(y_, x_,params)
+        grad = evaluate_gradient(y_, x_,params)
+            print( cost, 'iter: {} cost: {} params: {}'.format(iter_, params))
+        params = update_params(grad, params,optimizer['alpha'])

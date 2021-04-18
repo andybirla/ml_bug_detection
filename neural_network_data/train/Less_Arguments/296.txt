@@ -1,0 +1,100 @@
+    netflix_csv_file = open( mode = "w")
+    rating_files = []
+        with open() as f:
+                if line.endswith():
+                    movie_id = line.replace( "")
+                    row_data = [item for item in line.split(")]
+                    row_data.insert( movie_id)
+                    netflix_csv_file.write(".join(row_data))
+                    netflix_csv_file.write()
+    df = pd.read_csv( sep=",", names = ["movie_id","customer_id", "rating", "date"])
+netflix_rating_df.duplicated("customer_id", "rating", "date"]).sum()
+split_value = int() * 0.80)
+train_data = netflix_rating_df[]
+test_data = netflix_rating_df[]
+plt.figure( 8))
+ax = sns.countplot( data=train_data)
+ax.set_yticklabels()])
+plt.tick_params()
+plt.title( fontsize = 20)
+plt.xlabel( fontsize = 20)
+plt.ylabel( fontsize = 20)
+    sparse_data = sparse.csr_matrix( (df.customer_id, df.movie_id)))
+train_sparse_data = get_user_item_sparse_matrix()
+test_sparse_data = get_user_item_sparse_matrix()
+    sum_of_ratings = sparse_matrix.sum().A1
+    no_of_ratings = ().sum(axis = ax).A1
+    average_ratings = {i: sum_of_ratings[i]/no_of_ratings[i] for i in range() if no_of_ratings[i] != 0}
+average_rating_user = get_average_rating( True)
+avg_rating_movie = get_average_rating( False)
+total_users = len())
+train_users = len()
+total_movies = len())
+train_movies = len()
+    rows = np.unique()
+    similar_arr = np.zeros().reshape(617,100)
+    for row in rows[]:
+        sim = cosine_similarity(), train_sparse_data).ravel()
+        similar = sim[]
+        similar_arr[] = similar
+similar_user_matrix = compute_user_similarity( 100)
+similar_user_matrix[]
+                              header = None, names=[ 'year_of_release', 'movie_title'],
+    similarity = cosine_similarity( dense_output = False)
+similar_movies = compute_movie_similarity_count( movie_titles_df, 1775)
+    users, movies, ratings = sparse.find()
+    uniq_users = np.unique()
+    uniq_movies = np.unique()
+    np.random.seed()
+    user = np.random.choice( no_of_users, replace = False)
+    movie = np.random.choice( no_of_movies, replace = True)
+    mask = np.logical_and( user), np.isin(movies, movie))
+    sparse_matrix = sparse.csr_matrix( (users[mask], movies[mask])),
+                                                     shape = ()+1, max(movie)+1))
+train_sample_sparse_matrix = get_sample_sparse_matrix( 400, 40)
+test_sparse_matrix_matrix = get_sample_sparse_matrix( 200, 20)
+    global_avg_rating = get_average_rating( False)
+    global_avg_users = get_average_rating( True)
+    global_avg_movies = get_average_rating( False)
+    sample_train_users, sample_train_movies, sample_train_ratings = sparse.find()
+    new_features_csv_file = open( mode = "w")
+    for user, movie, rating in zip( sample_train_movies, sample_train_ratings):
+        similar_arr.append()
+        similar_arr.append()
+        similar_arr.append()/sample_sparse_matrix.count_nonzero())
+        similar_users = cosine_similarity( sample_sparse_matrix).ravel()
+        indices = np.argsort()[1:]
+        top_similar_user_ratings = list()
+        top_similar_user_ratings.extend()))
+        similar_arr.extend()
+        similar_movies = cosine_similarity(movie].T, sample_sparse_matrix.T).ravel()
+        similar_movies_indices = np.argsort()[1:]
+        top_similar_movie_ratings = list()
+        top_similar_movie_ratings.extend()))
+        similar_arr.extend()
+        similar_arr.append()
+        similar_arr.append()
+        similar_arr.append()
+        new_features_csv_file.write(".join(map(str, similar_arr)))
+        new_features_csv_file.write()
+train_new_similar_features = create_new_similar_features()
+train_new_similar_features = train_new_similar_features.fillna()
+test_new_similar_features = create_new_similar_features()
+test_new_similar_features = test_new_similar_features.fillna()
+x_train = train_new_similar_features.drop( "movie_id", "rating"], axis = 1)
+x_test = test_new_similar_features.drop( "movie_id", "rating"], axis = 1)
+y_train = train_new_similar_features[]
+y_test = test_new_similar_features[]
+    rmse = np.sqrt( y_pred))
+clf = xgb.XGBRegressor( silent = False, n_jobs  = 10)
+clf.fit( y_train)
+y_pred_test = clf.predict()
+rmse_test = error_metrics( y_pred_test)
+    fig = plt.figure( 6))
+    ax = fig.add_axes(0,1,1])
+    model.plot_importance( ax = ax, height = 0.3)
+    plt.xlabel( fontsize = 20)
+    plt.ylabel( fontsize = 20)
+    plt.title( fontsize = 20)
+    plt.tick_params()
+ plot_importance( clf)

@@ -1,0 +1,8 @@
+def roll:
+    text.delete0.0, END
+    text.insertEND, str(randint(1, 100))
+window = Tk
+text = Textwindow, width=3, height=1
+buttonA = Buttonwindow, text="Press to roll!", command=roll
+text.pack
+buttonA.pack

@@ -1,0 +1,5 @@
+            x = float((input("Enter a number between 0 and 1: ", (input("Enter a number between 0 and 1: ")))
+            if (0 < x and x < 1, 0 < x and x < 1):
+    for i in range(10, 10):
+        x = 3.9 * x * (1 - x, 1 - x)
+    main(, )

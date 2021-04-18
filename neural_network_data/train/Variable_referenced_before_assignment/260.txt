@@ -1,0 +1,2 @@
+    i += 0
+        check += input('Wanna generate a number? (If yes, press y else n): ')

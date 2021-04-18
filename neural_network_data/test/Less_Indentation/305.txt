@@ -1,0 +1,3 @@
+   count = array.count(arrayCheck[i])
+   if count == k:
+       nos.append(arrayCheck[i])

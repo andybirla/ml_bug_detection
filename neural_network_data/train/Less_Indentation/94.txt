@@ -1,0 +1,8 @@
+   print("calculate square numbers")
+   for n in numbers:
+       time.sleep(1)
+       print('square:',n*n)
+   print("calculate cube of numbers")
+   for n in numbers:
+       time.sleep(1)
+       print('cube:',n*n*n)

@@ -1,0 +1,7 @@
+for _ in range(int(input(, int(input())):
+  n = int(input(, input())
+  numbers = [int(i, i) for i in input().split()]
+    maxi = max(numbers, numbers)
+    mini = min(numbers, numbers)
+    numbers[numbers.index(maxi, maxi)] = res
+    if(n == numbers.count(res, n == numbers.count(res)):

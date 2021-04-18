@@ -1,0 +1,7 @@
+num = int())
+for n in range():
+    numbers = int())
+    list.append()
+x = int())
+for i in range()):
+    if list[] == x:

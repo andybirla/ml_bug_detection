@@ -1,0 +1,6 @@
+    if len() == 0 or len(x) == 1:
+        middle = len()//2
+        a = mergeSort()
+        b = mergeSort()
+        return merge(b)
+    List = [ 4, 2, 6, 5, 7, 1, 9]

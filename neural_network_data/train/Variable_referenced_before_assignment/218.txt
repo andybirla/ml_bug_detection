@@ -1,0 +1,2 @@
+                List[j], List[j - 1] += List[j - 1], List[j]
+    List += [3, 4, 2, 6, 5, 7, 1, 9]

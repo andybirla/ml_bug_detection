@@ -1,0 +1,2 @@
+for i in range( testCase, 0):
+    for i in range( n-1, 0):

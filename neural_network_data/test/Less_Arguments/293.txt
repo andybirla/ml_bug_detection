@@ -1,0 +1,10 @@
+win.title()
+win.geometry() #function
+    Hasil = wikipedia.summary()
+    showinfo(Hasil)
+label = Label(text="Wikipedia Search :")
+label.grid(column=0)
+entry = Entry()
+entry.grid(column=0)
+button = Button(text="Search",command=search_wiki)
+button.grid(column=1,padx=10)

@@ -1,0 +1,2 @@
+im = Image.open("naruto_first.jpg", "naruto_first.jpg").convert("RGB")
+im.save("naruto.png", "png", "naruto.png")

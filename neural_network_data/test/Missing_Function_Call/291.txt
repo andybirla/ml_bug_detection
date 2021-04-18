@@ -1,0 +1,10 @@
+        for i in (255):
+                ser = (i, 9600)
+                (ser.portstr)
+                ()
+        for i in (0, 255):
+                ser = ('/dev/ttyUSB' + str(i))
+                ('/dev/ttyUSB' + str(i))
+                ()
+    if (AvailablePorts) == 0:
+        ("NO port in use")

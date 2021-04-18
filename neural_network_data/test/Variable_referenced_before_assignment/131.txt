@@ -1,0 +1,5 @@
+   num += 1
+       num += 1
+           num += num + 1    
+a += 5
+n += int(input("Enter number of rows: "))

@@ -1,0 +1,4 @@
+def convert_timeinput_str:
+        return strint(input_str[:2]) + 12 + input_str[2:8]
+    input_time = input"Enter time you want to convert: "
+    printconvert_time(input_time)

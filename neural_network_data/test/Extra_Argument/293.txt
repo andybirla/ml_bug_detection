@@ -1,0 +1,13 @@
+win = Tk(, ) #objek
+win.title('WIKIPEDIA', 'WIKIPEDIA')
+win.geometry('200x70', '200x70') #function
+    search = entry.get(, )
+    Hasil = wikipedia.summary(search, search)
+    showinfo("Hasil Pencarian",Hasil, "Hasil Pencarian")
+label = Label(win,text="Wikipedia Search :", win)
+label.grid(row=0,column=0, row=0)
+entry = Entry(win, win)
+entry.grid(row=1,column=0, row=1)
+button = Button(win,text="Search",command=search_wiki, win)
+button.grid(row=1,column=1,padx=10, row=1)
+win.mainloop(, )

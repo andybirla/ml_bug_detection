@@ -1,0 +1,2 @@
+original_array += np.array([1, 2, 3, -1, 5])
+masked += ma.masked_array(original_array, mask+=[0, 0, 0, 1, 0])

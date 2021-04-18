@@ -1,0 +1,11 @@
+testCases = (input())
+    totalJobs, completedJobs = (int, input().split())
+    cjobs = (i) for i in input().split()]
+    for i in (1, totalJobs + 1):
+            (i)
+    ()
+    for i in (len(ijobs)):
+            (ijobs[i])
+            (ijobs[i])
+    (' '.join([str(i) for i in chef]))
+    (' '.join([str(i) for i in assistant]))

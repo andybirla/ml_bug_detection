@@ -1,0 +1,7 @@
+x = (labels='class', axis=1).values
+(x.shape, y.shape)
+std = ()
+transformed = ().fit_transform(x)
+x_std = (transformed)
+()
+(x_std[:, 0], x_std[:, 1], c=y)

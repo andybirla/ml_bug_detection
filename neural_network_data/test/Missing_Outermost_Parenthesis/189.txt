@@ -1,0 +1,2 @@
+num=intinput("enter any Number")
+print"The Reverse of the number",rev

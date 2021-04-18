@@ -1,0 +1,11 @@
+counts=dict
+mails=list
+fname=input'Enter file name:'
+fh=openfname
+    if not line.startswith'From':
+    if line.startswith'From:':
+    id=line.split
+    mails.appendmail
+    counts[x]=counts.getx,0+1
+for key,value in counts.items:
+printbigmail, bigvalue

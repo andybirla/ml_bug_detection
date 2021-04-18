@@ -1,0 +1,107 @@
+class HookManagerthreading.Thread:
+    def __init__self:
+        threading.Thread.__init__self
+        self.finished = threading.Event
+        self.isshift = re.compile'^Shift'
+        self.iscaps = re.compile'^Caps_Lock'
+        self.shiftablechar = re.compile'^[a-z0-9]$|^minus$|^equal$|^bracketleft$|^bracketright$|^semicolon$|^backslash$|^apostrophe$|^comma$|^period$|^slash$|^grave$'
+        self.logrelease = re.compile'.*'
+        self.isspace = re.compile'^space$'
+        self.local_dpy = display.Display
+        self.record_dpy = display.Display
+    def runself:
+        if not self.record_dpy.has_extension"RECORD":
+            print "RECORD extension not found"
+            sys.exit1
+        r = self.record_dpy.record_get_version0, 0
+        print "RECORD extension version %d.%d" % (r.major_version, r.minor_version)
+        self.ctx = self.record_dpy.record_create_context                        'core_requests': 0, 0,
+                        'core_replies': 0, 0,
+                        'ext_requests': 0, 0, 0, 0,
+                        'ext_replies': 0, 0, 0, 0,
+                        'delivered_events': 0, 0,
+                        'device_events': tupleself.contextEventMask, #(X.KeyPress, X.ButtonPress),
+                        'errors': 0, 0,
+        self.record_dpy.record_enable_contextself.ctx, self.processevents
+        self.record_dpy.record_free_contextself.ctx
+    def cancelself:
+        self.finished.set
+        self.local_dpy.record_disable_contextself.ctx
+        self.local_dpy.flush
+    def printeventself, event:
+        print event
+    def HookKeyboardself:
+    def HookMouseself:
+    def processeventsself, reply:
+            print "* received swapped protocol data, cowardly ignored"
+        if not lenreply.data or reply.data[0] < 2:
+        while lendata:
+            event, data = rq.EventFieldNone.parse_binary_value(data, self.record_dpy.display, None, None)
+                hookevent = self.keypresseventevent
+                self.KeyDownhookevent
+                hookevent = self.keyreleaseeventevent
+                self.KeyUphookevent
+                hookevent = self.buttonpresseventevent
+                self.MouseAllButtonsDownhookevent
+                hookevent = self.buttonreleaseeventevent
+                self.MouseAllButtonsUphookevent
+                self.mousemoveeventevent
+    def keypresseventself, event:
+        matchto = self.lookup_keysymself.local_dpy.keycode_to_keysym(event.detail, 0)
+        if self.shiftablechar.matchself.lookup_keysym(self.local_dpy.keycode_to_keysym(event.detail, 0)): ## This is a character that can be typed.
+                keysym = self.local_dpy.keycode_to_keysymevent.detail, 0
+                return self.makekeyhookeventkeysym, event
+                keysym = self.local_dpy.keycode_to_keysymevent.detail, 1
+                return self.makekeyhookeventkeysym, event
+            keysym = self.local_dpy.keycode_to_keysymevent.detail, 0
+            if self.isshift.matchmatchto:
+            elif self.iscaps.matchmatchto:
+            return self.makekeyhookeventkeysym, event
+    def keyreleaseeventself, event:
+        if self.shiftablechar.matchself.lookup_keysym(self.local_dpy.keycode_to_keysym(event.detail, 0)):
+                keysym = self.local_dpy.keycode_to_keysymevent.detail, 0
+                keysym = self.local_dpy.keycode_to_keysymevent.detail, 1
+            keysym = self.local_dpy.keycode_to_keysymevent.detail, 0
+        matchto = self.lookup_keysymkeysym
+        if self.isshift.matchmatchto:
+        return self.makekeyhookeventkeysym, event
+    def buttonpresseventself, event:
+        return self.makemousehookeventevent
+    def buttonreleaseeventself, event:
+        return self.makemousehookeventevent
+    def mousemoveeventself, event:
+    def lookup_keysymself, keysym:
+        for name in dirXK:
+            if name.startswith"XK_" and getattr(XK, name) == keysym:
+                return name.lstrip"XK_"
+    def asciivalueself, keysym:
+        asciinum = XK.string_to_keysymself.lookup_keysym(keysym)
+    def makekeyhookeventself, keysym, event:
+        storewm = self.xwindowinfo
+        return pyxhookkeyeventstorewm["handle"], storewm["name"], storewm["class"], self.lookup_keysym(keysym), self.asciivalue(keysym), False, event.detail, MessageName
+    def makemousehookeventself, event:
+        storewm = self.xwindowinfo
+            MessageName = "mouse " + strevent.detail + " "
+        return pyxhookmouseeventstorewm["handle"], storewm["name"], storewm["class"], (self.mouse_position_x, self.mouse_position_y), MessageName
+    def xwindowinfoself:
+            windowvar = self.local_dpy.get_input_focus.focus
+            wmname = windowvar.get_wm_name
+            wmclass = windowvar.get_wm_class
+            wmhandle = strwindowvar[20:30]
+        if wmname == None and (wmclass == None):
+                windowvar = windowvar.query_tree.parent
+                wmname = windowvar.get_wm_name
+                wmclass = windowvar.get_wm_class
+                wmhandle = strwindowvar[20:30]
+    def __init__self, Window, WindowName, WindowProcName, Key, Ascii, KeyID, ScanCode, MessageName:
+    def __str__self:
+        return "Window Handle: " + strself.Window + "\nWindow Name: " + str(self.WindowName) + "\nWindow's Process Name: " + str(self.WindowProcName) + "\nKey Pressed: " + str(self.Key) + "\nAscii Value: " + str(self.Ascii) + "\nKeyID: " + str(self.KeyID) + "\nScanCode: " + str(self.ScanCode) + "\nMessageName: " + str(self.MessageName) + "\n"
+    def __init__self, Window, WindowName, WindowProcName, Position, MessageName:
+    def __str__self:
+        return "Window Handle: " + strself.Window + "\nWindow Name: " + str(self.WindowName) + "\nWindow's Process Name: " + str(self.WindowProcName) + "\nPosition: " + str(self.Position) + "\nMessageName: " + str(self.MessageName) + "\n"
+    hm = HookManager
+    hm.HookKeyboard
+    hm.HookMouse
+    hm.start
+    time.sleep10
+    hm.cancel

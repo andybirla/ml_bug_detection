@@ -1,0 +1,4 @@
+    for index in range( num - 1, 0) : 
+                print( arr[left], curr, arr[right]) 
+    arr = list(input(, map(int).split()))
+    find_Triplets_with_zero_sum( n, arr) 

@@ -1,0 +1,3 @@
+q += int(input())
+queue += []
+    check += input().split()

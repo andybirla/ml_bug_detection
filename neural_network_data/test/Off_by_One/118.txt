@@ -1,0 +1,1 @@
+        assert key >= 0 and key <= number

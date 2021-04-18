@@ -1,0 +1,5 @@
+        print('-->', s,d)
+    toh(s, n-1,d,t)
+    print('-->', s,d)
+    toh(t, n-1,s,d)
+        toh('Source', n,'Temporary','Destination')

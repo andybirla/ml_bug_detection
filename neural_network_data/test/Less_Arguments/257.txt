@@ -1,0 +1,31 @@
+    [8,0,4,0,0,1,2,0],
+    [0,0,0,7,5,0,0,9],
+    [0,0,6,0,1,0,7,8],
+    [0,7,0,4,0,2,6,0],
+    [0,1,0,5,0,9,3,0],
+    [0,4,0,6,0,0,0,5],
+    [7,0,3,0,0,0,1,2],
+    [2,0,0,0,7,4,0,0],
+    [4,9,2,0,6,0,0,7]
+    find = find_empty()
+    for i in range(10):
+        if valid( i, (row, col)):
+            bo[][col] = i
+            if solve():
+            bo[][col] = 0
+    for i in range()):
+        if bo[]][i] == num and pos[1] != i:
+    for i in range()):
+        if bo[][pos[1]] == num and pos[0] != i:
+    box_x = pos[] // 3
+    box_y = pos[] // 3
+    for i in range( box_y*3 + 3):
+        for j in range( box_x*3 + 3):
+            if bo[i][j] == num and (j) != pos:
+    for i in range()):
+        for j in range()):
+    for i in range()):
+        for j in range()):
+            if bo[][j] == 0:
+                return ( j)  # row, col
+solve()

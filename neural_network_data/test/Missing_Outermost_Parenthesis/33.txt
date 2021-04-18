@@ -1,0 +1,4 @@
+a=intinput()
+b=listmap(int,input().split())
+for i in range1,len(b):
+printd

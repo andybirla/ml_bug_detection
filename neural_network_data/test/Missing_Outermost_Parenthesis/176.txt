@@ -1,0 +1,19 @@
+name = input"What is your name? "
+print "\nHello, " + name+ "\nTime to play hangman!\n"
+time.sleep1
+print "Start guessing...\nHint:It is a fruit"
+time.sleep0.5
+someWords = someWords.split' ' 
+word = random.choicesomeWords
+            print char, end = ' '  
+            print "_", end = ' '    
+        print "\nYou won"  
+    guess = input"\nGuess a character:" 
+    if not guess.isalpha: 
+        print'Enter only a LETTER' 
+    elif lenguess > 1: 
+        print'Enter only a SINGLE letter' 
+        print'You have already guessed that letter' 
+        print "\nWrong"    
+        print "You have", + turns, 'more guesses\n' 
+            print "\nYou Loose"  

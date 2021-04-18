@@ -1,0 +1,18 @@
+class (threading.Thread):
+        (self)
+        while ():
+            ("sub thread")
+            (2)
+            ("sub thread end")
+            ()
+    ("main thread end")
+    ()
+    (frame.f_globals['event'])
+(signal.SIGINT, handler)
+("main thread")
+event = ()
+()
+p = (event)
+()
+()
+(100)  # 一定要使主线程处于活动状态，否则信号处理对子线程不起作用

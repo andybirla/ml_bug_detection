@@ -1,0 +1,2 @@
+        while k >= n:
+        while (n-2*j) <= 1:

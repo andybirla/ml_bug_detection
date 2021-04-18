@@ -1,0 +1,29 @@
+choice = input()
+        note = random.randint(100)
+        note = random.randint(100)
+    for play in range():
+            num_of_plays.append()
+            money.append()
+            num_of_plays.append()
+            money.append()
+    plt.ylabel()
+    plt.xlabel()
+    plt.plot(money)
+    final_funds.append()
+    return()
+for i in range():
+    ending_fund = play(100,50)
+for i in range():
+    ending_fund = play(100,50)
+for i in range():
+    ending_fund = play(100,5)
+for i in range():
+    ending_fund = play(100,10)
+for i in range():
+    ending_fund = play(100,100)
+for i in range():
+    ending_fund = play(100,1000)
+for i in range():
+    ending_fund = play(100,5000)
+for i in range():
+    ending_fund = play(100,10000)

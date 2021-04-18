@@ -1,0 +1,3 @@
+soup = BeautifulSoup( 'lxml', htmlfile)
+print (word, '-' * 25 + '->',"<-" + "-" * 25)
+print (soup1, "SHORT MEANING: ")

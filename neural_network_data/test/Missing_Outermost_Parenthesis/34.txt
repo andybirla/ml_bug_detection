@@ -1,0 +1,6 @@
+for _ in range int(input()):
+    a=intinput()
+    b=listmap(int,input().split())
+    for i in range0,a:
+        ifb[i]&1:
+    printans*a2

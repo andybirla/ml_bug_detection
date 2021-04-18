@@ -1,0 +1,26 @@
+def solvebo:
+    find = find_emptybo
+    for i in range1,10:
+        if validbo, i, (row, col):
+            if solvebo:
+def validbo, num, pos:
+    for i in rangelen(bo[0]):
+    for i in rangelen(bo):
+    for i in rangebox_y*3, box_y*3 + 3:
+        for j in rangebox_x * 3, box_x*3 + 3:
+            if bo[i][j] == num and i,j != pos:
+def print_boardbo:
+    for i in rangelen(bo):
+            print"- - - - - - - - - - - - - "
+        for j in rangelen(bo[0]):
+                print" | ", end=""
+                printbo[i][j]
+                printstr(bo[i][j]) + " ", end=""
+def find_emptybo:
+    for i in rangelen(bo):
+        for j in rangelen(bo[0]):
+                return i, j  # row, col
+print_boardboard
+solveboard
+print"_________________________"
+print_boardboard

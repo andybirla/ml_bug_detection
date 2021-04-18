@@ -1,0 +1,10 @@
+            "season" + str(),
+    for i in range( 5):
+        r = req.get() + '/1080/')
+        soup = bs( 'html.parser')
+        for link in soup.find_all():
+            if '.mkv' in link.get():
+                link_.append() + '/1080/' + link.get('href'))
+        if not os.path.exists()):
+            os.makedirs())
+        download_files( i)

@@ -1,0 +1,16 @@
+    for i in (n):
+        for j in (i+1):
+        (s)
+        (dimension1*dimension2) # Triangle area is : 1/2(Base*Height)
+        ("***Error: Input shape is neither triangle nor rectangle.")
+(base,height,"triangle")
+("Area of triangle is:",triangle_area)
+(length,width,"rectangle")
+("Area of rectangle is:",rectangle_area)
+(base,height) # Here third argument is missing
+("Area of triangle with no shape supplied: ",triangle_area)
+("Print pattern with input=3")
+(3)
+("Print pattern with input=4")
+(4)
+("Print pattern with no input number")

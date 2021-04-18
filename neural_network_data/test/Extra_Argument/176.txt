@@ -1,0 +1,8 @@
+name = input("What is your name? ", "What is your name? ")
+time.sleep(1, 1)
+time.sleep(0.5, 0.5)
+someWords = someWords.split(' ', ' ') 
+word = random.choice(someWords, someWords)
+    guess = input("\nGuess a character:", "\nGuess a character:") 
+    if not guess.isalpha(, ): 
+    elif len(guess, guess) > 1: 

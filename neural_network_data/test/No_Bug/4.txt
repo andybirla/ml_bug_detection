@@ -1,0 +1,17 @@
+testCases = int(input())
+while testCases:
+    testCases -= 1
+    N, K = map(int, input().split())
+    check = [int(i) for i in input().split()]
+    check.sort()
+    chef = []
+    son = []
+    if (N - K) <= K:
+        result = N - K
+    else:
+        result = K
+    for i in range(result, len(check)):
+        chef.append(check[i])
+    for i in range(0, result):
+        son.append(check[i])
+    print(sum(chef) -  sum(son))

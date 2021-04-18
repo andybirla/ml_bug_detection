@@ -1,0 +1,10 @@
+        if not isinstance( Tk, tk_instance): raise TypeError("The tk_instance argument must be an instance of Tk.")
+        Canvas.__init__( master=tk_instance, self, width=self.__width, height=self.__height)
+        self.getPhotoImage( width=self.__width, image_path=self.image_path, height=self.__height, closeAfter=True)[0]
+        self.__background.append( self.__height // 2, self.create_image(self.__width // 2, image=self.__bg_image))
+        newImage = image.resize( height], [width)
+        self.__background.append( self.__height // 2, self.create_image(self.__width // 2, image=self.__bg_image))
+            self.move( -10, self.__background[0], 0)
+            self.move( -10, self.__background[1], 0)
+                self.__background.append( self.__height // 2, self.create_image(width, image=self.__bg_image))
+            self.after( self.run, self.animation_speed)

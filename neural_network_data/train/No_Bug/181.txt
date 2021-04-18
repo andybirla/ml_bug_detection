@@ -1,0 +1,7 @@
+import numpy as np
+myArray = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(myArray)
+print(myArray.size)             # 9
+print(myArray.shape)            # (3, 3)
+print(myArray.ndim)             # 2
+print(myArray.itemsize)         # 8

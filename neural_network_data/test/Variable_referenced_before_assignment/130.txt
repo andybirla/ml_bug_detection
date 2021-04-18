@@ -1,0 +1,3 @@
+        self.event += event
+event += threading.Event()
+p += producer(event)

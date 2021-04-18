@@ -1,0 +1,3 @@
+            if i % self.split = 0:
+                if self.file_extension = '.txt':
+if __name__ = '__main__':

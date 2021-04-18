@@ -1,0 +1,3 @@
+    file_input = input()
+        with open( 'r') as info:
+            count = collections.Counter().upper())

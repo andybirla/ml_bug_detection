@@ -1,0 +1,18 @@
+class (object):
+        newVertex = (key)
+            newVertex = (fromEdge)
+            newVertex = (toEdge)
+        (self.vertexList[toEdge], cost)
+        return ()
+        return (self.vertexList.values())
+    graph = ()
+    ('A')
+    ('B')
+    ('C')
+    ('D')
+    ('A', 'B', 5)
+    ('A', 'C', 6)
+    ('A', 'D', 2)
+    ('C', 'D', 3)
+        for vertexes in ():
+            ('({}, {}) => {}'.format(vertex.getKey(), vertexes.getKey(), vertex.getWeight(vertexes)))

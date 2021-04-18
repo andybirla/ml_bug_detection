@@ -1,0 +1,33 @@
+connect = getpass"What is your admin  password?\n"
+    connect = getpass"What is your admin password?\n"
+conn = sqlite3.connect'password_manager.db'
+cursor_ = conn.cursor
+def get_passwordservice_:
+    cursor = conn.executecommand
+def add_passwordservice_, username_, password_:
+    command = 'INSERT INTO STORE SERVICE,USERNAME,PASSWORD VALUES("'+service_+'","'+username_+'","'+password_+'");'
+    conn.executecommand
+    conn.commit
+def update_passwordservice_, password_:
+    conn.executecommand
+    conn.commit
+    printservice_ + " password updated successfully."
+def delete_serviceservice_:
+    conn.executecommand
+    conn.commit
+    printservice_ + " deleted from the database successfully."
+def get_all:
+    cursor_.execute"SELECT * from STORE"
+    data = cursor_.fetchall
+    if lendata == 0:
+        print'No Data'
+            print"service = ", row[0]
+            print"username = ", row[1]
+            print"password = ", row[2]
+            print
+def is_service_presentservice_:
+    cursor_.execute"SELECT SERVICE from STORE where SERVICE = ?", (service_,)
+    data = cursor_.fetchall
+    if lendata == 0:
+        print'There is no service named %s' % service_
+        conn.execute            

@@ -1,0 +1,5 @@
+city = ("Enter city name: ")
+    (f"{city} is in india")
+    (f"{city} is in pakistan")
+    (f"{city} is in bangladesh")
+    (f"I won't be able to tell you which country {city} is in! Sorry!")

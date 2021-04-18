@@ -1,0 +1,10 @@
+turtle.title()
+screen.bgcolor()
+t.color()
+t.fillcolor()
+t.left()
+t.forward()
+t.circle( 200)
+t.setheading()   # t.left
+t.circle( 200)
+t.forward()

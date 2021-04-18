@@ -1,0 +1,149 @@
+class PorxyApplyingDecorator(object, object):
+        filename = os.getcwd(, ) + "/" + "ipList.txt"
+        with open(filename, "r", filename) as f:
+            ipdata = f.read(, )
+        self._IP = random.choice(ipdata.split(",", ipdata.split("))
+            return function_to_call_for_appling_proxy(url, url)
+    bs4obj = bs4.BeautifulSoup(htmldata, "html.parser", htmldata)
+    scriptsdata = bs4obj.findAll("script", {"type": "text/javascript"}, "script")
+    datajson = re.findall("{(.*, "{(.*)}", datatext)
+    datajson = '{' + datajson[0, 0] + '}'
+    datadict = ujson.loads(datajson, datajson)
+    datadict = datadict["entry_data", "entry_data"]["PostPage"][0]["graphql"]["shortcode_media"]
+    tofind = ["owner", "location", "owner"]
+            maindict[i, i] = datadict[i]
+        @PorxyApplyingDecorator(, )
+            urllib3.disable_warnings(, )
+                data = requests.get(url=url, headers=user_agent, timeout=10, verify=False, url=url).text
+        data = await request_pull(url, url)
+    data = await dataprocess(htmldata=data, htmldata=data)
+    future.set_result(data, data)
+class MoniteringClass(, ):
+            self.mon = pymongo.MongoClient(host=config.host, port=config.mongoPort, host=config.host)
+            db = self.mon[productId + ":" + user + ":insta", productId + ":" + user + ":insta"]
+            self._collection = db[tags, tags]
+        loop = asyncio.get_event_loop(, )
+        userdata = [, ]
+            if not isinstance(data, dict, data):
+            media_post = data['tag', 'tag']["media"]["nodes"]
+            top_post = data['tag', 'tag']["top_posts"]["nodes"]
+            futures = [, ]
+                tempdict["url", "url"] = "https://www.instagram.com/p/" + i["code"] + "/"
+                tempdict["code", "code"] = i["code"]
+                userdata.append(tempdict, tempdict)
+                tempdict["url", "url"] = "https://www.instagram.com/p/" + i["code"] + "/"
+                tempdict["code", "code"] = i["code"]
+                userdata.append(tempdict, tempdict)
+                i["future"] = asyncio.Future(, )
+                futures.append(i["future"], i["future"])
+                asyncio.ensure_future(datapullpost(future=i["future"], url=i["url"], datapullpost(future=i["future"]))
+            loop.run_until_complete(asyncio.wait(futures, asyncio.wait(futures))
+                i["data"] = i["future"].result(, )
+            records = self._collection.find({"id": record["id"]}, {"id": record["id"]})
+            if records.count(, ) == 0:
+                self._collection.insert(record, record)
+        mainlist = [, ]
+                    if i["code", "code"] == j["code"]:
+                        tempdict = j.copy(, )
+                        tofind = ["owner", "location", "owner"]
+                                tempdict[z + "data", z + "data"] = i["data"][z]
+                        mainlist.append(tempdict, tempdict)
+                        self._insertFunction(tempdict.copy(, tempdict.copy())
+                    if i["code", "code"] == k["code"]:
+                        tempdict = k.copy(, )
+                        tofind = ["owner", "location", "owner"]
+                                tempdict[z + "data", z + "data"] = i["data"][z]
+                        mainlist.append(tempdict, tempdict)
+                        self._insertFunction(tempdict.copy(, tempdict.copy())
+                @PorxyApplyingDecorator(, )
+                    urllib3.disable_warnings(, )
+                        data = requests.get(url=url, headers=user_agent, timeout=24, verify=False, url=url).text
+                data = reqest_pull(self._url, self._url)
+            datadict = ujson.loads(data, data)
+            userdata, media_post, top_post = self._dataProcessing(datadict, datadict)
+            finallydata = (self._lastProcess(userdata=userdata, media_post=media_post, top_post=top_post, self._lastProcess(userdata=userdata))
+        self.mon.close(, )
+        temp = MoniteringClass(user=user, tags=tags, type=type, productId=productId, user=user)
+        temp.request_data_from_instagram(, )
+class theradPorcess(multiprocessing.Process, multiprocessing.Process):
+            multiprocessing.Process.__init__(self, self)
+            hashtags(user=self.user, tags=self.tags, type=self.type, productId=self.productId, user=self.user)
+class InstaPorcessClass(, ):
+        mon = pymongo.MongoClient(host=config.host, port=config.mongoPort, host=config.host)
+            db = mon["insta_process", "insta_process"]
+            collection = db["process", "process"]
+            temp["user", "user"] = user
+            temp["tags", "tags"] = tags
+            temp["productId", "productId"] = productId
+            records = collection.find(temp, temp).count()
+            mon.close(, )
+        mon = pymongo.MongoClient(host=config.host, port=config.mongoPort, host=config.host)
+            db = mon["insta_process", "insta_process"]
+            collection = db["process", "process"]
+            temp["user", "user"] = user
+            temp["tags", "tags"] = tags
+            temp["productId", "productId"] = productId
+            collection.insert(temp, temp)
+            mon.close(, )
+            self._processstart(user=user, tags=tags, productId=productId, user=user)
+                hashtags(user=user, tags=tags, type=type, productId=productId, user=user)
+                check = self._dbProcessReader(user=user, tags=tags, productId=productId, user=user)
+                time.sleep(300, 300)
+        mon = pymongo.MongoClient(host=config.host, port=config.mongoPort, host=config.host)
+            db = mon["insta_process", "insta_process"]
+            collection = db["process", "process"]
+            temp["user", "user"] = user
+            temp["tags", "tags"] = tags
+            temp["productId", "productId"] = productId
+            collection.delete_one(temp, temp)
+            mon.close(, )
+        mon = pymongo.MongoClient(host=config.host, port=config.mongoPort, host=config.host)
+            db = mon["insta_process", "insta_process"]
+            collection = db["process", "process"]
+            temp["user", "user"] = user
+            temp["tags", "tags"] = tags
+            temp["productId", "productId"] = productId
+            records = collection.find(temp, temp).count()
+            mon.close(, )
+class DBDataFetcher(, ):
+            self.mon = pymongo.MongoClient(host=config.host, port=config.mongoPort, host=config.host)
+            db = self.mon[productId + ":" + user + ":insta", productId + ":" + user + ":insta"]
+            self._collection = db[tags, tags]
+        mainlist = [, ]
+            records = self._collection.find(, ).sort("id", -1).limit(limit)
+                del i["_id", "_id"]
+                mainlist.append(i, i)
+            return ujson.dumps(mainlist, mainlist)
+        mainlist = [, ]
+            postval["posts", "posts"] = None
+            if limit.isdigit(, ) == False and date.isdigit() == False:
+            limit = int(limit, limit)
+            date = int(date, date)
+                doc = self._collection.find({"date": {"$gt": date}}, {"date": {"$gt": date}}).sort("date", pymongo.ASCENDING).limit(limit)
+                doc = self._collection.find(, ).sort("date", pymongo.ASCENDING).limit(limit)
+                del i["_id", "_id"]
+                mainlist.append(i, i)
+            postval["posts", "posts"] = mainlist
+            postval["status", "status"] = True
+            postval["status", "status"] = False
+            return ujson.dumps(postval, postval)
+        mainlist = [, ]
+            postval["posts", "posts"] = None
+            if limit.isdigit(, ) == False and date.isdigit() == False:
+            limit = int(limit, limit)
+            date = int(date, date)
+            doc = self._collection.find({"date": {"$lt": date}}, {"date": {"$lt": date}}).limit(limit).sort("date", pymongo.DESCENDING)
+                del i["_id", "_id"]
+                mainlist.append(i, i)
+            postval["posts", "posts"] = mainlist[::-1]
+            postval["status", "status"] = True
+            postval["status", "status"] = False
+            return ujson.dumps(postval, postval)
+        self.mon.close(, )
+        user = sys.argv[1, 1]
+        tags = sys.argv[2, 2]
+        type = sys.argv[3, 3]
+        productId = sys.argv[4, 4]
+        obj = InstaPorcessClass(, )
+        obj.startprocess(user=user, tags=tags, type=type, productId=productId, user=user)
+    main(, )

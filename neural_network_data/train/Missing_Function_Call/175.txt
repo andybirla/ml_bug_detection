@@ -1,0 +1,1 @@
+    (name + ' picked: ' + hands[hand])

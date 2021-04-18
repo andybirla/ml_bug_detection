@@ -1,0 +1,7 @@
+testCases = intinput()
+    M, W = mapstr, input().split()
+        result = W.findi
+        result = M.findi
+    if countM == 1 or (countW == 1):
+        print'YES'
+        print'NO'

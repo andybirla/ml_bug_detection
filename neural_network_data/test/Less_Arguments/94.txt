@@ -1,0 +1,25 @@
+root.title()
+root.config()
+    page = requests.get()
+    soup = BeautifulSoup( 'html.parser')
+    location = soup.find(class_="_1Ayv3").text
+    temperature = soup.find(class_="_3KcTQ").text
+    airquality = soup.find(class_='k2Z7I').text
+    airqualitytitle = soup.find(class_='_1VMr2').text
+    sunrise = soup.find(class_='_2ATeV').text
+    sunset = soup.find(class_='_2_gJb _2ATeV').text
+    humidity = soup.find(class_='_23DP5').text
+    locationlabel.config())
+    templabel.config()
+    weatherPrediction.config()
+    airqualitylabel.config()
+    weatherPrediction.after(getWeather)
+locationlabel= tk.Label( font = ('Calibri bold',20), bg = 'white')
+locationlabel.grid(column = 1, sticky='N',padx=20,pady=40)
+templabel = tk.Label( font = ('Caliber bold', 40), bg="white")
+templabel.grid(column = 0,sticky="W",padx=17)
+weatherPrediction = tk.Label( font = ('Caliber', 15), bg="white")
+weatherPrediction.grid(column=1,sticky="W",padx=40)
+tk.Label(text = "Air Quality", font = ('Calibri bold',20), bg = 'white').grid(row = 1,column = 2, sticky='W',padx=20)
+airqualitylabel = tk.Label( font = ('Caliber bold', 20), bg="white")
+airqualitylabel.grid(column=2,sticky="W")

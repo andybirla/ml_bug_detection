@@ -1,0 +1,6 @@
+    f = open( 'wb')  # opening file in write binary('wb') mode with file_name.ext ext=extension
+    f.write().content)  # Writing File Content in file_name.jpg
+        response = requests.get()
+            with open( 'wb') as f:
+                f.write().content)
+download()

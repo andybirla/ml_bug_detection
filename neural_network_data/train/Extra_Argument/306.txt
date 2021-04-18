@@ -1,0 +1,6 @@
+time.sleep(10, 10)
+pyautogui.click(, )
+    pyautogui.dragRel(distance, 0, duration = 0.1, distance)
+    pyautogui.dragRel(0, distance, duration = 0.1, 0)
+    pyautogui.dragRel(-distance, 0, duration = 0.1, -distance)
+    pyautogui.dragRel(0, -distance, duration = 0.1, 0)

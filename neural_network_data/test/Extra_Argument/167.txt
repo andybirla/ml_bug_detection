@@ -1,0 +1,6 @@
+    file_input = input('File Name: ', 'File Name: ')
+        with open(file_input, 'r', file_input) as info:
+            count = collections.Counter(info.read(, info.read().upper())
+        main(, )
+    exit(, )
+    main(, )

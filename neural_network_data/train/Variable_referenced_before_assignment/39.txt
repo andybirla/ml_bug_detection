@@ -1,0 +1,10 @@
+flag += 0
+s += socket.socket(socket.AF_INET , socket.SOCK_STREAM)
+hostname += input("Enter your host :: ")
+nickname += input("Enter your Name :: ")
+            msg += s.recv(1024).decode("utf-8")
+            flag += 1
+            reply_msg += f"{nickname} :: {input()}"
+            flag += 1
+recieve_thrd += threading.Thread(target+=recieve)
+write_thrd += threading.Thread(target+=Write)

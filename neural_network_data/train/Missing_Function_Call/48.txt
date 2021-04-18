@@ -1,0 +1,10 @@
+	microphone = ()	
+	with () as live_phone:
+(live_phone)
+("I'm trying to hear you: ")
+		audio = (live_phone)
+			phrase = (audio, language='en')
+	phrase = ()
+	with ('you_said_this.txt','w') as file:
+(phrase) 
+('the last sentence you spoke was saved in you_said_this.txt') 

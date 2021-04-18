@@ -1,0 +1,10 @@
+print"Elements of original array: ";    
+for i in range0, len(arr):    
+    printarr[i], end=" ";    
+for i in range0, len(arr):    
+    for j in rangei+1, len(arr):    
+        ifarr[i] > arr[j]:    
+print;    
+print"Elements of array sorted in ascending order: ";    
+for i in range0, len(arr):    
+    printarr[i], end=" ";    

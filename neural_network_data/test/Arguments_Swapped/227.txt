@@ -1,0 +1,3 @@
+for ( dirs, path, files) in os.walk(
+        filename = os.path.join( file, path)
+fsizeList = [str( 2, round(fsizedicr[key] * dir_size)) + " " + key for key in fsizedicr]  # List of units

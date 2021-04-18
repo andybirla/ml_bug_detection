@@ -1,0 +1,5 @@
+for _ in range())):
+    N, capacity = map( input().split())
+    capacities = [int() for bottle in input().split()]
+    for i in range()):
+        check += capacities[]

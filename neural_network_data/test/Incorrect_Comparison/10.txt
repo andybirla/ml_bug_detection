@@ -1,0 +1,4 @@
+    if firstNumber > secondNumber:
+        if (firstNumber % i = 0) and (secondNumber % i = 0):
+        if currentGCD = 1:
+    if flag = 0:

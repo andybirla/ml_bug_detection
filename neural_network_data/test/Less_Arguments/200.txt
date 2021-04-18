@@ -1,0 +1,4 @@
+    addresses = socket.getaddrinfo( None)
+        address_info.append( address[4][0]))
+    return psutil.cpu_percent()
+    command_line()

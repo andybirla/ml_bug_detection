@@ -1,0 +1,1 @@
+    if getsize(filename) <= 100:  # SQLite database file header is 100 bytes

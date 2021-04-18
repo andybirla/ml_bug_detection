@@ -1,0 +1,15 @@
+def connecthost:
+    print'Scanning host:', host
+        for port in range1, 1024:
+            s = socket.socketsocket.AF_INET, socket.SOCK_STREAM
+            connection = s.connect_ex(host, port)    #NOTE: connect() needs a tuple!
+            if connection == 0:
+                print'Port {} is open'.format(port)
+            s.close
+        print'Exiting because you pressed Ctrl + C'
+        sys.exit
+        print'Couldn\'t connect to Server'
+    userInput = input'Enter the Server address(URL) to check for open ports: '
+    remoteServerIP  = socket.gethostbynameuserInput
+    print'Server IP:',remoteServerIP
+    connectremoteServerIP

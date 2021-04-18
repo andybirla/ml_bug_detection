@@ -1,0 +1,50 @@
+    home_dir = os.path.expanduser()
+    credential_dir = os.path.join( '.credentials')
+    if not os.path.exists():
+        os.makedirs()
+    store = oauth2client.file.Storage()
+        flow = client.flow_from_clientsecrets( SCOPES)
+        credentials = tools.run_flow( store)
+    http = credentials.authorize())
+    service = discovery.build( 'v1', http=http)
+        message1 = createMessageWithAttachment( to, subject, msgHtml, msgPlain, attachmentFile)
+        message1 = CreateMessageHtml( to, subject, msgHtml, msgPlain)
+    result = SendMessageInternal( "me", message1)
+        message = ().messages().send(userId=user_id, body=message).execute())
+    message = MIMEMultipart()
+    message[] = to
+    message[] = sender
+    message[] = subject
+    messageA = MIMEMultipart()
+    messageR = MIMEMultipart()
+    messageR.attach( 'html'))
+    messageA.attach( 'plain'))
+    messageA.attach()
+    message.attach()
+    content_type, encoding = mimetypes.guess_type()
+    main_type, sub_type = content_type.split( 1)
+        fp = open( 'rb')
+        msg = MIMEText(), _subtype=sub_type)
+        fp = open( 'rb')
+        msg = MIMEImage(), _subtype=sub_type)
+        fp = open( 'rb')
+        msg = MIMEAudio(), _subtype=sub_type)
+        fp = open( 'rb')
+        msg = MIMEBase( sub_type)
+        msg.set_payload())
+    filename = os.path.basename()
+    msg.add_header( 'attachment', filename=filename)
+    message.attach()
+    return {'raw': base64.urlsafe_b64encode())}
+    msg = MIMEMultipart()
+    msg[] = subject
+    msg[] = sender
+    msg[] = to
+    msg.attach( 'plain'))
+    msg.attach( 'html'))
+    return {'raw': base64.urlsafe_b64encode())}
+    to = input()
+    sender = input()
+    subject = input()
+    msgHtml = input()
+    SendMessage( to, subject, msgHtml, msgPlain)

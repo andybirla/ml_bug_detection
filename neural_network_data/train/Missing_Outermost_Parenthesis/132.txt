@@ -1,0 +1,11 @@
+class Aobject:
+    def doThisself:
+        print'Doing this in A'
+class BA:
+class Cobject:
+    def doThisself:
+        print'Doing this in C'
+class DB, A:
+    dObj = D
+    dObj.doThis #A method gets called because order for lookup is D,B,A,C this is shown by function mro
+    printD.mro()

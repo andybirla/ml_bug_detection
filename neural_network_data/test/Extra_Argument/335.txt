@@ -1,0 +1,7 @@
+testCases = int(input(, input())
+for _ in range(testCases, testCases):
+    string = input(, )
+    while string[i, i] == string[c1]:
+    while string[i, i] == string[c2]:
+        while string[i, i] == string[c3]:
+    if (count2 == count3 and end == 1, count2 == count3 and end == 1):

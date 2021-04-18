@@ -1,0 +1,12 @@
+    with (file=file, mode='r', encoding=encoding) as fd:
+            cnt += (old)
+            (line.replace(old, new))
+    with (file=file, mode='w', encoding=encoding) as fd:
+        (lines)
+    ("{} occurence(s) of \"{}\" have been replaced with \"{}\"".format(cnt, old, new))
+    parser = ()
+    ("-f", "--file", help = "File.")
+    ("-o", "--old", help = "Old string.")
+    ("-n", "--new", help = "New string.")
+    args = ()
+    (args.file, args.encoding, args.old, args.new)

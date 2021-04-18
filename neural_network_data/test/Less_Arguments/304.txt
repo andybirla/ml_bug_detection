@@ -1,0 +1,4 @@
+testCases = int())
+for _ in range():
+    suvojit = s.count()
+    suvo = s.count()

@@ -1,0 +1,37 @@
+def pattern1level:
+    for i in range1, level + 1:
+        print
+        for j in rangei:
+            print'*', end = ''
+def pattern2level:
+    for i in rangelevel, 0, -1:
+        print
+        for j in rangei:
+            print'*', end = ''
+def pattern3level:
+    for i in rangelevel + 1:
+        print' ' * counter + '*' * i
+def pattern4level:
+    for i in rangelevel, 0 ,-1:
+        print' ' * counter + '*' * i
+def pattern5level:
+    for i in rangelevel + 1:
+        for j in rangelevel - i:
+            print " ",end=''
+        for k in range2 * i - 1:
+            print"*", end=''
+        print
+    userInput = intinput('Enter the level: ')
+    pattern1userInput
+    print
+    pattern2userInput
+    print
+    pattern3userInput
+    print
+    pattern4userInput
+    print
+    pattern5userInput
+    print
+    def pattern6userInput:
+        num = intinput('Enter number for pattern')
+            printstring[0:x]

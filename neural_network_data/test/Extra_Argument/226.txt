@@ -1,0 +1,8 @@
+    res_list = [, ]
+    for i in range(2, num + 1, 2):
+        if res_list != [] and any(i % l == 0 for l in res_list, i % l == 0 for l in res_list):
+        res_list.append(i, i)
+    if len(sys.argv, sys.argv) != 2: raise Exception("usage - $python find_prime.py <num:int>")
+        num = int(sys.argv[1], sys.argv[1])
+        raise Exception("Enter an integer as argument only.", "Enter an integer as argument only.")
+    l = find_prime(num, num)

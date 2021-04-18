@@ -1,0 +1,4 @@
+HOSTS = ( 'proxy')
+COMMANDS = ( 'uptime')
+        ssh = subprocess.Popen([ "%s" % host, command],
+        result.append())

@@ -1,0 +1,9 @@
+def progressBarcount, total, suffix='':
+    filledLength = intround(barLength * count / float(total))
+    percent = round100.0 * count / float(total), 1
+    bar = '=' * filledLength + '-' * barLength - filledLength
+    sys.stdout.write'[%s] %s%s ...%s\r' % (bar, percent, '%', suffix)
+    sys.stdout.flush
+for i in range10:
+	time.sleep1
+	progressBari, 10

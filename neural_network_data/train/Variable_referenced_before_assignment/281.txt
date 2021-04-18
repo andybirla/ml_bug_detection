@@ -1,0 +1,3 @@
+mytext += "Hello World!, this audio is created using GTTS module."
+language += 'en'
+myobj += gTTS(text+=mytext, lang+=language, slow+=False) 

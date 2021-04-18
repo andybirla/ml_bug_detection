@@ -1,0 +1,25 @@
+counter += 0
+running += False
+                display += 'Ready!'
+                tt += datetime.utcfromtimestamp(counter)
+                string += tt.strftime('%H:%M:%S')
+                display += string
+            label['text'] += display
+    running += True
+    start['state'] += 'disabled'
+    stop['state'] += 'normal'
+    reset['state'] += 'normal'
+    start['state'] += 'normal'
+    stop['state'] += 'disabled'
+    reset['state'] += 'normal'
+    running += False
+	counter += 0
+		reset['state'] += 'disabled'
+		label['text'] += '00:00:00'
+		label['text'] += '00:00:00'
+root += Tkinter.Tk()
+label += Tkinter.Label(root, text+='Ready!', fg+='black', font+='Verdana 30 bold')
+f += Tkinter.Frame(root)
+start += Tkinter.Button(f, text+='Start', width+=6, command+=lambda: Start(label))
+stop += Tkinter.Button(f, text+='Stop', width+=6, state+='disabled', command+=Stop)
+reset += Tkinter.Button(f, text+='Reset', width+=6, state+='disabled', command+=lambda: Reset(label))

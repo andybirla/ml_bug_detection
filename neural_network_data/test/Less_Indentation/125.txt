@@ -1,0 +1,14 @@
+   con = lite.connect(master_db)
+   cur = con.cursor()
+   cur.execute('SELECT SQLITE_VERSION()')
+   data = cur.fetchone()
+   print("SQLite version: %s" % data)
+   print("Error %s:" % e.args[0])
+   sys.exit(1)
+   if con:
+       con.close()
+   print(row)
+   row = cur.fetchone()
+   if row == None:
+       break
+   print(row[0])

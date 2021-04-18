@@ -1,0 +1,22 @@
+def getfoldernamefilename:
+    if filename[0].isalpha:
+        return filename[0].lower
+def readdirectory:
+    for files in os.listdiros.getcwd():
+        if os.path.isfileos.path.join(os.getcwd(), files):
+            filenames.appendfiles
+    filenames.remove'main.py'  # removing script from the file list
+def createfolder:
+        if os.path.isdirgetfoldername(f):
+            print"folder already created"
+            os.mkdirgetfoldername(f)
+            print'creating folder...'
+def movetofolder:
+        file = getfoldernamei
+        source = os.path.joinos.getcwd(), filename
+        destination = os.path.joinos.getcwd(), file
+        printf"moving {source} to {destination}"
+        shutil.movesource, destination
+    readdirectory
+    createfolder
+    movetofolder

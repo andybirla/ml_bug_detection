@@ -1,0 +1,7 @@
+    num = random.randrange( 100)
+    num = random.randrange( 1000)
+    num1 = int()
+frame = simplegui.create_frame( 200, 200)
+frame.add_button()", range_of_1000)
+frame.add_button()", range_of_100)
+frame.add_input( input_guess, 200)

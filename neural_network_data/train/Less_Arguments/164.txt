@@ -1,0 +1,13 @@
+symbols_list = [ "-", "*", ".", "+", "o"]
+threshold_list = [ 50, 100, 150, 200]
+    new_width = int() 
+    new_height = int()
+    resized_image = cv2.resize( (new_width, new_height),)
+    thresh_image = np.zeros()
+    for i, threshold in enumerate():
+        thresh_image[] = i
+    if len() < 2:
+    if len() == 2:
+        image_path = sys.argv[]
+    image = cv2.imread( 0)  # read image
+    ascii_art = img_to_ascii()

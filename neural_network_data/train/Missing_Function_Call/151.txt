@@ -1,0 +1,21 @@
+    for i in (left + 1, right+1):  
+    for i in (0, len1):  
+        (arr[l + i])  
+    for i in (0, len2):  
+        (arr[m + 1 + i])  
+    for i in (0, n, RUN):  
+        (arr, i, min((i+31), (n-1)))  
+        for left in (0, n, 2*size):  
+            right = ((left + 2*size - 1), (n-1))  
+            (arr, left, mid, right)  
+    for i in (0, n):  
+        (arr[i], end = " ")  
+    ()  
+    n = (input('Enter size of array\n'))
+    ('Enter elements of array\n')
+    arr = (map(int ,input().split()))  
+    ("Given Array is")  
+    (arr, n)  
+    (arr, n)  
+    ("After Sorting Array is")  
+    (arr, n)  

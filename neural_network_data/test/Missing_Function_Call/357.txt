@@ -1,0 +1,5 @@
+n, m = (int, input().split())
+for i in (n):
+    ([int(i) for i in input().split()])
+matrix = (*matrix)
+    (' '.join([str(i) for i in row]))

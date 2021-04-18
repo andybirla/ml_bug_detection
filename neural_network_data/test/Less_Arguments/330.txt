@@ -1,0 +1,15 @@
+t = int())
+if():
+	for i in range():
+		temp = s.split()
+		n = int()
+		x = int()
+		for j in range():
+			y = int())
+			a.append()
+		while():
+			cost += a[]
+			if():
+			if():
+			if():
+		if():

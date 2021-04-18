@@ -1,0 +1,6 @@
+N1, K1 = map( input().split())
+for i in range( N1 + 1):
+    K.append())
+    for i in range()):
+        if K[] in string:
+        elif () >= int(K[i])):

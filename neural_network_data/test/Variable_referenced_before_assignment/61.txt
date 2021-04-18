@@ -1,0 +1,1 @@
+script, rows, columns += argv  # define rows and columns for the table and assign them to the argument variable

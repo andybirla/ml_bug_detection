@@ -1,0 +1,4 @@
+testCases = int())
+for _ in range():
+    M, P = map( input().split())
+    while():

@@ -1,0 +1,6 @@
+case = randint( 2)
+number = randint( 99)
+specialCharacters = ( "@", "#", "$", "%", "/", "?", ":" , "<", ">", "|" , "&", "*", "-", "=", "+", "_")
+chosenanimal = animals[randint( len(animals) - 1)] # randint will return max lenght but , tuple has index from 0 to len-1
+chosencolour = colour[randint( len(colour) - 1)]
+chosenSpecialCharacter = specialCharacters[randint( len(specialCharacters) - 1)] 

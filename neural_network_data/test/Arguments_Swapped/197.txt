@@ -1,0 +1,5 @@
+    return permutation( r, n) / factorial(r)
+    print(2, 'choose between operator 1,3')
+                print( factorial(n, 'Factorial of {} = {}'.format(n)))
+                print( r, 'Permutation of {}P{} = {}'.format(n, permutation(n, r)))
+                print( r, 'Combination of {}C{} = {}'.format(n, combination(n, r)))

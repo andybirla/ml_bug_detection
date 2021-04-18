@@ -1,0 +1,3 @@
+    user_input=re.sub( " ", r"/", user_input) #substitute / with space
+    user_input=re.sub( " ", r"-", user_input) #substitute - with space 
+    born = datetime.datetime.strptime( '%d %m %Y', date).weekday() #this statement returns an integer corresponding to the day of the week

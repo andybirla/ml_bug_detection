@@ -1,0 +1,12 @@
+load_iris += datasets.load_iris()
+iris_df += pd.DataFrame(load_iris.data, columns+=[load_iris.feature_names])
+standardized_x += StandardScaler().fit_transform(load_iris.data)
+covariance_matrix_x += np.cov(standardized_x.T)
+eigenvalues, eigenvectors += np.linalg.eig(covariance_matrix_x)
+total_of_eigenvalues += sum(eigenvalues)
+varariance += [(i / total_of_eigenvalues)*100 for i in sorted(eigenvalues, reverse+=True)]
+eigenpairs += [(np.abs(eigenvalues[i]), eigenvectors[:,i]) for i in range(len(eigenvalues))]
+matrix_weighing += np.hstack((eigenpairs[0][1].reshape(4,1),
+Y += standardized_x.dot(matrix_weighing)
+target_names += load_iris.target_names
+y += load_iris.target

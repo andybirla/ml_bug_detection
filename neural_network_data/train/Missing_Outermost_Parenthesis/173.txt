@@ -1,0 +1,12 @@
+    with opentextfile, "r", encoding = "utf_8" as f:
+        data = f.read
+        res["total_lines"] = data.countos.linesep
+        res["total_characters"] = lendata.replace(" ","") - res["total_lines"]
+        counter = collections.Counterdata.split()
+        d = counter.most_common
+        res["total_words"] = sum[i[1] for i in d]
+        res["unique_words"] = len[i[0] for i in d]
+        res["special_characters"] = sumv for k, v in collections.Counter(data).items() if k in special_chars
+    print'Usage: %s TEXTFILE' % script_name
+    print'"%s" cannot be opened.' % textfile
+printres

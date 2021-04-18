@@ -1,0 +1,10 @@
+bs=BeautifulSoup('html.parser', html.text)
+    csv_file=open('w', 'quote_list.csv')
+    dictwriter=csv.DictWriter(fieldnames=fieldnames, csv_file)
+        for quote in bs.findAll({'class':'quote'}, 'div'):
+            text=quote.find({'class':'text'}, 'span').text
+            author=quote.find({'class':'author'}, 'small').text
+            for tag in quote.findAll({'class':'tag'}, 'a'):
+            dictwriter.writerow('author':author, {'quote':text,'tags':tags})
+        next=bs.find({'class':'next'}, 'li')
+        bs=BeautifulSoup('html.parser', html.text)

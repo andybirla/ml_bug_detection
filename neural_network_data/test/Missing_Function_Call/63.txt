@@ -1,0 +1,5 @@
+    cap_word = ()                         #convert the word to uppercase
+        for key in ():
+    if (return_val) < 4:
+        for x in (len(return_val), 4):
+(soundex_al("Danus"))

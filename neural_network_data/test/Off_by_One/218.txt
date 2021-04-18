@@ -1,0 +1,2 @@
+    if length_A >= length_B:
+    elif length_A <= length_B:

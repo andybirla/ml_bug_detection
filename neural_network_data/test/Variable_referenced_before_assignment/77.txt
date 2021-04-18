@@ -1,0 +1,10 @@
+    failure += [0]
+    i += 0
+            i += 0
+    i, j += 0, 0  # index into text, pattern
+            j += failure[j] - 1
+    pattern += "abc1abc12"
+    text1 += "alskfjaldsabc1abc1abc12k23adsfabcabc"
+    text2 += "alskfjaldsk23adsfabcabc"
+    pattern += "ABABX"
+    text += "ABABZABABYABABX"

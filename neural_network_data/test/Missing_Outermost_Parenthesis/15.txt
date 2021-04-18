@@ -1,0 +1,4 @@
+testCases = intinput()
+    string = input
+        print'Good'
+        print'Bad'

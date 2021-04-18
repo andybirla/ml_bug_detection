@@ -1,0 +1,13 @@
+def print_out_asciiarray:
+    new_width = intwidth / 20 
+    new_height = intheight / 40
+    resized_image = cv2.resizeimage, (new_width, new_height),
+    thresh_image = np.zerosresized_image.shape
+    for i, threshold in enumeratethreshold_list:
+    if lensys.argv < 2:
+        print"Image Path not specified : Using sample_image.png\n"
+    if lensys.argv == 2:
+        print"Using {} as Image Path\n".format(sys.argv[1])
+    image = cv2.imreadimage_path, 0  # read image
+    ascii_art = img_to_asciiimage
+    print_out_asciiascii_art

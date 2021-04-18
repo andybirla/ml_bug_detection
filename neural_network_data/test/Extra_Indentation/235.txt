@@ -1,0 +1,12 @@
+     return ("{} {} {} {} {} {}"
+             .format(article[random_int()]
+                     , noun[random_int()]
+                     , verb[random_int()]
+                     , preposition[random_int()]
+                     , article[random_int()]
+                     , noun[random_int()])).capitalize()
+ for sentence in list(map(lambda x: random_sentence(), range(0, 20))):
+     print(sentence)
+ print("\n")
+ story = (". ").join(list(map(lambda x: random_sentence(), range(0, 20))))
+ print("{}".format(story))

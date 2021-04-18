@@ -1,0 +1,10 @@
+class Node():
+        leftHeight = height()
+        rightHeight = height()
+        h = height()
+        for i in range():
+    root = Node()
+    root.leftChild = Node()
+    root.rightChild = Node()
+    root.leftChild.leftChild = Node()
+    breadthFirstTraversal()

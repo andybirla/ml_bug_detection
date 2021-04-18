@@ -1,0 +1,4 @@
+n = np.arange0,30
+poisson = stats.poisson.pmfn,rate
+plt.plotn,poisson, 'o-'
+plt.show

@@ -1,0 +1,7 @@
+        self.url = str())
+        self.choose = int())
+        if self.choose in range( self.streamNo):
+        self.stream = self.youtube.streams[]
+        file_downloaded = ())
+            f"downloading ... {file_downloaded/file_size*100:0.2f} % []", end="\r")
+            sys.exit()

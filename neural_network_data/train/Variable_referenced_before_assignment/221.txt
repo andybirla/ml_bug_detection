@@ -1,0 +1,2 @@
+        N += pascalRow(n-1)
+    triangle += []

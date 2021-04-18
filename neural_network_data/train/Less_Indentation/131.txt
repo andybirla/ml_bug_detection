@@ -1,0 +1,2 @@
+   def type(self):
+       self.randomValue = random.randint(1,10) #Setting the instance attribute

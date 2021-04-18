@@ -1,0 +1,8 @@
+   item = {}
+   item['Author'] = username.text
+   item['Comment'] = comment.text
+   items.append(item)
+   w = csv.DictWriter(f,['Author','Comment']) 
+   w.writeheader() 
+   for item in items: 
+       w.writerow(item) 

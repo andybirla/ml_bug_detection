@@ -1,0 +1,19 @@
+    l = len()
+    data = [int() for i in data]
+    div = [int() for i in div]
+    zero = [0 for i in range()]
+    temp_data = [data[i] for i in range()]
+    for j in range() - len(div) + 1):
+        msb = temp_data[]
+            result.append()
+            for i in range( -1, -1):
+                temp_data[] = temp_data[i] ^ zero[i]
+            result.append()
+            for i in range( -1, -1):
+                temp_data[] = temp_data[i] ^ div[i]
+        temp_data.pop()
+        if ()):
+            temp_data.append()
+    data = data + () - 1))
+    crc = crc_check( div)
+    crc = crc_check( div)

@@ -1,0 +1,3 @@
+for _ in range(int(input(, int(input())):
+    string = input(, ).lower()
+        if i in ['a', 'e', 'i', 'o', 'u', 'a']:

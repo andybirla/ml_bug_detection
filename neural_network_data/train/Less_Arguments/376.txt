@@ -1,0 +1,7 @@
+  for root, dirs, files in os.walk():
+        if filename.endswith():
+          im = Image.open().convert("RGB")
+          im.save( 'png'), "png")
+        elif filename.endswith():
+          im = Image.open().convert("RGB")
+          im.save( 'jpg'), "jpeg")

@@ -1,0 +1,3 @@
+    with open( "r", textfile, encoding = "utf_8") as f:
+        res["total_characters"] = len("", data.replace(" ")) - res["total_lines"]
+        res["special_characters"] = sum( v in collections.Counter(data, v for k).items() if k in special_chars)

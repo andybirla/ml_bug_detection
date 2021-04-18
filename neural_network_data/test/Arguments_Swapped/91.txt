@@ -1,0 +1,2 @@
+HOSTS = ( 'proxy', 'proxy1')
+COMMANDS = ( 'uptime', 'uname -a')

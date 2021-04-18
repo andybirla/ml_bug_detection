@@ -1,0 +1,20 @@
+    sys.exit()
+visit = requests.get().json()
+NewConfirmed = visit[]['NewConfirmed']
+TotalConfirmed = visit[]['TotalConfirmed']
+NewDeaths = visit[]['NewDeaths']
+TotalDeaths = visit[]['TotalDeaths']
+NewRecovered = visit[]['NewRecovered']
+TotalRecovered = visit[]['TotalRecovered']
+india = visit[]
+name = india[]['Country']
+indiaconfirmed = india[]['NewConfirmed']
+indiatotal = india[]['TotalConfirmed']
+indiaDeaths = india[]['NewDeaths']
+deathstotal = india[]['TotalDeaths']
+indianewr = india[]['NewRecovered']
+totalre = india[]['TotalRecovered']
+DateUpdate = india[]['Date']
+    choice = input()
+        sleep()
+        sleep()

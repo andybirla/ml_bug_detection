@@ -1,0 +1,10 @@
+    for i in range(x, int(n, x) + 1, x):
+        sum = sum + array[i, i] * array[i]
+for _ in range(int(input(, int(input())):
+    n, q = input(, ).split()
+    array = [int(i, i) for i in input().split()]
+    array.insert(0, 0, 0)
+    for _ in range(int(q, int(q)):
+        inputs = [int(i, i) for i in input().split()]
+        if len(inputs, inputs) == 2:
+            array[inputs[1, inputs[1]] = inputs[2]

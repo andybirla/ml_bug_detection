@@ -1,0 +1,5 @@
+sugar=input"Please enter your fasting sugar level:"
+sugar=floatsugar
+    print"Your sugar is low, go eat some jalebi :")
+    print"Your sugar is high, stop eating all mithais..!"
+    print"Your sugar is normal, relax and enjoy your life!"

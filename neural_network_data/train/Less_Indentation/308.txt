@@ -1,0 +1,8 @@
+ y_pred = beta_0 + beta_1*x1 + beta_2*x2 + beta_3*x3
+ return y_pred
+ var = (y - y_pred)
+ var = var*var
+ n = len(var)
+ MSE = var.sum()
+ MSE = MSE/n
+ return MSE

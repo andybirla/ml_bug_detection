@@ -1,0 +1,40 @@
+ import numpy as np
+ input_features = np.array([[0,0],[0,1],[1,0],[1,1]])
+ print (input_features.shape)
+ print (input_features)
+ target_output = np.array([[0,1,1,1]])
+ target_output = target_output.reshape(4,1)
+ print(target_output.shape)
+ print (target_output)
+ weights = np.array([[0.1],[0.2]])
+ print(weights.shape)
+ print (weights)
+ lr = 0.05
+ def sigmoid(x):
+   return 1/(1+np.exp(-x))
+ def sigmoid_der(x):
+   return sigmoid(x)*(1-sigmoid(x))
+ for epoch in range(10000):
+   inputs = input_features
+   pred_in = np.dot(inputs, weights)
+   pred_out = sigmoid(pred_in)
+   error = pred_out - target_output
+   x = error.sum()
+   print(x)
+   dcost_dpred = error
+   dpred_dz = sigmoid_der(pred_out)
+   z_delta = dcost_dpred * dpred_dz#Multiplying with the 3rd individual derivative:
+   inputs = input_features.T
+   weights -= lr * np.dot(inputs, z_delta)
+ single_point = np.array([1,0])
+ result1 = np.dot(single_point, weights)
+ result2 = sigmoid(result1)
+ print(result2)
+ single_point = np.array([0,0])
+ result1 = np.dot(single_point, weights)
+ result2 = sigmoid(result1)
+ print(result2)
+ single_point = np.array([1,1])
+ result1 = np.dot(single_point, weights)
+ result2 = sigmoid(result1)
+ print(result2)

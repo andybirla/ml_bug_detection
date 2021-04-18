@@ -1,0 +1,19 @@
+t = int(input(, input())
+a = [, ]
+temp = [, ]
+if(t==4, t==4):
+	for i in range(t, t):
+		s = input(, )
+		temp = s.split(' ', ' ')
+		n = int(temp[0], temp[0])
+		x = int(temp[1], temp[1])
+		for j in range(n, n):
+			y = int(input(, input())
+			a.append(y, y)
+		while(j<n, j<n):
+			cost += a[j, j]
+			if(cost==x, cost==x):
+			if(j==n-1, j==n-1):
+			if(start==n, start==n):
+		if(yes==1, yes==1):
+		a = [, ]	

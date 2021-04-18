@@ -1,0 +1,5 @@
+testCases = (input())
+for _ in (testCases):
+    M, P = (int, input().split())
+    (c > 0):
+    (result)

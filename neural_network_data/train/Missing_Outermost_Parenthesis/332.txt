@@ -1,0 +1,63 @@
+data = pd.read_csv"lung.csv"
+data.head
+data.head
+kmf_m = KaplanMeierFitter 
+kmf_f = KaplanMeierFitter 
+Male = data.query"sex == 1"
+Female = data.query"sex == 2"
+Male.head
+Female.head
+kmf_m.fitdurations =  Male["time"],event_observed = Male["dead"] ,label="Male"
+kmf_f.fitdurations =  Female["time"],event_observed = Female["dead"], label="Female"
+kmf_m.predict11
+kmf_f.predict11
+kmf_m.plot
+kmf_f.plot
+plt.xlabel"Days Passed"
+plt.ylabel"Survival Probability"
+plt.title"KMF"
+kmf_m.plot_cumulative_density
+kmf_f.plot_cumulative_density
+plt.title"Cumulative Density"
+plt.xlabel"Number of days"
+plt.ylabel"Probability"
+naf_m = NelsonAalenFitter
+naf_f = NelsonAalenFitter
+naf_m.fitMale["time"],event_observed = Male["dead"]
+naf_f.fitFemale["time"],event_observed = Female["dead"]
+naf_m.plot_cumulative_hazardlabel="Male"
+naf_f.plot_cumulative_hazardlabel="Female"
+plt.title"Cumulative Hazard Plot"
+plt.xlabel"Number of Days"
+plt.ylabel"Cumulative Hazard"
+plt.plotmedian_time_to_event,label="Median Time left"
+plt.title"Medain time to event"
+plt.xlabel"Total days"
+plt.ylabel"Conditional median time to event"
+plt.legend
+plt.plotmedian_time_to_event,label="Median Time left"
+plt.title"Medain time to event"
+plt.xlabel"Total days"
+plt.ylabel"Conditional median time to event"
+plt.legend
+plt.plotconfidence_surv_func["Male_lower_0.95"],label="Lower"
+plt.plotconfidence_surv_func["Male_upper_0.95"],label="Upper"
+plt.title"Survival Function With Confidence Interval"
+plt.xlabel"Number of days"
+plt.ylabel"Survival Probability"
+plt.legend
+plt.plotconfidence_surv_func["Female_lower_0.95"],label="Lower"
+plt.plotconfidence_surv_func["Female_upper_0.95"],label="Upper"
+plt.title"Survival Function With Confidence Interval"
+plt.xlabel"Number of days"
+plt.ylabel"Survival Probability"
+plt.legend
+kmf_m.plot_cumulative_densitylabel="Male Density"
+naf_m.plot_cumulative_hazardlabel="Male Hazard"
+plt.xlabel"Number of Days"
+kmf_f.plot_cumulative_densitylabel="Female Density"
+naf_f.plot_cumulative_hazardlabel="Female Hazard"
+plt.xlabel"Number of Days"
+results = logrank_testTime_A, Time_B, event_observed_A=Event_A, event_observed_B=Event_B
+results.print_summary
+print"P-value :",results.p_value

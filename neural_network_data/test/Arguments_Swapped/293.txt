@@ -1,0 +1,6 @@
+    showinfo(Hasil, "Hasil Pencarian")
+label = Label(text="Wikipedia Search :", win)
+label.grid(column=0, row=0)
+entry.grid(column=0, row=1)
+button = Button(text="Search", win,command=search_wiki)
+button.grid(column=1, row=1,padx=10)

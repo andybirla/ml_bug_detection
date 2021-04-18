@@ -1,0 +1,29 @@
+data = requests.geturl.text
+data2 = json.loadsdata #brings whether request was successful,timestamp etc
+    "AUD : Australian Dollar,Australia Dollar,Christmas Island,Cocos Keeling Islands,Norfolk Island,Ashmore and Cartier Islands,Australian Antarctic Territory,Coral Sea Islands,Heard Island,McDonald Islands,Kiribati,Nauru",
+    "EUR : Euro,Euro Member Countries,Andorra,Austria,Azores,Baleares Balearic Islands,Belgium,Canary Islands,Cyprus,Finland,France,French Guiana,French Southern Territories,Germany,Greece,Guadeloupe,Holland (Netherlands),Holy See (Vatican City),Ireland (Eire),Italy,Luxembourg,Madeira Islands,Malta,Monaco,Montenegro,Netherlands",
+    "FKP : Falkland Island Pound,Falkland Islands Malvinas Pound",
+    "GBP : British Pound,United Kingdom Pound,United Kingdom UK,England,Northern Ireland,Scotland,Wales,Falkland Islands,Gibraltar,Guernsey,Isle of Man,Jersey,Saint Helena and Ascension,South Georgia and the South Sandwich Islands,Tristan da Cunha",
+    "KPW : North Korean Won,Korea North Won",
+    "KRW : South Korean Won,Korea South Won",
+    "MMK : Burmese Kyat,Myanmar Burma Kyat",
+    "MVR : Maldivian Rufiyaa,Maldives Maldive Islands Rufiyaa",
+    "NPR : Nepalese Rupee,Nepal Rupee,India unofficially near India-Nepal border",
+    "XAF : Central African CFA Franc BEAC,Communaut&#233; Financi&#232;re Africaine BEAC CFA Franc BEAC,Cameroon,Central African Republic,Chad,Congo/Brazzaville,Equatorial Guinea,Gabon",
+    "XDR : IMF Special Drawing Rights,International Monetary Fund IMF Special Drawing Rights",
+    "XOF : CFA Franc,Communaut&#233; Financi&#232;re Africaine BCEAO Franc,Benin,Burkina Faso,Ivory Coast,Guinea-Bissau,Mali,Niger,Senegal,Togo",
+    "XPF : CFP Franc,Comptoirs Fran&#231;ais du Pacifique CFP Franc,French Polynesia,New Caledonia,Wallis and Futuna Islands",
+def function1:
+    query = input        "Please specify the amount of currency to convert, from currency, to currency with space in between.\nPress SHOW to see list of currencies available. \nPress Q to quit. \n"
+        sys.exit
+        pprintcurrencies
+        function1
+        qty, fromC, toC = query.split" "
+        fromC = fromC.upper
+        toC = toC.upper
+        qty = floatround(int(qty), 2)
+        amount = roundqty * fx[toC] / fx[fromC], 2
+        printf"{qty} of currency {fromC} amounts to {amount} of currency {toC} today"
+    function1
+    print"You seem to have inputted wrongly, retry!"
+    function1

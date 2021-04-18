@@ -1,0 +1,8 @@
+def vp_start_gui:
+    w = Toplevelroot
+    top = Notepads_managmentw
+    notepad_support.initw, top, *args, **kwargs
+    return w, top
+def destroy_Notepads_managment:
+    w.destroy
+    def __init__self, top=None:

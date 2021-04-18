@@ -1,0 +1,2 @@
+myList = [i for i in range(10, 10)]
+squares = list(map(myFunc2, myList, map(myFunc2))

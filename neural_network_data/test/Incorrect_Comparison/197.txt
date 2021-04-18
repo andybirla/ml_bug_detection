@@ -1,0 +1,5 @@
+    while n <= 1:
+    if operation = '1':
+    elif operation = '2':
+    elif operation = '3':
+if __name__ = '__main__':

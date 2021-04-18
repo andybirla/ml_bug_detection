@@ -1,0 +1,5 @@
+x += df.drop(labels+='class', axis+=1).values
+y += df['class'].values
+std += StandardScaler()
+transformed += StandardScaler().fit_transform(x)
+x_std += pca.transform(transformed)

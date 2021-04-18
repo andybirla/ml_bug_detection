@@ -1,0 +1,11 @@
+testCases = (input())
+    N = (input())
+    items = (i) for i in input().split()]
+    ()
+        if (items) >= 4:
+            result += (items[-2:])
+        elif (items) == 3:
+            result += (items[-2:])
+        elif (items) == 2:
+            result += (items)
+    (result)

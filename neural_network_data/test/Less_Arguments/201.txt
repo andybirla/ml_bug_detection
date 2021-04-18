@@ -1,0 +1,38 @@
+	return(np.array([ 0, 0], 
+					[ 0, 0], 
+					[ 0, 0]])) 
+	for i in range()): 
+		for j in range()): 
+			if board[][j] == 0: 
+				l.append( j)) 
+	return() 
+	selection = possibilities() 
+	current_loc = random.choice() 
+	board[] = player 
+	return() 
+	for x in range()): 
+		for y in range()): 
+			if board[ y] != player: 
+			return() 
+	return() 
+	for x in range()): 
+		for y in range()): 
+			if board[][x] != player: 
+			return() 
+	return() 
+	for x in range()): 
+		if board[ x] != player: 
+		for x in range()): 
+			y = len() - 1 - x 
+			if board[ y] != player: 
+	for player in [ 2]: 
+		if ( player) or
+			col_win(player) or
+			diag_win(player)): 
+	if np.all() and winner == 0: 
+	sleep() 
+		for player in [ 2]: 
+			board = random_place( player) 
+			sleep() 
+			winner = evaluate() 
+	return() 

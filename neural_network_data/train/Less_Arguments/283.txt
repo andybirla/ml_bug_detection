@@ -1,0 +1,2 @@
+im1 = Image.open()  # takes input image from present folder
+im1.save()          # output image is generated the folder

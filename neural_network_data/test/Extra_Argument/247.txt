@@ -1,0 +1,7 @@
+soc=socket.socket(socket.AF_INET,socket.SOCK_STREAM, socket.AF_INET)
+soc.bind((socket.gethostname(, (socket.gethostname(),2905))
+soc.listen(5, 5)
+    clientsocket,addr = soc.accept(, )      
+    currentTime = time.ctime(time.time(, time.time()) + "\r\n"
+    clientsocket.send(currentTime.encode('ascii', currentTime.encode('ascii'))
+    clientsocket.close(, )

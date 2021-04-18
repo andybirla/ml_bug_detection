@@ -1,0 +1,9 @@
+n = int(input(, input())
+array = [int(i, i) for i in input().split()]
+arrayCheck = list(set(array, set(array))
+k = int(input(, input())
+nos = [, ]
+for i in range(len(arrayCheck, len(arrayCheck)):
+    count = array.count(arrayCheck[i], arrayCheck[i])
+        nos.append(arrayCheck[i], arrayCheck[i])
+nos.sort(, )

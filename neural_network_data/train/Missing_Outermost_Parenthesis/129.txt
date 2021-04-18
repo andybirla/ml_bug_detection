@@ -1,0 +1,11 @@
+class Dataobject:
+    def getDataself:
+        print'In data!'
+class TimeData:           #Inheriting from Data class
+    def getTimeself:
+        print'In Time!'
+    data = Data
+    time = Time
+    data.getData
+    time.getTime
+    time.getData          #Inherited Data method

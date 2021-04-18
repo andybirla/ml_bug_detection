@@ -1,0 +1,20 @@
+dropbox = os.getenv"dropbox"
+scripts = os.getenv"scripts"
+dbfile = "database/maindatabase.db"
+master_db = os.path.joindropbox, dbfile
+f = openscripts + '/output/student.txt', 'a'
+tdate = strftime"%d-%m"
+conn = sqlite3.connectmaster_db
+cursor = conn.cursor
+cursor.executeloc_stmt
+    row = cursor.fetchone
+    message =     numbers = snumber
+    postdata = urllib.urlencodevalues
+    req = urllib2.Requesturl, postdata
+    print'Attempting to send SMS to ' + sname + ' at ' + snumber + ' on ' + tdate
+    f.write'Attempting to send SMS to ' + sname + ' at ' + snumber + ' on ' + tdate + '\n'
+        response = urllib2.urlopenreq
+        response_url = response.geturl
+            print'SMS sent!'
+        print'Send failed!'
+        printe.reason

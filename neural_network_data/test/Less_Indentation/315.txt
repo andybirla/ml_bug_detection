@@ -1,0 +1,6 @@
+   check = int(input())
+   if check == 42:
+       break
+   else:
+       numbers.append(check)
+   print(i)

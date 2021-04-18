@@ -1,0 +1,15 @@
+                for directory, file_formats in DIRECTORIES.items
+def organize_junk:
+    for entry in os.scandir:
+        if entry.is_dir:
+        file_path = Pathentry.name
+        file_format = file_path.suffix.lower
+            directory_path = PathFILE_FORMATS[file_format]
+            directory_path.mkdirexist_ok=True
+            file_path.renamedirectory_path.joinpath(file_path)
+        os.mkdir"OTHER-FILES"
+    for dir in os.scandir:
+            if dir.is_dir:
+                os.rmdirdir
+                os.renameos.getcwd() + '/' + str(Path(dir)), os.getcwd() + '/OTHER-FILES/' + str(Path(dir))
+    organize_junk

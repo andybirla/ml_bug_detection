@@ -1,0 +1,1 @@
+ def LCM(number1, number2):

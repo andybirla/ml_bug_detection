@@ -1,0 +1,3 @@
+            line = re.split( line, "//")
+            line[0] = re.sub( ".", "->", line[0])
+            sys.stdout.write( ".", re.sub("->", line))

@@ -1,0 +1,4 @@
+        check = input( press y else n): ')
+        if check in ( 'y') and len(numbers) > i:
+            yield numbers[]
+for number in simpleGenerator( 11, 12, 14]):

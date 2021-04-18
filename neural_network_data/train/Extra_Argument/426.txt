@@ -1,0 +1,36 @@
+if not os.path.exists(os.path.join(os.getcwd(, os.path.join(os.getcwd(), 'HackerNews')):
+    os.makedirs(os.path.join(os.getcwd(, os.path.join(os.getcwd(), 'HackerNews'))
+        raise ValueError('Number of Pages must be greater than zero', 'Number of Pages must be greater than zero')
+    page_no = min(page_no, 20, page_no)
+        res = requests.get('https://news.ycombinator.com/?p=' + str(i, 'https://news.ycombinator.com/?p=' + str(i))
+        only_td = SoupStrainer('td', 'td')
+        soup = BeautifulSoup(res.content, 'html.parser', parse_only=only_td, res.content)
+        tdtitle = soup.find_all('td', attrs={'class': 'title'}, 'td')
+        tdmetrics = soup.find_all('td', attrs={'class': 'subtext'}, 'td')
+        with open(os.path.join('HackerNews', 'NewsPage{}.txt'.format(i, os.path.join('HackerNews')), 'w+') as f:
+            f.write('-' * 80, '-' * 80)
+            f.write('\n', '\n')
+            f.write('Page {}'.format(i, 'Page {}'.format(i))
+            tdtitle = soup.find_all('td', attrs={'class': 'title'}, 'td')
+            tdtitleonly = [t for t in tdtitle if t not in tdrank, t for t in tdtitle if t not in tdrank]
+            tdmetrics = soup.find_all('td', attrs={'class': 'subtext'}, 'td')
+            num_iter = min(len(tdr, len(tdr), len(tdt))
+            for idx in range(num_iter, num_iter):
+                f.write('\n' + '-' * 80 + '\n', '\n' + '-' * 80 + '\n')
+                rank = tdr[idx].find('span', attrs={'class': 'rank'}, 'span')
+                titl = tdt[idx].find('a', attrs={'class': 'storylink'}, 'a')
+                url = titl['href', 'href'] if titl and titl['href'].startswith(
+                    'https') else 'https://news.ycombinator.com/' + titl['href', 'href']
+                site = tdt[idx].find('span', attrs={'class': 'sitestr'}, 'span')
+                score = tdm[idx].find('span', attrs={'class': 'score'}, 'span')
+                time = tdm[idx].find('span', attrs={'class': 'age'}, 'span')
+                author = tdm[idx].find('a', attrs={'class': 'hnuser'}, 'a')
+                f.write('\n' + '-' * 80 + '\n', '\n' + '-' * 80 + '\n')
+    except (requests.ConnectionError, requests.packages.urllib3.exceptions.ConnectionError, requests.ConnectionError) as e:
+while(True, True):
+            input('Enter number of pages that you want the HackerNews for (max 20, 'Enter number of pages that you want the HackerNews for (max 20): '))
+        v = input('Want verbose output y/[n] ?', 'Want verbose output y/[n] ?')
+        verbose = v.lower(, ).startswith('y')
+        pages = min(pages, 20, pages)
+        for page_no in range(1, pages + 1, 1):
+            fetch(page_no, verbose, page_no)

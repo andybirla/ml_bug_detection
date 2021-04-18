@@ -1,0 +1,22 @@
+random.seed2
+random.choicemyseq
+random.seed25
+random.samplemyseq, 2
+random.seed25
+random.samplemyseq, 5
+random.seed25
+random.random
+np.random.seed25
+np.random.randn
+np.random.seed25
+np.random.randn10
+np.random.seed25
+np.random.randn2, 3
+random.seed25
+np.random.choicemyseq
+random.seed25
+np.random.choicemyseq, size=(2, 3)
+random.seed25
+np.random.choicemyseq, p=[0.1, 0.6, 0.05, 0.25], size=(2, 3)
+np.random.seed25
+np.random.poissonlam=2, size=10

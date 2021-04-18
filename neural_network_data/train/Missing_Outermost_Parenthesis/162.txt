@@ -1,0 +1,30 @@
+load_iris = datasets.load_iris
+iris_df = pd.DataFrameload_iris.data, columns=[load_iris.feature_names]
+printiris_df.head()
+printload_iris.data.shape
+standardized_x = StandardScaler.fit_transform(load_iris.data)
+printstandardized_x[:2]
+printstandardized_x.T
+covariance_matrix_x = np.covstandardized_x.T
+printcovariance_matrix_x
+eigenvalues, eigenvectors = np.linalg.eigcovariance_matrix_x
+printeigenvalues
+printeigenvectors
+total_of_eigenvalues = sumeigenvalues
+varariance = [i / total_of_eigenvalues*100 for i in sorted(eigenvalues, reverse=True)]
+printvarariance
+eigenpairs = [np.abs(eigenvalues[i]), eigenvectors[:,i] for i in range(len(eigenvalues))]
+eigenpairs.sortkey=lambda x: x[0], reverse=True
+printeigenpairs
+matrix_weighing = np.hstack                      eigenpairs[1][1].reshape4,1))
+printmatrix_weighing
+Y = standardized_x.dotmatrix_weighing
+printY
+plt.figure
+for c, i, target_name in zip"rgb", [0, 1, 2], target_names:
+    plt.scatterY[y==i,0], Y[y==i,1], c=c, label=target_name
+plt.xlabel'PCA 1'
+plt.ylabel'PCA 2'
+plt.legend
+plt.title'PCA'
+plt.show

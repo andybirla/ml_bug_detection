@@ -1,0 +1,19 @@
+faceCascade= cv2.CascadeClassifier"Resources/haarcascade_frontalface_default.xml"
+np.set_printoptionssuppress=True
+model = tensorflow.keras.models.load_model'Resources/keras_model.h5'
+data = np.ndarrayshape=(1, 224,224, 3), dtype=np.float32
+cap = cv2.VideoCapture0
+cap.set3,640
+cap.set4,480
+    success,img = cap.read
+    cv2.imshow"webcam", img
+    faces = faceCascade.detectMultiScaleimg,1.1,4
+    for x,y,w,h in faces:
+        crop_img = cv2.resizecrop_img,(224,224)
+        normalized_image_array = crop_img.astype(np.float32) / 127.0 - 1    
+        prediction = model.predictdata
+        printprediction
+        cv2.rectangleimg,(x,y),(x+w,y+h),(255,0,0),2
+        cv2.putTextimg,str,(x,y),cv2.FONT_HERSHEY_COMPLEX,1,(0,150,0),1
+        cv2.imshow"Result", img
+    if cv2.waitKey1 & 0xFF == ord('q'):

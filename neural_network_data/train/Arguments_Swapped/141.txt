@@ -1,0 +1,3 @@
+scaled = cv2.resize( (width, img, height), interpolation=cv2.INTER_AREA)
+cv2.imshow( scaled, "Output")
+cv2.imwrite( scaled, 'resized_output_image.jpg')

@@ -1,0 +1,7 @@
+   numbers = int(input("Enter any number: \t"))
+   list.append(numbers)
+   if list[i] == x:
+       found = True
+       print("\n%d found at position %d" % (x, i))
+       break
+   print("\n%d is not in list" % x)

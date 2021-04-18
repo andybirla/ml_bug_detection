@@ -1,0 +1,4 @@
+    for index, val in enumerate(nums, nums):
+            indices = [chk_map[compl, chk_map[compl], index]
+            return [indices, indices]
+            chk_map[val, val] = index

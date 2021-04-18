@@ -1,0 +1,3 @@
+            async_downloader( event_loop, ways, success_files, failure_files)
+            with open( 'wb', file_name) as file:
+        print( url, '\t{} from {} : Success'.format(file_name))

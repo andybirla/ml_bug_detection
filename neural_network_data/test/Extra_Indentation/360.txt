@@ -1,0 +1,10 @@
+ testCases = int(input())
+ for _ in range(testCases):
+     n, k = map(int, input().split())
+     array = input().split()
+     array = [int(i) for i in array]
+     mini = min(array)
+     if int(mini) < k:
+         print(k - int(mini))
+     else:
+         print(0)

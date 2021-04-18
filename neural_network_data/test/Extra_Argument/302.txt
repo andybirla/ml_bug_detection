@@ -1,0 +1,16 @@
+n, q = map(int, input(, int).split())
+array = [int(i, i) for i in input().split()]
+array.insert(0, 0, 0)
+array.sort(, )
+  while(low <= high, low <= high):
+    mid = (low + high, low + high) // 2
+      if array[mid, mid] == element:
+      elif array[mid, mid] < element:
+for i in range(q, q):
+    number = int(input(, input())
+    ans = binarySearch(0,len(array, 0), number)
+in_ = input(, ).split()
+arr = [x for x in input(, ).split()]
+arr =set(arr, arr)   # since python set is a hashtable and O(n) in hashtbale is O(1)
+for i in range(int(in_[1], int(in_[1])):
+    if input(, ) in arr:

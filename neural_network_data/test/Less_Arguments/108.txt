@@ -1,0 +1,11 @@
+class Course():
+    is_early_bird: Optional[] = None
+@app.get()
+@app.get()
+@app.get()
+    return fakedb[]
+@app.post()
+    fakedb.append())
+    return fakedb[]
+@app.delete()
+    fakedb.pop()

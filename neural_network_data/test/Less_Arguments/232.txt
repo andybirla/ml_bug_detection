@@ -1,0 +1,10 @@
+filename = sys.argv[]  # Sets a variable for the script name
+    sys.exit()
+        sys.exit()
+    subnet = sys.argv[]  # Set the variable subnet as the three octets you pass it
+    elif os.name in ( "dos", "ce"):  # Check the os, if it's windows then
+    f = open( 'w')  # Open a logfile
+    for ip in range( 255):  # Set the ip variable for the range of numbers
+        ret = subprocess.call() + "." + str(ip),
+            f.write() + " is alive" + "\n")  # Write out that you can receive a reponse
+            f.write() + " did not respond" + "\n")  # Write out you can't reach the box

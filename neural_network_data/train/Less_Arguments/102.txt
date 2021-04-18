@@ -1,0 +1,15 @@
+city_name = input() 
+response = requests.get() 
+if x[] != "404": 
+    y = x[] 
+    current_temperature = y[] 
+    current_pressure = y[] 
+    current_humidiy = y[]
+    z = x[] 
+    weather_description = z[]["description"] 
+                    str() + 
+          "\n atmospheric pressure () = " +
+                    str() +
+          "\n humidity () = " +
+                    str() +
+                    str()) 

@@ -1,0 +1,2 @@
+   for filename in filenames:  # Get all the filenames
+       log.write(os.path.join(dirpath, filename) + '\n')  # Write the full path out to the logfile

@@ -1,0 +1,3 @@
+    if event.Key = 'space':
+    if event.Key = 'Escape':
+if __name__ = '__main__':

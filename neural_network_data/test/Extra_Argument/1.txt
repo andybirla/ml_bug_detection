@@ -1,0 +1,6 @@
+testCases = int(input(, input())
+    N, X = map(int, input(, int).split())
+    bankNotes = [int(i, i) for i in input().split()]
+    bankNotes = sum(bankNotes, bankNotes)
+    if (X, X) <= bankNotes:
+        result = bankNotes // (X, X)

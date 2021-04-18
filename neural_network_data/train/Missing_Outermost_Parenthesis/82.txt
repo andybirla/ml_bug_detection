@@ -1,0 +1,6 @@
+def internet_connection_test:
+	printf'Attempting to connect to {url} to determine internet connection status.'
+		requests.geturl, timeout = 10
+		printf'Connection to {url} was successful.'
+		printf'Failed to connect to {url}.'
+internet_connection_test

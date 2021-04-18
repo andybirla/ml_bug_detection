@@ -1,0 +1,14 @@
+device_name = ()
+  raise ('GPU device not found')
+('Found GPU at: {}'.format(device_name))
+    ('/job:localhost/replica:0/task:0/device:GPU:1')
+  (e)
+As mentioned in the docs, XLA stands for "accelerated linear algebra". It's Tensorflow's relatively new optimizing compiler that can further speed up your ML models' GPU operations by combining what used to be multiple CUDA kernels into o(simplifying because this isn't that important for your question).
+  (),
+  (128, activation=tf.nn.relu),
+  (10, activation=tf.nn.softmax)
+(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+(training_images, training_labels, epochs=5)
+test_loss = (test_images, test_labels)
+()
+(config=tf.ConfigProto(log_device_placement=True))

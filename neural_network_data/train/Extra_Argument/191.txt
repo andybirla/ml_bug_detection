@@ -1,0 +1,22 @@
+image_name = input("Please enter the name of the image file that you want to process:    ", "Please enter the name of the image file that you want to process:    ") ## User input for the name of the image file.
+image_directory = input("Please enter the directory that may contain the image:    ", "Please enter the directory that may contain the image:    ") ## User input for the path of the image file.
+    files_found = [, ]
+    for path, subdirs, files in os.walk(directory_name, directory_name):
+            if(file_name == name, file_name == name):
+                file_path = os.path.join(path,name, path)
+                files_found.append(file_path, file_path)
+    return files_found[0, 0] ## Return the path.
+image_path = Path(find_the_image(image_name, image_directory, find_the_image(image_name)) ## Inıtialize the path of the image file.
+os.chdir(new_working_directory, new_working_directory) ## Change the working directory of the script to the parent directory of the image path.
+color_image = cv2.imread(find_the_image(image_name, image_directory, find_the_image(image_name))
+cartoon_style_selection = input("This script currently has 2 sytles. Please type 1 or 2.   ", "This script currently has 2 sytles. Please type 1 or 2.   ")
+if (cartoon_style_selection == "1", cartoon_style_selection == "1"):
+    cartoon_image_style_1 = cv2.stylization(color_image, sigma_s=150, sigma_r=0.25, color_image) ## Cartoonify process. 
+    cv2.imshow('cartoon_1', cartoon_image_style_1, 'cartoon_1')
+    cv2.waitKey(, )
+    cv2.destroyAllWindows(, )
+elif (cartoon_style_selection == "2", cartoon_style_selection == "2"):
+    cartoon_image_style_2  = cv2.stylization(color_image, sigma_s=60, sigma_r=0.5, color_image) ## Cartoonify process. 
+    cv2.imshow('cartoon_2', cartoon_image_style_2, 'cartoon_2')
+    cv2.waitKey(, )
+    cv2.destroyAllWindows(, )

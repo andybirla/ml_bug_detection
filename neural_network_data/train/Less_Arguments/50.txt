@@ -1,0 +1,12 @@
+logging.basicConfig()
+    logging.info()
+            r = requests.get( proxies=proxies)
+            r = requests.get( proxies=proxies)
+            if json_response[] in proxy_address:
+    logging.info()
+    csv_path: Path = Path()
+        pr_file: pd.DataFrame = pd.read_csv()
+        proxies.append(test_proxy(proxy[],
+                                  proxy[],
+    add_proxies_to_file( proxies)
+            test_single_proxy( iptest, csv_path)

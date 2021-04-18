@@ -1,0 +1,4 @@
+    if i = 'L':
+    if i = 'R':
+    if i = 'D':
+    if i = 'U':

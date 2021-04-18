@@ -1,0 +1,7 @@
+import os
+import time
+def createFolders(BASE_DIR):
+    for i in range(10):
+        f = open(BASE_DIR + str(i) + 'Folder.txt', 'w')
+        f.close()
+def renameFiles(BASE_DIR):

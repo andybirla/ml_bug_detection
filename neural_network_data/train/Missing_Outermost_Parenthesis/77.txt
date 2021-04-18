@@ -1,0 +1,24 @@
+def counter_labellabel:
+    def count:
+                tt = datetime.utcfromtimestampcounter
+                string = tt.strftime'%H:%M:%S'
+            label.after1000, count
+    count
+def Startlabel:
+    counter_labellabel
+def Stop:
+def Resetlabel:
+root = Tkinter.Tk
+root.title"Stopwatch"
+root.minsizewidth=250, height=70
+label = Tkinter.Labelroot, text='Ready!', fg='black', font='Verdana 30 bold'
+label.pack
+f = Tkinter.Frameroot
+start = Tkinter.Buttonf, text='Start', width=6, command=lambda: Start(label)
+stop = Tkinter.Buttonf, text='Stop', width=6, state='disabled', command=Stop
+reset = Tkinter.Buttonf, text='Reset', width=6, state='disabled', command=lambda: Reset(label)
+f.packanchor='center', pady=5
+start.packside='left'
+stop.packside='left'
+reset.packside='left'
+root.mainloop

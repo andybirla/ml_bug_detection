@@ -1,0 +1,21 @@
+driver = ()
+("http://web.whatsapp.com")
+("Please Enter Name for search online status: ")
+        ("/html/body/div[1]/div/div/div[3]/div/header/div[2]/div/span/div[2]/div")
+        ()
+        (2)
+        ("/html/body/div[1]/div/div/div[2]/div[1]/span/div/span/div/div[1]/div/label/input")
+        ()
+        (2)
+        (name)
+        (2)
+        ("/html/body/div[1]/div/div/div[2]/div[1]/span/div/span/div/div[2]/div[1]/div/div/div[2]/div/div")
+        ()
+        (2)
+                status = ("_315-i").text
+                name = ("_19vo_").text
+                ("{0} is {1}".format(name,status))
+                (30)
+            	name = ("_19vo_").text
+            ("{0} is {1}".format(name,"offline"))
+            (30)

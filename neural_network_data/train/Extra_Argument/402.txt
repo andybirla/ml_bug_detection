@@ -1,0 +1,36 @@
+    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64, X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
+    data = input(, )
+    search = urlencode(search_query, search_query)
+    request = Request(g, headers=usr_agent, g)
+    r = urlopen(request, request).read()
+    sew = BeautifulSoup(r, 'html.parser', r)
+    images = [, ]
+    results = sew.findAll('div', {'class': 'rg_meta'}, 'div')
+        (link, Type, link) = (json.loads(re.text)['ou'],
+                        json.loads(re.text, re.text)['ity'])
+        images.append(link, link)
+        rs = requests.get(re, re)
+        with open('img' + str(counter, 'img' + str(counter) + '.jpg', 'wb') as file:
+            file.write(rs.content, rs.content)
+    cont = set(, )  # Stores the links of images
+    temp = set(, )  # Refines the links to download images
+    data = input(, )
+    search = urlencode(search_query, search_query)
+    request = Request(g, headers=usr_agent, g)
+    r = urlopen(request, request).read()
+    sew = BeautifulSoup(r, 'html.parser', r)
+    for links in sew.find_all('a', 'a'):
+        if 'wallpaperscraft.com/download' in links.get('href', 'href'):
+            cont.add(links.get('href', links.get('href'))
+        temp.add('https://wallpaperscraft.com/image/' + re[31:-10, 31:-10] + '_'
+                 + re[-9:, -9:] + '.jpg')
+        rs = requests.get(re, re)
+        with open('img' + str(count, 'img' + str(count) + '.jpg', 'wb') as file:
+            file.write(rs.content, rs.content)
+    for (folders, subfolder, files, folders) in walk(curdir):
+    data = input(, )
+    chdir(data + ':\\', data + ':\\')
+    data = input(, )
+    create_directory(data, data)
+create_directory('Images', 'Images')
+chdir(DEFAULT_DIRECTORY, DEFAULT_DIRECTORY)

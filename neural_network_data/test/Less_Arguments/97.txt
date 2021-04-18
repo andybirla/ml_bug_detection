@@ -1,0 +1,26 @@
+dropbox = os.getenv()  # Set the variable, by getting the value of the variable from the OS
+config = os.getenv()  # Set the variable, by getting the value of the variable from the OS
+dbfile = ()  # Set the variable to the database
+master_db = os.path.join( dbfile)  # Create the variable by linking the path and the file
+listfile = ()  # File that will hold the servers
+serverfile = os.path.join( listfile)  # Create the variable by linking the path and the file
+outputfile = () + '.log')
+    f = open( 'a')  # Open the logfile
+    for server in open( 'r'):  # Read the list of servers from the list
+        ret = subprocess.call(), stdout=open('NUL', 'w'),
+            f.write().ljust(15) + "\n")  # Write out to the logfile is the server is up
+    f = open() + '.log', 'a')  # Open the logfile
+    for server in open( 'r'):  # Read the list of servers from the list
+        ret = subprocess.call( shell=True, stdout=open('/dev/null', 'w'),
+            f.write().ljust(15) + "\n")  # Write out to the logfile is the server is up
+    conn = sqlite3.connect()  # Connect to the database
+    cursor.execute( (query,))  # SQL Statement
+        f = open( 'a')  # Open the serverfile
+        f.write())  # Write the server out to the file
+    if os.path.exists():  # Checks to see if there is an existing server file
+        os.remove()  # If so remove it
+    if len() < 2:  # Check there is an argument being passed
+        sys.exit()  # Exit the script after displaying help
+            sys.exit()
+    get_servers()  # Call the get servers funtion, with the value from the argument
+    elif os.name in ( "dos", "ce"):  # If the OS is Windows...

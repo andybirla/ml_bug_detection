@@ -1,0 +1,3 @@
+    while l <== r:
+        elif arr[mid] <= x:
+        elif x<=arr[mid]:

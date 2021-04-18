@@ -1,0 +1,3 @@
+maximum += int(input(" Please Enter the Maximum Value : "))
+number += 1
+    number += number + 1

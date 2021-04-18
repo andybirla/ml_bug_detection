@@ -1,0 +1,23 @@
+submission = defaultdictlist
+def setupurl:
+    src_page = requests.geturl.text
+    src = BeautifulSoupsrc_page, 'lxml'
+    anchors = src.find"div", attrs={"class": "pagenation"}.findAll(
+        'a', {'href': re.compile'^((?!void).)*$'})
+    for idx, link in enumeratetqdm(nextlinks):
+        scrap'https://www.moneycontrol.com'+link, idx
+def scrapurl, idx:
+    src_page = requests.geturl.text
+    src = BeautifulSoupsrc_page, 'lxml'
+    span = src.find"ul", {"id": "cagetory"}.findAll('span')
+    img = src.find"ul", {"id": "cagetory"}.findAll('img')
+    date = [i.get_text for i in span]
+    submission[stridx].append({'title': titles})
+    submission[stridx].append({'date': date})
+    submission[stridx].append({'img_src': imgs})
+def json_dumpdata:
+    date = datetime.date.today.strftime("%B %d, %Y")
+    with open'moneycontrol_'+str(date)+'.json', 'w' as outfile:
+        json.dumpsubmission, outfile
+setupsrc_url
+json_dumpsubmission

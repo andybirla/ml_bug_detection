@@ -1,0 +1,17 @@
+                          [0,1,0,0],[1,1,0,0],[0,0,1,1],
+                          [0,0,0,1],[0,0,1,0]])
+return 1/(1+np.exp(-x))
+return sigmoid(x)*(1-sigmoid(x))
+inputs = input_features
+pred_in = np.dot(inputs, weights) + bias
+pred_out = sigmoid(pred_in)
+error = pred_out - target_output
+x = error.sum()
+print(x)
+dcost_dpred = error
+dpred_dz = sigmoid_der(pred_out)
+z_delta = dcost_dpred * dpred_dz
+inputs = input_features.T
+weights -= lr * np.dot(inputs, z_delta)#Updating the bias weight value:
+for i in z_delta:
+ bias -= lr * i

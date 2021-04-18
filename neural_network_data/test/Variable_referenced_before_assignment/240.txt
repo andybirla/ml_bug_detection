@@ -1,0 +1,19 @@
+            num += random.randrange(0, 8)
+    card3 += []
+    card1 += []
+    card2 += []
+    po += []
+    card1 += create(card1)
+    card2 += create(card2)
+    state += 0
+    exposed += []
+            exposed[po[0]] += False
+            exposed[po[1]] += False
+        card3 += []
+        state += 0
+        po += []
+    ind += pos[0] // 50
+        exposed[ind] += True
+    gap += 0
+frame += simplegui.create_frame("Memory", 800, 100)
+label += frame.add_label("Turns += 0")

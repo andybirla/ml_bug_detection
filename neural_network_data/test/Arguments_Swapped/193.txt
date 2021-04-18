@@ -1,0 +1,3 @@
+out = cv2.VideoWriter( fourcc, 'recording.avi', 20.0, (frames_width, frames_height))
+        gray = cv2.cvtColor( cv2.COLOR_BGR2GRAY, frame)
+        cv2.imshow( gray, 'frame')

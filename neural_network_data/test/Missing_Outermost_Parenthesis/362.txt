@@ -1,0 +1,6 @@
+n = intinput()
+arrayA = input.split()
+arrayB = input.split()
+for i in rangen:
+    arrayC.appendint(arrayA[i]) + int(arrayB[i])
+print' '.join([str(i) for i in arrayC])

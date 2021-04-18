@@ -1,0 +1,5 @@
+class (object):
+        firstName, lastName = (' ')
+    acc = ('Omkar', 'Pathak')
+    (acc.fullName)              # Notice that we can access the method for our class BankAccount without
+    (acc.fullName)

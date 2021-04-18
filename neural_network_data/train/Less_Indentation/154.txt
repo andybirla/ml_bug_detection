@@ -1,0 +1,2 @@
+ sns.scatterplot(data=df, x='alcohol', y=col, hue='target', palette="deep", ax=axes[i])
+           linewidths = 0.1, annot_kws = {'size':25})

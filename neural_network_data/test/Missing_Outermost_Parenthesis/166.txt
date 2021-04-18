@@ -1,0 +1,11 @@
+ftp = FTP'xxx.xxx.x.x'  # Enter the ip address or the domain name here
+ftp.loginuser='username', passwd='password'
+ftp.cwd'/Enter the directory here/'
+def receive_filefilename='example.txt':
+    with openfilename, 'wb' as out_file:
+        ftp.retrbinary'RETR ' + filename, out_file.write, 1024
+        ftp.quit
+def send_filefilename='example.txt':
+    with openfilename, 'rb' as in_file:
+        ftp.storbinary'STOR ' + filename, in_file
+        ftp.quit

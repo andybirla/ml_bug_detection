@@ -1,0 +1,6 @@
+    input += raw_input
+    count += {}
+        readfile += info.read()
+            count[character] += count.get(character, 0) + 1
+    is_exist += True
+            inputFile += input("File Name / (0)exit : ").strip()

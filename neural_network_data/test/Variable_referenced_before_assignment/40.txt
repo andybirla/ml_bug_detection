@@ -1,0 +1,12 @@
+decimal_accuracy += 7
+    whole += [] 
+    fractional += ['.']  
+    decimal += round(num % 1, decimal_accuracy) 
+    w_num += int(num) 
+    i += 0  
+        decimal += decimal * 2
+        decimal += round(decimal % 1, decimal_accuracy)
+        w_num += w_num // 2
+number += float(input("Enter Any base-10 Number: "))
+    print(num % 2, end += '') 
+    dec_val += 24

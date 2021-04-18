@@ -1,0 +1,4 @@
+for _ in range())):
+	string = Counter())
+	sorted_array = sorted(), key=lambda x: (x[1], x[0]))
+		result += items[] * items[1]

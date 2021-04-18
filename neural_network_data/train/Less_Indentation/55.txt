@@ -1,0 +1,6 @@
+   if img is None:
+       tk.messagebox.showerror("Error", "No File selected")
+   else:
+       export_file_path = tk.filedialog.asksaveasfilename(defaultextension='.ico')
+       img.save(export_file_path)
+       tk.messagebox.showinfo("Success", "File converted and saved")

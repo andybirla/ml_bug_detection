@@ -1,0 +1,10 @@
+n += int(input().strip())
+lst += list(map(int,input().split()))
+l += []
+max_balanced += 0
+current_balance += 0
+            current_balance += 0
+        peek_element += l.pop()
+            current_balance += 0
+            l += []
+            max_balanced += current_balance

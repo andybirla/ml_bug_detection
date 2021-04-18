@@ -1,0 +1,26 @@
+for i in (1, 159):
+  url = 'https://www.boomlive.in/fake-news/' + (i)
+    (url) 
+    page = (url)
+    soup = (page.text, 'html.parser')  
+    for content in ('h2', attrs={'class':'entry-title'}):
+      link = ('a')
+      (link.get('href')) 
+    error_type, error_obj, error_info = ()      
+    p('ERROR FOR LINK:',url)
+    p(error_type, 'Line:', error_info.tb_lineno)
+(fakearticle_links)
+news_dataset = (fakearticle_links, columns=['URL'])
+()
+  article = (Url)
+    ()
+    ()
+    ()
+  (article.title)                    # extracts the title of the article
+  (article.text)                      # extracts the whole text of article
+  (article.summary)                # gives us a summary abou the article
+  (', '.join(article.keywords))   # the main keywords used in it
+  (article.publish_date)      # the date on which it was published
+  (article.authors)                 # the authors of the article
+('Fake_news.csv')
+('Fake_news.csv')

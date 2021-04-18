@@ -1,0 +1,6 @@
+testCases = (input())
+for _ in (testCases):
+    s = ()
+    suvojit = ("SUVOJIT")
+    suvo = ("SUVO")
+    ('SUVO = ',suvo-suvojit,', SUVOJIT = ',suvojit,sep='')

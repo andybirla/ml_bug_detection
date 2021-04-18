@@ -1,0 +1,6 @@
+    urllib.request.urlopen( timeout=2)  # Tests if connection is up and running
+    question = input(): ")
+        search = input() : ")
+        os._exit()
+browser.get()
+os.system()  # os.system('clear') if Linux

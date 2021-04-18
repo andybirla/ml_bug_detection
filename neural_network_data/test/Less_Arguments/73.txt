@@ -1,0 +1,13 @@
+N = int())
+for i in range(N):
+    a = int())
+    list.append()
+for i in range( len(list)-1):
+    smallest = list[]
+    for j in range(len(list)):
+        if():
+            smallest = list[]
+    if():
+        temp = list[]
+        list[] = list[k]
+        list[] = temp

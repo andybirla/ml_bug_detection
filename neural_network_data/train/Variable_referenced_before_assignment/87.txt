@@ -1,0 +1,2 @@
+            data += json.loads(f.read())
+        output += ','.join([*data[0]])

@@ -1,0 +1,6 @@
+        if sides < 3:
+            if float(sides) % int(sides) = 0:  # excludes the possibility of inputted floats being rounded.
+        if type(item) = int:
+            if item >= lower_limit:
+        if ans = 'exit':
+if __name__ = "__main__":

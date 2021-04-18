@@ -1,0 +1,6 @@
+testCases = (input())
+for _ in (testCases):
+    string1 = ()
+    string2 = ()
+        ('No')
+        ('Yes')

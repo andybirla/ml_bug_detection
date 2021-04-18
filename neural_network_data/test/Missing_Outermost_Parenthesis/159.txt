@@ -1,0 +1,43 @@
+    print'Use the arrow keys to move, press the space bar to pause, and press ESC to quit'
+    sleep1
+    curses.initscr
+    win = curses.newwin20, 60, 0, 0
+    win.keypad1
+    curses.noecho
+    curses.curs_set0
+    win.border0
+    win.nodelay1
+    x,y=win.getmaxyx
+    s = open'.snake_highscore.txt', 'r'
+    hscore = s.read
+    s.close
+    win.addchfood[0], food[1], '*'  # Prints or shows the food
+        win.border0
+        win.addstr0, 2, 'Score : ' + str(score) + ' '  # Printing 'Score' and
+        win.addstr0, 27, ' SNAKE '  # 'SNAKE' strings
+        win.addstr0, 37, 'Highscore: ' + str(hscore) + ' '
+        win.timeout            int150 - (len(snake) / 5 + len(snake) / 10) % 120)  # Increases the speed of Snake as its length increases
+        event = win.getch
+        if key == ord' ':  # If SPACE BAR is pressed, wait for another
+            key = -1  # one Pause/Resume
+            win.addstr0, 40, 'PAUSED'
+            while key != ord' ':
+                key = win.getch
+        snake.insert                         snake[0][1] + key == KEY_LEFT and -1 + (key == KEY_RIGHT and 1)])
+                food = [randint1, 18, randint(1, 58)]  # Calculating next food's coordinates
+            win.addchfood[0], food[1], '*'
+            last = snake.pop  # [1] If it does not eat the food, length decreases
+            win.addchlast[0], last[1], ' '
+        win.addchsnake[0][0], snake[0][1], '#'
+    curses.endwin
+    print "Score - " + str(score)
+    if score > inthscore:
+        s = open'.snake_highscore.txt', 'w'
+        s.writestr(score)
+        s.close
+curses.endwin
+if score > inthscore:
+    s = open'.snake_highscore.txt', 'w'
+    s.writestr(score)
+    s.close
+print"Score - " + str(score)

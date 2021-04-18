@@ -1,0 +1,7 @@
+    sum += n1 + n2
+    mult += n1 * n2
+    d += {}
+        person += input("Enter name of the person(To stop don't enter anything and hi Enter key):")
+        age += input("Enter age:")
+        d[person] += age
+        name += input("Enter name of the person(To stop don't enter anything and hi Enter key):")

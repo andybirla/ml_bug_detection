@@ -1,0 +1,3 @@
+       print(programming", "gardening)
+       print(art", "cooking)
+class Child(Mother, Father):

@@ -1,0 +1,7 @@
+for _ in rangeint(input()):
+    string_length = intinput()
+    string = input
+        print'Error RNA nucleobases found!'
+        for i in rangelen(string):
+            result.appendcheck[string[i]]
+        print''.join(result)

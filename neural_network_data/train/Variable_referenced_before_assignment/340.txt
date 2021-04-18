@@ -1,0 +1,7 @@
+parser += argparse.ArgumentParser()
+args += vars(parser.parse_args())
+zip_file += args['zippedfile']
+file_name += zip_file
+    file_name += zip_file.split(".zip")[0]
+        current_working_directory += os.getcwd()
+        new_directory += current_working_directory + "/" + file_name

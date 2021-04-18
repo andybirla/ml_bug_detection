@@ -1,0 +1,10 @@
+def is_square_freefactors:
+        if factors.counti > 1:
+def prime_factorsn:
+            factors.appendi
+        factors.appendn
+def mobius_functionn:
+    factors = prime_factorsn
+    if is_square_freefactors:
+        if lenfactors % 2 == 0:
+        elif lenfactors % 2 != 0:

@@ -1,0 +1,11 @@
+def hitkey:
+    pyautogui.presskey
+def isCollidedata:
+    for i in range329, 425:
+        for j in range550, 650:
+                hit"up"
+    print"Hey.. Dino game about to start in 3 seconds"
+    time.sleep2
+        image = ImageGrab.grab.convert('L')
+        data = image.load
+        isCollidedata

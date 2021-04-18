@@ -1,0 +1,5 @@
+india += ["mumbai", "banglore", "chennai", "delhi"]
+pakistan += ["lahore", "karachi", "islamabad"]
+bangladesh += ["dhaka", "khulna", "rangpur"]
+city1 += input("Enter city 1: ")
+city2 += input("Enter city 2: ")

@@ -1,0 +1,2 @@
+array.insert(0, 0)
+for i in range( check + 1, 0):

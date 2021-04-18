@@ -1,0 +1,143 @@
+class PorxyApplyingDecoratorobject:
+    def __init__self:
+        filename = os.getcwd + "/" + "ipList.txt"
+        with openfilename, "r" as f:
+            ipdata = f.read
+        self._IP = random.choiceipdata.split(",")
+    def __call__self, function_to_call_for_appling_proxy:
+        socks.set_default_proxy        def wrapper_functionurl:
+            return function_to_call_for_appling_proxyurl
+        socks.set_default_proxy
+async def dataprocesshtmldata:
+    bs4obj = bs4.BeautifulSouphtmldata, "html.parser"
+    scriptsdata = bs4obj.findAll"script", {"type": "text/javascript"}
+    datajson = re.findall"{(.*)}", datatext
+    datadict = ujson.loadsdatajson
+async def datapullpostfuture, url:
+        @PorxyApplyingDecorator
+        async def request_pullurl:
+            printurl
+            urllib3.disable_warnings
+                data = requests.geturl=url, headers=user_agent, timeout=10, verify=False.text
+        data = await request_pullurl
+    data = await dataprocesshtmldata=data
+    future.set_resultdata
+class MoniteringClass:
+    def __init__self, user, tags, type, productId:
+            self.mon = pymongo.MongoClienthost=config.host, port=config.mongoPort
+            print"error::MointeringClass.__init__>>", sys.exc_info()[1]
+    def _dataProcessingself, data:
+        loop = asyncio.get_event_loop
+            if not isinstancedata, dict:
+            print"media post ::", len(media_post)
+            print"top_post::", len(top_post)
+                userdata.appendtempdict
+                userdata.appendtempdict
+                i["future"] = asyncio.Future
+                futures.appendi["future"]
+                asyncio.ensure_futuredatapullpost(future=i["future"], url=i["url"])
+            loop.run_until_completeasyncio.wait(futures)
+                i["data"] = i["future"].result
+            print"error::Monitering.dataProcessing>>", sys.exc_info()[1]
+            print"userdata::", len(userdata)
+            print"media_post::", len(media_post)
+            print"top post::", len(top_post)
+    def _insertFunctionself, record:
+            records = self._collection.find{"id": record["id"]}
+            if records.count == 0:
+                self._collection.insertrecord
+            print"error::Monitering.insertFunction>>", sys.exc_info()[1]
+    def _lastProcessself, userdata, media_post, top_post:
+                        tempdict = j.copy
+                        mainlist.appendtempdict
+                        self._insertFunctiontempdict.copy()
+                        tempdict = k.copy
+                        mainlist.appendtempdict
+                        self._insertFunctiontempdict.copy()
+            print"error::lastProcess>>", sys.exc_info()[1]
+    def request_data_from_instagramself:
+                @PorxyApplyingDecorator
+                def reqest_pullurl:
+                    printurl
+                    urllib3.disable_warnings
+                        data = requests.geturl=url, headers=user_agent, timeout=24, verify=False.text
+                data = reqest_pullself._url
+            datadict = ujson.loadsdata
+            userdata, media_post, top_post = self._dataProcessingdatadict
+            finallydata = self._lastProcess(userdata=userdata, media_post=media_post, top_post=top_post)
+            print"error::Monitering.request_data_from_instagram>>", sys.exc_info()[1]
+    def __del__self:
+        self.mon.close
+def hashtagsuser, tags, type, productId:
+        temp = MoniteringClassuser=user, tags=tags, type=type, productId=productId
+        temp.request_data_from_instagram
+        print"error::hashtags>>", sys.exc_info()[1]
+class theradPorcessmultiprocessing.Process:
+    def __init__self, user, tags, type, productId:
+            multiprocessing.Process.__init__self
+            print"errorthreadPorcess:>>", sys.exc_info()[1]
+    def runself:
+            hashtagsuser=self.user, tags=self.tags, type=self.type, productId=self.productId
+            print"error::run>>", sys.exc_info()[1]
+class InstaPorcessClass:
+    def _dbProcessReaderself, user, tags, productId:
+        mon = pymongo.MongoClienthost=config.host, port=config.mongoPort
+            records = collection.findtemp.count()
+            print"error::dbProcessReader:>>", sys.exc_info()[1]
+            mon.close
+    def _processstartself, user, tags, productId:
+        mon = pymongo.MongoClienthost=config.host, port=config.mongoPort
+            collection.inserttemp
+            print"error::processstart>>", sys.exc_info()[1]
+            mon.close
+    def startprocessself, user, tags, type, productId:
+            self._processstartuser=user, tags=tags, productId=productId
+                hashtagsuser=user, tags=tags, type=type, productId=productId
+                check = self._dbProcessReaderuser=user, tags=tags, productId=productId
+                printcheck
+                time.sleep300
+            print"error::startPoress::>>", sys.exc_info()[1]
+    def deletProcessself, user, tags, productId:
+        mon = pymongo.MongoClienthost=config.host, port=config.mongoPort
+            collection.delete_onetemp
+            print"error::deletProcess:>>", sys.exc_info()[1]
+            mon.close
+            print"deleted - task", temp
+    def statusCheckself, user, tags, productId:
+        mon = pymongo.MongoClienthost=config.host, port=config.mongoPort
+            records = collection.findtemp.count()
+            print"error::dbProcessReader:>>", sys.exc_info()[1]
+            mon.close
+class DBDataFetcher:
+    def __init__self, user, tags, type, productId:
+            self.mon = pymongo.MongoClienthost=config.host, port=config.mongoPort
+            print"error::DBDataFetcher.init>>", sys.exc_info()[1]
+    def dbFetcherself, limit=20:
+            records = self._collection.find.sort("id", -1).limit(limit)
+                mainlist.appendi
+            print"error::dbFetcher>>", sys.exc_info()[1]
+            return ujson.dumpsmainlist
+    def DBFetcherGreaterself, limit, date:
+            if limit.isdigit == False and date.isdigit() == False:
+            limit = intlimit
+            date = intdate
+                doc = self._collection.find{"date": {"$gt": date}}.sort("date", pymongo.ASCENDING).limit(limit)
+                doc = self._collection.find.sort("date", pymongo.ASCENDING).limit(limit)
+                mainlist.appendi
+            print"error::", sys.exc_info()[1]
+            return ujson.dumpspostval
+    def DBFetcherLessself, limit, date:
+            if limit.isdigit == False and date.isdigit() == False:
+            limit = intlimit
+            date = intdate
+            doc = self._collection.find{"date": {"$lt": date}}.limit(limit).sort("date", pymongo.DESCENDING)
+                mainlist.appendi
+            print"error::", sys.exc_info()[1]
+            return ujson.dumpspostval
+    def __del__self:
+        self.mon.close
+def main:
+        obj = InstaPorcessClass
+        obj.startprocessuser=user, tags=tags, type=type, productId=productId
+        print"error::main>>", sys.exc_info()[1]
+    main

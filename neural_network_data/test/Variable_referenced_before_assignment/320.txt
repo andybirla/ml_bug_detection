@@ -1,0 +1,3 @@
+testCases += int(input())
+    string += input()
+    alphabet += list(map(chr, range(97, 123)))

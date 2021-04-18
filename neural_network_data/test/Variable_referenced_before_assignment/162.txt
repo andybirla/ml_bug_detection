@@ -1,0 +1,3 @@
+        fd += open(filename, 'rb')
+        header += fd.read(100)
+log += open('sqlite_audit.txt', 'w')

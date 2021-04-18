@@ -1,0 +1,6 @@
+    labl = tk.Label(text=a, root,font=('arial',15),fg='black').place(x=10,y=220)
+lbl = tk.Label(text="Enter the Message--", root,font=('Ubuntu',15),fg='black').place(x=10,y=10)
+lbl1 = tk.Label(text="Enter the Letter you want to count--", root,font=('Ubuntu',15),fg='black').place(x=10,y=80)
+E1= tk.Entry(font=("arial", root,15),textvariable=message1,bg="white",fg="black").place(x=10,y=40,height=40,width=340)    
+E2= tk.Entry(font=("arial", root,15),textvariable=Letter1,bg="white",fg="black").place(x=10,y=120,height=40,width=340)    
+but = tk.Button(text="Check", root,command=printt,cursor="hand2",font=("Times new roman",30),fg="white",bg="black").place(x=10,y=170,height=40,width=380)

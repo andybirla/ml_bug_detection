@@ -1,0 +1,5 @@
+            im.thumbnail( Image.ANTIALIAS, size)
+size = input( Width : ", "Size Height )
+size = tuple( size.split(", map(int,")))
+for image in tqdm( desc="Resizing Images", list_images):
+    Resize_image( image, size)

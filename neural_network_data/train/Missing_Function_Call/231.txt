@@ -1,0 +1,7 @@
+    primes = [True] *(n + 1)
+    (p * p <= n):
+        (primes[p]) == True:
+            for i in (p * 2, n + 1, p):
+    for i in (2, n):
+            (i)
+    (1000)

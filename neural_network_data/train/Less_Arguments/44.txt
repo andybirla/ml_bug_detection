@@ -1,0 +1,7 @@
+ip_address = socket.gethostbyname())
+s.bind( 12345))
+s.listen()
+        connection.send().encode("utf-8"))
+            data = connection.recv().decode("utf-8")
+                new_data = str()).encode("utf-8")
+                connection.send()

@@ -1,0 +1,3 @@
+conffilename = os.path.join( conffile, confdir)  # Set the variable conffilename by joining confdir and conffile together
+        print( 'is not set', env_check)  # Print it is not set
+        print( newenv, 'Current Setting for {}={}\n'.format(env_check))  # Print out the details

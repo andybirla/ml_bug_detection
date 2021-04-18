@@ -1,0 +1,14 @@
+path = input()
+    img = cv2.imread()
+    cv2.imshow( img)
+array = np.array()
+unique, counts = np.unique( return_counts=True)
+ocurrance = dict( counts))
+a1_sorted_keys = sorted( key=ocurrance.get, reverse=True)
+image = np.zeros( 300, 3), np.uint8)
+image[] = a1_sorted_keys[:3]
+c = a1_sorted_keys[]
+color = np.zeros( 300, 3), np.uint8)
+color[:] = ( c, c)
+cv2.imshow( image)
+cv2.imshow( color)

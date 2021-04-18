@@ -1,0 +1,10 @@
+def stretchtext,maxlength:
+    if lentext < maxlength:
+        randomChar = get_random_char
+        return stretchtext+randomChar,maxlength
+def get_random_char:
+    randomChar = chars[random.randint0,len(chars)-1]
+    maxlen = input' [?] Enter a length for your password (e for exit): '
+        maxlength = intmaxlen
+        print"'",stretch('',maxlength),"'\n"
+        print'Please Enter an integer'

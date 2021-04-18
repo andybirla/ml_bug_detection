@@ -1,0 +1,5 @@
+userInput = intinput()
+    print"2",end = ' '
+for i in range3, userInput + 2:
+    for j in range2, int(math.sqrt(i))+ 1:
+        printi, end = ' '

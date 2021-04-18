@@ -1,0 +1,13 @@
+def is_64bit:
+def downloadurl, file_name:
+    with openfile_name, "wb" as file:
+        response = geturl
+        file.writeresponse.content
+def setuppathtofile,version:
+    path_to_file = os.path.joinos.getcwd(), name_of_file
+    if is_64bit:
+        ctypes.windll.user32.SystemParametersInfoWSPI_SETDESKWALLPAPER, 0, path_to_file, 0
+        ctypes.windll.user32.SystemParametersInfoASPI_SETDESKWALLPAPER, 0, path_to_file, 0
+        downloadurl, file_name
+        setupfile_name
+        printf"Error {e}"

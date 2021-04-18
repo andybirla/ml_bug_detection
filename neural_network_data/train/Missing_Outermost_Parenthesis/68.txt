@@ -1,0 +1,18 @@
+def print_all:
+    for stock,price_list in stocks.items:
+        avg = statistics.meanprice_list
+        printf"{stock} ==> {price_list} ==> avg: ",round(avg,2)
+def add:
+    s = input"Enter a stock ticker to add:"
+    p = input"Enter price of this stock:"
+    p=floatp
+        stocks[s].appendp
+    print_all
+def main:
+    op=input"Enter operation (print, add or amend):"
+    if op.lower == 'print':
+        print_all
+    elif op.lower == 'add':
+        add
+        print"Unsupported operation:",op
+    main

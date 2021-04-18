@@ -1,0 +1,4 @@
+def shellSortmyList:
+    gap = lenmyList // 2
+        for i in rangegap, len(myList):
+    printshellSort(myList)

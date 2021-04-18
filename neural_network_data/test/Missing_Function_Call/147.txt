@@ -1,0 +1,2 @@
+dec_num = ('Enter the decimal number\n')
+(hex(int(dec_num)))

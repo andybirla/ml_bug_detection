@@ -1,0 +1,12 @@
+        ("general use: transporation")
+class (Vehicle):
+        ("I'm car")
+        ()
+        ("specific use: commute to work, vacation with family")
+class (Vehicle):
+        ("I'm motor cycle")
+        ()
+        ("specific use: road trip, racing")
+c = ()
+m = ()
+(issubclass(Car,MotorCycle))

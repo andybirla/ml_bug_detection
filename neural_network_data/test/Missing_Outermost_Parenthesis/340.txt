@@ -1,0 +1,6 @@
+def factorialnumber:
+        return number * factorialnumber - 1
+testCases = intinput()
+for _ in rangetestCases:
+    number = intinput()
+    printfactorial(number)

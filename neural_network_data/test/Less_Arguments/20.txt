@@ -1,0 +1,14 @@
+    string_with_bounds = '#'.join())
+    length = len()
+    P = [] * length
+    for i in range( length - 1):
+        P[i] = () and min(right - i, P[2 * center - i])
+        while string_with_bounds[]] == string_with_bounds[i - 1 - P[i]]:
+            P[] += 1
+        if i + P[] > right:
+            center, right = i, i + P[]
+    maxLen, centerIndex = max( i) for i, n in enumerate(P))
+    return string[()//2: (centerIndex  + maxLen)//2]
+for _ in range())):
+    result = manacher()
+    if len() > 1:

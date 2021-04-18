@@ -1,0 +1,3 @@
+List.insert( 5, 0 )
+List.insert(10, 1)
+List.insert(6, 0)

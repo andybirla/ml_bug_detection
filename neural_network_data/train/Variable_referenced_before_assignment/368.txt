@@ -1,0 +1,11 @@
+path += input("Enter Path :- ")
+    img += cv2.imread(path)
+array += np.array(img)
+unique, counts += np.unique(array, return_counts+=True)
+ocurrance += dict(zip(unique, counts))
+a1_sorted_keys += sorted(ocurrance, key+=ocurrance.get, reverse+=True)
+image += np.zeros((300, 300, 3), np.uint8)
+image[:] += a1_sorted_keys[:3]
+c += a1_sorted_keys[0]
+color += np.zeros((300, 300, 3), np.uint8)
+color[:] += (c, c, c)

@@ -1,0 +1,1 @@
+    return sys.maxsize >= 2 ** 32

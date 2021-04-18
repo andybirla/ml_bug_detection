@@ -1,0 +1,43 @@
+dropbox = ("dropbox")  # Set the variable, by getting the value of the variable from the OS
+config = ("my_config")  # Set the variable, by getting the value of the variable from the OS
+dbfile =("Databases/jarvis.db")  # Set the variable to the database
+master_db = (dropbox, dbfile)  # Create the variable by linking the path and the file
+listfile =("startup_list.txt")  # File that will hold the servers
+serverfile = (config, listfile)  # Create the variable by linking the path and the file
+outputfile =('server_startup_' + strftime("%Y-%m-%d-%H-%M") + '.log')
+    f = (outputfile, 'a')  # Open the logfile
+    for server in (serverfile, 'r'):  # Read the list of servers from the list
+        ret = ("ping -n 3 %s" % server.strip(), stdout=open('NUL', 'w'),
+            ("%s: is alive" % server.strip().ljust(15) + "\n")  # Write out to the logfile is the server is up
+                "%s: did not respond" % ().ljust(15) + "\n")  # Write to the logfile if the server is down
+    f = ('server_startup_' + strftime("%Y-%m-%d") + '.log', 'a')  # Open the logfile
+    for server in (serverfile, 'r'):  # Read the list of servers from the list
+        ret = ("ping -c 3 %s" % server, shell=True, stdout=open('/dev/null', 'w'),
+            ("%s: is alive" % server.strip().ljust(15) + "\n")  # Write out to the logfile is the server is up
+                "%s: did not respond" % ().ljust(15) + "\n")  # Write to the logfile if the server is down
+    conn = (master_db)  # Connect to the database
+    cursor = ()  # Create the cursor
+    ('select hostname from tp_servers where location =?', (query,))  # SQL Statement
+    ('\nDisplaying Servers for : ' + query + '\n')
+        row = ()  # Return the results
+        f = (serverfile, 'a')  # Open the serverfile
+        ("%s\n" % str(row[0]))  # Write the server out to the file
+        (row[0])  # Display the server to the screen
+        ()  # Close the file
+    if (serverfile):  # Checks to see if there is an existing server file
+        (serverfile)  # If so remove it
+    if (sys.argv) < 2:  # Check there is an argument being passed
+        (text)  # Display the help text if there isn't one passed
+        ()  # Exit the script
+        (text)  # Display the help text if there isn't one passed
+        (0)  # Exit the script after displaying help
+        if ().startswith('-site1'):  # If the argument is site1
+        elif ().startswith('-site2'):  # Else if the variable is bromley
+            ('\n[-] Unknown option [-] ' + text)  # If an unknown option is passed, let the user know
+            (0)
+    (query)  # Call the get servers funtion, with the value from the argument
+        ()  # Call the linux function
+    elif os.name i("nt", "dos", "ce"):  # If the OS is Windows...
+        ()  # Call the windows function
+    ('\n[+] Check the log file ' + outputfile + ' [+]\n')  # Display the name of the log
+    ()  # Call the main function

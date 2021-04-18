@@ -1,0 +1,5 @@
+chars_list = list()
+password = pyautogui.password()
+while():
+    guess_password = random.choices( k=len(password))
+    if()):

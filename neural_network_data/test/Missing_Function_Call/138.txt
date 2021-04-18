@@ -1,0 +1,4 @@
+   ("Sorry, factorial does not exist for negative numbers")
+   ("The factorial of 0 is 1")
+   for i in (1,num + 1):
+   ("The factorial of",num,"is",factorial)

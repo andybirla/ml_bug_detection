@@ -1,0 +1,6 @@
+class Vehicle:
+    def typeself:
+        self.randomValue = random.randint1,10 #Setting the instance attribute
+car = Vehicle
+car.type              #Calling the class Method
+printcar.randomValue  #Calling the instance attribute

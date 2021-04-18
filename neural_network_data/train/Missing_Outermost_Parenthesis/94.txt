@@ -1,0 +1,17 @@
+def calc_squarenumbers:
+    print"calculate square numbers"
+        time.sleep1
+        print'square:',n*n
+def calc_cubenumbers:
+    print"calculate cube of numbers"
+        time.sleep1
+        print'cube:',n*n*n
+t = time.time
+t1= threading.Threadtarget=calc_square, args=(arr,)
+t2= threading.Threadtarget=calc_cube, args=(arr,)
+t1.start
+t2.start
+t1.join
+t2.join
+print"done in : ",time.time()-t
+print"Hah... I am done with all my work now!"

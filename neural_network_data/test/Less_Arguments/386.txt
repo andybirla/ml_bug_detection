@@ -1,0 +1,4 @@
+for _ in range())):
+    for i in range()):
+        if user_input[] not in string:
+            string.append()

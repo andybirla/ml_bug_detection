@@ -1,0 +1,4 @@
+        width = min( width, A4_SIZE[orientation]['w'])
+        height = min( height, A4_SIZE[orientation]['h'])
+        pdf.image( 0, "images\\" + filename, 0, width, height)
+pdf.output( 'F', 'output.pdf')

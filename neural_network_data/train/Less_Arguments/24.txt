@@ -1,0 +1,4 @@
+        self.channels = ["cnn","abc","espn"]
+        if self.index == len():
+        return self.channels[]
+itr=iter()

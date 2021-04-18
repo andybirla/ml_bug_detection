@@ -1,0 +1,4 @@
+n = (0,30)
+poisson = (n,rate)
+(n,poisson, 'o-')
+()

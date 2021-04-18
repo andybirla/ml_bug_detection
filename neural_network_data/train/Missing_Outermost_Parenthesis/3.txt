@@ -1,0 +1,47 @@
+myPen = turtle.Turtle
+myPen.hideturtle
+myPen.speed0
+myPen.up
+myPen.setposition-100,-100
+myPen.down
+myPen.fd200
+myPen.left90
+myPen.fd200
+myPen.left90
+myPen.fd200
+myPen.left90
+myPen.fd200
+myPen.left90
+myPen.up
+myPen.setposition0,-100
+myPen.down
+myPen.circle100
+for i in range5:
+    for j in range1000:
+        x=random.randrange-100,100
+        y=random.randrange-100,100
+        if x**2+y**2>100**2:
+            myPen.color"black"
+            myPen.up
+            myPen.gotox,y
+            myPen.down
+            myPen.dot
+            myPen.color"red"
+            myPen.up
+            myPen.gotox,y
+            myPen.down
+            myPen.dot
+        pi = 4.0 * in_circle / in_circle + out_circle
+        pi_values.appendpi
+        avg_pi_errors = [absmath.pi - pi for pi in pi_values]
+    print pi_values[-1]
+plt.axhliney=math.pi, color='g', linestyle='-'
+plt.plotpi_values
+plt.xlabel"Iterations"
+plt.ylabel"Value of PI"
+plt.show
+plt.axhliney=0.0, color='g', linestyle='-'
+plt.plotavg_pi_errors
+plt.xlabel"Iterations"
+plt.ylabel"Error"
+plt.show

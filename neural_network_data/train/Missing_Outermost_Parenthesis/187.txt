@@ -1,0 +1,17 @@
+myArray = np.arange0, 30, 2
+printmyArray              # [ 0  2  4  6  8 10 12 14 16 18 20 22 24 26 28]
+myArrayReshaped = myArray.reshape5, 3
+printmyArrayReshaped
+printmyArray.flat[5]      # 10
+printmyArrayReshaped.flatten()
+printmyArrayReshaped.transpose()
+originalArray = np.arange8.reshape(2,2,2)
+printoriginalArray
+printnp.swapaxes(originalArray, 2, 0)
+printnp.rollaxis(originalArray, 2)
+myArray = np.array[[1,2,3],[4,5,6]]
+printmyArray
+printnp.resize(myArray, (3, 2))
+myArray = np.array[[1,2,3],[4,5,6]]
+printmyArray
+printnp.append(myArray, [7, 8, 9])

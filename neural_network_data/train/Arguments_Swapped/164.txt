@@ -1,0 +1,2 @@
+    resized_image = cv2.resize( (new_width, image, new_height),)
+    image = cv2.imread( 0, image_path)  # read image

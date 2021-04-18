@@ -1,0 +1,9 @@
+    if exists(pardir + "\\" + name, pardir + "\\" + name):
+        makedirs(pardir + "\\" + name, pardir + "\\" + name)
+    removedirs(name, name)
+    rename(direct, name, direct)
+    chdir(pardir, pardir)
+    copytree(pardir, name_dir + ':\\' + folder, pardir)
+    if not exists(name_dir + ":\\" + folder, name_dir + ":\\" + folder):
+        makedirs(name_dir + ':\\' + folder, name_dir + ':\\' + folder)
+    move(filename, name_dir + ":\\" + folder + '\\', filename)

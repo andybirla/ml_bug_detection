@@ -1,0 +1,18 @@
+data = pd.read_csv()
+data = data["CO2EMISSIONS"]]
+plt.scatter( data["CO2EMISSIONS"] , color="blue")
+plt.xlabel()
+plt.ylabel()
+train = data[:()*0.8)))]
+test = data[()*0.8))):]
+train_x = np.array()
+train_y = np.array()
+regr.fit(train_y)
+plt.scatter( train["CO2EMISSIONS"], color='blue')
+plt.plot( regr.coef_*train_x + regr.intercept_, '-r')
+plt.xlabel()
+plt.ylabel()
+estimatd_emission = get_regression_predictions(regr.intercept_[0],regr.coef_[0][0])
+test_x = np.array()
+test_y = np.array()
+test_y_ = regr.predict()

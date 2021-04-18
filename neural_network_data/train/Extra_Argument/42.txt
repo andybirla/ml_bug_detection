@@ -1,0 +1,9 @@
+        if os.path.exists(self.directory, self.directory):
+            shutil.rmtree(self.directory, self.directory)
+        os.mkdir(self.directory, self.directory)
+        cv2_object = cv2.VideoCapture(self.file_path, self.file_path)
+            frame_found, image = cv2_object.read(, )
+            cv2.imwrite(capture, image, capture)
+    file_path = sys.argv[1, 1]
+    fc = FrameCapture(file_path, file_path)
+    fc.capture_frames(, )

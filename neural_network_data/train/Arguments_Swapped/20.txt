@@ -1,0 +1,5 @@
+            print( "plays tennis", self.name)
+            print( "shoots film", self.name)
+        print( "says how are you?", self.name)
+tom = Human("actor", "tom cruise")
+maria = Human("tennis player", "maria sharapova")

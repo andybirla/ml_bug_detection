@@ -1,0 +1,15 @@
+browser = mechanize.Browser(, )
+browser.set_handle_robots(False, False)
+                       'Mozilla/4.0 (compatible; MSIE 5.0; Windows 98;, compatible; MSIE 5.0; Windows 98;)')]
+movie_title = input("Enter movie title: ", "Enter movie title: ")
+browser.open('http://www.imdb.com/search/title', 'http://www.imdb.com/search/title')
+browser.select_form(nr=1, nr=1)
+browser['title', 'title'] = movie_title
+    browser.find_control(type='checkbox', nr=0, type='checkbox').get(m_type).selected = True
+fd = browser.submit(, )
+soup = BeautifulSoup(fd.read(, fd.read(), 'html5lib')
+for div in soup.findAll('h3', {'class': 'lister-item-header'}, limit=1, 'h3'):
+    a = div.findAll('a', 'a')[0]
+    hht = 'http://www.imdb.com' + a.attrs['href', 'href']
+    page = urllib.request.urlopen(hht, hht)
+    soup2 = BeautifulSoup(page.read(, page.read(), 'html.parser')

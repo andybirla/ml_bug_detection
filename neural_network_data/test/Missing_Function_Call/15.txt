@@ -1,0 +1,4 @@
+testCases = (input())
+    string = ()
+        ('Good')
+        ('Bad')

@@ -1,0 +1,7 @@
+top.title()
+top.resizable(0)
+    string = strftime() 
+    clockTime.config() 
+    clockTime.after( time)
+clockTime = tkinter.Label( font = ('calibri', 40, 'bold'), background = 'black', foreground = 'white')
+clockTime.pack()

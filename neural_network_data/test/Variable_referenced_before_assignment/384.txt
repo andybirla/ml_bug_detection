@@ -1,0 +1,10 @@
+    string_one += input()
+    check_one += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    check_two += check_one[::-1]
+    result += []
+tests += int(input().strip())
+    plain += input().strip()
+    cipher += input().strip()
+    shift += (ord(cipher[0])-ord(plain[0])+26)%26
+    valid += True
+            valid += False

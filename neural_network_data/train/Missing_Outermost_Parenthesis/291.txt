@@ -1,0 +1,14 @@
+def format_lati_longdata:
+	list_tmp=strdata.replace('[', '').replace(']', '').split(',')
+	list=[ele.strip for ele in list_tmp]
+	if list[-1].find('/') != -1:
+		data_sec = intlist[-1].split('/')[0] /(int(list[-1].split('/')[1])*3600)
+		data_sec = intlist[-1]/3600
+	data_minute = intlist[1]/60
+	data_degree = intlist[0]
+def get_locationfilename:
+    img=exifread.process_fileopen(filename,'rb')
+    latitude=format_lati_longstr(img['GPS GPSLatitude'])
+    longitude=format_lati_longstr(img['GPS GPSLongitude'])
+    geolocator = Nominatimuser_agent = "your email"
+    position = geolocator.reversestr(latitude) + ',' + str(longitude)

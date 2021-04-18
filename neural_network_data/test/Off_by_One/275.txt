@@ -1,0 +1,2 @@
+    if(li[i]>=li[i-1]):
+    if(li[i]>li[small] and li[i]<=li[maxx]):

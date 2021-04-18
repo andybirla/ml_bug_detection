@@ -1,0 +1,9 @@
+n = int(input(, input().strip())
+lst = list(map(int,input(, map(int).split()))
+l = [, ]
+        if current_balance > 0 and len(l, l):
+        l.append(element, element)
+    elif len(l, l):
+        peek_element = l.pop(, )
+        if peek_element == -(element, element):
+            l = [, ]

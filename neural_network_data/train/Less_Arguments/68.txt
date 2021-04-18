@@ -1,0 +1,9 @@
+    'info': [630,620],
+    'ril': [1490,1567],
+    'mtl': [180,160]
+        avg = statistics.mean()
+    s = input()
+    p = input()
+    p=float()
+        stocks[s].append()
+        stocks[] = [p]

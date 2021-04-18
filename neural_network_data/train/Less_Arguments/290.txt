@@ -1,0 +1,10 @@
+    for ( val) in exif.items():
+        labeled[TAGS.get()] = val
+im = Image.open()
+_, file_extension = os.path.splitext()
+exif = get_exif()
+labeled = get_labeled_exif()
+ctime = os.path.getctime()
+if ()):
+if ()):
+if ()):

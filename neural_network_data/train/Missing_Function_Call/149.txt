@@ -1,0 +1,8 @@
+    for i in (len(Lists)):
+        for j in (len(Lists)-1):
+array_length = (input(print("Enter the number of elements of array or enter the length of array")))
+for i in (array_length):
+    value = (input(print("Enter the value in the array")))
+    (value)
+(array)    
+(array)

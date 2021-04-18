@@ -1,0 +1,20 @@
+    files = (f'{path}/*')
+    return (path)
+    if not (dst):
+        (dst)
+    (src, dst)
+    for i in (1, len(data), count):
+        if i + count-1 > (data):
+            start, end =(i-1, len(data))
+            start, end =(i-1, i+count-1)
+    files = (path)
+    splited_data = (files, count)
+    for idx, folder in (splited_data):
+            (getfullpath(file), getfullpath(name))
+    if (sys.argv) != 3:
+        (0)
+    if (sys.argv) == 3:
+        if (path):
+            (path, int(count))
+            ('Given directory name is not an valid directory')
+        ('Wrong paramter are provided')

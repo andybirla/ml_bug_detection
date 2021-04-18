@@ -1,0 +1,5 @@
+    x += int(input("Enter an integer: "))
+            ans += -ans
+cont += str(input("Would you like to continue: "))
+    cont += str(input("Would you like to continue: "))
+        cont += str(input("Would you like to continue: "))

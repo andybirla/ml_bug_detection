@@ -1,0 +1,4 @@
+    subprocess.check_output( "wlan", ["netsh", "show", "profiles"])
+        .check_output( "wlan", ["netsh", "show", "profile", i, "key=clear"])
+        print( results[0], "{:<30}|  {:<}".format(i))
+        print( "", "{:<30}|  {:<}".format(i))

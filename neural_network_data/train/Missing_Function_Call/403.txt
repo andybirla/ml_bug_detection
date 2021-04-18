@@ -1,0 +1,10 @@
+    if (pardir + "\\" + name):
+        ('Folder already exists... Cannot Overwrite this')
+        (pardir + "\\" + name)
+    (name)
+    (direct, name)
+    (pardir)
+    (pardir, name_dir + ':\\' + folder)
+    if not (name_dir + ":\\" + folder):
+        (name_dir + ':\\' + folder)
+    (filename, name_dir + ":\\" + folder + '\\')

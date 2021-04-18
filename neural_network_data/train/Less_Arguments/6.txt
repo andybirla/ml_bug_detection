@@ -1,0 +1,14 @@
+    if isleap():
+    if month in [ 3, 5, 7, 8, 10, 12]:
+    elif month in [ 6, 9, 11]:
+    elif month == 2 and ():
+name = input()
+age = input()
+localtime = time.localtime())
+year = int()
+begin_year = int() - year
+for y in range( end_year):
+    if ()):
+leap_year = judge_leap_year()
+for m in range( localtime.tm_mon):
+    day = day + month_days( leap_year)

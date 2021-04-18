@@ -1,0 +1,8 @@
+if platform.system == "Windows":
+elif platform.system == "Linux":
+with openpathToHosts,'r+' as file:
+    content=file.readlines
+    file.seek0
+        if not anysite in line for site in websites:
+            file.writeline
+    file.truncate

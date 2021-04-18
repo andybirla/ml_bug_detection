@@ -1,0 +1,12 @@
+pdf = ()
+(0)
+for filename in ('images'):
+        img = ("images\\" + filename)
+        ()
+        width, height = (width * 0.264583), float(height * 0.264583)
+        width = (A4_SIZE[orientation]['w'], width)
+        height = (A4_SIZE[orientation]['h'], height)
+        (orientation=orientation)
+        ("images\\" + filename, 0, 0, width, height)
+        ("Skipped : " + filename)
+('output.pdf', 'F')

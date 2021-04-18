@@ -1,0 +1,5 @@
+testCases = int())
+    halve = len() // 2
+    if len() % 2 == 0:
+        if sorted() == sorted(string[halve:]):
+        if sorted() == sorted(string[halve + 1:]):

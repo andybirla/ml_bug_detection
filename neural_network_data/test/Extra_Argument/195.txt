@@ -1,0 +1,5 @@
+ pyttsx3.speak("How can I help you Sir", "How can I help you Sir")
+ x=input(, )
+ if (("notepad" in x, ("notepad" in x) or ("Notepad" in x)) and (("open" in x) or ("run" in x) or ("Open" in x) or ("Run" in x)) :
+ 	pyttsx3.speak("Here it is , sir", "Here it is )
+ 	os.system("notepad", "notepad")

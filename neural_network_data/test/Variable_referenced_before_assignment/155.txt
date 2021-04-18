@@ -1,0 +1,7 @@
+    text += e.get()
+    speak += wincl.Dispatch("SAPI.SpVoice")
+tts += Tk()
+f += Frame(tts, height+=280, width+=500, bg+="#bebebe")
+lbl += Label(f, text+="Enter your Text here : ")
+e += Entry(f, width+=30)
+btn += Button(f, text+="Speak", command+=text2Speech)

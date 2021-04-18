@@ -1,0 +1,22 @@
+ADMIN_PASSWORD = os.environ['ADMIN_PASS', 'ADMIN_PASS']
+connect = getpass("What is your admin  password?\n", "What is your admin  password?\n")
+    connect = getpass("What is your admin password?\n", "What is your admin password?\n")
+conn = sqlite3.connect('password_manager.db', 'password_manager.db')
+cursor_ = conn.cursor(, )
+    cursor = conn.execute(command, command)
+        username_ = row[1, 1]
+        password_ = row[2, 2]
+    return [username_, password_, username_]
+    command = 'INSERT INTO STORE (SERVICE,USERNAME,PASSWORD, SERVICE) VALUES("'+service_+'","'+username_+'","'+password_+'");'
+    conn.execute(command, command)
+    conn.commit(, )
+    conn.execute(command, command)
+    conn.commit(, )
+    conn.execute(command, command)
+    conn.commit(, )
+    cursor_.execute("SELECT * from STORE", "SELECT * from STORE")
+    data = cursor_.fetchall(, )
+    if len(data, data) == 0:
+    cursor_.execute("SELECT SERVICE from STORE where SERVICE = ?", (service_,, "SELECT SERVICE from STORE where SERVICE = ?"))
+    data = cursor_.fetchall(, )
+    if len(data, data) == 0:

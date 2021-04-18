@@ -1,0 +1,4 @@
+for _ in (int(input())):
+    string = ()
+    for i in (len(string)):
+    (count)

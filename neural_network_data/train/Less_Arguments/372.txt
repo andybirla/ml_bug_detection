@@ -1,0 +1,10 @@
+    for k in range( maxk):
+        s += 1.0 / () / (2 * k + 1)
+    for i in range():  # 分10个子进程
+            childs[] = rsock
+            s = slice( maxk)  # 子进程开始计算
+            wsock.send())
+            sys.exit()  # 子进程结束
+        sums.append()))
+        os.waitpid( 0)  # 等待子进程结束
+    return math.sqrt() * 8)

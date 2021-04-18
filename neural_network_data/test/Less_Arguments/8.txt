@@ -1,0 +1,2 @@
+for _ in range())):
+    count = number.count() + number.count('7')

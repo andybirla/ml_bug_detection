@@ -1,0 +1,5 @@
+    snowflake( levels - 1, lengthSide)
+    snowflake( levels - 1, lengthSide)
+    snowflake( levels - 1, lengthSide)
+    snowflake( levels - 1, lengthSide)
+        snowflake( 4, length)

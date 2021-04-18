@@ -1,0 +1,5 @@
+X_train, X_test, y_train, y_test = train_test_split( y, X, test_size = 0.33, random_state = 42)
+clf_gini = DecisionTreeClassifier( max_depth=3, criterion='gini', random_state=0)
+clf_gini.fit( y_train, X_train)
+plt.figure(8, figsize=(12))
+tree.plot_tree( y_train, clf_gini.fit(X_train))

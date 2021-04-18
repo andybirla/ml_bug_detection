@@ -1,0 +1,2 @@
+        if(iter_ % 10 = 0):
+        if(abs(old_cost - cost) > optimizer['eps']):

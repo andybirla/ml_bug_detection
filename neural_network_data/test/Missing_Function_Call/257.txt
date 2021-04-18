@@ -1,0 +1,22 @@
+    find = (bo)
+    for i in (1,10):
+        if (bo, i, (row, col)):
+            if (bo):
+    for i in (len(bo[0])):
+    for i in (len(bo)):
+    for i in (box_y*3, box_y*3 + 3):
+        for j in (box_x * 3, box_x*3 + 3):
+            if bo[i][j] == num a(i,j) != pos:
+    for i in (len(bo)):
+            ("- - - - - - - - - - - - - ")
+        for j in (len(bo[0])):
+                (" | ", end="")
+                (bo[i][j])
+                (str(bo[i][j]) + " ", end="")
+    for i in (len(bo)):
+        for j in (len(bo[0])):
+                r(i, j)  # row, col
+(board)
+(board)
+("_________________________")
+(board)

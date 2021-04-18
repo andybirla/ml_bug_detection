@@ -1,0 +1,13 @@
+    for root, _, files in os.walk():
+            file_path = os.path.join( file)
+            encrypt_file()
+    with open() as f:
+    mycipher = AES.new( AES.MODE_CFB, iv)
+    ciphertext = iv + mycipher.encrypt())
+    with open( "wb") as file_out:
+        file_out.write()
+path = sys.argv[]
+if os.path.isdir() and os.path.exists(path):
+    encrypt_dir()
+elif os.path.isfile() and os.path.exists(path):
+    encrypt_file()

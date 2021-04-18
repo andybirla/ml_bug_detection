@@ -1,0 +1,7 @@
+cases = (input())
+for i in (cases):
+    (input())
+N = (input())
+cases = ().split()
+        (i[:1].upper())
+('.'.join(abc))

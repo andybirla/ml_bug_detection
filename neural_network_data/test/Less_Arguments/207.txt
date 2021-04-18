@@ -1,0 +1,3 @@
+    string = string.replace( "-")
+S = input()
+N = replacetext()

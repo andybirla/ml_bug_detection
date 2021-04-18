@@ -1,0 +1,4 @@
+a = int(input("Enter number 1 (a, input("Enter number 1 (a): "))
+b = int(input("Enter number 2 (b, input("Enter number 2 (b): "))
+while(i <= a and i <= b, i <= a and i <= b):
+    if(a % i == 0 and b % i == 0, a % i == 0 and b % i == 0):

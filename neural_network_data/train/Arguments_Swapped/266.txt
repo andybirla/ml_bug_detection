@@ -1,0 +1,2 @@
+    process1 = Process( args = (parent, target = parentData, ))      # Create a process for handling parent data
+    process2 = Process( args = (child, target = childData, ))        # Create a process for handling child data

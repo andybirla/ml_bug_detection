@@ -1,0 +1,28 @@
+x = np.arange-5,5,0.1
+y_noise = 20 * np.random.normalsize = len(x)
+y = 1*x**3 + 1*(x**2) + 1*x + 3+y_noise
+plt.scatterx,y
+x2 = np.powerx1,2
+x3 = np.powerx1,3
+n = lenx1
+x1_new = np.reshapex1,(n,1)
+x2_new = np.reshapex2,(n,1)
+x3_new = np.reshapex3,(n,1)
+x_bias = np.ones(n,1)
+x_new = np.appendx_bias,x1_new,axis=1
+x_new = np.appendx_new,x2_new,axis=1
+x_new = np.appendx_new,x3_new,axis=1
+x_new_transpose = np.transposex_new
+x_new_transpose_dot_x_new = x_new_transpose.dotx_new
+temp_1 = np.linalg.invx_new_transpose_dot_x_new# Finding the dot product of transposed x and y :
+temp_2 = x_new_transpose.doty
+theta = temp_1.dottemp_2
+plt.scatterx,y
+plt.plotx,beta_0 + beta_1*x1 + beta_2*x2 + beta_3*x3,c="red"
+def predictionx1,x2,x3,beta_0,beta_1,beta_2,beta_3:
+pred = predictionx1,x2,x3,beta_0,beta_1,beta_2,beta_3
+def erry_pred,y:
+  var = y - y_pred
+  n = lenvar
+  MSE = var.sum
+error = errpred,y

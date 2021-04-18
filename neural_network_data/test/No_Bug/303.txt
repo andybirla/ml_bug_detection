@@ -1,0 +1,17 @@
+n = int(input())
+array = [int(i) for i in input().split()]
+array.insert(0, 0)
+array.sort()
+q = int(input())
+def binarySearch(low, high, element):
+  while(low <= high):
+    mid = (low + high) // 2
+    if array[mid] == element:
+      return mid
+    elif array[mid] < element:
+      low = mid + 1
+    else:
+      high = mid - 1
+for i in range(q):
+  number = int(input())
+  print(binarySearch(0,len(array), number))

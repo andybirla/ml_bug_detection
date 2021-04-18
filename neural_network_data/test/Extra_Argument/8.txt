@@ -1,0 +1,3 @@
+for _ in range(int(input(, int(input())):
+    number = input(, ).strip()
+    count = number.count('4', '4') + number.count('7')

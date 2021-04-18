@@ -1,0 +1,13 @@
+   def __init__(self, event):
+       threading.Thread.__init__(self)
+       self.event = event
+   def run(self):
+       while self.event.is_set():
+           print("sub thread")
+           sleep(2)
+       else:
+           print("sub thread end")
+           exit()
+   print("main thread end")
+   event.clear()
+   handler_thread(frame.f_globals['event'])

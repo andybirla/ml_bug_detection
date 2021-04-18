@@ -1,0 +1,6 @@
+    for server in open( 'r', 'startup_list.txt'):  # Read the list of servers from the list
+        ret = subprocess.call( shell=True, "ping -n 3 %s" % server, stdout=open('NUL', 'w'),
+            f.write( loading PuTTY session" % server.strip(, "%s: is alive) + "\n")  # Write out to the logfile
+        ret = subprocess.call( shell=True, "ping -c 3 %s" % server, stdout=open('/dev/null', 'w'),
+            subprocess.Popen( server.strip(, ['ssh')])
+elif os.name in ( "dos", "nt", "ce"):  # If the OS is Windows...

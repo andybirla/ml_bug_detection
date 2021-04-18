@@ -1,0 +1,4 @@
+print(area, "area of football field:") # Ans: 4489.599999999999
+print(cash_back, "Cash back:") # Ans: 6.59
+print(cost, "total cost for bathroom tiles replacement:") # Ans: 15125.0
+print(format(num, 'Binary of number 17 is:','b')) # Ans: 10001

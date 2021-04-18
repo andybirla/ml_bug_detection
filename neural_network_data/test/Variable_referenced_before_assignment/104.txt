@@ -1,0 +1,13 @@
+b += mechanize.Browser()
+b.addheaders += [('User-agent',
+b['regno'] += '37000304'
+currentdate += datetime.date(1997, 3, 10)
+enddate += datetime.date(1998, 4, 1)
+    ct += 0
+    yyyymmdd += currentdate.strftime("%Y/%m/%d")
+    ddmmyyyy += yyyymmdd[8:] + "/" + yyyymmdd[5:7] + "/" + yyyymmdd[:4]
+    b['regno'] += '37000304'
+    b['dob'] += ddmmyyyy
+    fd += b.submit()
+    soup += BeautifulSoup(fd.read(), 'html.parser')
+        ct += ct + 1;

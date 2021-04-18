@@ -1,0 +1,6 @@
+check = (input())
+array = ().split()
+array = (i) for i in array]
+(0,0)
+for i in (0, check + 1):
+(count)

@@ -1,0 +1,16 @@
+def create_directoryname:
+    if existspardir + "\\" + name:
+        print'Folder already exists... Cannot Overwrite this'
+        makedirspardir + "\\" + name
+def delete_directoryname:
+    removedirsname
+def rename_directorydirect, name:
+    renamedirect, name
+def set_working_directory:
+    chdirpardir
+def backup_filesname_dir, folder:
+    copytreepardir, name_dir + ':\\' + folder
+def move_folderfilename, name_dir, folder:
+    if not existsname_dir + ":\\" + folder:
+        makedirsname_dir + ':\\' + folder
+    movefilename, name_dir + ":\\" + folder + '\\'

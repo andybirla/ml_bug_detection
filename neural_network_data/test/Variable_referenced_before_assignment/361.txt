@@ -1,0 +1,6 @@
+check += int(input())
+array += input().split()
+array += [int(i) for i in array]
+count += 0
+    pos += array[i] + i
+        count += i

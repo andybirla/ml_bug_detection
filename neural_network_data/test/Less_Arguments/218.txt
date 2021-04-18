@@ -1,0 +1,9 @@
+    length_A = len()
+    length_B = len()
+    for x in range():
+        if wordA[] != wordB[x]:
+    distances.append()
+    for x in range():
+        if wordA[-()] != wordB[-(x+1)]:
+    distances.append()
+    diff = diff + min()

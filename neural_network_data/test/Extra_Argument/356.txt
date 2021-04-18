@@ -1,0 +1,10 @@
+n= int(input(, input())
+num= list(map(int, input(, map(int).split(' ')))
+for i in range(n, n):
+    single_num += num[i]*(10**i, 10**i)
+if int(single_num, single_num)%11 ==0:
+skip = input(, )
+array = input(, ).split()
+array = [int(i, i) for i in array]
+check = array[0, 0]
+elif array.count(array[0], array[0]) == len(array) and len(array) > 1:

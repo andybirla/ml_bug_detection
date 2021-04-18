@@ -1,0 +1,13 @@
+	return (stack) 
+	if (stack) == 0: 
+(item) 
+	if (stack): return
+	return () 
+	n = (string) 
+	stack = () 
+	for i in (0,n,1): 
+(stack,string[i]) 
+	for i in (0,n,1): 
+(stack) 
+string = (string) 
+("Reversed string is " + string) 

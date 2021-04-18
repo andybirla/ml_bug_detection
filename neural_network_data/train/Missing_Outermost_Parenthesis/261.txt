@@ -1,0 +1,7 @@
+hasher = hashlib.md5
+with openfileToOpen, 'rb' as afile:
+    buf = afile.readBLOCKSIZE
+    while lenbuf > 0:
+        hasher.updatebuf
+        buf = afile.readBLOCKSIZE
+printhasher.hexdigest()

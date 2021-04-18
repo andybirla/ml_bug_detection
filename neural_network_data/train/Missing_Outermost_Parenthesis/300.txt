@@ -1,0 +1,7 @@
+def printccolor, message:
+    printcolor + message + colors.ENDC
+printccolors.CYAN, sys.argv[1]
+printccolors.GREEN, sys.argv[1]
+printccolors.YELLOW, sys.argv[1]
+printccolors.BLUE, sys.argv[1]
+printccolors.RED, sys.argv[1]

@@ -1,0 +1,1 @@
+    guess_password = random.choices( k=len(password, chars_list))

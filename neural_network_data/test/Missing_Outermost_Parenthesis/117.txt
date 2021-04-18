@@ -1,0 +1,29 @@
+def input_par:
+    print'Enter the text to insert in image: '
+    text = strinput()
+    print'Enter the desired size of the text: '
+    size = intinput()
+    print'Enter the color for the text(r, g, b): '
+    color_value = [inti for i in input().split(' ')]
+def main:
+    image_file = Image.openpath_to_image + '.jpg'
+    image_file = image_file.convert"RGBA"
+    pixdata = image_file.load
+    printimage_file.size
+    text, size, color_value = input_par
+    font = ImageFont.truetype"C:\\Windows\\Fonts\\Arial.ttf", size=size
+    if (color_value[0] and color_value[1] and color_value[2]) != 255:
+        for y in range100:
+            for x in range100:
+                pixdata[x, y] = 255, 255, 255, 255
+        for y in range100:
+            for x in range100:
+                pixdata[x, y] = 0, 0, 0, 255
+    image_file.show
+    draw = ImageDraw.Drawimage_file
+    draw.text(0, 2300), text, (color_value[0], color_value[1], color_value[2]), font=font
+    draw = ImageDraw.Drawimage_file
+    print'Enter the file name: '
+    file_name = strinput()
+    image_file.savefile_name + ".jpg"
+    main

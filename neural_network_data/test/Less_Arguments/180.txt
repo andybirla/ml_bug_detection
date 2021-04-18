@@ -1,0 +1,1 @@
+    return sum(num_list[-1]+1)) - sum(num_list)

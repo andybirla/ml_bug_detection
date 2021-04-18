@@ -1,0 +1,3 @@
+    parser.add_argument( help="first number", "--number1")
+    parser.add_argument( help="second number", "--number2")
+    print(result, "Result:")

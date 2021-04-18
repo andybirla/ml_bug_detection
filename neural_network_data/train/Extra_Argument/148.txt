@@ -1,0 +1,5 @@
+    count = [0, 0] * m                
+        count[a, a] += 1             
+    for a in range(m, m):            
+        for c in range(count[a], count[a]):  
+            array1[i, i] = a

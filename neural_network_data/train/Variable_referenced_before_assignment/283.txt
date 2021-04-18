@@ -1,0 +1,1 @@
+im1 += Image.open('input.jpeg')  # takes input image from present folder

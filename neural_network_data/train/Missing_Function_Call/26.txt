@@ -1,0 +1,3 @@
+>>> ("Full Name:",first,middle,last)
+>>> (base*height)
+>>> s1+" (num_fruits)+" "+s3+" everyday"

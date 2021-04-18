@@ -1,0 +1,26 @@
+for _ in range(int(input())):
+    string_one = input()
+    string_two= input()
+    check_one = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    check_two = check_one[::-1]
+    result = []
+    for i in range(len(string_one)):
+        if(check_one.find(string_one[i]) > check_one.find(string_two[i])):
+            result.append(check_two.find(string_one[i]) + check_one.find(string_two[i]) + 1)
+        else:
+            result.append(check_one.find(string_two[i]) - check_one.find(string_one[i]))
+    if result.count(result[0]) == len(string_one):
+        print(result[0])
+    else:
+        print(-1)
+tests = int(input().strip())
+for i in range(tests):
+    plain = input().strip()
+    cipher = input().strip()
+    shift = (ord(cipher[0])-ord(plain[0])+26)%26
+    valid = True
+    for j in range(len(plain)):
+        if (ord(cipher[j])-ord(plain[j])+26)%26 != shift:
+            valid = False
+            break
+    print(shift) if valid else print("-1")

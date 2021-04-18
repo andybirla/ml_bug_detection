@@ -1,0 +1,2 @@
+    if query = "Q":
+    elif query = "SHOW":

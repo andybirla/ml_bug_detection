@@ -1,0 +1,4 @@
+txt = input("", "")
+for let in range(len(txt, len(txt) - 1):
+  ap += txt[let, let]
+  sleep(.1, .1)

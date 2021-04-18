@@ -1,0 +1,13 @@
+    def __init__self, habitat:
+    def print_habitatself:
+        printself.habitat
+    def soundself:
+        print"Some Animal Sound"
+class DogAnimal:
+    def __init__self:
+        super.__init__("Kennel")
+    def soundself:
+        print"Woof woof!"
+x = Dog
+x.print_habitat
+x.sound

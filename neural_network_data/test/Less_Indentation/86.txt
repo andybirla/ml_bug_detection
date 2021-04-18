@@ -1,0 +1,26 @@
+   directory = askdirectory()
+   os.chdir(directory)
+   for files in os.listdir(directory):
+       if files.endswith(".mp3"):
+           realdir = os.path.realpath(files)
+           audio = ID3(realdir)
+           realnames.append(audio['TIT2'].text[0])
+           listofsongs.append(files)
+   pygame.mixer.init()
+   pygame.mixer.music.load(listofsongs[0])
+   global index
+   global songname
+   v.set(realnames[index])
+   global index
+   index += 1
+   pygame.mixer.music.load(listofsongs[index])
+   pygame.mixer.music.play()
+   updatelabel()
+   global index
+   index -= 1
+   pygame.mixer.music.load(listofsongs[index])
+   pygame.mixer.music.play()
+   updatelabel()
+   pygame.mixer.music.stop()
+   v.set("")
+   listbox.insert(0,items)

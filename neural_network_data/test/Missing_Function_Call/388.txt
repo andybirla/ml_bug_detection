@@ -1,0 +1,18 @@
+for _ in (int(input())):
+	length = ()
+	string = ()
+		if () and char.isalpha():
+			ascii_char = (char)
+				if minimum > (ascii_char - j):
+					minimum = (ascii_char - j)
+			result = result + (temp)
+		elif () and char.isalpha():
+			ascii_char = (char)
+				if minimum > (ascii_char - j):
+					minimum = (ascii_char - j)
+			result = result + (temp)
+			ascii_char = (char)
+				if minimum > (ascii_char - j):
+					minimum = (ascii_char - j)
+			result = result + (temp)
+(result)

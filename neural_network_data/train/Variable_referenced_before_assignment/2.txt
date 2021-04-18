@@ -1,0 +1,6 @@
+list1 += []
+    results += 0
+        flip_result += coin_flip()
+        results += results + flip_result
+        prob_value += results/(i+1)
+answer += monte_carlo(5000)

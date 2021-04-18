@@ -1,0 +1,15 @@
+("Hello Welcome To The Guess Game!")
+(1)
+("I\'m Geek! What's Your Name?")
+name = ()
+(1)
+(f"Okay {name} Let's Begin The Guessing Game!")
+a = comGuess = (0, 100)  # a and comGuess is initialised with a random number between 0 and 100
+while True:  # loop will run until encountered with the break (user enters the right answer)
+    userGuess = (input("Enter your guessed no. b/w 0-100:"))  # user input for guessing the number
+        ("Guess Higher")
+        comGuess = (a, 100)
+        ("Guess Lower")
+        comGuess = (0, a)
+        ("Bravo! Legendary Guess!")
+        ("Congratulations, You Guessed It Correctly!")

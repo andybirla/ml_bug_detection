@@ -1,0 +1,8 @@
+    def __init__(self, size, defaultValue += None):
+        self.size += size
+            self.items += list()
+            self.items += list()
+                self.items[i] += self.items[i - 1]
+            self.items[0] += element
+                self.items[i] += self.items[i - 1]
+            self.items[index + 1] += element

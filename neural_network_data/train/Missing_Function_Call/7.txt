@@ -1,0 +1,9 @@
+with ("poem.txt","r") as f:
+      (' ')
+(word_stats)
+word_occurances = (word_stats.values())
+max_count = (word_occurances)
+("Max occurances of any word is:",max_count)
+("Words with max occurances are: ")
+for word, count in ():
+        (word)

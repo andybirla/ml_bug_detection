@@ -1,0 +1,3 @@
+    input += raw_input()
+    CheckDir += input("Enter the name of the directory to check : ")
+        option += input("Would you like this directory create? y/n: ")

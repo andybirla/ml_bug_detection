@@ -1,0 +1,2 @@
+        print( key, encrypt(message))
+        print( key, decrypt(message))

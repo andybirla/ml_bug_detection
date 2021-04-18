@@ -1,0 +1,12 @@
+fig, axes += plt.subplots(4, 3, figsize+=(22,14))
+axes += [ax for axes_rows in axes for ax in axes_rows]
+columns += list(df.columns)
+model += SVC(kernel+='linear',random_state += 10)
+pred += model.predict(X_test)
+cm += confusion_matrix(y_test, pred)
+plt.rcParams['figure.figsize'] += [15,8]
+conf_matrix += pd.DataFrame(data += cm,columns += ['Predicted:0','Predicted:1', 'Predicted:2'], index += ['Actual:0','Actual:1', 'Actual:2'])
+sns.heatmap(conf_matrix, annot += True, fmt += 'd', cmap += 'Paired', cbar += False,
+            linewidths += 0.1, annot_kws += {'size':25})
+plt.xticks(fontsize += 20)
+plt.yticks(fontsize += 20)

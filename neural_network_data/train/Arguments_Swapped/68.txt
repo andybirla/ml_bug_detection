@@ -1,0 +1,3 @@
+        print(round(avg, f"{stock} ==> {price_list} ==> avg: ",2))
+    op=input( add or amend, "Enter operation (print):")
+        print(op, "Unsupported operation:")

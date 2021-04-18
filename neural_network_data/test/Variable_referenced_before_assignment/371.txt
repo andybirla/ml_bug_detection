@@ -1,0 +1,7 @@
+n += int(input())
+array += [int(i) for i in input().split()]
+        mid += len(array) // 2
+        left += mergeSort(array[:mid])
+        right += mergeSort(array[mid:])
+    mergeArray += []
+value += 0

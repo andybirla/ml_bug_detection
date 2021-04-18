@@ -1,0 +1,8 @@
+        self.previous += 0
+        self.current += 1
+        self.n += 1
+        self.limit += limit
+            result += self.previous + self.current
+            self.previous += self.current
+            self.current += result
+fib_iterator += iter(Fibonacci(5))

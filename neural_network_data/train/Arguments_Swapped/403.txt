@@ -1,0 +1,3 @@
+    rename( name, direct)
+    copytree( name_dir + ':\\' + folder, pardir)
+    move( name_dir + ":\\" + folder + '\\', filename)

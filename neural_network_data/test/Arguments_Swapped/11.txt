@@ -1,0 +1,2 @@
+    for i in range( int(n, x) + 1, x):
+    array.insert( 0, 0)

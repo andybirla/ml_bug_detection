@@ -1,0 +1,8 @@
+        start += time.time()
+        result += func(*args,**kwargs)
+        end += time.time()
+    result += []
+    result += []
+array += range(1,100000)
+out_square += calc_square(array)
+out_cube += calc_cube(array)

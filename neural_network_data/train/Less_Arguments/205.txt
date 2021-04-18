@@ -1,0 +1,16 @@
+class Vertex():
+        newVertex = Vertex()
+        self.vertexList[] = newVertex
+            return self.vertexList[]
+            newVertex = self.addVertex()
+            newVertex = self.addVertex()
+        self.vertexList[fromEdge].addNeighbour( cost)
+        return iter())
+    graph.addVertex()
+    graph.addVertex()
+    graph.addVertex()
+    graph.addVertex()
+    graph.addEdge( 'B', 5)
+    graph.addEdge( 'C', 6)
+    graph.addEdge( 'D', 2)
+    graph.addEdge( 'D', 3)

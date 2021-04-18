@@ -1,0 +1,4 @@
+    if len(obstacleHits) = obstacle:
+            if obstacleHits[i] = 0:
+            elif obstacleHits[i] = 1:
+            if ammo = 0:

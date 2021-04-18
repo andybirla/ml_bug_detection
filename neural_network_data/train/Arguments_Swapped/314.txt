@@ -1,0 +1,11 @@
+X = np.linspace(1, 0,100)             #(Start,End,Points)
+plt.scatter(Y_data, X,c="r")
+popt,pcov = curve_fit(X, calc_sine,Y_data)
+plt.scatter(Y_data, X)# Plot the best fit curve :
+plt.plot(calc_sine(X, X,*popt),c="r")
+Accuracy =r2_score(calc_sine(X, Y_data,*popt))
+popt,pcov = curve_fit(X, calc_line,Y_data)
+plt.scatter(Y_data, X)
+plt.plot(calc_line(X, X,*popt),c="r")
+Accuracy =r2_score(calc_line(X, Y_data,*popt))
+print (Accuracy, "Accuracy of Linear Model : ")

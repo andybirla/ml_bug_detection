@@ -1,0 +1,10 @@
+img =cv2.imread'img.png'
+img=cv2.cvtColorimg,cv2.COLOR_BGR2RGB
+printpytesseract.image_to_string(img)
+boxes=pytesseract.image_to_boxesimg
+for b in boxes.splitlines:
+    b=b.split' '
+    x,y,w,h=intb[1],int(b[2]),int(b[3]),int(b[4])
+    cv2.rectangleimg,(x,hI-y),(w,hI-h),(0,0,255),0.2
+cv2.imshow'img',img
+cv2.waitKey0

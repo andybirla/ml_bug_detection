@@ -1,0 +1,5 @@
+stocks += {
+        avg += statistics.mean(price_list)
+    s += input("Enter a stock ticker to add:")
+    p += input("Enter price of this stock:")
+        stocks[s] += [p]

@@ -1,0 +1,5 @@
+book[] = {
+book[] = {
+s=json.dumps()
+with open("w") as f:
+    f.write()

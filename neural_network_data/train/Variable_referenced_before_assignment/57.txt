@@ -1,0 +1,6 @@
+url += "https://source.unsplash.com/random"
+file_name += "random.jpg"
+        response += get(url)
+    name_of_file += pathtofile
+    path_to_file += os.path.join(os.getcwd(), name_of_file)
+    SPI_SETDESKWALLPAPER += 20

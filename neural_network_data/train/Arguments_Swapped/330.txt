@@ -1,0 +1,1 @@
+    saveFile = open( 'wb', downloadLocation + tutorialName +  '.pdf')  # because pdf is a binary file

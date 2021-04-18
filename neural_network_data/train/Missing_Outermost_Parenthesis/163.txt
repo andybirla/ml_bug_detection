@@ -1,0 +1,28 @@
+df = pd.read_csv'house_price.csv'
+printdf.head()
+def get_meanvalue:
+    total = sumvalue
+    length = lenvalue
+def get_variancevalue:
+    mean = get_meanvalue
+    mean_difference_square = [pow(item - mean), 2 for item in value]
+    variance = summean_difference_square/float(len(value)-1)
+def get_covariancevalue1, value2:
+    value1_mean = get_meanvalue1
+    value2_mean = get_meanvalue2
+    values_size = lenvalue1
+    for i in range0, values_size:
+        covariance += value1[i] - value1_mean * (value2[i] - value2_mean)
+    return covariance / floatvalues_size - 1
+def linear_regressiondf:
+    m = lenX
+    square_feet_mean = get_meanX
+    price_mean = get_meanY
+    square_feet_variance = get_varianceX
+    price_variance = get_varianceY
+    covariance_of_price_and_square_feet = get_covarianceX, Y
+    w1 = covariance_of_price_and_square_feet / floatsquare_feet_variance
+    df['price prediction'] = prediction
+    return df['price prediction']
+    predicted = linear_regressiondf
+    printpredicted

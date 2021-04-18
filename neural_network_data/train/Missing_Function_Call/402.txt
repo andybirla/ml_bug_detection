@@ -1,0 +1,39 @@
+    'User-Agent': '(X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
+    ('Enter data to download Images: ')
+    data = ()
+    search = (search_query)
+    (search)
+    request = (g, headers=usr_agent)
+    r = (request).read()
+    sew = (r, 'html.parser')
+    results = ('div', {'class': 'rg_meta'})
+                        (re.text)['ity'])
+        (link)
+        rs = (re)
+        with ('img' + str(counter) + '.jpg', 'wb') as file:
+            (rs.content)
+    cont = ()  # Stores the links of images
+    temp = ()  # Refines the links to download images
+    ('Enter data to download wallpapers: ')
+    data = ()
+    search = (search_query)
+    (search)
+    request = (g, headers=usr_agent)
+    r = (request).read()
+    sew = (r, 'html.parser')
+    for links in ('a'):
+        if 'wallpaperscraft.com/download' in ('href'):
+            (links.get('href'))
+        rs = (re)
+        with ('img' + str(count) + '.jpg', 'wb') as file:
+            (rs.content)
+    f(folders, subfolder, files) in walk(curdir):
+            (folder)
+    ('Enter the directory to be set: ')
+    data = ()
+    (data + ':\\')
+    ('Enter name for the folder: ')
+    data = ()
+    (data)
+('Images')
+(DEFAULT_DIRECTORY)

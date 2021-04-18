@@ -1,0 +1,5 @@
+check = int())
+array = [int() for i in array]
+array.insert(0)
+for i in range( check + 1):
+    pos = array[] + i

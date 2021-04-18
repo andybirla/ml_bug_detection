@@ -1,0 +1,9 @@
+   def doThis(self):
+       print('Doing this in A')
+   pass
+   def doThis(self):
+       print('Doing this in C')
+   pass
+   dObj = D()
+   dObj.doThis() #A method gets called because order for lookup is D,B,A,C this is shown by function mro
+   print(D.mro())

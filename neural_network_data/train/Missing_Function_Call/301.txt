@@ -1,0 +1,8 @@
+auth = (consumer_key, consumer_secret)
+(access_token, access_token_secret)
+api = (auth,wait_on_rate_limit=True)
+csvFile = ('tweets.csv', 'a')
+csvWriter = (csvFile)
+                           ():
+    p(tweet.created_at, tweet.text)
+    ([tweet.created_at, tweet.text.encode('utf-8')])

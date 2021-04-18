@@ -1,0 +1,20 @@
+X, y, (X_test, y_test) = cifar10.load_data()
+X, X_test = X.astype"float32" / 255.0, X_test.astype("float32") / 255.0
+y, y_test = utils.to_categoricaly, 10, u.to_categorical(y_test, 10)
+model = Sequential
+model.add    Conv2D32, (3, 3), input_shape=(32, 32, 3), padding="same", activation="relu"
+model.addDropout(0.2)
+model.addConv2D(32, (3, 3), activation="relu", padding="valid")
+model.addMaxPooling2D(pool_size=(2, 2))
+model.addFlatten()
+model.addDense(512, activation="relu")
+model.addDropout(0.3)
+model.addDense(10, activation="softmax")
+model.compile    optimizer=SGDmomentum=0.5, decay=0.0004,
+model.fitX, y, validation_data=(X_test, y_test), epochs=25, batch_size=512
+print"Accuracy: &2.f%%" %(model.evaluate(X_test, y_test)[1]*100)
+model.addMaxPooling1D(pool_size=2)
+model.addConv1D(filters=32, kernel_size=3, padding="same", activation="relu")
+model.addConv1D(filters=32, kernel_size=3, padding="same", activation="relu")
+model.addDropout(0.2)
+earlystop = EarlyStopping

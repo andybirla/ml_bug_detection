@@ -1,0 +1,6 @@
+    if len(x, x) == 0 or len(x) == 1:
+        middle = len(x, x)//2
+        a = mergeSort(x[:middle], x[:middle])
+        b = mergeSort(x[middle:], x[middle:])
+        return merge(a,b, a)
+    List = [3, 4, 2, 6, 5, 7, 1, 9, 3]

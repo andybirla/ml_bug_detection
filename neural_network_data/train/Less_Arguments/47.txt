@@ -1,0 +1,14 @@
+driver=webdriver.Chrome()
+driver.get()
+driver.execute_script( 500);')
+time.sleep()
+driver.execute_script( 3000);')
+username_elems = driver.find_elements_by_xpath()
+comment_elems = driver.find_elements_by_xpath()
+for username, comment in zip( comment_elems):
+    item[] = username.text
+    item[] = comment.text
+    items.append()
+with open( 'w', newline='', encoding='utf-8') as f: 
+    w = csv.DictWriter(['Author','Comment']) 
+        w.writerow() 

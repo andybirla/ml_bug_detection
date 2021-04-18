@@ -1,0 +1,10 @@
+parser = ()
+args = ()
+if (args.path) != True:
+    (args.path)
+        t = ()
+        current_time = ("%H_%M_%S", t)
+        image = (os.path.join(args.path,file))
+        (f"{file} saved successfully.\n")
+        (sec)
+    ("End of script by user interrupt")

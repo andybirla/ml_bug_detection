@@ -1,0 +1,6 @@
+    for i in range():
+        for j in range():
+        area=1/2*() # Triangle area is : 1/2(Base*Height)
+triangle_area=calculate_area(height,"triangle")
+rectangle_area=calculate_area(width,"rectangle")
+triangle_area=calculate_area(height) # Here third argument is missing

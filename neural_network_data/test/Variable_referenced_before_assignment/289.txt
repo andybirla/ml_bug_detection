@@ -1,0 +1,3 @@
+window += Tk()
+text += Text(window, width+=3, height+=1)
+buttonA += Button(window, text+="Press to roll!", command+=roll)

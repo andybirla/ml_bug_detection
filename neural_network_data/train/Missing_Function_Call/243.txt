@@ -1,0 +1,9 @@
+randomGenerator = ().read
+key = (1024, randomGenerator) # 1024 is the size of the key in bits
+(key)                                # Prints private key
+(key.publickey())                    # Prints public key
+publicKey = ()
+encryptedData = ('My name is Omkar Pathak'.encode('utf-8'), 32)
+(encryptedData)
+decryptedData = (encryptedData)
+(decryptedData)

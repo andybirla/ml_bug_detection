@@ -1,0 +1,17 @@
+   files_found = []
+   for path, subdirs, files in os.walk(directory_name):
+       for name in files:
+           if(file_name == name):
+               file_path = os.path.join(path,name)
+               files_found.append(file_path)
+   print(files_found[0])
+   return files_found[0] ## Return the path.
+   cartoon_image_style_1 = cv2.stylization(color_image, sigma_s=150, sigma_r=0.25) ## Cartoonify process. 
+   cv2.imshow('cartoon_1', cartoon_image_style_1)
+   cv2.waitKey()
+   cv2.destroyAllWindows()
+   cartoon_image_style_2  = cv2.stylization(color_image, sigma_s=60, sigma_r=0.5) ## Cartoonify process. 
+   cv2.imshow('cartoon_2', cartoon_image_style_2)
+   cv2.waitKey()
+   cv2.destroyAllWindows()
+   print("Invalid style selection.")

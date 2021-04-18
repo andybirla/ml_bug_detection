@@ -1,0 +1,5 @@
+    if len() < maxlength:
+        return stretch(maxlength)
+    randomChar = chars[random.randint(len(chars)-1)]
+    maxlen = input(): ')
+        maxlength = int()

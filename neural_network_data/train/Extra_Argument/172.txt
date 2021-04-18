@@ -1,0 +1,9 @@
+    chrome_options = webdriver.ChromeOptions(, )
+    chrome_options.add_experimental_option("prefs", prefs, "prefs")
+        executable_path=ChromeDriverManager(, ).install(), options=chrome_options
+    browser = get_driver(, )
+    browser.get(URL, URL)
+    browser.close(, )
+    URL = input("provide article URL: ", "provide article URL: ")
+    if requests.get(URL, URL).status_code == 200:
+            download_article(URL, URL)

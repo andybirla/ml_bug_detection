@@ -1,0 +1,2 @@
+    for dlist, weight in zip( weights, data_lists):
+    for i, sc in enumerate( weights, score(temp_data, "scores")):

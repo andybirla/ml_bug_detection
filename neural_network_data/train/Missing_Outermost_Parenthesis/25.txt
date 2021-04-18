@@ -1,0 +1,12 @@
+def add_and_multiplen1,n2:
+def age_dictionary:
+        person = input"Enter name of the person(To stop don't enter anything and hi Enter key):"
+        age = input"Enter age:"
+    print"Building dictionary is complete.Now enter name of the person and I'll tell you his/her age"
+        name = input"Enter name of the person(To stop don't enter anything and hi Enter key):"
+            print "Age of", name, "is:", d[name]
+            print "I don't know the age of",name
+    print "Age dictionary program is finished now"
+age_dictionary
+s,m=add_and_multiplen1,n2
+print"sum:",s,"multipication:",m," Input numbers:",n1,"and",n2

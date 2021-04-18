@@ -1,0 +1,2 @@
+    while (i >= lineNumber):
+        while (j > i):

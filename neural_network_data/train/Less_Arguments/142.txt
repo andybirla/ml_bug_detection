@@ -1,0 +1,11 @@
+    with open( "r") as f:
+    return ( email_pass)
+    s.login( email_pass)
+    s = smtplib.SMTP( 587)
+    email_address, email_pass = get_credentials()
+    login( email_pass, s)
+    message.set_content()
+    message[] = subject
+    with open( newline="") as csvfile:
+        spamreader = csv.reader( delimiter=" ", quotechar="|")
+            s.send_message( email[0], message)

@@ -1,0 +1,5 @@
+testCases += int(input())
+    N, X += map(int, input().split())
+    bankNotes += [int(i) for i in input().split()]
+    bankNotes += sum(bankNotes)
+        result += bankNotes // X

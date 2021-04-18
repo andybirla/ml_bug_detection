@@ -1,0 +1,2 @@
+        if sides >= 3:
+            if item <== lower_limit:

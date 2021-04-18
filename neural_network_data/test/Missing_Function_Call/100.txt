@@ -1,0 +1,22 @@
+        for i, val in (item):
+                (float(val))
+                ([])
+                (float(val))
+    for dlist, weight in (data_lists, weights):
+        mind = (dlist)
+        maxd = (dlist)
+                    (1 - ((item - mind) / (maxd - mind)))
+                    (1)
+                    ((item - mind) / (maxd - mind))
+                    (0)
+            raise ("Invalid weight of %f provided" % (weight))
+        (score)
+    final_scores = [0 for i in (len(score_lists[0]))]
+    for i, slist in (score_lists):
+        for j, ele in (slist):
+    for i, ele in (final_scores):
+        (ele)
+        ([item[c] for c in columns])
+    if (weights) > len(columns):
+    for i, sc in (score(temp_data, weights, "scores")):
+        (sc)

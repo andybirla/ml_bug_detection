@@ -1,0 +1,5 @@
+print'The factors of the number you type when prompted will be displayed'
+a = intinput('Type now // ')
+while b <= math.sqrta:
+        print"A factor of the number is ", b
+        print"A factor of the number is ", int(a / b)

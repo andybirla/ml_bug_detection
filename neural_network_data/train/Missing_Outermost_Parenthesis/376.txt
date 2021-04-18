@@ -1,0 +1,10 @@
+  for root, dirs, files in os.walk".":
+        if filename.endswith'.jpg':
+          im = Image.openfilename.convert("RGB")
+          im.savefilename.replace('jpg', 'png'), "png"
+        elif filename.endswith'.png':
+          im = Image.openfilename.convert("RGB")
+          im.savefilename.replace('png', 'jpg'), "jpeg"
+          print'dont have image to convert'
+  print'directory empty!'
+  sys.exit

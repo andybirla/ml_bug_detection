@@ -1,0 +1,12 @@
+args_parser = (usage=usage, description=description)
+                         (OPTIONAL) Directory where files will be moved from. Defaults to current directory')
+                         (REQUIRED) Directory where files will be moved to.')
+                         (OPTIONAL) Days value specifies the minimum age of files to be moved. Default is 240.')
+args = ()
+now = ()  # Get the current time
+if not (dst):
+    (dst)
+for f in (src):  # Loop through all the files in the source directory
+    if (f).st_mtime < now - days * 86400:  # Work out how old they are, if they are older than 240 days old
+        if (f):  # Check it's a file
+            (f, dst)  # Move the files

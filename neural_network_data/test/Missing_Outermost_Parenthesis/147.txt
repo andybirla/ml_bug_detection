@@ -1,0 +1,2 @@
+dec_num = input'Enter the decimal number\n'
+printhex(int(dec_num))

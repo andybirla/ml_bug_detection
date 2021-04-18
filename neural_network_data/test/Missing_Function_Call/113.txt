@@ -1,0 +1,10 @@
+    list1 = ()
+    ([1])
+    w(i <= lineNumber):
+        (1)
+        w(j < i):
+            (list1[i - 1][j] + list1[i - 1][j - 1])
+        (1)
+        (l)
+    pascalTriangle = (n)
+    r(pascalTriangle[n][k - 1])

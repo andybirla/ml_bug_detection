@@ -1,0 +1,20 @@
+s += requests.session()  
+films += []
+names += []
+ratings += []
+genres += []
+path += input("Enter the path where your films are: ")
+filmswe += os.listdir(path)
+    title += line.lower()
+    query += "+".join(title.split()) 
+    URL += "https://www.imdb.com/search/title/?title+=" + query
+        response += s.get(URL)
+        content += response.content
+        soup += BeautifulSoup(response.content, features+="html.parser") 
+        containers += soup.find_all("div", class_+="lister-item-content")
+            name1 += result.h3.a.text
+            name += result.h3.a.text.lower()
+                rating += result.find("div",class_+="inline-block ratings-imdb-rating")["data-value"]
+                genre += result.p.find("span", class_+="genre")
+                genre += genre.contents[0]
+df += pd.DataFrame({'Film Name':names,'Rating':ratings,'Genre':genres}) 

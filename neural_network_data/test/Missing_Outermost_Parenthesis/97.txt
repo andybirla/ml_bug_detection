@@ -1,0 +1,45 @@
+dropbox = os.getenv"dropbox"  # Set the variable, by getting the value of the variable from the OS
+config = os.getenv"my_config"  # Set the variable, by getting the value of the variable from the OS
+dbfile = "Databases/jarvis.db"  # Set the variable to the database
+master_db = os.path.joindropbox, dbfile  # Create the variable by linking the path and the file
+listfile = "startup_list.txt"  # File that will hold the servers
+serverfile = os.path.joinconfig, listfile  # Create the variable by linking the path and the file
+outputfile = 'server_startup_' + strftime("%Y-%m-%d-%H-%M") + '.log'
+def windows:  # This is the function to run if it detects the OS is windows.
+    f = openoutputfile, 'a'  # Open the logfile
+    for server in openserverfile, 'r':  # Read the list of servers from the list
+        ret = subprocess.call            f.write"%s: is alive" % server.strip().ljust(15) + "\n"  # Write out to the logfile is the server is up
+            f.write                "%s: did not respond" % server.strip.ljust(15) + "\n")  # Write to the logfile if the server is down
+def linux:  # This is the function to run if it detects the OS is nix.
+    f = open'server_startup_' + strftime("%Y-%m-%d") + '.log', 'a'  # Open the logfile
+    for server in openserverfile, 'r':  # Read the list of servers from the list
+        ret = subprocess.call            f.write"%s: is alive" % server.strip().ljust(15) + "\n"  # Write out to the logfile is the server is up
+            f.write                "%s: did not respond" % server.strip.ljust(15) + "\n")  # Write to the logfile if the server is down
+def get_serversquery:  # Function to get the servers from the database
+    conn = sqlite3.connectmaster_db  # Connect to the database
+    cursor = conn.cursor  # Create the cursor
+    cursor.execute'select hostname from tp_servers where location =?', (query,)  # SQL Statement
+    print'\nDisplaying Servers for : ' + query + '\n'
+        row = cursor.fetchone  # Return the results
+        f = openserverfile, 'a'  # Open the serverfile
+        f.write"%s\n" % str(row[0])  # Write the server out to the file
+        printrow[0]  # Display the server to the screen
+        f.close  # Close the file
+def main:  # Main Function
+    if os.path.existsserverfile:  # Checks to see if there is an existing server file
+        os.removeserverfile  # If so remove it
+    if lensys.argv < 2:  # Check there is an argument being passed
+        printtext  # Display the help text if there isn't one passed
+        sys.exit  # Exit the script
+        printtext  # Display the help text if there isn't one passed
+        sys.exit0  # Exit the script after displaying help
+        if sys.argv[1].lower.startswith('-site1'):  # If the argument is site1
+        elif sys.argv[1].lower.startswith('-site2'):  # Else if the variable is bromley
+            print'\n[-] Unknown option [-] ' + text  # If an unknown option is passed, let the user know
+            sys.exit0
+    get_serversquery  # Call the get servers funtion, with the value from the argument
+        linux  # Call the linux function
+    elif os.name in "nt", "dos", "ce":  # If the OS is Windows...
+        windows  # Call the windows function
+    print'\n[+] Check the log file ' + outputfile + ' [+]\n'  # Display the name of the log
+    main  # Call the main function

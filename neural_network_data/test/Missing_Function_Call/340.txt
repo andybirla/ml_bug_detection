@@ -1,0 +1,5 @@
+        return number * (number - 1)
+testCases = (input())
+for _ in (testCases):
+    number = (input())
+    (factorial(number))

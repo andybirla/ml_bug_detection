@@ -1,0 +1,3 @@
+for _ in rangeint(input()):
+    a=intinput()
+    printa|a+1

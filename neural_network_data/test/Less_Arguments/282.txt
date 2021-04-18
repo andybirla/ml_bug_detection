@@ -1,0 +1,8 @@
+loc = ()
+wb = xlrd.open_workbook()
+sheet = wb.sheet_by_index()
+sheet.cell_value( 0)
+for i in range():
+sheet = wb.sheet_by_index()
+for i in range():
+sheet = wb.sheet_by_index()

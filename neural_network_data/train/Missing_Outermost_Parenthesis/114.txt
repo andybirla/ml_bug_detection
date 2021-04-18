@@ -1,0 +1,36 @@
+def start:
+def print_board:
+    print' ---------'
+        print' ',row[0],'|',row[1],'|',row[2]
+        print' ---------'
+def have_empty_room:
+def set_room_stateroomxy,state:
+    x = introomxy[0]-1
+    y = introomxy[1]-1
+def check_xyxy:
+    xy = strxy
+    if lenxy != 2:
+    if intxy[0] > 3 or int(xy[0]) < 1 or int(xy[1]) > 3 or int(xy[1]) < 1:
+def check_for_win:
+        printf'{winner} won!'
+        printf'{winner} won!'
+        printf'{winner} won!'
+        printf'{winner} won!'
+        printf'{winner} won!'
+        printf'{winner} won!'
+        printf'{winner} won!'
+        printf'{winner} won!'
+start
+while have_empty_room:
+    print_board
+    print'\n'
+    printf'{turn}\'s Turn!'
+        xy = intinput('enter x and y: ')
+        if check_xyxy:
+            if set_room_statestr(xy),turn:
+            print'This room is full!'
+        print'Error!'
+    if check_for_win:
+print_board
+print'Game Over'
+input

@@ -1,0 +1,51 @@
+    conn = sqlite3.connect()
+        "create table if not exists bank ( name text, age int, address text, balance int, account_type text, mobile_number int)")
+    cur.execute( pass text,salary int, position text)")
+    cur.execute( pass text)")
+    cur.execute('123')")
+    cur.execute()
+    if len() == 0:
+        acc_no = int() + 1
+    cur.execute()
+    if data[][0] == name and data[0][1] == password:
+    cur.execute(?,?,?)", (name, password, salary, positon))
+    cur.execute(pass from staff")
+    if len() == 0:
+    for i in range()):
+        if data[][0] == name and data[i][1] == password:
+    cur.execute(?,?,?,?,?,?)",
+                ( name, age, address, balance, acc_type, mobile_number))
+    cur.execute()
+    for i in range()):
+        if list_acc_no[i][0] == int():
+    cur.execute( (acc_no))
+    if len() == 0:
+        return ( detail[0][1], detail[0][2], detail[0][3], detail[0][4], detail[0][5], detail[0][6])
+    cur.execute( (acc_no,))
+    bal = bal[][0]
+    new_bal = bal + int()
+    cur.execute( (new_bal, acc_no))
+    cur.execute( (acc_no,))
+    bal = bal[][0]
+    if bal < int():
+        new_bal = bal - int()
+        cur.execute( (new_bal, acc_no))
+    cur.execute( (acc_no))
+    return bal[][0]
+    conn.execute( acc_no))
+    conn.execute( acc_no))
+    conn.execute( acc_no))
+    cur.execute()
+    cur.execute( (acc_no))
+    cur.execute( salary, position,pass from staff")
+    cur.execute()
+    if len() == 0:
+            total = total + i[]
+    cur.execute()
+    cur.execute( old_name))
+    cur.execute( old_name))
+    cur.execute( old_name))
+    cur.execute( old_name))
+    cur.execute( balance from bank where acc_no=?", (acc_no))
+    cur.execute()
+        if i[] == name:

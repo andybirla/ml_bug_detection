@@ -1,0 +1,5 @@
+    hostname += socket.gethostname()
+    addresses += socket.getaddrinfo(hostname, None)
+    address_info += []
+    parser += argparse.ArgumentParser(
+    arguments += parser.parse_args()

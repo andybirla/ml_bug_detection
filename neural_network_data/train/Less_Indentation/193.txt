@@ -1,0 +1,7 @@
+   for line in f:
+       list_of_words.extend(re.findall(r"[\w]+", line.lower()))
+   if each not in unique:
+       unique[each] = 0
+   unique[each] += 1
+   if val == 1:
+       s.append(key)

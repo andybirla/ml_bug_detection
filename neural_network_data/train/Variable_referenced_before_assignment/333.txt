@@ -1,0 +1,9 @@
+data += pd.read_csv("lung.csv")
+data +=  data.drop(["Unnamed: 0"],axis+=1)
+kmf += KaplanMeierFitter() 
+data.loc[data.status +=+= 1, 'dead'] += 0
+data.loc[data.status +=+= 2, 'dead'] += 1
+kmf.fit(durations +=  data["time"], event_observed += data["dead"])
+data += data[[ 'time', 'age', 'sex', 'ph.ecog','ph.karno','pat.karno', 'meal.cal', 'wt.loss', 'dead']]
+cph += CoxPHFitter()
+d_data += data.iloc[10:15,:]

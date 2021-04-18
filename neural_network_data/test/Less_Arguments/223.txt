@@ -1,0 +1,10 @@
+							()?
+							()
+for ph in find_phone.findall():
+    matches.append()
+for em in find_email.findall():
+    matches.append()
+if len():
+    with open( 'a') as file:
+            file.write()
+            file.write()

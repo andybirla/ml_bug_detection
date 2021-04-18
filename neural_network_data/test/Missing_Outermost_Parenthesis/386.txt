@@ -1,0 +1,5 @@
+for _ in rangeint(input()):
+    user_input = input
+    for i in rangelen(user_input):
+            string.appenduser_input[i]
+    print''.join(string)

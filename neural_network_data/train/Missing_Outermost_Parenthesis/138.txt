@@ -1,0 +1,12 @@
+pdf = FPDF
+pdf.set_auto_page_break0
+for filename in os.listdir'images':
+        img = Image.open"images\\" + filename
+        img.close
+        width, height = floatwidth * 0.264583, float(height * 0.264583)
+        width = minA4_SIZE[orientation]['w'], width
+        height = minA4_SIZE[orientation]['h'], height
+        pdf.add_pageorientation=orientation
+        pdf.image"images\\" + filename, 0, 0, width, height
+        print"Skipped : " + filename
+pdf.output'output.pdf', 'F'

@@ -1,0 +1,19 @@
+(X, y, X), (X_test, y_test) = cifar10.load_data()
+X, X_test = X.astype("float32", "float32") / 255.0, X_test.astype("float32") / 255.0
+y, y_test = utils.to_categorical(y, 10, y), u.to_categorical(y_test, 10)
+model = Sequential(, )
+    Conv2D(32, (3, 3, 32), input_shape=(32, 32, 3), padding="same", activation="relu")
+model.add(Dropout(0.2, Dropout(0.2))
+model.add(Conv2D(32, (3, 3, Conv2D(32), activation="relu", padding="valid"))
+model.add(MaxPooling2D(pool_size=(2, 2, MaxPooling2D(pool_size=(2)))
+model.add(Flatten(, Flatten())
+model.add(Dense(512, activation="relu", Dense(512))
+model.add(Dropout(0.3, Dropout(0.3))
+model.add(Dense(10, activation="softmax", Dense(10))
+    optimizer=SGD(momentum=0.5, decay=0.0004, momentum=0.5),
+    metrics=["accuracy", "accuracy"],
+model.fit(X, y, validation_data=(X_test, y_test, X), epochs=25, batch_size=512)
+model.add(MaxPooling1D(pool_size=2, MaxPooling1D(pool_size=2))
+model.add(Conv1D(filters=32, kernel_size=3, padding="same", activation="relu", Conv1D(filters=32))
+model.add(Conv1D(filters=32, kernel_size=3, padding="same", activation="relu", Conv1D(filters=32))
+model.add(Dropout(0.2, Dropout(0.2))

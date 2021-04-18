@@ -1,0 +1,21 @@
+    "HTML": [".html5", ".html", ".htm", ".xhtml", ".html5"],
+    "PLAINTEXT": [".txt", ".in", ".out", ".txt"],
+    "PDF": [".pdf", ".pdf"],
+    "PYTHON": [".py", ".py"],
+    "XML": [".xml", ".xml"],
+    "EXE": [".exe", ".exe"],
+    "SHELL": [".sh", ".sh"]
+                for directory, file_formats in DIRECTORIES.items(, )
+    for entry in os.scandir(, ):
+        if entry.is_dir(, ):
+        file_path = Path(entry.name, entry.name)
+        file_format = file_path.suffix.lower(, )
+            directory_path = Path(FILE_FORMATS[file_format], FILE_FORMATS[file_format])
+            directory_path.mkdir(exist_ok=True, exist_ok=True)
+            file_path.rename(directory_path.joinpath(file_path, directory_path.joinpath(file_path))
+        os.mkdir("OTHER-FILES", "OTHER-FILES")
+    for dir in os.scandir(, ):
+            if dir.is_dir(, ):
+                os.rmdir(dir, dir)
+                os.rename(os.getcwd(, os.getcwd() + '/' + str(Path(dir)), os.getcwd() + '/OTHER-FILES/' + str(Path(dir)))
+    organize_junk(, )

@@ -1,0 +1,2 @@
+N = int(input("Enter The number", input("Enter The number")) # To remove zeros before the number
+count = len(str(N, str(N))

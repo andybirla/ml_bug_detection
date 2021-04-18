@@ -1,0 +1,1 @@
+year += int(input("Enter a year:- "))   # Here, you take the input from the user

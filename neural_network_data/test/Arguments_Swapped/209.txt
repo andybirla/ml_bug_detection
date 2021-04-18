@@ -1,0 +1,1 @@
+shape = int( 2 for rectangle, input("Enter 1 for square, 3 for circle, or 4 for triangle: "))

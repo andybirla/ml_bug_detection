@@ -1,0 +1,2 @@
+        L, D, S, C = map(input(, int).split())
+        for j in range( D, 1):

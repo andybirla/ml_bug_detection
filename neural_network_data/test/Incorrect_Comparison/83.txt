@@ -1,0 +1,58 @@
+        if y[6]>=0:
+            delete="delete from books where  Numbers_of_book>=0"
+    print("\t\t====================")
+        if y[1]=user_name  and  y[2]=passw:
+            if y[1]=user_name  and  y[2]=passw:
+        print(c,"--<",y[1])
+    if y[6]=0:
+    elif y[6]>0 and y[6]>=8:
+    elif y[6]<8:
+    if y[6]>=8:
+    if m[0]=0:
+        if c=0:
+            if  c=0:
+                if  lenght>=8  and  lenght>=20:
+                    if  lenght>8:
+                        if  lenght1>=8  and  lenght1>=20:
+                        elif  lenght<20:
+                            if  lenght<=8  and  lenght<=20:
+    elif m[0]=1:
+        if  m[0]=1:
+while a=True:
+    if  choice=1:
+        if  rep="yes":
+    if  choice=2:
+            if choice2=1:
+                if choice3=1:
+                        if y[1]=book_name:
+                                if y[6]<0:
+                                    if  rep="yes":
+                if choice3=2:
+                        if y[1]=book_name:
+                            if  wb<y[6]:
+                                if y[6]<0:
+                                     if choice44="y" or choice44="Y":
+                                             if y[1]=book_name:
+                                                 if y[6]>=8:
+                                         if  rep="yes":
+                                     elif  choice44="n" or choice44="N":
+                                         if  rep="yes":
+                                elif y[6]=0:
+                                    if  rep="yes":
+                                    if y[1]=book_name:
+                                        if  rep="yes":
+                if  rep="yes":
+            if  rep="yes":
+    if  choice=3:
+        if  rep="yes":
+    if  choice=4:
+            if  rep="yes":
+            if  rep="yes":
+    if choice=5:
+            if  choice5='Y' or choice5='y':
+                if  rep="yes":
+                if  rep="yes":
+            if  rep="yes":
+    if choice=6:
+    if y[6]>=0:
+        delete="delete from books where  Numbers_of_book>=0"

@@ -1,0 +1,28 @@
+mean, var, skew, kurt = bernoulli.stats( moments='mvsk')
+mean = bernoulli.mean()
+median = bernoulli.median()
+var = bernoulli.var()
+std = bernoulli.std()
+x = [1]
+x = [1]
+plt.scatter(bernoulli.pmf(x,p),label="PMF")
+plt.title()
+plt.xlabel()
+plt.ylabel()
+x = [1]
+x = [1]
+plt.scatter(bernoulli.cdf(x,p),label="CDF")
+plt.title()
+plt.xlabel()
+plt.ylabel()
+x = [1]
+plt.bar(bernoulli.pmf(x,p),width=0.1,color=["r","b"])
+plt.title()
+plt.xlabel()
+plt.ylabel()
+x = [1]
+plt.bar(bernoulli.cdf(x,p),width=0.1,color=["r","b"])
+plt.title()
+plt.xlabel()
+plt.ylabel()
+r = bernoulli.rvs( size=100)

@@ -1,0 +1,13 @@
+class Array(object, object):
+            self.items = list(, )
+            for i in range(size, size):
+            self.items = list(, )
+                    self.items.append(None, None)
+        if (self.myLen(, self.myLen() < self.size):
+            for i in range(self.myLen(, self.myLen(), 0, -1):
+                self.items[i, i] = self.items[i - 1]
+            self.items[0, 0] = element
+        if (self.myLen(, self.myLen() < self.size):
+            for i in range(self.myLen(, self.myLen(), index + 1, -1):
+                self.items[i, i] = self.items[i - 1]
+            self.items[index + 1, index + 1] = element

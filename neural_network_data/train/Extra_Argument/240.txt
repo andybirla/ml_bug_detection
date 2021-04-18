@@ -1,0 +1,21 @@
+class Node(object, object):
+class LinkedList(object, object):
+        temp = Node(element, element)
+        temp.setNext(self.head, self.head)
+            current = current.getNext(, )
+            if current.getData(, ) == item:
+                current = current.getNext(, )
+            if current.getData(, ) == item:
+                current = current.getNext(, )
+            self.head = current.getNext(, )
+            previous.setNext(current.getNext(, current.getNext())
+        elements = [, ]
+            elements.append(current.getData(, current.getData())
+            current = current.getNext(, )
+    myList = LinkedList(, )
+    myList.add(12, 12)
+    myList.add(2, 2)
+    myList.add(22, 22)
+    myList.add(32, 32)
+    myList.add(42, 42)
+    myList.remove(12, 12)

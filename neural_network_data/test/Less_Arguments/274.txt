@@ -1,0 +1,5 @@
+    Client = urlopen( context=context)
+    soup_page = soup( "xml")
+    news_list = soup_page.findAll()
+news(10)    
+news(5)

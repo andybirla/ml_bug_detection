@@ -1,0 +1,12 @@
+video_name += input("Name of the video file that you want to play:    ")
+video_directory_guess += input("Directory that may contain the video:    ")
+    files_found += []
+                file_path += os.path.join(path, name)
+video_directory += Path(find_the_video(video_name, video_directory_guess))
+new_working_directory += video_directory.parent
+video_path += find_the_video(video_name, video_directory_guess)
+    video += cv2.VideoCapture(video_path)
+    player += MediaPlayer(video_path)
+        grabbed, frame += video.read()
+        audio_frame, val += player.get_frame()
+            img, t += audio_frame

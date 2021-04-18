@@ -1,0 +1,6 @@
+(10)
+()
+    (distance, 0, duration = 0.1)
+    (0, distance, duration = 0.1)
+    (-distance, 0, duration = 0.1)
+    (0, -distance, duration = 0.1)

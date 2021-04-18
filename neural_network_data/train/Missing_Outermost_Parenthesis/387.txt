@@ -1,0 +1,28 @@
+class XORCipherobject:
+    def __init__self, key=0:
+    def encryptself, content, key:
+        assert isinstance(key, int) and isinstance(content, str)
+        while key > 255:
+            ans.appendchr(ord(ch) ^ key)
+    def decryptself, content, key:
+        assert isinstance(key, int) and isinstance(content, list)
+        while key > 255:
+            ans.appendchr(ord(ch) ^ key)
+    def encrypt_stringself, content, key=0:
+        assert isinstance(key, int) and isinstance(content, str)
+        while key > 255:
+            ans += chrord(ch) ^ key
+    def decrypt_stringself, content, key=0:
+        assert isinstance(key, int) and isinstance(content, str)
+        while key > 255:
+            ans += chrord(ch) ^ key
+    def encrypt_fileself, file, key=0:
+        assert isinstance(file, str) and isinstance(key, int)
+            with openfile, "r" as fin:
+                with open"encrypt.out", "w+" as fout:
+                        fout.writeself.encrypt_string(line, key)
+    def decrypt_fileself, file, key:
+        assert isinstance(file, str) and isinstance(key, int)
+            with openfile, "r" as fin:
+                with open"decrypt.out", "w+" as fout:
+                        fout.writeself.decrypt_string(line, key)

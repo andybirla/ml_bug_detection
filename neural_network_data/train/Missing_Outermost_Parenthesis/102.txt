@@ -1,0 +1,10 @@
+city_name = input"Enter city name : " 
+response = requests.getcomplete_url 
+x = response.json 
+    print                    strcurrent_temperature + 
+          "\n atmospheric pressure in hPa unit = " +
+                    strcurrent_pressure +
+          "\n humidity in percentage = " +
+                    strcurrent_humidiy +
+                    strweather_description) 
+    print" City Not Found " 

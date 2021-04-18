@@ -1,0 +1,6 @@
+    menu = (input("Choose an option: \n 1. Decimal to binary \n 2. Binary to decimal\n Option: "))
+        dec = (input("Input your decimal number:\nDecimal: "))
+        ("Binary: {}".format(bin(dec)[2:]))
+        binary = ("Input your binary number:\n Binary: ")
+        ("Decimal: {}".format(int(binary, 2)))
+    p("please choose a valid option")

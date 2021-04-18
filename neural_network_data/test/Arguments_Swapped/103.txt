@@ -1,0 +1,4 @@
+            api.update_with_media( status=title, pic)
+    auth = tweepy.OAuthHandler( cks, ck)
+    auth.set_access_token( ats, at)
+        print( Let's try again!", "OK)

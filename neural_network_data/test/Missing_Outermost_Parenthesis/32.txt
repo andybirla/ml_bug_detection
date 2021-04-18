@@ -1,0 +1,3 @@
+while1:
+        r=binint(input())
+        printr.count('1')

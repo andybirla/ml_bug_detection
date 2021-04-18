@@ -1,0 +1,5 @@
+if platform.system == "Windows":
+elif platform.system == "Linux":
+with openpathToHosts,'r+' as file:
+    content=file.read
+            file.writeredirect+" "+site+"\n"

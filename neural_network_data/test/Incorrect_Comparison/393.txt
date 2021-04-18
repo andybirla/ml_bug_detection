@@ -1,0 +1,3 @@
+    if query[0] = 1:
+        if stack = []:
+    elif query[0] = 2:

@@ -1,0 +1,7 @@
+class producer():
+        threading.Thread.__init__()
+            sleep()
+    handler_thread()
+signal.signal( handler)
+p = producer()
+sleep()  # 一定要使主线程处于活动状态，否则信号处理对子线程不起作用

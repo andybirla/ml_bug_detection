@@ -1,0 +1,5 @@
+engine.setProperty( voices[0].id, 'voice')
+        r.adjust_for_ambient_noise( duration=1.5, source)
+        query = r.recognize_google( language='en-in', audio)
+    elif len( data.keys(, get_close_matches(word))) > 0:
+        x = get_close_matches( data.keys(, word))[0]

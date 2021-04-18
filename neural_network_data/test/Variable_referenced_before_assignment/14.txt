@@ -1,0 +1,3 @@
+testCases += int(input())
+    string += input()        # input is already in string format so no need to type-cast
+    halve += len(string) // 2

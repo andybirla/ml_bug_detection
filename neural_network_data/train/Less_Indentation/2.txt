@@ -1,0 +1,12 @@
+   return random.randint(0,1) 
+   results = 0
+   for i in range(n):
+       flip_result = coin_flip()
+       results = results + flip_result
+       prob_value = results/(i+1)
+       list1.append(prob_value)
+       plt.axhline(y=0.5, color='r', linestyle='-')
+       plt.xlabel("Iterations")
+       plt.ylabel("Probability")
+       plt.plot(list1)
+   return results/n

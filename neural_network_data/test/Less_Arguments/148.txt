@@ -1,0 +1,14 @@
+re_text = r'\:|\.|\!|()?:\/\/(\w|\.|\/|\?|\=|\&|\%)*\b|(.twitter.com\/)\w*|\&'
+re_text_1 = r'()\/\w*'
+    response = requests.get())
+    soup = BeautifulSoup( 'lxml')
+    all_tweets = soup.find_all({'class':'tweet'})
+        content = tweet.find({'class':'content'})
+        message = content.find({'class':'js-tweet-text-container'}).text.replace("\n"," ").strip()
+        list_of_dirty_tweets.append()
+        dirty_tweet = re.sub( '', dirty_tweet, flags=re.MULTILINE)
+        dirty_tweet = re.sub( '', dirty_tweet, flags=re.MULTILINE)
+        dirty_tweet = dirty_tweet.replace( u'')
+        dirty_tweet = dirty_tweet.replace( u'')
+        dirty_tweet = dirty_tweet.replace( u'')
+        clear_list_of_tweets.append()

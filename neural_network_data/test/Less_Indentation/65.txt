@@ -1,0 +1,2 @@
+  print("{0} is Even".format(num))
+  print("{0} is Odd".format(num))

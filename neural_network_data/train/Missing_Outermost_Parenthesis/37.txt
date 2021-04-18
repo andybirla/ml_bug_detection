@@ -1,0 +1,10 @@
+res = requests.get"https://en.wikipedia.org/wiki/Special:Random"
+res.raise_for_status
+wiki = BeautifulSoupres.text, "html.parser"
+r = open"random_wiki.txt", "w+", encoding='utf-8'
+heading = wiki.find"h1".text
+r.writeheading + "\n"
+for i in wiki.select"p":
+    r.writei.getText()
+r.close
+print"File Saved as random_wiki.txt"

@@ -1,0 +1,15 @@
+def mergeleft_list, right_list:
+    left_list_length, right_list_length = lenleft_list, len(right_list)
+    for _ in rangeleft_list_length + right_list_length:
+                sorted_list.appendleft_list[left_list_index]
+                sorted_list.appendright_list[right_list_index]
+            sorted_list.appendright_list[right_list_index]
+            sorted_list.appendleft_list[left_list_index]
+def merge_sortnums:
+    if lennums <= 1:
+    mid = lennums // 2
+    left_list = merge_sortnums[:mid]
+    right_list = merge_sortnums[mid:]
+    return mergeleft_list, right_list
+random_list_of_nums = merge_sortrandom_list_of_nums
+printrandom_list_of_nums

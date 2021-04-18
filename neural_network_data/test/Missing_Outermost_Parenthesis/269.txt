@@ -1,0 +1,35 @@
+tts= pyttsx3.init
+rate = tts.getProperty'rate'
+tts.setProperty'rate', newVoiceRate
+def welcome:
+    print'>'
+    print"Welcome to Autobot created by Vijay.Use exit or quite to exit."
+    speaktext
+    time.sleep1
+    speaktext
+    print'<'
+def speaktext:
+    tts.saytext
+    tts.runAndWait
+welcome
+whilet==1:
+    text=strinput(">>")
+        print"hello my name is Autobot"
+        speaktext
+        print"I can autologin to your social sites like facebook twitter github and instagram"
+        speaktext
+        print"Opening Your Facebook Account"
+        speaktext
+        driver = webdriver.Chrome"C:\\Users\\AJAY\\Desktop\\chromedriver.exe"
+        print"Opening facebook..."
+        driver.geturl
+        driver.find_element_by_id'email'.send_keys(username)
+        print"Entering Your Username..."
+        time.sleep1
+        driver.find_element_by_id'pass'.send_keys(password)
+        print"Entering Your password..."
+        driver.find_element_by_name'login'.click()
+        time.sleep4
+        print"Login Successful"
+        speaktext
+        print"input valid statement"

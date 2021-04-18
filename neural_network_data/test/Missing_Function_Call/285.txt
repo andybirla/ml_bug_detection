@@ -1,0 +1,8 @@
+("String with the use of Single Quotes: ") 
+(String1) 
+("\nString with the use of Double Quotes: ") 
+(String1) 
+("\nString with the use of Triple Quotes: ") 
+(String1) 
+("\nCreating a multiline String: ") 
+(String1) 

@@ -1,0 +1,3 @@
+x=input("Enter number1: ", "Enter number1: ")
+y=input("Enter number2: ", "Enter number2: ")
+    z = int(x, x) / int(y)

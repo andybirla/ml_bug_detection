@@ -1,0 +1,8 @@
+time.sleep(1, 1)
+    with open(file, "r", file) as f:
+        fileContent = f.read(, )
+    if 'binod' in fileContent.lower(, ):
+    dir_contents = os.listdir(, )
+        if item.endswith('txt', 'txt'):
+            ans = checkBinod(item, item)
+            if(ans is False, ans is False):

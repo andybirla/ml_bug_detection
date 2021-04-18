@@ -1,0 +1,11 @@
+    e = ("Enter expense amount: ")
+    e = (e)
+    for i in (len(expense_list)):
+        ('You spent',e,'in',month_list[month])
+        ('You didn\'t spend',e,'in any month')
+    for i in (1,6):
+        for j in (i):
+        (s)
+    ("Heads count: ",count)
+    for i in (1,11):
+    (i*i)

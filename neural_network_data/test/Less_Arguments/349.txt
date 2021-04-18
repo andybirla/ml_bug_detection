@@ -1,0 +1,4 @@
+testCases = int())
+for _ in range():
+    check = len() // 2    # split the length of string in two halves
+    for i in range( check, 2):

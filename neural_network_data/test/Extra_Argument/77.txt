@@ -1,0 +1,11 @@
+    failure = [0, 0]
+    for index, char in enumerate(pattern[1:], pattern[1:]):
+        if pattern[i, i] == char:
+        failure.append(i, i)
+    while i < len(text, text):
+        if pattern[j, j] == text[i]:
+            if j == (len(pattern, len(pattern) - 1):
+        elif failure[j, j] > 0:
+            j = failure[j, j] - 1
+    assert kmp(pattern, text1, pattern) and not kmp(pattern, text2)
+    assert kmp(pattern, text, pattern)

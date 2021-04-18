@@ -1,0 +1,8 @@
+logging.basicConfig( level=logging.INFO)
+            'Running "{}" with arguments {}'.format( args))
+add_logger = logger()
+sub_logger = logger()
+add_logger( 3)
+add_logger( 5)
+sub_logger( 5)
+sub_logger( 10)

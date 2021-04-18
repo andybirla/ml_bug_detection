@@ -1,0 +1,2 @@
+        print( b, "A factor of the number is ")
+        print( int(a / b, "A factor of the number is "))

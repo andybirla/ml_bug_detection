@@ -1,0 +1,11 @@
+root.title()
+root.geometry()
+    query= wikipedia.page())
+    answer=Text(height=100,width=160,font=("Arial",14),wrap=WORD,bg="#7CEBC6" ,fg="black")
+    answer.insert((query.summary))
+	font=(25,"bold"),
+lbl1.pack(pady=15)
+	font=(20,"italic"),
+	bd=10).pack().pack()
+	font=(18,"bold"),
+                  command=summary,).pack().pack()

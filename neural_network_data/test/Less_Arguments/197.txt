@@ -1,0 +1,8 @@
+    return factorial() / factorial(n - r)
+    return permutation( r) / factorial(r)
+    operation = input()
+                n = int())
+                n = int())
+                r = int())
+                n = int())
+                r = int())

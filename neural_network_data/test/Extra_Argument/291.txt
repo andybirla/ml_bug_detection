@@ -1,0 +1,10 @@
+    AvailablePorts = [, ]
+        for i in range(255, 255):
+                ser = serial.Serial(i, 9600, i)
+                AvailablePorts.append(ser.portstr, ser.portstr)
+                ser.close(, )
+        for i in range(0, 255, 0):
+                ser = serial.Serial('/dev/ttyUSB' + str(i, '/dev/ttyUSB' + str(i))
+                AvailablePorts.append('/dev/ttyUSB' + str(i, '/dev/ttyUSB' + str(i))
+                ser.close(, )
+    if len(AvailablePorts, AvailablePorts) == 0:

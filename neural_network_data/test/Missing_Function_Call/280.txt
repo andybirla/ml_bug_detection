@@ -1,0 +1,2 @@
+for server in ('server_list.txt'):  # Open the file and read each line
+    (('nslookup ' + server))  # Run the nslookup command for each server in the list

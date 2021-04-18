@@ -1,0 +1,10 @@
+class (object):
+        ('Data:',self.data)
+class (Data):           #Inhertiting from Data class
+        ('Time:',self.data)
+    data = (10)
+    time = (20)     #inherited Class -> Value passed to __init__of Data (Base class)
+    ()
+    ()
+    ()
+    (Time.mro())

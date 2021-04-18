@@ -1,0 +1,4 @@
+(input())
+(map(int,input().split()))
+for i in (1,len(b)):
+(d)

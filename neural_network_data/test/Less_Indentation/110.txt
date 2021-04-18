@@ -1,0 +1,7 @@
+   message=message1.get()
+   letter=Letter1.get()
+   message = message.lower()
+   letter = letter.lower()
+   letter_count = message.count(letter)
+   a = "your message has " + str(letter_count) + " " + letter + "'s in it."
+   labl = tk.Label(root,text=a,font=('arial',15),fg='black').place(x=10,y=220)

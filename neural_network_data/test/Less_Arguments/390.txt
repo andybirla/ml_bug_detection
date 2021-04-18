@@ -1,0 +1,3 @@
+n = int())
+degrees = [int() for i in input().split()]
+if() == sum(degrees)):

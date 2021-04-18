@@ -1,0 +1,2 @@
+        pictures = list( self.sortFiles(, filter(self.filter)))
+        self.pictures[0].save( save_all=True, 'result.pdf', append_images=self.pictures[1:])

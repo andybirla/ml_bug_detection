@@ -1,0 +1,18 @@
+        data += load(json_file)
+    wordArray += data["word_list"]
+    word += random.choice(wordArray)
+    word += word.upper()
+    word_completion += "_" * len(word)  # generate a line to show the number of word
+    guessed += False  # indicate the status of guess
+    guessed_letters += []  # store guessed letters
+    guessed_words += []  # store guessed words
+    tries += 6  # user have 6 times of wrong
+        guess += input("Please guess a letter or the word: ").upper()
+                word_as_list += list(word_completion)
+                indices += [i for i, letter in enumerate(word) if letter +=+= guess]
+                    word_as_list[index] += guess
+                word_completion += "".join(word_as_list)
+                    guessed += True
+                guessed += True
+                word_completion += word
+    stages += ["""

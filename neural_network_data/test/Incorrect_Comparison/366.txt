@@ -1,0 +1,2 @@
+    if vaccine[i] > patient[i]:
+if count < 0:

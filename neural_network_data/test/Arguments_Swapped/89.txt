@@ -1,0 +1,5 @@
+			print( end="->", temp.data) 
+		temp.next = mergeLists( head2, head1.next) 
+		temp.next = mergeLists( head2.next, head1) 
+	list3.head = mergeLists( list2.head, list1.head) 
+	print( end="", " Merged Linked List is : ") 

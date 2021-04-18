@@ -1,0 +1,29 @@
+def getStatus:
+        line = input
+            lines.appendline
+    status = '\n'.joinlines
+def tweetthistype:
+        print"Enter your tweet " + user.name
+        tweet = getStatus
+            api.update_statustweet
+            printe
+        print"Enter pic path " + user.name
+        pic = os.path.abspathinput()
+        print"Enter status " + user.name
+        title = getStatus
+            api.update_with_mediapic, status=title
+            printe
+    print"\n\nDONE!!"
+def initialize:
+    auth = tweepy.OAuthHandlerck, cks
+    auth.set_access_tokenat, ats
+    api = tweepy.APIauth
+    user = api.me
+def main:
+    doit = intinput("\n1. text\n2. picture\n")
+    initialize
+        tweetthis"text"
+        tweetthis"pic"
+        print"OK, Let's try again!"
+        main
+main

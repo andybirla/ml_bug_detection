@@ -1,0 +1,8 @@
+    program = ("Enter the name of the program to check: ")
+        output = ("ps -f|grep " + program)
+        proginfo = (output)
+        ("There was a problem with the program.")
+        ()  # Call the function
+    elif os.name i("nt", "dos", "ce"):  # if the OS is windows
+        ("You need to be on Linux or Unix to run this")
+    ()

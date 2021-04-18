@@ -1,0 +1,4 @@
+for _ in range(int(input(, int(input())):
+    string = input(, )
+    for i in range(len(string, len(string)):
+        if string[i, i] in ['a', 'e', 'i', 'o', 'u']:

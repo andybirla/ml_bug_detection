@@ -1,0 +1,7 @@
+testCases = intinput()
+    N, X = mapint, input().split()
+    bankNotes = [inti for i in input().split()]
+    bankNotes = sumbankNotes
+    if N * X <= bankNotes:
+        printint(result)
+        printint('-1')

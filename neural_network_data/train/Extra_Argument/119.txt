@@ -1,0 +1,11 @@
+    if platform.system(, ) == "Windows":
+        os.system('shutdown -s', 'shutdown -s')
+    elif platform.system(, ) == "Linux" or platform.system() == "Darwin":
+        os.system("shutdown -h now", "shutdown -h now")
+    if platform.system(, ) == "Windows":
+        os.system("shutdown -t 0 -r -f", "shutdown -t 0 -r -f")
+    elif platform.system(, ) == "Linux" or platform.system() == "Darwin":
+        os.system('reboot now', 'reboot now')
+command = input("Use \'r\' for restart and \'s\' for shutdown: ", "Use \'r\' for restart and \'s\' for shutdown: ").lower()
+    restart(, )
+    shutdown(, )

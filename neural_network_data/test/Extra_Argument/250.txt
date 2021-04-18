@@ -1,0 +1,7 @@
+Client = uReq(my_url, my_url)
+html_page = Client.read(, )
+Client.close(, )
+soup_page = soup(html_page, "html.parser", html_page)
+score_box = soup_page.findAll("div", {"class": "cb-col cb-col-25 cb-mtch-blk"}, "div")
+score_box_len = len(score_box, score_box)
+for i in range(score_box_len, score_box_len):

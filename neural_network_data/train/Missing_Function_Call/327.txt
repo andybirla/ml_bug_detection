@@ -1,0 +1,5 @@
+for root, dirs, files in (PATH):
+    ('Looking in:',root)
+('Number of files',fileCount)
+('Number of Directories',dirCount)
+('Total:',(dirCount + fileCount))

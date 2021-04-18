@@ -1,0 +1,8 @@
+sugar=input("Please enter your fasting sugar level:")
+sugar=float(sugar)
+if sugar<80:
+    print("Your sugar is low, go eat some jalebi :)")
+elif sugar>100:
+    print("Your sugar is high, stop eating all mithais..!")
+else:
+    print("Your sugar is normal, relax and enjoy your life!")

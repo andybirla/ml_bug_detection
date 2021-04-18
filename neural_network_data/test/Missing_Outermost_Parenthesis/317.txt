@@ -1,0 +1,5 @@
+userInput = input
+    if i.islower:
+        result.appendi.upper()
+        result.appendi.lower()
+print''.join(result)

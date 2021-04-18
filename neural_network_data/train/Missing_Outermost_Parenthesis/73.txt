@@ -1,0 +1,12 @@
+date = input"Enter date(YYYY-MM-DD): "
+r = requests.getf"https://api.nasa.gov/planetary/apod?api_key={key}&date={date}"
+parsed = r.json
+printf"{title}: {url}"
+img_ = requests.geturl, stream=True
+printimg_.headers
+printimg_.headers["content-type"], img_.headers["content-length"]
+if img_.status_code == 200 and (content_type == "image/jpeg" or content_type == "image/gif" or content_type == "image/png"):
+	if not os.path.exists ("img/"):
+		os.mkdir"img/"
+	with openpath, "wb" as f:
+			f.writechunk

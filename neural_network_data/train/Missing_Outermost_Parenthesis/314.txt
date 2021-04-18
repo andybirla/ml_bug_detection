@@ -1,0 +1,19 @@
+X = np.linspace0,1,100             #(Start,End,Points)
+Y = 1*np.sin2*np.pi*X
+Noise = 0.4*np.random.normalsize=100
+plt.scatterX,Y_data,c="r"
+def calc_sinex,a,b,c,d:
+  return a * np.sinb* ( x + np.radians(c)) + d
+popt,pcov = curve_fitcalc_sine,X,Y_data
+plt.scatterX,Y_data# Plot the best fit curve :
+plt.plotX,calc_sine(X,*popt),c="r"
+plt.show
+Accuracy =r2_scoreY_data,calc_sine(X,*popt)
+print Accuracy
+def calc_lineX,m,b:
+popt,pcov = curve_fitcalc_line,X,Y_data
+plt.scatterX,Y_data
+plt.plotX,calc_line(X,*popt),c="r"
+plt.show
+Accuracy =r2_scoreY_data,calc_line(X,*popt)
+print "Accuracy of Linear Model : ",Accuracy

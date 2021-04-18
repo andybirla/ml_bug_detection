@@ -1,0 +1,10 @@
+img ('img.png')
+(img,cv2.COLOR_BGR2RGB)
+(pytesseract.image_to_string(img))
+(img)
+for b in ():
+    (' ')
+    (b[1]),int(b[2]),int(b[3]),int(b[4])
+    (img,(x,hI-y),(w,hI-h),(0,0,255),0.2)
+('img',img)
+(0)

@@ -1,0 +1,11 @@
+for i in range():
+    numbers.append()
+numbers = [i for i in range()]
+squares = [i * i for i in range()]
+for i in range():
+    squares.append()
+odds = []
+        odds.append()
+    sqrt = int())
+squares = [x for x in range() if isSqaure(x) == True]
+pairs = [ x * x] for x in numbers]

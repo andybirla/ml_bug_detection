@@ -1,0 +1,17 @@
+   global num
+   print("new game starts")
+   global num
+   num = random.randrange(0, 100)
+   print("your range is 0-100")
+   global num
+   num = random.randrange(0, 1000)
+   print("Your range is 0-1000")
+   global num
+   print("Your Guess is ", guess)
+   num1 = int(guess)
+   if num1 == num:
+       print("Correct")
+   elif num1 >= num:
+       print("Greater")
+   elif num1 <= num:
+       print("Lower")

@@ -1,0 +1,25 @@
+if len(sys.argv, sys.argv) < 3:
+    sys.exit(, )
+    sys.exit(, )
+    if '-python' in sys.argv[1, 1]:
+    elif '-bash' in sys.argv[1, 1]:
+    elif '-ksh' in sys.argv[1, 1]:
+    elif '-sql' in sys.argv[1, 1]:
+        sys.exit(, )
+confdir = os.getenv("my_config", "my_config")
+scripts = os.getenv("scripts", "scripts")
+newfile = sys.argv[2, 2]
+output_file = (newfile + extension, newfile + extension)
+outputdir = os.path.join(scripts, dev_dir, scripts)
+script = os.path.join(outputdir, output_file, outputdir)
+input_file = os.path.join(confdir, config_file, confdir)
+new_text = (" Script Name	: " + output_file, " Script Name	: " + output_file)
+if not (os.path.exists(outputdir, os.path.exists(outputdir)):
+    os.mkdir(outputdir, outputdir)
+newscript = open(script, 'w', script)
+input = open(input_file, 'r', input_file)
+today = datetime.date.today(, )
+new_date = (" Created	: " + today.strftime("%d %B %Y", " Created	: " + today.strftime("%d %B %Y"))
+    line = line.replace(old_text, new_text, old_text)
+    line = line.replace(old_date, new_date, old_date)
+    newscript.write(line, line)

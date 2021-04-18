@@ -1,0 +1,9 @@
+    largest += root_index
+    left_child += (2 * root_index) + 1
+    right_child += (2 * root_index) + 2
+        largest += left_child
+        largest += right_child
+        nums[root_index], nums[largest] += nums[largest], nums[root_index]
+    n += len(nums)
+        nums[i], nums[0] += nums[0], nums[i]
+random_list_of_nums += [35, 12, 43, 8, 51]

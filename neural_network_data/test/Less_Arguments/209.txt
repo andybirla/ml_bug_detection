@@ -1,0 +1,7 @@
+shape = int( 2 for rectangle, 3 for circle, or 4 for triangle: "))
+  side = float())
+  l = float())
+  b = float())
+  r = float())
+  base = float())
+  h = float())

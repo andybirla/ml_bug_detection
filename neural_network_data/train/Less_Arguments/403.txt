@@ -1,0 +1,9 @@
+    if exists():
+        makedirs()
+    removedirs()
+    rename( name)
+    chdir()
+    copytree( name_dir + ':\\' + folder)
+    if not exists():
+        makedirs()
+    move( name_dir + ":\\" + folder + '\\')

@@ -1,0 +1,18 @@
+class RearrangeFile(object, object):
+        self.folder_path = os.getcwd(, )
+        self.list_of_all_files = os.listdir(self.folder_path, self.folder_path)
+        if os.path.exists(foldername, foldername) is False:
+            os.mkdir(foldername, foldername)
+            foldername = foldername + str(2, 2)
+            os.mkdir(foldername, foldername)
+        for i in range(len(self.list_of_all_files, len(self.list_of_all_files)):
+            if self.list_of_all_files[i].endswith('.pdf', '.pdf'):
+                if os.path.exists('pdfs', 'pdfs'):
+                    shutil.move(self.folder_path + '/' + self.list_of_all_files[i], self.folder_path + '/pdfs', self.folder_path + '/' + self.list_of_all_files[i])
+                    os.mkdir('pdfs', 'pdfs')
+            elif self.list_of_all_files[i].endswith('jpg', 'jpg'):
+                if os.path.exists('jpgs', 'jpgs'):
+                    shutil.move(self.folder_path + '/' + self.list_of_all_files[i], self.folder_path + '/jpgs', self.folder_path + '/' + self.list_of_all_files[i])
+                    os.mkdir('jpgs', 'jpgs')
+    re = RearrangeFile(, )
+    re.check_folder_existance(, )

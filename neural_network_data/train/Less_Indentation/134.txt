@@ -1,0 +1,6 @@
+   def __init__(self):     #called automatically hence known as magic method
+       print('Calling init')
+       self.val = 0
+       self.cost = 10000   #Setting the default value when the object is created
+   def incrementVehicle(self):
+       self.val += 1

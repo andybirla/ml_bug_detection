@@ -1,0 +1,12 @@
+toaster = ToastNotifier
+sauce = request.urlopenurl.read()
+soup = bs4.BeautifulSoupsauce, "lxml"
+for div_tags in soup.find_all'div', attrs={"class": "cb-lv-scrs-col text-black"}:
+    score.appenddiv_tags.text
+for result in soup.find_all'div', attrs={"class": "cb-lv-scrs-col cb-text-complete"}:
+    results.appendresult.text
+engine = pyttsx3.init 
+engine.say"match score and result is"
+printscore[0], results[0]
+toaster.show_toasttitle=score[0], msg=results[0] 
+engine.runAndWait

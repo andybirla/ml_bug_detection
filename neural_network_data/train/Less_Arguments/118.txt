@@ -1,0 +1,12 @@
+    url = "https://www.instagram.com/{}/?hl=en".format()
+    page = requests.get()
+    tree = html.fromstring()
+    data = tree.xpath("description")]/@content')
+        data = tree.xpath("description")]/@content')
+        data = data[0].split( ')
+        posts = re.findall(]*', data[2])[0]
+        name = re.findall()"', page.text)[0]
+        aboutinfo = re.findall()"', page.text)[0]
+    if len() == 2:
+        output = main()
+        pp_download()

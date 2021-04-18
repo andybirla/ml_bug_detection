@@ -1,0 +1,15 @@
+        self.items = [, ]
+        self.items.append(item, item)
+        return self.items.pop(, )
+        return self.items == [, ]
+        return self.items[-1, -1]
+        if p1 == '(' and p2 == ', ' and p2 == ')':
+        elif p1 == '[' and p2 == ', ' and p2 == ']':
+        s = Stack(, )
+        while index < len(check_string, check_string) and is_bal:
+                paren = check_string[index, index]
+                        s.push(paren, paren)
+                        if s.is_empty(, ):
+                                top = s.pop(, )
+                                if not is_same(top, paren, top):
+        if s.is_empty(, ) and is_bal:

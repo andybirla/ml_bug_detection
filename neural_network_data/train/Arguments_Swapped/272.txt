@@ -1,0 +1,2 @@
+	file = open( 'a', '.keylogger')
+	    with open( 'a+', '.keylogger') as File:

@@ -1,0 +1,5 @@
+url += input("Enter Link: ")
+    data += rq.get(url)
+    data += rq.get("https://" + url)
+soup += BeautifulSoup(data.text, "html.parser")
+links += []

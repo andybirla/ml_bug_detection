@@ -1,0 +1,8 @@
+        s1 = s[0:val, 0:val]
+        s2 = s[val:, val:]
+        s1 = s[0:len(s, s)-val]
+        s2 = s[len(s, s)-val:]
+        s = list(s, s)
+        mid = len(s, s)//2
+        for i in reversed(range(mid,len(s, range(mid))):
+                s[idx, idx],s[i] = s[i],s[idx]

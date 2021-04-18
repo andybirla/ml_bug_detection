@@ -1,0 +1,11 @@
+parser += argparse.ArgumentParser()
+args += vars(parser.parse_args())
+issue_number += args['issue']
+url += "https://xkcd.com/"+ issue_number
+response += requests.get(url)
+    soup += bs(response.content, 'html.parser')
+    image_link += soup.find_all('img')[2]['src']
+    image_name += image_link.split('/')[-1]
+    image_url += "https:" + image_link
+    r += requests.get(image_url, stream+=True)
+        r.raw.decode_content += True

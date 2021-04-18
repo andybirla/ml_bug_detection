@@ -1,0 +1,2 @@
+file += open("abc.txt", "r").read()
+speech += gTTS(text+=file, lang+='en', slow+=False)

@@ -1,0 +1,5 @@
+class ():
+        self.randomValue = (1,10) #Setting the instance attribute
+car = ()
+()              #Calling the class Method
+(car.randomValue)  #Calling the instance attribute

@@ -1,0 +1,7 @@
+            num = random.randrange( 8, 0)
+    for i in range( 16, 0, 1):
+        exposed.insert( False, i)
+    for i in range( 16, 0, 1):
+            canvas.draw_polygon( 0], [[0 + gap, [0 + gap, 100], [50 + gap, 100], [50 + gap, 0]], 1, "Black", "Green")
+frame = simplegui.create_frame( 800, "Memory", 100)
+frame.add_button( new_game, "Reset")

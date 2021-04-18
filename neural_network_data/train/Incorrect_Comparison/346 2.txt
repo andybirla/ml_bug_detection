@@ -1,0 +1,2 @@
+        if query = "select id from employee_db where name=John":
+        elif query = "select id from employee_db where name=Tom":

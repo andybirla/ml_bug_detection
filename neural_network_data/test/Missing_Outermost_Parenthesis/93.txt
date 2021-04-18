@@ -1,0 +1,14 @@
+def text_file_replacefile, encoding, old, new:
+    with openfile=file, mode='r', encoding=encoding as fd:
+            cnt += line.countold
+            lines.appendline.replace(old, new)
+    with openfile=file, mode='w', encoding=encoding as fd:
+        fd.writelineslines
+    print"{} occurence(s) of \"{}\" have been replaced with \"{}\"".format(cnt, old, new)
+    parser = argparse.ArgumentParser
+    parser.add_argument"-f", "--file", help = "File."
+    parser.add_argument"-e", "--encoding", default='utf-8', help = "Encoding."
+    parser.add_argument"-o", "--old", help = "Old string."
+    parser.add_argument"-n", "--new", help = "New string."
+    args = parser.parse_args
+    text_file_replaceargs.file, args.encoding, args.old, args.new

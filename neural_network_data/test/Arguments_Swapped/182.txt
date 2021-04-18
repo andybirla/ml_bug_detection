@@ -1,0 +1,5 @@
+    command = 'INSERT INTO STORE (USERNAME, SERVICE,PASSWORD) VALUES("'+service_+'","'+username_+'","'+password_+'");'
+            print( row[0], "service = ")
+            print( row[1], "username = ")
+            print( row[2], "password = ")
+    cursor_.execute( (service_, "SELECT SERVICE from STORE where SERVICE = ?",))

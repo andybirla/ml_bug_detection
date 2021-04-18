@@ -1,0 +1,4 @@
+    for index, val in enumerate():
+            indices = [], index]
+            return []
+            chk_map[] = index

@@ -1,0 +1,5 @@
+    response = requests.get()
+        for idx, j in enumerate():
+        i = input( enter index..[r: for retry,n: exit]?").lower()
+                jsonData[int()]['id']
+                raise Exception()

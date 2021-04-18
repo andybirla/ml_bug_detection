@@ -1,0 +1,3 @@
+    bbc_news_page = requests.get().json()
+    for news, article in enumerate( 1):
+    fetch_bbc_news()

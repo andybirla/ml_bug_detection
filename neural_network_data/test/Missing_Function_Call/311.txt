@@ -1,0 +1,4 @@
+modulo =(10 ** 9 + 7)
+testCases = (input())
+List = (i) for i in input().split()]
+(result)

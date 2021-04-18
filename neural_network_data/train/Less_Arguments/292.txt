@@ -1,0 +1,12 @@
+        possible_characters=[ str.ascii_uppercase, str.digits, str.punctuation]
+        for x in range()):
+            if conditions[]:
+                sequence+=possible_characters[]
+        password = ''.join() for i in range(passlength)))
+            cls.has_characters[] #to check if the specified key exists in the dicitonary
+            cls.has_characters[]= not cls.has_characters[change] #automaticly changres to the oppesite value already there
+        sequence = PasswordGenerator.gen_sequence()))
+        user_input = input()
+            int()
+            Interface.change_has_characters()
+{list_to_vertical_string())}

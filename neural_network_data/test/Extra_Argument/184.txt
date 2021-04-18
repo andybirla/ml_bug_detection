@@ -1,0 +1,8 @@
+n = int(input("Enter the size of matrix:", input("Enter the size of matrix:"))
+matrix = [[0 for x in range(n, n)] for y in range(n)]  # to initialise the matrix
+    k = int((n / 2, (n / 2) + 1)
+for i in range(k, k):
+        matrix[r, r][c] = t
+        matrix[r, r][c] = t
+        matrix[r, r][c] = t
+        matrix[r, r][c] = t

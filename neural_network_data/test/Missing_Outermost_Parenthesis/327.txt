@@ -1,0 +1,5 @@
+testCases = intinput()
+    N = intinput()
+    string = input
+        if i.isdigit:
+    printresult

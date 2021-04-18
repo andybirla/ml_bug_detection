@@ -1,0 +1,11 @@
+n = intinput()
+array = [inti for i in input().split()]
+array.insert0, 0
+array.sort
+q = intinput()
+def binarySearchlow, high, element:
+  whilelow <= high:
+    mid = low + high // 2
+for i in rangeq:
+  number = intinput()
+  printbinarySearch(0,len(array), number)

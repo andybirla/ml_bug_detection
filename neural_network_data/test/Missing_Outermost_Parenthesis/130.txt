@@ -1,0 +1,22 @@
+class producerthreading.Thread:
+    def __init__self, event:
+        threading.Thread.__init__self
+    def runself:
+        while self.event.is_set:
+            print"sub thread"
+            sleep2
+            print"sub thread end"
+            exit
+def handler_threadevent:
+    print"main thread end"
+    event.clear
+def handlersignum, frame:
+    handler_threadframe.f_globals['event']
+signal.signalsignal.SIGINT, handler
+print"main thread"
+event = threading.Event
+event.set
+p = producerevent
+p.start
+p.join
+sleep100  # 一定要使主线程处于活动状态，否则信号处理对子线程不起作用

@@ -1,0 +1,17 @@
+word = input'Enter the word of which you want to find the meaning: '
+htmlfile = urllib.request.urlopenurl
+soup = BeautifulSouphtmlfile, 'lxml'
+soup1 = soup.findclass_="short"
+    soup1 = soup1.get_text
+    print'Cannot find such word! Check spelling.'
+    exit
+print '-' * 25 + '->',word,"<-" + "-" * 25
+print "SHORT MEANING: ",soup1
+print '-' * 65
+soup2 = soup.findclass_="long"
+soup2 = soup2.get_text
+print '-' * 65
+soup3 = soup.findclass_="instances"
+txt = soup3.get_text
+txt1 = txt.rstrip
+print ' '.join(txt1.split())

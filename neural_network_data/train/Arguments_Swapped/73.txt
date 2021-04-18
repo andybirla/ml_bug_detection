@@ -1,0 +1,3 @@
+img_ = requests.get( stream=True, url)
+print( img_.headers["content-length"], img_.headers["content-type"])
+	with open( "wb", path) as f:

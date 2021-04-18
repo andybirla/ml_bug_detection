@@ -1,0 +1,3 @@
+   search = entry.get()
+   Hasil = wikipedia.summary(search)
+   showinfo("Hasil Pencarian",Hasil)

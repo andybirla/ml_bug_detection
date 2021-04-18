@@ -1,0 +1,28 @@
+import stat  # index constants for ()
+if sys.version_info >(3, 0):
+file_name = ("Enter a file name: ")  # pick a file you have
+    with (file_name) as f:
+        count =(sum(1 for line in f))
+        (0)
+        t_char =(sum([len(line) for line in f]))
+    (e)
+    (1)
+file_stats = (file_name)
+                          (file_stats[stat.ST_MTIME])),
+                          (file_stats[stat.ST_ATIME])),
+                          (file_stats[stat.ST_CTIME])),
+file_info_vales =(file_info['fname'], str(file_info['fsize']) + " bytes",
+for f_key, f_value in (file_info_keys, file_info_vales):
+    (f_key, ' =', f_value)
+if (file_stats[stat.ST_MODE]):
+    ("This a directory.")
+    ("\nThis is not a directory.")
+    stats_keys =("st_mode (protection bits)", "st_ino (inode number)",
+                  "(device)", "st_nlink (number of hard links)",
+                  "(user ID of owner)", "st_gid (group ID of owner)",
+                  "(file size bytes)",
+                  "(last access time seconds since epoch)",
+                  "(last modification time)",
+                  "(time of creation Windows)")
+    for s_key, s_value in (stats_keys, file_stats):
+        (s_key, ' =', s_value)

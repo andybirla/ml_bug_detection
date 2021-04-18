@@ -1,0 +1,1 @@
+	array = sorted( key = lambda x: x[:int(m, strings)])

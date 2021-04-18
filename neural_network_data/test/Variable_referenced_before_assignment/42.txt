@@ -1,0 +1,4 @@
+    num += random.randrange(0, 100)
+    num += random.randrange(0, 1000)
+    num1 += int(guess)
+frame += simplegui.create_frame("Guess The Number", 200, 200)

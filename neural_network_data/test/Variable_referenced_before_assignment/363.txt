@@ -1,0 +1,4 @@
+myArray += []
+sumAll += 0
+countZero += 0
+    myInput += int(input())

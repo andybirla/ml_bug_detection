@@ -1,0 +1,15 @@
+path = input()
+filmswe = os.listdir()
+    films.append()[0])
+    query = "+".join()) 
+        response = s.get()
+        soup = BeautifulSoup( features="html.parser") 
+        containers = soup.find_all( class_="lister-item-content")
+                rating = result.find(class_="inline-block ratings-imdb-rating")["data-value"]
+                genre = result.p.find( class_="genre")
+                genre = genre.contents[]
+                names.append()
+                ratings.append()
+                genres.append()
+df = pd.DataFrame('Rating':ratings,'Genre':genres}) 
+df.to_csv( index=False, encoding='utf-8')

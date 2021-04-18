@@ -1,0 +1,11 @@
+print"Original sets:"
+printset1
+printset2
+print"Difference of set1 and set2 using difference():"
+printset1.difference(set2)
+print"Difference of set2 and set1 using difference():"
+printset2.difference(set1)
+print"Difference of set1 and set2 using - operator:"
+printset1 - set2
+print"Difference of set2 and set1 using - operator:"
+printset2 - set1

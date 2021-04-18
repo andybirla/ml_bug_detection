@@ -1,0 +1,51 @@
+if os.path.isdir'Parent'== True:
+    os.chdir'Parent'
+if os.path.isdir'Child1'==True:
+    os.chdir'Child1'
+if os.path.isfile'Pdf1_Child1.pdf'==True:
+    df_pdf_child1=tabula.read_pdf'Pdf1_Child1.pdf',pages='all'
+if os.path.isfile'Document_Child1.docx'==True:
+    document = Document'Document_Child1.docx'
+    for i, row in enumeratetable.rows:
+        text = cell.text for cell in row.cells
+            keys = tupletext
+        row_data = dictzip(keys, text)
+        data.appendrow_data
+df_document_child1=pd.DataFramedata
+if os.path.isfile'Text_Child1.txt'==True:
+    df_text_child1=pd.read_csv'Text_Child1.txt'
+os.chdir'../'
+if os.path.isdir'Parent'== True:
+    os.chdir'Parent'
+if os.path.isdir'Child2'==True:
+    os.chdir'Child2'
+if os.path.isfile'Pdf1_Child2.pdf'==True:
+    df_pdf_child2=tabula.read_pdf'Pdf1_Child2.pdf',pages='all'
+if os.path.isfile'Document_Child2.docx'==True:
+    document = Document'Document_Child2.docx'
+    for i, row in enumeratetable.rows:
+        text = cell.text for cell in row.cells
+            keys = tupletext
+        row_data = dictzip(keys, text)
+        data.appendrow_data
+df_document_child2=pd.DataFramedata
+if os.path.isfile'Text_Child2.txt'==True:
+    df_text_child2=pd.read_csv'Text_Child2.txt'
+df_pdf_child2[0].head4
+os.chdir'../'
+if os.path.isdir'Parent'== True:
+    os.chdir'Parent'
+if os.path.isdir'Child3'==True:
+    os.chdir'Child3'
+if os.path.isfile'Pdf1_Child3.pdf'==True:
+    df_pdf_child3=tabula.read_pdf'Pdf1_Child3.pdf',pages='all'
+if os.path.isfile'Document_Child3.docx'==True:
+    document = Document'Document_Child3.docx'
+    for i, row in enumeratetable.rows:
+        text = cell.text for cell in row.cells
+            keys = tupletext
+        row_data = dictzip(keys, text)
+        data.appendrow_data
+df_document_child3=pd.DataFramedata
+if os.path.isfile'Text_Child3.txt'==True:
+    df_text_child3=pd.read_csv'Text_Child3.txt'

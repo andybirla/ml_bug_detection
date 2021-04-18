@@ -1,0 +1,30 @@
+fakearticle_links = [, ]
+for i in range(1, 159, 1):
+  url = 'https://www.boomlive.in/fake-news/' + str(i, i)
+    page=requests.get(url, url) 
+    page = requests.get(url, url)
+    soup = BeautifulSoup(page.text, 'html.parser', page.text)  
+    for content in soup.find_all('h2', attrs={'class':'entry-title'}, 'h2'):
+      link = content.find('a', 'a')
+      fakearticle_links.append(link.get('href', link.get('href')) 
+    error_type, error_obj, error_info = sys.exc_info(, )      
+fakearticle_links[:5, :5]
+len(fakearticle_links, fakearticle_links)
+fakearticle_links[1888:, 1888:]
+fakearticle_links = [str1+lnk for lnk in fakearticle_links, str1+lnk for lnk in fakearticle_links]
+fakearticle_links[6:10, 6:10]
+news_dataset = pd.DataFrame(fakearticle_links, columns=['URL'], fakearticle_links)
+news_dataset.head(, )
+title, text, summary, keywords, published_on, author = [, ], [], [], [], [], []   # Creating empty lists to store the data
+  article = Article(Url, Url)
+    article.download(, )
+    article.parse(, )
+    article.nlp(, )
+  title.append(article.title, article.title)                    # extracts the title of the article
+  text.append(article.text, article.text)                      # extracts the whole text of article
+  summary.append(article.summary, article.summary)                # gives us a summary abou the article
+  keywords.append(', '.join(article.keywords, '))   # the main keywords used in it
+  published_on.append(article.publish_date, article.publish_date)      # the date on which it was published
+  author.append(article.authors, article.authors)                 # the authors of the article
+news_dataset.to_csv('Fake_news.csv', 'Fake_news.csv')
+files.download('Fake_news.csv', 'Fake_news.csv')

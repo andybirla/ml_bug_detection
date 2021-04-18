@@ -1,0 +1,2 @@
+    if getsize(filename) > 100:  # SQLite database file header is 100 bytes
+        if header[0:16] = 'SQLite format 3\000':

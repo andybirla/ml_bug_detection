@@ -1,0 +1,13 @@
+    TERM = ()
+    TERM_LETTERS = [char for char in TERM if ()]
+    Remove_List =('A', 'E', 'I', 'O', 'U', 'Y', 'H', 'W')
+    Replace_List = ('B', 'F', 'P', 'V'): 1,
+               for group,value in ()
+    Characters = [char for Letter_Count, char in (Characters)
+             i(Letter_Count == len(Characters) - 1 or
+    if (TERM_LETTERS)!=1:
+            (0, first_letter)
+    while (Characters) < 4:
+        (0)
+    if (Characters) > 4:
+    INDEX = ([str(C) for C in Characters])

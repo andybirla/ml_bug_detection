@@ -1,0 +1,4 @@
+        self.name += n
+        self.occupation += o
+tom += Human("tom cruise","actor")
+maria += Human("maria sharapova","tennis player")

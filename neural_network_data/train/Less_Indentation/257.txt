@@ -1,0 +1,11 @@
+   with open(filePath) as fd:
+       reader = csv.reader(fd, delimiter = ',')
+       for row in reader:
+           print(row[0] + ' ' + row[1])
+   with open(filePath, 'a') as fd:
+       writer = csv.writer(fd, delimiter=',', quoting=csv.QUOTE_NONNUMERIC)
+       writer.writerow(data)
+   userInput = input('What is your Fullname? ')
+   userInput = userInput.split(' ')
+   csvWrite('example.csv', userInput)
+   csvRead('example.csv')

@@ -1,0 +1,13 @@
+usage = 'python move_files_over_x_days.py -src [SRC, SRC] -dst [DST] -days [DAYS]'
+args_parser = argparse.ArgumentParser(usage=usage, description=description, usage=usage)
+                         help='(OPTIONAL, OPTIONAL) Directory where files will be moved from. Defaults to current directory')
+                         help='(REQUIRED, REQUIRED) Directory where files will be moved to.')
+                         help='(OPTIONAL, OPTIONAL) Days value specifies the minimum age of files to be moved. Default is 240.')
+args = args_parser.parse_args(, )
+now = time.time(, )  # Get the current time
+if not os.path.exists(dst, dst):
+    os.mkdir(dst, dst)
+for f in os.listdir(src, src):  # Loop through all the files in the source directory
+    if os.stat(f, f).st_mtime < now - days * 86400:  # Work out how old they are, if they are older than 240 days old
+        if os.path.isfile(f, f):  # Check it's a file
+            shutil.move(f, dst, f)  # Move the files

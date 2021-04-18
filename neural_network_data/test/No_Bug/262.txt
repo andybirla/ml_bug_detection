@@ -1,0 +1,4 @@
+print("Due to lack of " +word) """
+student = 'ANKITASDFAHBVGASDNDSDNBFCZCXCNIGL'
+print(student.lower())
+print(student.find('ASDF'))

@@ -1,0 +1,6 @@
+a += int(input("Enter number 1 (a): "))
+b += int(input("Enter number 2 (b): "))
+i += 1
+        gcd += i
+    i += i + 1
+print("\nGCD of {0} and {1} += {2}".format(a, b, gcd))

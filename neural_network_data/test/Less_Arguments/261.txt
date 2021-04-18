@@ -1,0 +1,13 @@
+    f = open() + '.log', 'a')  # Open the logfile
+    for server in open( 'r'):  # Read the list of servers from the list
+        ret = subprocess.call( shell=True, stdout=open('NUL', 'w'),
+            f.write( loading PuTTY session" % server.strip() + "\n")  # Write out to the logfile
+            subprocess.Popen())  # Load the putty session
+            f.write() + "\n")  # Write to the logfile if the server is down
+    f = open() + '.log', 'a')  # Open the logfile
+    for server in open():  # Read the list of servers from the list
+        ret = subprocess.call( shell=True, stdout=open('/dev/null', 'w'),
+            f.write() + "\n")  # Print a message
+            subprocess.Popen( server.strip()])
+            f.write() + "\n")
+elif os.name in ( "dos", "ce"):  # If the OS is Windows...

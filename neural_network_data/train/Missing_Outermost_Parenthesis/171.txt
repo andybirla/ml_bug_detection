@@ -1,0 +1,8 @@
+website = input"Enter the name of the website: "
+a_record = dns.resolver.resolvewebsite, 'A'
+    dns_record['A_Record_IP'] = ipval.to_text
+mx_record = dns.resolver.resolvewebsite,'MX'
+   mx_record_list.appendserver
+for i, element in enumeratemx_record_list:
+for key,value in dns_record.items:
+    printf"{key} = {value}"

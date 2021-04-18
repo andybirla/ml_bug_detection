@@ -1,0 +1,3 @@
+modulo = ()
+testCases = int())
+List = [int() for i in input().split()]

@@ -1,0 +1,11 @@
+   guess = int(input())
+   if guess == number:
+       print(
+           f'CONGRATULATIONS! YOU HAVE GUESSED THE \
+           NUMBER {number} IN {chances} ATTEMPTS!')
+       break
+   elif guess < number:
+       print("Your guess was too low: Guess a number higher than", guess)
+   else:
+       print("Your guess was too high: Guess a number lower than", guess)
+   chances += 1

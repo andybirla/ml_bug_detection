@@ -1,0 +1,7 @@
+logdir = os.getenv"logs"  # Set the variable logdir by getting the value from the OS environment variable logs
+path = os.getenv"scripts"  # Set the varable path by getting the value from the OS environment variable scripts - 1.2
+logfilename = os.path.joinlogdir, logfile  # Set the variable logfilename by joining logdir and logfile together
+log = openlogfilename, 'w'  # Set the variable log and open the logfile for writing
+for dirpath, dirname, filenames in os.walkpath:  # Go through the directories and the subdirectories
+        log.writeos.path.join(dirpath, filename) + '\n'  # Write the full path out to the logfile
+print"\nYour logfile ", logfilename, "has been created"  # Small message informing the user the file has been created

@@ -1,0 +1,3 @@
+num = intinput("Enter a number: ")
+   printnum,"is an Armstrong number"
+   printnum,"is not an Armstrong number"

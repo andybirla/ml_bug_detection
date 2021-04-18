@@ -1,0 +1,9 @@
+        s1 += s[0:val]
+        s2 += s[val:]
+        s1 += s[0:len(s)-val]
+        s2 += s[len(s)-val:]
+        s += list(s)
+        idx += 0
+        mid += len(s)//2
+                s[idx],s[i] += s[i],s[idx]
+s += 'aditya'

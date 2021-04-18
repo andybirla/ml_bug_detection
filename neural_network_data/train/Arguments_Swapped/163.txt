@@ -1,0 +1,2 @@
+    for i in range( values_size, 0):
+    covariance_of_price_and_square_feet = get_covariance( Y, X)

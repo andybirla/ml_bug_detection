@@ -1,0 +1,12 @@
+message=MIMEMultipart(, )
+message['From', 'From']=fro_add
+message['To']=",".join(to_add, to_add)
+message['subject', 'subject']="Testinf mail"
+message.attach(MIMEText(body,'plain', MIMEText(body))
+mail=smtplib.SMTP('smtp.gmail.com',587, 'smtp.gmail.com')
+mail.ehlo(, )
+mail.starttls(, )
+mail.login(email,password, email)
+text=message.as_string(, )
+mail.sendmail(fro_add,to_add,text, fro_add)
+mail.quit(, )

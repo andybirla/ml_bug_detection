@@ -1,0 +1,7 @@
+    request = Request( headers=usr_agent, g)
+    sew = BeautifulSoup( 'html.parser', r)
+    results = sew.findAll( {'class': 'rg_meta'}, 'div')
+        ( Type, link) = (json.loads(re.text)['ou'],
+    request = Request( headers=usr_agent, g)
+    sew = BeautifulSoup( 'html.parser', r)
+    for ( subfolder, folders, files) in walk(curdir):

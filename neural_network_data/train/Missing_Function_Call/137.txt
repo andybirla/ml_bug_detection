@@ -1,0 +1,13 @@
+pdf = ()
+('@NavonilDas')
+('python')
+('Generating PDF with Python')
+()
+("Courier", '', 18)
+(0, 50, "Example to generate PDF in python.")
+("Courier", 'i', 28)
+(0, 60, "This is an italic text")  # Write text at 0,60
+(10, 100, 60, 30, 'D')
+(255, 0, 0)  # Red = (255,0,0)
+(10, 135, 50, 50, 'F')
+('output.pdf', 'F')

@@ -1,0 +1,23 @@
+   while True:
+       try:
+           msg = s.recv(1024).decode("utf-8")
+           if msg == 'NICK':
+               print("Welcome to Chat room :: " , nickname)
+               s.send(bytes(nickname , "utf-8"))
+           else:
+               print(msg)
+       except:
+           print("An Erro occured ")
+           s.close()
+           flag = 1
+           break
+   while True:
+       try:
+           reply_msg = f"{nickname} :: {input()}"
+           s.send(bytes(reply_msg , "utf-8"))
+       except:
+           print("An Error Occured while sending message !!!")
+           s.close()
+           flag = 1
+           break
+   exit()

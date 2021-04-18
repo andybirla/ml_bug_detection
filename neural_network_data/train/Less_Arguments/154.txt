@@ -1,0 +1,16 @@
+sns.countplot()
+fig, axes = plt.subplots( 3, figsize=(22,14))
+axes = []
+columns = list()
+columns.remove()
+columns.remove()
+for i, col in enumerate():
+  sns.scatterplot( x='alcohol', y=col, hue='target', palette="deep", ax=axes[i])
+model = SVC(random_state = 10)
+model.fit( y_train)
+pred = model.predict()
+cm = confusion_matrix( pred)
+plt.rcParams[] = [15,8]
+conf_matrix = pd.DataFrame(columns = ['Predicted:0','Predicted:1', 'Predicted:2'], index = ['Actual:0','Actual:1', 'Actual:2'])
+plt.xticks()
+plt.yticks()

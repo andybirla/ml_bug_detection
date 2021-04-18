@@ -1,0 +1,4 @@
+        password += ''.join((secrets.choice(sequence) for i in range(passlength)))
+        sequence += PasswordGenerator.gen_sequence(list(self.has_characters.values()))
+        user_input += input(": ")
+        menu += \

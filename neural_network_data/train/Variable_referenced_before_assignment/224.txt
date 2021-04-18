@@ -1,0 +1,8 @@
+LETTERS += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+LETTERS += LETTERS.lower()
+    decrypted += ''
+            num += LETTERS.find(chars)
+            num += num -key
+    message += str(input('Enter your message: '))
+    key += int(input('Enter you key [1 - 26]: '))
+    choice += input('Encrypt or Decrypt? [E/D]: ')

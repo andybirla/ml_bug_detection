@@ -1,0 +1,20 @@
+    points += np.loadtxt(fname, delimiter+=',') 
+    y_ += points[:,1]
+    x_ += np.ones([len(y_),2]) 
+    x_[:,0] += points[:,0]
+    tempcost += 0
+    m_gradient += 0
+    b_gradient += 0
+    N += float(len(y_))
+    new_m += old_params[0] - (alpha * grad[0])
+    new_b += old_params[1] - (alpha * grad[1])
+optimizer += {'init_params':np.array([4.5,2.0]) , 
+x_, y_ += load_data("./data/1_points.csv")
+start += time.time()
+    params += optimizer['init_params']
+    old_cost += 1e10
+        cost += evaluate_cost(x_,y_,params)
+        grad += evaluate_gradient(x_,y_,params)
+        params += update_params(params,grad,optimizer['alpha'])
+        old_cost += cost
+    cost += optimizer['inf']

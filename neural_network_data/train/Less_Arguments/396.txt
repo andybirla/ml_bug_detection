@@ -1,0 +1,4 @@
+    w = Toplevel()
+    top = Notepads_managment()
+    notepad_support.init( top, *args, **kwargs)
+    return ( top)

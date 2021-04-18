@@ -1,0 +1,14 @@
+                for directory, file_formats in ()
+    for entry in ():
+        if ():
+        file_path = (entry.name)
+        file_format = ()
+            directory_path = (FILE_FORMATS[file_format])
+            (exist_ok=True)
+            (directory_path.joinpath(file_path))
+        ("OTHER-FILES")
+    for dir in ():
+            if ():
+                (dir)
+                (os.getcwd() + '/' + str(Path(dir)), os.getcwd() + '/OTHER-FILES/' + str(Path(dir)))
+    ()

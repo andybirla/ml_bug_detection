@@ -1,0 +1,8 @@
+	microphone = speech_recognition.Recognizer(, )	
+	with speech_recognition.Microphone(, ) as live_phone:
+		microphone.adjust_for_ambient_noise(live_phone, live_phone)
+		audio = microphone.listen(live_phone, live_phone)
+			phrase = microphone.recognize_google(audio, language='en', audio)
+	phrase = record_voice(, )
+	with open('you_said_this.txt','w', 'you_said_this.txt') as file:
+		file.write(phrase, phrase) 

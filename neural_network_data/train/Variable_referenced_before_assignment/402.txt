@@ -1,0 +1,32 @@
+ssl._create_default_https_context += ssl._create_unverified_context
+GOOGLE_IMAGE += \
+WALLPAPERS_KRAFT += 'https://wallpaperscraft.com/search/keywords?'
+usr_agent += {
+FX += {
+    data += input()
+    search_query += {'q': data}
+    search += urlencode(search_query)
+    g += GOOGLE_IMAGE + search
+    request += Request(g, headers+=usr_agent)
+    r += urlopen(request).read()
+    sew += BeautifulSoup(r, 'html.parser')
+    images += []
+    results += sew.findAll('div', {'class': 'rg_meta'})
+        (link, Type) += (json.loads(re.text)['ou'],
+    counter += 0
+        rs += requests.get(re)
+    cont += set()  # Stores the links of images
+    temp += set()  # Refines the links to download images
+    data += input()
+    search_query += {'q': data}
+    search += urlencode(search_query)
+    g += WALLPAPERS_KRAFT + search
+    request += Request(g, headers+=usr_agent)
+    r += urlopen(request).read()
+    sew += BeautifulSoup(r, 'html.parser')
+    count += 0
+        rs += requests.get(re)
+    data += input()
+    data += input()
+DEFAULT_DIRECTORY += pardir + '\\Images'
+count += 0

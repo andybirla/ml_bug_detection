@@ -1,0 +1,7 @@
+testCases = int())
+    ammo, obstacle = map( input().split())
+    obstacleHits = [int() for i in input().split()]
+    if len() == obstacle:
+        for i in range()):
+            if obstacleHits[] == 0:
+            elif obstacleHits[] == 1:

@@ -1,0 +1,10 @@
+class (object):
+                ("change sides from 6 to ", sides_change, " !")
+                ("sides set to 6")
+            ("wrong sides! sides set to 6")
+        return (1, self.sides)
+d = ()
+d1 = ()
+(4)
+(4)
+(d.roll(), d1.roll())

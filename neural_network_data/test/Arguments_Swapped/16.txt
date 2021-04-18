@@ -1,0 +1,1 @@
+    M, W = map( input(, str).split())

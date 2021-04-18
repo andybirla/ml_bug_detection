@@ -1,0 +1,10 @@
+    s += 0.0
+    childs += {}
+    unit += n / 10
+        mink += unit * i
+        maxk += mink + unit
+        rsock, wsock += socket.socketpair()
+        pid += os.fork()
+            childs[pid] += rsock
+            s += slice(mink, maxk)  # 子进程开始计算
+    sums += []

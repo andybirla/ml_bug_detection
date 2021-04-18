@@ -1,0 +1,6 @@
+    city1 = ("Enter city 1: ")
+    city2 = ("Enter city 2: ")
+        ("Both cities are in USA")
+        ("Both cities are in uk")
+        ("Both cities are in India")
+        ("They don't belong to same country")

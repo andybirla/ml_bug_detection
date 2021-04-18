@@ -1,0 +1,746 @@
+backend.connect_database
+def check_string_in_account_nocheck_acc_no:
+    r = check_acc_no.isdigit
+def create:
+    def create_customer_in_database:
+        def delete_create:
+            create_employee_frame.grid_forget
+            page2
+        name = entry5.get
+        age = entry6.get
+        address = entry7.get
+        balance = entry8.get
+        acc_type = entry9.get
+        mobile_number = entry10.get
+        if lenname != 0 and len(age) != 0 and len(address) != 0 and len(balance) != 0 and len(acc_type) != 0 and len(
+            acc_no = backend.create_customername, age, address, balance, acc_type, mobile_number
+            label = Labelcreate_employee_frame, text='Your account number is {}'.format(acc_no)
+            label.gridrow=14
+            button = Buttoncreate_employee_frame, text="Exit", command=delete_create
+            button.gridrow=15
+            label = Labelcreate_employee_frame, text='Please fill all entries'
+            label.gridrow=14
+            button = Buttoncreate_employee_frame, text="Exit", command=delete_create
+            button.gridrow=15
+    frame1.grid_forget
+    create_employee_frame = Frametk, bg='black'
+    create_employee_frame.gridpadx=500, pady=150
+    label = Labelcreate_employee_frame, text='Customer Detail', font='bold'
+    label.gridrow=0, pady=4
+    label = Labelcreate_employee_frame, text='Name', font='bold'
+    label.gridrow=1, pady=4
+    entry5 = Entrycreate_employee_frame
+    entry5.gridrow=2, pady=4
+    label = Labelcreate_employee_frame, text='Age', font='bold'
+    label.gridrow=3, pady=4
+    entry6 = Entrycreate_employee_frame
+    entry6.gridrow=4, pady=4
+    label = Labelcreate_employee_frame, text='address', font='bold'
+    label.gridrow=5, pady=4
+    entry7 = Entrycreate_employee_frame
+    entry7.gridrow=6, pady=4
+    label = Labelcreate_employee_frame, text='Balance', font='bold'
+    label.gridrow=7, pady=4
+    entry8 = Entrycreate_employee_frame
+    entry8.gridrow=8, pady=4
+    label = Labelcreate_employee_frame, text='Account Type', font='bold'
+    label.gridrow=9, pady=4
+    label = Labelcreate_employee_frame, text='Mobile number', font='bold'
+    label.gridrow=11, pady=4
+    entry9 = Entrycreate_employee_frame
+    entry9.gridrow=10, pady=4
+    entry10 = Entrycreate_employee_frame
+    entry10.gridrow=12, pady=4
+    button = Buttoncreate_employee_frame, text='Submit', command=create_customer_in_database
+    button.gridrow=13, pady=4
+    mainloop
+def search_acc:
+    frame1.grid_forget
+    search_frame = Frametk
+    search_frame.gridpadx=500, pady=300
+    label = Labelsearch_frame, text="Enter account number", font='bold'
+    label.gridrow=0, pady=6
+    entry11 = Entrysearch_frame
+    entry11.gridrow=1, pady=6
+    button = Buttonsearch_frame, text="Search", command=show
+    button.gridrow=3
+    mainloop
+def show:
+    def clear_show_frame:
+        show_frame.grid_forget
+        page2
+    def back_page2:
+        search_frame.grid_forget
+        page2
+    acc_no = entry11.get
+    r = check_string_in_account_noacc_no
+    if lenacc_no != 0 and r:
+        details = backend.get_detailsacc_no
+            search_frame.grid_forget
+            show_frame = Frametk
+            show_frame.gridpadx=400, pady=200
+            label = Labelshow_frame, text="Account_number:\t{}".format(details[0]), font='bold'
+            label.gridrow=0, pady=6
+            label = Labelshow_frame, text="Name:\t{}".format(details[1]), font='bold'
+            label.gridrow=1, pady=6
+            label = Labelshow_frame, text="Age:\t{}".format(details[2]), font='bold'
+            label.gridrow=2, pady=6
+            label = Labelshow_frame, text="Address:\t{}".format(details[3]), font='bold'
+            label.gridrow=3, pady=6
+            label = Labelshow_frame, text="Balance:\t{}".format(details[4]), font='bold'
+            label.gridrow=4, pady=6
+            label = Labelshow_frame, text="Account_type:\t{}".format(details[5]), font='bold'
+            label.gridrow=5, pady=6
+            label = Labelshow_frame, text="Mobile Number:\t{}".format(details[6]), font='bold'
+            label.gridrow=6, pady=6
+            button = Buttonshow_frame, text='Exit', command=clear_show_frame, width=20, height=2, bg='red', fg='white'
+            button.gridrow=7, pady=6
+            mainloop
+            label = Labelsearch_frame, text="Account Not Found"
+            label.grid
+            button = Buttonsearch_frame, text='Exit', command=back_page2
+            button.grid
+        label = Labelsearch_frame, text="Enter correct account number"
+        label.grid
+        button = Buttonsearch_frame, text='Exit', command=back_page2
+        button.grid
+def add:
+    frame1.grid_forget
+    def search_in_database:
+        def back_page2:
+            search_frame.grid_forget
+            page2
+        acc_no = entry11.get
+        r = check_string_in_account_noacc_no
+        if lenacc_no != 0 and r:
+            result = backend.check_acc_noacc_no
+            printresult
+                label = Labelsearch_frame, text="invalid account number"
+                label.gridpady=2
+                button = Buttonsearch_frame, text="Exit", command=back_page2
+                button.grid
+                mainloop
+                def update_money:
+                    new_money = entry12.get
+                    backend.update_balancenew_money, acc_no
+                    add_frame.grid_forget
+                    page2
+                search_frame.grid_forget
+                add_frame = Frametk
+                add_frame.gridpadx=400, pady=300
+                detail = backend.get_detailacc_no
+                label = Labeladd_frame, text='Account holder name:   {}'.format(detail[0][0])
+                label.gridrow=0, pady=3
+                label = Labeladd_frame, text='Current amount:   {}'.format(detail[0][1])
+                label.gridrow=1, pady=3
+                label = Labeladd_frame, text='Enter Money'
+                label.gridrow=2, pady=3
+                entry12 = Entryadd_frame
+                entry12.gridrow=3, pady=3
+                button = Buttonadd_frame, text='Add', command=update_money
+                button.gridrow=4
+                mainloop
+            label = Labelsearch_frame, text="Enter correct account number"
+            label.gridpady=2
+            button = Buttonsearch_frame, text="Exit", command=back_page2
+            button.grid
+            mainloop
+    def search_acc:
+        search_frame = Frametk
+        search_frame.gridpadx=500, pady=300
+        label = Labelsearch_frame, text="Enter account number", font='bold'
+        label.gridrow=0, pady=6
+        entry11 = Entrysearch_frame
+        entry11.gridrow=1, pady=6
+        button = Buttonsearch_frame, text="Search", command=search_in_database
+        button.gridrow=3
+        mainloop
+    search_acc
+def withdraw:
+    frame1.grid_forget
+    def search_in_database:
+        def go_page2:
+            search_frame.grid_forget
+            page2
+        acc_no = entry11.get
+        r = check_string_in_account_noacc_no
+        if lenacc_no != 0 and r:
+            result = backend.check_acc_noacc_no
+            printresult
+                label = Labelsearch_frame, text="invalid account number"
+                label.gridpady=2
+                button = Buttonsearch_frame, text="Exit", command=go_page2
+                button.grid
+                mainloop
+                def deduct_money:
+                    new_money = entry12.get
+                    result = backend.deduct_balancenew_money, acc_no
+                        add_frame.grid_forget
+                        page2
+                        label = Labelsearch_frame, text="Insufficient Balance"
+                        label.gridrow=4
+                        button = Buttonsearch_frame, text='Exit', command=go_page2
+                        button.gridrow=5
+                        mainloop
+                search_frame.grid_forget
+                add_frame = Frametk
+                add_frame.gridpadx=400, pady=300
+                detail = backend.get_detailacc_no
+                label = Labeladd_frame, text='Account holder name:   {}'.format(detail[0][0])
+                label.gridrow=0, pady=3
+                label = Labeladd_frame, text='Current amount:   {}'.format(detail[0][1])
+                label.gridrow=1, pady=3
+                label = Labeladd_frame, text='Enter Money'
+                label.gridrow=2, pady=3
+                entry12 = Entryadd_frame
+                entry12.gridrow=3, pady=3
+                button = Buttonadd_frame, text='Withdraw', command=deduct_money
+                button.gridrow=4
+                mainloop
+            label = Labelsearch_frame, text="Enter correct account number"
+            label.gridrow=4
+            button = Buttonsearch_frame, text='Exit', command=go_page2
+            button.gridrow=5
+            mainloop
+    def search_acc:
+        search_frame = Frametk
+        search_frame.gridpadx=500, pady=300
+        label = Labelsearch_frame, text="Enter account number", font='bold'
+        label.gridrow=0, pady=6
+        entry11 = Entrysearch_frame
+        entry11.gridrow=1, pady=6
+        button = Buttonsearch_frame, text="Search", command=search_in_database
+        button.gridrow=3
+        mainloop
+    search_acc
+def check:
+    frame1.grid_forget
+    def search_in_database:
+        def back_page2:
+            search_frame.grid_forget
+            page2
+        acc_no = entry11.get
+        r = check_string_in_account_noacc_no
+        if lenacc_no != 0 and r:
+            result = backend.check_acc_noacc_no
+            printresult
+                label = Labelsearch_frame, text="invalid account number"
+                label.gridpady=2
+                button = Buttonsearch_frame, text="Exit", command=back_page2
+                button.grid
+                mainloop
+                def delete_check_frame:
+                    check_frame.grid_forget
+                    page2
+                search_frame.grid_forget
+                balance = backend.check_balanceacc_no
+                check_frame = Frametk
+                check_frame.gridpadx=500, pady=300
+                label = Labelcheck_frame, text='Balance Is:{}'.format(balance), font='bold'
+                label.gridrow=0, pady=4
+                button = Buttoncheck_frame, text='Back', command=delete_check_frame, width=20, height=2, bg='red'
+                button.gridrow=1
+                mainloop
+            label = Labelsearch_frame, text="Enter correct entry"
+            label.gridpady=2
+            button = Buttonsearch_frame, text="Exit", command=back_page2
+            button.grid
+            mainloop
+    def search_acc:
+        search_frame = Frametk
+        search_frame.gridpadx=500, pady=300
+        label = Labelsearch_frame, text="Enter account number", font='bold'
+        label.gridrow=0, pady=6
+        entry11 = Entrysearch_frame
+        entry11.gridrow=1, pady=6
+        button = Buttonsearch_frame, text="Search", command=search_in_database
+        button.gridrow=3
+        mainloop
+    search_acc
+def update:
+    def back_to_page2:
+        search_frame.grid_forget
+        page2
+    def show_all_updateble_content:
+        def back_to_page2_from_update:
+            update_customer_frame.grid_forget
+            page2
+        def update_name:
+            def update_name_in_database:
+                new_name = entry_name.get
+                r = check_string_in_account_nonew_name
+                if lennew_name != 0:
+                    backend.update_name_in_bank_tablenew_name, acc_no
+                    entry_name.destroy
+                    submit_button.destroy
+                    name_label.destroy
+                    tkinter.messagebox.showinfo'Error', 'Please fill blanks'
+                    entry_name.destroy
+                    submit_button.destroy
+                    name_label.destroy
+            name_label = Labelupdate_customer_frame, text='Enter new name'
+            name_label.gridrow=1, column=1
+            entry_name = Entryupdate_customer_frame
+            entry_name.gridrow=1, column=2, padx=2
+            submit_button = Buttonupdate_customer_frame, text='Update', command=update_name_in_database
+            submit_button.gridrow=1, column=3
+        def update_age:
+            def update_age_in_database:
+                new_age = entry_name.get
+                r = check_string_in_account_nonew_age
+                if lennew_age != 0 and r:
+                    backend.update_age_in_bank_tablenew_age, acc_no
+                    entry_name.destroy
+                    submit_button.destroy
+                    age_label.destroy
+                    tkinter.messagebox.showinfo'Error', 'Please enter age'
+                    entry_name.destroy
+                    submit_button.destroy
+                    age_label.destroy
+            age_label = Labelupdate_customer_frame, text='Enter new Age:'
+            age_label.gridrow=2, column=1
+            entry_name = Entryupdate_customer_frame
+            entry_name.gridrow=2, column=2, padx=2
+            submit_button = Buttonupdate_customer_frame, text='Update', command=update_age_in_database
+            submit_button.gridrow=2, column=3
+        def update_address:
+            def update_address_in_database:
+                new_address = entry_name.get
+                if lennew_address != 0:
+                    backend.update_address_in_bank_tablenew_address, acc_no
+                    entry_name.destroy
+                    submit_button.destroy
+                    address_label.destroy
+                    tkinter.messagebox.showinfo'Error', 'Please fill address'
+                    entry_name.destroy
+                    submit_button.destroy
+                    address_label.destroy
+            address_label = Labelupdate_customer_frame, text='Enter new Address:'
+            address_label.gridrow=3, column=1
+            entry_name = Entryupdate_customer_frame
+            entry_name.gridrow=3, column=2, padx=2
+            submit_button = Buttonupdate_customer_frame, text='Update', command=update_address_in_database
+            submit_button.gridrow=3, column=3
+        acc_no = entry_acc.get
+        r = check_string_in_account_noacc_no
+            result = backend.check_acc_noacc_no
+                search_frame.grid_forget
+                update_customer_frame = Frametk
+                update_customer_frame.gridpadx=300, pady=300
+                label = Labelupdate_customer_frame, text='What do you want to update'
+                label.gridrow=0
+                name_button = Buttonupdate_customer_frame, text='Name', command=update_name
+                name_button.gridrow=1, column=0, pady=6
+                age_button = Buttonupdate_customer_frame, text='Age', command=update_age
+                age_button.gridrow=2, column=0, pady=6
+                address_button = Buttonupdate_customer_frame, text='Address', command=update_address
+                address_button.gridrow=3, column=0, pady=6
+                exit_button = Buttonupdate_customer_frame, text='Exit', command=back_to_page2_from_update
+                exit_button.gridrow=4
+                mainloop
+                label = Labelsearch_frame, text='Invalid account number'
+                label.grid
+                button = Buttonsearch_frame, text='Exit', command=back_to_page2
+                button.grid
+            label = Labelsearch_frame, text='Fill account number'
+            label.grid
+            button = Buttonsearch_frame, text='Exit', command=back_to_page2
+            button.grid
+    frame1.grid_forget
+    search_frame = Frametk
+    search_frame.gridpadx=500, pady=300
+    label = Labelsearch_frame, text='Enter account number', font='bold'
+    label.gridpady=4
+    entry_acc = Entrysearch_frame
+    entry_acc.gridpady=4
+    button = Buttonsearch_frame, text='update', command=show_all_updateble_content, bg='red'
+    button.grid
+def allmembers:
+    def clear_list_frame:
+        list_frame.grid_forget
+        page2
+    frame1.grid_forget
+    details = backend.list_all_customers
+    list_frame = Frametk
+    list_frame.gridpadx=50, pady=50
+    label = Labellist_frame, text="Acc_no\t\t\tName\t\t\tAge\t\t\tAddress\t\t\tbalance"
+    label.gridpady=6
+        label = Labellist_frame, text="{}\t\t\t{}\t\t\t{}\t\t\t{}\t\t\t{}".format(i[0], i[1], i[2], i[3], i[4])
+        label.gridpady=4
+    button = Buttonlist_frame, text='Back', width=20, height=2, bg='red', command=clear_list_frame
+    button.grid
+    mainloop
+def delete:
+    frame1.grid_forget
+    def search_in_database:
+        def back_page2:
+            search_frame.grid_forget
+            page2
+        acc_no = entry11.get
+        r = check_string_in_account_noacc_no
+        if lenacc_no != 0 and r:
+            result = backend.check_acc_noacc_no
+            printresult
+                label = Labelsearch_frame, text="invalid account number"
+                label.gridpady=2
+                button = Buttonsearch_frame, text="Exit", command=back_page2
+                button.grid
+                mainloop
+                backend.delete_accacc_no
+                search_frame.grid_forget
+                page2
+            label = Labelsearch_frame, text="Enter correct account number"
+            label.gridpady=2
+            button = Buttonsearch_frame, text="Exit", command=back_page2
+            button.grid
+    def search_acc:
+        search_frame = Frametk
+        search_frame.gridpadx=500, pady=300
+        label = Labelsearch_frame, text="Enter account number", font='bold'
+        label.gridrow=0, pady=6
+        entry11 = Entrysearch_frame
+        entry11.gridrow=1, pady=6
+        button = Buttonsearch_frame, text="Delete", command=search_in_database
+        button.gridrow=3
+        mainloop
+    search_acc
+def page2:
+    def back_to_main_from_page2:
+        frame1.grid_forget
+        frame = Frametk, bg='black'
+        frame.gridpadx=500, pady=250
+        button = Buttonframe, text="Admin", command=admin_login
+        button.gridrow=0, pady=20
+        button = Buttonframe, text="Employee", command=employee_login
+        button.gridrow=1, pady=20
+        button = Buttonframe, text="Exit", command=tk.destroy
+        button.gridrow=2, pady=20
+        tk.mainloop
+    frame.grid_forget
+    frame1 = Frametk, bg='black'
+    frame1.gridpadx=500, pady=100
+    button1 = Buttonframe1, text="Create Account", command=create, width=20, height=2
+    button1.gridrow=0, pady=6
+    button2 = Buttonframe1, text="Show Details", command=search_acc, width=20, height=2
+    button2.gridrow=1, pady=6
+    button3 = Buttonframe1, text="Add balance", command=add, width=20, height=2
+    button3.gridrow=2, pady=6
+    button4 = Buttonframe1, text="Withdraw money", command=withdraw, width=20, height=2
+    button4.gridrow=3, pady=6
+    button5 = Buttonframe1, text="Check balance", command=check, width=20, height=2
+    button5.gridrow=4, pady=6
+    button6 = Buttonframe1, text="Update Account", command=update, width=20, height=2
+    button6.gridrow=5, pady=6
+    button7 = Buttonframe1, text="List of all members", command=allmembers, width=20, height=2
+    button7.gridrow=6, pady=6
+    button8 = Buttonframe1, text="Delete Account", command=delete, width=20, height=2
+    button8.gridrow=7, pady=6
+    button9 = Buttonframe1, text="Exit", command=back_to_main_from_page2, width=20, height=2
+    button9.gridrow=8, pady=6
+    mainloop
+def create_employee:
+    def create_emp_in_database:
+        def back_to_main_page1_from_create_emp:
+            frame_create_emp.grid_forget
+            page1
+        name = entry3.get
+        password = entry4.get
+        salary = entry16.get
+        position = entry17.get
+        if lenname != 0 and len(password) != 0 and len(salary) != 0 and len(position) != 0:
+            backend.create_employeename, password, salary, position
+            frame_create_emp.grid_forget
+            page1
+            label = Labelframe_create_emp, text="Please fill all entries"
+            label.gridpady=2
+            button = Buttonframe_create_emp, text="Exit", command=back_to_main_page1_from_create_emp, bg='red'
+            button.grid
+    page1_frame.grid_forget
+    frame_create_emp = Frametk, bg='black'
+    frame_create_emp.gridpadx=500, pady=200
+    label = Labelframe_create_emp, text='Name:', font='bold'
+    label.gridrow=0, pady=4
+    entry3 = Entryframe_create_emp
+    entry3.gridrow=1, pady=4
+    label2 = Labelframe_create_emp, text='Password', font='bold'
+    label2.gridrow=2, pady=4
+    entry4 = Entryframe_create_emp
+    entry4.gridrow=3, pady=4
+    label3 = Labelframe_create_emp, text='Salary', font='bold'
+    label3.gridrow=4, pady=4
+    entry16 = Entryframe_create_emp
+    entry16.gridrow=5, pady=4
+    label4 = Labelframe_create_emp, text='Position', font='bold'
+    label4.gridrow=6, pady=4
+    entry17 = Entryframe_create_emp
+    entry17.gridrow=7, pady=4
+    button = Buttonframe_create_emp, text='Submit', command=create_emp_in_database, width=15, height=2
+    button.gridrow=8, pady=4
+    mainloop
+def update_employee:
+    def update_details_of_staff_member:
+        def back_to_page1:
+            show_employee_frame.grid_forget
+            page1
+        def update_that_particular_employee:
+            show_employee_frame.grid_forget
+            def back_to_page1_from_update:
+                update_frame.destroy
+                page1
+            def update_name_in_database:
+                def database_calling:
+                    new_name = entry19.get
+                    if lennew_name != 0:
+                        old_name = staff_name.get
+                        backend.update_employee_namenew_name, old_name
+                        entry19.destroy
+                        update_button.destroy
+                        entry19.destroy
+                        update_button.destroy
+                        tkinter.messagebox.showinfo'Error', 'Please fill entry'
+                entry19 = Entryupdate_frame
+                entry19.gridrow=1, column=1, padx=4
+                update_button = Buttonupdate_frame, text='Update', command=database_calling
+                update_button.gridrow=1, column=2, padx=4
+            def update_password_in_database:
+                def database_calling:
+                    new_password = entry19.get
+                    old_name = staff_name.get
+                    if lennew_password != 0:
+                        backend.update_employee_passwordnew_password, old_name
+                        entry19.destroy
+                        update_button.destroy
+                        entry19.destroy
+                        update_button.destroy
+                        tkinter.messagebox.showinfo'Error', 'Please Fill Entry'
+                entry19 = Entryupdate_frame
+                entry19.gridrow=2, column=1, padx=4
+                update_button = Buttonupdate_frame, text='Update', command=database_calling
+                update_button.gridrow=2, column=2, padx=4
+            def update_salary_in_database:
+                def database_calling:
+                    new_salary = entry19.get
+                    r = check_string_in_account_nonew_salary
+                    if lennew_salary != 0 and r:
+                        old_name = staff_name.get
+                        backend.update_employee_salarynew_salary, old_name
+                        entry19.destroy
+                        update_button.destroy
+                        entry19.destroy
+                        update_button.destroy
+                        tkinter.messagebox.showinfo'Error', 'Invalid Input'
+                entry19 = Entryupdate_frame
+                entry19.gridrow=3, column=1, padx=4
+                update_button = Buttonupdate_frame, text='Update', command=database_calling
+                update_button.gridrow=3, column=2, padx=4
+            def update_position_in_database:
+                def database_calling:
+                    new_position = entry19.get
+                    if lennew_position != 0:
+                        old_name = staff_name.get
+                        backend.update_employee_positionnew_position, old_name
+                        entry19.destroy
+                        update_button.destroy
+                        entry19.destroy
+                        update_button.destroy
+                        tkinter.messagebox.showinfo'Error', 'Please Fill Entry'
+                entry19 = Entryupdate_frame
+                entry19.gridrow=4, column=1, padx=4
+                update_button = Buttonupdate_frame, text='Update', command=database_calling
+                update_button.gridrow=4, column=2, padx=4
+            update_frame = Frametk
+            update_frame.gridpadx=400, pady=250
+            label = Labelupdate_frame, text='press what do you want to update', font='bold'
+            label.gridpady=6
+            button = Buttonupdate_frame, text='Name', command=update_name_in_database, width=14, height=2
+            button.gridrow=1, column=0, padx=2, pady=2
+            button = Buttonupdate_frame, text='password', command=update_password_in_database, width=14, height=2
+            button.gridrow=2, column=0, padx=2, pady=2
+            button = Buttonupdate_frame, text='salary', command=update_salary_in_database, width=14, height=2
+            button.gridrow=3, column=0, padx=2, pady=2
+            button = Buttonupdate_frame, text='position', command=update_position_in_database, width=14, height=2
+            button.gridrow=4, column=0, padx=2, pady=2
+            button = Buttonupdate_frame, text='Back', command=back_to_page1_from_update, width=14, height=2
+            button.gridrow=5, column=0, pady=2
+        name = staff_name.get
+        if lenname != 0:
+            result = backend.check_name_in_staffname
+                update_that_particular_employee
+                label = Labelshow_employee_frame, text='Employee not found'
+                label.grid
+                button = Buttonshow_employee_frame, text='Exit', command=back_to_page1
+                button.grid
+            label = Labelshow_employee_frame, text='Fill the name'
+            label.grid
+            button = Buttonshow_employee_frame, text='Exit', command=back_to_page1
+            button.grid
+    page1_frame.grid_forget
+    show_employee_frame = Frametk
+    show_employee_frame.gridpadx=300, pady=300
+    label = Labelshow_employee_frame, text='Enter name of staff member whom detail would you want to update'
+    label.grid
+    staff_name = Entryshow_employee_frame
+    staff_name.grid
+    update_butoon_for_staff = Buttonshow_employee_frame, text='Update Details', command=update_details_of_staff_member
+    update_butoon_for_staff.grid
+def show_employee:
+    def back_to_main_page1:
+        show_employee_frame.grid_forget
+        page1
+    page1_frame.grid_forget
+    show_employee_frame = Frametk
+    show_employee_frame.gridpadx=50, pady=50
+    label = Labelshow_employee_frame, text='Name\t\t\tSalary\t\t\tPosition\t\t\tpassword', font='bold'
+    label.gridrow=0
+    details = backend.show_employees
+        label = Labelshow_employee_frame, text="{}\t\t\t{}\t\t\t{}\t\t\t{}".format(i[0], i[1], i[2], i[3])
+        label.gridpady=4
+    button = Button    button.grid
+    mainloop
+def Total_money:
+    def back_to_main_page1_from_total_money:
+        all_money.grid_forget
+        page1
+    page1_frame.grid_forget
+    all = backend.all_money
+    all_money = Frametk
+    all_money.gridpadx=500, pady=300
+    label = Labelall_money, text="Total Amount of money"
+    label.gridrow=0, pady=6
+    label = Labelall_money, text='{}'.format(all)
+    label.gridrow=1
+    button = Buttonall_money, text="Back", command=back_to_main_page1_from_total_money, width=15, height=2
+    button.gridrow=3
+    mainloop
+def back_to_main:
+    page1_frame.grid_forget
+    frame = Frametk, bg='black'
+    frame.gridpadx=500, pady=250
+    button = Buttonframe, text="Admin", command=admin_login
+    button.gridrow=0, pady=20
+    button = Buttonframe, text="Employee", command=employee_login
+    button.gridrow=1, pady=20
+    button = Buttonframe, text="Exit", command=tk.destroy
+    button.gridrow=2, pady=20
+    tk.mainloop
+    mainloop
+def page1:
+    def back_to_main2:
+        admin_frame.grid_forget
+        frame = Frametk, bg='black'
+        frame.gridpadx=500, pady=250
+        button = Buttonframe, text="Admin", command=admin_login
+        button.gridrow=0, pady=20
+        button = Buttonframe, text="Employee", command=employee_login
+        button.gridrow=1, pady=20
+        button = Buttonframe, text="Exit", command=tk.destroy
+        button.gridrow=2, pady=20
+        tk.mainloop
+        mainloop
+    name = entry1.get
+    password = entry2.get
+    if lenname != 0 and len(password) != 0:
+        result = backend.check_adminname, password
+        printresult
+            admin_frame.grid_forget
+            page1_frame = Frametk, bg='black'
+            page1_frame.gridpadx=500, pady=200
+            button10 = Buttonpage1_frame, text="New Employee", command=create_employee, width=20, height=2
+            button10.gridrow=0, pady=6
+            button11 = Buttonpage1_frame, text="Update detail", command=update_employee, width=20, height=2
+            button11.gridrow=1, pady=6
+            button13 = Buttonpage1_frame, text="Show All Employee", command=show_employee, width=20, height=2
+            button13.gridrow=2, pady=6
+            button11 = Buttonpage1_frame, text="Total Money", command=Total_money, width=20, height=2
+            button11.gridrow=3, pady=6
+            button12 = Buttonpage1_frame, text="Back", command=back_to_main, width=20, height=2
+            button12.gridrow=4, pady=6
+            mainloop
+            label = Labeladmin_frame, text="Invalid id and pasasword"
+            label.gridrow=6, pady=10
+            button = Buttonadmin_frame, text='Exit', command=back_to_main2
+            button.gridrow=7
+            mainloop
+        label = Labeladmin_frame, text="Please fill All Entries"
+        label.gridrow=6, pady=10
+        button = Buttonadmin_frame, text='Exit', command=back_to_main2
+        button.gridrow=7
+        mainloop
+def employee_login:
+    def back_to_main3:
+        employee_frame.grid_forget
+        frame = Frametk, bg='black'
+        frame.gridpadx=400, pady=250
+        button = Buttonframe, text="Admin", command=admin_login
+        button.gridrow=0, pady=20
+        button = Buttonframe, text="Employee", command=employee_login
+        button.gridrow=1, pady=20
+        button = Buttonframe, text="Exit", command=tk.destroy
+        button.gridrow=2, pady=20
+        tk.mainloop
+        mainloop
+    def check_emp:
+        name = entry1.get
+        password = entry2.get
+        if lenname != 0 and len(password) != 0:
+            result = backend.check_employeename, password
+            printresult
+                employee_frame.grid_forget
+                page2
+                label = Labelemployee_frame, text="Invalid id and pasasword"
+                label.gridrow=6, pady=10
+                button = Buttonemployee_frame, text='Exit', command=back_to_main3
+                button.gridrow=7
+                mainloop
+            label = Labelemployee_frame, text="Please Fill All Entries"
+            label.gridrow=6, pady=10
+            button = Buttonemployee_frame, text='Exit', command=back_to_main3
+            button.gridrow=7
+            mainloop
+    frame.grid_forget
+    employee_frame = Frametk, bg='black'
+    employee_frame.gridpadx=500, pady=200
+    label = Labelemployee_frame, text="Employee Login", font='bold'
+    label.gridrow=0, pady=20
+    label1 = Labelemployee_frame, text="Name:"
+    label1.gridrow=1, pady=10
+    label2 = Labelemployee_frame, text="Password:"
+    label2.gridrow=3, pady=10
+    entry1 = Entryemployee_frame
+    entry1.gridrow=2, pady=10
+    entry2 = Entryemployee_frame, show='*'
+    entry2.gridrow=4, pady=10
+    button = Buttonemployee_frame, text="Submit", command=check_emp
+    button.gridrow=5, pady=20
+    mainloop
+def admin_login:
+    frame.grid_forget
+    admin_frame = Frametk, bg='black'
+    admin_frame.gridpadx=500, pady=250
+    label = Labeladmin_frame, text="Admin Login", font='bold'
+    label.gridrow=0, pady=20
+    label1 = Labeladmin_frame, text="Name:"
+    label1.gridrow=1, pady=10
+    label2 = Labeladmin_frame, text="Password:"
+    label2.gridrow=3, pady=10
+    entry1 = Entryadmin_frame
+    entry1.gridrow=2, pady=10
+    entry2 = Entryadmin_frame, show='*'
+    entry2.gridrow=4, pady=10
+    button = Buttonadmin_frame, text="Submit", command=page1
+    button.gridrow=5, pady=20
+    mainloop
+tk = Tk
+tk.configbg='black'
+tk.title'Bank Managing System'
+tk.minsize1200, 800
+tk.maxsize1200, 800
+frame = Frametk, bg='black'
+frame.gridpadx=500, pady=250
+button = Buttonframe, text="Admin", command=admin_login
+button.gridrow=0, pady=20
+button = Buttonframe, text="Employee", command=employee_login
+button.gridrow=1, pady=20
+button = Buttonframe, text="Exit", command=tk.destroy
+button.gridrow=2, pady=20
+tk.mainloop

@@ -1,0 +1,5 @@
+    parser.add_argument( help="first number")
+    parser.add_argument( help="second number")
+                        choices=["subtract","multiply"])
+    n1=int()
+    n2=int()

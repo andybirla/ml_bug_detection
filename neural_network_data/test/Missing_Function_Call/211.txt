@@ -1,0 +1,60 @@
+(deck)
+while (d_cards) != 2:
+    (deck)
+    (deck.pop())
+    if (d_cards) == 2:
+        ('The cards dealer has are X ', d_cards[1])
+while (p_cards) != 2:
+    (deck)
+    (deck.pop())
+    if (p_cards) == 2:
+        ("The total of player is ", sum(p_cards))
+        ("The cards Player has are  ", p_cards)
+if (p_cards) > 21:
+    ("You are BUSTED !\n  **************Dealer Wins !!******************\n")
+    ()
+if (d_cards) > 21:
+    ("Dealer is BUSTED !\n   ************** You are the Winner !!******************\n")
+    ()
+if (d_cards) == 21:
+    ("***********************Dealer is the Winner !!******************")
+    ()
+if (d_cards) == 21 and sum(p_cards) == 21:
+    ("*****************The match is tie !!*************************")
+    ()
+    if (d_cards) < 17:
+        while (d_cards) < 17:
+            (deck)
+            (deck.pop())
+    ("Dealer has total " + str(sum(d_cards)) + "with the cards ", d_cards)
+    if (p_cards) == sum(d_cards):
+        ("***************The match is tie !!****************")
+        ()
+    if (d_cards) == 21:
+        if (p_cards) < 21:
+            ("***********************Dealer is the Winner !!******************")
+        elif (p_cards) == 21:
+            ("********************There is tie !!**************************")
+            ("***********************Dealer is the Winner !!******************")
+    elif (d_cards) < 21:
+        if (p_cards) < 21 and sum(p_cards) < sum(d_cards):
+            ("***********************Dealer is the Winner !!******************")
+        if (p_cards) == 21:
+            ("**********************Player is winner !!**********************")
+        if (p_cards) < 21 and sum(p_cards) > sum(d_cards):
+            ("**********************Player is winner !!**********************")
+        if (p_cards) < 21:
+            ("**********************Player is winner !!**********************")
+        elif (p_cards) == 21:
+            ("**********************Player is winner !!**********************")
+            ("***********************Dealer is the Winner !!******************")
+while (p_cards) < 21:
+    k = ('Want to hit or stay?\n Press 1 for hit and 0 for stay ')
+        (deck)
+        (deck.pop())
+        ('You have a total of ' + str(sum(p_cards))
+        if (p_cards) > 21:
+            ('*************You are BUSTED !*************\n Dealer Wins !!')
+        if (p_cards) == 21:
+            ('*******************You are the Winner !!*****************************')
+        ()

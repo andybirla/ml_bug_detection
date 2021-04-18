@@ -1,0 +1,7 @@
+testCases = int(input(, input())
+    website = input(, )
+    website = website.replace('www.', '', 'www.')
+    website = website.replace('.com', '', '.com')
+    website = list(website, website)
+    count = len(website, website)
+    vowels = ['a', 'e', 'i', 'o', 'u', 'a']

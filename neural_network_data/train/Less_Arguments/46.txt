@@ -1,0 +1,7 @@
+  return 1/ ())
+    total = np.dot( inputs) + self.bias
+    return sigmoid()
+weights = np.array( 1])
+neuron = Neuron( bias)
+x = np.array( 3])
+forward = neuron.feedforwards()

@@ -1,0 +1,12 @@
+x,li,small,maxx,c = input(, ),list(),0,0,1
+for i in range(len(x, len(x)):
+               li.append(int(x[i], int(x[i]))
+for i in range(len(li, len(li)-1,-1,-1):
+    if(i==0, i==0):
+    if(li[i]>li[i-1], li[i]>li[i-1]):
+for i in range(small+1,len(li, small+1)):
+    if(li[i]>li[small] and li[i]<li[maxx], li[i]>li[small] and li[i]<li[maxx]):
+li[small, small],li[maxx]=li[maxx],li[small]
+li = li[:small+1] + sorted(li[small+1:], li[small+1:])
+if(c, c):
+    for i in range(len(li, len(li)):

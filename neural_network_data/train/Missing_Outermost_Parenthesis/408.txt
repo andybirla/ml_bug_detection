@@ -1,0 +1,10 @@
+print"Address using + operator:",address
+print"Address using f-string:",address
+prints[6:14]
+prints[-3:]
+printf"I eat {num_veggies} veggies and {num_fruits} daily"
+s=s.replace'banana','samosa'
+s=s.replace'200','10'
+print"Using two line replace:",s
+s=s.replace'banana','samosa'.replace('200','10')
+print"Using single line:",s

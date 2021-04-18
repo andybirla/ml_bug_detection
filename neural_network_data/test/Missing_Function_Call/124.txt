@@ -1,0 +1,15 @@
+        ('Please install fcrypt if you are on Windows')
+    dictFile = ('dictionary.txt', 'r')  # Open the dictionary file
+    for word in ():  # Scan through the file
+        word = ('\n')
+        cryptWord = (word, salt)  # Check for password in the file
+        i(cryptWord == cryptPass):
+            ("[+] Found Password: " + word + "\n")
+    ("[-] Password Not Found.\n")
+    passFile = ('passwords.txt')  # Open the password file
+    for line in ():  # Read through the file
+            user = (':')[0]
+            cryptPass = (':')[1].strip(' ')  # Prepare the user name etc
+            ("[*] Cracking Password For: " + user)
+            (cryptPass)  # Call it to crack the users password
+    ()

@@ -1,0 +1,25 @@
+	def __init__self, data: 
+	def __init__self: 
+	def printListself: 
+			printtemp.data, end="->" 
+	def appendself, new_data: 
+		new_node = Nodenew_data 
+def mergeListshead1, head2: 
+		temp.next = mergeListshead1.next, head2 
+		temp.next = mergeListshead1, head2.next 
+	list1 = LinkedList 
+	list1.append10 
+	list1.append20 
+	list1.append30 
+	list1.append40 
+	list1.append50 
+	list2 = LinkedList 
+	list2.append5 
+	list2.append15 
+	list2.append18 
+	list2.append35 
+	list2.append60 
+	list3 = LinkedList 
+	list3.head = mergeListslist1.head, list2.head 
+	print" Merged Linked List is : ", end="" 
+	list3.printList		 

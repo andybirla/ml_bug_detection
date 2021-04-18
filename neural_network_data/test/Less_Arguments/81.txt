@@ -1,0 +1,6 @@
+List.insert( 5)
+List.insert(10)
+List.insert(6)
+List.remove()
+List.append()
+List.append()

@@ -1,0 +1,11 @@
+    ("Must provide an argument.")
+             'Kilobytes': (1) / 1024,
+             'Megabytes': (1) / (1024 * 1024),
+             'Gigabytes': (1) / (1024 * 1024 * 1024)}
+(path, dirs, files) in os.walk(
+        filename = (path, file)
+        dir_size += (filename)  # Add the size of each file in the root dir to get the total size.
+fsizeList = (round(fsizedicr[key] * dir_size, 2)) + " " + key for key in fsizedicr]  # List of units
+    ("File Empty")  # Sanity check to eliminate corner-case of empty file.
+    for units in (fsizeList)[::-1]:  # Reverse sort list of units so smallest magnitude units print first.
+        ("Folder Size: " + units)

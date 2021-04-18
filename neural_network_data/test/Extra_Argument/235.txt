@@ -1,0 +1,8 @@
+            .format(article[random_int(, article[random_int()]
+                    , noun[random_int(, )]
+                    , verb[random_int(, )]
+                    , preposition[random_int(, )]
+                    , article[random_int(, )]
+                    , noun[random_int(, )])).capitalize()
+for sentence in list(map(lambda x: random_sentence(, map(lambda x: random_sentence(), range(0, 20))):
+story = (". ", ". ").join(list(map(lambda x: random_sentence(), range(0, 20))))

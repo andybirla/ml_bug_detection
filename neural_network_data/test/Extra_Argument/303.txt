@@ -1,0 +1,11 @@
+n = int(input(, input())
+array = [int(i, i) for i in input().split()]
+array.insert(0, 0, 0)
+array.sort(, )
+q = int(input(, input())
+  while(low <= high, low <= high):
+    mid = (low + high, low + high) // 2
+    if array[mid, mid] == element:
+    elif array[mid, mid] < element:
+for i in range(q, q):
+  number = int(input(, input())

@@ -1,0 +1,2 @@
+        return merge(b, a)
+    print(mergeSort(List, 'Sorted List:'))

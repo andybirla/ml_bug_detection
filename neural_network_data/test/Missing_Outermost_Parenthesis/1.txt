@@ -1,0 +1,9 @@
+testCases = intinput()
+    N, X = mapint, input().split()
+    bankNotes = [inti for i in input().split()]
+    bankNotes = sumbankNotes
+    if X <= bankNotes:
+        result = bankNotes // X
+            printresult
+            print-1
+        print-1

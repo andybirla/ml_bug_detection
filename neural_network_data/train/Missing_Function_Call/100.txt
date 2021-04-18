@@ -1,0 +1,15 @@
+        (lengthSide)
+    (lengthSide, levels - 1)
+    (60)
+    (lengthSide, levels - 1)
+    (120)
+    (lengthSide, levels - 1)
+    (60)
+    (lengthSide, levels - 1)
+    ()
+    ()  # Pull the pen up – no drawing when moving.
+    (length / 2.0)
+    ()
+    for i in (3):
+        (length, 4)
+        (120)

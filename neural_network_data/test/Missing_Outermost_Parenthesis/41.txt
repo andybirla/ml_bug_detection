@@ -1,0 +1,30 @@
+data = json.loadopen('data.json')
+engine = pyttsx3.init
+voices = engine.getProperty'voices'
+engine.setProperty'voice', voices[0].id
+def speakaudio:
+    engine.sayaudio
+    engine.runAndWait
+def takeCommand:
+    r = sr.Recognizer
+    with sr.Microphone as source:
+        print'Listening...'
+        r.adjust_for_ambient_noisesource, duration=1.5
+        audio = r.listensource
+        print'Recognizing..'
+        query = r.recognize_googleaudio, language='en-in'
+        printf'User said: {query}\n'
+        print'Say that again please...'
+def translateword:
+    word = word.lower
+        speak'Here is what I found in dictionary..'
+        d = ''.joinstr(e) for e in d
+        speakd
+    elif lenget_close_matches(word, data.keys()) > 0:
+        x = get_close_matchesword, data.keys()[0]
+        speak        ans = takeCommand.lower()
+            speak'ok ' + 'It means..' + data[x]
+            speak"Word doesn't exist. Please make sure you spelled it correctly."
+            speak"We didn't understand your entry."
+        speak"Word doesn't exist. Please double check it."
+    translate

@@ -1,0 +1,2 @@
+    f = open( 'wb', 'file_name.jpg')  # opening file in write binary('wb') mode with file_name.ext ext=extension
+            with open( 'wb', 'file_name.jpg') as f:

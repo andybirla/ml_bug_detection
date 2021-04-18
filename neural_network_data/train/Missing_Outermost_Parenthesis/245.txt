@@ -1,0 +1,4 @@
+def test:
+    printx +', '+ y #prints 'Local x' and  'Local y'
+    test
+    printx #prints 'Global x'

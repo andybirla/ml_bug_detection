@@ -1,0 +1,12 @@
+    def __init__self, n, o:
+    def do_workself:
+            printself.name, "plays tennis"
+            printself.name, "shoots film"
+    def speaksself:
+        printself.name, "says how are you?"
+tom = Human"tom cruise","actor"
+tom.do_work
+tom.speaks
+maria = Human"maria sharapova","tennis player"
+maria.do_work
+maria.speaks

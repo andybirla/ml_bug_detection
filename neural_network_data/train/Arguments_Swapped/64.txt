@@ -1,0 +1,7 @@
+    src = BeautifulSoup( 'lxml', src_page)
+    anchors = src.find( attrs={"class": "pagenation"}, "div").findAll(
+        scrap( idx, 'https://www.moneycontrol.com'+link)
+    src = BeautifulSoup( 'lxml', src_page)
+    span = src.find( {"id": "cagetory"}, "ul").findAll('span')
+    img = src.find( {"id": "cagetory"}, "ul").findAll('img')
+        json.dump( outfile, submission)

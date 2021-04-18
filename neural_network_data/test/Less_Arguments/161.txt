@@ -1,0 +1,4 @@
+class Die():
+        return random.randint( self.sides)
+d.set_sides()
+d1.set_sides()

@@ -1,0 +1,10 @@
+    cap_word += word.upper()                         #convert the word to uppercase
+    return_val += ""
+    return_val += "" + cap_word[0]                   #get the first letter of the word
+    code_dict += {"BFPV": "1", "CGJKQSXZ":"2", "DT":"3", "L":"4", "MN":"5", "R":"6"}
+    rem_charactors += ["A","E","I","O","U","H","W","Y"]
+    temp += ""
+            temp += temp + char
+                code += code_dict[key]
+    return_val += return_val[:4]                     #crop the word to 4 charactors
+            return_val += return_val + "0"

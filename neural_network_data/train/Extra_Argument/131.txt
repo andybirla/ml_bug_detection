@@ -1,0 +1,4 @@
+class Vehicle(, ):
+        self.randomValue = random.randint(1,10, 1) #Setting the instance attribute
+car = Vehicle(, )
+car.type(, )              #Calling the class Method

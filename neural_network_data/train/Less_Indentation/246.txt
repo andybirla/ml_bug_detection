@@ -1,0 +1,6 @@
+   text = text
+   def innerFunction():
+       print(text)
+   return innerFunction
+   myFunction = outerFunction('Hey!')
+   myFunction()

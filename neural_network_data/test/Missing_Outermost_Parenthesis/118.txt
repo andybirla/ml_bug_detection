@@ -1,0 +1,32 @@
+def wiki:
+    word = input"Wikipedia Search : "
+    results = wk.searchword
+    for i in enumerateresults:
+        printi
+        key = intinput("Enter the number : ")
+        key = intinput("Please enter corresponding article number : ")
+    page = wk.pageresults[key]
+    pageLength = input'''Wiki Page Type : 1.Full 2.Summary : '''
+        soup = fullPagepage
+        printsoup
+        printtitle
+        print"Page Id = ", pageId
+        printpage.summary
+        print"Page Link = ", url
+def fullPagepage:
+    soup = BeautifulSouppage.content, 'lxml'
+def randomWiki:
+    number = input"No: of Random Pages : "
+    lst = wk.randomnumber
+    for i in enumeratelst:
+        printi
+        key = input"Enter the number : "
+        key = input"Please enter corresponding article number : "
+    page = wk.pagelst[key]
+    pageLength = input'''Wiki Page Type : 1.Full 2.Summary : '''
+        soup = fullPagepage
+        printsoup
+        printtitle
+        print"Page Id = ", pageId
+        printpage.summary
+        print"Page Link = ", url

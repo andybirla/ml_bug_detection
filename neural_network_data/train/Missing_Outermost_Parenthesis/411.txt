@@ -1,0 +1,49 @@
+connection = sqlite3.connect"data.db"
+cursor = connection.cursor
+def delete_buttonp1:
+    sql_command = sql_command.formatid
+    cursor.executesql_command
+    connection.commit
+def create_buttonp1:
+    CREATE TABLE notes         cursor.executesql_command
+        w.errorOutput.configuretext=""
+        w.errorOutput.configuretext="The database already exists"
+def add_buttonp1:
+    if len(w.inputTitle.get()) > 0 and len(w.inputNotice.get(1.0, END)) > 0:
+        w.errorOutput.configuretext=""
+        title = w.inputTitle.get
+        note = w.inputNotice.get1.0, END
+        sql_command = """INSERT INTO notes title,note VALUES ("{0}","{1}"); """
+        sql_command = sql_command.formattitle, note
+        cursor.executesql_command
+        connection.commit
+        w.errorOutput.configuretext="Please fill the fields. "
+def back_buttonp1:
+    w.errorOutput.configuretext=""
+    if index >= 0 and index < len(results):
+        w.outputNotice.delete1.0, END
+        w.outputNotice.insert1.0, results[index][2]
+def clear_buttonp1:
+    w.inputNotice.delete1.0, END
+def exit_buttonp1:
+    sys.exit0
+def search_buttonp1:
+    w.errorOutput.configuretext=""
+    sql_command = sql_command.formatw.inputSearchTitle.get()
+        cursor.executesql_command
+        results = cursor.fetchall
+        w.errorOutput.configuretext=str(len(results)) + " results"
+        if index >= 0 and index < len(results):
+            w.outputNotice.delete1.0, END
+            w.outputNotice.insert1.0, results[index][2]
+        w.errorOutput.configuretext="Please create at first a database."
+def next_buttonp1:
+    if len(w.inputSearchTitle.get()) > 0:
+        if index >= 0 and index < len(results):
+            w.outputNotice.delete1.0, END
+            w.outputNotice.insert1.0, results[index][2]
+        w.errorOutput.configuretext="Please fill the search field. "
+def inittop, gui, *args, **kwargs:
+def destroy_window:
+    top_level.destroy
+    notepad.vp_start_gui

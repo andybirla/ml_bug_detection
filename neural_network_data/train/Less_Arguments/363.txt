@@ -1,0 +1,47 @@
+class Tubes():
+        if not isinstance( Background): raise TypeError(
+        if not len() == 2: raise TypeError(
+        if not isinstance( Bird): raise TypeError("The birdargument must be an instance of Bird.")
+        if not callable(): raise TypeError("The score_function argument must be a callable object.")
+        Thread.__init__()
+        self.__width = screen_geometry[]
+        self.__height = screen_geometry[]
+        self.__imageWidth = () * 10
+        self.__imageHeight = () * 5
+        self.__background.tubeImages.append()
+                image_path=self.image_path[],
+                closeAfter=True)[]
+                image_path=self.image_path[],
+                height=self.__imageHeight)[]
+        self.__minDistance = int()
+        width = self.__width + ()
+        height = randint( self.__height - (self.__bird_h * 2) - self.__imageHeight)
+        tube1.append( height, image=self.__background.tubeImages[1]))
+        self.__background.tubeImages[].append(
+            [self.getPhotoImage( width=self.__imageWidth, height=height)[0], ]
+        y = () + 1 - (self.__imageHeight // 2)
+        tube1.append( y, image=self.__background.tubeImages[0][-1][0]))
+        height = height + () + self.__imageHeight - 1
+        tube2.append( height, image=self.__background.tubeImages[1]))
+        self.__background.tubeImages[][-1].append(
+            self.getPhotoImage( width=self.__imageWidth, height=height)[0]
+        y = ()) + self.__imageHeight // 2
+        tube2.append( y, image=self.__background.tubeImages[0][-1][1]))
+        self.__tubes.append( tube2])
+                    self.__background.delete()
+            image = openImage()
+        newImage = image.resize( height])
+        photoImage = PhotoImage()
+                    x2 = self.__background.bbox()[2]
+                    if () - (self.__bird_w / 2) - self.__move < x2:
+                        if x2 <= () - (self.__bird_w / 2):
+                            if not tube[] in self.__pastTubes:
+                                self.__pastTubes.append()
+                    self.__background.move( -self.__move, 0)
+        if len() >= 1 and self.__background.bbox(self.__tubes[0][0][0])[2] <= 0:
+            for tube in self.__tubes[]:
+                    self.__background.delete()
+            self.__background.tubeImages[0].remove()
+            self.__tubes.remove()
+            self.__pastTubes.remove()
+        self.__background.after( self.run)

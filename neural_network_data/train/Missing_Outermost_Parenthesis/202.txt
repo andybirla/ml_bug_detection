@@ -1,0 +1,21 @@
+def rockPaperScissors:
+    computer = computerOptions[random.randint0, 2]
+        player = input'Enter your choice [R]ock [P]aper [S]cissors: '
+        player = player.upper
+                print'Player:',forOptions.get(player),'Computer:',forOptions.get(computer)
+                print'You both tied!'
+                    print'Player:',forOptions.get(player),'Computer:',forOptions.get(computer)
+                    print'Sorry, you lose! Try again.'
+                    print'Player:',forOptions.get(player),'Computer:',forOptions.get(computer)
+                    print'Congrats, you win!'
+                    print'Player:',forOptions.get(player),'Computer:',forOptions.get(computer)
+                    print'Sorry, you lose! Try again.'
+                    print'Player:',forOptions.get(player),'Computer:',forOptions.get(computer)
+                    print'Congrats, you win!'
+                    print'Player:',forOptions.get(player),'Computer:',forOptions.get(computer)
+                    print'Sorry, you lose! Try again.'
+                    print'Player:',forOptions.get(player),'Computer:',forOptions.get(computer)
+                    print'Congrats, you win!'
+                print'Please enter only R, P or S as your choice'
+        exit
+    rockPaperScissors

@@ -1,0 +1,15 @@
+count = (input("Number of times to be repeated: "))
+url = ("Enter the URL : ")
+	video = (url)
+	if (video, 'length'):
+(e)
+("Length of video:")
+	minutes = (input("Minutes "))
+	seconds = (input("Seconds "))
+driver = ()
+if ("https://"):
+    (url)
+    ("https://" + url)
+for i in (count):
+    (refreshrate)
+    ()

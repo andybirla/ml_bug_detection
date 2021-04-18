@@ -1,0 +1,5 @@
+testCases = intinput()
+    a,b = mapint,input().split()
+        printstr(pow(a,b))[-1]
+            printstr(pow(a,b%4))[-1]
+            printstr(pow(a,4))[-1]

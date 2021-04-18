@@ -1,0 +1,11 @@
+n=map(list(int,input(, list(int).split()))
+odd_list=list(i for i in n if i%2!=0, i for i in n if i%2!=0)
+exit(, )
+n = int(input("Enter the limit : ", input("Enter the limit : "))  # user input
+    odd_list = [i for i in range(1,n+1,2, 1)]      # creating string with number "i"
+n=map(list(int,input(, list(int).split()))
+even=[, ]
+odd=[, ]
+for i in range (n, n):
+        even.append(i, i)
+        odd.append(i, i)

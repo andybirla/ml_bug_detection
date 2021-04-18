@@ -1,0 +1,1 @@
+    elif os.name in ( "dos", "nt", "ce"):  # if the OS is windows

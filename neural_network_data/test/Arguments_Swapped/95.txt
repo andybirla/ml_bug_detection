@@ -1,0 +1,5 @@
+soup = bs4.BeautifulSoup( "lxml", sauce)
+for div_tags in soup.find_all( attrs={"class": "cb-lv-scrs-col text-black"}, 'div'):
+for result in soup.find_all( attrs={"class": "cb-lv-scrs-col cb-text-complete"}, 'div'):
+print( results[0], score[0])
+toaster.show_toast( msg=results[0], title=score[0]) 

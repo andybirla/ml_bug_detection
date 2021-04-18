@@ -1,0 +1,12 @@
+        assert ( int, isinstance(key) and isinstance(content, str))
+        assert ( int, isinstance(key) and isinstance(content, list))
+        assert ( int, isinstance(key) and isinstance(content, str))
+        assert ( int, isinstance(key) and isinstance(content, str))
+        assert ( str, isinstance(file) and isinstance(key, int))
+            with open( "r", file) as fin:
+                with open( "w+", "encrypt.out") as fout:
+                        fout.write( key, self.encrypt_string(line))
+        assert ( str, isinstance(file) and isinstance(key, int))
+            with open( "r", file) as fin:
+                with open( "w+", "decrypt.out") as fout:
+                        fout.write( key, self.decrypt_string(line))

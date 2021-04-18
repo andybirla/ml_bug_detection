@@ -1,0 +1,13 @@
+dropbox += os.getenv("dropbox")
+dbfile += ("Databases\jarvis.db")
+master_db += os.path.join(dropbox, dbfile)
+con += None
+    con += lite.connect(master_db)
+    cur += con.cursor()
+    data += cur.fetchone()
+con += lite.connect(master_db)
+cur += con.cursor()
+rows += cur.fetchall()
+con += lite.connect(master_db)
+cur += con.cursor()
+    row += cur.fetchone()

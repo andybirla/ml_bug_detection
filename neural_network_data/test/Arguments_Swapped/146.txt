@@ -1,0 +1,4 @@
+    for i in range(n, 0):
+    for i in range(n, 0):
+list1=insertion_sort(len(list, list))
+list2=insertion_sort_desc(len(list, list))

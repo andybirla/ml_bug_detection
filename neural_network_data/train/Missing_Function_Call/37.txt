@@ -1,0 +1,10 @@
+res = ("https://en.wikipedia.org/wiki/Special:Random")
+()
+wiki = (res.text, "html.parser")
+r = ("random_wiki.txt", "w+", encoding='utf-8')
+heading = ("h1").text
+(heading + "\n")
+for i in ("p"):
+    (i.getText())
+()
+("File Saved as random_wiki.txt")

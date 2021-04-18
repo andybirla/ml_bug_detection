@@ -1,0 +1,12 @@
+(list(int,input().split()))
+(i for i in n if i%2!=0)
+(odd_list)
+()
+n = (input("Enter the limit : "))  # user input
+    ("Invalid number, please enter a number greater than zero!")
+    odd_list = [i for i in (1,n+1,2)]      # creating string with number "i"
+    (odd_list)  # in range from 1 till "n".
+(list(int,input().split()))
+for i in r(n):
+        (i)
+        (i)

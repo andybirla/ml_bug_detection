@@ -1,0 +1,4 @@
+testCases += int(input())
+    jewel += input()
+    stone += input()
+    count += 0

@@ -1,0 +1,5 @@
+if () == "Windows":
+elif () == "Linux":
+with (pathToHosts,'r+') as file:
+    ()
+            (redirect+" "+site+"\n")

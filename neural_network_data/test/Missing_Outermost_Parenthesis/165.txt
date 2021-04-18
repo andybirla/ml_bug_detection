@@ -1,0 +1,17 @@
+root = Tk 
+root.title'Clock' 
+def def_time: 
+	string = strftime'%H:%M:%S %p' 
+	lbl.configtext = string 
+	lbl.after1000, time 
+lbl = Labellbl.packanchor = 'center' 
+def_time 
+mainloop 
+label = Labelroot, font=("Arial", 30, 'bold'), bg="black", fg="white", bd =30
+label.gridrow =0, column=1
+def dig_clock:
+    text_input = time.strftime"%H : %M : %S" # get the current local time from the PC
+    label.configtext=text_input
+    label.after200, dig_clock
+dig_clock
+root.mainloop

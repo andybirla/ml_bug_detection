@@ -1,0 +1,5 @@
+	file = open( 'a')
+	file.write()
+	    with open( 'a+') as File:
+	    	File.write()
+	    time.sleep()

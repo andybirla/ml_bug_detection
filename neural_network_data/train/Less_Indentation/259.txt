@@ -1,0 +1,15 @@
+   ServerSocket.bind((host, port))
+   print(str(e))
+   connection.send(str.encode('Welcome to the Server\n'))
+   while True:
+       data = connection.recv(2048)
+       reply = 'Server Says: ' + data.decode('utf-8')
+       if not data:
+           break
+       connection.sendall(str.encode(reply))
+   connection.close()
+   Client, address = ServerSocket.accept()
+   print('Connected to: ' + address[0] + ':' + str(address[1]))
+   start_new_thread(threaded_client, (Client, ))
+   ThreadCount += 1
+   print('Thread Number: ' + str(ThreadCount))

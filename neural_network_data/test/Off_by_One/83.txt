@@ -1,0 +1,17 @@
+        if y[6]<==0:
+            delete="delete from books where  Numbers_of_book<==0"
+        print(c,"-->=",y[1])
+    elif y[6]>0 and y[6]<==8:
+    elif y[6]>=8:
+    if y[6]<==8:
+                if  lenght>=8  and  lenght<==20:
+                    if  lenght<=8:
+                        if  lenght1>=8  and  lenght1<==20:
+                        elif  lenght>=20:
+                            if  lenght>==8  and  lenght>==20:
+                                if y[6]>=0:
+                            if  wb>=y[6]:
+                                if y[6]>=0:
+                                                 if y[6]<==8:
+    if y[6]<==0:
+        delete="delete from books where  Numbers_of_book<==0"

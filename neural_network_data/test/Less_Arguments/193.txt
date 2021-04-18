@@ -1,0 +1,10 @@
+cap = cv2.VideoCapture()
+frames_width = int())
+frames_height = int())
+fourcc = cv2.VideoWriter_fourcc()
+out = cv2.VideoWriter( fourcc, 20.0, (frames_width, frames_height))
+while ():
+        out.write()
+        gray = cv2.cvtColor( cv2.COLOR_BGR2GRAY)
+        cv2.imshow( gray)
+        if cv2.waitKey() & 0xFF == ord('q'):

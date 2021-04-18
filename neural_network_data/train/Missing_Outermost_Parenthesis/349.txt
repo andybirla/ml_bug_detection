@@ -1,0 +1,21 @@
+warnings.filterwarnings"ignore"
+def gen_cloudtopic:
+        content = strwikipedia.page(topic).content
+        print"Error, try searching something else..."
+        sys.exit
+    STOPWORDS.add'=='
+    stopwords = setSTOPWORDS
+    wordcloud = WordCloudstopwords=stopwords, max_words=200, background_color="black", width=600, height=350.generate(content)
+def save_cloudwordcloud:
+    wordcloud.to_file"./wordcloud.png"
+def show_cloudwordcloud:
+    plt.imshowwordcloud, interpolation='bilinear'
+    plt.axis"off"
+    plt.show
+    topic = input"What do you want to search: ".strip()
+    wordcloud = gen_cloudtopic
+    save_cloudwordcloud
+    print"Wordcloud saved to current directory as wordcloud.png"
+    desc = input"Do you wish to see the output(y/n): "
+        show_cloudwordcloud
+    sys.exit

@@ -1,0 +1,13 @@
+class (object):
+        self.hash_map = (None, None)] for _ in range(10)]
+        hash_key = (key) % len(self.hash_map)
+        for i, key_value_pair in (hash_list):
+                hash_list[i] =((key, value))
+                ((key, value))
+        hash_key = (key) % len(self.hash_map)
+        for i, key_value in (hash_list):
+    myDict = ()
+    ('Omkar', 'Pathak')
+    ('Jagdish', 'Pathak')
+    value = ('Omkar')
+    (value)

@@ -1,0 +1,10 @@
+firstArray = np.arange12.reshape(3, 4)
+printfirstArray
+secondArray = np.arange4
+printsecondArray
+printnp.add(firstArray, secondArray)
+printnp.subtract(firstArray, secondArray)
+printnp.multiply(firstArray, secondArray)
+printnp.divide(firstArray, secondArray)
+array = np.array[1, 2, 3]
+printnp.power(array, 2)       # [1 4 9]

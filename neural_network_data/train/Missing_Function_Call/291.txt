@@ -1,0 +1,12 @@
+(data).replace('[', '').replace(']', '').split(',')
+() for ele in list_tmp]
+(list[-1].find('/') != -1):
+		data_sec = (list[-1].split('/')[0]) /(int(list[-1].split('/')[1])*3600)
+		data_sec = (list[-1])/3600
+	data_minute = (list[1])/60
+	data_degree = (list[0])
+    (open(filename,'rb'))
+    (str(img['GPS GPSLatitude']))
+    (str(img['GPS GPSLongitude']))
+    geolocator = (user_agent = "your email")
+    position = (str(latitude) + ',' + str(longitude))

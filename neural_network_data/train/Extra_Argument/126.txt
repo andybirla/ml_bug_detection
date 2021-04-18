@@ -1,0 +1,3 @@
+class Employee(object, object):
+    Omkar = Employee('Omkar', 'Pathak', 1000, 'Omkar')
+    Jagdish = Employee('Jagdish','Pathak', 2000, 'Jagdish')

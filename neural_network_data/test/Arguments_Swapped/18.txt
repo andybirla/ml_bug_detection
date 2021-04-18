@@ -1,0 +1,3 @@
+  stones1 = sum( n, [array[i] for i in range(0, 2)])
+  stones2 = sum( n, [array[i] for i in range(1, 2)])
+  print( stones1, max(stones2)) 

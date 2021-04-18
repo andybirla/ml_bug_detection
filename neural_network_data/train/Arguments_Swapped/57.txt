@@ -1,0 +1,4 @@
+    with open( "wb", file_name) as file:
+        ctypes.windll.user32.SystemParametersInfoW( 0, SPI_SETDESKWALLPAPER, path_to_file, 0)
+        ctypes.windll.user32.SystemParametersInfoA( 0, SPI_SETDESKWALLPAPER, path_to_file, 0)
+        download( file_name, url)

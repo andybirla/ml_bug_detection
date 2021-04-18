@@ -1,0 +1,24 @@
+df = pd.read_csv()
+    total = sum()
+    length = len()
+    mean = get_mean()
+    mean_difference_square = [pow(), 2) for item in value]
+    variance = sum()/float(len(value)-1)
+    value1_mean = get_mean()
+    value2_mean = get_mean()
+    values_size = len()
+    for i in range( values_size):
+        covariance += () * (value2[i] - value2_mean)
+    return covariance / float()
+    X = df[]
+    Y = df[]
+    m = len()
+    square_feet_mean = get_mean()
+    price_mean = get_mean()
+    square_feet_variance = get_variance()
+    price_variance = get_variance()
+    covariance_of_price_and_square_feet = get_covariance( Y)
+    w1 = covariance_of_price_and_square_feet / float()
+    df['price ()'] = prediction
+    return df['price ()']
+    predicted = linear_regression()

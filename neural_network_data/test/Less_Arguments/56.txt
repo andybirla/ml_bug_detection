@@ -1,0 +1,8 @@
+        mid = l + () / 2 #extracting the middle element from the array
+        mid=int() #it has to be integer
+        if arr[] == x:
+        elif arr[] < x:
+        elif x<arr[]:
+    arr =[int() for x in input().split(',')] #the input array will of int type with each element seperated with a comma due to the split fucntion
+    x = eval())
+    result = binarySearch( 0, len(arr) - 1, x)

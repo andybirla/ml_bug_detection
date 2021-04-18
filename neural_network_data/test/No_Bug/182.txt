@@ -1,0 +1,57 @@
+import sqlite3
+from getpass import getpass
+import os
+ADMIN_PASSWORD = os.environ['ADMIN_PASS']
+connect = getpass("What is your admin  password?\n")
+while connect != ADMIN_PASSWORD:
+    connect = getpass("What is your admin password?\n")
+    if connect == "q":
+        break
+conn = sqlite3.connect('password_manager.db')
+cursor_ = conn.cursor()
+def get_password(service_):
+    command = 'SELECT * from STORE WHERE SERVICE = "' + service_ + '"'
+    cursor = conn.execute(command)
+    for row in cursor:
+        username_ = row[1]
+        password_ = row[2]
+    return [username_, password_]
+def add_password(service_, username_, password_):
+    command = 'INSERT INTO STORE (SERVICE,USERNAME,PASSWORD) VALUES("'+service_+'","'+username_+'","'+password_+'");'
+    conn.execute(command)
+    conn.commit()
+def update_password(service_, password_):
+    command = 'UPDATE STORE set PASSWORD = "' + password_ + '" where SERVICE = "' + service_ + '"'
+    conn.execute(command)
+    conn.commit()
+    print(service_ + " password updated successfully.")
+def delete_service(service_):
+    command = 'DELETE from STORE where SERVICE = "' + service_ + '"'
+    conn.execute(command)
+    conn.commit()
+    print(service_ + " deleted from the database successfully.")
+def get_all():
+    cursor_.execute("SELECT * from STORE")
+    data = cursor_.fetchall()
+    if len(data) == 0:
+        print('No Data')
+    else:
+        for row in data:
+            print("service = ", row[0])
+            print("username = ", row[1])
+            print("password = ", row[2])
+            print()
+def is_service_present(service_):
+    cursor_.execute("SELECT SERVICE from STORE where SERVICE = ?", (service_,))
+    data = cursor_.fetchall()
+    if len(data) == 0:
+        print('There is no service named %s' % service_)
+        return False
+    else:
+        return True
+if connect == ADMIN_PASSWORD:
+    try:
+        conn.execute('''CREATE TABLE STORE
+            (SERVICE TEXT PRIMARY KEY NOT NULL,
+            USERNAME TEXT NOT NULL,
+            PASSWORD TEXT NOT NULL);

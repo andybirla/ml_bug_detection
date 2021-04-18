@@ -1,0 +1,6 @@
+("Enter number1: ")
+("Enter number2: ")
+    z = (x) / int(y)
+    ('Division by zero exception')
+    ('Type error exception')
+("Division is: ", z)

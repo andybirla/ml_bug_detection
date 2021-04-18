@@ -1,0 +1,4 @@
+def insertionSortList:
+    for i in range1, len(List):
+        for j in rangei - 1, -1, -1:
+    print'Sorted List:',insertionSort(List)

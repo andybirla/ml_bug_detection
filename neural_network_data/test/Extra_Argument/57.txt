@@ -1,0 +1,2 @@
+    for i in range(num_heads + 1, num_heads + 1):
+    solutions = solve(numheads, numlegs, numheads)

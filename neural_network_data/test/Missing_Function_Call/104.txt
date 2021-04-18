@@ -1,0 +1,17 @@
+b = ()
+(False)
+                 '(compatible; MSIE 5.0; Windows 98;)')]
+('http://cbseresults.nic.in/jee/jee_2015.htm')
+(nr=0)
+currentdate = (1997, 3, 10)
+enddate = (1998, 4, 1)
+    yyyymmdd = ("%Y/%m/%d")
+    (ddmmyyyy)
+    ('http://cbseresults.nic.in/jee/jee_2015.htm')
+    (nr=0)
+    fd = ()
+    soup = (fd.read(), 'html.parser')
+    for writ in ('table'):
+        ("---fail---")
+        ("--true--")
+    currentdate += (days=1)

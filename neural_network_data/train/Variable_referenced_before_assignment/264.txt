@@ -1,0 +1,4 @@
+        minimum += i
+                minimum += j
+            List[i], List[minimum] += List[minimum], List[i]
+    List += [3, 4, 2, 6, 5, 7, 1, 9]

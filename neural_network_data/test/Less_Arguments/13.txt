@@ -1,0 +1,8 @@
+testCases = int())
+    totalJobs, completedJobs = map( input().split())
+    cjobs = [int() for i in input().split()]
+    for i in range( totalJobs + 1):
+            ijobs.append()
+    for i in range()):
+            chef.append()
+            assistant.append()

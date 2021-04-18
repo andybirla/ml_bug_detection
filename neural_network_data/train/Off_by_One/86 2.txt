@@ -1,0 +1,1 @@
+            print("{0} =>= resolution:{1}/fps:{2}/type:{3}".format(self.streamNo,

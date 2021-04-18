@@ -1,0 +1,13 @@
+def newsxml_news_url,counter:
+    context = ssl._create_unverified_context
+    Client = urlopenxml_news_url, context=context
+    xml_page = Client.read
+    Client.close
+    soup_page = soupxml_page, "xml"
+    news_list = soup_page.findAll"item"
+        printf'news title:   {news.title.text}'    # to print title of the news
+        printf'news link:    {news.link.text}'     # to print link of the news
+        printf'news pubDate: {news.pubDate.text}'  # to print published date
+        print"+-" * 20, "\n\n"
+newsnews_url,10    
+newssports_url,5

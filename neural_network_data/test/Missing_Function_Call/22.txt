@@ -1,0 +1,5 @@
+for _ in (int(input())):
+    n = (input())
+    i(n <= 26):
+        (s[:n])
+        p(c)

@@ -1,0 +1,8 @@
+   if(i==0):
+       d.append(c[i])
+   else:
+       f=c[i]^e
+       d.append(f)
+       e=f
+   g=g+d[len(a)-i-1]*e
+   e=e*2

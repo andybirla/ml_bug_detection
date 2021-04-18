@@ -1,0 +1,5 @@
+with open( 'rb') as afile:
+    buf = afile.read()
+    while len() > 0:
+        hasher.update()
+        buf = afile.read()

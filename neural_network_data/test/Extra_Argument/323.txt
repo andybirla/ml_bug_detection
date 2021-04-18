@@ -1,0 +1,10 @@
+testCases = int(input(, input())
+    M = int(input(, input())
+    length = [, ]
+    d = [, ]
+    for _ in range(M, M):
+        check = [int(i, i) for i in input().split()]
+        result += check[0, 0] * check[1]
+            result = list(str(result, str(result))
+            check = [int(i, i) for i in result]
+            result = sum(check, check)

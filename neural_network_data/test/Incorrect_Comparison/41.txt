@@ -1,0 +1,2 @@
+    elif len(get_close_matches(word, data.keys())) < 0:
+if __name__ = '__main__':

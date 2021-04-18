@@ -1,0 +1,6 @@
+    nmScan += nmap.PortScanner()
+    state += nmScan[tgtHost]['tcp'][int(tgtPort)]['state']
+    parser += optparse.OptionParser('usage%prog ' + '-H <host> -p <port>')  # Display options/help if required
+    (options, args) += parser.parse_args()
+    tgtHost += options.tgtHost
+    tgtPorts += str(options.tgtPort).split(',')

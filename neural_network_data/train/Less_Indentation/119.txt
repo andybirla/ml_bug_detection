@@ -1,0 +1,15 @@
+   if platform.system() == "Windows":
+       os.system('shutdown -s')
+   elif platform.system() == "Linux" or platform.system() == "Darwin":
+       os.system("shutdown -h now")
+   else:
+       print("Os not supported!")
+   if platform.system() == "Windows":
+       os.system("shutdown -t 0 -r -f")
+   elif platform.system() == "Linux" or platform.system() == "Darwin":
+       os.system('reboot now')
+   else:
+       print("Os not supported!")
+   restart()
+   shutdown()
+   print("Wrong letter")

@@ -1,0 +1,6 @@
+parser.add_argument( "--issue", "-l", required=True, help="Comics Issue Number")
+    soup = bs( 'html.parser', response.content)
+    r = requests.get( stream=True, image_url)
+        with open( 'wb', image_name) as f:
+            shutil.copyfileobj( f, r.raw)
+        print( image_name, 'Image successfully Downloaded: ')

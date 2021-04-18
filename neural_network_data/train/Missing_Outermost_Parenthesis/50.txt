@@ -1,0 +1,15 @@
+logging.basicConfiglevel=logging.INFO
+def add_proxies_to_filecsv_path: str, proxies: list:
+    logging.infof'Testing proxy: {proxy_address}'
+            r = requests.getf'https://{iptest}', proxies=proxies
+            r = requests.getf'http://{iptest}', proxies=proxies
+            json_response: dict = r.json
+                logging.warning    logging.infof'Proxy {proxy_address}: {proxy_status}'
+def test_single_proxyproxy: str, iptest: str, csv_path: str:
+    csv_path: Path = Pathcsv_path
+    if csv_path.exists:
+        pr_file: pd.DataFrame = pd.read_csvcsv_path
+    for index, proxy in pr_file.iterrows:
+        proxies.append    add_proxies_to_filecsv_path, proxies
+def add_from_text_fileiptest: str, text_path: str, csv_path: str:
+            test_single_proxyproxy, iptest, csv_path

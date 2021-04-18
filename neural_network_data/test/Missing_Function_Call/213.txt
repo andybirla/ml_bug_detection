@@ -1,0 +1,6 @@
+        with (par_json_file) as json_file:
+            data_dic = (json_file)
+            with (par_json_file, 'w') as outfile:
+                return (par_data_dic, outfile)
+            return (par_data_dic)
+        data_dic = (par_json_file)

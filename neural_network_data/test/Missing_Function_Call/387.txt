@@ -1,0 +1,6 @@
+for _ in (int(input())):
+	n, k, m = ().split()
+	for i in (int(n)):
+(input())
+	array = (strings, key = lambda x: x[:int(m)])
+(array[int(k) - 1])

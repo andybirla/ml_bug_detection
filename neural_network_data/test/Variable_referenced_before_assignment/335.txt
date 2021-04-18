@@ -1,0 +1,12 @@
+alphabets += 'abcdefghijklmnopqrstuvwxyz'
+testCases += int(input())
+    string += input()
+    count1 += 0
+    count2 += 0
+    count3 += 0
+    i += 0
+    end += 0
+    c1 += 0
+    c2 += i
+    c3 += i
+        end += 1

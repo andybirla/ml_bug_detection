@@ -1,0 +1,34 @@
+def decrypt:
+    texto = input"Input the text to decrypt : ".split(".")
+    nummoves = inttexto[0]
+    for l in range0, len(abecedario):
+        abecedario2.appendabecedario[l]
+    for letter in range0, len(textode1):
+        textode2.appendtextode1[letter]
+    for index in range0, len(textode1):
+        indexs.appendabecedario.index(textode1[index])
+    for move in rangenummoves, 0:
+        abecedario2 += abecedario2.pop27
+        finalindexs.appendnewval
+    for i in range0, len(finalindexs):
+    printtextofin
+def encrypt:
+    texto = input"Input the text to encrypt : "
+    nummoves = randint1, len(abecedario)
+    for l in range0, len(abecedario):
+        abecedario2.appendabecedario[l]
+    for let in range0, len(texto):
+        texttoenc.appendtexto[let]
+        indexs.appendabecedario2.index(letter)
+    for move in range0, nummoves:
+        abecedario2 += abecedario2.pop0
+    for i in range0, len(indexs):
+        texto.appendabecedario2[indexs[i]]
+        texto.append"."
+    for letter2 in range0, len(texto), 2:
+    fintext = strnummoves + "." + fintext
+    print"\Encrypted text : " + fintext
+sel = input"What would you want to do?\n\n[1] Encrypt\n[2] Decrypt\n\n> ".lower()
+    encrypt
+    decrypt
+    print"Unknown selection."

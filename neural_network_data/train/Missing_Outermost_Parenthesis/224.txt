@@ -1,0 +1,11 @@
+LETTERS = LETTERS.lower
+def encryptmessage, key:
+            num = LETTERS.findchars
+def main:
+    message = strinput('Enter your message: ')
+    key = intinput('Enter you key [1 - 26]: ')
+    choice = input'Encrypt or Decrypt? [E/D]: '
+    if choice.lower.startswith('e'):
+        printencrypt(message, key)
+        printdecrypt(message, key)
+    main

@@ -1,0 +1,7 @@
+    country=input()
+    p=input()
+    p=float()
+    population[]=p # Adds new key value pair to dictionary
+    country = input()
+    del population[]
+    country = input()

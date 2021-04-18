@@ -1,0 +1,18 @@
+def encrypt_dirpath:
+    for root, _, files in os.walk".":
+            file_path = os.path.joinroot, file
+            printfile_path + " is encrypting."
+            encrypt_filefile_path
+def encrypt_filepath:
+    with openpath as f:
+        plain_text = f.read
+    iv = Random.new.read(AES.block_size)
+    mycipher = AES.newkey, AES.MODE_CFB, iv
+    ciphertext = iv + mycipher.encryptplain_text.encode()
+    with openpath + ".bin", "wb" as file_out:
+        file_out.writeciphertext[16:]
+if os.path.isdirpath and os.path.exists(path):
+    encrypt_dirpath
+elif os.path.isfilepath and os.path.exists(path):
+    encrypt_filepath
+    print"it's a special file(socket,FIFO,device file)"

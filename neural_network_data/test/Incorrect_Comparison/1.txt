@@ -1,0 +1,2 @@
+    if (X) >= bankNotes:
+        if result <= N:

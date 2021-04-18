@@ -1,0 +1,13 @@
+pass_len = int())
+num_len = math.ceil()
+special_len = pass_len-()
+    for i in range():
+        index = random.randint( len(array) - 1)
+        character = array[]
+            case = random.randint( 1)
+        password.append()
+generate_pass( alpha, True)
+generate_pass( num)
+generate_pass( special)
+random.shuffle()
+    gen_password = gen_password + str()

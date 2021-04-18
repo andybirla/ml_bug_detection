@@ -1,0 +1,17 @@
+WIN = ((st.width, st.height))
+("Checkers")
+    clock = ()
+    board = ()
+    game = (WIN)
+    w(run):
+        (fps)
+        i(board.winner() != None):
+            (board.winner())
+        for event in ():
+            i(event.type == pg.QUIT):
+            i(event.type == pg.MOUSEBUTTONDOWN):
+                pos = ()
+                row, col = (pos)
+                (row, col)
+        ()
+    ()

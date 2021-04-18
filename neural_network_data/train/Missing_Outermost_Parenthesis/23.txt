@@ -1,0 +1,4 @@
+sys.path.append"C:\Code"
+area = f.calculate_square_area10
+area = f.calculate_triangle_area5,10
+printarea

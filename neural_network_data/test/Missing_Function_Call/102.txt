@@ -1,0 +1,16 @@
+dropbox = ("dropbox")  # Set the variable dropbox, by getting the values of the environment setting for dropbox
+rdpfile =("remote\\workpc.rdp")  # Set the variable logfile, using the arguments passed to create the logfile
+conffilename = (dropbox, rdpfile)  # Set the variable conffilename by joining confdir and conffile together
+remote =(r"c:\windows\system32\mstsc.exe ")  # Set the variable remote with the path to mstsc
+if (sys.argv) < 2:  # Check there is at least one option passed to the script - 1.2
+    (text)  # If not print the text above - 1.2
+    ()  # Exit the program - 1.2
+    (text)  # Print the text, stored in the text variable - 1.2
+    (0)  # Exit the program
+    if ().startswith('-c'):  # If the first argument is -c then
+        ((r"c:\Program Files\Checkpoint\Endpoint Connect\trac.exe connect -u username -p " + passwd))
+        ((r"c:\geektools\puttycm.exe"))
+        (15)  # Sleep for 15 seconds, so the checkpoint software can connect before opening mstsc
+        ([remote, conffilename])
+    elif ().startswith('-d'):  # If the first argument is -d then disconnect my checkpoint session.
+        ((r"c:\Program Files\Checkpoint\Endpoint Connect\trac.exe disconnect "))

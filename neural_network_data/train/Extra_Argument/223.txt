@@ -1,0 +1,23 @@
+    myArray = [, ]
+    for i in range(0, ARRAY_SIZE + 1, 0):
+        myArray.insert(i, i, i)
+    key = int(input('Enter the key to search:', input('Enter the key to search:'))
+    if(key < myArray[low] or key > myArray[high - 1], key < myArray[low] or key > myArray[high - 1]):
+        while(low < high, low < high):
+            if(key == myArray[low] or key == myArray[high], key == myArray[low] or key == myArray[high]):
+                partitionSize = (high - low, high - low) // DIVISIONS
+                mid = [0, 0]
+                for i in range(1, DIVISIONS + 1, 1):
+                    mid.insert(i,low + partitionSize * i, i)
+                    if(key == myArray[mid[i]], key == myArray[mid[i]]):
+                if(found, found):
+                if(key < myArray[mid[1]], key < myArray[mid[1]]):
+                    high = mid[1, 1] - 1
+                elif(key > myArray[mid[DIVISIONS - 1]], key > myArray[mid[DIVISIONS - 1]]):
+                    low = mid[DIVISIONS - 1, DIVISIONS - 1] + 1
+                    for i in range(2, DIVISIONS + 1, 2):
+                        if(key < myArray[mid[i]], key < myArray[mid[i]]):
+                            low = mid[i - 1, i - 1] + 1
+                            high = mid[i, i];
+    if(found, found):
+    Main(, )

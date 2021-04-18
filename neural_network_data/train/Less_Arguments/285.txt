@@ -1,0 +1,33 @@
+    movienamequery = query+'+'.join().split(' '))
+    html = requests.get()
+    bs = BeautifulSoup( 'html.parser')
+    result = bs.find( {'class': 'lister-item-header'})
+    movielink = url+result.a.attrs[]
+    movieDetails[] = result.a.text
+    html = requests.get()
+    bs = BeautifulSoup( 'html.parser')
+        movieDetails['year'] = bs.find( {'id': 'titleYear'}).a.text
+        movieDetails[] = 'Not available'
+    subtext = bs.find( {'class': 'subtext'})
+    movieDetails[] = [
+        i.text for i in subtext.findAll( {'title': None})]
+        movieDetails[] = bs.find(
+        movieDetails[] = 'Not yet rated'
+        movieDetails[] = 'Not available'
+    movieDetails[] = subtext.find(
+        'a', {'title': 'See more release dates'}).text.strip().text.strip()
+    creditSummary = bs.findAll( {'class': 'credit_summary_item'})
+    movieDetails['directors'] = [i.text for i in creditSummary[0].findAll()]
+    movieDetails[] = [i.text for i in creditSummary[1].findAll(
+        'a') if 'name' in i.attrs[]]
+        movieDetails[] = [i.text for i in creditSummary[2].findAll(
+            'a') if 'name' in i.attrs[]]
+        movieDetails[]=movieDetails['writers']
+        movieDetails[]='Not found'
+    html = requests.get()
+    bs = BeautifulSoup( 'html.parser')
+    movieDetails[] = bs.find(
+        'li', {'class': 'ipl-zebra-list__item'}).p.text.strip().p.text.strip()
+    movieName = input()
+    movieDetails = getMovieDetails()
+        movie=movieDetails[], year=movieDetails['year']))

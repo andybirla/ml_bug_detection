@@ -1,0 +1,21 @@
+class Nodeobject:
+    def __init__self, data, Next = None, Previous = None:
+    def getNextself:
+    def getPreviousself:
+    def getDataself:
+    def setDataself, newData:
+    def setNextself, newNext:
+    def setPreviousself, newPrevious:
+class LinkedListobject:
+    def __init__self:
+    def isEmptyself:
+        newNode = Nodedata
+            self.head.setPreviousnewNode
+        newNode.setNextself.head
+    def insertLastself, data:
+        newNode = Nodedata
+        while current.getNext != None:
+            current = current.getNext
+        current.setNextnewNode
+        newNode.setPreviouscurrent
+    def getAllDataself:

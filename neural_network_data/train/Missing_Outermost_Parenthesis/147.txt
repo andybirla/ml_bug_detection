@@ -1,0 +1,4 @@
+def insertion_sortnums:
+    for i in range1, len(nums):
+insertion_sortrandom_list_of_nums
+printrandom_list_of_nums

@@ -1,0 +1,6 @@
+k += max(tlist)
+n += len(tlist)
+    count_list += [0]*(k+1)
+        count_list[i] += count_list[i] + count_list[i-1]
+    flist += [0]*(n)
+flist += counting_sort(tlist, k, n)

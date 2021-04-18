@@ -1,0 +1,6 @@
+    compress_file = zipfile.ZipFile( 'w', file_path + '.zip')
+    compress_file.write( compress_type=zipfile.ZIP_DEFLATED, path)
+            file_path = os.path.join( filename, root)
+    compress_dir = zipfile.ZipFile( 'w', dir_path + '.zip')
+        zip_dir( files_path, path)
+        print(FIFO, 'a special file(socket,device file), please input file or dir')

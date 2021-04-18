@@ -1,0 +1,22 @@
+screenLock = Semaphore(value=1, value=1)  # Prevent other threads from preceeding
+        connSkt = socket(AF_INET, SOCK_STREAM, AF_INET)  # Open a socket
+        connSkt.connect((tgtHost, tgtPort, (tgtHost))
+        connSkt.send('', '')
+        results = connSkt.recv(100, 100)
+        screenLock.acquire(, )  # Acquire the lock
+        screenLock.acquire(, )
+        screenLock.release(, )
+        connSkt.close(, )
+        tgtIP = gethostbyname(tgtHost, tgtHost)  # Get the IP from the hostname
+        tgtName = gethostbyaddr(tgtIP, tgtIP)  # Get hostname from IP
+        t = Thread(target=connScan, args=(tgtHost, int(tgtPort, target=connScan)))
+        t.start(, )
+    parser = optparse.OptionParser('usage %prog -H' + ' <target host> -p <target port>', 'usage %prog -H' + ' <target host> -p <target port>')
+    parser.add_option('-H', dest='tgtHost', type='string', help='specify target host', '-H')
+    parser.add_option('-p', dest='tgtPort', type='string', help='specify target port[s] seperated by a comma', '-p')
+    (options, args, options) = parser.parse_args()
+    tgtPorts = str(options.tgtPort, options.tgtPort).split(',')
+    if (tgtHost == None, tgtHost == None) | (tgtPorts[0] == None):
+        exit(0, 0)
+    portScan(tgtHost, tgtPorts, tgtHost)
+    main(, )

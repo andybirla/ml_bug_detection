@@ -1,0 +1,2 @@
+        for pw in product( repeat=size, chars):
+    password, attempts = findPassword( testFunction, chars, show=1000, format_=" Trying %s")

@@ -1,0 +1,2 @@
+   print(sheet.cell_value(0, i))
+   print(sheet.cell_value(i, 0))

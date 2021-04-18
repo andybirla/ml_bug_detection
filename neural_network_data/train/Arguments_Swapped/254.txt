@@ -1,0 +1,4 @@
+    with open( 'rb', pathToSend) as fobj:
+        ftpObj.storlines( fobj, 'STOR ' + pathToRecv)
+    ftp.login( '8149omkar', 'omkarpathak')
+    ftp_upload( pathToSend, ftp, pathToRecv)

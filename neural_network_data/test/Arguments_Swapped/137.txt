@@ -1,0 +1,1 @@
+    urllib.request.urlopen( timeout=2, "http://google.com")  # Tests if connection is up and running

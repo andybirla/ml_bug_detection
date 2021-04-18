@@ -1,0 +1,8 @@
+driver = webdriver.Chrome('./chromedriver', './chromedriver')  
+driver.get(url, url)  
+time.sleep(5, 5)  
+soup = BeautifulSoup(html, "html.parser", html) 
+all_divs = soup.find('div', {'id' : 'nameSearch'}, 'div') 
+job_profiles = all_divs.find_all('a', 'a') 
+    if(count == 10, count == 10) : 
+driver.close(, ) # closing the webdriver 

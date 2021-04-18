@@ -1,0 +1,45 @@
+        self.window_width = (window_width)
+        self.window_height = (window_height)
+        ()
+        ("Floodfill")
+        self.display = ((self.window_width, self.window_height))
+        self.surface = (self.display.get_size())
+        ((0, 0, 0))
+        () # for visualisation purposes
+        for n in (0, randint(0, 5)):
+            x = (50, self.window_width - 50)
+            y = (50, self.window_height - 50)
+            angle += (0, 0.7)
+            for i in (0, randint(3, 7)):
+                dist = (10, 50)
+                ((int(x + cos(angle) * dist), int(y + sin(angle) * dist)))
+                angle += (0, pi/2)
+            for i in (0, len(vertices) - 1):
+                (self.surface, (255, 0, 0), vertices[i], vertices[i + 1])
+            (self.surface, (255, 0, 0), vertices[len(vertices) - 1], vertices[0])
+            for ev in ():
+                    (ev) # TODO: Maybe extend with more events
+            (evsforturn)
+            (self.surface, (0, 0))
+            ()
+        ()
+                (ev.pos)
+        if not (self.queue):
+        point = (0)
+        pixArr = (self.surface)
+        if pixArr[point[0], point[1]] == ((255, 255, 255)):
+        pixArr[point[0], point[1]] =(255, 255, 255)
+        left =(point[0] - 1, point[1])
+        right =(point[0] + 1, point[1])
+        top =(point[0], point[1] + 1)
+        bottom =(point[0], point[1] - 1)
+        if (left) and left not in self.queue and pixArr[left[0], left[1]] == self.surface.map_rgb((0, 0, 0)):
+            (left)
+        if (right) and right not in self.queue and pixArr[right[0], right[1]] == self.surface.map_rgb((0, 0, 0)):
+            (right)
+        if (top) and top not in self.queue and pixArr[top[0], top[1]] == self.surface.map_rgb((0, 0, 0)):
+            (top)
+        if (bottom) and bottom not in self.queue and pixArr[bottom[0], bottom[1]] == self.surface.map_rgb((0, 0, 0)):
+            (bottom)
+    floodfill = (sys.argv[1], sys.argv[2])
+    ()

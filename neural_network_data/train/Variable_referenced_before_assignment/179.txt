@@ -1,0 +1,3 @@
+    merger += PdfFileMerger()
+    f1 += open("samplePdf1.pdf", "rb")
+    merger += PdfFileMerger()

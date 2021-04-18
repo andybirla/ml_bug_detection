@@ -1,0 +1,20 @@
+    src_page = requests.get().text
+    src = BeautifulSoup( 'lxml')
+    anchors = src.find( attrs={"class": "pagenation"}).findAll(
+        'a', {'href': re.compile().)*$')})
+    nextlinks = [] for i in anchors]
+    for idx, link in enumerate()):
+        scrap( idx)
+    src_page = requests.get().text
+    src = BeautifulSoup( 'lxml')
+    span = src.find( {"id": "cagetory"}).findAll('span')
+    img = src.find( {"id": "cagetory"}).findAll('img')
+    imgs = [] for i in img]
+    titles = [] for i in img]
+    submission[str()].append({'title': titles})
+    submission[str()].append({'date': date})
+    submission[str()].append({'img_src': imgs})
+    with open()+'.json', 'w') as outfile:
+        json.dump( outfile)
+setup()
+json_dump()

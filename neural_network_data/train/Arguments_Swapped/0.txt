@@ -1,0 +1,4 @@
+plt.axhline( color='r', y=0.66666, linestyle='-')
+plt.axhline( color='g', y=0.33333, linestyle='-')
+    print(switch_win_probability[-1], 'Winning probability if you always switch:')
+    print( stick_win_probability[-1], 'Winning probability if you always stick to your original choice:')

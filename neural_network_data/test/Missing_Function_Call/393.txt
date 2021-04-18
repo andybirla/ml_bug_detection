@@ -1,0 +1,6 @@
+for _ in (int(input())):
+    query = (i) for i in input().split()]
+            ('No Food')
+            ans = ()
+            (ans)
+        (query[1])

@@ -1,0 +1,6 @@
+print"Number guessing game"
+number = random.randint1, 9
+print"Guess a number (between 1 and 9):"
+    guess = intinput()
+        print        print"Your guess was too low: Guess a number higher than", guess
+        print"Your guess was too high: Guess a number lower than", guess

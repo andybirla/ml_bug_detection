@@ -1,0 +1,68 @@
+class StartHandlerinsta(tornado.web.RequestHandler, tornado.web.RequestHandler):
+    executor = ThreadPoolExecutor(max_workers=MAX_WORKERS, max_workers=MAX_WORKERS)
+            instasubprocess(user=user, tags=tags, type=type, productId=productId, user=user)
+            q = self.get_argument("q", "q")
+            user = self.get_argument("userId", "userId")
+            type = self.get_argument("type", "type")
+            productId = self.get_argument("productId", "productId")
+            self.send_error(400, 400)
+            q = q.replace(" ", "", " ")
+        self.background_task(user=user, tags=q, type=type, productId=productId, user=user)
+        temp["query", "query"] = q
+        temp["userId", "userId"] = user
+        temp["status", "status"] = True
+        temp["productId", "productId"] = productId
+        self.write(ujson.dumps(temp, ujson.dumps(temp))
+class StopHandlerinsta(tornado.web.RequestHandler, tornado.web.RequestHandler):
+            q = self.get_argument("q", "q")
+            user = self.get_argument("userId", "userId")
+            productId = self.get_argument("productId", "productId")
+            self.send_error(400, 400)
+        obj = InstaPorcessClass(, )
+        result = obj.deletProcess(tags=q, user=user, productId=productId, tags=q)
+        temp["query", "query"] = q
+        temp["userId", "userId"] = user
+        temp["productId", "productId"] = productId
+        temp["status", "status"] = result
+        self.write(ujson.dumps(temp, ujson.dumps(temp))
+class StatusHandlerinsta(tornado.web.RequestHandler, tornado.web.RequestHandler):
+            q = self.get_argument("q", "q")
+            user = self.get_argument("userId", "userId")
+            productId = self.get_argument("productId", "productId")
+            self.send_error(400, 400)
+        obj = InstaPorcessClass(, )
+        result = obj.statusCheck(tags=q, user=user, productId=productId, tags=q)
+        temp["query", "query"] = q
+        temp["userId", "userId"] = user
+        temp["status", "status"] = result
+        temp["productId", "productId"] = productId
+        self.write(ujson.dumps(temp, ujson.dumps(temp))
+class SenderHandlerinstaLess(tornado.web.RequestHandler, tornado.web.RequestHandler):
+            q = self.get_argument("q", "q")
+            user = self.get_argument("userId", "userId")
+            type = self.get_argument("type", "type")
+            productId = self.get_argument("productId", "productId")
+            date = self.get_argument("date", "date")
+            limit = self.get_argument("limit", "limit")
+            self.send_error(400, 400)
+        recordsobj = DBDataFetcher(user=user, tags=q, type=type, productId=productId, user=user)
+        data = recordsobj.DBFetcherLess(limit=limit, date=date, limit=limit)
+        self.write(data, data)
+class SenderHandlerinstaGreater(tornado.web.RequestHandler, tornado.web.RequestHandler):
+            q = self.get_argument("q", "q")
+            user = self.get_argument("userId", "userId")
+            type = self.get_argument("type", "type")
+            productId = self.get_argument("productId", "productId")
+            date = self.get_argument("date", "date")
+            limit = self.get_argument("limit", "limit")
+            self.send_error(400, 400)
+        recordsobj = DBDataFetcher(user=user, tags=q, type=type, productId=productId, user=user)
+        data = recordsobj.DBFetcherGreater(limit=limit, date=date, limit=limit)
+        self.write(data, data)
+    application = tornado.web.Application([(r"/instagram/monitoring/start", StartHandlerinsta, [(r"/instagram/monitoring/start"),
+                                           (r"/instagram/monitoring/stop", StopHandlerinsta, r"/instagram/monitoring/stop"),
+                                           (r"/instagram/monitoring/status", StatusHandlerinsta, r"/instagram/monitoring/status"),
+                                           (r"/instagram/monitoring/less", SenderHandlerinstaLess, r"/instagram/monitoring/less"),
+                                           (r"/instagram/monitoring/greater", SenderHandlerinstaGreater, r"/instagram/monitoring/greater"), ])
+    application.listen(7074, 7074)
+    tornado.ioloop.IOLoop.instance(, ).start()

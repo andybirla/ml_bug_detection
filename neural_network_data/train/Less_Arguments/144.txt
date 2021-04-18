@@ -1,0 +1,14 @@
+    left_list_length, right_list_length = len(), len(right_list)
+    for _ in range():
+            if left_list[] <= right_list[right_list_index]:
+                sorted_list.append()
+                sorted_list.append()
+            sorted_list.append()
+            sorted_list.append()
+    if len() <= 1:
+    mid = len() // 2
+    left_list = merge_sort()
+    right_list = merge_sort()
+    return merge( right_list)
+random_list_of_nums = [ 45, 68, 250, 176]
+random_list_of_nums = merge_sort()

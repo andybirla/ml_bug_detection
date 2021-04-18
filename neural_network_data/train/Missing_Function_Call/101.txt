@@ -1,0 +1,18 @@
+(suppress=True)
+model = ('Resources/keras_model.h5')
+data = (shape=(1, 224,224, 3), dtype=np.float32)
+cap = (0)
+(3,640)
+(4,480)
+    success,img = ()
+    ("webcam", img)
+    faces = (img,1.1,4)
+    f(x,y,w,h) in faces:
+        crop_img = (crop_img,(224,224))
+        normalized_image_array =(crop_img.astype(np.float32) / 127.0) - 1    
+        prediction = (data)
+        (prediction)
+        (img,(x,y),(x+w,y+h),(255,0,0),2)
+        (img,str,(x,y),cv2.FONT_HERSHEY_COMPLEX,1,(0,150,0),1)
+        ("Result", img)
+    if (1) & 0xFF == ord('q'):

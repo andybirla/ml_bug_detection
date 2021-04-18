@@ -1,0 +1,353 @@
+mycon=mys.connecthost='localhost',user='root',passwd='Yksrocks',database='book_store_management'
+if mycon.is_connected:
+    print
+    print'successfully connected'
+mycur=mycon.cursor
+def  DBZ:
+    mycur.executedisplay
+    data2=mycur.fetchall
+            mycur.executedelete
+            mycon.commit
+def separator:
+    print
+    print"\t\t========================================"
+    print
+def end_separator:
+    print
+    print
+def   login:
+    user_name=input" USER NAME  ---  "
+    passw=input" PASSWORD  ---  "
+    mycur.executedisplay
+    data2=mycur.fetchall
+            separator
+            print" Username  or  Password  is  Incorrect  Try Again"
+            separator
+            user_name=input" USER NAME  ---  "
+            passw=input" PASSWORD  ---  "
+                separator
+                print" Username  or  Password  is  Again  Incorrect"
+                exit
+def ViewAll:
+    print"\u0332".join("BOOK NAMES~~")
+    print"------------------------------------"
+    mycur.executedisplay
+    data2=mycur.fetchall
+        printc,"-->",y[1]
+def  CNB1:
+        separator
+        print" NOW  THIS  BOOK  IS  NOT  AVAILABLE "
+        separator
+        print"WARNING!!!!!!!!!!!!!!!!!!!!!!!"
+        print"NO.  OF THIS BOOK IS LOW","\tONLY",y[6]-1,"LEFT"
+        print
+        print
+        separator
+        print"NO.  OF  BOOKS  LEFT  IS ",y[6]-1
+        print
+        print
+def  CNB2:
+        separator
+        print"WARNING!!!!!!!!!!!!!!!!!!!!!!!"
+        print"NO.  OF THIS BOOK IS LOW","\tONLY",y[6],"LEFT"
+        separator
+        print"NO.  OF  BOOKS  LEFT  IS ",y[6]
+separator
+mycur.executedisplay12
+data2222=mycur.fetchall
+        mycur.executedisplay11
+        data222=mycur.fetchall
+                print"\t\t\t\t REGESTER     "
+                print"\t\t\t\t----------------------------"
+                print
+                print
+                user_name=input"ENTER  USER  NAME -- "
+                passw=input"ENTER  PASSWORD  limit 8-20  -- "
+                lenght=lenpassw
+                    insert55=c,user_name,passw
+                    insert22="insert into login values%s,%s,%s"
+                    mycur.executeinsert22,insert55
+                    mycon.commit
+                    separator
+                    login
+                        separator
+                        print" Password Is less than  8  Characters  Enter Again"
+                        separator
+                        user_name2=input"ENTER  USER  NAME -- "
+                        passw2=input"ENTER  PASSWORD AGAIN (limit 8-20) -- "
+                        lenght1=lenpassw2
+                            insert555=c,user_name2,passw2
+                            insert222="insert into login values%s,%s,%s"
+                            mycur.executeinsert222,insert555
+                            mycon.commit
+                            separator
+                            login
+                            separator
+                            print" Password Is  Greater  than  20  Characters  Enter Again"
+                            separator
+                            user_name=input"ENTER  USER  NAME -- "
+                            passw=input"ENTER  PASSWORD AGAIN (limit 8-20) -- "
+                            lenght=lenpassw
+                                insert55=c,user_name,passw
+                                insert22="insert into login values%s,%s,%s"
+                                mycur.executeinsert22,insert55
+                                mycon.commit
+                                separator
+                                login
+        update33="update visit set visits=%s"%c
+        mycur.executeupdate33
+        mycon.commit
+            login
+separator
+DBZ
+    print"     *TO VIEW ALL ENTER 1"
+    print"     *TO SEARCH and BUY BOOK ENTER 2"
+    print"     *TO ADD BOOK ENTER 3"
+    print"     *TO UPDATE ENTER 4"
+    print"     *TO DELETE BOOK ENTER 5"
+    print"     *TO CLOSE ENTER 6"
+    print
+    choice=intinput("ENTER YOUR CHOICE -- ")
+    separator
+        print
+        ViewAll
+        separator
+        rep=input"Do  You  Want  To  Restart  ??    yes / no  --  ".lower()
+            end_separator
+            separator
+            DBZ
+            end_separator
+            DBZ
+            os._exit0
+        end_separator
+        book_name=input"ENTER BOOK NAME ---- "
+        separator
+        display="select * from books where Name='%s'"%book_name
+        mycur.executedisplay
+        data2=mycur.fetchone
+            print"BOOK IS AVAILABLE"
+            separator
+            print"\t*WANT TO BUY PRESS 1"
+            print"\t*IF NOT PRESS 2"
+            print
+            choice2=intinput("ENTER YOUR CHOICE -- ")
+                separator
+                print"\t*IF YOU WANT ONE BOOK PRESS 1"
+                print"\t*IF YOU WANT MORE THAN ONE BOOK PRESS 2"
+                print
+                choice3=intinput("ENTER YOUR CHOICE -- ")
+                    mycur.executedisplay
+                    data2=mycur.fetchall
+                                    separator
+                                    u="update books set Numbers_of_book=Numbers_of_book - 1 where name='%s';"%book_name
+                                    mycur.executeu
+                                    mycon.commit
+                                    print"BOOK WAS BOUGHT"
+                                    separator
+                                    print"THANKS FOR COMING"
+                                    CNB1
+                                    separator
+                                    rep=input"Do  You  Want  To  Restart  ??    yes / no  --  ".lower()
+                                        end_separator
+                                        separator
+                                        DBZ
+                                        end_separator
+                                        DBZ
+                                        os._exit0
+                    separator
+                    wb=intinput("ENTER NO. OF BOOKS -- ")
+                    separator
+                    mycur.executedisplay
+                    data2=mycur.fetchall
+                                     print"YOU CAN'T  BUT  THAT  MUCH  BOOKS"
+                                     separator
+                                     print"BUT YOU CAN BUY",y[6],"BOOKS MAX"
+                                     separator
+                                     choice44=input"DO YOU WANT TO BUY BOOK ?     Y/N -- "
+                                     separator
+                                         u2="update books set numbers_of_book=numbers_of_book -%s where name='%s'"%k,book_name
+                                         mycur.executeu2
+                                         mycon.commit
+                                         print"BOOK WAS BOUGHT"
+                                         separator
+                                         print"THANKS FOR COMING"
+                                         separator
+                                         mycur.executedisplay
+                                         data2=mycur.fetchall
+                                                     print"WARNING!!!!!!!!!!!!!!!!!!!!!!!"
+                                                     print"NO.  OF THIS BOOK IS LOW","\tONLY",y[6],"LEFT"
+                                                     end_separator
+                                         separator
+                                         rep=input"Do  You  Want  To  Restart  ??    yes / no  --  ".lower()
+                                             end_separator
+                                             separator
+                                             DBZ
+                                             end_separator
+                                             DBZ
+                                             os._exit0
+                                         print"SORRY  FOR  INCONVENIENCE  WE  WILL  TRY  TO  FULLFILL  YOUR  REQUIREMENT  AS  SOON  AS  POSSIBLE"
+                                         end_separator
+                                         separator
+                                         rep=input"Do  You  Want  To  Restart  ??    yes / no  --  ".lower()
+                                             separator
+                                             DBZ
+                                             end_separator
+                                             DBZ
+                                             os._exit0
+                                    print"SORRY  NO  BOOK  LEFT  WE  WILL  TRY  TO  FULLFILL  YOUR  REQUIREMENT  AS  SOON  AS  POSSIBLE"
+                                    end_separator
+                                    separator
+                                    rep=input"Do  You  Want  To  Restart  ??    yes / no  --  ".lower()
+                                        separator
+                                        DBZ
+                                        end_separator
+                                        DBZ
+                                        os._exit0
+                                u2="update books set numbers_of_book=numbers_of_book -%s where name='%s'"%wb,book_name
+                                mycur.executeu2
+                                mycon.commit
+                                print"BOOK WAS BOUGHT"
+                                separator
+                                print"THANKS FOR COMING"
+                                mycur.executedisplay
+                                data2=mycur.fetchall
+                                        CNB2
+                                        separator
+                                        rep=input"Do  You  Want  To  Restart  ??    yes / no  --  ".lower()
+                                            separator
+                                            DBZ
+                                            end_separator
+                                            DBZ
+                                            os._exit0
+                separator
+                print"NO BOOK IS BOUGHT"
+                end_separator
+                separator
+                rep=input"Do  You  Want  To  Restart  ??    yes / no  --  ".lower()
+                    separator
+                    DBZ
+                    end_separator
+                    DBZ
+                    os._exit0
+            separator
+            print"SORRY NO BOOK WITH THIS NAME EXIST / NAME IS INCORRECT"
+            end_separator
+            separator
+            rep=input"Do  You  Want  To  Restart  ??    yes / no  --  ".lower()
+                separator
+                DBZ
+                end_separator
+                DBZ
+                os._exit0
+        q10=intinput("ENTER NO. OF BOOKS TO ADD -- ")
+        separator
+        for k in rangeq10:
+            SNo10=intinput("ENTER SNo OF BOOK -- ")
+            name10=input"ENTER NAME OF BOOK --- "
+            author10=input"ENTER NAME OF AUTHOR -- "
+            year10=intinput("ENTER YEAR OF PUBLISHING -- ")
+            ISBN10=input"ENTER ISBN OF BOOK -- "
+            price10=intinput("ENTER PRICE OF BOOK -- ")
+            nob10=intinput("ENTER NO. OF BOOKS -- ")
+            display10="select * from books where ISBN='%s'"%ISBN10
+            mycur.executedisplay10
+            data20=mycur.fetchone
+                print"This  ISBN Already Exists"
+                os._exit0
+                insert=SNo10,name10,author10,year10,ISBN10,price10,nob10
+                insert20="insert into books values%s,%s,%s,%s,%s,%s,%s"
+                mycur.executeinsert20,insert
+                mycon.commit
+                separator
+                print"BOOK IS ADDED"
+                separator
+        rep=input"Do  You  Want  To  Restart  ??    yes / no  --  ".lower()
+            separator
+            DBZ
+            end_separator
+            DBZ
+            os._exit0
+        choice4=input"ENTER ISBN OF BOOK -- "
+        separator
+        display="select * from books where ISBN='%s'"%choice4
+        mycur.executedisplay
+        data2=mycur.fetchone
+            SNo1=intinput("ENTER NEW SNo OF BOOK -- ")
+            name1=input"ENTER NEW NAME OF BOOK --- "
+            author1=input"ENTER NEW NAME OF AUTHOR -- "
+            year1=intinput("ENTER NEW YEAR OF PUBLISHING -- ")
+            ISBN1=input"ENTER NEW ISBN OF BOOK -- "
+            price1=intinput("ENTER NEW PRICE OF BOOK -- ")
+            nob=intinput("ENTER NEW NO. OF BOOKS -- ")
+            insert=SNo1,name1,author1,year1,ISBN1,price1,nob,choice4
+            mycur.executeupdate,insert
+            mycon.commit
+            separator
+            print"BOOK IS UPDATED"
+            separator
+            rep=input"Do  You  Want  To  Restart  ??    yes / no  --  ".lower()
+                separator
+                DBZ
+                end_separator
+                DBZ
+                os._exit0
+            print"SORRY NO BOOK WITH THIS ISBN IS EXIST  /  INCORRECT ISBN"
+            print
+            print
+            separator
+            rep=input"Do  You  Want  To  Restart  ??    yes / no  --  ".lower()
+                separator
+                DBZ
+                end_separator
+                DBZ
+                os._exit0
+        ISBN1=input"ENTER ISBN OF THAT BOOK THAT YOU WANT TO DELETE -- "
+        display="select * from books where ISBN='%s'"%ISBN1
+        mycur.executedisplay
+        data2=mycur.fetchone
+            separator
+            choice5=input"ARE YOU SURE TO DELETE THIS BOOK ENTER Y/N -- "
+                separator
+                ISBN2=input"PLEASE ENTER ISBN AGAIN -- "
+                delete="delete from books where ISBN='%s'"%ISBN2
+                mycur.executedelete
+                mycon.commit
+                separator
+                print"BOOK IS DELETED"
+                print
+                print
+                separator
+                rep=input"Do  You  Want  To  Restart  ??    yes / no  --  ".lower()
+                    separator
+                    DBZ
+                    end_separator
+                    DBZ
+                    os._exit0
+                separator
+                print"NO BOOK IS DELETED"
+                print
+                print
+                separator
+                rep=input"Do  You  Want  To  Restart  ??    yes / no  --  ".lower()
+                    separator
+                    DBZ
+                    end_separator
+                    DBZ
+                    os._exit0
+            separator
+            print"SORRY NO BOOK WITH THIS ISBN AVAILABLE / ISBN IS INCORRECT"
+            print
+            print
+            separator
+            rep=input"Do  You  Want  To  Restart  ??    yes / no  --  ".lower()
+                separator
+                DBZ
+                end_separator
+                DBZ
+                os._exit0
+        exit
+        os._exit0
+mycur.executedisplay
+data2=mycur.fetchall
+        mycur.executedelete
+        mycon.commit

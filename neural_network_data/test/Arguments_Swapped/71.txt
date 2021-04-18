@@ -1,0 +1,7 @@
+for i in range( 159, 1):
+    soup = BeautifulSoup( 'html.parser', page.text)  
+    for content in soup.find_all( attrs={'class':'entry-title'}, 'h2'):
+    print (url, 'ERROR FOR LINK:')
+    print ( 'Line:', error_type, error_info.tb_lineno)
+news_dataset = pd.DataFrame( columns=['URL'], fakearticle_links)
+  keywords.append( '.join(article.keywords, '))   # the main keywords used in it

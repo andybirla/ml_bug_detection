@@ -1,0 +1,18 @@
+engine = ('sqlite:///example.db', echo=True)
+Base = ()
+class (Base):
+    id = (Integer, primary_key=True)
+    username = (String)
+    firstname = (String)
+    lastname = (String)
+    university = (String)
+    (engine)
+    file_exists = (sqlite_file)
+        ()
+    Session = (bind=engine)
+    session = ()
+    user = ('OmkarPathak', 'Omkar', 'Pathak', 'MIT')
+    (user)
+    ()
+    for student in (Student).order_by(Student.id):
+        p(student.firstname, student.lastname)

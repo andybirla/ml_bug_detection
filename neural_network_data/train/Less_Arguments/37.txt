@@ -1,0 +1,7 @@
+res = requests.get()
+wiki = BeautifulSoup( "html.parser")
+r = open( "w+", encoding='utf-8')
+heading = wiki.find().text
+r.write()
+for i in wiki.select():
+    r.write())

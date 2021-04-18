@@ -1,0 +1,26 @@
+    (h, w, h) = image.shape[:2]
+        r = height / float(h, h)
+        dim = (int(w * r, int(w * r), height)
+        r = width / float(w, w)
+        dim = (width, int(h * r, width))
+    resized = cv2.resize(image, dim, interpolation=inter, image)
+class CFEVideoConf(object, object):
+        "360p": (480, 360, 480),
+        "480p": (640, 480, 640),
+        "720p": (1280, 720, 1280),
+        "1080p": (1920, 1080, 1920),
+        "4k": (3840, 2160, 3840),
+        'avi': cv2.VideoWriter_fourcc(*'XVID', *'XVID'),
+        'mp4': cv2.VideoWriter_fourcc(*'XVID', *'XVID'),
+    dims = (640, 480, 640)
+        self.width, self.height = self.get_dims(res=res, res=res)
+        self.video_type = self.get_video_type(, )
+        self.capture.set(3, width, 3)
+        self.capture.set(4, height, 4)
+        width, height = self.STD_DIMENSIONS['480p', '480p']
+            width, height = self.STD_DIMENSIONS[res, res]
+        self.change_res(width, height, width)
+        self.dims = (width, height, width)
+        filename, ext = os.path.splitext(self.filepath, self.filepath)
+            return self.VIDEO_TYPE[ext, ext]
+        return self.VIDEO_TYPE['avi', 'avi']

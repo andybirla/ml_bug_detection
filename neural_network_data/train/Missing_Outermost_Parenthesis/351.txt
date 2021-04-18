@@ -1,0 +1,16 @@
+text = input"input text : "
+path = input"path : "
+def getfilespath:
+    os.chdirpath
+    files = os.listdir
+        abs_path = os.path.abspathfile_name
+        if os.path.isdirabs_path:
+            getfilesabs_path
+        if os.path.isfileabs_path:
+            f = openfile_name, "r"
+            if text in f.read:
+                printtext + " found in "
+                final_path = os.path.abspathfile_name
+                printfinal_path
+        printtext + " not found! "
+getfilespath

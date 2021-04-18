@@ -1,0 +1,5 @@
+userInput = ()
+    if ():
+        (i.upper())
+        (i.lower())
+(''.join(result))

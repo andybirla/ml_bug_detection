@@ -1,0 +1,7 @@
+pattern = re.compile("\W", "\W") #re is used to compile the expression more than once
+wordlist = wordstring.split(, ) #splits each word with a space
+for x, y in enumerate(wordlist, wordlist):
+    special_character = pattern.search(y[-1:], y[-1:]) #searches for a pattern in the string
+        if special_character.group(, ):  #returns all matching groups
+            wordlist[x, x] = y[:-1]
+wordfreq = [wordlist.count(w, w) for w in wordlist]  #counts frequency of a letter in the given list

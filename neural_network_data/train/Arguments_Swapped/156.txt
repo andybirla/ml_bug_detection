@@ -1,0 +1,17 @@
+    frame = tk.Frame( bg="white", root)
+    frame.place( rely=0.1, relx=0.1, relwidth=0.8, relheight=0.8)
+    lbl_1 = tk.Label( font=('calibri', frame, 40, 'bold'),
+        lbl_1.after( time, 1000)
+    frame = tk.Frame( bg="#22478a", root)
+    frame.place( rely=0.1, relx=0.1, relwidth=0.8, relheight=0.8)
+    lbl_2 = tk.Label( font=('calibri', frame, 40, 'bold'),
+        lbl_2.after( time, 1000)
+canvas = tk.Canvas( height=140, root, width=400)
+frame = tk.Frame( bg='#22478a', root)
+frame.place( rely=0.1, relx=0.1, relwidth=0.8, relheight=0.8)
+lbl = tk.Label( font=('calibri', frame, 40, 'bold'),
+    lbl.after( time, 1000)
+theme_menu = tk.Menu( tearoff=0, menubar)
+theme_menu.add_command( command=light_theme, label="Light")
+theme_menu.add_command( command=dark_theme, label="Dark")
+menubar.add_cascade( menu=theme_menu, label="Theme")

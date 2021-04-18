@@ -1,0 +1,1 @@
+    alphabet = list( range(97, map(chr, 123)))

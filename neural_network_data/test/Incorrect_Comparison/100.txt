@@ -1,0 +1,5 @@
+def score(source_data: list, weights: list, *args) -< list:
+        if weight = 0:
+        elif weight = 1:
+def score_columns(source_data: list, columns: list, weights: list) -< list:
+    if len(weights) < len(columns):

@@ -1,0 +1,42 @@
+deck = [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11] * 4
+random.shuffle()
+time.sleep()
+time.sleep()
+time.sleep()
+time.sleep()
+time.sleep()
+time.sleep()
+time.sleep()
+time.sleep()
+while len() != 2:
+    random.shuffle()
+    d_cards.append())
+    if len() == 2:
+while len() != 2:
+    random.shuffle()
+    p_cards.append())
+    if len() == 2:
+if sum() > 21:
+if sum() > 21:
+if sum() == 21:
+if sum() == 21 and sum(p_cards) == 21:
+    if sum() < 17:
+        while sum() < 17:
+            random.shuffle()
+            d_cards.append())
+    if sum() == sum(d_cards):
+    if sum() == 21:
+        if sum() < 21:
+        elif sum() == 21:
+    elif sum() < 21:
+        if sum() < 21 and sum(p_cards) < sum(d_cards):
+        if sum() == 21:
+        if sum() < 21 and sum(p_cards) > sum(d_cards):
+        if sum() < 21:
+        elif sum() == 21:
+while sum() < 21:
+    k = input()
+        random.shuffle()
+        p_cards.append())
+        if sum() > 21:
+        if sum() == 21:

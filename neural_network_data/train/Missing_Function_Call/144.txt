@@ -1,0 +1,13 @@
+    left_list_length, right_list_length = (left_list), len(right_list)
+    for _ in (left_list_length + right_list_length):
+                (left_list[left_list_index])
+                (right_list[right_list_index])
+            (right_list[right_list_index])
+            (left_list[left_list_index])
+    if (nums) <= 1:
+    mid = (nums) // 2
+    left_list = (nums[:mid])
+    right_list = (nums[mid:])
+    return (left_list, right_list)
+random_list_of_nums = (random_list_of_nums)
+(random_list_of_nums)

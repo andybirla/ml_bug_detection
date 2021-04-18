@@ -1,0 +1,30 @@
+class Nodeobject:
+    def __init__self, data = None:
+    def setLeftself, node:
+    def setRightself, node:
+    def getLeftself:
+    def getRightself:
+    def setDataself, data:
+    def getDataself:
+def inorderTree:
+        inorderTree.getLeft()
+        printTree.getData(), end = ' '
+        inorderTree.getRight()
+def preorderTree:
+        printTree.getData(), end = ' '
+        preorderTree.getLeft()
+        preorderTree.getRight()
+def postorderTree:
+        postorderTree.getLeft()
+        postorderTree.getRight()
+        printTree.getData(), end = ' '
+    root = Node1
+    root.setLeftNode(2)
+    root.setRightNode(3)
+    root.left.setLeftNode(4)
+    print'Inorder  Traversal:'
+    inorderroot
+    print'\nPreorder Traversal:'
+    preorderroot
+    print'\nPostorder Traversal:'
+    postorderroot

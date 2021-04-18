@@ -1,0 +1,13 @@
+(input("please give the number of elements\n"))
+("okey now plase enter n numbers seperated by spaces")
+(map(int,input().split()))
+k = (tlist)
+n = (tlist)
+    count_list = (k+1)
+    for i in (0,n):
+    for i in (1,k+1):
+    flist = (n)
+    for i in (n-1,-1,-1):
+      (tlist[i])
+flist = (tlist, k, n)
+(flist)

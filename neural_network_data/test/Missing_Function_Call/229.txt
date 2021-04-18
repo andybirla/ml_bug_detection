@@ -1,0 +1,5 @@
+    _size = (x) 
+    for i in (_size): 
+        for j in (k, _size): 
+                (x[i]) 
+(Repeat(list1)) 

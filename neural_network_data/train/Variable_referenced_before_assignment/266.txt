@@ -1,0 +1,3 @@
+    parent, child += Pipe()              # Create Pipe
+    process1 += Process(target += parentData, args += (parent, ))      # Create a process for handling parent data
+    process2 += Process(target += childData, args += (child, ))        # Create a process for handling child data

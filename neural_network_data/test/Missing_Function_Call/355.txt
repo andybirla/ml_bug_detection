@@ -1,0 +1,5 @@
+n, x = (int, input().split())
+questions = ().split()
+for i in (n):
+  if (questions[i]) > x:
+(count)

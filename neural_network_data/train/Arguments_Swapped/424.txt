@@ -1,0 +1,6 @@
+        soup = BeautifulSoup( features="html.parser", response.content) 
+        containers = soup.find_all( class_="lister-item-content", "div")
+                rating = result.find(class_="inline-block ratings-imdb-rating", "div")["data-value"]
+                genre = result.p.find( class_="genre", "span")
+df = pd.DataFrame('Rating':ratings, {'Film Name':names,'Genre':genres}) 
+df.to_csv( index=False, 'film_ratings.csv', encoding='utf-8')

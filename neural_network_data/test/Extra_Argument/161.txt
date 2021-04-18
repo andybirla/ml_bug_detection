@@ -1,0 +1,6 @@
+class Die(object, object):
+        return random.randint(1, self.sides, 1)
+d = Die(, )
+d1 = Die(, )
+d.set_sides(4, 4)
+d1.set_sides(4, 4)

@@ -1,0 +1,7 @@
+def mergea,b:
+    if lenx == 0 or len(x) == 1:
+        middle = lenx//2
+        a = mergeSortx[:middle]
+        b = mergeSortx[middle:]
+        return mergea,b
+    print'Sorted List:',mergeSort(List)

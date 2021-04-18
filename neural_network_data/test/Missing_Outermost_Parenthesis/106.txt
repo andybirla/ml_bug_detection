@@ -1,0 +1,15 @@
+print"Hello Welcome To The Guess Game!"
+sleep1
+print"I\'m Geek! What's Your Name?"
+name = input
+sleep1
+printf"Okay {name} Let's Begin The Guessing Game!"
+a = comGuess = randint0, 100  # a and comGuess is initialised with a random number between 0 and 100
+while True:  # loop will run until encountered with the break statementuser enters the right answer
+    userGuess = intinput("Enter your guessed no. b/w 0-100:")  # user input for guessing the number
+        print"Guess Higher"
+        comGuess = randinta, 100
+        print"Guess Lower"
+        comGuess = randint0, a
+        print"Bravo! Legendary Guess!"
+        print"Congratulations, You Guessed It Correctly!"

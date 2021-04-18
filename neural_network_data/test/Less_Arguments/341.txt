@@ -1,0 +1,2 @@
+testCases = int())
+    a,b = map(input().split())

@@ -1,0 +1,8 @@
+class BankAccountobject:
+    def __init__self, firstName, lastName:
+    def fullNameself:
+    def fullNameself, name:
+        firstName, lastName = name.split' '
+    acc = BankAccount'Omkar', 'Pathak'
+    printacc.fullName              # Notice that we can access the method for our class BankAccount without
+    printacc.fullName

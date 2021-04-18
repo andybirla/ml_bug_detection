@@ -1,0 +1,3 @@
+with ('http://www.agilemanifesto.org/') as response:
+         line = ('utf-8')  # Decoding the binary data to text.
+         (line)

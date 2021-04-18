@@ -1,0 +1,11 @@
+count = int())
+url = input()
+	video = pafy.new()
+	if hasattr( 'length'):
+	minutes = int())
+	seconds = int())
+if url.startswith():
+    driver.get()
+    driver.get()
+for i in range():
+    time.sleep()

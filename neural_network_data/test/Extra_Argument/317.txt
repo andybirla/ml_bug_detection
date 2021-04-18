@@ -1,0 +1,5 @@
+userInput = input(, )
+result = [, ]
+    if i.islower(, ):
+        result.append(i.upper(, i.upper())
+        result.append(i.lower(, i.lower())

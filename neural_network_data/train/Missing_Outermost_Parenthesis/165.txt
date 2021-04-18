@@ -1,0 +1,35 @@
+mean, var, skew, kurt = bernoulli.statsp, moments='mvsk'
+print"Mean = ",mean
+print"Variance =  ",var
+print"Skewness = ",skew
+print"Kurtosis = ",kurt
+mean = bernoulli.meanp
+print"Mean = ",mean
+median = bernoulli.medianp
+print"Median = ",median
+var = bernoulli.varp
+print"Variance = ",var
+std = bernoulli.stdp
+print"Standard Deviation = ",std
+print"Probability Mass Function = ",bernoulli.pmf(x,p)
+plt.scatterx,bernoulli.pmf(x,p),label="PMF"
+plt.title"Probability Mass Function"
+plt.xlabel"Data Points"
+plt.ylabel"Probability"
+plt.legend
+print"Cumulative Density Function = ",bernoulli.cdf(x,p)
+plt.scatterx,bernoulli.cdf(x,p),label="CDF"
+plt.title"Cumulative Density Function"
+plt.xlabel"Data Points"
+plt.ylabel"Probability"
+plt.legend
+plt.barx,bernoulli.pmf(x,p),width=0.1,color=["r","b"]
+plt.title"Probability Mass Function"
+plt.xlabel"Data Points"
+plt.ylabel"Probability"
+plt.barx,bernoulli.cdf(x,p),width=0.1,color=["r","b"]
+plt.title"Cumulative Density Function"
+plt.xlabel"Data Points"
+plt.ylabel"Probability"
+r = bernoulli.rvsp, size=100
+printr

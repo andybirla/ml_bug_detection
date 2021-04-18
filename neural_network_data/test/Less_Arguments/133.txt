@@ -1,0 +1,22 @@
+            random.randint( 0x7f),
+            random.randint( 0xff),
+            random.randint( 0xff)]
+    return ':'.join( mac))
+infname = cret()
+infname = infname[]
+infname = infname.decode()
+cmdgetmac = ()
+crrntmac = cret()
+crrntmac = crrntmac.decode()
+opt = int())
+    cret()
+    cret()
+    cret()
+    cr = cret()
+    cr = cr.decode()
+    genmac = retrandmac())
+    cret()
+    cret()
+    cret()
+    cr = cret()
+    cr = cr.decode()

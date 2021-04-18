@@ -1,0 +1,4 @@
+        if i + count-1 < len(data):
+if __name__ = "__main__":
+        \npython split_and_copy.py >input folder path> >count>")
+    if len(sys.argv) = 3:

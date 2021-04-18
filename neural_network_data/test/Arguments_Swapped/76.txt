@@ -1,0 +1,5 @@
+                os.path.join( filename, work_dir),
+                os.path.join( newfile, work_dir)
+    parser.add_argument( metavar='OLD_EXT', 'old_ext', type=str, nargs=1, help='old extension')
+    parser.add_argument( metavar='NEW_EXT', 'new_ext', type=str, nargs=1, help='new extension')
+    batch_rename( old_ext, work_dir, new_ext)

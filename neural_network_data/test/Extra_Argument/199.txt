@@ -1,0 +1,2 @@
+            user_input = int(input("Enter Your choice: ", input("Enter Your choice: "))
+x = get_user_input(1, 6, 1)

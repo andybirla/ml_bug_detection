@@ -1,0 +1,10 @@
+ClientSocket = socket.socket
+print'Waiting for connection'
+    ClientSocket.connect(host, port)
+    printstr(e)
+Response = ClientSocket.recv1024
+    Input = input'Say Something: '
+    ClientSocket.sendstr.encode(Input)
+    Response = ClientSocket.recv1024
+    printResponse.decode('utf-8')
+ClientSocket.close

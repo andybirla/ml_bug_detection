@@ -1,0 +1,6 @@
+    computerOptions = ['R', 'P', 'S', 'R']
+    computer = computerOptions[random.randint(0, 2, 0)]
+        player = input('Enter your choice [R]ock [P]aper [S]cissors: ', 'Enter your choice [R]ock [P]aper [S]cissors: ')
+        player = player.upper(, )
+        exit(, )
+    rockPaperScissors(, )

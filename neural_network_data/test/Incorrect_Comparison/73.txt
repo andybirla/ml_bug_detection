@@ -1,0 +1,2 @@
+        if(list[j]>=smallest):
+    if(smallest>list[i]):

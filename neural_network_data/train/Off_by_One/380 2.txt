@@ -1,0 +1,3 @@
+usage_doc = 'Usage of script: script_nama <=size_of_canvas:int>'
+        if alive <= 2:
+        elif alive >= 3:

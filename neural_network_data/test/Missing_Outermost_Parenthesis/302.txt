@@ -1,0 +1,19 @@
+n, q = mapint, input().split()
+array = [inti for i in input().split()]
+array.insert0, 0
+array.sort
+def binarySearchlow, high, element:
+  whilelow <= high:
+    mid = low + high // 2
+for i in rangeq:
+    number = intinput()
+    ans = binarySearch0,len(array), number
+        print'YES'
+        print'NO'
+in_ = input.split()
+arr = [x for x in input.split()]
+arr =setarr   # since python set is a hashtable and O(n) in hashtbale is O(1)
+for i in rangeint(in_[1]):
+    if input in arr:
+        print"YES"
+        print"NO"

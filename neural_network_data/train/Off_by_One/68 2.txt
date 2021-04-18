@@ -1,0 +1,1 @@
+        print(f"{stock} ==>= {price_list} ==>= avg: ",round(avg,2))

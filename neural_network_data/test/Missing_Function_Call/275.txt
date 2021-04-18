@@ -1,0 +1,13 @@
+x,li,small,maxx,c = (),list(),0,0,1
+for i in (len(x)):
+               (int(x[i]))
+for i in (len(li)-1,-1,-1):
+    (i==0):
+        ("No Number Possible")
+    (li[i]>li[i-1]):
+for i in (small+1,len(li)):
+    (li[i]>li[small] and li[i]<li[maxx]):
+li = li[:small+1] + (li[small+1:])
+(c):
+    for i in (len(li)):
+        (li[i],end = '' )

@@ -1,0 +1,11 @@
+class BankAccountobject:
+    def __init__self, name, balance = 0:
+    def depositself, amount:
+    def withdrawself, amount:
+            print'Not enough balance!'
+    def getBalanceself:
+    myObj = BankAccount'Omkar', 1000
+    myObj.deposit1000
+    printmyObj.getBalance()
+    myObj.withdraw500
+    printmyObj.getBalance()

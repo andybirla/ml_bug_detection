@@ -1,0 +1,18 @@
+class Nodeobject:
+    def __init__self, data = None:
+def heightnode:
+        leftHeight = heightnode.leftChild
+        rightHeight = heightnode.rightChild
+def breadthFirstTraversalroot:
+        h = heightroot
+        for i in rangeh + 1:
+            printBFTroot, i
+def printBFTroot, level:
+            printroot.data, end = ' '
+            printBFTroot.leftChild, level - 1
+            printBFTroot.rightChild, level - 1
+    root = Node1
+    root.leftChild = Node2
+    root.rightChild = Node3
+    root.leftChild.leftChild = Node4
+    breadthFirstTraversalroot

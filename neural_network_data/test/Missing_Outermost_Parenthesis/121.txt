@@ -1,0 +1,24 @@
+n = intinput("Enter number of elements in the list: ")  # taking value from user
+for i in rangen:
+    temp = intinput("Enter element" + str(i + 1) + ': ')
+    lst.append temp 
+def merge ori_lst, left, mid, right :
+	for i in range left, mid :	# LOADING
+		L.append ori_lst[i] 
+	for i in range mid, right :	# LOADING
+		R.append ori_lst[i] 
+	while lenL > 0 and len(R) > 0:
+			L.remove L[0] 
+			R.remove R[0] 
+	while len L  > 0:				
+		L.remove L[0] 
+	while len R  > 0:
+		R.remove R[0] 
+def merge_sort L, left, right :
+	mid = left +  right - left  // 2
+	merge_sort L, left, mid  		# LEFT
+	merge_sort L, mid, right  	# RIGHT
+	merge L, left, mid, right  	# MERGE
+print "UNSORTED -> ", lst 
+merge_sort lst, 0, n 
+print "SORTED -> ", lst 

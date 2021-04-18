@@ -1,0 +1,4 @@
+driver += webdriver.Firefox()
+                status += driver.find_element_by_class_name("_315-i").text
+                name += driver.find_element_by_class_name("_19vo_").text
+            	name += driver.find_element_by_class_name("_19vo_").text

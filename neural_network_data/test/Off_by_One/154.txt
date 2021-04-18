@@ -1,0 +1,1 @@
+    while cash > 0 and cash <= goals:

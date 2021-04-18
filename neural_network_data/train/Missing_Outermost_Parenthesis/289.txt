@@ -1,0 +1,68 @@
+kernel32 = ctypes.WinDLL'kernel32', use_last_error=True
+advapi32 = ctypes.WinDLL'advapi32', use_last_error=True
+_DEFAULT_SECURITY_INFORMATION = LPDWORD = ctypes.POINTERwintypes.DWORD
+class SID_NAME_USEwintypes.DWORD:
+    _sid_types = dict        Invalid Unknown Computer Label'''.split, 1))
+    def __init__self, value=None:
+                raise ValueError'invalid SID type'
+            wintypes.DWORD.__init__value
+    def __str__self:
+            raise ValueError'invalid SID type'
+    def __repr__self:
+        return 'SID_NAME_USE%s' % self.value
+PSID_NAME_USE = ctypes.POINTERSID_NAME_USE
+class PLOCALwintypes.LPVOID:
+    def __init__self, value=None, needs_free=False:
+        superPLOCAL, self.__init__(value)
+    def __del__self:
+            kernel32.LocalFreeself
+class PSIDPLOCAL:
+    def __init__self, value=None, needs_free=False:
+        superPSID, self.__init__(value, needs_free)
+    def __str__self:
+            raise ValueError'NULL pointer access'
+        sid = wintypes.LPWSTR
+        advapi32.ConvertSidToStringSidWself, ctypes.byref(sid)
+                kernel32.LocalFreesid
+class PSECURITY_DESCRIPTORPLOCAL:
+    def __init__self, value=None, needs_free=False:
+        superPSECURITY_DESCRIPTOR, self.__init__(value, needs_free)
+        self.pOwner = PSID
+        self.pGroup = PSID
+        self.pDacl = PACL
+        self.pSacl = PACL
+    def get_ownerself, system_name=None:
+            raise ValueError'NULL pointer access'
+        return look_up_account_sidself.pOwner, system_name
+    def get_groupself, system_name=None:
+            raise ValueError'NULL pointer access'
+        return look_up_account_sidself.pGroup, system_name
+def _check_boolresult, func, args:
+        raise ctypes.WinErrorctypes.get_last_error()
+advapi32.ConvertSidToStringSidW.argtypes =     ctypes.POINTERwintypes.LPWSTR) # _Out_ StringSid
+advapi32.LookupAccountSidW.argtypes = advapi32.GetNamedSecurityInfoW.argtypes =     ctypes.POINTERPSID,  # _Out_opt_ ppsidOwner
+    ctypes.POINTERPSID,  # _Out_opt_ ppsidGroup
+    ctypes.POINTERPACL,  # _Out_opt_ ppDacl
+    ctypes.POINTERPACL,  # _Out_opt_ ppSacl
+    ctypes.POINTERPSECURITY_DESCRIPTOR) # _Out_opt_ ppSecurityDescriptor  
+def look_up_account_sidsid, system_name=None:
+    name = ctypes.create_unicode_bufferSIZE
+    domain = ctypes.create_unicode_bufferSIZE
+    cch_name = wintypes.DWORDSIZE
+    cch_domain = wintypes.DWORDSIZE
+    sid_type = SID_NAME_USE
+    advapi32.LookupAccountSidW        domain, ctypes.byrefcch_domain, ctypes.byref(sid_type))
+def get_file_securityfilename, request=_DEFAULT_SECURITY_INFORMATION:
+    pSD = PSECURITY_DESCRIPTORneeds_free=True
+    error = advapi32.GetNamedSecurityInfoW                ctypes.byrefpSD.pOwner, ctypes.byref(pSD.pGroup),
+                ctypes.byrefpSD.pDacl, ctypes.byref(pSD.pSacl),
+                ctypes.byrefpSD)
+        raise ctypes.WinErrorerror
+def get_authorfilename:
+    if isinstancefilename, bytes:
+        if hasattros, 'fsdecode':
+            filename = os.fsdecodefilename
+            filename = filename.decodesys.getfilesystemencoding()
+    pSD = get_file_securityfilename
+    owner_name, owner_domain, owner_sid_type = pSD.get_owner
+        owner_name = '{}\\{}'.formatowner_domain, owner_name

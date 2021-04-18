@@ -1,0 +1,9 @@
+testCases = (input())
+    N, X = (int, input().split())
+    bankNotes = (i) for i in input().split()]
+    bankNotes = (bankNotes)
+    i(X) <= bankNotes:
+        result = bankNotes /(X)
+            (result)
+            (-1)
+        (-1)

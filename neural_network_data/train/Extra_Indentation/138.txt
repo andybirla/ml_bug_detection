@@ -1,0 +1,20 @@
+ import os
+ from PIL import Image
+ from fpdf import FPDF
+ pdf = FPDF()
+ A4_SIZE = {'P': {'w': 210, 'h': 297}, 'L': {'w': 297, 'h': 210}}
+ pdf.set_auto_page_break(0)
+ for filename in os.listdir('images'):
+     try:
+         img = Image.open("images\\" + filename)
+         width, height = img.size
+         img.close()
+         width, height = float(width * 0.264583), float(height * 0.264583)
+         orientation = 'P' if width < height else 'L'
+         width = min(A4_SIZE[orientation]['w'], width)
+         height = min(A4_SIZE[orientation]['h'], height)
+         pdf.add_page(orientation=orientation)
+         pdf.image("images\\" + filename, 0, 0, width, height)
+     except OSError:
+         print("Skipped : " + filename)
+ pdf.output('output.pdf', 'F')

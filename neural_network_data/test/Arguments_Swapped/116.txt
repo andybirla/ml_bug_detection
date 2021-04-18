@@ -1,0 +1,2 @@
+	for i in range(n, 1):
+print(lis(a, "Maximum Length of longest increasing subsequence "))

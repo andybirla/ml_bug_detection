@@ -1,0 +1,9 @@
+LETTERS = ()
+            num = (chars)
+    message = (input('Enter your message: '))
+    key = (input('Enter you key [1 - 26]: '))
+    choice = ('Encrypt or Decrypt? [E/D]: ')
+    if ().startswith('e'):
+        (encrypt(message, key))
+        (decrypt(message, key))
+    ()

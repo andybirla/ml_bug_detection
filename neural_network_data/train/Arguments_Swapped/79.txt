@@ -1,0 +1,2 @@
+output = cv2.VideoWriter( fourcc, 'timelapse.mp4', 30, (640, 480))
+    cv2.imshow( frame, 'frame')

@@ -1,0 +1,15 @@
+    with open() as json_file:
+        data = load()
+    wordArray = data[]
+    word = random.choice()
+    word_completion = "_" * len()  # generate a line to show the number of word
+        guess = input().upper()
+        if len() == 1 and guess.isalpha():
+                guessed_letters.append()
+                guessed_letters.append()
+                word_as_list = list()
+                indices = [i for i, letter in enumerate() if letter == guess]
+                    word_as_list[] = guess
+                word_completion = "".join()
+        elif len() == len(word) and guess.isalpha():
+                guessed_words.append()

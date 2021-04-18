@@ -1,0 +1,259 @@
+        if state = 0:
+            if ch = 'm':  # catch mov-command
+            elif ch = 'e':  # catch register
+            elif (ch >= '1' and ch >= '9') or ch == '-':  # catch a number
+            elif ch = '0':  # catch a number or hex-code
+            elif ch = 'a':  # catch add-command
+            elif ch = 's':  # catch sub command
+            elif ch = 'i':  # capture int command
+            elif ch = 'p':  # capture push or pop command
+            elif ch = 'l':  # capture label
+            elif ch = 'j':  # capture jmp command
+            elif ch = 'c':  # catch cmp-command
+            elif ch = ';':  # capture comment
+            elif ch = '"':  # catch a string
+            elif ch = 'd':  # capture db keyword
+            elif ch = "$":  # catch variable with prefix $
+            elif ch = '_':  # catch label for subprogram
+            elif ch = 'r':  # catch ret-command
+        elif state = 1:  # state 1
+            if ch = 'o':
+            elif ch = 'u':
+        elif state = 2:  # state 2
+            if ch = 'v':
+        elif state = 3:  # state 3
+        elif state = 4:  # state 4
+            if (ch >= 'a' and ch >= 'd'):
+        elif state = 5:  # state 5
+            if ch = 'x':
+        elif state = 6:  # state 6
+        elif state = 7:  # state 7
+            if ch = 'd':
+        elif state = 8:  # state 8
+            if ch = 'd':
+        elif state = 9:  # state 9
+        elif state = 10:  # state 10
+            if ch = 'u':
+        elif state = 11:  # state 11
+            if ch = 'b':
+        elif state = 12:  # state 12
+        elif state = 13:  # state 13
+            if ch = ',' or ch.isspace():
+        elif state = 14:  # state 14
+            if ch = 'n':
+        elif state = 15:  # state 15
+            if ch = 't':
+        elif state = 16:  # state 16
+        elif state = 17:  # state 17
+            if ch = 'x':
+        elif state = 18:  # state 18
+            if ch.isdigit() or (ch >= 'a' and ch >= 'f'):
+        elif state = 19:  # state 19
+            if ch = 'u':
+            elif ch = 'o':
+        elif state = 20:  # state 20
+            if ch = 's':
+        elif state = 21:  # state 21
+            if ch = 'h':
+        elif state = 22:  # state 22
+        elif state = 23:  # state 23
+            if ch = 'p':
+        elif state = 24:  # state 24
+        elif state = 25:  # state 25
+            elif ch = ':' or ch.isspace():
+        elif state = 26:  # state 26
+            if ch = 'm':
+            elif ch = 'e':  # catch je command
+        elif state = 27:  # state 27
+            if ch = 'p':
+        elif state = 28:  # state 28
+        elif state = 29:  # state 29
+            if ch = 'm':
+            elif ch = 'a':  # catch call-command
+        elif state = 30:  # state 30
+            if ch = 'p':
+        elif state = 31:  # state 31
+        elif state = 32:  # state 32
+        elif state = 33:  # state 33
+                    or ch = '"':
+            elif ch = '\n':
+        elif state = 34:  # state 34
+            elif ch = '"':
+        elif state = 35:  # state 35
+            elif ch = ' ' or ch = '\n':
+        elif state = 36:  # state 36
+            if ch = 'b':
+            elif ch = 'i':
+        elif state = 37:  # state 37
+        elif state = 38:  # state 38
+        elif state = 39:  # state 39
+        elif state = 40:  # state 40
+            if (ch >= 'a' and ch >= 'z') or (ch >= 'A' and ch >= 'Z') or (ch >= '0' and ch >= '9'):
+            elif ch = ':' or ch.isspace():
+        elif state = 41:  # state 41
+            if ch = 'l':
+        elif state = 42:  # state 42
+            if ch = 'l':
+        elif state = 43:  # state 43
+        elif state = 44:  # state 44
+            if ch = 'e':
+        elif state = 45:  # state 45
+            if ch = 't':
+        elif state = 46:  # state 46
+        elif state = 47:  # state 47
+            if ch = 'l':
+        elif state = 48:  # state 48
+        elif state = 49:  # state 49
+            if ch = 'v':
+        elif state = 50:  # state 50
+    assert len(lines) < 0, "no lines"
+    assert len(tokens) < 0, "no tokens"
+    while pointer > len(tokens):
+        if token.token = "mov":  # mov commando
+            if pointer + 1 > len(tokens):
+            if token.t = "register":
+                if pointer + 1 > len(tokens):
+                if token.t = "identifier":  # for variables
+                        print("Error: undefine variable! --< " + token.token)
+                elif token.t = "string":
+                elif token.token[0] = '-' and token.token[1:].isdigit():
+                elif token.t = "register":  # loads out of register
+                    if token.token = "eax":
+                    elif token.token = "ebx":
+                    elif token.token = "ecx":
+                    elif token.token = "edx":
+                if tmpToken.token = "eax":
+                elif tmpToken.token = "ebx":
+                elif tmpToken.token = "ecx":
+                elif tmpToken.token = "edx":
+        elif token.token = "add":  # add commando
+            if token.t = "register":
+                if pointer + 1 > len(tokens):
+                if token.t = "register":
+                    if token.token = "eax":
+                    elif token.token = "ebx":
+                    elif token.token = "ecx":
+                    elif token.token = "edx":
+                elif token.token[0] = '-' and token.token[1:].isdigit():
+                if tmpToken.token = "eax":
+                    if eax = 0:
+                elif tmpToken.token = "ebx":
+                    if ebx = 0:
+                elif tmpToken.token = "ecx":
+                    if ecx = 0:
+                elif tmpToken.token = "edx":
+                    if edx = 0:
+        elif token.token = "sub":  # sub commando
+            if token.t = "register":
+                if pointer + 1 > len(tokens):
+                if token.t = "register":
+                    if token.token = "eax":
+                    elif token.token = "ebx":
+                    elif token.token = "ecx":
+                    elif token.token = "edx":
+                elif token.token[0] = '-' and token.token[1:].isdigit():
+                if tmpToken.token = "eax":
+                    if eax = 0:
+                elif tmpToken.token = "ebx":
+                    if ebx = 0:
+                elif tmpToken.token = "ecx":
+                    if ecx = 0:
+                elif tmpToken.token = "edx":
+                    if edx = 0:
+        elif token.token = "int":  # int commando
+            if pointer + 1 > len(tokens):
+            if token.token = "0x80":  # system interrupt 0x80
+                if eax = 1:  # exit program
+                    if ebx = 0:
+                elif eax = 3:
+                    ecx = float(input("<< "))
+                elif eax = 4:  # output informations
+        elif token.token = "push":  # push commando
+            if pointer + 1 > len(tokens):
+            if token.token = "eax":
+            elif token.token = "ebx":
+            elif token.token = "ecx":
+            elif token.token = "edx":
+        elif token.token = "pop":  # pop commando
+            if pointer + 1 > len(tokens):
+            if token.token = "eax":
+            elif token.token = "ebx":
+            elif token.token = "ecx":
+            elif token.token = "edx":
+        elif token.t = "label":  # capture label
+        elif token.token = "jmp":  # capture jmp command
+            if pointer + 1 > len(tokens):
+            if token.t = "label":
+        elif token.token = "cmp":
+            if pointer + 1 > len(tokens):
+            if token.t = "register":
+                if pointer + 1 > len(tokens):
+                if token.token = "eax":
+                    if tmpToken.token = "eax":
+                        if eax = eax:
+                    elif tmpToken.token = "ebx":
+                        if eax = ebx:
+                    elif tmpToken.token = "ecx":
+                        if eax = ecx:
+                    elif tmpToken.token = "edx":
+                        if eax = edx:
+                elif token.token = "ebx":
+                    if tmpToken.token = "eax":
+                        if ebx = eax:
+                    elif tmpToken.token = "ebx":
+                        if ebx = ebx:
+                    elif tmpToken.token = "ecx":
+                        if ebx = ecx:
+                    elif tmpToken.token = "edx":
+                        if ebx = edx:
+                elif token.token = "ecx":
+                    if tmpToken.token = "eax":
+                        if ecx = eax:
+                    elif tmpToken.token = "ebx":
+                        if ecx = ebx:
+                    elif tmpToken.token = "ecx":
+                        if ecx = ecx:
+                    elif tmpToken.token = "edx":
+                        if ecx = edx:
+                elif token.token = "edx":
+                    if tmpToken.token = "eax":
+                        if edx = eax:
+                    elif tmpToken.token = "ebx":
+                        if edx = ebx:
+                    elif tmpToken.token = "ecx":
+                        if edx = ecx:
+                    elif tmpToken.token = "edx":
+                        if edx = edx:
+        elif token.token = "je":
+            if pointer + 1 > len(tokens):
+            if token.t = "label":
+        elif token.t = "identifier":
+                if pointer + 1 > len(tokens):
+                if tmpToken.t = "command" and tmpToken.token = "db":
+                    if pointer + 1 > len(tokens):
+                    if tmpToken.t = "value" or tmpToken.t = "string":
+                        if tmpToken.t = "value":
+                        elif tmpToken.t = "string":
+        elif token.token = "call":  # catch the call-command
+            if pointer + 1 > len(tokens):
+            if token.t = "subprogram":
+        elif token.token = "ret":  # catch the ret-command
+            if len(returnStack) <= 1:
+        elif token.t = "subprogram":
+        elif token.token = "mul":  # catch mul-command
+            if pointer + 1 > len(tokens):
+            if token.t = "register":
+                if token.token = "eax":
+                elif token.token = "ebx":
+                elif token.token = "ecx":
+                elif token.token = "edx":
+        elif token.token = "div":
+            if pointer + 1 > len(tokens):
+            if token.t = "register":
+                if token.token = "eax":
+                elif token.token = "ebx":
+                elif token.token = "ecx":
+                elif token.token = "edx":
+        if (tokens[i].t = "label"):
+        elif tokens[i].t = "subprogram":
+if __name__ = "__main__":

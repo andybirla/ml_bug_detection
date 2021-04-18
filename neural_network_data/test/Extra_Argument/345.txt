@@ -1,0 +1,2 @@
+t = int(input(, input())
+  n1, n2 = map(int, input(, int).split())

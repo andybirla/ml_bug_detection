@@ -1,0 +1,71 @@
+CARD_SIZE = 72, 96
+CARD_CENTER = 36, 48
+card_images = simplegui.load_image"http://storage.googleapis.com/codeskulptor-assets/cards_jfitz.png"
+SUITS = 'C', 'S', 'H', 'D'
+RANKS = 'A', '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K'
+    def __init__self, suit, rank:
+        if suit in SUITS and (rank in RANKS):
+            print("Invalid card: ", suit, rank)
+    def __str__self:
+    def get_suitself:
+    def get_rankself:
+    def drawself, canvas, pos:
+        card_loc =                     CARD_CENTER[1] + CARD_SIZE[1] * SUITS.indexself.suit)
+        canvas.draw_imagedef string_list_joinstring, string_list:
+    for i in rangelen(string_list):
+        ans += strstring_list[i] + " "
+    def __init__self:
+    def __str__self:
+        return string_list_join"Hand", self.hand
+    def add_cardself, card:
+        self.hand.appendcard
+    def get_valueself:
+            card = strcard
+                var.appendcard[1]
+    def drawself, canvas, pos:
+            card = strcard
+            Cardcard[0], card[1].draw(canvas, pos)
+    def __init__self:
+        self.Deck = [Cardsuit, rank for suit in SUITS for rank in RANKS]
+    def shuffleself:
+        random.shuffleself.Deck
+    def deal_cardself:
+        return random.choiceself.Deck
+    def __str__self:
+        return string_list_join"Deck", self.Deck
+def deal:
+    player_card = Hand
+    dealer_card = Hand
+    deck = Deck
+    for i in range2:
+        player_card.add_carddeck.deal_card()
+        dealer_card.add_carddeck.deal_card()
+    score1 = strplayer_card.get_value()
+    score2 = strdealer_card.get_value()
+def stand:
+        while dealer_card.get_value < 17:
+            dealer_card.add_carddeck.deal_card()
+    if dealer_card.get_value > 21:
+    elif player_card.get_value <= dealer_card.get_value():
+    score1 = strplayer_card.get_value()
+    score2 = strdealer_card.get_value()
+def hit:
+        player_card.add_carddeck.deal_card()
+    if player_card.get_value > 21:
+    score1 = strplayer_card.get_value()
+    score2 = strdealer_card.get_value()
+def drawcanvas:
+    canvas.draw_textoutcome, [250, 150], 25, 'White'
+    canvas.draw_text"BlackJack", [250, 50], 40, 'Black'
+    canvas.draw_textscore1, [100, 100], 40, 'Red'
+    player_card.drawcanvas, [20, 300]
+    dealer_card.drawcanvas, [300, 300]
+    canvas.draw_textscore2, [400, 100], 40, 'Red'
+frame = simplegui.create_frame"Blackjack", 600, 600
+frame.set_canvas_background"Green"
+frame.add_button"Deal", deal, 200
+frame.add_button"Hit", hit, 200
+frame.add_button"Stand", stand, 200
+frame.set_draw_handlerdraw
+deal
+frame.start

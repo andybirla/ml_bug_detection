@@ -1,0 +1,6 @@
+    for i in (0,5):
+        (1)
+        (randint(0,9))
+        if (queue) > 0:
+    p = (target=produce)
+    c = (target=consume)

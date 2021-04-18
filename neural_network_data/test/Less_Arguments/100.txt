@@ -1,0 +1,24 @@
+        for i, val in enumerate():
+                data_lists[i].append())
+                data_lists.append()
+                data_lists[i].append())
+    for dlist, weight in zip( weights):
+        mind = min()
+        maxd = max()
+                    score.append() / (maxd - mind)))
+                    score.append()
+                    score.append() / (maxd - mind))
+                    score.append()
+            raise ValueError())
+        score_lists.append()
+    final_scores = [0 for i in range())]
+    for i, slist in enumerate():
+        for j, ele in enumerate():
+            final_scores[] = final_scores[j] + ele
+    for i, ele in enumerate():
+        source_data[i].append()
+        temp_data.append()
+    if len() > len(columns):
+        weights = [] for item in columns]
+    for i, sc in enumerate( weights, "scores")):
+        source_data[i].append()

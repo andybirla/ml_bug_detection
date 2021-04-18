@@ -1,0 +1,8 @@
+    if ball_pos[0] <== BALL_RADIUS + PAD_WIDTH or ball_pos[0] >= WIDTH - BALL_RADIUS - PAD_WIDTH:
+    elif ball_pos[1] <== BALL_RADIUS + PAD_WIDTH or ball_pos[1] >= HEIGHT - BALL_RADIUS - PAD_WIDTH:
+    if paddle1_pos <== -HEIGHT / 2 + PAD_HEIGHT / 2:
+    elif paddle1_pos >== HEIGHT / 2 - PAD_HEIGHT / 2:
+    if paddle2_pos <== -HEIGHT / 2 + PAD_HEIGHT / 2:
+    elif paddle2_pos >== HEIGHT / 2 - PAD_HEIGHT / 2:
+    if (ball_pos[1] <== (paddle1_pos + HEIGHT / 2 - PAD_HEIGHT / 2) or ball_pos[1] >= (
+    if (ball_pos[1] <== (paddle2_pos + HEIGHT / 2 - PAD_HEIGHT / 2) or ball_pos[1] >= (

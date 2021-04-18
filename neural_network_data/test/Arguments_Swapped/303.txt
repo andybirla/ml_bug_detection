@@ -1,0 +1,2 @@
+array.insert( 0, 0)
+  print(len(array, binarySearch(0), number))

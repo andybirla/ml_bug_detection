@@ -1,0 +1,4 @@
+print ( " + name+ "\nTime to play hangman!\n", "\nHello)
+            print ( end = ' ', char)  
+            print ( end = ' ', "_")    
+        print ( + turns, "You have", 'more guesses\n') 

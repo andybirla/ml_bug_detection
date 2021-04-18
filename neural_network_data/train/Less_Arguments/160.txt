@@ -1,0 +1,20 @@
+input_features = np.array(0],[0,1],[1,0],[1,1]])
+target_output = np.array(1,1,1]])
+target_output = target_output.reshape(1)
+weights = np.array([0.2]])
+  return 1/())
+  return sigmoid()*(1-sigmoid(x))
+for epoch in range():
+ in_o = np.dot( weights) + bias 
+ out_o = sigmoid() 
+ douto_dino = sigmoid_der()
+ deriv_final = np.dot(deriv)
+single_point = np.array(0]) 
+result1 = np.dot( weights) + bias 
+result2 = sigmoid() 
+single_point = np.array(1])
+result1 = np.dot( weights) + bias
+result2 = sigmoid() #Print final result
+single_point = np.array(0])
+result1 = np.dot( weights) + bias 
+result2 = sigmoid()

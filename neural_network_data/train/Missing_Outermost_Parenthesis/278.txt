@@ -1,0 +1,75 @@
+class AddressBookobject:
+    def __init__self, name = None, address = None, email = None, phone = None:
+    def __str__self:
+        return '[Name: {0} | Address: {1} | Email: {2} | Phone: {3}]'.formatself.name, self.address, self.email, self.phone
+    def __repr__self:
+        return '[Name: {0} | Address: {1} | Email: {2} | Phone: {3}]'.formatself.name, self.address, self.email, self.phone
+    def addContactsself:
+            if os.path.existsself.filename and os.path.getsize(self.filename) > 0:
+                myAddressBook = openself.filename, 'rb'
+                data = pickle.loadmyAddressBook
+                myAddressBook.close
+                myAddressBook = openself.filename, 'wb'
+            contact = self.getDetailsFromUser
+            myAddressBook = openself.filename, 'wb'
+            pickle.dumpdata, myAddressBook
+            myAddressBook.close
+            print'Contact Added Successfully!'
+            print'There was an error! Contact was not added.'
+            myAddressBook.close
+    def getDetailsFromUserself:
+            self.contacts['Name'] = strinput('Enter Contact\'s Full Name: ')
+            self.contacts['Address'] = strinput('Enter Contact\'s Address: ')
+            self.contacts['Email'] = strinput('Enter Contact\'s Email Address: ')
+            self.contacts['Phone'] = intinput('Enter Contact\'s Phone Number: ')
+    def displayContactsself:
+        if os.path.existsself.filename and os.path.getsize(self.filename) > 0:
+            myAddressBook = openself.filename, 'rb'
+            data = pickle.loadmyAddressBook
+            myAddressBook.close
+                for records in data.values:
+                    printrecords
+            myAddressBook.close
+            print'No Record in database.'
+    def searchContactsself:
+        if os.path.existsself.filename and os.path.getsize(self.filename) > 0:
+            myAddressBook = openself.filename, 'rb'
+            data = pickle.loadmyAddressBook
+            myAddressBook.close
+                contactToSearch = input'Enter the name of the contact to search: '
+                for contact in data.values:
+                        printdata[contact['Name']]
+                    print'No record found whose name is:', contactToSearch
+                print'Error occured!'
+            print'No Record in database.'
+    def modifyContactsself:
+        if os.path.existsself.filename and os.path.getsize(self.filename) > 0:
+            myAddressBook = openself.filename, 'rb'
+            data = pickle.loadmyAddressBook
+            myAddressBook.close
+                contactToModify = input'Enter the name of the contact to modify (Only enter full name): '
+                for contact in data.values:
+                option = intinput('1. To modify name, 2. To modify address, 3. To modify email, 4. To modify phone: ')
+                    contact['Name'] = input'Enter Name to modify: '
+                    print'Successful'
+                     contact['Address'] = input'Enter Address to modify: '
+                     print'Successful'
+                    contact['Email'] = input'Enter Email to modify: '
+                    print'Successful'
+                    contact['Phone'] = input'Enter Phone to modify: '
+                    print'Successful'
+                    print'Incorrect option selected.'
+                print'Error occured. No such record found. Try Again!'
+                myAddressBook = openself.filename, 'wb'
+                pickle.dumpdata, myAddressBook
+                myAddressBook.close
+            print'No Record in database.'
+    myBook = AddressBook
+    print'Enter 1. To Add Contacts 2. For Searching a Contact 3. For Modifying a Contact 4. To Display Contacts 5. To Exit'
+        choice = intinput('Enter your choice: ')
+            myBook.addContacts
+            myBook.searchContacts
+            myBook.modifyContacts
+            myBook.displayContacts
+            exit
+            print'Invalid Option. Try Again!'

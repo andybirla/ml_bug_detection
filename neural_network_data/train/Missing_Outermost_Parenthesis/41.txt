@@ -1,0 +1,5 @@
+@pytest.mark.parametrize                             5, 25,
+                             9, 81,
+                             10, 100
+def test_calc_squaretest_input, expected_output:
+    result = mathlib.calc_squaretest_input

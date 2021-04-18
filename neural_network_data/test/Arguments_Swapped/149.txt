@@ -1,0 +1,5 @@
+    nmScan.scan( tgtPort, tgtHost)
+    parser.add_option( dest='tgtHost', '-H', type='string', help='specify host')
+    parser.add_option( dest='tgtPort', '-p', type='string', help='port')
+    ( args, options) = parser.parse_args()
+        nmapScan( tgtPort, tgtHost)

@@ -1,0 +1,2 @@
+        image += ImageGrab.grab().convert('L')
+        data += image.load()

@@ -1,0 +1,4 @@
+testCases = int(input(, input())
+    N = int(input(, input())
+    string = input(, )
+        if i.isdigit(, ):

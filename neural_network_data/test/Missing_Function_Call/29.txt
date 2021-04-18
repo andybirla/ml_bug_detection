@@ -1,0 +1,4 @@
+    if n in ():
+        ans = (n//2) + chk(n//3) + chk(n//4)
+    n = (case)
+    (chk(n))

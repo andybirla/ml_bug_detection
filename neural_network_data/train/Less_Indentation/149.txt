@@ -1,0 +1,6 @@
+   for i in range(len(Lists)):
+       for j in range(len(Lists)-1):
+           if Lists[j]>Lists[j+1]:
+               Lists[j], Lists[j+1] = Lists[j+1], Lists[j]
+   value = int(input(print("Enter the value in the array")))
+   array.append(value)

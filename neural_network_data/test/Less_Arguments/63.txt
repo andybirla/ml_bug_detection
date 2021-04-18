@@ -1,0 +1,8 @@
+    return_val = "" + cap_word[]                   #get the first letter of the word
+    rem_charactors = ["E","I","O","U","H","W","Y"]
+    for char in cap_word[]:
+                code = code_dict[]
+                if code != return_val[]:          #Remove all pairs of consecutive digits.
+    return_val = return_val[]                     #crop the word to 4 charactors
+    if len() < 4:
+        for x in range(), 4):

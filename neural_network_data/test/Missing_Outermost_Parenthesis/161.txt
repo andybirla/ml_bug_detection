@@ -1,0 +1,13 @@
+class Dieobject:
+    def __init__self:
+    def set_sidesself, sides_change:
+                print"change sides from 6 to ", sides_change, " !"
+                print"sides set to 6"
+            print"wrong sides! sides set to 6"
+    def rollself:
+        return random.randint1, self.sides
+d = Die
+d1 = Die
+d.set_sides4
+d1.set_sides4
+printd.roll(), d1.roll()

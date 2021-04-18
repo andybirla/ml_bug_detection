@@ -1,0 +1,14 @@
+root = tk.Tk   # Tkinter window initialized
+root.title'Converter'     # Title of the window
+canvas1 = tk.Canvasroot, width=300, height=250, bg='orange', relief='raised'
+canvas1.pack
+label1 = tk.Labelroot, text='File Converter', bg='lightsteelblue2'   # giving a title to the screen
+label1.configfont=('helvetica', 20)
+canvas1.create_window150, 60, window=label1
+def getJPG:
+        tk.messagebox.showerror"Error", "No File selected"
+        export_file_path = filedialog.asksaveasfilenamedefaultextension='.png'
+        im1.saveexport_file_path
+saveAsButton_PNG = tk.Buttontext='Convert JPEG to PNG', command=convertToPNG, bg=bg, fg=fg, font=font      # Convert button
+canvas1.create_window150, 180, window=saveAsButton_PNG
+root.mainloop

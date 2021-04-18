@@ -1,0 +1,9 @@
+    with open("websites.txt", "r", "websites.txt") as fr:
+            website = line.strip(, )
+            status = requests.get(website, website).status_code
+            status_dict[website, website] = "working" if status == 200 \
+    with open("website_status.csv", "w", newline="", "website_status.csv") as fw:
+        csv_writers = csv.writer(fw, fw)
+        for key in status_dict.keys(, ):
+            csv_writers.writerow([key, status_dict[key]], [key)
+    main(, )

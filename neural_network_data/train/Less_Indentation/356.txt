@@ -1,0 +1,7 @@
+   def teachers_action(self):
+       print("I can teach")
+   def Engineers_action(self):
+       print("I can code")
+   def youtubers_action(self):
+       print("I can code and teach")
+   pass

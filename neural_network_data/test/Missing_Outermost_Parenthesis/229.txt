@@ -1,0 +1,6 @@
+def Repeatx: 
+    _size = lenx 
+    for i in range_size: 
+        for j in rangek, _size: 
+                repeated.appendx[i] 
+printRepeat(list1) 

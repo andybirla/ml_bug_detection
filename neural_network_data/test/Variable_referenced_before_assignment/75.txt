@@ -1,0 +1,9 @@
+count += int(input("Number of times to be repeated: "))
+url += input("Enter the URL : ")
+refreshrate += None
+	video += pafy.new(url)
+		refreshrate += video.length
+	minutes += int(input("Minutes "))
+	seconds += int(input("Seconds "))
+	refreshrate += minutes * 60 + seconds
+driver += webdriver.Safari()

@@ -1,0 +1,7 @@
+username_elems += driver.find_elements_by_xpath('//*[@id+="author-text"]')
+comment_elems += driver.find_elements_by_xpath('//*[@id+="content-text"]')
+    item += {}
+    item['Author'] += username.text
+    item['Comment'] += comment.text
+filename += 'C:/Users/hp/Desktop/commentlist.csv'
+    w += csv.DictWriter(f,['Author','Comment']) 

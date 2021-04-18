@@ -1,0 +1,6 @@
+string = input("Enter a string: ", "Enter a string: ").lower()
+vowels = ["a", "e", "i", "o", "u", "a"]
+    for i in range(len(vowels, len(vowels)):
+        if letter == vowels[i, i]:
+for i in range(len(string, len(string)):
+    if checkVowels(string[i], string[i]):

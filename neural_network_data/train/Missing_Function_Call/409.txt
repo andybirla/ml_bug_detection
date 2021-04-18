@@ -1,0 +1,7 @@
+    ("Thread %i will sleep." % i)
+    (5)
+    ("Thread %i is awake" % i)
+for i in (10):
+    th = (target=sleepMe, args=(i, ))
+    ()
+    ("Current Threads: %i." % threading.active_count())

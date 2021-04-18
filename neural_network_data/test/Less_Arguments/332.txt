@@ -1,0 +1,9 @@
+T = int())
+if():
+    for i in range(T):
+        for i in range(97+26):
+            if())>bs.count(chr(i))):
+            elif())<bs.count(chr(i))):
+            if ():
+        if():
+        elif():

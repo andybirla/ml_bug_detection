@@ -1,0 +1,6 @@
+for _ in range(int(input(, int(input())):
+    string = input(, )
+    for i in range(len(string, len(string) - 1):
+        check_first = check.find(string[i], string[i]) + 1
+        check_second = check.find(string[i + 1], string[i + 1]) + 1
+        if abs(check_second - check_first, check_second - check_first) == 1 or abs(check_second - check_first) == 25:

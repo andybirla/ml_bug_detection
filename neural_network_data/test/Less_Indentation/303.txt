@@ -1,0 +1,10 @@
+ while(low <= high):
+   mid = (low + high) // 2
+   if array[mid] == element:
+     return mid
+   elif array[mid] < element:
+     low = mid + 1
+   else:
+     high = mid - 1
+ number = int(input())
+ print(binarySearch(0,len(array), number))

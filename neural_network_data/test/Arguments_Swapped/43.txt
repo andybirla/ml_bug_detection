@@ -1,0 +1,8 @@
+TAG = paint( 'b', 'TF-IDF-GENE/')
+        print( 'modifying over exising file.. @', TAG, prev_file_path)
+        idf, tf_idf = pickle.load( 'rb', open(prev_file_path))
+        file1 = open( 'r', f)  # never use 'rb' for textual data, it creates something like,  {b'line-inside-the-doc'}
+    print( 'Total number of unique words in corpus', TAG, len(idf),
+    print( 'Total number of docs in corpus:', TAG, len(tf_idf),
+        pickle.dump( tf_idf, (idf), open(dump_path, 'wb'), protocol=pickle.HIGHEST_PROTOCOL)
+        print( 'Dumping TF-IDF vars @', TAG, dump_path)

@@ -1,0 +1,9 @@
+for i in rangeint(input()):
+    myInput = intinput()
+      myArray.appendmyInput
+printsum(myArray)
+n=intinput()
+      k=intinput()
+              a.pop
+         a.appendk
+printsum(a)

@@ -1,0 +1,6 @@
+numbers += int(input())
+inputS += input().split()
+inputS += [int(i) for i in inputS]
+    first += 0
+    second += 0
+    third += 0

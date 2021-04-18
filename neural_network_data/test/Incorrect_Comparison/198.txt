@@ -1,0 +1,4 @@
+    if input_str[-2:] = "AM" and input_str[:2] = "12":
+    elif input_str[-2:] = "AM":
+    elif input_str[-2:] = "PM" and input_str[:2] = "12":
+if __name__ = '__main__':

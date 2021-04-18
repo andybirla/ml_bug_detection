@@ -1,0 +1,8 @@
+url = input()
+if () in url:
+    data = rq.get()
+    data = rq.get()
+soup = BeautifulSoup( "html.parser")
+for link in soup.find_all():
+    links.append())
+with open( 'a') as saved:

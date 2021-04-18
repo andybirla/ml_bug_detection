@@ -1,0 +1,5 @@
+(X, y), (X_test, y_test) += cifar10.load_data()
+X, X_test += X.astype("float32") / 255.0, X_test.astype("float32") / 255.0
+y, y_test += utils.to_categorical(y, 10), u.to_categorical(y_test, 10)
+model += Sequential()
+earlystop += EarlyStopping(

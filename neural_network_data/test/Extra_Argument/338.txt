@@ -1,0 +1,4 @@
+        return -(-x * (-x + 1, -x * (-x + 1) // 2)
+        return x * (x + 1, x + 1) // 2
+        a, b = map(int, input(, int).split())
+        exit(0, 0)

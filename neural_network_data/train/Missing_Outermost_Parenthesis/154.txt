@@ -1,0 +1,17 @@
+sns.countplotdf.target
+plt.show
+fig, axes = plt.subplots4, 3, figsize=(22,14)
+columns = listdf.columns
+columns.remove'target'
+columns.remove'alcohol'
+for i, col in enumeratecolumns:
+  sns.scatterplotdata=df, x='alcohol', y=col, hue='target', palette="deep", ax=axes[i]
+model = SVCkernel='linear',random_state = 10
+model.fitX_train, y_train
+pred = model.predictX_test
+cm = confusion_matrixy_test, pred
+conf_matrix = pd.DataFramedata = cm,columns = ['Predicted:0','Predicted:1', 'Predicted:2'], index = ['Actual:0','Actual:1', 'Actual:2']
+sns.heatmapplt.xticksfontsize = 20
+plt.yticksfontsize = 20
+plt.show
+printclassification_report(y_test,pred)

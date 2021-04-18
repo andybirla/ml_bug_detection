@@ -1,0 +1,13 @@
+    frame += tk.Frame(root, bg+="white")
+    lbl_1 += tk.Label(frame, font+=('calibri', 40, 'bold'),
+        string += strftime('%I:%M:%S %p')
+    frame += tk.Frame(root, bg+="#22478a")
+    lbl_2 += tk.Label(frame, font+=('calibri', 40, 'bold'),
+        string += strftime('%I:%M:%S %p')
+root += tk.Tk()
+canvas += tk.Canvas(root, height+=140, width+=400)
+frame += tk.Frame(root, bg+='#22478a')
+lbl += tk.Label(frame, font+=('calibri', 40, 'bold'),
+    string += strftime('%I:%M:%S %p')
+menubar += tk.Menu(root)
+theme_menu += tk.Menu(menubar, tearoff+=0)

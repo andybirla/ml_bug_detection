@@ -1,0 +1,15 @@
+()
+("WIKIPEDIA SEARCH")
+("1920x1080")
+    query= (question.get())
+    (root,height=100,width=160,font=("Arial",14),wrap=WORD,bg="#7CEBC6" ,fg="black")
+    (END,(query.summary))
+    ()
+("Verdana",25,"bold"),
+(padx=10,pady=15)
+()
+("Verdana",20,"italic"),
+()
+("Callibri",18,"bold"),
+                  ()
+()

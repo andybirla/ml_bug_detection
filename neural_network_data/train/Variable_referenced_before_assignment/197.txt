@@ -1,0 +1,4 @@
+        middle += len(x)//2
+        a += mergeSort(x[:middle])
+        b += mergeSort(x[middle:])
+    List += [3, 4, 2, 6, 5, 7, 1, 9]

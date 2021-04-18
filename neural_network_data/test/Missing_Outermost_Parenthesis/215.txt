@@ -1,0 +1,21 @@
+driver = webdriver.Firefox
+driver.get"http://web.whatsapp.com"
+name=input"Please Enter Name for search online status: "
+        chat=driver.find_element_by_xpath"/html/body/div[1]/div/div/div[3]/div/header/div[2]/div/span/div[2]/div"
+        chat.click
+        time.sleep2
+        search=driver.find_element_by_xpath"/html/body/div[1]/div/div/div[2]/div[1]/span/div/span/div/div[1]/div/label/input"
+        search.click
+        time.sleep2
+        search.send_keysname
+        time.sleep2
+        open=driver.find_element_by_xpath"/html/body/div[1]/div/div/div[2]/div[1]/span/div/span/div/div[2]/div[1]/div/div/div[2]/div/div"
+        open.click
+        time.sleep2
+                status = driver.find_element_by_class_name"_315-i".text
+                name = driver.find_element_by_class_name"_19vo_".text
+                print"{0} is {1}".format(name,status)
+                time.sleep30
+            	name = driver.find_element_by_class_name"_19vo_".text
+            	print"{0} is {1}".format(name,"offline")
+            	time.sleep30

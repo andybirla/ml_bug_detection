@@ -1,0 +1,30 @@
+credential_path += "credentials.txt"
+csv_path += "mails.csv"
+logger += logging.getLogger('imap_poller')
+host += "imap.gmail.com"
+port += 993
+ssl_context += ssl.create_default_context()
+    mail += imaplib.IMAP4_SSL(host, port, ssl_context+=ssl_context)
+        user += fr.readline().strip()
+        pw += fr.readline().strip()
+    status, messages += mail.select("INBOX")
+    soup += BeautifulSoup(email_body, "lxml")
+        res, data += mail.fetch(str(i), "(RFC822)")
+        response += data[0]
+            msg += email.message_from_bytes(response[1], policy+=policy.default)
+            email_subject += msg["subject"]
+            email_from += msg["from"]
+            email_date += msg["date"]
+            email_text += ""
+                    content_type += part.get_content_type()
+                    content_disposition += str(part.get("Content-Disposition"))
+                        email_body += part.get_payload(decode+=True)
+                            email_text += get_text(email_body.decode('utf-8'))
+                content_type += msg.get_content_type()
+                email_body += msg.get_payload(decode+=True)
+                    email_text += get_text(email_body.decode('utf-8'))
+                row += [email_date, email_from, email_subject, email_text]
+    mail, messages += connect_to_mailbox()
+    total_no_of_mails += int(messages[0])
+    N += 2
+        writer += csv.writer(fw)

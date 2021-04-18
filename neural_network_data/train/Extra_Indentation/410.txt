@@ -1,0 +1,277 @@
+ from statistics import mean
+ X = [5,8,15,18,25]
+ print("Mean = ",mean(X))
+ import  numpy as np
+ X = [5,10,15,20,25]
+ Y = [1,2,2,1,1]
+ print("Weighted Mean = ",np.average(X,weights=Y))
+ from scipy import stats
+ X = [20,30,40]
+ print("Geometric Mean =",stats.gmean(X))
+ from statistics import harmonic_mean
+ X = [20,30,15]
+ print("Harmonic Mean =",harmonic_mean([20,30,15]))
+ from statistics import median
+ X =[3,4,11,56,93]
+ print("Median =",median(X))
+ from statistics import median
+ X = [3,4,11,56,93,100]
+ print("Median =",median(X))
+ from statistics import mode
+ X = [2,7,18,32,32,45,78]
+ try:
+     print("Mode =",mode(X))
+ except:
+     print("Mode not found!")
+ from statistics import mode
+ X = [2,7,18,32,46,54]
+ try:
+     print("Mode =",mode(X))
+ except:
+     print("Mode not found!")
+ from statistics import mode
+ X = [2,7,18,18,34,57,57,89]
+ try:
+     print("Mode =",mode(X))
+ except:
+     print("Mode not found!")
+ import numpy as np
+ X = [2,3,7,11,29,56,57,78,82,89,95]
+ print("Min =",np.quantile(X,0))
+ print("Q1 =",np.quantile(X,0.25))
+ print("Q2 =",np.quantile(X,0.50))
+ print("Q3 =",np.quantile(X,0.75))
+ print("Max =",np.quantile(X,1))
+ import numpy as np
+ X = [2,3,7,11,29,56,57,78,82,89]
+ print("Min =",np.quantile(X,0))
+ print("Q1 =",np.quantile(X,0.25))
+ print("Q2 =",np.quantile(X,0.50))
+ print("Q3 =",np.quantile(X,0.75))
+ print("Max =",np.quantile(X,1))
+ from scipy import stats
+ X= [1,2,3,4,5,6,7,8,9,10]
+ print("Percentile Rank for 7 =",stats.percentileofscore(X,7,kind="strict"))
+ print("Percentile Rank for 9 =",stats.percentileofscore(X,9,kind="strict"))
+ from scipy import stats
+ X= [1,2,2,3,4,5,5,6,7,8]
+ print("Percentile Rank for 5 =",stats.percentileofscore(X,5,kind="strict"))
+ import numpy as np
+ X = [2,5,6,8,11,45,64,71,77,89,93]
+ print("75th =",np.percentile(X,75))
+ print("70th =",np.percentile(X,70))
+ print("40th =",np.percentile(X,40))
+ import numpy as np
+ X = [2,5,6,8,11,45,64,71,77,89,93]
+ print("10th =",np.percentile(X,10))
+ print("25th =",np.percentile(X,25))
+ print("75th =",np.percentile(X,75))
+ X = [2,5,6,8,11,15,19,21,25,28,31]
+ print("Range =",(max(X)-min(X)))
+ from scipy import stats
+ X = [2,5,6,8,11,15,19,21,25,28,31]
+ print("Interquartile Range =",stats.iqr(X,interpolation="nearest"))
+ from scipy import stats
+ X = [2,5,6,8,11,15,19,21,25,28,500]
+ print("Range =",(max(X)-min(X)))
+ print("Interquartile Range =",stats.iqr(X,interpolation="nearest"))
+ from statistics import variance
+ X = [20,30,25,50,70,45,75]
+ print("Variance =",variance(X))
+ from statistics import stdev
+ X = [20,30,25,50,70,45,75]
+ print("Standard Deviation =",stdev(X))
+ from statistics import pvariance
+ X = [20,30,25,50,70,45,75]
+ print("Variance =",pvariance(X))
+ from statistics import pstdev
+ X = [20,30,25,50,70,45,75]
+ print("Standard Deviation =",pstdev(X))
+ from numpy import mean, absolute
+ X = [18,20,34]
+ print("Mean Absolute Deviation = ",mean(absolute(X - mean(X))) )
+ from statistics import mean,stdev
+ X = [51710,51350,51400,51450,51460]
+ Y = [62.009,61.962,62.797,61.996,63.158]
+ std_X = stdev(X)
+ std_Y = stdev(Y)
+ mean_X = mean(X)
+ mean_Y = mean(Y)
+ print("Coefficient of variation for X =",std_X/mean_X)
+ print("Coefficient of variation for Y =",std_Y/mean_Y)
+ from statistics import mean,median,mode
+ from scipy.stats import skew
+ import numpy as np
+ X = np.random.normal(0,2,10000)
+ print(X,"\n")
+ print("Mean =",mean(X))
+ print("Median = ",median(X))
+ try:
+     print("Mode = ",mode(X))
+ except:
+     print("Mode not found!")
+ print("Skewness =",skew(X))
+ from statistics import mean,median,mode
+ from scipy.stats import skew
+ import numpy as np
+ X = [1,2,3,4,5]
+ print(X,"\n")
+ print("Mean =",mean(X))
+ print("Median = ",median(X))
+ try:
+     print("Mode = ",mode(X))
+ except:
+     print("Mode not found!")
+ print("Skewness =",skew(X))
+ from statistics import mean,median,mode
+ from scipy.stats import skew
+ import numpy as np
+ X = [1,1,1,2,3,4,5]
+ print(X,"\n")
+ print("Mean =",mean(X))
+ print("Median = ",median(X))
+ try:
+     print("Mode = ",mode(X))
+ except:
+     print("Mode not found!")
+ print("Skewness =",skew(X))
+ from statistics import mean,median,mode
+ from scipy.stats import skew
+ import numpy as np
+ X = [1,2,3,4,5,5,5]
+ print(X,"\n")
+ print("Mean =",mean(X))
+ print("Median = ",median(X))
+ try:
+     print("Mode = ",mode(X))
+ except:
+     print("Mode not found!")
+ print("Skewness =",skew(X))
+ from statistics import mean,median,mode
+ from scipy.stats import skew
+ import numpy as np
+ X = [1,1,1,1,1,1,1,1,1,2,3,4,5]
+ print(X,"\n")
+ print("Mean =",mean(X))
+ print("Median = ",median(X))
+ try:
+     print("Mode = ",mode(X))
+ except:
+     print("Mode not found!")
+ print("Skewness =",skew(X))
+ from statistics import mean,median,mode
+ from scipy.stats import skew
+ import numpy as np
+ X = [1,2,3,4,5,5,5,5,5,5,5,5,5]
+ print(X,"\n")
+ print("Mean =",mean(X))
+ print("Median = ",median(X))
+ try:
+     print("Mode = ",mode(X))
+ except:
+     print("Mode not found!")
+ print("Skewness =",skew(X))
+ from scipy.stats import kurtosis
+ import numpy as np
+ X=np.random.normal(0,1,100000)
+ print("Kurtosis = ",kurtosis(X,fisher=False))
+ from scipy.stats import kurtosis
+ import numpy as np
+ X=np.random.normal(0,1,100000)
+ print("Kurtosis = ",kurtosis(X,fisher=True))
+ from scipy.stats import kurtosis
+ import numpy as np
+ X = [1,2,3,4,4,4,5,5,5,5,5,5,5,5,5]
+ print("Kurtosis = ",kurtosis(X,fisher=False))
+ from scipy.stats import kurtosis
+ import numpy as np
+ X = [1,2,3,4,4,4,5,5,5,5,5,5,5,5,5]
+ print("Kurtosis = ",kurtosis(X,fisher=True))
+ from scipy.stats import kurtosis
+ import numpy as np
+ X = [1,2,3,4,5,6]
+ print("Kurtosis = ",kurtosis(X,fisher=False))
+ from scipy.stats import kurtosis
+ import numpy as np
+ X = [1,2,3,4,5,6]
+ print("Kurtosis = ",kurtosis(X,fisher=True))
+ import numpy as np
+ X = [100,103,110,115,119]
+ Y = [1,7,15,20,22]
+ print("Covariance\n")
+ print(np.cov(X,Y))
+ import numpy as np
+ X = [100,103,110,115,119]
+ Y = [1,7,15,20,22]
+ print("Correlation\n")
+ print(np.corrcoef(X,Y))
+ from scipy import stats
+ d = [1,2,3,4,5]
+ print("0th Moment = ",stats.moment(d,moment=0))
+ print("1st Moment = ",stats.moment(d,moment=1))
+ print("2nd Moment = ",stats.moment(d,moment=2))
+ print("3nd Moment = ",stats.moment(d,moment=3))
+ print("4th Moment = ",stats.moment(d,moment=4))
+ from scipy import stats
+ d = [[5,6,9,11,3],[21,4,8,15,2]]
+ print("0th Moment = ",stats.moment(d,moment=0))
+ print("1st Moment = ",stats.moment(d,moment=1))
+ print("2nd Moment = ",stats.moment(d,moment=2))
+ print("3nd Moment = ",stats.moment(d,moment=3))
+ print("4th Moment = ",stats.moment(d,moment=4))
+ from scipy import stats
+ d = [[5,6,9,11,3],[21,4,8,15,2]]
+ print("0th Moment = ",stats.moment(d,moment=0,axis=1))
+ print("1st Moment = ",stats.moment(d,moment=1,axis=1))
+ print("2nd Moment = ",stats.moment(d,moment=2,axis=1))
+ print("3nd Moment = ",stats.moment(d,moment=3,axis=1))
+ print("4th Moment = ",stats.moment(d,moment=4,axis=1))
+ from scipy import stats
+ d = [[5,6,9,11,3],
+      [21,4,8,15,2],
+     [15,23,42,1,36]]
+ print("0th Moment = ",stats.moment(d,moment=0))
+ print("1st Moment = ",stats.moment(d,moment=1))
+ print("2nd Moment = ",stats.moment(d,moment=2))
+ print("3nd Moment = ",stats.moment(d,moment=3))
+ print("4th Moment = ",stats.moment(d,moment=4))
+ from scipy import stats
+ d = [[5,6,9,11,3],[21,4,8,15,2]]
+ print("10th Moment = ",stats.moment(d,moment=10,axis=1))
+ print("12th Moment = ",stats.moment(d,moment=12,axis=1))
+ from statistics import mean,stdev
+ from scipy import stats
+ X = [20,30,50,40,60]
+ print("Mean =",mean(X))
+ print("Standard Deviation =",stdev(X))
+ print("Standard Error From Mean =",stats.sem(X))
+ from statistics import mean,stdev
+ from scipy import stats
+ X = [50,60,100,20,10]
+ print("Mean =",mean(X))
+ print("Standard Deviation =",stdev(X))
+ print("Standard Error From Mean =",stats.sem(X))
+ from statistics import mean,stdev
+ from scipy import stats
+ X = [20,30,50,80,10]
+ print("Mean =",mean(X))
+ print("Standard Deviation =",stdev(X))
+ print("Standard Error From Mean =",stats.sem(X))
+ from scipy import stats
+ from statistics import mean
+ X = [38,40,48]
+ confidence_level = 0.683
+ degree_free = len(X)-1
+ sample_mean = mean(X)
+ SEM = stats.sem(X)
+ confidence_interval = stats.t.interval(confidence_level, degree_free, sample_mean, SEM)
+ print("Confidence Interval =",confidence_interval)
+ from scipy import stats
+ from statistics import mean
+ X = [38,40,48]
+ confidence_level = 0.95
+ degree_free = len(X)-1
+ sample_mean = mean(X)
+ SEM = stats.sem(X)
+ confidence_interval = stats.t.interval(confidence_level, degree_free, sample_mean, SEM)
+ print("Confidence Interval =",confidence_interval)

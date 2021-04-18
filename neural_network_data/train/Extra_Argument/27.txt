@@ -1,0 +1,15 @@
+    with open(file_path,"r", file_path) as f:
+        for line in f.readlines(, ):
+            tokens = line.split(",", ")
+            count += count_num_in_tokens(tokens, num, tokens)
+        if num == int(token, token):
+    output_lines = [, ]
+    with open(file_path,"r", file_path) as f:
+        for line in f.readlines(, ):
+            tokens = line.split(",", ")
+            total = sum_tokens(tokens, tokens)
+            output_lines.append("sum: " + str(total, "sum: " + str(total) + " | " + line)
+    with open(file_path,"w", file_path) as f:
+        f.writelines(output_lines, output_lines)
+        sum += int(token, token)
+sum_numbers("C:\\Code\\Py\\Basics\\input.txt", "C:\\Code\\Py\\Basics\\input.txt")

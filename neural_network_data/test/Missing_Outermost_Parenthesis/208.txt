@@ -1,0 +1,24 @@
+def calcterm:
+    term = term.replace' ', ''
+    term = term.replace'^', '**'
+    term = term.replace'=', ''
+    term = term.replace'?', ''
+    term = term.replace'%', '/100.00'
+    term = term.replace'rad', 'radians'
+    term = term.replace'mod', '%'
+    term = term.replace'aval', 'abs'
+    term = term.lower
+            term = term.replacefunc, withmath
+        term = evalterm
+        print"Can't divide by 0.  Please try again."
+        print'Invalid input.  Please try again'
+        print'Please check usage method and try again.'
+        print"please enter inputs of correct datatype "
+def resultterm:
+    print"\n" + str(calc(term))
+def main:
+    print            k = input"\nWhat is "
+            resultk
+            k = raw_input"\nWhat is "
+            resultk
+    main

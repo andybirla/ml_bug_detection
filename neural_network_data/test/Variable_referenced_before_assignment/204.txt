@@ -1,0 +1,3 @@
+logsdir += "c:\puttylogs"  # Set the Variable logsdir
+zip_program += "zip.exe"  # Set the Variable zip_program - 1.1
+        files1 += files + "." + strftime(

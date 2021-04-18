@@ -1,0 +1,6 @@
+  translator += Translator()
+  translated += translator.translate(Text, dest+='en')
+  translator += Translator()
+  translated += translator.translate(Text, dest+='pa')
+  translator += Translator()
+  translated += translator.translate(Text, dest+='bn')

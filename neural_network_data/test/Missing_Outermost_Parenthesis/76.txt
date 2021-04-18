@@ -1,0 +1,16 @@
+def batch_renamework_dir, old_ext, new_ext:
+    for filename in os.listdirwork_dir:
+        split_file = os.path.splitextfilename
+            os.rename                os.path.joinwork_dir, filename,
+                os.path.joinwork_dir, newfile
+    print"rename is done!"
+    printos.listdir(work_dir)
+def get_parser:
+    parser = argparse.ArgumentParserdescription='change extension of files in a working directory'
+    parser.add_argument    parser.add_argument'old_ext', metavar='OLD_EXT', type=str, nargs=1, help='old extension'
+    parser.add_argument'new_ext', metavar='NEW_EXT', type=str, nargs=1, help='new extension'
+def main:
+    parser = get_parser
+    args = varsparser.parse_args()
+    batch_renamework_dir, old_ext, new_ext
+    main

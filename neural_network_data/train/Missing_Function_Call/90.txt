@@ -1,0 +1,4 @@
+("area of football field:",area) # Ans: 4489.599999999999
+("Cash back:",cash_back) # Ans: 6.59
+("total cost for bathroom tiles replacement:",cost) # Ans: 15125.0
+('Binary of number 17 is:',format(num,'b')) # Ans: 10001

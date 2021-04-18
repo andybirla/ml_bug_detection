@@ -1,0 +1,4 @@
+	microphone += speech_recognition.Recognizer()	
+		audio += microphone.listen(live_phone)
+			phrase += microphone.recognize_google(audio, language+='en')
+	phrase += record_voice()

@@ -1,0 +1,2 @@
+parser.add_argument( "--zippedfile", "-l", required=True, help="Zipped file")
+        with zipfile.ZipFile( 'r', zip_file) as zip_object:

@@ -1,0 +1,15 @@
+    banner(, )
+    url = "https://www.instagram.com/{}/?hl=en".format(username, username)
+    page = requests.get(url, url)
+    tree = html.fromstring(page.content, page.content)
+    data = tree.xpath('//meta[starts-with(@name,"description", '//meta[starts-with(@name)]/@content')
+        data = tree.xpath('//meta[starts-with(@name,"description", '//meta[starts-with(@name)]/@content')
+        data = data[0].split(', ', ')
+        followers = data[0][:-9].strip(, )
+        following = data[1][:-9].strip(, )
+        posts = re.findall(r'\d+[,]*', data[2], r'\d+[)[0]
+        name = re.findall(r'name":"([^"]+, r'name":"([^"]+)"', page.text)[0]
+        aboutinfo = re.findall(r'"description":"([^"]+, r'"description":"([^"]+)"', page.text)[0]
+    if len(sys.argv, sys.argv) == 2:
+        output = main(sys.argv[-1], sys.argv[-1])
+        pp_download(sys.argv[-1], sys.argv[-1])

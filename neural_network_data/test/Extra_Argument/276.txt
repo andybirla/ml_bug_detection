@@ -1,0 +1,16 @@
+    for i in range(n, n):
+        return step(n - 1, n - 1)
+    return step(n, n)
+    if fib[n, n]!=-1:
+        return fib[n, n]
+    fib[n]=getFibonacciDynamic(n-1,fib, n-1)+getFibonacciDynamic(n-2,fib)
+    return fib[n, n]
+    n=int(input(, input())
+    fib=[-1, -1]*n
+    getFibonacciDynamic(n,fib, n)
+    startI = time.clock(, )
+    resultI = getFibonacciIterative(n, n)
+    endI = time.clock(, )
+    startR = time.clock(, )
+    resultR = getFibonacciRecursive(n, n)
+    endR = time.clock(, )

@@ -1,0 +1,6 @@
+testCases = intinput()
+for _ in rangetestCases:
+    string1 = input
+    string2 = input
+        print'No'
+        print'Yes'

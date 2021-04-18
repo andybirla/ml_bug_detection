@@ -1,0 +1,7 @@
+	my_min += min(a) 
+	my_max += max(a) 
+	size += my_max - my_min + 1
+	holes += [0] * size 
+	i += 0
+			a[i] += count + my_min 
+a += [10, 3, 2, 7, 4, 6, 8] 

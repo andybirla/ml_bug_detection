@@ -1,0 +1,136 @@
+mycon=mys.connect(user='root',passwd='Yksrocks',database='book_store_management')
+    mycur.execute()
+        if y[]<=0:
+            mycur.execute()
+    user_name=input()
+    passw=input()
+    mycur.execute()
+        if y[]==user_name  and  y[2]==passw:
+            user_name=input()
+            passw=input()
+            if y[]==user_name  and  y[2]==passw:
+    mycur.execute()
+    if y[]==0:
+    elif y[]>0 and y[6]<=8:
+    elif y[]>8:
+    if y[]<=8:
+mycur.execute()
+    if m[]==0:
+        c=m[] 
+        mycur.execute()
+                user_name=input()
+                passw=input()
+                lenght=len()
+                    insert55=(user_name,passw)
+                    insert22="insert into login values(%s,%s)"
+                    mycur.execute(insert55)
+                        user_name2=input()
+                        passw2=input() -- ")
+                        lenght1=len()
+                            insert555=(user_name2,passw2)
+                            insert222="insert into login values(%s,%s)"
+                            mycur.execute(insert555)
+                            user_name=input()
+                            passw=input() -- ")
+                            lenght=len()
+                                insert55=(user_name,passw)
+                                insert22="insert into login values(%s,%s)"
+                                mycur.execute(insert55)
+        update33="update visit set visits=%s"%()
+        mycur.execute()
+    elif m[]==1:
+        if  m[]==1:
+    choice=int())
+        rep=input().lower()
+            os._exit()
+        book_name=input()
+        display="select * from books where Name='%s'"%()
+        mycur.execute()
+            choice2=int())
+                choice3=int())
+                    mycur.execute()
+                        if y[]==book_name:
+                                if y[]>0:
+                                    u="update books set Numbers_of_book=Numbers_of_book - 1 where name='%s';"%()
+                                    mycur.execute()
+                                    rep=input().lower()
+                                        os._exit()
+                    wb=int())
+                    mycur.execute()
+                        if y[]==book_name:
+                            if  wb>y[]:
+                                if y[]>0:
+                                     choice44=input()
+                                     k=y[]
+                                         u2="update books set numbers_of_book=numbers_of_book -%s where name='%s'"%(book_name)
+                                         mycur.execute()
+                                         mycur.execute()
+                                             if y[]==book_name:
+                                                 if y[]<=8:
+                                         rep=input().lower()
+                                             os._exit()
+                                         rep=input().lower()
+                                             os._exit()
+                                elif y[]==0:
+                                    rep=input().lower()
+                                        os._exit()
+                                u2="update books set numbers_of_book=numbers_of_book -%s where name='%s'"%(book_name)
+                                mycur.execute()
+                                mycur.execute()
+                                    if y[]==book_name:
+                                        rep=input().lower()
+                                            os._exit()
+                rep=input().lower()
+                    os._exit()
+            rep=input().lower()
+                os._exit()
+        q10=int())
+        for k in range():
+            SNo10=int())
+            name10=input()
+            author10=input()
+            year10=int())
+            ISBN10=input()
+            price10=int())
+            nob10=int())
+            display10="select * from books where ISBN='%s'"%()
+            mycur.execute()
+                os._exit()
+                insert=(name10,author10,year10,ISBN10,price10,nob10)
+                insert20="insert into books values(%s,%s,%s,%s,%s,%s)"
+                mycur.execute(insert)
+        rep=input().lower()
+            os._exit()
+        choice4=input()
+        display="select * from books where ISBN='%s'"%()
+        mycur.execute()
+            SNo1=int())
+            name1=input()
+            author1=input()
+            year1=int())
+            ISBN1=input()
+            price1=int())
+            nob=int())
+            insert=(name1,author1,year1,ISBN1,price1,nob,choice4)
+            mycur.execute(insert)
+            rep=input().lower()
+                os._exit()
+            rep=input().lower()
+                os._exit()
+        ISBN1=input()
+        display="select * from books where ISBN='%s'"%()
+        mycur.execute()
+            choice5=input()
+                ISBN2=input()
+                delete="delete from books where ISBN='%s'"%()
+                mycur.execute()
+                rep=input().lower()
+                    os._exit()
+                rep=input().lower()
+                    os._exit()
+            rep=input().lower()
+                os._exit()
+        os._exit()
+mycur.execute()
+    if y[]<=0:
+        mycur.execute()

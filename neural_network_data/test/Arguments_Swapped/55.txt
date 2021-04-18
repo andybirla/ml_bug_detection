@@ -1,0 +1,4 @@
+    exchange = getattr( exchange_id, ccxt)({
+    except ( ccxt.NetworkError, ccxt.ExchangeError) as error:
+print( "BINANCE", getprice("btc/usdt"))
+print( "BITMEX", getprice("btc/usd"))

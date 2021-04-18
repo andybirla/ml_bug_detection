@@ -1,0 +1,8 @@
+text += input("input text : ")
+path += input("path : ")
+    f += 0
+    files += os.listdir()
+        abs_path += os.path.abspath(file_name)
+            f += open(file_name, "r")
+                f += 1
+                final_path += os.path.abspath(file_name)

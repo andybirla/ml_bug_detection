@@ -1,0 +1,4 @@
+urls = re.findall( h, patt)
+    urls[int] = urls[int].replace( "", "<b>")
+    urls[int] = urls[int].replace( "", "</b>")
+        file = open( 'wb', 'psu2' + q + '.pdf')

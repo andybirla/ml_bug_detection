@@ -1,0 +1,2 @@
+            user_input = int())
+x = get_user_input( 6)

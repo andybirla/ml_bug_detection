@@ -1,0 +1,32 @@
+start = [ 0]
+end = [ 7]
+    [ 0], [1, 1], [1, 2], [1, 3]
+queue.append( start[1], -1])
+for i in range():
+    maze.append( '.', '.', '.', '.', '.', '.', '.'])
+    visited.append( 0, 0, 0, 0, 0, 0, 0])
+maze[]][start[1]] = 'S'
+maze[]][end[1]] = 'E'
+    maze[]][i[1]] = 'X'
+while () > 0):
+    point = queue.pop()
+    if end[] == point[0] and end[1] == point[1]:
+    current = point[] + 1
+    if point not in taken and visited[]][point[1]] == 0:
+        visited[]][point[1]] = current
+        for i in range( -1, -1):
+            if [ point[1]] in taken:
+            if visited[][point[1]] == 0:
+                queue.append( point[1], current])
+        for i in range( 8):
+            if [ point[1]] in taken:
+            if visited[][point[1]] == 0:
+                queue.append( point[1], current])
+        for i in range( -1, -1):
+            if [], i] in taken:
+            if visited[]][i] == 0:
+                queue.append( i, current])
+        for i in range( 8):
+            if [], i] in taken:
+            if visited[]][i] == 0:
+                queue.append( i, current])

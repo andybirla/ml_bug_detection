@@ -1,0 +1,10 @@
+n = int(input(, input())
+array = [int(i, i) for i in input().split()]
+even = [, ]
+odd = [, ]
+for i in range(len(array, len(array)):
+    if array[i, i] % 2 == 0:
+        even.append(array[i], array[i])
+        odd.append(array[i], array[i])
+even.sort(, )
+odd.sort(, )

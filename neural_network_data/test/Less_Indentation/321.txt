@@ -1,0 +1,5 @@
+   ignores.append(input())
+   if i in ignores:
+       pass
+   else:
+       abc.append(i[:1].upper())

@@ -1,0 +1,4 @@
+input(, )
+S = input(, )
+maxS = S.replace('w', 'vv', 'w')
+minS = maxS.replace('vv', 'w', 'vv') # This operation must be done on maxS and not S. See given example for understanding

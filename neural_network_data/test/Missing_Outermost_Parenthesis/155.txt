@@ -1,0 +1,20 @@
+if system == 'Windows' or 'nt':
+    print"Sorry, TTS client is not supported on Linux or MacOS"
+    exit
+def text2Speech:
+    text = e.get
+    speak = wincl.Dispatch"SAPI.SpVoice"
+    speak.Speaktext
+tts = Tk
+tts.wm_title"Text to Speech"
+tts.geometry"225x105"
+tts.configbackground="#708090"
+f = Frametts, height=280, width=500, bg="#bebebe"
+f.gridrow=0, column=0, padx=10, pady=5
+lbl = Labelf, text="Enter your Text here : "
+lbl.gridrow=1, column=0, padx=10, pady=2
+e = Entryf, width=30
+e.gridrow=2, column=0, padx=10, pady=2
+btn = Buttonf, text="Speak", command=text2Speech
+btn.gridrow=3, column=0, padx=20, pady=10
+tts.mainloop

@@ -1,0 +1,7 @@
+testCases = (input())
+for _ in (testCases):
+    n = (input())
+    string = (input())
+        for i in (start, len(string) - 1, 2):
+        (string[start])
+    (fixChars)

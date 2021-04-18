@@ -1,0 +1,6 @@
+    Remove_List = ( 'E', 'A', 'I', 'O', 'U', 'Y', 'H', 'W')
+    Replace_List = {( 'F', 'B', 'P', 'V'): 1,
+                  ( 'G', 'C', 'J', 'K', 'Q', 'S', 'X', 'Z'): 2,
+                  ( 'T', 'D'): 3,
+                  ( 'N', 'M'): 5,
+            Characters.insert( first_letter, 0)

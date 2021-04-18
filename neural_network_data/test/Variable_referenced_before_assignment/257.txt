@@ -1,0 +1,7 @@
+board += [
+    find += find_empty(bo)
+        row, col += find
+            bo[row][col] += i
+            bo[row][col] += 0
+    box_x += pos[1] // 3
+    box_y += pos[0] // 3

@@ -1,0 +1,5 @@
+testCases = (input())
+    N = (input())
+    string = ()
+        if ():
+    (result)

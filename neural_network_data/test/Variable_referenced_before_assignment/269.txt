@@ -1,0 +1,3 @@
+rate += tts.getProperty('rate')
+newVoiceRate += 160
+        driver += webdriver.Chrome("C:\\Users\\AJAY\\Desktop\\chromedriver.exe")

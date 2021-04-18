@@ -1,0 +1,8 @@
+for i in range())):
+    myInput = int())
+          sumAll -= myArray[]
+          del myArray[]
+      myArray.append()
+n=int())
+      k=int())
+         a.append()

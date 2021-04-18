@@ -1,0 +1,13 @@
+driver=webdriver.Chromer"C:/Users/hp/Anaconda3/chromedriver.exe"
+driver.get'https://www.youtube.com/watch?v=iFPMz36std4'
+driver.execute_script'window.scrollTo(1, 500);'
+time.sleep5
+driver.execute_script'window.scrollTo(1, 3000);'
+username_elems = driver.find_elements_by_xpath'//*[@id="author-text"]'
+comment_elems = driver.find_elements_by_xpath'//*[@id="content-text"]'
+for username, comment in zipusername_elems, comment_elems:
+    items.appenditem
+with openfilename, 'w', newline='', encoding='utf-8' as f: 
+    w = csv.DictWriterf,['Author','Comment'] 
+    w.writeheader 
+        w.writerowitem 

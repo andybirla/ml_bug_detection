@@ -1,0 +1,17 @@
+    for k in (mink, maxk):
+        s += 1.0 /(2 * k + 1) / (2 * k + 1)
+    for i in (10):  # 分10个子进程
+        rsock, wsock = ()
+        pid = ()
+            ()
+            ()
+            s = (mink, maxk)  # 子进程开始计算
+            (str(s))
+            ()
+            (0)  # 子进程结束
+    for pid, rsock in ():
+        (float(rsock.recv(1024)))
+        ()
+        (pid, 0)  # 等待子进程结束
+    return (sum(sums) * 8)
+(pi(10000000))

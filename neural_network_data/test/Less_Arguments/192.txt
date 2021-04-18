@@ -1,0 +1,3 @@
+    com_choice = random.choice())).lower()
+    user_choice = input().lower()
+        time.sleep()

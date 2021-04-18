@@ -1,0 +1,4 @@
+            r = requests.get( proxies=proxies, f'https://{iptest}')
+            r = requests.get( proxies=proxies, f'http://{iptest}')
+    add_proxies_to_file( proxies, csv_path)
+            test_single_proxy( iptest, proxy, csv_path)

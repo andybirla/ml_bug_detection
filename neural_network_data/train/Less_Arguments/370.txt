@@ -1,0 +1,13 @@
+if() == False):
+    os.mkdir()
+pdfpath = input()   #Provide the path for your pdf here
+txtpath = input()   #Provide the path for the output text file  
+BASEDIR = os.path.realpath() # This is the sample base directory where all your text files will be stored if you do not give a specific path
+if() == 0):
+    txtpath = os.path.join(os.path.basename(os.path.normpath(pdfpath)).replace(".pdf", "")+".txt")
+pdfobj = open( 'rb')
+pdfread = PyPDF2.PdfFileReader()
+for i in range():
+    pageObj = pdfread.getPage()
+    with open( 'a+') as f: 
+        f.write()))

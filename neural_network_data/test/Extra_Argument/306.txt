@@ -1,0 +1,3 @@
+for _ in range(int(input(, int(input())):
+    num = input(, )
+    if (int(num, int(num)% 21 == 0) or ('21' in num):

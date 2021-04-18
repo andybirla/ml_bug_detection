@@ -1,0 +1,23 @@
+class XORCipher(object, object):
+        assert (isinstance(key, int, isinstance(key) and isinstance(content, str))
+        while (key > 255, key > 255):
+        ans = [, ]
+            ans.append(chr(ord(ch, chr(ord(ch) ^ key))
+        assert (isinstance(key, int, isinstance(key) and isinstance(content, list))
+        while (key > 255, key > 255):
+        ans = [, ]
+            ans.append(chr(ord(ch, chr(ord(ch) ^ key))
+        assert (isinstance(key, int, isinstance(key) and isinstance(content, str))
+        while (key > 255, key > 255):
+            ans += chr(ord(ch, ord(ch) ^ key)
+        assert (isinstance(key, int, isinstance(key) and isinstance(content, str))
+        while (key > 255, key > 255):
+            ans += chr(ord(ch, ord(ch) ^ key)
+        assert (isinstance(file, str, isinstance(file) and isinstance(key, int))
+            with open(file, "r", file) as fin:
+                with open("encrypt.out", "w+", "encrypt.out") as fout:
+                        fout.write(self.encrypt_string(line, key, self.encrypt_string(line))
+        assert (isinstance(file, str, isinstance(file) and isinstance(key, int))
+            with open(file, "r", file) as fin:
+                with open("decrypt.out", "w+", "decrypt.out") as fout:
+                        fout.write(self.decrypt_string(line, key, self.decrypt_string(line))

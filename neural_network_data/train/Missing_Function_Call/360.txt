@@ -1,0 +1,33 @@
+class (Thread):
+        if not (background, Background): raise TypeError(
+        if not (gameover_function): raise TypeError("The gameover_method argument must be a callable object.")
+        self.decends = (self.decends + 0.5)
+        self.climbsUp = (self.climbsUp + 0.5)
+        (self)
+        self.width =(self.__width // 100) * 6
+        self.height =(self.__height // 100) * 11
+        (image_path=self.image_path, width=self.width, height=self.height, closeAfter=True)[0]
+        ()
+        (event, self.jumps)
+        position = (self.__canvas.bbox(self.__tag))
+        position[0] += (25 / 78 * self.width)
+        position[1] += (25 / 77 * self.height)
+        position[2] -= (20 / 78 * self.width)
+        position[3] -= (10 / 77 * self.width)
+        ignored_collisions = ()
+        (self.__birdID)
+        possible_collisions = (self.__canvas.find_overlapping(*position))
+                (_id)
+        if (possible_collisions) >= 1:
+            image = (image_path)
+        newImage = ([width, height])
+        photoImage = (newImage)
+            ()
+            ()
+        ()
+            (self.__tag, 0, -1)
+            (3, self.jumps)
+        ()
+                (self.__tag, 0, self.__going_down)
+            (self.__descend_speed, self.run)
+            ()

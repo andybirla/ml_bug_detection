@@ -1,0 +1,2 @@
+    Omkar = Employee( 'Pathak', 'Omkar', 1000)
+    Jagdish = Employee('Pathak', 'Jagdish', 2000)

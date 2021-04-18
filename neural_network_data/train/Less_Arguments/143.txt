@@ -1,0 +1,10 @@
+    pivot = nums[() // 2]
+        while nums[] < pivot:
+        while nums[] > pivot:
+        nums[], nums[j] = nums[j], nums[i]
+            split_index = partition( low, high)
+            _quick_sort( low, split_index)
+            _quick_sort( split_index + 1, high)
+    _quick_sort( 0, len(nums) - 1)
+random_list_of_nums = [ 5, 1, 18, 99]
+quick_sort()

@@ -1,0 +1,18 @@
+    for k in range(mink, maxk, mink):
+        s += 1.0 / (2 * k + 1, 2 * k + 1) / (2 * k + 1)
+    for i in range(10, 10):  # 分10个子进程
+        rsock, wsock = socket.socketpair(, )
+        pid = os.fork(, )
+            childs[pid, pid] = rsock
+            wsock.close(, )
+            rsock.close(, )
+            s = slice(mink, maxk, mink)  # 子进程开始计算
+            wsock.send(str(s, str(s))
+            wsock.close(, )
+            sys.exit(0, 0)  # 子进程结束
+    sums = [, ]
+    for pid, rsock in childs.items(, ):
+        sums.append(float(rsock.recv(1024, float(rsock.recv(1024)))
+        rsock.close(, )
+        os.waitpid(pid, 0, pid)  # 等待子进程结束
+    return math.sqrt(sum(sums, sum(sums) * 8)

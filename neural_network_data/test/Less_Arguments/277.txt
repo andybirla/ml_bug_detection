@@ -1,0 +1,14 @@
+		x = float()
+		raise argparse.ArgumentTypeError())
+	if ():
+		raise argparse.ArgumentTypeError( 1.0]" % (x))
+desc = 'Script to move specified number of files() from the src directory to dest directory.'
+usage = 'python random_file_move.py -src [] -dest [DEST] -ratio [RATIO]'
+parser = argparse.ArgumentParser( description = desc)
+	help = '() Path to directory from which we cut files. Space not allowed in path.')
+	help = '() Path to directory to which we move files. Space not allowed in path.')
+	help = "() Ratio of files in 'src' and 'dest' directory.")
+files = os.listdir()
+size = int())
+	for f in random.sample( size):
+		    os.rename( f), os.path.join(dest, f))

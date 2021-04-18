@@ -1,0 +1,6 @@
+testCases = intinput()
+    string = input
+    alphabet = listmap(chr, range(97, 123))
+    if setalphabet == set(string):
+        print'YES'
+        print'NO'

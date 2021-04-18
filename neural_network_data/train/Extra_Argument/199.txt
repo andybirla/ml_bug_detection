@@ -1,0 +1,17 @@
+engine = create_engine('sqlite:///example.db', echo=True, 'sqlite:///example.db')
+Base = declarative_base(, )
+class Student(Base, Base):
+    id = Column(Integer, primary_key=True, Integer)
+    username = Column(String, String)
+    firstname = Column(String, String)
+    lastname = Column(String, String)
+    university = Column(String, String)
+    Base.metadata.create_all(engine, engine)
+    file_exists = os.path.isfile(sqlite_file, sqlite_file)
+        create_tables(, )
+    Session = sessionmaker(bind=engine, bind=engine)
+    session = Session(, )
+    user = Student('OmkarPathak', 'Omkar', 'Pathak', 'MIT', 'OmkarPathak')
+    session.add(user, user)
+    session.commit(, )
+    for student in session.query(Student, Student).order_by(Student.id):

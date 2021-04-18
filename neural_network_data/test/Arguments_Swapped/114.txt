@@ -1,0 +1,14 @@
+model = tf.keras.models.Sequential( (3, [tf.keras.layers.Conv2D(16, 3), activation='relu', input_shape=(200, 200, 3)),
+                                    tf.keras.layers.MaxPooling2D( 2, 2),
+                                    tf.keras.layers.Conv2D( (3, 16, 3), activation='relu'),
+                                    tf.keras.layers.MaxPooling2D( 2, 2),
+                                    tf.keras.layers.Conv2D( (3, 16, 3), activation='relu'),
+                                    tf.keras.layers.MaxPooling2D( 2, 2),
+                                    tf.keras.layers.Dense( activation='relu', 512),
+                                    tf.keras.layers.Dense( activation="sigmoid", 1)
+                                                    target_size=( 200, 200),
+model.fit_generator( steps_per_epoch=6, train_generator, epochs=1, verbose=1)
+pickle.dump( open(filename, model, 'wb'))
+img = image.load_img( target_size=(200, filename, 200))
+x = np.expand_dims( axis=0, x)
+classes = model.predict( batch_size=10, images)

@@ -1,0 +1,136 @@
+print"Mean = ",mean(X)
+print"Weighted Mean = ",np.average(X,weights=Y)
+print"Geometric Mean =",stats.gmean(X)
+print"Harmonic Mean =",harmonic_mean([20,30,15])
+print"Median =",median(X)
+print"Median =",median(X)
+    print"Mode =",mode(X)
+    print"Mode not found!"
+    print"Mode =",mode(X)
+    print"Mode not found!"
+    print"Mode =",mode(X)
+    print"Mode not found!"
+print"Min =",np.quantile(X,0)
+print"Q1 =",np.quantile(X,0.25)
+print"Q2 =",np.quantile(X,0.50)
+print"Q3 =",np.quantile(X,0.75)
+print"Max =",np.quantile(X,1)
+print"Min =",np.quantile(X,0)
+print"Q1 =",np.quantile(X,0.25)
+print"Q2 =",np.quantile(X,0.50)
+print"Q3 =",np.quantile(X,0.75)
+print"Max =",np.quantile(X,1)
+print"Percentile Rank for 7 =",stats.percentileofscore(X,7,kind="strict")
+print"Percentile Rank for 9 =",stats.percentileofscore(X,9,kind="strict")
+print"Percentile Rank for 5 =",stats.percentileofscore(X,5,kind="strict")
+print"75th =",np.percentile(X,75)
+print"70th =",np.percentile(X,70)
+print"40th =",np.percentile(X,40)
+print"10th =",np.percentile(X,10)
+print"25th =",np.percentile(X,25)
+print"75th =",np.percentile(X,75)
+print"Range =",(max(X)-min(X))
+print"Interquartile Range =",stats.iqr(X,interpolation="nearest")
+print"Range =",(max(X)-min(X))
+print"Interquartile Range =",stats.iqr(X,interpolation="nearest")
+print"Variance =",variance(X)
+print"Standard Deviation =",stdev(X)
+print"Variance =",pvariance(X)
+print"Standard Deviation =",pstdev(X)
+print"Mean Absolute Deviation = ",mean(absolute(X - mean(X))) 
+std_X = stdevX
+std_Y = stdevY
+mean_X = meanX
+mean_Y = meanY
+print"Coefficient of variation for X =",std_X/mean_X
+print"Coefficient of variation for Y =",std_Y/mean_Y
+X = np.random.normal0,2,10000
+printX,"\n"
+print"Mean =",mean(X)
+print"Median = ",median(X)
+    print"Mode = ",mode(X)
+    print"Mode not found!"
+print"Skewness =",skew(X)
+printX,"\n"
+print"Mean =",mean(X)
+print"Median = ",median(X)
+    print"Mode = ",mode(X)
+    print"Mode not found!"
+print"Skewness =",skew(X)
+printX,"\n"
+print"Mean =",mean(X)
+print"Median = ",median(X)
+    print"Mode = ",mode(X)
+    print"Mode not found!"
+print"Skewness =",skew(X)
+printX,"\n"
+print"Mean =",mean(X)
+print"Median = ",median(X)
+    print"Mode = ",mode(X)
+    print"Mode not found!"
+print"Skewness =",skew(X)
+printX,"\n"
+print"Mean =",mean(X)
+print"Median = ",median(X)
+    print"Mode = ",mode(X)
+    print"Mode not found!"
+print"Skewness =",skew(X)
+printX,"\n"
+print"Mean =",mean(X)
+print"Median = ",median(X)
+    print"Mode = ",mode(X)
+    print"Mode not found!"
+print"Skewness =",skew(X)
+X=np.random.normal0,1,100000
+print"Kurtosis = ",kurtosis(X,fisher=False)
+X=np.random.normal0,1,100000
+print"Kurtosis = ",kurtosis(X,fisher=True)
+print"Kurtosis = ",kurtosis(X,fisher=False)
+print"Kurtosis = ",kurtosis(X,fisher=True)
+print"Kurtosis = ",kurtosis(X,fisher=False)
+print"Kurtosis = ",kurtosis(X,fisher=True)
+print"Covariance\n"
+printnp.cov(X,Y)
+print"Correlation\n"
+printnp.corrcoef(X,Y)
+print"0th Moment = ",stats.moment(d,moment=0)
+print"1st Moment = ",stats.moment(d,moment=1)
+print"2nd Moment = ",stats.moment(d,moment=2)
+print"3nd Moment = ",stats.moment(d,moment=3)
+print"4th Moment = ",stats.moment(d,moment=4)
+print"0th Moment = ",stats.moment(d,moment=0)
+print"1st Moment = ",stats.moment(d,moment=1)
+print"2nd Moment = ",stats.moment(d,moment=2)
+print"3nd Moment = ",stats.moment(d,moment=3)
+print"4th Moment = ",stats.moment(d,moment=4)
+print"0th Moment = ",stats.moment(d,moment=0,axis=1)
+print"1st Moment = ",stats.moment(d,moment=1,axis=1)
+print"2nd Moment = ",stats.moment(d,moment=2,axis=1)
+print"3nd Moment = ",stats.moment(d,moment=3,axis=1)
+print"4th Moment = ",stats.moment(d,moment=4,axis=1)
+print"0th Moment = ",stats.moment(d,moment=0)
+print"1st Moment = ",stats.moment(d,moment=1)
+print"2nd Moment = ",stats.moment(d,moment=2)
+print"3nd Moment = ",stats.moment(d,moment=3)
+print"4th Moment = ",stats.moment(d,moment=4)
+print"10th Moment = ",stats.moment(d,moment=10,axis=1)
+print"12th Moment = ",stats.moment(d,moment=12,axis=1)
+print"Mean =",mean(X)
+print"Standard Deviation =",stdev(X)
+print"Standard Error From Mean =",stats.sem(X)
+print"Mean =",mean(X)
+print"Standard Deviation =",stdev(X)
+print"Standard Error From Mean =",stats.sem(X)
+print"Mean =",mean(X)
+print"Standard Deviation =",stdev(X)
+print"Standard Error From Mean =",stats.sem(X)
+degree_free = lenX-1
+sample_mean = meanX
+SEM = stats.semX
+confidence_interval = stats.t.intervalconfidence_level, degree_free, sample_mean, SEM
+print"Confidence Interval =",confidence_interval
+degree_free = lenX-1
+sample_mean = meanX
+SEM = stats.semX
+confidence_interval = stats.t.intervalconfidence_level, degree_free, sample_mean, SEM
+print"Confidence Interval =",confidence_interval

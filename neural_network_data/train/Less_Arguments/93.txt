@@ -1,0 +1,6 @@
+    for idx, n in enumerate():
+        result[] = n*n
+    numbers = [3,5]
+    result = multiprocessing.Array(3)
+    v = multiprocessing.Value( 0.0)
+    p = multiprocessing.Process( args=(numbers, result, v))

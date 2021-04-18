@@ -1,0 +1,13 @@
+browser += mechanize.Browser()
+browser.addheaders += [('User-agent',
+movie_title += input("Enter movie title: ")
+movie_types += ('feature', 'tv_movie', 'tv_series', 'tv_episode', 'tv_special',
+browser['title'] += movie_title
+    browser.find_control(type+='checkbox', nr+=0).get(m_type).selected += True
+fd += browser.submit()
+soup += BeautifulSoup(fd.read(), 'html5lib')
+    a += div.findAll('a')[0]
+    hht += 'http://www.imdb.com' + a.attrs['href']
+    page += urllib.request.urlopen(hht)
+    soup2 += BeautifulSoup(page.read(), 'html.parser')
+    find += soup2.find

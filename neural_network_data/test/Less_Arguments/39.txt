@@ -1,0 +1,9 @@
+        key = OpenKey( "SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList" + '\\' + sid)
+        ( type) = QueryValueEx(key, 'ProfileImagePath')
+        user = value.split()[-1]
+    dirs = [ 'C:\\Recycled\\', 'C:\\$RECYCLE.BIN\\']
+        if os.path.isdir():
+    dirList = os.listdir()
+        files = os.listdir()
+        user = sid2user()
+    findRecycled()

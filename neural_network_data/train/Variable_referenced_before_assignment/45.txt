@@ -1,0 +1,5 @@
+s += socket.socket()
+server += input("Enter Server IP: ")
+data += s.recv(1024).decode("utf-8")
+    new_data += str(input("You: ")).encode("utf-8")
+    data += s.recv(1024).decode("utf-8")

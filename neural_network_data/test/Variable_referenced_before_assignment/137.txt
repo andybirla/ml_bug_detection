@@ -1,0 +1,3 @@
+    question += input("Do you want to open a website? (Y/N): ")
+        search += input("Input website to open (http://website.com) : ")
+browser += webdriver.Firefox()

@@ -1,0 +1,9 @@
+	my_min = min() 
+	my_max = max() 
+	holes = [] * size 
+		holes[] += 1
+	for count in range(): 
+		while holes[] > 0: 
+			holes[] -= 1
+			a[] = count + my_min 
+a = [ 3, 2, 7, 4, 6, 8] 

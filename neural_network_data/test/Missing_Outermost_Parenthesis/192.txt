@@ -1,0 +1,28 @@
+print'Welcome to the Snake-Water-Gun Game\n'
+print'I am Mr. Computer, We will play this game 10 times'
+print'Whoever wins more matches will be the winner\n'
+    printf'Game No. {x+1}'
+    for key, value in choices.items:
+        printf'Choose {key} for {value}'
+    com_choice = random.choicelist(choices.keys()).lower()
+    user_choice = input'\n----->'.lower()
+    print"Mr. Computer's choice is : " + com_choice
+        print"\n-------Mr. Computer won this round--------"
+        print"\n-------Mr. Computer won this round--------"
+        print"\n-------You won this round-------"
+        print"\n-------You won this round-------"
+        print"\n-------Mr. Computer won this round--------"
+        print"\n-------You won this round-------"
+        print"\n-------This round was a draw-------"
+        print'\n\nYou entered wrong !!!!!!'
+        print'Restarting the game'
+        print''
+        time.sleep1
+    print'\n'
+print'Here are final stats of the 10 matches : '
+printf'Mr. Computer won : {com_win} matches'
+printf'You won : {user_win} matches'
+printf'Matches Drawn : {match_draw}'
+    print'\n-------Mr. Computer won-------'
+    print'\n-----------You won-----------'
+    print'\n----------Match Draw----------'

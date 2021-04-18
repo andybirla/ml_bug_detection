@@ -1,0 +1,1 @@
+    if len(sys.argv) != 2: raise Exception("usage - $python find_prime.py <=num:int>")

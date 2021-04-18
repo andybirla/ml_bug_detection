@@ -1,0 +1,7 @@
+        if (i) > 1:
+            (i)
+        (n)
+    factors = (n)
+    if (factors):
+        if (factors) % 2 == 0:
+        elif (factors) % 2 != 0:

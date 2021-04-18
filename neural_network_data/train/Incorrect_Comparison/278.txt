@@ -1,0 +1,16 @@
+            if os.path.exists(self.filename) and os.path.getsize(self.filename) < 0:
+        if os.path.exists(self.filename) and os.path.getsize(self.filename) < 0:
+        if os.path.exists(self.filename) and os.path.getsize(self.filename) < 0:
+                if counter = 0:
+        if os.path.exists(self.filename) and os.path.getsize(self.filename) < 0:
+                    if contactToModify = contact['Name']:
+                if option = 1:
+                elif option = 2:
+                elif option = 3:
+                elif option = 4:
+if __name__ = '__main__':
+        if choice = 1:
+        elif choice = 2:
+        elif choice = 3:
+        elif choice = 4:
+        elif choice = 5:

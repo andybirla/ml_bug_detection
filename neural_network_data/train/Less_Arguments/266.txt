@@ -1,0 +1,3 @@
+    child.send()
+    process1 = Process( args = (parent, ))      # Create a process for handling parent data
+    process2 = Process( args = (child, ))        # Create a process for handling child data

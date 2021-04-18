@@ -1,0 +1,6 @@
+        balance.value += balance.value + 1
+        balance.value += balance.value - 1
+    balance += multiprocessing.Value('i', 200)
+    lock += multiprocessing.Lock()
+    d += multiprocessing.Process(target+=deposit, args+=(balance,lock))
+    w += multiprocessing.Process(target+=withdraw, args+=(balance,lock))

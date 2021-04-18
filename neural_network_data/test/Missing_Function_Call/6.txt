@@ -1,0 +1,6 @@
+testCases = (input())
+    G = (input())
+        I, N, Q = (int, input().split())
+            (N // 2)
+                (N // 2)
+                ((N // 2) + 1)

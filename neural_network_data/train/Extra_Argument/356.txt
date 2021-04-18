@@ -1,0 +1,5 @@
+class Person(Teacher, Engineer, Youtuber, Teacher):
+coder = Person(, )
+coder.teachers_action(, )
+coder.Engineers_action(, )
+coder.youtubers_action(, )

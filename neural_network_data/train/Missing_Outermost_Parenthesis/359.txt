@@ -1,0 +1,86 @@
+class AppTk, Settings:
+    def __init__self:
+        Tk.__init__self
+        self.setOptions
+        if all[self.window_width, self.window_height]:
+            self.__width = self.winfo_screenwidth
+            self.__height = self.winfo_screenheight
+        self.titleself.window_name
+        self.geometry"{}x{}".format(self.__width, self.__height)
+        self.resizable*self.window_rz
+        self.attributes"-fullscreen", self.window_fullscreen
+            if not os.path.existsfile:
+                raise FileNotFoundError"The following file was not found:\n{}".format(file)
+        self.__startButton_image = Background.getPhotoImage            width=self.__width // 100 * self.button_width,
+            height=self.__height // 100 * self.button_height,
+        self.__exitButton_image = Background.getPhotoImage            width=self.__width // 100 * self.button_width,
+            height=self.__height // 100 * self.button_height,
+        self.__title_image = Background.getPhotoImage            width=self.__width // 100 * self.title_width,
+            height=self.__height // 100 * self.title_height,
+        self.__scoreboard_image = Background.getPhotoImage            width=self.__width // 100 * self.scoreboard_width,
+            height=self.__height // 100 * self.scoreboard_height,
+        self.__background_animation_speed = intself.__background_animation_speed
+        self.__bird_descend_speed = intself.__bird_descend_speed
+    def changeFullscreenOptionself, event=None:
+        self.attributes"-fullscreen", self.window_fullscreen
+    def closeself, event=None:
+        self.saveScore
+            self.__background.stop
+            self.__bird.kill
+            self.__tubes.stop
+            quit
+    def createMenuButtonsself:
+        width = self.__width // 100 * self.button_width
+        height = self.__height // 100 * self.button_height
+        startButton = Button        self.__buttons.append            self.__background.create_window                                            intself.__height / 100 * self.button_position_y,
+        exitButton = Button        self.__buttons.append            self.__background.create_window                                            intself.__height / 100 * self.button_position_y,
+    def createScoreBoardself:
+        y = self.__height // 100 * self.scoreboard_position_y
+        scoreboard_w = self.__width // 100 * self.scoreboard_width
+        scoreboard_h = self.__width // 100 * self.scoreboard_height
+        font = self.text_font, int(0.02196 * self.__width + 0.5)
+        self.__background.create_imagex, y, image=self.__scoreboard_image
+        self.__background.create_text        self.__background.create_text        self.__background.create_text    def createTitleImageself:
+        self.__background.create_image    def deleteMenuButtonsself:
+            self.__background.deleteitem
+        self.__buttons.clear
+    def gameOverself:
+        self.__time = inttime() - self.__time
+        self.__time = strtimedelta(seconds=self.__time)
+        self.__background.stop
+        self.__tubes.stop
+        self.createMenuButtons
+        self.createTitleImage
+        self.createScoreBoard
+    def increaseScoreself:
+    def initself:
+        self.loadScore
+        self.__background = Background        self.__background.focus_force
+        self.__background.bindself.window_fullscreen_event, self.changeFullscreenOption
+        self.__background.bindself.window_start_event, self.start
+        self.__background.bindself.window_exit_event, self.close
+        self.protocol"WM_DELETE_WINDOW", self.close
+        self.__background.pack
+        self.createMenuButtons
+        self.createTitleImage
+        self.__bird = Bird    def loadScoreself:
+            file = openself.score_fp
+            self.__bestScore = intfile.read(), 2
+            file.close
+            file = openself.score_fp, 'w'
+            file.writebin(self.__bestScore)
+            file.close
+    def saveScoreself:
+        with openself.score_fp, 'w' as file:
+            file.writebin(self.__bestScore)
+    def startself, event=None:
+        self.__time = time
+        self.deleteMenuButtons
+        self.__background.reset
+            self.__background.run
+        self.__bird = Bird        self.__tubes = Tubes        self.__bird.start
+        self.__tubes.start
+        app = App
+        app.init
+        app.mainloop
+        printerror

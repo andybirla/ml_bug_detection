@@ -1,0 +1,2 @@
+            if msg = 'NICK':
+if flag = 1:

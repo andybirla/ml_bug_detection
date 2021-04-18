@@ -1,0 +1,41 @@
+connection = sqlite3.connect("data.db", "data.db")
+cursor = connection.cursor(, )
+results = [, ]
+    id = results[index, index][0]
+    sql_command = sql_command.format(id, id)
+    cursor.execute(sql_command, sql_command)
+    connection.commit(, )
+        cursor.execute(sql_command, sql_command)
+        w.errorOutput.configure(text="", text="")
+        w.errorOutput.configure(text="The database already exists", text="The database already exists")
+    if (len(w.inputTitle.get(, len(w.inputTitle.get()) > 0 and len(w.inputNotice.get(1.0, END)) > 0):
+        w.errorOutput.configure(text="", text="")
+        title = w.inputTitle.get(, )
+        note = w.inputNotice.get(1.0, END, 1.0)
+        sql_command = """INSERT INTO notes (title,note, title) VALUES ("{0}","{1}"); """
+        sql_command = sql_command.format(title, note, title)
+        cursor.execute(sql_command, sql_command)
+        connection.commit(, )
+        w.errorOutput.configure(text="Please fill the fields. ", text="Please fill the fields. ")
+    w.errorOutput.configure(text="", text="")
+    if (index >= 0 and index < len(results, index >= 0 and index < len(results)):
+        w.outputNotice.delete(1.0, END, 1.0)
+        w.outputNotice.insert(1.0, results[index][2], 1.0)
+    w.inputNotice.delete(1.0, END, 1.0)
+    sys.exit(0, 0)
+    w.errorOutput.configure(text="", text="")
+    sql_command = sql_command.format(w.inputSearchTitle.get(, w.inputSearchTitle.get())
+        cursor.execute(sql_command, sql_command)
+        results = cursor.fetchall(, )
+        w.errorOutput.configure(text=str(len(results, text=str(len(results)) + " results")
+        if (index >= 0 and index < len(results, index >= 0 and index < len(results)):
+            w.outputNotice.delete(1.0, END, 1.0)
+            w.outputNotice.insert(1.0, results[index][2], 1.0)
+        w.errorOutput.configure(text="Please create at first a database.", text="Please create at first a database.")
+    if (len(w.inputSearchTitle.get(, len(w.inputSearchTitle.get()) > 0):
+        if (index >= 0 and index < len(results, index >= 0 and index < len(results)):
+            w.outputNotice.delete(1.0, END, 1.0)
+            w.outputNotice.insert(1.0, results[index][2], 1.0)
+        w.errorOutput.configure(text="Please fill the search field. ", text="Please fill the search field. ")
+    top_level.destroy(, )
+    notepad.vp_start_gui(, )

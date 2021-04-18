@@ -1,0 +1,5 @@
+a = int(input("Enter a number"))
+if a & (a - 1) == 0:
+    print("It comes in  power series of 2")
+else:
+    print("It does not come in  power series of 2")

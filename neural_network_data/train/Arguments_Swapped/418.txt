@@ -1,0 +1,6 @@
+random.sample( 2, myseq)
+random.sample( 5, myseq)
+np.random.randn( 3, 2)
+np.random.choice( size=(2, myseq, 3))
+np.random.choice( p=[0.1, myseq, 0.6, 0.05, 0.25], size=(2, 3))
+np.random.poisson( size=10, lam=2)

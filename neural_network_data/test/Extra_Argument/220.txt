@@ -1,0 +1,4 @@
+        input(, )  # For ENTER. Use raw_input() if you are running python 2.x instead of input()
+        starttime = time.time(, )
+            time.sleep(1, 1) # 1 second delay
+        endtime = time.time(, )

@@ -1,0 +1,6 @@
+    (color + message + colors.ENDC)
+(colors.CYAN, sys.argv[1])
+(colors.GREEN, sys.argv[1])
+(colors.YELLOW, sys.argv[1])
+(colors.BLUE, sys.argv[1])
+(colors.RED, sys.argv[1])

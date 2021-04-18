@@ -1,0 +1,35 @@
+input_features = np.arrayprint input_features.shape
+print input_features
+target_output = np.array[[1,1,0,0,1,1,0,0]]
+target_output = target_output.reshape8,1
+printtarget_output.shape
+print target_output
+weights = np.array[[0.1],[0.2],[0.3],[0.4]]
+printweights.shape
+print weights
+def sigmoidx:
+ return 1/1+np.exp(-x)
+def sigmoid_derx:
+ return sigmoidx*(1-sigmoid(x))
+for epoch in range10000:
+ pred_in = np.dotinputs, weights + bias
+ pred_out = sigmoidpred_in
+ x = error.sum
+ printx
+ dpred_dz = sigmoid_derpred_out
+ weights -= lr * np.dotinputs, z_delta#Updating the bias weight value:
+print weights
+print "\n\n"
+print bias
+single_point = np.array[1,0,0,1]
+result1 = np.dotsingle_point, weights + bias
+result2 = sigmoidresult1
+printresult2
+single_point = np.array[0,0,1,0]
+result1 = np.dotsingle_point, weights + bias
+result2 = sigmoidresult1
+printresult2
+single_point = np.array[1,0,1,0]
+result1 = np.dotsingle_point, weights + bias
+result2 = sigmoidresult1
+printresult2

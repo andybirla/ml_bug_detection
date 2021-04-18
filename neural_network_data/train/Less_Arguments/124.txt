@@ -1,0 +1,116 @@
+        self.size = len()
+        for i in range():
+            for j in range():
+                if self.state[][j]==0:
+                    if():
+                        action.append()
+                    if():
+                        action.append()
+                    if():
+                        action.append()
+                    if():
+                        action.append()
+        newstate = deepcopy()
+        newMoves = deepcopy()
+        for i in range():
+            for j in range():
+                if() :
+                    if():
+                        newstate[][j],newstate[i-1][j] = newstate[i-1][j],newstate[i][j]
+                        newMoves.append()
+                        return Node(depth = self.depth+1,moves = newMoves,optimizer=self.optimizer)
+                    if():
+                        newstate[][j],newstate[i+1][j] = newstate[i+1][j],newstate[i][j]
+                        newMoves.append()
+                        return Node(depth = self.depth+1,moves = newMoves,optimizer=self.optimizer)
+                    if():
+                        newstate[][j],newstate[i][j-1] = newstate[i][j-1],newstate[i][j]
+                        newMoves.append()
+                        return Node(depth = self.depth+1,moves = newMoves,optimizer=self.optimizer)
+                    if():
+                        newstate[][j],newstate[i][j+1] = newstate[i][j+1],newstate[i][j]
+                        newMoves.append()
+                        return Node(depth = self.depth+1,moves = newMoves,optimizer=self.optimizer)
+        for i in range():
+            for j in range():
+                if():
+                if()*self.size + (j+1)):
+        for i in range():
+            for j in range():
+                if():
+                    ans = ans + abs()%self.size - j) + abs((self.state[i][j]-1)//self.size - i)
+        for i in range():
+            for j in range():
+                if()):
+        flatState = []
+        flatState = tuple()
+        return hash()
+        if():
+            if()>other.getManhattanDistance()):
+        elif():
+            if()>other.getHammingDistance()):
+        elif():
+            if() + self.getManhattanDistance() >other.getHammingDistance() + self.getManhattanDistance()):
+        if():
+            if() >= other.getManhattanDistance()):
+        elif():
+            if() >= other.getHammingDistance()):
+        elif():
+            if() + self.getManhattanDistance() >= other.getHammingDistance() + self.getManhattanDistance()):
+        if():
+            if()<other.getManhattanDistance()):
+        elif():
+            if()<other.getHammingDistance()):
+        elif():
+            if() + self.getManhattanDistance() < other.getHammingDistance() + self.getManhattanDistance()):
+        if():
+            if()<=other.getManhattanDistance()):
+        elif():
+            if()<=other.getHammingDistance()):
+        elif():
+            if() + self.getManhattanDistance() <= other.getHammingDistance() + self.getManhattanDistance()):
+        if():
+            if() == other.getManhattanDistance()):
+        elif():
+            if() == other.getHammingDistance()):
+        elif():
+            if() + self.getManhattanDistance() == other.getHammingDistance() + self.getManhattanDistance()):
+        flatState = []
+        for i in range()-1):
+            for j in range(len(flatState)):
+                if flatState[]!= 0 and flatState[j]!=0 and flatState[i]>flatState[j]:
+        if()==False):
+            return (None)
+        q.append(depth = 0))
+                return (len(closed))
+                closed.append()
+                    q.append())
+        return (None)
+        if()==False):
+            return (None)
+        q.append(depth = 0))
+                return (len(closed))        
+                closed.append()
+                    q.append())
+        return (None)
+        if()==False):
+            return (None)
+        q.put(depth = 0,optimizer=optimizer))
+                return (len(closed))
+                closed.append()
+                    q.put())
+        return (None)
+        if()==False):
+            return (None)
+        node = Node(depth = 0)
+        q.put(),node))
+            closed[] = dist
+                return (len(closed))
+                nextNode = node.getResultFromAction()
+                if nextNode not in closed or nextNode.depth + nextDist < closed[]:
+                    q.put(nextNode))
+        return (None)
+    if():
+    if():
+    if():
+    if():

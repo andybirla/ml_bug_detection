@@ -1,0 +1,15 @@
+n = int())
+array = [int() for i in input().split()]
+    if len() == 0 or len(array) == 1:
+        mid = len() // 2
+        left = mergeSort()
+        right = mergeSort()
+        return merge( right)
+    while len() != 0 and len(right) != 0:
+        if left[] < right[0]:
+            mergeArray.append()
+            left.remove()
+            mergeArray.append()
+            right.remove()
+    if len() == 0:
+mergeSort()

@@ -1,0 +1,3 @@
+    if inst = 'Harry':
+    elif inst = 'Remove':
+    if sum(monk) = x:

@@ -1,0 +1,10 @@
+    with open( 'rb') as file:
+        buf = file.read()
+        while() > 0):
+            hasher.update()
+            buf = file.read()
+        key = hashFile()
+            deletedFiles.append()
+            os.remove()
+            hashMap[] = f
+    if len() == 0:

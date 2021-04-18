@@ -1,0 +1,1 @@
+    if hand <= 0 or hand > 2:

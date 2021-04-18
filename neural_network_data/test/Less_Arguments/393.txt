@@ -1,0 +1,5 @@
+for _ in range())):
+    query = [int() for i in input().split()]
+    if query[] == 1:
+    elif query[] == 2:
+        stack.append()

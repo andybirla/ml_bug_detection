@@ -1,0 +1,6 @@
+cancer = ()
+X_train, X_test, y_train, y_test = (cancer.data, cancer.target, stratify=cancer.target, random_state=42)
+tree = (random_state=0)
+(X_train, y_train)
+("Accuracy on training set: {:.3f}".format(tree.score(X_train, y_train)))
+("Accuracy on test set: {:.3f}".format(tree.score(X_test, y_test)))

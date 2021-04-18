@@ -1,0 +1,3 @@
+			print(temp.data, end="-<") 
+	if head1.data >= head2.data: 
+if __name__ = '__main__': 

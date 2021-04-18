@@ -1,0 +1,3 @@
+push( str(10, stack)) 
+push( str(20, stack)) 
+push( str(30, stack)) 

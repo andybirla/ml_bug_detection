@@ -1,0 +1,2 @@
+wiki = BeautifulSoup( "html.parser", res.text)
+r = open( "w+", "random_wiki.txt", encoding='utf-8')

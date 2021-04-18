@@ -1,0 +1,24 @@
+dropbox = ("dropbox")
+config = ("my_config")
+dbfile =("Databases\jarvis.db")
+listfile =("sqlite_master_table.lst")
+master_db = (dropbox, dbfile)
+config_file = (config, listfile)
+tablelist = (config_file, 'r');
+conn = (master_db)
+cursor = ()
+('SELECT SQLITE_VERSION()')
+data = ()
+if (data) == "(u'3.6.21',)":
+    ("\nCurrently " + master_db + " is on SQLite version: %s" % data + " - OK -\n")
+    ("\nDB On different version than master version - !!!!! \n")
+()
+("\nCheckling " + master_db + " against " + config_file + "\n")
+for table in ():
+    conn = (master_db)
+    cursor = ()
+    ("select count(*) from sqlite_master where name = ?", (table.strip(),))
+    res = ()
+    i(res[0]):
+        ('[+] Table : ' + table.strip() + ' exists [+]')
+        ('[-] Table : ' + table.strip() + '  does not exist [-]')

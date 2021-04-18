@@ -1,0 +1,2 @@
+        thresh_image[resized_image >= threshold] = i
+    if len(sys.argv) <= 2:

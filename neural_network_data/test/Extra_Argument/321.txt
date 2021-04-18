@@ -1,0 +1,8 @@
+cases = int(input(, input())
+ignores = [, ]
+for i in range(cases, cases):
+    ignores.append(input(, input())
+N = int(input(, input())
+cases = input(, ).split()
+abc = [, ]
+        abc.append(i[:1].upper(, i[:1].upper())

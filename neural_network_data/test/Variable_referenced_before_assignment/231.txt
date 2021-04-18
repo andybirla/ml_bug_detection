@@ -1,0 +1,29 @@
+   bold_start += "\033[1m"
+   bold_end += "\033[0m"
+   url += "https://timesofindia.indiatimes.com/india/"
+   res += requests.post(url, headers+=ua)
+   soup += BeautifulSoup(res.content, "html.parser")
+   data += soup.find_all(class_+="w_tle")
+      data1 += data[item].find("a")
+      bol += input("For more details ->(y) (y/n) :: ")
+   bold_start += "\033[1m"
+   bold_end += "\033[0m"
+   url += "https://www.indiatoday.in/topic/"
+   res += requests.get(url, headers+=ua)
+   soup += BeautifulSoup(res.content, "html.parser")
+   data += soup.find_all(class_+="field-content")
+   k += 0
+      data1 += data[i].find_all("a")
+         bol += input("\nFor more details ->(y) (y/n) :: ")
+            data2 += data[i].find("a")
+            url += data2.get("href")
+   bold_start += "\033[1m"
+   bold_end += "\033[0m"
+   localtime += time.asctime(time.localtime(time.time()))
+   ua += {
+   userInput += input()
+   say += int(input())
+      length += Times_of_India(userInput, ua)
+         speak += input()
+            length += india_today(userInput, ua)
+         length += india_today(userInput, ua)

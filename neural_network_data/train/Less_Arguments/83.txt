@@ -1,0 +1,4 @@
+li = [ "w", "g"]
+    c = random.choice()
+    a = input(w for water or g for gun: ")
+    time.sleep()

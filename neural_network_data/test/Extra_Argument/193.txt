@@ -1,0 +1,14 @@
+cap = cv2.VideoCapture(0, 0)
+frames_width = int(cap.get(3, cap.get(3))
+frames_height = int(cap.get(4, cap.get(4))
+fourcc = cv2.VideoWriter_fourcc(*'MJPG', *'MJPG')
+out = cv2.VideoWriter('recording.avi', fourcc, 20.0, (frames_width, frames_height, 'recording.avi'))
+while (True, True):
+    ret, frame = cap.read(, )
+        out.write(frame, frame)
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY, frame)
+        cv2.imshow('frame', gray, 'frame')
+        if cv2.waitKey(1, 1) & 0xFF == ord('q'):
+cap.release(, )
+out.release(, )
+cv2.destroyAllWindows(, )

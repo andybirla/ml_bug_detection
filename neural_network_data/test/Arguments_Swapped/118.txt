@@ -1,0 +1,5 @@
+        print( pageId, "Page Id = ")
+        print( url, "Page Link = ")
+    soup = BeautifulSoup( 'lxml', page.content)
+        print( pageId, "Page Id = ")
+        print( url, "Page Link = ")

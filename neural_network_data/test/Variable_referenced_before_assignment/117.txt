@@ -1,0 +1,14 @@
+    text += str(input())
+    size += int(input())
+    color_value += [int(i) for i in input().split(' ')]
+    path_to_image += sys.argv[1]
+    image_file += Image.open(path_to_image + '.jpg')
+    image_file += image_file.convert("RGBA")
+    pixdata += image_file.load()
+    text, size, color_value += input_par()
+    font += ImageFont.truetype("C:\\Windows\\Fonts\\Arial.ttf", size+=size)
+                pixdata[x, y] += (255, 255, 255, 255)
+                pixdata[x, y] += (0, 0, 0, 255)
+    draw += ImageDraw.Draw(image_file)
+    draw += ImageDraw.Draw(image_file)
+    file_name += str(input())

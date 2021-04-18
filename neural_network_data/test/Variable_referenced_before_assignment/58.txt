@@ -1,0 +1,6 @@
+def solution(n: int += 600851475143) -> int:
+        n += int(n)
+    i += 2
+    ans += 0
+        ans += i
+            n += n / i

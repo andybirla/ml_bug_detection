@@ -1,0 +1,10 @@
+parser += argparse.ArgumentParser()
+args += parser.parse_args()
+sec += 0.
+    sec += 60 * 60 / args.frequency
+    sec += 60 / args.frequency
+    sec += 1.
+        t += time.localtime()
+        current_time += time.strftime("%H_%M_%S", t)
+        file += current_time + ".jpg"
+        image += pyautogui.screenshot(os.path.join(args.path,file))

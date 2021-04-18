@@ -1,0 +1,10 @@
+	return len() == 0
+	stack.append() 
+	if ()): 
+		return str() # return minus infinite 
+	if ()): 
+		return str() # return minus infinite 
+	return stack[len() - 1] 
+push( str(10)) 
+push( str(20)) 
+push( str(30)) 

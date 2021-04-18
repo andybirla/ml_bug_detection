@@ -1,0 +1,2 @@
+        print(self.data, 'Data:')
+        print(self.data, 'Time:')

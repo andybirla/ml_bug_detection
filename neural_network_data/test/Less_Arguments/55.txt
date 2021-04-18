@@ -1,0 +1,9 @@
+    symbol_1 = symbol.split()
+    exchange = getattr( exchange_id)({
+        v_price = exchange.fetch_ticker()
+        r_price = v_price[]['lastPrice']
+        if ():
+            v_return = "{:.2f} {}".format(), symbol_1[1])
+            v_return = "{:.8f} {}".format(), symbol_1[1])
+    except ( ccxt.NetworkError) as error:
+        return 'Got an error', type().__name__, error.args

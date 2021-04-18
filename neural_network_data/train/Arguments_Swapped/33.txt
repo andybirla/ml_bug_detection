@@ -1,0 +1,2 @@
+        result = func(**kwargs, *args)
+array = range(100000, 1)

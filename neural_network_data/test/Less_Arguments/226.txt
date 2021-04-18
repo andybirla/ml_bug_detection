@@ -1,0 +1,7 @@
+    for i in range( num + 1):
+        if res_list != [] and any():
+        res_list.append()
+    if len() != 2: raise Exception("usage - $python find_prime.py <num:int>")
+        num = int()
+        raise Exception()
+    l = find_prime()

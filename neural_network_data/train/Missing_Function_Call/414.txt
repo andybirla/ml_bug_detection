@@ -1,0 +1,19 @@
+cap = (0)
+face_cascade = ('face.xml')
+nose_cascade = ('Nose.xml')
+mustache = ('image/mustache.png', -1)
+(True):
+    ret, frame = ()
+    gray = (frame, cv2.COLOR_BGR2GRAY)
+    frame = (frame, cv2.COLOR_BGR2BGRA)
+    f(x, y, w, h) in faces:
+        f(nx, ny, nw, nh) in nose:
+            mustache2 = (mustache.copy(), width=nw)
+            for i in (0, mw):
+                for j in (0, mh):
+                        roi_color[ny + (nh / 2.0) + i, nx +
+    frame = (frame, cv2.COLOR_BGRA2BGR)
+    ('frame', frame)
+    if (20) & 0xFF == ord('x'):
+()
+()

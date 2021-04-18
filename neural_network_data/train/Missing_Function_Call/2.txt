@@ -1,0 +1,12 @@
+    return (0,1) 
+()
+    for i in (n):
+        flip_result = ()
+        prob_value = (i+1)
+        (prob_value)
+        (y=0.5, color='r', linestyle='-')
+        ("Iterations")
+        ("Probability")
+        (list1)
+answer = (5000)
+("Final value :",answer)

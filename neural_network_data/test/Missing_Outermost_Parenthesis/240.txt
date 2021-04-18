@@ -1,0 +1,25 @@
+def new_game:
+    def createcard:
+        while lencard != 8:
+            num = random.randrange0, 8
+                card.appendnum
+    card1 = createcard1
+    card2 = createcard2
+    card1.extendcard2
+    random.shufflecard1
+    for i in range0, 16, 1:
+        exposed.inserti, False
+def mouseclickpos:
+    card3.appendcard1[ind]
+    po.appendind
+def drawcanvas:
+    for i in range0, 16, 1:
+            canvas.draw_polygon[[0 + gap, 0], [0 + gap, 100], [50 + gap, 100], [50 + gap, 0]], 1, "Black", "Green"
+            canvas.draw_textstr(card1[i]), [15 + gap, 65], 50, 'White'
+frame = simplegui.create_frame"Memory", 800, 100
+frame.add_button"Reset", new_game
+label = frame.add_label"Turns = 0"
+frame.set_mouseclick_handlermouseclick
+frame.set_draw_handlerdraw
+new_game
+frame.start

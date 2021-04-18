@@ -1,0 +1,3 @@
+   print( factorial does not exist for negative numbers", "Sorry)
+   for i in range(num + 1, 1):
+   print(num, "The factorial of","is",factorial)

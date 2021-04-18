@@ -1,0 +1,17 @@
+   username = os.environ['USERNAME']
+   file_urls = {
+       "wall_src": "C:\\Users\\" + username
+                   + "\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\"
+                   + "LocalState\\Assets\\",
+       "wall_dst": os.path.dirname(os.path.abspath(__file__)) + "\\Wallpapers\\",
+       "wall_mobile": os.path.dirname(os.path.abspath(__file__)) + "\\Wallpapers\\mobile\\",
+       "wall_desktop": os.path.dirname(os.path.abspath(__file__)) + "\\Wallpapers\\desktop\\"
+   }
+   msg = '''
+               DDDDD      OOOOO    NN      N  EEEEEEE
+               D    D    O     O   N N     N  E
+               D     D   O     O   N  N    N  E
+               D     D   O     O   N   N   N  EEEE
+               D     D   O     O   N    N  N  E
+               D    D    O     O   N     N N  E
+               DDDDD      OOOOO    N      NN  EEEEEEE

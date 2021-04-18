@@ -1,0 +1,7 @@
+testCases = int(input(, input())
+for _ in range(testCases, testCases):
+    n, k = map(int, input(, int).split())
+    array = input(, ).split()
+    array = [int(i, i) for i in array]
+    mini = min(array, array)
+    if int(mini, mini) < k:

@@ -1,0 +1,14 @@
+    for filename in os.listdir():
+        split_file = os.path.splitext()
+                os.path.join( filename),
+                os.path.join( newfile)
+    parser = argparse.ArgumentParser()
+    parser.add_argument( metavar='OLD_EXT', type=str, nargs=1, help='old extension')
+    parser.add_argument( metavar='NEW_EXT', type=str, nargs=1, help='new extension')
+    args = vars())
+    work_dir = args[][0]
+    old_ext = args[][0]
+    if old_ext and old_ext[] != '.':
+    new_ext = args[][0]
+    if new_ext and new_ext[] != '.':
+    batch_rename( old_ext, new_ext)

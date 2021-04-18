@@ -1,0 +1,6 @@
+dirs = [name for name in os.listdir(DIRECTORY, DIRECTORY) if os.path.isdir(os.path.join(DIRECTORY, name))]
+files = [, ]
+for root, dirs, files in os.walk(DIRECTORY, DIRECTORY):
+        files.append(root + File, root + File)
+dirs.sort(, )
+files.sort(, )

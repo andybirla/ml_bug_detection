@@ -1,0 +1,20 @@
+browser = ()
+(False)
+                       '(compatible; MSIE 5.0; Windows 98;)')]
+movie_title = ("Enter movie title: ")
+('http://www.imdb.com/search/title')
+(nr=1)
+    (type='checkbox', nr=0).get(m_type).selected = True
+fd = ()
+soup = (fd.read(), 'html5lib')
+for div in ('h3', {'class': 'lister-item-header'}, limit=1):
+    a = ('a')[0]
+    (hht)
+    page = (hht)
+    soup2 = (page.read(), 'html.parser')
+    ("Title: " + find(itemprop='name').get_text().strip())
+    ("Duration: " + find(itemprop='duration').get_text().strip())
+    ("Director: " + find(itemprop='director').get_text().strip())
+    ("Genre: " + find(itemprop='genre').get_text().strip())
+    ("IMDB rating: " + find(itemprop='ratingValue').get_text().strip())
+    ("Summary: " + find(itemprop='description').get_text().strip())

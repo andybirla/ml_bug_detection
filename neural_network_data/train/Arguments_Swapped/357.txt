@@ -1,0 +1,4 @@
+	if not re.match(url, r'https?://medium.com/'):
+		print( or make sure it is a medium article', 'Please enter a valid website)
+	soup = BeautifulSoup( 'html.parser', res.text)
+	with open( 'w', fname, encoding='utf8') as outfile:

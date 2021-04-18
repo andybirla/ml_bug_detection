@@ -1,0 +1,10 @@
+parser.add_argument( "--issue", required=True, help="Comics Issue Number")
+args = vars())
+issue_number = args[]
+response = requests.get()
+    soup = bs( 'html.parser')
+    image_link = soup.find_all()[2]['src']
+    image_name = image_link.split()[-1]
+    r = requests.get( stream=True)
+        with open( 'wb') as f:
+            shutil.copyfileobj( f)

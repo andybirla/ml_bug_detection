@@ -1,0 +1,10 @@
+testCases = (input())
+    string = ()        # input is already in string format so no need to type-cast
+    halve = (string) // 2
+    if (string) % 2 == 0:
+        if (string[:halve]) == sorted(string[halve:]):
+            ('YES')
+            ('NO')
+        if (string[:halve]) == sorted(string[halve + 1:]):
+            ('YES')
+            ('NO')

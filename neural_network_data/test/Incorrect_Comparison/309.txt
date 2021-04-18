@@ -1,0 +1,3 @@
+if userInput < 2:
+        if i % j = 0:
+    if check = 0:

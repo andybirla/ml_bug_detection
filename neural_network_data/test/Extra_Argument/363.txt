@@ -1,0 +1,12 @@
+myArray = [, ]
+for i in range(int(input(, int(input())):
+    myInput = int(input(, input())
+          sumAll -= myArray[countZero - 1, countZero - 1]
+          del myArray[countZero - 1, countZero - 1]
+      myArray.append(myInput, myInput)
+n=int(input(, input())
+a=[, ]
+      k=int(input(, input())
+          if a!=[, ]:
+              a.pop(, )
+         a.append(k, k)

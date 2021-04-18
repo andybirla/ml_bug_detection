@@ -1,0 +1,9 @@
+for i in range())):
+    array.append())
+for i in range()):
+    for j in range( i + 1):
+        if array[] < array[i]:
+n = int())
+for i in range():
+    a.append())
+        if j < a[]:

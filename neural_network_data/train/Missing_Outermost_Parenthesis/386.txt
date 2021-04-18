@@ -1,0 +1,25 @@
+path = input"Enter Path : "
+url = input"Enter URL : "
+def get_urlpath, url:
+    driver = webdriver.Chromeexecutable_path=r"{}".format(path)
+    driver.geturl
+    print"loading....."
+    res = driver.execute_script"return document.documentElement.outerHTML"
+def get_img_linksres:
+    soup = BeautifulSoupres, "lxml"
+    imglinks = soup.find_all"img", src=True
+def download_imgimg_link, index:
+            if img_link.findexe > 0:
+        img_data = rq.getimg_link.content
+        with openoutput + "\\" + str(index + 1) + extension, "wb+" as f:
+            f.writeimg_data
+        f.close
+result = get_urlpath, url
+time.sleep60
+img_links = get_img_linksresult
+if not os.path.isdiroutput:
+    os.mkdiroutput
+for index, img_link in enumerateimg_links:
+    print"Downloading..."
+        download_imgimg_link, index
+print"Download Complete!!"

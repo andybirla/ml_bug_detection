@@ -1,0 +1,46 @@
+   def __init__(self, suit, rank):
+       if (suit in SUITS) and (rank in RANKS):
+           self.suit = suit
+           self.rank = rank
+       else:
+           self.suit = None
+           self.rank = None
+           print("Invalid card: ", suit, rank)
+   def __str__(self):
+       return self.suit + self.rank
+   def getRank(self):
+       return self.rank
+   def getSuit(self):
+       return self.suit
+   def __init__(self):
+       self.deck = [card(suit, rank) for suit in SUITS for rank in RANKS]
+   def shuffle(self):
+       random.shuffle(self.deck)
+   def dealCard(self):
+       return random.choice(self.deck)
+   def __str__(self):
+       print(self.deck)
+   switchPlayer = True
+   while switchPlayer == True:
+       for card in range(len(player1)):
+           input("Enter any key to place a card!!!\n")
+           currentPlayer1Card = player1[card].rank
+           print("Your current card's rank: {}".format(currentPlayer1Card))
+           centerPile.append(player1[card])
+           player1.pop(card)
+           switchPlayer = False
+           if currentPlayer2Card == currentPlayer1Card:
+               player1 = player1 + centerPile
+               print("The human got a match and takes all the cards from center pile..")
+           break
+   while switchPlayer == False:
+       for card in range(len(player2)):
+           currentPlayer2Card = player2[card].rank
+           print("Computer's current card's rank: {}".format(currentPlayer2Card))
+           centerPile.append(player2[card])
+           player2.pop(card)
+           switchPlayer = True
+           if currentPlayer1Card == currentPlayer2Card:
+               player2 = player2 + centerPile
+               print("Computer got a match and takes all the cards from center pile..")
+           break

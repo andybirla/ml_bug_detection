@@ -1,0 +1,6 @@
+L = intinput()
+N = intinput()
+    W, H = mapint, input().split()
+        print'UPLOAD ANOTHER'
+        print'CROP IT'
+        print'ACCEPTED'

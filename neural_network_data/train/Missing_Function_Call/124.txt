@@ -1,0 +1,129 @@
+        self.size = (state)
+            self.moves = ()
+        action = ()
+        for i in (self.size):
+            for j in (self.size):
+                    (i>0):
+                        (2)
+                    (j>0):
+                        (0)
+                    (i<self.size-1):
+                        (3)
+                    (j<self.size-1):
+                        (1)
+        newstate = (self.state)
+        newMoves = (self.moves)
+        for i in (self.size):
+            for j in (self.size):
+                (newstate[i][j]==0) :
+                    (action==2):
+                        (2)
+                        return (newstate,depth = self.depth+1,moves = newMoves,optimizer=self.optimizer)
+                    (action==3):
+                        (3)
+                        return (newstate,depth = self.depth+1,moves = newMoves,optimizer=self.optimizer)
+                    (action==0):
+                        (0)
+                        return (newstate,depth = self.depth+1,moves = newMoves,optimizer=self.optimizer)
+                    (action==1):
+                        (1)
+                        return (newstate,depth = self.depth+1,moves = newMoves,optimizer=self.optimizer)
+        for i in (self.size):
+            for j in (self.size):
+                (i==j and j==self.size-1):
+                (self.state[i][j]!=(i)*self.size + (j+1)):
+        for i in (self.size):
+            for j in (self.size):
+                (self.state[i][j]!=0):
+                    ans = ans + ((self.state[i][j]-1)%self.size - j) + abs((self.state[i][j]-1)//self.size - i)
+        for i in (self.size):
+            for j in (self.size):
+                (self.state[i][j]!=0 and self.state[i][j]!= i*3 + (j+1)):
+        flatState = (flatState)
+        return (flatState)
+        (self.optimizer==0):
+            (self.getManhattanDistance()>other.getManhattanDistance()):
+        (self.optimizer==1):
+            (self.getHammingDistance()>other.getHammingDistance()):
+        (self.optimizer==2):
+            (self.getHammingDistance() + self.getManhattanDistance() >other.getHammingDistance() + self.getManhattanDistance()):
+        (self.optimizer==0):
+            (self.getManhattanDistance() >= other.getManhattanDistance()):
+        (self.optimizer==1):
+            (self.getHammingDistance() >= other.getHammingDistance()):
+        (self.optimizer==2):
+            (self.getHammingDistance() + self.getManhattanDistance() >= other.getHammingDistance() + self.getManhattanDistance()):
+        (self.optimizer==0):
+            (self.getManhattanDistance()<other.getManhattanDistance()):
+        (self.optimizer==1):
+            (self.getHammingDistance()<other.getHammingDistance()):
+        (self.optimizer==2):
+            (self.getHammingDistance() + self.getManhattanDistance() < other.getHammingDistance() + self.getManhattanDistance()):
+        (self.optimizer==0):
+            (self.getManhattanDistance()<=other.getManhattanDistance()):
+        (self.optimizer==1):
+            (self.getHammingDistance()<=other.getHammingDistance()):
+        (self.optimizer==2):
+            (self.getHammingDistance() + self.getManhattanDistance() <= other.getHammingDistance() + self.getManhattanDistance()):
+        (self.optimizer==0):
+            (self.getManhattanDistance() == other.getManhattanDistance()):
+        (self.optimizer==1):
+            (self.getHammingDistance() == other.getHammingDistance()):
+        (self.optimizer==2):
+            (self.getHammingDistance() + self.getManhattanDistance() == other.getHammingDistance() + self.getManhattanDistance()):
+        for i in (len(flatState)-1):
+            for j in (i+1,len(flatState)):
+        (self.isSolvable()==False):
+            r(None,None)
+        closed = ()
+        q = ()
+        (Node(state = self.state,depth = 0))
+            node = ()
+            if ():
+                r(node.moves,len(closed))
+                (node.state)
+                for action in ():
+                    (node.getResultFromAction(action))
+        r(None,None)
+        (self.isSolvable()==False):
+            r(None,None)
+        closed = ()
+        q = ()
+        (Node(state = self.state,depth = 0))
+            node = ()
+            if ():
+                r(node.moves,len(closed))        
+                (node.state)
+                for action in ():
+                    (node.getResultFromAction(action))
+        r(None,None)
+        (self.isSolvable()==False):
+            r(None,None)
+        closed = ()
+        q = ()
+        (Node(state = self.state,depth = 0,optimizer=optimizer))
+            node = ()
+            if ():
+                r(node.moves,len(closed))
+                (node.state)
+                for action in ():
+                    (node.getResultFromAction(action))
+        r(None,None)
+        (self.isSolvable()==False):
+            r(None,None)
+        closed = ()
+        q = ()
+        node = (state = self.state,depth = 0)
+        ((node.getManhattanDistance(),node))
+            dist,node = ()
+            if ():
+                r(node.moves,len(closed))
+            for action in ():
+                nextNode = (action)
+                nextDist = ()
+                    ((nextNode.depth+nextDist,nextNode))
+        r(None,None)
+    (action==0):
+    (action==1):
+    (action==2):
+    (action==3):

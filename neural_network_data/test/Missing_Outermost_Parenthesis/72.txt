@@ -1,0 +1,12 @@
+today = datetime.date.today  # Get Today's date
+todaystr = today.isoformat  # Format it so we can use the format to create the directory
+confdir = os.getenv"my_config"  # Set the variable by getting the value from the OS setting
+dropbox = os.getenv"dropbox"  # Set the variable by getting the value from the OS setting
+conffilename = os.path.joinconfdir, conffile  # Set the variable by combining the path and the file name
+sourcedir = os.path.expanduser'~/Library/Services/'  # Source directory of where the scripts are located
+destdir = os.path.joindropbox, "My_backups" + "/" + "Automater_services" + todaystr + "/"
+for file_name in openconffilename:  # Walk through the configuration file
+    fname = file_name.strip  # Strip out the blank lines from the configuration file
+        sourcefile = os.path.joinsourcedir, fname  # Get the name of the source files to backup
+        destfile = os.path.joindestdir, fname  # Get the name of the destination file names
+        shutil.copytreesourcefile, destfile  # Copy the directories

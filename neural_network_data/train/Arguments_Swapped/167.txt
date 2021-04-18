@@ -1,0 +1,2 @@
+except ( IOError, FileNotFoundError):
+random_line = random.randint( num_lines, 0)

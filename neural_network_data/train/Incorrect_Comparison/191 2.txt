@@ -1,0 +1,3 @@
+            if(file_name = name):
+if (cartoon_style_selection = "1"):
+elif (cartoon_style_selection = "2"):

@@ -1,0 +1,4 @@
+for _ in rangeint(input()):
+    string = input
+    for i in rangelen(string):
+    printcount

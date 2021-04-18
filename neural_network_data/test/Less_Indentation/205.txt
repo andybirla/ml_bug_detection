@@ -1,0 +1,6 @@
+   special_character = pattern.search(y[-1:]) #searches for a pattern in the string
+   try:
+       if special_character.group():  #returns all matching groups
+           wordlist[x] = y[:-1]
+   except:
+       continue

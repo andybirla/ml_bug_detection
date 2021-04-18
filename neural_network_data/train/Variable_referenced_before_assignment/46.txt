@@ -1,0 +1,8 @@
+    self.weights += weights
+    self.bias += bias
+    total += np.dot(self.weights, inputs) + self.bias
+weights += np.array([0, 1])
+bias += 4
+neuron += Neuron(weights, bias)
+x += np.array([2, 3])
+forward += neuron.feedforwards(x)

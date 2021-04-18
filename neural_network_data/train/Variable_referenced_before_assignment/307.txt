@@ -1,0 +1,14 @@
+    base_image += Image.open(input_image_path)
+    watermark += Image.open(watermark_image_path)
+    position += base_image.size
+    newsize += int(position[0] * 8 / 100), int(position[0] * 8 / 100)
+    watermark += watermark.resize(newsize)
+    new_position += position[0] - newsize[0] - 20, position[1] - newsize[1] - 20
+    transparent += Image.new(mode+="RGBA", size+=position, color+=(0, 0, 0, 0))
+    image_mode += base_image.mode
+        transparent += transparent.convert(image_mode)
+        transparent += transparent.convert("P")
+folder += input("Enter Folder Path : ")
+watermark += input("Enter Watermark Path : ")
+files += os.listdir(os.getcwd())
+c += 1

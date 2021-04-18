@@ -1,0 +1,4 @@
+    m += max_val + 1
+    count += [0] * m                
+    i += 0
+            array1[i] += a

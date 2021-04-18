@@ -1,0 +1,4 @@
+def counting_sortarray1, max_val:
+    for a in rangem:            
+        for c in rangecount[a]:  
+printcounting_sort( [1, 2, 7, 3, 2, 1, 4, 2, 3, 2, 1], 7 )

@@ -1,0 +1,7 @@
+with ('input.xml') as xml_file:
+    parsed_data = (xml_file.read())
+    ()
+    json_conversion = (parsed_data)
+    with ('output.json', 'w') as json_file:
+        (json_conversion)
+        ()

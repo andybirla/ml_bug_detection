@@ -1,0 +1,2 @@
+        if self.balance > amount:
+if __name__ = '__main__':

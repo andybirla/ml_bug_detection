@@ -1,0 +1,5 @@
+    if isinstancej,int:
+    elif isinstancej,float:
+print'Number of integers are:',i
+print'Number of Floats are:',f
+print"numbers of strings are:",s

@@ -1,0 +1,7 @@
+testCases = intinput()
+for _ in rangetestCases:
+    string = input
+    check = lenstring // 2    # split the length of string in two halves
+    for i in range0, check, 2:
+        printstring[i], end = ''
+    print

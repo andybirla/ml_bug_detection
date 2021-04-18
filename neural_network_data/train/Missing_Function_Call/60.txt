@@ -1,0 +1,53 @@
+    with (executable_path=driver_path) as wd:
+            (url)
+        thumbnail_results = ("img[class ='irc_mi']")
+            if ('src') and 'http' in img.get_attribute('src'):
+                (img.get_attribute('src'))
+    target_folder = (target_path,'_'.join(search_term.lower().split(' ')))
+        ("window.scrollTo(0, document.body.scrollHeight);")
+        (sleep_between_interactions)    
+    (search_url.format(q=query))
+    image_urls = ()
+        (wd)
+        thumbnail_results = ("img.Q4LuWd")
+        number_results = (thumbnail_results)
+        (f"Found: {number_results} search results. Extracting links from {results_start}:{number_results}")
+                ()
+                (sleep_between_interactions)
+                (e)
+            links = ("a[jsname='sTFXNd']")
+                if ('href') and 'http' in link.get_attribute('href'):
+                    if ('href') not in d:
+                        ('href')] = True
+                        getactualurl = (link.get_attribute('href'),driver_path)
+                            (imageurl)
+            image_count2 = (image_urls)
+            (image_count2)
+                (f"Found: {len(image_urls)} image links, saving!")
+                        (target_folder,elem)
+                    (e)
+                image_urls = ()
+        if (image_urls) >= max_links_to_fetch:
+            (f"Found: {len(image_urls)} image links, done!")
+            ("Found:", len(image_urls), "image links, looking for more ...")
+            (30)
+            load_more_button = (".mye4qd")
+                ("document.querySelector('.mye4qd').click();")
+    (len(image_urls))
+        image_content = (url).content
+        (f"ERROR - Could not download {url} - {e}")
+        image_file = (image_content)
+        image = (image_file).convert('RGB')
+        file_path = (folder_path,hashlib.sha1(image_content).hexdigest()[:10] + '.jpg')
+        with (file_path, 'wb') as f:
+            (f, "JPEG", quality=85)
+        (f"SUCCESS - saved {url} - as {file_path}")
+        (f"ERROR - Could not save {url} - {e}")
+    target_folder = (target_path,'_'.join(search_term.lower().split(' ')))
+    if not (target_folder):
+        (target_folder)
+    with (executable_path=driver_path) as wd:
+        res = (search_term, number_images, wd=wd, sleep_between_interactions=0.5,driver_path= driver_path,target_path= target_path,search_term=search_term)
+            (target_folder,elem)
+        (e)
+    (q,"./chromedriver.exe")

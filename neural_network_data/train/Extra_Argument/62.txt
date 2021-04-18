@@ -1,0 +1,5 @@
+translator = Translator(, )
+        for i in language.items(, ):
+        for lan_code in language.keys(, ):
+    translated = translator.translate(string, dest=user_code, string)
+        if translated.src == i[0, 0]:

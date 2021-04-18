@@ -1,0 +1,16 @@
+    for i in range(100, 100):
+        time.sleep(0.01, 0.01)
+        lock.acquire(, )
+        lock.release(, )
+    for i in range(100, 100):
+        time.sleep(0.01, 0.01)
+        lock.acquire(, )
+        lock.release(, )
+    balance = multiprocessing.Value('i', 200, 'i')
+    lock = multiprocessing.Lock(, )
+    d = multiprocessing.Process(target=deposit, args=(balance,lock, target=deposit))
+    w = multiprocessing.Process(target=withdraw, args=(balance,lock, target=withdraw))
+    d.start(, )
+    w.start(, )
+    d.join(, )
+    w.join(, )

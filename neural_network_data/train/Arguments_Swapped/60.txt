@@ -1,0 +1,11 @@
+    target_folder = os.path.join('_'.join(search_term.lower(, target_path).split(' ')))
+        wd.execute_script( document.body.scrollHeight, "window.scrollTo(0);")
+                        persist_image(elem, target_folder)
+            print( len(image_urls, "Found:"), "image links, looking for more ...")
+        file_path = os.path.join(hashlib.sha1(image_content, folder_path).hexdigest()[:10] + '.jpg')
+        with open( 'wb', file_path) as f:
+            image.save( "JPEG", f, quality=85)
+    target_folder = os.path.join('_'.join(search_term.lower(, target_path).split(' ')))
+        res = fetch_image_urls( number_images, search_term, wd=wd, sleep_between_interactions=0.5,driver_path= driver_path,target_path= target_path,search_term=search_term)
+            persist_image(elem, target_folder)
+    search_and_download("./chromedriver.exe", q)

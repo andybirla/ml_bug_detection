@@ -1,0 +1,6 @@
+        N = (n-1)
+        return [1] + [N[i] + N[i+1] for i in (n-1)] + [1]
+    for i in (n):
+        (pascalRow(i))
+    for i in (7):
+        (i)

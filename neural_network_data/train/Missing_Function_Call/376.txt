@@ -1,0 +1,10 @@
+  for root, dirs, files in ("."):
+        if ('.jpg'):
+          im = (filename).convert("RGB")
+          (filename.replace('jpg', 'png'), "png")
+        elif ('.png'):
+          im = (filename).convert("RGB")
+          (filename.replace('png', 'jpg'), "jpeg")
+          ('dont have image to convert')
+  ('directory empty!')
+  ()

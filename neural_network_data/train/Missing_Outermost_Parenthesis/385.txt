@@ -1,0 +1,10 @@
+class AdultExceptionException:
+    def __init__self, name, age:
+    def get_minor_ageself:
+        if intself.age >= 18:
+    def displayself:
+            printf"age -> {self.get_minor_age()}"
+            print"Person is an adult"
+            printf"name -> {self.name}"
+Person"Bhavin", 17.display()
+Person"Dhaval", 23.display()

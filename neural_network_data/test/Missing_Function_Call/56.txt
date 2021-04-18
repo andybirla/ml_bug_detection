@@ -1,0 +1,8 @@
+        mid = l +(r - l) / 2 #extracting the middle element from the array
+        (mid) #it has to be integer
+    ("Enter the array with comma separated in which element will be searched")
+    arr (x) for x in input().split(',')] #the input array will of int type with each element seperated with a comma due to the split fucntion
+    x = (input("Enter the element you want to search in given array"))
+    result = (arr, 0, len(arr) - 1, x)
+        ("Element is present at index {}".format(result))
+        ("Element is not present in array")

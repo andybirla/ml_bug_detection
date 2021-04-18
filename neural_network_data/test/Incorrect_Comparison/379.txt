@@ -1,0 +1,3 @@
+    if len(line) <=2 :
+            line[0] = re.sub("-<", ".", line[0])
+            sys.stdout.write(re.sub("-<", ".", line))

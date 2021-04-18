@@ -1,0 +1,5 @@
+    ns += 'No solutions!'
+        j += num_heads - i
+    numheads += 35
+    numlegs += 94
+    solutions += solve(numheads, numlegs)

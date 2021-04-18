@@ -1,0 +1,3 @@
+input_URL += "https://www.google.com/"
+qr += qrcode.QRCode(
+img += qr.make_image(fill_color+="red", back_color+="white")

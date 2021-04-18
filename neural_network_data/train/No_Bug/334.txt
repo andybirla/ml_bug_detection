@@ -1,0 +1,90 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from lifelines import KaplanMeierFitter
+data = pd.read_csv("lung.csv")
+data.head()
+print(data.columns)
+data.info()
+data.describe()
+print (data["sex"].hist())
+kmf = KaplanMeierFitter() 
+data.loc[data.status == 1, 'dead'] = 0
+data.loc[data.status == 2, 'dead'] = 1
+data.head()
+kmf.fit(durations =  data["time"], event_observed = data["dead"])
+kmf.event_table
+event_at_0 = kmf.event_table.iloc[0,:]
+surv_for_0 = (event_at_0.at_risk - event_at_0.observed)/event_at_0.at_risk
+surv_for_0
+event_at_5 = kmf.event_table.iloc[1,:]
+surv_for_5 = (event_at_5.at_risk - event_at_5.observed)/event_at_5.at_risk
+surv_for_5
+event_at_11 = kmf.event_table.iloc[2,:]
+surv_for_11 = (event_at_11.at_risk - event_at_11.observed)/event_at_11.at_risk
+surv_for_11
+surv_after_0 = surv_for_0 
+print("Survival Probability After 0 Days: ",surv_after_0)
+surv_after_5 = surv_for_0 * surv_for_5
+print("Survival Probability After 5 Days: ",surv_after_5)
+print("Survival Probability After 11 Days: ",surv_after_11)
+print("Survival probability for t=0: ",kmf.predict(0))
+print("Survival probability for t=5: ",kmf.predict(5))
+print("Survival probability for t=11: ",kmf.predict(11))
+kmf.predict([0,5,11,12])
+kmf.survival_function_
+kmf.plot()
+plt.title("The Kaplan-Meier Estimate")
+plt.xlabel("Number of days")
+plt.ylabel("Probability of survival")
+print("The median survival time: ",kmf.median_survival_time_)
+kmf.confidence_interval_survival_function_
+confidence_surv_func = kmf.confidence_interval_survival_function_
+plt.plot(confidence_surv_func["KM_estimate_lower_0.95"],label="Lower")
+plt.plot(confidence_surv_func["KM_estimate_upper_0.95"],label="Upper")
+plt.title("Survival Function With Confidence Interval")
+plt.xlabel("Number of days")
+plt.ylabel("Survival Probability")
+plt.legend()
+kmf.cumulative_density_
+kmf.plot_cumulative_density()
+plt.title("Cumulative Density Plot")
+plt.xlabel("Number of days")
+plt.ylabel("Probability of person's death")
+kmf.confidence_interval_cumulative_density_
+confidence_cumulative_density = kmf.confidence_interval_cumulative_density_
+plt.plot(kmf.confidence_interval_cumulative_density_["KM_estimate_lower_0.95"],label="Lower")
+plt.plot(kmf.confidence_interval_cumulative_density_["KM_estimate_upper_0.95"],label="Upper")
+plt.title("Cumulative Density With Confidence Interval")
+plt.xlabel("Number of days")
+plt.ylabel("Cumulative Density")
+plt.legend()
+kmf.cumulative_density_at_times(times=1022)
+kmf.conditional_time_to_event_
+median_time_to_event = kmf.conditional_time_to_event_
+plt.plot(median_time_to_event,label="Median Time left")
+plt.title("Medain time to event")
+plt.xlabel("Total days")
+plt.ylabel("Conditional median time to event")
+plt.legend()
+from lifelines import NelsonAalenFitter
+naf = NelsonAalenFitter()
+naf.fit(data["time"], event_observed=data["dead"])
+naf.cumulative_hazard_
+naf.plot_cumulative_hazard()
+plt.title("Cumulative Probability for Event of Interest")
+plt.xlabel("Number of days")
+plt.ylabel("Cumulative Probability of person's death")
+print("Time = 500 days: ",naf.predict(500))
+print("Time = 1022 days: ",naf.predict(1022))
+naf.confidence_interval_
+confidence_interval = naf.confidence_interval_
+plt.plot(confidence_interval["NA_estimate_lower_0.95"],label="Lower")
+plt.plot(confidence_interval["NA_estimate_upper_0.95"],label="Upper")
+plt.title("Cumulative hazard With Confidence Interval")
+plt.xlabel("Number of days")
+plt.ylabel("Cumulative hazard")
+plt.legend()
+kmf.plot_cumulative_density(label="Cumulative Hazard")
+naf.plot_cumulative_hazard(label="Cumulative Density")
+plt.xlabel("Number of Days")

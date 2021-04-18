@@ -1,0 +1,2 @@
+number = random.randint( 9)
+    guess = int())

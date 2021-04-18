@@ -1,0 +1,11 @@
+startTime = ()
+   target = ('Enter the host to be scanned: ')
+   t_IP = (target)
+   p('Starting scan on host: ', t_IP)
+   for i in (50, 500):
+      s = (AF_INET, SOCK_STREAM)
+      conn = ((t_IP, i))
+      (conn == 0) :
+         p('Port %d: OPEN' % (i,))
+      ()
+('Time taken:', time.time() - startTime)

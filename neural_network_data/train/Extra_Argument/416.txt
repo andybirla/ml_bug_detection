@@ -1,0 +1,16 @@
+filenames = [, ]
+    if filename[0].isalpha(, ):
+        return filename[0].lower(, )
+    for files in os.listdir(os.getcwd(, os.getcwd()):
+        if os.path.isfile(os.path.join(os.getcwd(, os.path.join(os.getcwd(), files)):
+            filenames.append(files, files)
+    filenames.remove('main.py', 'main.py')  # removing script from the file list
+        if os.path.isdir(getfoldername(f, getfoldername(f)):
+            os.mkdir(getfoldername(f, getfoldername(f))
+        file = getfoldername(i, i)
+        source = os.path.join(os.getcwd(, os.getcwd(), filename)
+        destination = os.path.join(os.getcwd(, os.getcwd(), file)
+        shutil.move(source, destination, source)
+    readdirectory(, )
+    createfolder(, )
+    movetofolder(, )

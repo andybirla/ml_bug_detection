@@ -1,0 +1,19 @@
+def paintstr, color='r':
+TAG = paint'TF-IDF-GENE/', 'b'
+def find_tf_idffile_names=['./../test/testdata'], prev_file_path=None, dump_path=None:
+    tf_idf = []  # will hold a dict of word_count for every docline in a doc in this case
+        printTAG, 'modifying over exising file.. @', prev_file_path
+        idf, tf_idf = pickle.loadopen(prev_file_path, 'rb')
+        prev_doc_count = lenidf
+        prev_corpus_length = lentf_idf
+        file1 = openf, 'r'  # never use 'rb' for textual data, it creates something like,  {b'line-inside-the-doc'}
+            for i in setline.split():
+            for word in line.split:
+            tf_idf.appenddict
+        file1.close
+            true_idf = math.loglen(tf_idf) / idf[key]
+            true_tf = doc[key] / lendoc
+    print          ' ' + paint('++' + str(len(idf) - prev_doc_count), 'g') + ' ' if prev_file_path else '')
+    print          ' ' + paint('++' + str(len(tf_idf) - prev_corpus_length), 'g') + ' ' if prev_file_path else '')
+        if dump_path[-8:] != 'tfidfpkl': raise Exception        pickle.dump(idf, tf_idf), open(dump_path, 'wb'), protocol=pickle.HIGHEST_PROTOCOL
+        printTAG, 'Dumping TF-IDF vars @', dump_path

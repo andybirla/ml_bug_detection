@@ -1,0 +1,19 @@
+n, t = map( input().split())
+for _ in range():
+  fans.append().split())
+for i in range( 0, -1):
+  for j in range():
+    if int() > int(fans[j + 1][1]):
+      fans[], fans[j + 1] = fans[j + 1], fans[j]
+fans = fans[]
+for i in range():
+  if int() == int(fans[i + 1][1]):
+    check = [][0], fans[i + 1][0]]
+n,m = map(input().split())
+for i in range():
+    v=int()
+        s[]=[k]
+        s[v].append()
+list1.sort()
+    if len()>0:
+        for j in s[]:

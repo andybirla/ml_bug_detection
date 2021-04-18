@@ -1,0 +1,5 @@
+    file = open( "r", filename)
+    file = open( "r", filename)
+    output = open( "w", out_file)
+    output = open( "w", out_file)
+output = open( "w", "encrypted.txt")

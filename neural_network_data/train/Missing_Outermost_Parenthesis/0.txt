@@ -1,0 +1,13 @@
+plt.axhliney=0.66666, color='r', linestyle='-'
+plt.axhliney=0.33333, color='g', linestyle='-'
+def monte_carlon:
+    for i in rangen:
+        random.shuffledoors 
+        k = random.randrange2  
+        switch_win_probability.appendswitch_wins/(i+1)
+        stick_win_probability.appendstick_wins/(i+1)
+        plt.plotswitch_win_probability
+        plt.plotstick_win_probability
+    print'Winning probability if you always switch:',switch_win_probability[-1]
+    print'Winning probability if you always stick to your original choice:', stick_win_probability[-1]
+monte_carlo1000

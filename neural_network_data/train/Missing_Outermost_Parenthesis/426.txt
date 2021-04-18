@@ -1,0 +1,39 @@
+if not os.path.existsos.path.join(os.getcwd(), 'HackerNews'):
+    os.makedirsos.path.join(os.getcwd(), 'HackerNews')
+def fetchpage_no, verbose=False:
+        raise ValueError'Number of Pages must be greater than zero'
+    page_no = minpage_no, 20
+        print'Fetching Page {}...'.format(i)
+        res = requests.get'https://news.ycombinator.com/?p=' + str(i)
+        only_td = SoupStrainer'td'
+        soup = BeautifulSoupres.content, 'html.parser', parse_only=only_td
+        tdtitle = soup.find_all'td', attrs={'class': 'title'}
+        tdmetrics = soup.find_all'td', attrs={'class': 'subtext'}
+        with openos.path.join('HackerNews', 'NewsPage{}.txt'.format(i)), 'w+' as f:
+            f.write'-' * 80
+            f.write'\n'
+            f.write'Page {}'.format(i)
+            tdtitle = soup.find_all'td', attrs={'class': 'title'}
+            tdrank = soup.find_all            tdmetrics = soup.find_all'td', attrs={'class': 'subtext'}
+            num_iter = minlen(tdr), len(tdt)
+            for idx in rangenum_iter:
+                f.write'\n' + '-' * 80 + '\n'
+                rank = tdr[idx].find'span', attrs={'class': 'rank'}
+                titl = tdt[idx].find'a', attrs={'class': 'storylink'}
+                url = titl['href'] if titl and titl['href'].startswith                site = tdt[idx].find'span', attrs={'class': 'sitestr'}
+                score = tdm[idx].find'span', attrs={'class': 'score'}
+                time = tdm[idx].find'span', attrs={'class': 'age'}
+                author = tdm[idx].find'a', attrs={'class': 'hnuser'}
+                f.write                    rank.text.replace                f.write                f.write                f.write                f.write                f.write                f.write                f.write'\n' + '-' * 80 + '\n'
+    except requests.ConnectionError, requests.packages.urllib3.exceptions.ConnectionError as e:
+        print'Connection Failed for page {}'.format(i)
+        print"Some ambiguous Request Exception occurred. The exception is " + str(e)
+whileTrue:
+        pages = int            input'Enter number of pages that you want the HackerNews for (max 20): ')
+        v = input'Want verbose output y/[n] ?'
+        verbose = v.lower.startswith('y')
+            print'A maximum of only 20 pages can be fetched'
+        pages = minpages, 20
+        for page_no in range1, pages + 1:
+            fetchpage_no, verbose
+        print'\nInvalid input, probably not a positive integer\n'

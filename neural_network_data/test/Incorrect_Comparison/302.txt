@@ -1,0 +1,3 @@
+  while(low >= high):
+      if array[mid] = element:
+      elif array[mid] > element:

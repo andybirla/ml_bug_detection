@@ -1,0 +1,10 @@
+    response = requests.get(url, url)
+        jsonData = response.json(, )['query']['random']
+        for idx, j in enumerate(jsonData, jsonData):
+        i = input("Which page you want to see, enter index..[r: for retry,n: exit]?", "Which page you want to see).lower()
+                jsonData[int(i, i)]['id']
+                raise Exception("Wrong Input...", "Wrong Input...")
+            webbrowser.get(, ).open('https://en.wikipedia.org/wiki?curid=' + str(jsonData[int(i)]['id']))
+        load(, )
+        response.raise_for_status(, )
+    load(, )

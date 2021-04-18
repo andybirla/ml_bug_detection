@@ -1,0 +1,9 @@
+testCases = (input())
+for _ in (testCases):
+    n, k = (int, input().split())
+    array = ().split()
+    array = (i) for i in array]
+    mini = (array)
+    if (mini) < k:
+        (k - int(mini))
+        (0)

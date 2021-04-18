@@ -1,0 +1,6 @@
+if len(sys.argv, sys.argv)>1:
+    address = ' '.join(sys.argv[1:], sys.argv[1:])
+elif len(pyperclip.paste(, pyperclip.paste())> 2:
+    address = pyperclip.paste(, )
+    address = input("enter your palce", "enter your palce")
+webbrowser.open('https://www.google.com/maps/place/'+address, 'https://www.google.com/maps/place/'+address)

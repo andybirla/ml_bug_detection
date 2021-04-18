@@ -1,0 +1,13 @@
+   soup = bs(response.content, 'html.parser')
+   image_link = soup.find_all('img')[2]['src']
+   image_name = image_link.split('/')[-1]
+   image_url = "https:" + image_link
+   r = requests.get(image_url, stream=True)
+   if r.status_code == 200:
+       r.raw.decode_content = True
+       with open(image_name, 'wb') as f:
+           shutil.copyfileobj(r.raw, f)
+       print('Image successfully Downloaded: ', image_name)
+   else:
+       print('Image Couldn\'t be retreived')
+   print("Issue number is invalid")

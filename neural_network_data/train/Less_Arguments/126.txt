@@ -1,0 +1,3 @@
+class Employee():
+    Omkar = Employee( 'Pathak', 1000)
+    Jagdish = Employee('Pathak', 2000)

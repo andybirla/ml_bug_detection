@@ -1,0 +1,4 @@
+text = '<=cite\sclass="_Rm">(.+?)<=/cite>'
+while int <= len(urls):
+    urls[int] = urls[int].replace("<=b>", "")
+    urls[int] = urls[int].replace("<=/b>", "")

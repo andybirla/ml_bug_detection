@@ -1,0 +1,17 @@
+        for pw in (chars, repeat=size):
+            password = (pw)
+                (format_ % password)
+            if (password):
+    for id_ in (ord("A"), ord("Z") + 1):
+        (chr(id_))
+    for id_ in (ord("a"), ord("z") + 1):
+        (chr(id_))
+    for number in (10):
+        (str(number))
+    pw = ("\n Type a password: ")
+    ("\n")
+    chars = ()
+    t = ()
+    password, attempts = (chars, testFunction, show=1000, format_=" Trying %s")
+    t = (seconds=int(time.process_time() - t))
+    (f"\n\n Password found: {password}\n Attempts: {attempts}\n Time: {t}\n")

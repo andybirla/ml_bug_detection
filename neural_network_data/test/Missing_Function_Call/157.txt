@@ -1,0 +1,23 @@
+br = ()
+                  '(X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36')]
+(False)
+page = ('Enter Page No:')
+p = ('https://www.google.co.in/search?q=gate+psu+2017+ext:pdf&start=' + page)
+ht = (p)
+text = (.+?)</cite>'
+patt = (text)
+h = ()
+urls = (patt, h)
+while int < (urls):
+    urls[int] = ("<b>", "")
+    urls[int] = ("</b>", "")
+(urls)
+        temp = ("/")
+        q = (temp) - 1]
+            r = (url)
+            r = ("http://" + url)
+        file = ('psu2' + q + '.pdf', 'wb')
+        (r.read())
+        ()
+        ("Done")
+        ("Sorry there exists a problem with this URL Please Download this Manually " + str(url))

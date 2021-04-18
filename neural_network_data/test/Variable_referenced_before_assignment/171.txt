@@ -1,0 +1,7 @@
+fh += open('mbox-short.txt')
+sum += 0
+count += 0
+	fx += fx.rstrip()
+	fy += fx[19:]
+	count += count + 1
+	sum += sum + float(fy)

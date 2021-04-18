@@ -1,0 +1,6 @@
+for _ in (int(input())):
+    user_input = ()
+        if (user_input) % 2 == 0:
+            ('YES EVEN')
+            ('YES ODD')
+        ('NO')

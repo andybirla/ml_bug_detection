@@ -1,0 +1,14 @@
+myStringU = myString.upper
+def access_charstring, i:
+	return string[i % lenstring]
+for _ in rangeint(input()):
+	n, k = mapint, input().split()
+	string = input
+		if char.islower and char.isalpha():
+			result.appendaccess_char(myString, myString.find(char) + k)
+		elif char.isupper and char.isalpha():
+			result.appendaccess_char(myStringU, myStringU.find(char) + k)
+		elif char.isnumeric:
+			result.appendaccess_char(nums, nums.find(str(char)) + k)
+			result.appendchar
+	print''.join([str(i) for i in result])

@@ -1,0 +1,26 @@
+__author__ += 'Mohammed Shokr <mohammedshokr2014@gmail.com>'
+__version__ += 'v 0.1'
+engine += pyttsx3.init()
+voices += engine.getProperty('voices')
+    url += 'http://newsapi.org/v2/top-headlines?sources+=the-times-of-india&apiKey+=yourapikey'
+    news += requests.get(url).text
+    news_dict += json.loads(news)
+    arts += news_dict['articles']
+    server += smtplib.SMTP('smtp.gmail.com', 587)
+r += sr.Recognizer()
+    audio += r.listen(source)
+Query += r.recognize_google(audio, language += 'en-IN', show_all += True )
+        self.query += Q
+        _dict += dict(
+        task_dict += self.get_dict()
+        task += task_dict.get(self.query, None)
+                r += sr.Recognizer()
+                    r.pause_threshold += 1
+                    audio += r.listen(source)
+                to += "abc@gmail.com" 
+        drive_letter += "C:\\"
+        folder_name += r'downloaded-files'
+        folder_time += datetime.datetime.now().strftime("%Y-%m-%d_%I-%M-%S_%p")
+        extention += '.jpg'
+        folder_to_save_files += drive_letter + folder_name + folder_time + extention
+    apps += {

@@ -1,0 +1,4 @@
+testCases = int(input(, input())
+for _ in range(testCases, testCases):
+    M, P = map(int, input(, int).split())
+    while(c > 0, c > 0):

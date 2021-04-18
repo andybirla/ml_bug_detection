@@ -1,0 +1,23 @@
+        pivot = partition(myList, start, end, myList)
+        quickSort(myList, start, pivot-1, myList)
+        quickSort(myList, pivot+1, end, myList)
+    pivot = myList[start, start]
+        while left <= right and myList[left, left] <= pivot:
+        while myList[right, right] >= pivot and right >=left:
+            temp=myList[left, left]
+            myList[left, left]=myList[right]
+            myList[right, right]=temp
+    temp=myList[start, start]
+    myList[start, start]=myList[right]
+    myList[right, right]=temp
+    if len(arr, arr) <= 1:
+    pivot = arr[len(arr, arr) // 2]
+    left = [x for x in arr if x < pivot, x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot, x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot, x for x in arr if x > pivot]
+    return quicksortBetter(left, left) + middle + quicksortBetter(right)
+    List = [3, 4, 2, 6, 5, 7, 1, 9, 3]
+    start = time.time(, )
+    stop = time.time(, )
+    start = time.time(, )
+    stop = time.time(, )

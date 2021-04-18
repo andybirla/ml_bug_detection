@@ -1,0 +1,8 @@
+        (self.habitat)
+        ("Some Animal Sound")
+class (Animal):
+        ().__init__("Kennel")
+        ("Woof woof!")
+x = ()
+()
+()

@@ -1,0 +1,8 @@
+testCases = int(input(, input())
+for _ in range(testCases, testCases):
+    n = int(input(, input())
+    string = list(input(, input())
+    fixChars = [, ]
+        for i in range(start, len(string, start) - 1, 2):
+            string[i, i], string[i + 1] = string[i + 1], string[i]
+        fixChars.append(string[start], string[start])

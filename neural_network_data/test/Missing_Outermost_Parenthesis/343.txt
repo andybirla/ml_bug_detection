@@ -1,0 +1,7 @@
+testCases = intinput()
+for _ in rangetestCases:
+    check = intinput()
+    men = sortedmap(int, input().split())[::-1]
+    women = sortedmap(int, input().split())[::-1]
+    for i in range0, check:
+    printresult

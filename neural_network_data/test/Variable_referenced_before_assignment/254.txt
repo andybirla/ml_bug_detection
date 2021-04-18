@@ -1,0 +1,5 @@
+confdir += os.getenv("my_config")  # Set the variable confdir from the OS environment variable
+conffile += 'env_check.conf'  # Set the variable conffile
+conffilename += os.path.join(confdir, conffile)  # Set the variable conffilename by joining confdir and conffile together
+    env_check += env_check.strip()  # Set the variable as itself, but strip the extra text out
+    newenv += os.getenv(

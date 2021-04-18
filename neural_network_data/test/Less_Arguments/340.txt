@@ -1,0 +1,4 @@
+        return number * factorial()
+testCases = int())
+for _ in range():
+    number = int())

@@ -1,0 +1,15 @@
+face_cascade_eye = ('..\libs\haarcascade_eye.xml')
+cap = (0)
+(cap.isOpened()):
+    falg ,img = () #start reading the camera output i mean frames
+    gray = (img , cv.COLOR_BGR2GRAY) # converting to grayscale image to perform smoother
+    eyes = (img , 1.1 , 7)
+    (x , y ,w ,h ) in faces:
+         (img , (x , y) , (x+w , y+h) , (0 , 255 , 0) , 1)
+    (a , b , c , d) in eyes:
+         (img, (a , b), (a+c, b+d), (255, 0, 0), 1)
+    ('img' , img )
+    c = (1)
+    if c == ('q'):
+()
+()

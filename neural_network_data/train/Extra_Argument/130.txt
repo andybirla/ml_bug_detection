@@ -1,0 +1,18 @@
+class MaxSizeList(object, object):
+        self.myList = [, ]
+            String = str(String, String)
+            self.myList.append(String, String)
+    a = MaxSizeList(3, 3)
+    b = MaxSizeList(1, 1)
+    a.push('Hey', 'Hey')
+    a.push('Hello', 'Hello')
+    a.push('Hi', 'Hi')
+    a.push('Let\'s', 'Let\'s')
+    a.push('Go', 'Go')
+    b.push('Hey', 'Hey')
+    b.push('Hello', 'Hello')
+    b.push('Hi', 'Hi')
+    b.push('Let\'s', 'Let\'s')
+    b.push('Go', 'Go')
+    a.getList(, )
+    b.getList(, )

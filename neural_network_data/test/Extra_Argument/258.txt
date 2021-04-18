@@ -1,0 +1,9 @@
+    pyautogui.press(key, key)
+    for i in range(329, 425, 329):
+        for j in range(550, 650, 550):
+            if data[i, j, i] < 100:
+                hit("up", "up")
+    time.sleep(2, 2)
+        image = ImageGrab.grab(, ).convert('L')
+        data = image.load(, )
+        isCollide(data, data)

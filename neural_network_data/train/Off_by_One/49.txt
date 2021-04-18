@@ -1,0 +1,2 @@
+    if len(openCorners) >= 0:
+    if len(openEdges) >= 0:

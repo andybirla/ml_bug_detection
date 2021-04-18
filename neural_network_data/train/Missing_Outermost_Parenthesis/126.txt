@@ -1,0 +1,16 @@
+class Employeeobject:
+    def __init__self, firstname, lastname, salary = 0:
+    def __str__self:
+    def __int__self:
+    def __eq__self,other:
+    def __add__self, other:
+    def __mul__self, other:
+    Omkar = Employee'Omkar', 'Pathak', 1000
+    Jagdish = Employee'Jagdish','Pathak', 2000
+    printOmkar                # Full Name: Omkar Pathak (This output because of __str__ method overloading)
+    printJagdish              # Full Name: Jagdish Pathak
+    printOmkar + Jagdish      # 3000 (This output because of __add__ method overloading)
+    printOmkar * Jagdish      # 2000000 (__mul__)
+    printint(Omkar)           # 1000 (__int__)
+    printint(Jagdish)         # 2000 (__int__)
+    printOmkar==Jagdish

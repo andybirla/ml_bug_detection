@@ -1,0 +1,16 @@
+def text_translatorText:         
+  translator = Translator
+  translated = translator.translateText, dest='en'
+text_translator'Cidades brasileiras integram programa de preservação de florestas'  # portuguese to english
+text_translator'Guten Morgen, wie gehts?'     # german to english
+text_translator'Ami tumake bhalobashi'        # bengali to english
+text_translator'ਮੈਨੂੰ ਇੱਕ ਗੱਲ ਦੱਸੋ'         # punjabi to english
+text_translator'I am fine'            # english text remains constant
+def eng2punj_translatorText:                # english to punjabi translator
+  translator = Translator
+  translated = translator.translateText, dest='pa'
+eng2punj_translator'Meet you soon'
+def eng2beng_translatorText:               # english to bengali translator
+  translator = Translator
+  translated = translator.translateText, dest='bn'
+eng2beng_translator'So happy to see you'

@@ -1,0 +1,7 @@
+for _ in (int(input())):
+  n = (input())
+  array = (i) for i in input().split()]
+  ()
+  stones1 = ([array[i] for i in range(0, n, 2)])
+  stones2 = ([array[i] for i in range(1, n, 2)])
+  (max(stones2, stones1)) 

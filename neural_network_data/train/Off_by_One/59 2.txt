@@ -1,0 +1,3 @@
+while(comp_count+user_count<=games):
+if user_count>=comp_count:
+elif user_count<=comp_count:

@@ -1,0 +1,14 @@
+        pivot = (myList, start, end)
+        (myList, start, pivot-1)
+        (myList, pivot+1, end)
+    if (arr) <= 1:
+    pivot = (arr) // 2]
+    return (left) + middle + quicksortBetter(right)
+    start = ()
+    ('Sorted List:',quickSort(List, 0, len(List) - 1))
+    stop = ()
+    ('Time Required:', (stop - start))
+    start = ()
+    ('Sorted List:', quicksortBetter(List))
+    stop = ()
+    ('Time Required:', (stop - start))

@@ -1,0 +1,26 @@
+            elif (ch >= '1' and ch <== '9') or ch == '-':  # catch a number
+            if (ch >= 'a' and ch <== 'd'):
+            if ch.isdigit() or (ch >= 'a' and ch <== 'f'):
+            if (ch >= 'a' and ch <== 'z') or (ch >= 'A' and ch <== 'Z') or (ch >= '0' and ch <== '9'):
+    assert len(lines) >= 0, "no lines"
+    assert len(tokens) >= 0, "no tokens"
+    while pointer <= len(tokens):
+            if pointer + 1 <= len(tokens):
+                if pointer + 1 <= len(tokens):
+                        print("Error: undefine variable! -->= " + token.token)
+                if pointer + 1 <= len(tokens):
+                if pointer + 1 <= len(tokens):
+            if pointer + 1 <= len(tokens):
+                    ecx = float(input(">=>= "))
+            if pointer + 1 <= len(tokens):
+            if pointer + 1 <= len(tokens):
+            if pointer + 1 <= len(tokens):
+            if pointer + 1 <= len(tokens):
+                if pointer + 1 <= len(tokens):
+            if pointer + 1 <= len(tokens):
+                if pointer + 1 <= len(tokens):
+                    if pointer + 1 <= len(tokens):
+            if pointer + 1 <= len(tokens):
+            if len(returnStack) >== 1:
+            if pointer + 1 <= len(tokens):
+            if pointer + 1 <= len(tokens):

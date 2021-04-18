@@ -1,0 +1,10 @@
+pattern = ("\W") #re is used to compile the expression more than once
+wordlist = () #splits each word with a space
+for x, y in (wordlist):
+    special_character = (y[-1:]) #searches for a pattern in the string
+        if ():  #returns all matching groups
+wordfreq = (w) for w in wordlist]  #counts frequency of a letter in the given list
+("String\n {} \n".format(wordstring))
+("List\n {} \n".format(str(wordlist)))
+("Frequencies\n {} \n".format(str(wordfreq)))
+("Pairs\n {}".format(str(dict(zip(wordlist, wordfreq)))))

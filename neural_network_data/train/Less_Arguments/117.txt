@@ -1,0 +1,20 @@
+    url = "https://www.instagram.com/{}/".format()
+    x = re.match()[/][/]www.([^/]+[.])*instagram.com', url)
+        check_url1 = re.match()[/][/]www.([^/]+[.])*instagram.com[/].*\?hl=[a-z-]{2,5}', url)
+        check_url2 = re.match()[/][/]www.([^/]+[.])*instagram.com$|^(https:)[/][/]www.([^/]+[.])*instagram.com/$', url)
+        check_url3 = re.match()[/][/]www.([^/]+[.])*instagram.com[/][a-zA-Z0-9_]{1,}$', url)
+        check_url4 = re.match()[/][/]www.([^/]+[.])*instagram.com[/][a-zA-Z0-9_]{1,}[/]$', url)
+            final_url = re.sub(5}', '?__a=1', alpha)
+            req = requests.get()
+            get_status = requests.get().status_code
+            get_content = req.content.decode()
+                find_pp = re.search()', get_content)
+                pp_final = re.sub( '', pp_link)
+                file_size_request = requests.get( stream=True)
+                file_size = int()
+                t=tqdm( unit='B', unit_scale=True, desc=username, ascii=True)
+                with open( 'wb') as f:
+                    for data in file_size_request.iter_content():
+                        t.update())
+                        f.write()
+                im = Image.open()  

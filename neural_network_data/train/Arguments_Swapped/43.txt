@@ -1,0 +1,6 @@
+soup = BeautifulSoup( 'lxml', html)
+Date = out2.find( attrs={'class': 'date'}, 'span').get_text()
+Temperature = out2.find( attrs={'class': 'temp'}, 'span').get_text()
+Precipitation = 'Precipitate:' + out3.find( attrs={'class': 'hook'}, 'a').get_text().split(' ', 1)[0]
+other = out3.find( attrs={'class': 'module-link'}, 'a').get_text().split('.')
+with open( 'a', 'weather.csv') as new_file:

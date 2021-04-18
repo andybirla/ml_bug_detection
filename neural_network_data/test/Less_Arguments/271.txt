@@ -1,0 +1,11 @@
+root.geometry()
+    user_input=re.sub( " ", user_input) #substitute / with space
+    user_input=re.sub( " ", user_input) #substitute - with space 
+    born = datetime.datetime.strptime( '%d %m %Y').weekday() #this statement returns an integer corresponding to the day of the week
+    return () #this statement returns the corresponding day name to the integer generated in the previous statement
+    date=process_date()
+    c="Day on " +user_input + "  is "+ find_day() 
+    label2 = tk.Label(text=c,font=("Times new roman",20),fg='black').place(x=20,y=200)
+lbl = tk.Label(text="Date --",font=("Ubuntu",20),fg="black").place(x=0,y=0.1,height=60,width=150)
+lbl1 = tk.Label(text="(DD/MM/YYYY)",font=("Ubuntu",15),fg="Gray").place(x=120,y=0.1,height=60,width=150)
+Date= tk.Entry(font=("Times new roman",20),textvariable=user_input1,bg="white",fg="black").place(x=30,y=50,height=40,width=340)    

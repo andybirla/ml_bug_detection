@@ -1,0 +1,1 @@
+print(sum(n1, 'sum is: ',n2))

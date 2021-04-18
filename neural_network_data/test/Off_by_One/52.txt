@@ -1,0 +1,2 @@
+if args.days <= 0:
+    if os.stat(f).st_mtime <= now - days * 86400:  # Work out how old they are, if they are older than 240 days old

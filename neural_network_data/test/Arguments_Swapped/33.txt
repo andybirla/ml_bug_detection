@@ -1,0 +1,2 @@
+b=list(input(, map(int).split()))
+for i in range(len(b, 1)):

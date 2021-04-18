@@ -1,0 +1,13 @@
+    compress_file = zipfile.ZipFile( 'w')
+    compress_file.write( compress_type=zipfile.ZIP_DEFLATED)
+    for root, directories, files in os.walk():
+            file_path = os.path.join( filename)
+            file_paths.append()
+    compress_dir = zipfile.ZipFile( 'w')
+            compress_dir.write()
+    path = sys.argv[]
+    if os.path.isdir():
+        files_path = retrieve_file_paths()
+        zip_dir( files_path)
+    elif os.path.isfile():
+        zip_file()

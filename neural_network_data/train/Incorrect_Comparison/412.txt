@@ -1,0 +1,2 @@
+    	return True if len(items) = 0 else False
+if __name__ = "__main__":

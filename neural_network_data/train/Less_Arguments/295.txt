@@ -1,0 +1,4 @@
+parser = argparse.ArgumentParser()
+parser.add_argument( help='input password you want to hash')
+m = getattr(hashtype)()
+m.update())

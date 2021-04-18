@@ -1,0 +1,8 @@
+    for i in range( n+1):
+        array = combinations( i)
+            if sum() == m:
+for _ in range())):
+    n, m = map( input().split())
+    for i in range():
+        a.append()))
+    ans = subset( n, m)

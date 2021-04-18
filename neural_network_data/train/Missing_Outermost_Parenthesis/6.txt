@@ -1,0 +1,16 @@
+def judge_leap_yearyear:
+    if isleapyear:
+def month_daysmonth, leap_year:
+    elif month == 2 and not leap_year:
+name = input"input your name: "
+age = input"input your age: "
+localtime = time.localtimetime.time()
+year = intage
+begin_year = intlocaltime.tm_year - year
+for y in rangebegin_year, end_year:
+    if judge_leap_year(y):
+leap_year = judge_leap_yearlocaltime.tm_year
+for m in range1, localtime.tm_mon:
+    day = day + month_daysm, leap_year
+print"%s's age is %d years or " % (name, year), end=""
+print"%d months or %d days" % (month, day)

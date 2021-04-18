@@ -1,0 +1,6 @@
+   global im1
+   if im1 is None:
+       tk.messagebox.showerror("Error", "No File selected")
+   else:
+       export_file_path = filedialog.asksaveasfilename(defaultextension='.png')
+       im1.save(export_file_path)

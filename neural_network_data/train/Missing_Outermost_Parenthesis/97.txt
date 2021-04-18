@@ -1,0 +1,8 @@
+def produce:
+    for i in range0,5:
+        time.sleep1
+        queue.appendrandint(0,9)
+def consume:
+        if lenqueue > 0:
+    p = threading.Threadtarget=produce
+    c = threading.Threadtarget=consume

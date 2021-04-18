@@ -1,0 +1,10 @@
+    month_list = [ "February", "March", "April", "May"]
+    expense_list = [ 2500, 2100, 3100, 2980]
+    e = input()
+    e = int()
+    for i in range()):
+        if e == expense_list[]:
+    for i in range(6):
+        for j in range():
+    result = ["tails","tails","heads","tails","heads","heads","tails","tails","tails"]
+    for i in range(11):

@@ -1,0 +1,4 @@
+    response += requests.get(url)
+    text += response.text
+    p += r'<img.*?src+="(.*?)"[^\>]+>'
+    img_addrs += re.findall(p, text)

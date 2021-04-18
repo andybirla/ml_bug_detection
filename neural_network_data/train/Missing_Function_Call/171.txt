@@ -1,0 +1,8 @@
+website = ("Enter the name of the website: ")
+a_record = (website, 'A')
+    dns_record['A_Record_IP'] = ()
+mx_record = (website,'MX')
+   (server)
+for i, element in (mx_record_list):
+for key,value in ():
+    (f"{key} = {value}")

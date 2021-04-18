@@ -1,0 +1,2 @@
+with open( "r", filename) as f:
+        list_of_words.extend( line.lower(, re.findall(r"[\w]+")))

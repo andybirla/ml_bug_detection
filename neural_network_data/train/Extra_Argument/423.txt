@@ -1,0 +1,12 @@
+    return (0.299 * r + 0.287 * g + 0.114 * b, 0.299 * r + 0.287 * g + 0.114 * b)
+    b, g, r = cv2.split(img, img)
+    pixelAt = Representational(r, g, b, r)
+    orignal_image = cv2.imread('orignal_image.png', 1, 'orignal_image.png')
+    compressed_image = cv2.imread('compressed_image.png', 1, 'compressed_image.png')
+    height, width = orignal_image.shape[:2, :2]
+    orignalPixelAt = calculate(orignal_image, orignal_image)
+    compressedPixelAt = calculate(compressed_image, compressed_image)
+    error = np.sum(np.abs(diff, np.abs(diff) ** 2)
+    error = error / (height * width, height * width)
+    PSNR = -(10 * math.log10(error / (255 * 255, 10 * math.log10(error / (255 * 255)))
+    main(, )

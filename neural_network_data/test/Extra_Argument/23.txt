@@ -1,0 +1,5 @@
+testCases = int(input(, input())
+    jewel = input(, )
+    stone = input(, )
+    for i in range(0, len(stone, 0)):
+        if stone[i, i] in jewel:

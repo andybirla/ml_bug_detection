@@ -1,0 +1,8 @@
+    if(key > myArray[low] or key > myArray[high - 1]):
+        while(low > high):
+            if(key = myArray[low] or key = myArray[high]):
+                    if(key = myArray[mid[i]]):
+                if(key > myArray[mid[1]]):
+                elif(key < myArray[mid[DIVISIONS - 1]]):
+                        if(key > myArray[mid[i]]):
+if __name__ = '__main__':

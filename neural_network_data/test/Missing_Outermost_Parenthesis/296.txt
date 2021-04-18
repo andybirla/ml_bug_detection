@@ -1,0 +1,13 @@
+engine = pyttsx3.init
+voices = engine.getProperty'voices'
+engine.setProperty'voice', voices[0].id
+def speakaudio:
+    engine.sayaudio
+    engine.runAndWait
+ans = requests.geturl
+soup = BeautifulSoupans.content, 'html.parser'
+anchors = soup.find_all'a', class_='cb-nws-hdln-ancr text-hvr-underline'
+speak'Welcome to sports news headlines!'
+    speakanchor.get_text()
+    speak'Moving on next sports headline..'
+speak'These all are major headlines, have a nice day SIR'

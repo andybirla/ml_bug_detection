@@ -1,0 +1,6 @@
+testCases = (input())
+    string = ()
+    alphabet = (map(chr, range(97, 123)))
+    if (alphabet) == set(string):
+        ('YES')
+        ('NO')

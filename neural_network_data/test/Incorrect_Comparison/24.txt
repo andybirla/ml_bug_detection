@@ -1,0 +1,2 @@
+        elif (len(string) <= int(K[i])):
+    if flag = 1:

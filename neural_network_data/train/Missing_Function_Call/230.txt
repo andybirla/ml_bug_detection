@@ -1,0 +1,14 @@
+    (len(myList) == 0):
+        ('You don\'t have any elements in array!')
+    for i in (0, len(myList)):
+    bucketCount = ((maxValue - minValue) / bucketSize) + 1
+    for i in (0, bucketCount):
+        ([])
+    for i in (0, len(myList)):
+        ((myList[i] - minValue) / bucketSize)].append(myList[i])
+    for i in (0, len(buckets)):
+        (buckets[i])
+        for j in (0, len(buckets[i])):
+            (buckets[i][j])
+    sortedArray = ([12, 23, 4, 5, 3, 2, 12, 81, 56, 95])
+    (sortedArray)

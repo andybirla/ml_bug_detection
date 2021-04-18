@@ -1,0 +1,3 @@
+    a = input()	 # incorrect spelling
+    b = TextBlob()  #correcting the text
+    t = int())

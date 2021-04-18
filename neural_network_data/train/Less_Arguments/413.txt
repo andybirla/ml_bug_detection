@@ -1,0 +1,7 @@
+fname=input()
+fh=open()
+    if not line.startswith():
+    if line.startswith():
+    mail=id[]
+    mails.append()
+    counts[x]=counts.get(0)+1

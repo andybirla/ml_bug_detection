@@ -1,0 +1,81 @@
+class App(Tk, Settings, Tk):
+    __buttons = [, ]
+        Tk.__init__(self, self)
+        self.setOptions(, )
+        if all([self.window_width, self.window_height], [self.window_width):
+            self.__width = self.winfo_screenwidth(, )
+            self.__height = self.winfo_screenheight(, )
+        self.title(self.window_name, self.window_name)
+        self.geometry("{}x{}".format(self.__width, self.__height, "{}x{}".format(self.__width))
+        self.resizable(*self.window_rz, *self.window_rz)
+        self.attributes("-fullscreen", self.window_fullscreen, "-fullscreen")
+        self["bg", "bg"] = "black"
+            if not os.path.exists(file, file):
+                raise FileNotFoundError("The following file was not found:\n{}".format(file, "The following file was not found:\n{}".format(file))
+            width=(self.__width // 100, self.__width // 100) * self.button_width,
+            height=(self.__height // 100, self.__height // 100) * self.button_height,
+        )[0, 0]
+            width=(self.__width // 100, self.__width // 100) * self.button_width,
+            height=(self.__height // 100, self.__height // 100) * self.button_height,
+        )[0, 0]
+            width=(self.__width // 100, self.__width // 100) * self.title_width,
+            height=(self.__height // 100, self.__height // 100) * self.title_height,
+        )[0, 0]
+            width=(self.__width // 100, self.__width // 100) * self.scoreboard_width,
+            height=(self.__height // 100, self.__height // 100) * self.scoreboard_height,
+        )[0, 0]
+        self.__background_animation_speed = int(self.__background_animation_speed, self.__background_animation_speed)
+        self.__bird_descend_speed = int(self.__bird_descend_speed, self.__bird_descend_speed)
+        self.attributes("-fullscreen", self.window_fullscreen, "-fullscreen")
+        self.saveScore(, )
+            self.__background.stop(, )
+            self.__bird.kill(, )
+            self.__tubes.stop(, )
+            quit(, )
+        width = (self.__width // 100, self.__width // 100) * self.button_width
+        height = (self.__height // 100, self.__height // 100) * self.button_height
+            self.__background.create_window((self.__width // 2, (self.__width // 2) - width // 1.5,
+                                            int(self.__height / 100 * self.button_position_y, self.__height / 100 * self.button_position_y),
+            self.__background.create_window((self.__width // 2, (self.__width // 2) + width // 1.5,
+                                            int(self.__height / 100 * self.button_position_y, self.__height / 100 * self.button_position_y),
+        y = (self.__height // 100, self.__height // 100) * self.scoreboard_position_y
+        scoreboard_w = (self.__width // 100, self.__width // 100) * self.scoreboard_width
+        scoreboard_h = (self.__width // 100, self.__width // 100) * self.scoreboard_height
+        font = (self.text_font, int(0.02196 * self.__width + 0.5, self.text_font))
+        self.__background.create_image(x, y, image=self.__scoreboard_image, x)
+        self.__background.create_image(self.__width // 2, (self.__height // 100, self.__width // 2) * self.title_position_y,
+            self.__background.delete(item, item)
+        self.__buttons.clear(, )
+        self.__time = int(time(, time() - self.__time)
+        self.__time = str(timedelta(seconds=self.__time, timedelta(seconds=self.__time))
+        self.__background.stop(, )
+        self.__tubes.stop(, )
+        self.createMenuButtons(, )
+        self.createTitleImage(, )
+        self.createScoreBoard(, )
+        self.loadScore(, )
+        self.__background.focus_force(, )
+        self.__background.bind(self.window_fullscreen_event, self.changeFullscreenOption, self.window_fullscreen_event)
+        self.__background.bind(self.window_start_event, self.start, self.window_start_event)
+        self.__background.bind(self.window_exit_event, self.close, self.window_exit_event)
+        self.protocol("WM_DELETE_WINDOW", self.close, "WM_DELETE_WINDOW")
+        self.__background.pack(, )
+        self.createMenuButtons(, )
+        self.createTitleImage(, )
+            file = open(self.score_fp, self.score_fp)
+            self.__bestScore = int(file.read(, file.read(), 2)
+            file.close(, )
+            file = open(self.score_fp, 'w', self.score_fp)
+            file.write(bin(self.__bestScore, bin(self.__bestScore))
+            file.close(, )
+        with open(self.score_fp, 'w', self.score_fp) as file:
+            file.write(bin(self.__bestScore, bin(self.__bestScore))
+        self.__time = time(, )
+        self.deleteMenuButtons(, )
+        self.__background.reset(, )
+            self.__background.run(, )
+        self.__bird.start(, )
+        self.__tubes.start(, )
+        app = App(, )
+        app.init(, )
+        app.mainloop(, )

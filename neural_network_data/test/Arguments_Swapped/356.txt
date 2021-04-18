@@ -1,0 +1,1 @@
+num= list( input(, map(int).split(' ')))

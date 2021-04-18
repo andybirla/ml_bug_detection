@@ -1,0 +1,4 @@
+        if self.ms_to_up < 0:
+        if pygame.time.get_ticks() % 500 <= 250:
+        if pygame.time.get_ticks() % 500 <= 250:
+        return -PipePair.WIDTH > self.x > W_WIDTH

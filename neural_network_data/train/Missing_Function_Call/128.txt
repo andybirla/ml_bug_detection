@@ -1,0 +1,6 @@
+("Elon Musk","10000")
+(user1.name)
+(user1.total)
+("Elon Musk","10000")
+(user1.name)
+(user1.total)

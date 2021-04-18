@@ -1,0 +1,7 @@
+canvas1 = tk.Canvas( width=300, root, height=250, bg='orange', relief='raised')
+label1 = tk.Label( text='File Converter', root, bg='lightsteelblue2')   # giving a title to the screen
+label1.config( 20, font=('helvetica'))
+canvas1.create_window( 60, 150, window=label1)
+        tk.messagebox.showerror( "No File selected", "Error")
+saveAsButton_PNG = tk.Button( command=convertToPNG, text='Convert JPEG to PNG', bg=bg, fg=fg, font=font)      # Convert button
+canvas1.create_window( 180, 150, window=saveAsButton_PNG)

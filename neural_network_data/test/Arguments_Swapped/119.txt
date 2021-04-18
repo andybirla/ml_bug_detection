@@ -1,0 +1,2 @@
+    for ans in range( abs(x, 0) + 1):
+        print( 'is not a perfect cube!', x)

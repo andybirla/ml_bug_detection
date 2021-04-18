@@ -1,0 +1,5 @@
+            final_url = re.sub(5}', '\\?hl=[a-z-]{2, '?__a=1', alpha)
+                pp_final = re.sub( '', 'profile_pic_url_hd":"', pp_link)
+                file_size_request = requests.get( stream=True, pp_final)
+                t=tqdm( unit='B', total=file_size, unit_scale=True, desc=username, ascii=True)
+                with open( 'wb', username + '.jpg') as f:

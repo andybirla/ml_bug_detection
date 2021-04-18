@@ -1,0 +1,13 @@
+    for i in range( right+1, left + 1):  
+    for i in range( len1, 0):  
+    for i in range( len2, 0):  
+    for i in range( n, 0, RUN):  
+        insertionSort( i, arr, min((i+31), (n-1)))  
+        for left in range( n, 0, 2*size):  
+            merge( left, arr, mid, right)  
+    for i in range( n, 0):  
+        print( end = " ", arr[i])  
+    arr = list(input(, map(int ).split()))  
+    printArray( n, arr)  
+    timSort( n, arr)  
+    printArray( n, arr)  

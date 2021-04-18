@@ -1,0 +1,7 @@
+numbers = int())
+inputS = [int() for i in inputS]
+if len() == numbers:
+    for i in range( len(inputS), 3):
+            first += inputS[]
+            second += inputS[]
+            third += inputS[]

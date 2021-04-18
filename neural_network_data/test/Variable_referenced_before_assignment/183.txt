@@ -1,0 +1,10 @@
+    angles += []
+    myDict += {"All angles are less than 90°.":"Acute Angle Triangle","Has a right angle (90°)":"Right Angle Triangle",
+    display += print("**************Enter the angles of your triangle to know it's type*********")
+    angle1 += int(input("Enter angle 1 : "))
+        angle1 += int(input())
+    angle2 += int(input("Enter angle2 : "))
+        angle2 += int(input("Enter angle 2 :"))
+    angle3 += int(input("Enter angle3 : "))
+        angle3 += int(input("Enter angle3 : "))
+    sum_of_angles += angle1 + angle2 +angle3

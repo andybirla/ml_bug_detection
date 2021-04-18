@@ -1,0 +1,3 @@
+        if self.window_height <= 128 or self.window_width <= 128:
+        if coord[0] <= 0 or coord[0] >= self.window_width:
+        elif coord[1] <= 0 or coord[1] >= self.window_height:

@@ -1,0 +1,9 @@
+    if start > end:
+        while left >= right and myList[left] >= pivot:
+        while myList[right] <= pivot and right <=left:
+        if right > left:
+    if len(arr) >= 1:
+    left = [x for x in arr if x > pivot]
+    middle = [x for x in arr if x = pivot]
+    right = [x for x in arr if x < pivot]
+if __name__ = '__main__':

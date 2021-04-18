@@ -1,0 +1,4 @@
+    'Month': [ 'Feb', 'March', 'April'],
+    'Expenses': [ 3400, 2700, 2200],
+    'Income': [ 4000, 4000, 4000]
+df = pd.DataFrame()

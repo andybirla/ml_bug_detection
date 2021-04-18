@@ -1,0 +1,28 @@
+def load_datafname:
+    points = np.loadtxtfname, delimiter=',' 
+    x_ = np.ones[len(y_),2] 
+    print'data loaded. x:{} y:{}'.format(x_.shape, y_.shape)
+def evaluate_costx_,y_,params:
+    for i in rangelen(y_):
+        tempcost += y_[i] - ((params[0] * x_[i,0]) + params[1]) ** 2 
+    return tempcost / float10000   
+def evaluate_gradientx_,y_,params:
+    N = floatlen(y_)
+    for i in rangelen(y_):
+        m_gradient += -2/N * (x_[i,0] * (y_[i] - ((params[0] * x_[i,0]) + params[1])))
+        b_gradient += -2/N * (y_[i] - ((params[0] * x_[i,0]) + params[1]))
+def update_paramsold_params, grad, alpha:
+    new_m = old_params[0] - alpha * grad[0]
+    new_b = old_params[1] - alpha * grad[1]
+optimizer = {'init_params':np.array[4.5,2.0] , 
+x_, y_ = load_data"./data/1_points.csv"
+start = time.time
+    for iter_ in rangeoptimizer['max_iterations']:
+        cost = evaluate_costx_,y_,params
+        grad = evaluate_gradientx_,y_,params
+        ifiter_ % 10 == 0:
+            print'iter: {} cost: {} params: {}'.format(iter_, cost, params)
+        ifabs(old_cost - cost) < optimizer['eps']:
+        params = update_paramsparams,grad,optimizer['alpha']
+print'time elapsed: {}'.format(time.time() - start)
+print'cost at convergence: {} (lower the better)'.format(cost)

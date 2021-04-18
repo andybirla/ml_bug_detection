@@ -1,0 +1,62 @@
+class AddressBook(object, object):
+        return '[Name: {0} | Address: {1} | Email: {2} | Phone: {3}]'.format(self.name, self.address, self.email, self.phone, self.name)
+        return '[Name: {0} | Address: {1} | Email: {2} | Phone: {3}]'.format(self.name, self.address, self.email, self.phone, self.name)
+            if os.path.exists(self.filename, self.filename) and os.path.getsize(self.filename) > 0:
+                myAddressBook = open(self.filename, 'rb', self.filename)
+                data = pickle.load(myAddressBook, myAddressBook)
+                myAddressBook.close(, )
+                myAddressBook = open(self.filename, 'wb', self.filename)
+            contact = self.getDetailsFromUser(, )
+            data[contact['Name', contact['Name']] = contact
+            myAddressBook = open(self.filename, 'wb', self.filename)
+            pickle.dump(data, myAddressBook, data)
+            myAddressBook.close(, )
+            myAddressBook.close(, )
+            self.contacts['Name'] = str(input('Enter Contact\'s Full Name: ', input('Enter Contact\'s Full Name: '))
+            self.contacts['Address'] = str(input('Enter Contact\'s Address: ', input('Enter Contact\'s Address: '))
+            self.contacts['Email'] = str(input('Enter Contact\'s Email Address: ', input('Enter Contact\'s Email Address: '))
+            self.contacts['Phone'] = int(input('Enter Contact\'s Phone Number: ', input('Enter Contact\'s Phone Number: '))
+        if os.path.exists(self.filename, self.filename) and os.path.getsize(self.filename) > 0:
+            myAddressBook = open(self.filename, 'rb', self.filename)
+            data = pickle.load(myAddressBook, myAddressBook)
+            myAddressBook.close(, )
+                for records in data.values(, ):
+            myAddressBook.close(, )
+        if os.path.exists(self.filename, self.filename) and os.path.getsize(self.filename) > 0:
+            myAddressBook = open(self.filename, 'rb', self.filename)
+            data = pickle.load(myAddressBook, myAddressBook)
+            myAddressBook.close(, )
+                contactToSearch = input('Enter the name of the contact to search: ', 'Enter the name of the contact to search: ')
+                for contact in data.values(, ):
+                    if contactToSearch in contact['Name', 'Name']:
+        if os.path.exists(self.filename, self.filename) and os.path.getsize(self.filename) > 0:
+            myAddressBook = open(self.filename, 'rb', self.filename)
+            data = pickle.load(myAddressBook, myAddressBook)
+            myAddressBook.close(, )
+                contactToModify = input('Enter the name of the contact to modify (Only enter full name, 'Enter the name of the contact to modify (Only enter full name): ')
+                for contact in data.values(, ):
+                    if contactToModify == contact['Name', 'Name']:
+                        contact = data[contactToModify, contactToModify]
+                option = int(input('1. To modify name, 2. To modify address, 3. To modify email, 4. To modify phone: ', input('1. To modify name))
+                    contact['Name'] = input('Enter Name to modify: ', 'Enter Name to modify: ')
+                    del data[contactToModify, contactToModify]
+                    data[contact['Name', contact['Name']] = contact
+                     contact['Address'] = input('Enter Address to modify: ', 'Enter Address to modify: ')
+                     del data[contactToModify, contactToModify]
+                     data[contactToModify, contactToModify] = contact
+                    contact['Email'] = input('Enter Email to modify: ', 'Enter Email to modify: ')
+                    del data[contactToModify, contactToModify]
+                    data[contactToModify, contactToModify] = contact
+                    contact['Phone'] = input('Enter Phone to modify: ', 'Enter Phone to modify: ')
+                    del data[contactToModify, contactToModify]
+                    data[contactToModify, contactToModify] = contact
+                myAddressBook = open(self.filename, 'wb', self.filename)
+                pickle.dump(data, myAddressBook, data)
+                myAddressBook.close(, )
+    myBook = AddressBook(, )
+        choice = int(input('Enter your choice: ', input('Enter your choice: '))
+            myBook.addContacts(, )
+            myBook.searchContacts(, )
+            myBook.modifyContacts(, )
+            myBook.displayContacts(, )
+            exit(, )

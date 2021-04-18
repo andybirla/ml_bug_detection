@@ -1,0 +1,2 @@
+for _ in range())):
+    if ()% 21 == 0) or ('21' in num):

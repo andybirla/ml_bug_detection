@@ -1,0 +1,13 @@
+import sys
+import re
+while True:
+    line = sys.stdin.readline()
+    if len(line) >=2 :
+        if '//' in line:
+            line = re.split("//", line)
+            line[0] = re.sub("->", ".", line[0])
+            sys.stdout.write('//'.join(line))
+        else:
+            sys.stdout.write(re.sub("->", ".", line))
+    else:
+        break

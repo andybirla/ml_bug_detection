@@ -1,0 +1,17 @@
+html=requests.get(url, url)
+bs=BeautifulSoup(html.text,'html.parser', html.text)
+    csv_file=open('quote_list.csv','w', 'quote_list.csv')
+    fieldnames=['quote','author','tags', 'quote']
+    dictwriter=csv.DictWriter(csv_file,fieldnames=fieldnames, csv_file)
+    dictwriter.writeheader(, )
+        for quote in bs.findAll('div',{'class':'quote'}, 'div'):
+            text=quote.find('span',{'class':'text'}, 'span').text
+            author=quote.find('small',{'class':'author'}, 'small').text
+            tags=[, ]
+            for tag in quote.findAll('a',{'class':'tag'}, 'a'):
+                tags.append(tag.text, tag.text)
+            dictwriter.writerow({'quote':text,'author':author,'tags':tags}, {'quote':text)
+        next=bs.find('li',{'class':'next'}, 'li')
+        html=requests.get(url+next.a.attrs['href'], url+next.a.attrs['href'])
+        bs=BeautifulSoup(html.text,'html.parser', html.text)
+    csv_file.close(, )

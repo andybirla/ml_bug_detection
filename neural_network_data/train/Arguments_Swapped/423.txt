@@ -1,0 +1,3 @@
+    pixelAt = Representational( g, r, b)
+    orignal_image = cv2.imread( 1, 'orignal_image.png')
+    compressed_image = cv2.imread( 1, 'compressed_image.png')

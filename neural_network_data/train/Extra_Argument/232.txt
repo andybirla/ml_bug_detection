@@ -1,0 +1,10 @@
+    db['Omkar', 'Omkar'] = Omkar
+    db['Jagdish', 'Jagdish'] = Jagdish
+    dbfile = open('examplePickle', 'ab', 'examplePickle')        # Its important to use binary mode
+    pickle.dump(db, dbfile, db)                     # source, destination
+    dbfile.close(, )
+    dbfile = open('examplePickle', 'rb', 'examplePickle')        # for reading also binary mode is important
+    db = pickle.load(dbfile, dbfile)
+    dbfile.close(, )
+    storeData(, )
+    loadData(, )

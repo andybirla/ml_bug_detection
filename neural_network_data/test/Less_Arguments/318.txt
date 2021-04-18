@@ -1,0 +1,7 @@
+testCases = int())
+for _ in range():
+    n = int())
+    string = list())
+        for i in range( len(string) - 1, 2):
+            string[], string[i + 1] = string[i + 1], string[i]
+        fixChars.append()

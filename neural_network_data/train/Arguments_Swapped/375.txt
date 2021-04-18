@@ -1,0 +1,1 @@
+im.save( "png", "naruto.png")

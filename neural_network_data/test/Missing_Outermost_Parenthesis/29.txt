@@ -1,0 +1,5 @@
+def chkn:
+    if n in list.keys:
+        ans = chkn//2 + chk(n//3) + chk(n//4)
+    n = intcase
+    printchk(n)

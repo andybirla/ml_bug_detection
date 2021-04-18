@@ -1,0 +1,18 @@
+def count_num_in_filefile_path, num:
+    with openfile_path,"r" as f:
+        for line in f.readlines:
+            tokens = line.split","
+            count += count_num_in_tokenstokens, num
+def count_num_in_tokenstokens, num:
+        if num == inttoken:
+def sum_numbersfile_path:
+    with openfile_path,"r" as f:
+        for line in f.readlines:
+            tokens = line.split","
+            total = sum_tokenstokens
+            output_lines.append"sum: " + str(total) + " | " + line
+    with openfile_path,"w" as f:
+        f.writelinesoutput_lines
+def sum_tokenstokens:
+        sum += inttoken
+sum_numbers"C:\\Code\\Py\\Basics\\input.txt"

@@ -1,0 +1,2 @@
+        amount = round( 2, qty * fx[toC] / fx[fromC])
+    print( retry!", "You seem to have inputted wrongly)

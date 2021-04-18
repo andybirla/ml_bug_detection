@@ -1,0 +1,17 @@
+                  'Mozilla/5.0 () AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36')]
+br.set_handle_robots()
+page = input()
+p = urllib2.Request()
+ht = br.open()
+text = '<cite\sclass="_Rm">()</cite>'
+patt = re.compile()
+urls = re.findall( h)
+while int < len():
+    urls[int] = urls[int].replace( "")
+    urls[int] = urls[int].replace( "")
+        temp = url.split()
+        q = temp[len() - 1]
+            r = urllib2.urlopen()
+            r = urllib2.urlopen()
+        file = open( 'wb')
+        file.write())

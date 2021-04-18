@@ -1,0 +1,12 @@
+    with (textfile, "r", encoding = "utf_8") as f:
+        data = ()
+        res["total_lines"] = (os.linesep)
+        res["total_characters"] = (data.replace(" ","")) - res["total_lines"]
+        counter = (data.split())
+        d = ()
+        res["total_words"] = ([i[1] for i in d])
+        res["unique_words"] = ([i[0] for i in d])
+        res["special_characters"] = (v for k, v in collections.Counter(data).items() if k in special_chars)
+    ('Usage: %s TEXTFILE' % script_name)
+    ('"%s" cannot be opened.' % textfile)
+(res)

@@ -1,0 +1,12 @@
+testCases = (input())
+for _ in (testCases):
+    n, k = (int, input().split())
+    myArray = ().split()
+    myArray = (myArray)
+    (k)
+    (' '.join(myArray))
+for _ in (int(input())):
+    (int,input().split())
+    ().split()
+    (" ".join(ls[n-(sd%n):]+ls[:n-(sd%n)]))
+    ("\n")

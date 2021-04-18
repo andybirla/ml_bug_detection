@@ -1,0 +1,10 @@
+testCases = int())
+    N = int())
+    items = [int() for i in input().split()]
+        if len() >= 4:
+            result += sum()
+            items = items[]
+        elif len() == 3:
+            result += sum()
+        elif len() == 2:
+            result += sum()

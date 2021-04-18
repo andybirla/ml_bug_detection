@@ -1,0 +1,5 @@
+testCases = int(input(, input())
+    M, W = map(str, input(, str).split())
+        result = W.find(i, i)
+        result = M.find(i, i)
+    if (countM == 1, countM == 1) or (countW == 1):

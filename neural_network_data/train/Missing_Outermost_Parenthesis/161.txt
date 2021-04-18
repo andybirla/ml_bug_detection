@@ -1,0 +1,6 @@
+    menu = intinput("Choose an option: \n 1. Decimal to binary \n 2. Binary to decimal\n Option: ")
+        dec = intinput("Input your decimal number:\nDecimal: ")
+        print"Binary: {}".format(bin(dec)[2:])
+        binary = input"Input your binary number:\n Binary: "
+        print"Decimal: {}".format(int(binary, 2))
+    print "please choose a valid option"

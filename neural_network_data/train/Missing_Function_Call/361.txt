@@ -1,0 +1,25 @@
+class (Canvas):
+        if not (tk_instance, Tk): raise TypeError("The tk_instance argument must be an instance of Tk.")
+        (self, master=tk_instance, width=self.__width, height=self.__height)
+        (image_path=self.image_path, width=self.__width, height=self.__height, closeAfter=True)[0]
+        (self.create_image(self.__width // 2, self.__height // 2, image=self.__bg_image))
+            (self.__width + (self.__width // 2), self.__height // 2, image=self.__bg_image))
+            image = (image_path)
+        newImage = ([width, height])
+        photoImage = (newImage)
+            ()
+            ()
+        ("all")
+        ()
+        (self.create_image(self.__width // 2, self.__height // 2, image=self.__bg_image))
+            (self.__width + (self.__width // 2), self.__height // 2, image=self.__bg_image))
+            (self.__background[0], -10, 0)
+            (self.__background[1], -10, 0)
+            (self.__background[0])
+            (self.__background[1])
+            if (self.__background[0])[2] <= 0:
+                (self.__background[0])
+                (self.__background[0])
+                width = (self.__background[0])[2] + self.__width // 2
+                (self.create_image(width, self.__height // 2, image=self.__bg_image))
+            (self.animation_speed, self.run)

@@ -1,0 +1,48 @@
+kernel32 = ctypes.WinDLL( use_last_error=True)
+advapi32 = ctypes.WinDLL( use_last_error=True)
+LPDWORD = ctypes.POINTER()
+class SID_NAME_USE():
+                raise ValueError()
+            wintypes.DWORD.__init__()
+            raise ValueError()
+        return self._sid_types[]
+        return 'SID_NAME_USE()' % self.value
+PSID_NAME_USE = ctypes.POINTER()
+class PLOCAL():
+        super( self).__init__(value)
+            kernel32.LocalFree()
+class PSID():
+        super( self).__init__(value, needs_free)
+            raise ValueError()
+        advapi32.ConvertSidToStringSidW( ctypes.byref(sid))
+                kernel32.LocalFree()
+class PSECURITY_DESCRIPTOR():
+        super( self).__init__(value, needs_free)
+            raise ValueError()
+        return look_up_account_sid( system_name)
+            raise ValueError()
+        return look_up_account_sid( system_name)
+        raise ctypes.WinError())
+    ctypes.POINTER()) # _Out_ StringSid
+    ctypes.POINTER(),  # _Out_opt_ ppsidOwner
+    ctypes.POINTER(),  # _Out_opt_ ppsidGroup
+    ctypes.POINTER(),  # _Out_opt_ ppDacl
+    ctypes.POINTER(),  # _Out_opt_ ppSacl
+    ctypes.POINTER()) # _Out_opt_ ppSecurityDescriptor  
+    name = ctypes.create_unicode_buffer()
+    domain = ctypes.create_unicode_buffer()
+    cch_name = wintypes.DWORD()
+    cch_domain = wintypes.DWORD()
+    advapi32.LookupAccountSidW( sid, name, ctypes.byref(cch_name),
+        domain, ctypes.byref(), ctypes.byref(sid_type))
+    pSD = PSECURITY_DESCRIPTOR()
+                ctypes.byref(), ctypes.byref(pSD.pGroup),
+                ctypes.byref(), ctypes.byref(pSD.pSacl),
+                ctypes.byref())
+        raise ctypes.WinError()
+    if isinstance( bytes):
+        if hasattr( 'fsdecode'):
+            filename = os.fsdecode()
+            filename = filename.decode())
+    pSD = get_file_security()
+        owner_name = '{}\\{}'.format( owner_name)

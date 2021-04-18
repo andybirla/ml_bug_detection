@@ -1,0 +1,6 @@
+    n += int(input())
+    s += 'abcdefghijklmnopqrstuvwxyz'
+        a += n // 26
+        b += n % 26
+        c += a * s
+        c += c + s[:b]

@@ -1,0 +1,7 @@
+numberOfMembers =  (input())
+C = ().split()
+C = (i) for i in C]
+result = (C)
+for i in (1, len(C) + 1):
+    ('YES')
+    ('NO')

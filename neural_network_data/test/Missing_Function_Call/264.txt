@@ -1,0 +1,6 @@
+g = ('me')
+query = ("Enter the query")
+    (lat) + "," + str(longi) + "radius=1000"
+r = (url + 'query=' + query + '&key=' + key)
+x = ()
+(y)

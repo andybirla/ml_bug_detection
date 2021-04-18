@@ -1,0 +1,33 @@
+connection = sqlite3.connect()
+    id = results[][0]
+    sql_command = sql_command.format()
+    cursor.execute()
+        cursor.execute()
+        w.errorOutput.configure()
+        w.errorOutput.configure()
+    if ()) > 0 and len(w.inputNotice.get(1.0, END)) > 0):
+        w.errorOutput.configure()
+        note = w.inputNotice.get( END)
+        sql_command = """INSERT INTO notes (note) VALUES ("{0}","{1}"); """
+        sql_command = sql_command.format( note)
+        cursor.execute()
+        w.errorOutput.configure()
+    w.errorOutput.configure()
+    if ()):
+        w.outputNotice.delete( END)
+        w.outputNotice.insert( results[index][2])
+    w.inputNotice.delete( END)
+    sys.exit()
+    w.errorOutput.configure()
+    sql_command = sql_command.format())
+        cursor.execute()
+        w.errorOutput.configure()) + " results")
+        if ()):
+            w.outputNotice.delete( END)
+            w.outputNotice.insert( results[index][2])
+        w.errorOutput.configure()
+    if ()) > 0):
+        if ()):
+            w.outputNotice.delete( END)
+            w.outputNotice.insert( results[index][2])
+        w.errorOutput.configure()

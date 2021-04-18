@@ -1,0 +1,3 @@
+sys.path.append()
+area = f.calculate_square_area()
+area = f.calculate_triangle_area(10)

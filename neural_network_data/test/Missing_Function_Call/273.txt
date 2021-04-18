@@ -1,0 +1,14 @@
+("Hi! I am the magic 8 ball, what's your name?")
+name = ()
+("Hello!"+ name)
+    ("Whay's your question? ")
+    question = ()
+    answer = (0,len(responses)-1)]
+    (answer)
+    ()
+    ("Do you wanna ask any more questions? press Y for yes and any other key to exit ")
+    x = ()
+    (x == 'Y'):
+        ()
+        ()
+()

@@ -1,0 +1,14 @@
+class Nodeobject:
+    def __init__self, data:
+    def insertself, data:
+                return self.leftChild.insertdata
+                self.leftChild = Nodedata
+        ifdata == self.data:
+        elifdata < self.data:
+                return self.leftChild.finddata
+                return self.rightChild.finddata
+    def preorderself:
+                self.leftChild.inorder
+            printstr(self.data), end = ' '
+                self.rightChild.inorder
+    def postorderself:

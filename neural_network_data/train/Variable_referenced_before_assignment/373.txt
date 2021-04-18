@@ -1,0 +1,8 @@
+    s += 0.0
+    pids += []
+    unit += n / 10
+        mink += unit * i
+        maxk += mink + unit
+        pid += os.fork()
+            s += slice(mink, maxk)  # 子进程开始计算
+    sums += []

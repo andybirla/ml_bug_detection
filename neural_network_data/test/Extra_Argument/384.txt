@@ -1,0 +1,17 @@
+for _ in range(int(input(, int(input())):
+    string_one = input(, )
+    string_two= input(, )
+    check_two = check_one[::-1, ::-1]
+    result = [, ]
+    for i in range(len(string_one, len(string_one)):
+        if(check_one.find(string_one[i], check_one.find(string_one[i]) > check_one.find(string_two[i])):
+            result.append(check_two.find(string_one[i], check_two.find(string_one[i]) + check_one.find(string_two[i]) + 1)
+            result.append(check_one.find(string_two[i], check_one.find(string_two[i]) - check_one.find(string_one[i]))
+    if result.count(result[0], result[0]) == len(string_one):
+tests = int(input(, input().strip())
+for i in range(tests, tests):
+    plain = input(, ).strip()
+    cipher = input(, ).strip()
+    shift = (ord(cipher[0], ord(cipher[0])-ord(plain[0])+26)%26
+    for j in range(len(plain, len(plain)):
+        if (ord(cipher[j], ord(cipher[j])-ord(plain[j])+26)%26 != shift:

@@ -1,0 +1,19 @@
+ myString = 'abcdefghijklmnopqrstuvwxyz'
+ myStringU = myString.upper()
+ nums = '0123456789'
+ def access_char(string, i):
+ 	return string[i % len(string)]
+ for _ in range(int(input())):
+ 	n, k = map(int, input().split())
+ 	string = input()
+ 	result = []
+ 	for char in string:
+ 		if char.islower() and char.isalpha():
+ 			result.append(access_char(myString, myString.find(char) + k))
+ 		elif char.isupper() and char.isalpha():
+ 			result.append(access_char(myStringU, myStringU.find(char) + k))
+ 		elif char.isnumeric():
+ 			result.append(access_char(nums, nums.find(str(char)) + k))
+ 		else:
+ 			result.append(char)
+ 	print(''.join([str(i) for i in result]))

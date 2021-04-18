@@ -1,0 +1,10 @@
+    def __init__self:
+        self.connection = Connection
+    def connectself, connection_string:
+    def __init__self:
+        self.cur = Cursor
+    def cursorself:
+    def closeself:
+class Cursor:
+    def executeself, query:
+    def closeself:

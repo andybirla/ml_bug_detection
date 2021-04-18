@@ -1,0 +1,6 @@
+    copy2( dst, src)
+    for i in range( len(data, 1), count):
+            start, end = ( len(data, i-1))
+            start, end = ( i+count-1, i-1)
+    splited_data = split( count, files)
+            start_process( int(count, path))

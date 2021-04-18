@@ -1,0 +1,51 @@
+if ('Parent')== True:
+    ('Parent')
+if ('Child1')==True:
+    ('Child1')
+if ('Pdf1_Child1.pdf')==True:
+    ('Pdf1_Child1.pdf',pages='all')
+if ('Document_Child1.docx')==True:
+    document = ('Document_Child1.docx')
+    for i, row in (table.rows):
+        text =(cell.text for cell in row.cells)
+            keys = (text)
+        row_data = (zip(keys, text))
+        (row_data)
+(data)
+if ('Text_Child1.txt')==True:
+    ('Text_Child1.txt')
+('../')
+if ('Parent')== True:
+    ('Parent')
+if ('Child2')==True:
+    ('Child2')
+if ('Pdf1_Child2.pdf')==True:
+    ('Pdf1_Child2.pdf',pages='all')
+if ('Document_Child2.docx')==True:
+    document = ('Document_Child2.docx')
+    for i, row in (table.rows):
+        text =(cell.text for cell in row.cells)
+            keys = (text)
+        row_data = (zip(keys, text))
+        (row_data)
+(data)
+if ('Text_Child2.txt')==True:
+    ('Text_Child2.txt')
+(4)
+('../')
+if ('Parent')== True:
+    ('Parent')
+if ('Child3')==True:
+    ('Child3')
+if ('Pdf1_Child3.pdf')==True:
+    ('Pdf1_Child3.pdf',pages='all')
+if ('Document_Child3.docx')==True:
+    document = ('Document_Child3.docx')
+    for i, row in (table.rows):
+        text =(cell.text for cell in row.cells)
+            keys = (text)
+        row_data = (zip(keys, text))
+        (row_data)
+(data)
+if ('Text_Child3.txt')==True:
+    ('Text_Child3.txt')

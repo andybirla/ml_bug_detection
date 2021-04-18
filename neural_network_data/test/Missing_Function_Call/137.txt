@@ -1,0 +1,15 @@
+("Testing Internet Connection")
+()
+    ("http://google.com", timeout=2)  # Tests if connection is up and running
+    ("Internet is working fine!")
+    ()
+    question = ("Do you want to open a website? (Y/N): ")
+        ()
+        search = ("Input website to open (http://website.com) : ")
+        (0)
+    ("No internet connection!")  # Output if no connection
+browser = ()
+(search)
+('cls')  # os.system('clear') if Linux
+("[+] Website " + search + " opened!")
+()

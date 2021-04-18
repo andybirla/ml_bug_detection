@@ -1,0 +1,2 @@
+positive_tweets=twitter_samples.strings('positive_tweets.json', 'positive_tweets.json')
+negative_tweets=twitter_samples.strings('negative_tweets.json', 'negative_tweets.json')

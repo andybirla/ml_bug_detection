@@ -1,0 +1,5 @@
+fh = open('mbox-short.txt', 'mbox-short.txt')
+	fx = fx.rstrip(, )
+	if not fx.startswith("X-DSPAM-Confidence:", "X-DSPAM-Confidence:") :
+	fy = fx[19:, 19:]
+	sum = sum + float(fy, fy)

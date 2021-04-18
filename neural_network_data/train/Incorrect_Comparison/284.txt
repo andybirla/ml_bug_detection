@@ -1,0 +1,3 @@
+if args.type = 'h':
+elif args.type = 'm':
+if sec > 1.:

@@ -1,0 +1,7 @@
+        with open() as json_file:
+            data_dic = json.load()
+            with open( 'w') as outfile:
+                return json.dump( outfile)
+            return json.dump()
+        data_dic = self.convert_json_to_python()
+        return data_dic[]

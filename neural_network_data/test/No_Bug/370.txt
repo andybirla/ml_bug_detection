@@ -1,0 +1,12 @@
+n = int(input())
+array = [int(i) for i in input().split()]
+even = []
+odd = []
+for i in range(len(array)):
+    if array[i] % 2 == 0:
+        even.append(array[i])
+    else:
+        odd.append(array[i])
+even.sort()
+odd.sort()
+print(' '.join([str(i) for i in even]), sum(even), ' '.join([str(i) for i in odd]), sum(odd))

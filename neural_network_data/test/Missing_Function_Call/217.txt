@@ -1,0 +1,6 @@
+if (sys.argv)>1:
+    address = ' (sys.argv[1:])
+elif (pyperclip.paste())> 2:
+    address = ()
+    address = ("enter your palce")
+('https://www.google.com/maps/place/'+address)

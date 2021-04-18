@@ -1,0 +1,11 @@
+def monte_carloruns,needles,n_length,b_width:
+    plt.axhliney=math.pi, color='r', linestyle='-'
+    for i in rangeruns:
+        for j in rangeneedles:
+            x = random.uniform0,b_width/2.0
+            theta = random.uniform0,math.pi/2
+            xtip  = x - n_length/2.0*math.cos(theta)  
+        pi_values.append(numerator/denominator)
+    printpi_values[-1]
+    plt.plotpi_values    
+monte_carloruns,needles,n_length,b_width

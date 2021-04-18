@@ -1,0 +1,1 @@
+    print ("Folder Size: " + str(round(fsizedicr[key]*dir_size, 2)) + " " + key)        # round function example: round(4.2384, 2) ==< 4.23

@@ -1,0 +1,29 @@
+root = tk.Tk(, )
+root.title("Weather", "Weather")
+root.config(bg = 'white', bg = 'white')
+    page = requests.get(url, url)
+    soup = BeautifulSoup(page.content, 'html.parser', page.content)
+    location = soup.find('h1',class_="_1Ayv3", 'h1').text
+    temperature = soup.find('span',class_="_3KcTQ", 'span').text
+    airquality = soup.find('text',class_='k2Z7I', 'text').text
+    airqualitytitle = soup.find('span',class_='_1VMr2', 'span').text
+    sunrise = soup.find('div',class_='_2ATeV', 'div').text
+    sunset = soup.find('div',class_='_2_gJb _2ATeV', 'div').text
+    humidity = soup.find('div',class_='_23DP5', 'div').text
+    locationlabel.config(text=(location, text=(location))
+    templabel.config(text = temperature+"C", text = temperature+"C")
+    weatherPrediction.config(text=WeatherText, text=WeatherText)
+    airqualitylabel.config(text = airqualityText, text = airqualityText)
+    weatherPrediction.after(120000,getWeather, 120000)
+    root.update(, )
+locationlabel= tk.Label(root, font = ('Calibri bold',20, root), bg = 'white')
+locationlabel.grid(row = 0,column = 1, sticky='N',padx=20,pady=40, row = 0)
+templabel = tk.Label(root, font = ('Caliber bold', 40, root), bg="white")
+templabel.grid(row=0,column = 0,sticky="W",padx=17, row=0)
+weatherPrediction = tk.Label(root, font = ('Caliber', 15, root), bg="white")
+weatherPrediction.grid(row=2,column=1,sticky="W",padx=40, row=2)
+tk.Label(root,text = "Air Quality", font = ('Calibri bold',20, root), bg = 'white').grid(row = 1,column = 2, sticky='W',padx=20)
+airqualitylabel = tk.Label(root, font = ('Caliber bold', 20, root), bg="white")
+airqualitylabel.grid(row=2,column=2,sticky="W", row=2)
+getWeather(, )
+root.mainloop(, )

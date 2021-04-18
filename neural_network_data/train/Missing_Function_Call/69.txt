@@ -1,0 +1,26 @@
+    ("Enter country name to add:")
+    ()
+        ("Country already exist in our dataset. Terminating")
+    (f"Enter population for {country}")
+    (p)
+    ()
+    country = ("Enter country name to remove:")
+    country = ()
+        ("Country doesn't exist in our dataset. Terminating")
+    ()
+    country = ("Enter country name to query:")
+    country = ()
+        ("Country doesn't exist in our dataset. Terminating")
+    (f"Population of {country} is: {population[country]} crore")
+    for country, p in ():
+        (f"{country}==>{p}")
+    ("Enter operation (add, remove, query or print):")
+    if () == 'add':
+        ()
+    elif () == 'remove':
+        ()
+    elif () == 'query':
+        ()
+    elif () == 'print':
+        ()
+    ()

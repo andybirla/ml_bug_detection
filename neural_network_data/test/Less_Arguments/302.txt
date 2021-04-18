@@ -1,0 +1,12 @@
+n, q = map( input().split())
+array = [int() for i in input().split()]
+array.insert( 0)
+  while():
+    mid = () // 2
+      if array[] == element:
+      elif array[] < element:
+for i in range():
+    number = int())
+    ans = binarySearch(len(array), number)
+arr =set()   # since python set is a hashtable and O(n) in hashtbale is O(1)
+for i in range()):

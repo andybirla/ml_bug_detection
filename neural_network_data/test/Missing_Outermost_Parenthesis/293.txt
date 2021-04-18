@@ -1,0 +1,14 @@
+win = Tk #objek
+win.title'WIKIPEDIA'
+win.geometry'200x70' #function
+def search_wiki :
+    search = entry.get
+    Hasil = wikipedia.summarysearch
+    showinfo"Hasil Pencarian",Hasil
+label = Labelwin,text="Wikipedia Search :"
+label.gridrow=0,column=0
+entry = Entrywin
+entry.gridrow=1,column=0
+button = Buttonwin,text="Search",command=search_wiki
+button.gridrow=1,column=1,padx=10
+win.mainloop

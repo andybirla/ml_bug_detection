@@ -1,0 +1,5 @@
+txt = input""
+for let in rangelen(txt) - 1:
+  printap, end="\r"
+  sleep.1
+printtxt, end=""

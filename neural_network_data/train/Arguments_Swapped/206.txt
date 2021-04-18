@@ -1,0 +1,2 @@
+    sys.stdout.write( percent, '[%s] %s%s ...%s\r' % (bar, '%', suffix))
+	progressBar( 10, i)

@@ -1,0 +1,12 @@
+shape = intinput("Enter 1 for square, 2 for rectangle, 3 for circle, or 4 for triangle: ")
+  side = floatinput("Enter length of side: ")
+  print"Area of square = " + str(side**2)
+  l = floatinput("Enter length: ")
+  b = floatinput("Enter breadth: ")
+  print"Area of rectangle = " + str(l*b)
+  r = floatinput("Enter radius: ")
+  print"Area of circle = " + str(3.14*r*r)
+  base = floatinput("Enter base: ")
+  h = floatinput("Enter height: ")
+  print"Area of rectangle = " + str(0.5*base*h)
+  print"You have selected wrong choice."

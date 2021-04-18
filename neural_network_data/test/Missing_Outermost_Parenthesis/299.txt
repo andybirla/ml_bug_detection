@@ -1,0 +1,26 @@
+import stat  # index constants for os.stat
+if sys.version_info >= 3, 0:
+file_name = raw_input"Enter a file name: "  # pick a file you have
+    with openfile_name as f:
+        count = sum(1 for line in f)
+        f.seek0
+        t_char = sum([len(line) for line in f])
+    printe
+    sys.exit1
+file_stats = os.statfile_name
+    'f_lm': time.strftime                          time.localtimefile_stats[stat.ST_MTIME]),
+    'f_la': time.strftime                          time.localtimefile_stats[stat.ST_ATIME]),
+    'f_ct': time.strftime                          time.localtimefile_stats[stat.ST_CTIME]),
+file_info_keys = file_info_vales = for f_key, f_value in zipfile_info_keys, file_info_vales:
+    printf_key, ' =', f_value
+if stat.S_ISDIRfile_stats[stat.ST_MODE]:
+    print"This a directory."
+    print"\nThis is not a directory."
+    stats_keys =                   "st_dev device", "st_nlink (number of hard links)",
+                  "st_uid user ID of owner", "st_gid (group ID of owner)",
+                  "st_size file size bytes",
+                  "st_atime last access time seconds since epoch",
+                  "st_mtime last modification time",
+                  "st_ctime time of creation Windows")
+    for s_key, s_value in zipstats_keys, file_stats:
+        prints_key, ' =', s_value

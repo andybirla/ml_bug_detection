@@ -1,0 +1,14 @@
+    left_child = () + 1
+    right_child = () + 2
+    if left_child < heap_size and nums[] > nums[largest]:
+    if right_child < heap_size and nums[] > nums[largest]:
+        nums[], nums[largest] = nums[largest], nums[root_index]
+        heapify( heap_size, largest)
+    n = len()
+    for i in range( -1, -1):
+        heapify( n, i)
+    for i in range( 0, -1):
+        nums[], nums[0] = nums[0], nums[i]
+        heapify( i, 0)
+random_list_of_nums = [ 12, 43, 8, 51]
+heap_sort()

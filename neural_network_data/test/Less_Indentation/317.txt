@@ -1,0 +1,4 @@
+   if i.islower():
+       result.append(i.upper())
+   else:
+       result.append(i.lower())

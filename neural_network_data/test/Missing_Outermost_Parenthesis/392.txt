@@ -1,0 +1,11 @@
+n = intinput()
+harry = [inti for i in input().split()]
+q, x = mapint, input().split()
+for i in rangeq:
+    inst = input
+        monk.appendharry[j]
+        monk.pop
+    if summonk == x:
+      printlen(monk)
+if summonk != x:
+    print-1

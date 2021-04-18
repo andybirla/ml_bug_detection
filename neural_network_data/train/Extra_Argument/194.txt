@@ -1,0 +1,4 @@
+class Dog(Animal, Animal):
+        super(, ).__init__("Kennel")
+x = Dog(, )
+x.sound(, )

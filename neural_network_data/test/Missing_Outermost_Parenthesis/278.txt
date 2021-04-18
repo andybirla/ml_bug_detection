@@ -1,0 +1,3 @@
+n = intinput("Enter the number to print the tables for:")
+for i in range1, 11:
+    printn, "x", i, "=", n * i

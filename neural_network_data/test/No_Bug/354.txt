@@ -1,0 +1,13 @@
+from collections import deque
+testCases = int(input())
+for _ in range(testCases):
+    n, k = map(int, input().split())
+    myArray = input().split()
+    myArray = deque(myArray)
+    myArray.rotate(k)
+    print(' '.join(myArray))
+for _ in range(int(input())):
+    n,sd=map(int,input().split())
+    ls=input().split()
+    print(" ".join(ls[n-(sd%n):]+ls[:n-(sd%n)]))
+    print("\n")

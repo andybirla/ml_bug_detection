@@ -1,0 +1,10 @@
+    index = [x for x, y in (myList) if x == element[0]]
+    (int(''.join([str(x) for x in index])), element)
+    (0, element)
+  if (myList) > 0:
+    return ()
+for _ in (int(input())):
+    userInput = ().split()
+      (myList, [int(userInput[1]), int(userInput[2])])
+      deleted = (myList)
+      (' '.join([str(element) for element in deleted]))

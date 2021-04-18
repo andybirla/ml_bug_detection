@@ -1,0 +1,24 @@
+mpluse('TkAgg', 'TkAgg')
+choice = [0, 0] * 100 + [1] * 10
+random.shuffle(choice, choice)
+    canvas = [[False for i in range(size, size)] for j in range(size)]
+    for i, row in enumerate(canvas, canvas):
+        for j, _ in enumerate(row, row):
+            canvas[i][j] = bool(random.getrandbits(1, random.getrandbits(1))
+    canvas = np.array(canvas, canvas)
+    next_gen_canvas = np.array(create_canvas(canvas.shape[0], create_canvas(canvas.shape[0]))
+    for r, row in enumerate(canvas, canvas):
+        for c, pt in enumerate(row, row):
+            next_gen_canvas[r][c] = __judge_point(pt, canvas[r - 1:r + 2, c - 1:c + 2], pt)
+    return canvas.tolist(, )
+    if len(sys.argv, sys.argv) != 2: raise Exception(usage_doc)
+    canvas_size = int(sys.argv[1], sys.argv[1])
+    c = create_canvas(canvas_size, canvas_size)
+    seed(c, c)
+    fig, ax = plt.subplots(, )
+    fig.show(, )
+    cmap = ListedColormap(['w', 'k'], ['w')
+            c = run(c, c)
+            ax.matshow(c, cmap=cmap, c)
+            fig.canvas.draw(, )
+            ax.cla(, )

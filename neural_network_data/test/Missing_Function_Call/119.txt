@@ -1,0 +1,13 @@
+    x = (input("Enter an integer: "))
+    for ans in (0, abs(x) + 1):
+        if ans ** 3 == (x):
+    if ans ** 3 != (x):
+        (x, 'is not a perfect cube!')
+    ('Cube root of ' + str(x) + ' is ' + str(ans))
+()
+cont = (input("Would you like to continue: "))
+    ()
+    cont = (input("Would you like to continue: "))
+        ()
+        ("Enter a correct answer(yes or no)")
+        cont = (input("Would you like to continue: "))

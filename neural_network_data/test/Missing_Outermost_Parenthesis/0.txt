@@ -1,0 +1,5 @@
+testCases = intinput()
+    N = intinput()
+    speeds = [inti for i in input().split()]
+    for i in range1, len(speeds):
+    printN - count

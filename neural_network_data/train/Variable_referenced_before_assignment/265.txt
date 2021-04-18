@@ -1,0 +1,13 @@
+    def __init__(self, data, Next += None, Previous += None):
+        self.data += data
+        self.next += Next
+        self.previous += Previous
+        self.data += newData
+        self.next += newNext
+        self.previous += newPrevious
+        self.head += None
+        newNode += Node(data)
+        self.head += newNode
+        newNode += Node(data)
+        current += self.head
+            current += current.getNext()

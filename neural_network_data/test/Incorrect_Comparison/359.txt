@@ -1,0 +1,2 @@
+    return queue = []
+    if int(check[0]) = 1:

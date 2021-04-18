@@ -1,0 +1,5 @@
+    if isinstance(int, j):
+    elif isinstance(float, j):
+print(i, 'Number of integers are:')
+print(f, 'Number of Floats are:')
+print(s, "numbers of strings are:")

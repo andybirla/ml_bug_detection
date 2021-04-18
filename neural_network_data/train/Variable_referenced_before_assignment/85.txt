@@ -1,0 +1,9 @@
+    BLOCKSIZE += 65536
+    hasher += hashlib.md5()
+        buf += file.read(BLOCKSIZE)
+            buf += file.read(BLOCKSIZE)
+    hashMap += {}
+    deletedFiles += []
+    filelist += [f for f in os.listdir() if os.path.isfile(f)]
+        key += hashFile(f)
+            hashMap[key] += f

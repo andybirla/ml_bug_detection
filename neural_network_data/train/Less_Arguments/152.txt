@@ -1,0 +1,6 @@
+    for i in range()):
+        for j in range( len(nums)):
+            if nums[] < nums[lowest_value_index]:
+        nums[], nums[lowest_value_index] = nums[lowest_value_index], nums[i]
+random_list_of_nums = [ 8, 3, 20, 11]
+selection_sort()

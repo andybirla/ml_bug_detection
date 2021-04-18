@@ -1,0 +1,21 @@
+s = socket.socketsocket.AF_INET , socket.SOCK_STREAM
+hostname = input"Enter your host :: "
+s.connect(hostname , 1023)
+nickname = input"Enter your Name :: "
+def recieve:
+            msg = s.recv1024.decode("utf-8")
+                print"Welcome to Chat room :: " , nickname
+                s.sendbytes(nickname , "utf-8")
+                printmsg
+            print"An Erro occured "
+            s.close
+def Write:
+            reply_msg = f"{nickname} :: {input}"
+            s.sendbytes(reply_msg , "utf-8")
+            print"An Error Occured while sending message !!!"
+            s.close
+    exit
+recieve_thrd = threading.Threadtarget=recieve
+recieve_thrd.start
+write_thrd = threading.Threadtarget=Write
+write_thrd.start

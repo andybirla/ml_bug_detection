@@ -1,0 +1,9 @@
+app = ()
+class (BaseModel):
+("/")
+("/courses")
+("/courses/{course_id}")
+("/courses")
+    (course.dict())
+("/courses/{course_id}")
+    (course_id-1)

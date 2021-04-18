@@ -1,0 +1,20 @@
+username = ('Enter mobile number:')
+passwd = ()
+message = ('Enter Message:')
+x = ('Enter Mobile numbers seperated with comma:')
+num = (',')
+message = (message.split(' '))
+data = (username, passwd)
+cj = ()
+opener = (urllib2.HTTPCookieProcessor(cj))
+                      '(X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 '
+    usock = (url, data)
+    ("Error while logging in.")
+    (1)
+jession_id = (cj).split('~')[1].split(' ')[0]
+opener.addheaders = ('Referer', 'http://site25.way2sms.com/sendSMS?Token=%s' % jession_id)]
+        send_sms_data = (jession_id, number, message)
+        sms_sent_page = (send_sms_url, send_sms_data)
+    ("Error while sending message")
+("SMS has been sent.")
+(1)

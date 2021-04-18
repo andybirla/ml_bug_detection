@@ -1,0 +1,6 @@
+testCases = int())
+    website = website.replace( '')
+    website = website.replace( '')
+    website = list()
+    count = len()
+    vowels = [ 'e', 'i', 'o', 'u']

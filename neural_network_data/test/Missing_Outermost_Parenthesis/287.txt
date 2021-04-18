@@ -1,0 +1,5 @@
+def binaryToDecimalbinary: 
+	whilebinary != 0: 
+		decimal = decimal + dec * pow2, i 
+	printdecimal	 
+binaryToDecimal100

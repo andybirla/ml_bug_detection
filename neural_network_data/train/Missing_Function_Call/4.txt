@@ -1,0 +1,10 @@
+    (y=math.pi, color='r', linestyle='-')
+    for i in (runs):
+        for j in (needles):
+            x = (0,b_width/2.0)
+            theta = (0,math.pi/2)
+            xtip  = x -(n_length/2.0)*math.cos(theta)  
+        ((numerator/denominator))
+    (pi_values[-1])
+    (pi_values)    
+(runs,needles,n_length,b_width)

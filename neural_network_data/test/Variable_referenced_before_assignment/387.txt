@@ -1,0 +1,3 @@
+	n, k, m += input().split()
+	strings += []
+	array += sorted(strings, key += lambda x: x[:int(m)])

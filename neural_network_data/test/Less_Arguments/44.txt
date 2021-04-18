@@ -1,0 +1,5 @@
+time.sleep()
+    with open( "r") as f:
+        if item.endswith():
+            ans = checkBinod()
+            if():

@@ -1,0 +1,20 @@
+   if i == 'h':
+       h += 1
+   elif i == 'a':
+       a += 1
+   elif i == 'r':
+       r += 1
+   elif i == 'e':
+       e += 1
+   elif i == 'c':
+       c += 1
+   elif i == 'k':
+       k += 1
+   elif i == 't':
+       t += 1
+   result = a
+   result = r
+   result = e
+   result = c
+   result = k
+   result = t

@@ -1,0 +1,55 @@
+key = intmath.pi * 1e14
+text = input"Enter text: "
+def encryptChartarget:
+    target = ((target + 42) * key) - 449
+def decryptChartarget:
+    target = ((target + 449) / key) - 42
+def encryptinput_text:
+        current = ordinp
+        current = encryptCharcurrent
+        col_values.appendcurrent
+def decryptenc_text:
+        current = intdecryptChar(enc)
+        current = chrcurrent
+        col_values.appendcurrent
+def readAndDecryptfilename:
+    file = openfilename, "r"
+    data = file.read
+    datalist = data.split" "
+    datalist.remove''
+    datalistint = [floatdata for data in datalist]
+        current1 = intdecryptChar(data)
+        current1 = chrcurrent1
+        actualdata.appendcurrent1
+    file.close
+def readAndEncryptfilename:
+    file = openfilename, "r"
+    data = file.read
+    datalist = listdata
+    encrypted_list = list
+    encrypted_list_str = list
+        current = orddata
+        current = encryptCharcurrent
+        encrypted_list.appendcurrent
+    file.close
+def readAndEncryptAndSaveinp_file, out_file:
+    enc_list = readAndEncryptinp_file
+    output = openout_file, "w"
+        output.writestr(enc) + " "
+    output.close
+def readAndDecryptAndSaveinp_file, out_file:
+    dec_list = readAndDecryptinp_file
+    output = openout_file, "w"
+        output.writestr(dec)
+    output.close
+    current = ordt
+    current = encryptCharcurrent
+    values.appendcurrent
+    current = intdecryptChar(v)
+    current = chrcurrent
+    reverse.appendcurrent
+printreverse
+output = open"encrypted.txt", "w"
+    output.writestr(v) + " "
+output.close
+printreadAndDecrypt("encrypted.txt")

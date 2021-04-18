@@ -1,0 +1,8 @@
+    if (text) < maxlength:
+        randomChar = ()
+        return (text+randomChar,maxlength)
+    randomChar = (0,len(chars)-1)]
+    maxlen = (' [?] Enter a length for your password (e for exit): ')
+        maxlength = (maxlen)
+        ("'",stretch('',maxlength),"'\n")
+        ('Please Enter an integer')

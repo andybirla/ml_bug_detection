@@ -1,0 +1,2 @@
+with urlopen() as response:
+         line = line.decode()  # Decoding the binary data to text.

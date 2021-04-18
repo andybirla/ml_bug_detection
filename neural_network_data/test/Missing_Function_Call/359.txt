@@ -1,0 +1,8 @@
+q = (input())
+for _ in (q):
+    check = ().split()
+    if (check[0]) == 1:
+        if ():
+            ('No Food')
+            (queue.pop())
+        (int(check[1]))

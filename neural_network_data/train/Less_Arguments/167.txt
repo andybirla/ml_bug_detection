@@ -1,0 +1,9 @@
+if sys.argv[]:
+    filename = sys.argv[]
+    filename = input(): ")
+    file = open()
+except ( IOError):
+num_lines = sum())
+random_line = random.randint( num_lines)
+file.seek()
+for i, line in enumerate():

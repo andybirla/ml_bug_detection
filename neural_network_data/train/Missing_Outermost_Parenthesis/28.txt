@@ -1,0 +1,15 @@
+def ex_expense_break:
+    e = input"Enter expense amount: "
+    e = inte
+    for i in rangelen(expense_list):
+        print'You spent',e,'in',month_list[month]
+        print'You didn\'t spend',e,'in any month'
+def ex_print_shape:
+    for i in range1,6:
+        for j in rangei:
+        prints
+def ex_heads_tails:
+    print"Heads count: ",count
+def demo_break_marathon:
+    for i in range1,11:
+    printi*i

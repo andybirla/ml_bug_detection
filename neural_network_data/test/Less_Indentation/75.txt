@@ -1,0 +1,4 @@
+   driver.get(url)
+   driver.get("https://" + url)
+   time.sleep(refreshrate)
+   driver.refresh()

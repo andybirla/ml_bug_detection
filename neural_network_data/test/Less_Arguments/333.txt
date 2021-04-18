@@ -1,0 +1,4 @@
+n = int())
+array = [int() for x in input().split(" ")]
+for i in range(len(array)):
+    if () > 1:

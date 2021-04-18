@@ -1,0 +1,12 @@
+find_phone = re.compile							\+?91|0?
+							\d{10}
+text = pyperclip.paste  # retrieve text from clipboard
+for ph in find_phone.findalltext:
+    matches.appendph[1]
+for em in find_email.findalltext:
+    matches.appendem[0]
+printf"{len(matches)} matches found"
+if lenmatches:
+    with open'matches.txt', 'a' as file:
+            file.writematch
+            file.write'\n'

@@ -1,0 +1,2 @@
+if __name__ = '__main__':
+            print('({}, {}) =< {}'.format(vertex.getKey(), vertexes.getKey(), vertex.getWeight(vertexes)))

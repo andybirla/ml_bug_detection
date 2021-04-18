@@ -1,0 +1,5 @@
+    if hand > 0 or hand > 2:
+    if player = computer:
+    elif player = 0 and computer = 1:
+    elif player = 1 and computer = 2:
+    elif player = 2 and computer = 0:

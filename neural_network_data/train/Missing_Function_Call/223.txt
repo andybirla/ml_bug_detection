@@ -1,0 +1,23 @@
+    for i in (0, ARRAY_SIZE + 1):
+        (i, i)
+    key = (input('Enter the key to search:'))
+    (key < myArray[low] or key > myArray[high - 1]):
+        ('Key is out of range!')
+        (low < high):
+            (key == myArray[low] or key == myArray[high]):
+                partitionSize =(high - low) // DIVISIONS
+                ('Searching from {} to {}'.format(low, high))
+                ('Array Size is: ',(high - low))
+                for i in (1, DIVISIONS + 1):
+                    (i,low + partitionSize * i)
+                    (key == myArray[mid[i]]):
+                ()
+                (found):
+                (key < myArray[mid[1]]):
+                (key > myArray[mid[DIVISIONS - 1]]):
+                    for i in (2, DIVISIONS + 1):
+                        (key < myArray[mid[i]]):
+    (found):
+        ('Element Found!')
+        ('Not Found!')
+    ()

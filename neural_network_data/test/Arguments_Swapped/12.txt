@@ -1,0 +1,3 @@
+for i in range( testCases, 0):
+    A = list(input(, map(int).split()))
+    for i in range( len(A, 0)):

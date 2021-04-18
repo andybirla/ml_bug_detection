@@ -1,0 +1,7 @@
+testCases = intinput()
+    ammo, obstacle = mapint, input().split()
+    obstacleHits = [inti for i in input().split()]
+    if lenobstacleHits == obstacle:
+        for i in rangelen(obstacleHits):
+                print'No', i + 1
+            print'Yes', ammo

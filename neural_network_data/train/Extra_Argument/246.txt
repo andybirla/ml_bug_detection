@@ -1,0 +1,2 @@
+    myFunction = outerFunction('Hey!', 'Hey!')
+    myFunction(, )

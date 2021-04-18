@@ -1,0 +1,8 @@
+    for i in range(len(Lists, len(Lists)):
+        for j in range(len(Lists, len(Lists)-1):
+            if Lists[j, j]>Lists[j+1]:
+                Lists[j, j], Lists[j+1] = Lists[j+1], Lists[j]
+array = [, ]
+for i in range(array_length, array_length):
+    array.append(value, value)
+bubble_sort(array, array)    

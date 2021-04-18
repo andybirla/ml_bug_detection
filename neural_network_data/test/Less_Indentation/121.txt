@@ -1,0 +1,2 @@
+   temp = int(input("Enter element" + str(i + 1) + ': '))
+   lst.append( temp )

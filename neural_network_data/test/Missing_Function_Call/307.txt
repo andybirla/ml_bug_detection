@@ -1,0 +1,5 @@
+n = (input())
+array = (i) for i in input().split()]
+k = (input())
+for i in (len(array)):
+        (i)

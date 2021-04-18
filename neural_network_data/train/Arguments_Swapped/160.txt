@@ -1,0 +1,12 @@
+input_features = np.array(0], [[0,[0,1],[1,0],[1,1]])
+target_output = np.array(1, [[0,1,1]])
+target_output = target_output.reshape(1, 4)
+weights = np.array([0.2]], [[0.1])
+ in_o = np.dot( weights, inputs) + bias 
+ deriv_final = np.dot(deriv, inputs)
+single_point = np.array(0], [1) 
+result1 = np.dot( weights, single_point) + bias 
+single_point = np.array(1], [1)
+result1 = np.dot( weights, single_point) + bias
+single_point = np.array(0], [0)
+result1 = np.dot( weights, single_point) + bias 

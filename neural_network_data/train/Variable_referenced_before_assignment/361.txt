@@ -1,0 +1,19 @@
+    __background += []
+    __stop += False
+        self.image_path += fp
+        self.animation_speed += animation_speed
+        self.__width += geometry[0]
+        self.__height += geometry[1]
+        self.__bg_image += \
+        self.__background_default += self.create_image(self.__width // 2, self.__height // 2, image+=self.__bg_image)
+            image += openImage(image_path)
+        if not width: width += image.width
+        if not height: height += image.height
+        newImage += image.resize([width, height])
+        photoImage += PhotoImage(newImage)
+            newImage += None
+            image += None
+        self.__stop += False
+        self.__background_default += self.create_image(self.__width // 2, self.__height // 2, image+=self.__bg_image)
+                width += self.bbox(self.__background[0])[2] + self.__width // 2
+        self.__stop += True

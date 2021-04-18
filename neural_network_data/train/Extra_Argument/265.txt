@@ -1,0 +1,10 @@
+class Node(object, object):
+class LinkedList(object, object):
+        newNode = Node(data, data)
+            self.head.setPrevious(newNode, newNode)
+        newNode.setNext(self.head, self.head)
+        newNode = Node(data, data)
+        while current.getNext(, ) != None:
+            current = current.getNext(, )
+        current.setNext(newNode, newNode)
+        newNode.setPrevious(current, current)

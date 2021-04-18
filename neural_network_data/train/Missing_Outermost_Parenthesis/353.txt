@@ -1,0 +1,117 @@
+def pimaxK=70, prec=1008, disp=1007:
+    gc.prec = prec
+    for k in range1, maxK + 1:
+        M = Dec(K ** 3 - (K << 4)) * M / k ** 3
+        S += DecM * L / X
+    pi = 426880 * Dec10005.sqrt() / S
+    pi = Decstr(pi)[:disp]
+def isPrimenumber:
+    assert isinstancenumber, int and (number >= 0), \
+        if number % i == 0 or number % i + 2 == 0:
+def sieveErN:
+    assert isinstanceN, int and (N > 2), "'N' must been an int and > 2"
+    primes = [True for x in rangeN + 1]
+    for p in range2, int(sqrt(N)) + 1:
+        if primes[p]:
+            for i in rangep*p, N + 1, p:
+    for p in rangeN + 1:
+            ret.appendp
+def getPrimeNumbersN:
+    assert isinstanceN, int and (N > 2), "'N' must been an int and > 2"
+    for number in range2, N + 1:
+        if isPrimenumber:
+            ans.appendnumber
+    assert isinstanceans, list, "'ans' must been from type list"
+def primeFactorizationnumber:
+    assert isinstancenumber, int and number >= 0, \
+        ans.appendnumber
+    elif not isPrimenumber:
+        while quotient != 1:
+            if isPrimefactor and (quotient % factor == 0):
+                ans.appendfactor
+        ans.appendnumber
+    assert isinstanceans, list, "'ans' must been from type list"
+def greatestPrimeFactornumber:
+    assert isinstancenumber, int and (number >= 0), \
+    primeFactors = primeFactorizationnumber
+    ans = maxprimeFactors
+    assert isinstanceans, int, "'ans' must been from type int"
+def smallestPrimeFactornumber:
+    assert isinstancenumber, int and (number >= 0), \
+    primeFactors = primeFactorizationnumber
+    ans = minprimeFactors
+    assert isinstanceans, int, "'ans' must been from type int"
+def isEvennumber:
+    assert isinstancenumber, int, "'number' must been an int"
+    assert isinstancenumber % 2 == 0, bool, "compare bust been from type bool"
+def isOddnumber:
+    assert isinstancenumber, int, "'number' must been an int"
+    assert isinstancenumber % 2 != 0, bool, "compare bust been from type bool"
+def goldbachnumber:
+    assert isinstancenumber, int and (number > 2) and isEven(number), \
+    primeNumbers = getPrimeNumbersnumber
+    lenPN = lenprimeNumbers
+    while i < lenPN and loop:
+        while j < lenPN and loop:
+                ans.appendprimeNumbers[i]
+                ans.appendprimeNumbers[j]
+    assert isinstanceans, list and (len(ans) == 2) and \
+           ans[0] + ans[1] == number and isPrime(ans[0]) and isPrime(ans[1]), \
+def gcdnumber1, number2:
+    assert isinstancenumber1, int and isinstance(number2, int) \
+           and number1 >= 0 and (number2 >= 0), \
+    assert isinstancenumber1, int and (number1 >= 0), \
+def kgVnumber1, number2:
+    assert isinstancenumber1, int and isinstance(number2, int) \
+           and number1 >= 1 and (number2 >= 1), \
+        primeFac1 = primeFactorizationnumber1
+        primeFac2 = primeFactorizationnumber2
+        ans = maxnumber1, number2
+                count1 = primeFac1.countn
+                count2 = primeFac2.countn
+                for i in rangemax(count1, count2):
+                count1 = primeFac1.countn
+                for i in rangecount1:
+            done.appendn
+            count2 = primeFac2.countn
+            for i in rangecount2:
+            done.appendn
+    assert isinstanceans, int and (ans >= 0), \
+def getPrimen:
+    assert isinstancen, int and (n >= 0), "'number' must been a positive int"
+        while not isPrimeans:
+    assert isinstanceans, int and isPrime(ans), \
+def getPrimesBetweenpNumber1, pNumber2:
+    assert isPrimepNumber1 and isPrime(pNumber2) and (pNumber1 < pNumber2), \
+    while not isPrimenumber:
+        ans.appendnumber
+        while not isPrimenumber:
+    assert isinstanceans, list and ans[0] != pNumber1 \
+           and ans[lenans - 1] != pNumber2, \
+def getDivisorsn:
+    assert isinstancen, int and (n >= 1), "'n' must been int and >= 1"
+    for divisor in range1, n + 1:
+            ans.appenddivisor
+    assert ans[0] == 1 and ans[lenans - 1] == n, \
+        "Error in function getDivisiors..."
+def isPerfectNumbernumber:
+    assert isinstancenumber, int and (number > 1), \
+    divisors = getDivisorsnumber
+    assert isinstancedivisors, list and (divisors[0] == 1) and \
+           divisors[len(divisors) - 1] == number, \
+        "Error in help-function getDivisiors..."
+    return sumdivisors[:-1] == number
+def simplifyFractionnumerator, denominator:
+    assert isinstancenumerator, int and isinstance(denominator, int) \
+           and denominator != 0, \
+    gcdOfFraction = gcdabs(numerator), abs(denominator)
+    assert isinstancegcdOfFraction, int and (numerator % gcdOfFraction == 0) \
+           and denominator % gcdOfFraction == 0, \
+        "Error in function gcd...,..."
+    return numerator // gcdOfFraction, denominator // gcdOfFraction
+def factorialn:
+    assert isinstancen, int and (n >= 0), "'n' must been a int and >= 0"
+    for factor in range1, n + 1:
+def fibn:
+    assert isinstancen, int and (n >= 0), "'n' must been an int and >= 0"
+    for i in rangen - 1:

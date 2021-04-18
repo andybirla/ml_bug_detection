@@ -1,0 +1,4 @@
+url = 'https://graph.facebook.com/' + userId + '/posts?access_token=' + accessToken + '&limit=' + strlimit  # FB Link
+data = json.loadurllib.urlopen(url)
+printstr(id)
+print    num_share) + '\t' + strnum_like))

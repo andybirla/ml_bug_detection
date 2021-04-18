@@ -1,0 +1,8 @@
+list_of_words = [, ]
+with open(filename, "r", filename) as f:
+        list_of_words.extend(re.findall(r"[\w]+", line.lower(, re.findall(r"[\w]+")))
+        unique[each, each] = 0
+    unique[each, each] += 1
+s = [, ]
+for key, val in unique.items(, ):
+        s.append(key, key)

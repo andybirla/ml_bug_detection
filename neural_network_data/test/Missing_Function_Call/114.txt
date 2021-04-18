@@ -1,0 +1,26 @@
+model = ([tf.keras.layers.Conv2D(16, (3, 3), activation='relu', input_shape=(200, 200, 3)),
+                                    (2, 2),
+                                    (16, (3, 3), activation='relu'),
+                                    (2, 2),
+                                    (16, (3, 3), activation='relu'),
+                                    (2, 2),
+                                    (),
+                                    (512, activation='relu'),
+                                    (1, activation="sigmoid")
+()
+(optimizer=RMSprop(lr=0.001), loss='binary_crossentropy', metrics=['acc'])
+train_datagen = (rescale=1 / 255)
+                                                    (200, 200),
+(train_generator, steps_per_epoch=6, epochs=1, verbose=1)
+(model, open(filename, 'wb'))
+().withdraw()
+filename = ()
+(filename)
+img = (filename, target_size=(200, 200))
+x = (img)
+x = (x, axis=0)
+images = ([x])
+classes = (images, batch_size=10)
+(classes[0])
+    (filename + " is a human")
+    (filename + " is a horse")

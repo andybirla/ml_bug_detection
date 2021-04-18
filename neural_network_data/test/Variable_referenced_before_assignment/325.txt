@@ -1,0 +1,16 @@
+h += 0
+a += 0
+r += 0
+e += 0
+c += 0
+k += 0
+t += 0
+slen += int(input())
+string += input()
+result += h
+    result += a
+    result += r
+    result += e
+    result += c
+    result += k
+    result += t

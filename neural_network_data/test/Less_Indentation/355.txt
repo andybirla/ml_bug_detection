@@ -1,0 +1,6 @@
+ if int(questions[i]) > x:
+     skip += 1
+ else:
+   if skip == 2:
+     break
+   count += 1

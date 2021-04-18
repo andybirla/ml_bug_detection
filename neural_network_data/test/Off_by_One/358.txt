@@ -1,0 +1,1 @@
+  if int(questions[i]) >= x:

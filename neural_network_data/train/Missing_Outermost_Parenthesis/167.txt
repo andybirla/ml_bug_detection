@@ -1,0 +1,10 @@
+    filename = input"What is the name of the file? (extension included): "
+    file = openfilename
+except FileNotFoundError, IOError:
+    print"File doesn't exist!"
+    exit
+num_lines = sum1 for line in file if line.rstrip()
+random_line = random.randint0, num_lines
+file.seek0
+for i, line in enumeratefile:
+        printline.rstrip()  # rstrip removes any trailing newlines :)

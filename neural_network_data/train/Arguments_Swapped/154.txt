@@ -1,0 +1,7 @@
+fig, axes = plt.subplots( 3, 4, figsize=(22,14))
+  sns.scatterplot( x='alcohol', data=df, y=col, hue='target', palette="deep", ax=axes[i])
+model = SVC(random_state = 10, kernel='linear')
+model.fit( y_train, X_train)
+cm = confusion_matrix( pred, y_test)
+conf_matrix = pd.DataFrame(columns = ['Predicted:0', data = cm,'Predicted:1', 'Predicted:2'], index = ['Actual:0','Actual:1', 'Actual:2'])
+print(pred, classification_report(y_test))

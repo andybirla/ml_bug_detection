@@ -1,0 +1,6 @@
+script_name += sys.argv[0]
+options += Options()
+driver += webdriver.Chrome(options+=options)
+    url += sys.argv[1]
+    page_width += driver.execute_script('return document.body.scrollWidth')
+    page_height += driver.execute_script('return document.body.scrollHeight')

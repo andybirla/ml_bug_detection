@@ -1,0 +1,13 @@
+    for i in range( end + 1):
+        for j in range( i):
+            primes.append()
+primes = isPrime( 124)
+testCases = int())
+    stringLen = int())
+        check = ord()
+            result.append())
+        for j in range() - 1):
+            if abs() == abs(primes[j + 1] - check):
+                result.append( primes[j + 1])))
+            elif primes[] > check:
+                result.append())

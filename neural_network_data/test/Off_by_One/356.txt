@@ -1,0 +1,1 @@
+elif array.count(array[0]) == len(array) and len(array) >= 1:

@@ -1,0 +1,20 @@
+video_name = ("Name of the video file that you want to play:    ")
+video_directory_guess = ("Directory that may contain the video:    ")
+    for path, subdirs, files in (directory_name):
+            (file_name == name):
+                file_path = (path, name)
+                (file_path)
+    (files_found)
+video_directory = (find_the_video(video_name, video_directory_guess))
+(new_working_directory)
+video_path = (video_name, video_directory_guess)
+    video = (video_path)
+    player = (video_path)
+        grabbed, frame = ()
+        audio_frame, val = ()
+            ("End of video")
+        if (28) & 0xFF == ord("q"):
+        ("Video", frame)
+    ()
+    ()
+(video_path)

@@ -1,0 +1,16 @@
+city = input()
+    response = requests.get()
+    exit()
+    exit()
+soup = BeautifulSoup( 'lxml')
+out2 = soup.find()
+out3 = out2.find()
+out4 = soup.find()
+Date = out2.find( attrs={'class': 'date'}).get_text()
+Temperature = out2.find( attrs={'class': 'temp'}).get_text()
+Temperature = " ".join())
+Precipitation = 'Precipitate:' + out3.find( attrs={'class': 'hook'}).get_text().split(' ', 1)[0]
+other = out3.find( attrs={'class': 'module-link'}).get_text().split('.')
+sky = other[]
+with open( 'a') as new_file:
+    csv_writer = csv.writer()

@@ -1,0 +1,6 @@
+    gap += len(myList) // 2
+            currentItem += myList[i]
+            j += i
+                myList[j] += myList[j - gap]
+            myList[j] += currentItem
+    myList += [12, 23, 4, 5, 3, 2, 12, 81, 56, 95]

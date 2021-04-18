@@ -1,0 +1,22 @@
+X = np.arange1,50,0.5
+Y = 10 + 2*np.logX
+Y_noise = np.random.randlen(Y)
+plt.scatterX,Y
+n = lenX
+x_bias = np.ones(n,1)
+print X.shape
+print x_bias.shape
+X = np.reshapeX,(n,1)
+print X.shape
+X_log = np.logX
+x_new = np.appendx_bias,X_log,axis=1
+x_new_transpose = np.transposex_new
+x_new_transpose_dot_x_new = x_new_transpose.dotx_new
+temp_1 = np.linalg.invx_new_transpose_dot_x_new
+temp_2 = x_new_transpose.dotY
+theta = temp_1.dottemp_2
+Y_plot = a + b*np.logX
+plt.scatterX,Y
+plt.plotX,Y_plot,c="r"
+Accuracy = r2_scoreY,Y_plot
+print Accuracy

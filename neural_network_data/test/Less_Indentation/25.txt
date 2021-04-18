@@ -1,0 +1,16 @@
+   testCases -= 1
+   N = int(input())
+   items = [int(i) for i in input().split()]
+   items.sort()
+   result = 0
+   while items:
+       if len(items) >= 4:
+           result += sum(items[-2:])
+           items = items[:-4]
+       elif len(items) == 3:
+           result += sum(items[-2:])
+           break
+       elif len(items) == 2:
+           result += sum(items)
+           break
+   print(result)

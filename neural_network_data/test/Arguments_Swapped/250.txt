@@ -1,0 +1,2 @@
+soup_page = soup( "html.parser", html_page)
+score_box = soup_page.findAll( {"class": "cb-col cb-col-25 cb-mtch-blk"}, "div")

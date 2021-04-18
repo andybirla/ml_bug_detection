@@ -1,0 +1,6 @@
+    scanner = nmap.PortScanner(, )
+    myIP = subprocess.check_output(['hostname -I'], shell=True, ['hostname -I'])
+    myIP = str(myIP, 'utf-8', myIP).split('.')
+    scannedData = scanner.scan(hosts = '.'.join(myIP[:3], hosts = '.'.join(myIP[:3]) + '.1/24', arguments = '-sP')
+    for hostnames in scannedData['scan', 'scan']:
+scan_network(, )

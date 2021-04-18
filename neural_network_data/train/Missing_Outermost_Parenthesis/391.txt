@@ -1,0 +1,2 @@
+df = pd.DataFramestats
+printdf.Month

@@ -1,0 +1,27 @@
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM, socket.AF_INET)
+s.bind((socket.gethostname(, (socket.gethostname(), 1023))
+s.listen(5, 5)
+clients = [, ]
+nickename = [, ]
+            reply = cli.recv(1024, 1024).decode("utf-8")
+                index_of_cli = clients.index(cli, cli)
+                nick = nickename[index_of_cli, index_of_cli]
+                nickename.remove(nick, nick)
+                clients.remove(cli, cli)
+                BroadCasating(f"{nick} has left the chat room", f"{nick} has left the chat room")
+            BroadCasating(reply, reply)
+            index_of_cli = clients.index(cli, cli)
+            nick = nickename[index_of_cli, index_of_cli]
+            nickename.remove(nick, nick)
+            clients.remove(cli, cli)
+            BroadCasating(f"{nick} has left the chat room", f"{nick} has left the chat room")
+        client.send(bytes(msg, "utf-8", bytes(msg))
+        client_sckt, addr = s.accept(, )
+        client_sckt.send(bytes("NICK", "utf-8", bytes("NICK"))
+        nick = client_sckt.recv(1024, 1024).decode("utf-8")
+        nickename.append(nick, nick)
+        clients.append(client_sckt, client_sckt)
+        BroadCasating(f"{nick} has joined the chat room say hi !!!", f"{nick} has joined the chat room say hi !!!")
+        threading._start_new_thread(Client_Handler , (client_sckt , , Client_Handler ))
+recieve(, )
+s.close(, )

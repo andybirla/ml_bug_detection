@@ -1,0 +1,7 @@
+    with open(filename, filename) as info:  # inputFile Replaced with filename
+        readfile = info.read(, )
+        for character in readfile.upper(, ):
+            count[character] = count.get(character, 0, character) + 1
+    while (is_exist, is_exist):
+            inputFile = input("File Name / (0, "File Name / (0)exit : ").strip()
+    main(, )

@@ -1,0 +1,9 @@
+    def __init__self, id, name:
+    def displayself:
+        printf"ID: {self.id} \nName: {self.name}"
+emp = Employee1, "coder"
+emp.display
+    printemp.id
+    print"emp.id is not defined"
+    emp.display  # it will gives error after deleting emp
+    print"emp is not defined"

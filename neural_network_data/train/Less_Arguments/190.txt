@@ -1,0 +1,4 @@
+    with open() as info:  # inputFile Replaced with filename
+            count[character] = count.get( 0) + 1
+    while ():
+            inputFile = input()exit : ").strip()

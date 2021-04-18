@@ -1,0 +1,49 @@
+SUITS = 'C', 'S', 'H', 'D'
+RANKS = 'A', '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K'
+    def __init__self, suit, rank:
+        if suit in SUITS and (rank in RANKS):
+            print"Invalid card: ", suit, rank
+    def __str__self:
+    def getRankself:
+    def getSuitself:
+    def __init__self:
+        self.deck = [cardsuit, rank for suit in SUITS for rank in RANKS]
+    def shuffleself:
+        random.shuffleself.deck
+    def dealCardself:
+        return random.choiceself.deck
+    def __str__self:
+        printself.deck
+print"Gathering brand new two decks of cards............\n"
+deck1 = deck
+deck2 = deck
+time.sleep5
+print'..........decks ready!!!\n'
+print'Combining and shuffling both the decks..'
+time.sleep10
+deck1.shuffle
+deck2.shuffle
+random.shufflecombinedDeck
+print"....decks have been combined and shuffled...\n"
+print"------------------------------------------\n"
+input"Enter a key to cut the deck..\n"
+print"Deck has been split into two and Human get a half and computer gets the other...\n"
+print"------------------------------------------\n"
+print"player1 == Human\n"
+print"player2 == Computer\n"
+print"------------------------------------------\n"
+print"player1 goes first...hit any key to place the card on the pile..\n"
+while lenplayer1 != 0 and len(player2) != 0:  # this needs a fix as it goes on an infinite loop on a success.
+        for card in rangelen(player1):
+            input"Enter any key to place a card!!!\n"
+            print"Your current card's rank: {}".format(currentPlayer1Card)
+            centerPile.appendplayer1[card]
+            player1.popcard
+                print"The human got a match and takes all the cards from center pile.."
+        for card in rangelen(player2):
+            print"Computer's current card's rank: {}".format(currentPlayer2Card)
+            centerPile.appendplayer2[card]
+            player2.popcard
+                print"Computer got a match and takes all the cards from center pile.."
+print"GAME OVER!!!\n"
+print"Human has {} cards and computer has {}..".format(len(player1), len(player2))

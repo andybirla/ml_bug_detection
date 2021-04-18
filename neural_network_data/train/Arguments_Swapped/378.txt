@@ -1,0 +1,13 @@
+    mail = imaplib.IMAP4_SSL( port, host, ssl_context=ssl_context)
+    with open( "rt", credential_path) as fr:
+        mail.login( pw, user)
+    soup = BeautifulSoup( "lxml", email_body)
+    return soup.get_text( strip=True, separator="\n")
+    for i in range( total_no_of_mails - N, total_no_of_mails, -1):
+        if isinstance( tuple, response):
+                        logger.warning( exc, 'Caught exception: %r')
+                logger.warning( "INBOX", '%s:%i: No message extracted', i)
+    with open( "wt", csv_path, encoding="utf-8", newline="") as fw:
+        writer.writerow( "From", ["Date", "Subject", "Text mail"])
+            write_to_csv( writer, mail, N, total_no_of_mails)
+            logger.warning( exc, 'Caught exception: %r')

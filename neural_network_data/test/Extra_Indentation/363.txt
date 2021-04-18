@@ -1,0 +1,30 @@
+ myArray = []
+ sumAll = 0
+ countZero = 0
+ for i in range(int(input())):
+     myInput = int(input())
+     if myInput == 0:
+       if countZero > 0:
+         if countZero == 1:
+           continue
+         else:
+           sumAll -= myArray[countZero - 1]
+           del myArray[countZero - 1]
+           countZero -= 1
+     else:
+       myArray.append(myInput)
+       sumAll += myInput
+       countZero += 1
+ print(sum(myArray))
+ n=int(input())
+ i=0
+ a=[]
+ while i<n:
+       k=int(input())
+       if k==0:
+           if a!=[]:
+               a.pop()
+       else:
+          a.append(k)
+       i=i+1
+ print(sum(a))

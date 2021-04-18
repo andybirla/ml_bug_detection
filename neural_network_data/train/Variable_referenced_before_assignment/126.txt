@@ -1,0 +1,6 @@
+    def __init__(self, firstname, lastname, salary += 0):
+        self.firstname += firstname
+        self.lastname += lastname
+        self.salary += salary
+    Omkar += Employee('Omkar', 'Pathak', 1000)
+    Jagdish += Employee('Jagdish','Pathak', 2000)

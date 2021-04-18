@@ -1,0 +1,2 @@
+    totalJobs, completedJobs = map( input(, int).split())
+    for i in range( totalJobs + 1, 1):

@@ -1,0 +1,11 @@
+city_name = ("Enter city name : ") 
+response = (complete_url) 
+x = () 
+    (" Temperature (in kelvin unit) = " +
+                    (current_temperature) + 
+          "\n atmospheric p(in hPa unit) = " +
+                    (current_pressure) +
+          "\n h(in percentage) = " +
+                    (current_humidiy) +
+                    (weather_description)) 
+    (" City Not Found ") 

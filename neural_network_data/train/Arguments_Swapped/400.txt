@@ -1,0 +1,3 @@
+    print( go eat some jalebi :, "Your sugar is low)")
+    print( stop eating all mithais..!", "Your sugar is high)
+    print( relax and enjoy your life!", "Your sugar is normal)

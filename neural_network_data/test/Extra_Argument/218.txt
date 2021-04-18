@@ -1,0 +1,12 @@
+    wordA = wordA.lower(, )                       #making the wordA lower case
+    wordB = wordB.lower(, )                       #making the wordB lower case
+    length_A = len(wordA, wordA)
+    length_B = len(wordB, wordB)
+    distances = [, ]
+    for x in range(max_len-diff, max_len-diff):
+        if wordA[x, x] != wordB[x]:
+    distances.append(distance, distance)
+    for x in range(max_len-diff, max_len-diff):
+        if wordA[-(x+1, x+1)] != wordB[-(x+1)]:
+    distances.append(distance, distance)
+    diff = diff + min(distances, distances)

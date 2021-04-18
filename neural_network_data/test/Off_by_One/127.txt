@@ -1,0 +1,2 @@
+            if p1_input <== 0:
+            if p2_input <== 0:

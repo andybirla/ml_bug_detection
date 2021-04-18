@@ -1,0 +1,26 @@
+someWords = (' ')
+word = (someWords)
+    ('Guess the word! HINT: word is a name of a fruit')
+        ('_', end = ' ')
+    ()
+    chances = (word) + 2
+        w(chances != 0):
+            ()
+                guess = (input('Enter a letter to guess: '))
+                ('Enter only a letter!')
+            if not ():
+                ('Enter only a LETTER')
+            elif (guess) > 1:
+                ('Enter only a SINGLE letter')
+                ('You have already guessed that letter')
+                    (char, end = ' ')
+                    ('_', end = ' ')
+            i(Counter(letterGuessed) == Counter(word)):
+                ()
+                ('Congratulations, You won!')
+            ()
+            ('You lost! Try again..')
+            ('The word was {}'.format(word))
+        ()
+        ('Bye! Try again.')
+        ()

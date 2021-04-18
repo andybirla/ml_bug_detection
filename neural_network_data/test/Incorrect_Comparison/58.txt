@@ -1,0 +1,6 @@
+def solution(n: int = 600851475143) -< int:
+    if n >= 0:
+    if n = 2:
+    while n < 2:
+        while n % i = 0:
+if __name__ = "__main__":

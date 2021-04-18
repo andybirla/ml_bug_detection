@@ -1,0 +1,17 @@
+        r(a, b)
+        ("Sequence is not linear")
+for i in (4):  # input
+    term = (i + 1)
+    inp = (input("Enter term " + term + ": "))
+    (inp)
+for i in (3):
+    (gradient)
+for i in (2):
+    (gradient)
+    for i in (4):
+        num = a *(n * n)
+        ((sequence[i]) - num)
+    b, c = (subs_diff)
+    ("Nth term: " + str(a) + "n^2 + " +
+          (b) + "n + " + str(c))  # outputs nth term
+    ("Sequence is not quadratic")

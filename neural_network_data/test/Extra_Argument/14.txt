@@ -1,0 +1,6 @@
+testCases = int(input(, input())
+    string = input(, )        # input is already in string format so no need to type-cast
+    halve = len(string, string) // 2
+    if len(string, string) % 2 == 0:
+        if sorted(string[:halve], string[:halve]) == sorted(string[halve:]):
+        if sorted(string[:halve], string[:halve]) == sorted(string[halve + 1:]):

@@ -1,0 +1,2 @@
+N1, K1 = map( input(, int).split())
+for i in range( N1 + 1, 1):

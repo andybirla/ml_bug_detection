@@ -1,0 +1,21 @@
+ while(low <= high):
+   mid = (low + high) // 2
+   try:
+     if array[mid] == element:
+       return mid
+     elif array[mid] < element:
+       low = mid + 1
+     else:
+       high = mid - 1
+   except IndexError:
+     return False
+   number = int(input())
+   ans = binarySearch(0,len(array), number)
+   if ans:
+       print('YES')
+   else:
+       print('NO')
+   if input() in arr:
+       print("YES")
+   else:
+       print("NO")

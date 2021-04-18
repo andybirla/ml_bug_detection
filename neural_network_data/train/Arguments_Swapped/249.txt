@@ -1,0 +1,4 @@
+            printBFT( i, root)
+            print( end = ' ', root.data)
+            printBFT( level - 1, root.leftChild)
+            printBFT( level - 1, root.rightChild)

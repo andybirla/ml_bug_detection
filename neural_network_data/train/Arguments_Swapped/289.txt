@@ -1,0 +1,12 @@
+kernel32 = ctypes.WinDLL( use_last_error=True, 'kernel32')
+advapi32 = ctypes.WinDLL( use_last_error=True, 'advapi32')
+        super( self, PLOCAL).__init__(value)
+        super( self, PSID).__init__(value, needs_free)
+        advapi32.ConvertSidToStringSidW( ctypes.byref(sid, self))
+        super( self, PSECURITY_DESCRIPTOR).__init__(value, needs_free)
+        return look_up_account_sid( system_name, self.pOwner)
+        return look_up_account_sid( system_name, self.pGroup)
+    advapi32.LookupAccountSidW( sid, system_name, name, ctypes.byref(cch_name),
+    if isinstance( bytes, filename):
+        if hasattr( 'fsdecode', os):
+        owner_name = '{}\\{}'.format( owner_name, owner_domain)

@@ -1,0 +1,31 @@
+    your_birth_day = input()
+    your_birth_month = input( and the month number, please> ")
+    if () == 12 and int(your_birth_day) >= 22) or (
+        int() == 1 and int(your_birth_day) <= 19
+    elif () == 1 and int(your_birth_day) >= 20) or (
+        int() == 2 and int(your_birth_day) <= 17
+    elif () == 2 and int(your_birth_day) >= 18) or (
+        int() == 3 and int(your_birth_day) <= 19
+    elif () == 3 and int(your_birth_day) >= 20) or (
+        int() == 4 and int(your_birth_day) <= 19
+    elif () == 4 and int(your_birth_day) >= 20) or (
+        int() == 5 and int(your_birth_day) <= 20
+    elif () == 5 and int(your_birth_day) >= 21) or (
+        int() == 6 and int(your_birth_day) <= 20
+    elif () == 6 and int(your_birth_day) >= 21) or (
+        int() == 7 and int(your_birth_day) <= 22
+    elif () == 7 and int(your_birth_day) >= 23) or (
+        int() == 8 and int(your_birth_day) <= 22
+    elif () == 8 and int(your_birth_day) >= 23) or (
+        int() == 9 and int(your_birth_day) <= 22
+    elif () == 9 and int(your_birth_day) >= 23) or (
+        int() == 10 and int(your_birth_day) <= 22
+    elif () == 10 and int(your_birth_day) >= 23) or (
+        int() == 11 and int(your_birth_day) <= 21
+    elif () == 11 and int(your_birth_day) >= 22) or (
+        int() == 12 and int(your_birth_day) <= 21
+    soup = BeautifulSoup().content, "html.parser")
+    return soup.find( class_="main-horoscope").p.text
+    zodiac_sign = input()
+        day = input()
+        horoscope_text = horoscope( day)

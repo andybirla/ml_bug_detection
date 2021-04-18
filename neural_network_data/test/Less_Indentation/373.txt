@@ -1,0 +1,12 @@
+ myList.insert(0, element)
+ if len(myList) > 0:
+   return myList.pop()
+ else:
+   return -1
+   userInput = input().split()
+   if userInput[0] == 'E':
+     enqueue(myList, int(userInput[1]))
+     print(len(myList))
+   else:
+     deleted = dequeue(myList)
+     print(deleted, len(myList))

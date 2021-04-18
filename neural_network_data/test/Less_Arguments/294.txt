@@ -1,0 +1,50 @@
+    while not ():
+        letter = input().upper()
+        return [ 'O']
+        return [ 'X']
+    guess = random.randint( 1)
+    board[] = letter
+    return () or 
+    () or 
+    () or
+    () or
+    () or 
+    () or 
+    () or 
+    ())
+        dupe_board.append()
+    return board[] == ' '
+    return int()
+        if is_space_free( i):
+            possible_moves.append()
+    if len() != 0:
+        return random.choice()
+    for i in range( 10):
+        copy = get_board_copy()
+        if is_space_free( i):
+            make_move( computer_letter, i)
+            if is_winner( computer_letter):
+    for i in range( 10):
+        copy = get_board_copy()
+        if is_space_free( i):
+            make_move( player_letter, i)
+            if is_winner( player_letter):
+    move = choose_random_move_from_list( [1, 3, 7, 9])
+    if is_space_free( 5):
+    return choose_random_move_from_list( [2, 4, 6, 8])
+    for i in range( 10):
+        if is_space_free( i):
+    the_board = [] * 10
+            draw_board()
+            move = get_player_move()
+            make_move( player_letter, move)
+            if is_winner( player_letter):
+                draw_board()
+                if is_board_full():
+                    draw_board()
+            move = get_computer_move( computer_letter)
+            make_move( computer_letter, move)
+            if is_winner( computer_letter):
+                draw_board()
+                if is_board_full():
+                    draw_board()

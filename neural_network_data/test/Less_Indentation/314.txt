@@ -1,0 +1,27 @@
+   primes = []
+   for i in range(start, end + 1):
+       check = 0
+       for j in range(2, i):
+           if i % j == 0:
+               check = 1
+               break
+       if check == 0:
+           primes.append(i)
+   return primes
+   testCases -= 1
+   stringLen = int(input())
+   string = input()
+   result = []
+   for i in string:
+       check = ord(i)
+       if check in primes:
+           result.append(chr(check))
+           continue
+       for j in range(len(primes) - 1):
+           if abs(primes[j] - check) == abs(primes[j + 1] - check):
+               result.append(chr(min(primes[j], primes[j + 1])))
+               break
+           elif primes[j] > check:
+               result.append(chr(primes[j]))
+               break
+   print(''.join([str(i) for i in result]))

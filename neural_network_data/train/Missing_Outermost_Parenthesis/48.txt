@@ -1,0 +1,11 @@
+def record_voice:
+	microphone = speech_recognition.Recognizer	
+	with speech_recognition.Microphone as live_phone:
+		microphone.adjust_for_ambient_noiselive_phone
+		print"I'm trying to hear you: "
+		audio = microphone.listenlive_phone
+			phrase = microphone.recognize_googleaudio, language='en'
+	phrase = record_voice
+	with open'you_said_this.txt','w' as file:
+		file.writephrase 
+	print'the last sentence you spoke was saved in you_said_this.txt' 

@@ -1,0 +1,75 @@
+random.shuffledeck
+print'********************************************************** \n Welcome to the game Casino - BLACK JACK ! \n**********************************************************'
+time.sleep2
+print'So Finally You Are Here To Accept Your Fate' 
+time.sleep2
+print'I Mean Your Fortune' 
+time.sleep2
+print'Lets Check How Lucky You Are  Wish You All The Best'
+time.sleep2
+print'Loading---'
+time.sleep2
+print'Still Loading---'
+time.sleep2
+print'So You Are Still Here Not Gone I Gave You Chance But No Problem May Be You Trust Your Fortune A Lot \n Lets Begin Then'
+time.sleep2
+time.sleep2
+while lend_cards != 2:
+    random.shuffledeck
+    d_cards.appenddeck.pop()
+    if lend_cards == 2:
+        print'The cards dealer has are X ', d_cards[1]
+while lenp_cards != 2:
+    random.shuffledeck
+    p_cards.appenddeck.pop()
+    if lenp_cards == 2:
+        print"The total of player is ", sum(p_cards)
+        print"The cards Player has are  ", p_cards
+if sump_cards > 21:
+    print"You are BUSTED !\n  **************Dealer Wins !!******************\n"
+    exit
+if sumd_cards > 21:
+    print"Dealer is BUSTED !\n   ************** You are the Winner !!******************\n"
+    exit
+if sumd_cards == 21:
+    print"***********************Dealer is the Winner !!******************"
+    exit
+if sumd_cards == 21 and sum(p_cards) == 21:
+    print"*****************The match is tie !!*************************"
+    exit
+def dealer_choice:
+    if sumd_cards < 17:
+        while sumd_cards < 17:
+            random.shuffledeck
+            d_cards.appenddeck.pop()
+    print"Dealer has total " + str(sum(d_cards)) + "with the cards ", d_cards
+    if sump_cards == sum(d_cards):
+        print"***************The match is tie !!****************"
+        exit
+    if sumd_cards == 21:
+        if sump_cards < 21:
+            print"***********************Dealer is the Winner !!******************"
+        elif sump_cards == 21:
+            print"********************There is tie !!**************************"
+            print"***********************Dealer is the Winner !!******************"
+    elif sumd_cards < 21:
+        if sump_cards < 21 and sum(p_cards) < sum(d_cards):
+            print"***********************Dealer is the Winner !!******************"
+        if sump_cards == 21:
+            print"**********************Player is winner !!**********************"
+        if sump_cards < 21 and sum(p_cards) > sum(d_cards):
+            print"**********************Player is winner !!**********************"
+        if sump_cards < 21:
+            print"**********************Player is winner !!**********************"
+        elif sump_cards == 21:
+            print"**********************Player is winner !!**********************"
+            print"***********************Dealer is the Winner !!******************"
+while sump_cards < 21:
+    k = input'Want to hit or stay?\n Press 1 for hit and 0 for stay '
+        random.shuffledeck
+        p_cards.appenddeck.pop()
+        print        if sump_cards > 21:
+            print'*************You are BUSTED !*************\n Dealer Wins !!'
+        if sump_cards == 21:
+            print'*******************You are the Winner !!*****************************'
+        dealer_choice

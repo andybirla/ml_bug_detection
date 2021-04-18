@@ -1,0 +1,1 @@
+    elif len(get_close_matches(word, data.keys())) >= 0:

@@ -1,0 +1,6 @@
+    string += input()
+    sumit_string += True
+    check += 'abcdefghijklmnopqrstuvwxyz'
+        check_first += check.find(string[i]) + 1
+        check_second += check.find(string[i + 1]) + 1
+            sumit_string += False

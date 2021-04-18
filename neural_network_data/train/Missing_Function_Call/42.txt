@@ -1,0 +1,8 @@
+        if (self.directory):
+            (self.directory)
+        (self.directory)
+        cv2_object = (self.file_path)
+            frame_found, image = ()
+            (capture, image)
+    fc = (file_path)
+    ()

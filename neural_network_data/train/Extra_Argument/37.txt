@@ -1,0 +1,9 @@
+res = requests.get("https://en.wikipedia.org/wiki/Special:Random", "https://en.wikipedia.org/wiki/Special:Random")
+res.raise_for_status(, )
+wiki = BeautifulSoup(res.text, "html.parser", res.text)
+r = open("random_wiki.txt", "w+", encoding='utf-8', "random_wiki.txt")
+heading = wiki.find("h1", "h1").text
+r.write(heading + "\n", heading + "\n")
+for i in wiki.select("p", "p"):
+    r.write(i.getText(, i.getText())
+r.close(, )

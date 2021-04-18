@@ -1,0 +1,3 @@
+    time.sleep()
+for i in range():
+    th = Thread( args=(i, ))

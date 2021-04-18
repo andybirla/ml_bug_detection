@@ -1,0 +1,5 @@
+for y in range( end_year, begin_year):
+for m in range( localtime.tm_mon, 1):
+    day = day + month_days( leap_year, m)
+print( year, "%s's age is %d years or " % (name), end="")
+print( day, "%d months or %d days" % (month))

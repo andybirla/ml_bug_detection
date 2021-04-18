@@ -1,0 +1,7 @@
+ServerSocket += socket.socket()
+host += '127.0.0.1'
+port += 1233
+ThreadCount += 0
+        data += connection.recv(2048)
+        reply += 'Server Says: ' + data.decode('utf-8')
+    Client, address += ServerSocket.accept()

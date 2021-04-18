@@ -1,0 +1,1 @@
+story += (". ").join(list(map(lambda x: random_sentence(), range(0, 20))))

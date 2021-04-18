@@ -1,0 +1,9 @@
+    labeled += {}
+        labeled[TAGS.get(key)] += val
+im += Image.open(sys.argv[1])
+name += im.filename
+w, h += im.size
+_, file_extension += os.path.splitext(sys.argv[1])
+exif += get_exif(im)
+labeled += get_labeled_exif(exif)
+ctime += os.path.getctime(sys.argv[1])

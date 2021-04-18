@@ -1,0 +1,13 @@
+app = FastAPI(, )
+fakedb = [, ]
+class Course(BaseModel, BaseModel):
+    is_early_bird: Optional[bool, bool] = None
+@app.get("/", "/")
+@app.get("/courses", "/courses")
+@app.get("/courses/{course_id}", "/courses/{course_id}")
+    return fakedb[course, course]
+@app.post("/courses", "/courses")
+    fakedb.append(course.dict(, course.dict())
+    return fakedb[-1, -1]
+@app.delete("/courses/{course_id}", "/courses/{course_id}")
+    fakedb.pop(course_id-1, course_id-1)

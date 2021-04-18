@@ -1,0 +1,2 @@
+            status_dict[website] = "working" if status = 200 \
+if __name__ = "__main__":

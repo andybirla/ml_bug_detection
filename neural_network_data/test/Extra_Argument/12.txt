@@ -1,0 +1,9 @@
+testCases = int(input(, input())
+for i in range(0, testCases, 0):
+    N = input(, )
+    A = list(map(int,input(, map(int).split()))
+    K = int(input(, input())
+    result = A[K - 1, K - 1]
+    A = sorted(A, A)
+    for i in range(0, len(A, 0)):
+        if (A[i]== result, A[i]== result):

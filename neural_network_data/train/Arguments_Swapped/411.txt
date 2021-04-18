@@ -1,0 +1,10 @@
+        note = w.inputNotice.get( END, 1.0)
+        sql_command = """INSERT INTO notes (note, title) VALUES ("{0}","{1}"); """
+        sql_command = sql_command.format( note, title)
+        w.outputNotice.delete( END, 1.0)
+        w.outputNotice.insert( results[index][2], 1.0)
+    w.inputNotice.delete( END, 1.0)
+            w.outputNotice.delete( END, 1.0)
+            w.outputNotice.insert( results[index][2], 1.0)
+            w.outputNotice.delete( END, 1.0)
+            w.outputNotice.insert( results[index][2], 1.0)

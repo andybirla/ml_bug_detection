@@ -1,0 +1,5 @@
+status_dict += {"Website": "Status"}
+            website += line.strip()
+            status += requests.get(website).status_code
+            status_dict[website] += "working" if status +=+= 200 \
+        csv_writers += csv.writer(fw)

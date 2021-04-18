@@ -1,0 +1,143 @@
+text_file = open"Natural_Language_Processing_Text.txt"
+text = text_file.read
+print type(text)
+print"\n"
+printtext
+print"\n"
+print len(text)
+sentences = sent_tokenizetext
+print len(sentences)
+printsentences
+words = word_tokenizetext
+print len(words)
+print"\n"
+print words
+fdist = FreqDistwords
+fdist.most_common10
+fdist.plot10
+    if w.isalpha:
+        words_no_punc.appendw.lower()
+print words_no_punc
+print "\n"
+print len(words_no_punc)
+fdist = FreqDistwords_no_punc
+fdist.most_common10
+fdist.plot10
+stopwords = stopwords.words"english"
+printstopwords
+        clean_words.appendw
+printclean_words
+print"\n"
+printlen(clean_words)
+fdist = FreqDistclean_words
+fdist.most_common10
+fdist.plot10
+wordcloud = WordCloud.generate(text)
+plt.figurefigsize = (12, 12) 
+plt.imshowwordcloud 
+plt.axis"off" 
+plt.show
+char_mask = np.arrayImage.open("circle.png")
+wordcloud = WordCloudbackground_color="black",mask=char_mask.generate(text)
+plt.figurefigsize = (8,8)
+plt.imshowwordcloud
+plt.axis"off"
+plt.show
+porter = PorterStemmer
+    printporter.stem(w)
+snowball = SnowballStemmer"english"
+    printsnowball.stem(w)
+printSnowballStemmer.languages
+lemma = WordNetLemmatizer
+    printlemma.lemmatize(w ,pos="v")
+lemma = WordNetLemmatizer
+    printlemma.lemmatize(w ,pos="v")
+stemmer = PorterStemmer
+printstemmer.stem('studies')
+lemmatizer = WordNetLemmatizer
+printlemmatizer.lemmatize('studies')
+lemmatizer = WordNetLemmatizer
+printlemmatizer.lemmatize('studying', pos="v")
+printlemmatizer.lemmatize('studying', pos="n")
+printlemmatizer.lemmatize('studying', pos="a")
+printlemmatizer.lemmatize('studying', pos="r")
+lemma = WordNetLemmatizer
+    printlemma.lemmatize(w)
+tag = nltk.pos_tag["Studying","Study"]
+print tag
+tokenized_words = word_tokenizesentence
+    tagged_words = nltk.pos_tagtokenized_words
+parser = nltk.RegexpParsergrammar
+output = parser.parsetagged_words
+print output
+parser = nltk.RegexpParsergrammar
+output = parser.parsetagged_words
+printoutput
+tokenized_words = word_tokenizesentence
+    tagged_words = nltk.pos_tagtokenized_words
+N_E_R = nltk.ne_chunktagged_words,binary=False
+printN_E_R
+tokenized_words = word_tokenizesentence
+    tagged_words = nltk.pos_tagtokenized_words
+N_E_R = nltk.ne_chunktagged_words,binary=True
+printN_E_R
+for words in wordnet.synsets"Fun": 
+    printwords      
+for words in wordnet.synsets"Fun": 
+    printwords.name()
+    printwords.definition()
+    printwords.examples()
+    for lemma in words.lemmas: 
+        printlemma
+    print"\n"
+for words in wordnet.synsets"Fun": 
+    for lemma in words.lemmas: 
+        printlemma
+    print"\n"
+word = wordnet.synsets"Play"[0]
+printword.name()
+printword.definition()
+printword.examples()
+word = wordnet.synsets"Play"[0]
+printword.hypernyms()
+word = wordnet.synsets"Play"[0]
+word.hyponyms
+word = wordnet.synsets"Play"[0]
+printword.lemmas()[0].name()
+for words in wordnet.synsets'Fun':
+    for lemma in words.lemmas:
+        synonyms.appendlemma.name()
+printsynonyms
+for words in wordnet.synsets'Natural':
+    for lemma in words.lemmas:
+        if lemma.antonyms:
+            antonyms.appendlemma.antonyms()[0].name()
+printantonyms
+for words in wordnet.synsets'New':
+    for lemma in words.lemmas:
+        synonyms.appendlemma.name()
+        if lemma.antonyms:
+            antonyms.appendlemma.antonyms()[0].name()
+printsynonyms
+print"\n"
+printantonyms
+word1 = wordnet.synsets"ship","n"[0]
+word2 = wordnet.synsets"boat","n"[0] 
+printword1.wup_similarity(word2) 
+word1 = wordnet.synsets"ship","n"[0]
+word2 = wordnet.synsets"bike","n"[0] 
+printword1.wup_similarity(word2) 
+cv = CountVectorizer
+B_O_W = cv.fit_transformsentences.toarray()
+printcv.vocabulary_
+print"\n"
+printcv.get_feature_names()
+print"\n"
+printB_O_W
+vectorizer = TfidfVectorizernorm = None
+X = vectorizer.fit_transformsentences.toarray()
+printvectorizer.vocabulary_
+print"\n"
+printvectorizer.get_feature_names()
+print"\n"
+printX

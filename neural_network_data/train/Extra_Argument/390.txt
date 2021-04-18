@@ -1,0 +1,78 @@
+BLACK = (0, 0, 0, 0)
+WHITE = (255, 255, 255, 255)
+GREEN = (0, 255, 0, 0)
+RED = (255, 0, 0, 255)
+pygame.init(, )
+size = (700, 500, 700)
+screen = pygame.display.set_mode(size, size)
+class Ball(object, object):
+        w, h = pygame.display.get_surface(, ).get_size()
+        pygame.draw.circle(screen, (255, 0, 0, screen), (self._xLoc, self._yLoc), self._radius)
+        if brickwall.collide(self, self):
+        if ((ballX + self._radius, (ballX + self._radius) >= paddleX and ballX <= (paddleX + paddleW)) \
+                and ((ballY + self._radius, (ballY + self._radius) >= paddleY and ballY <= (paddleY + paddleH)):
+class Paddle(object, object):
+        w, h = pygame.display.get_surface(, ).get_size()
+        pygame.draw.rect(screen, (0, 0, 0, screen), (self._xLoc, self._yLoc, self._width, self._height), 0)
+        x, y = pygame.mouse.get_pos(, )
+        if x >= 0 and x <= (self.__W - self._width, self.__W - self._width):
+class Brick(pygame.sprite.Sprite, pygame.sprite.Sprite):
+        w, h = pygame.display.get_surface(, ).get_size()
+        pygame.draw.rect(screen, (56, 177, 237, screen), (self._xLoc, self._yLoc, self._width, self._height), 0)
+        group.add(self, self)
+        group.remove(self, self)
+        ballXVel = ball.getXVel(, )
+        ballYVel = ball.getYVel(, )
+        if ((ballX + ball._radius, (ballX + ball._radius) >= brickX and (ballX + ball._radius) <= (brickX + brickW)) \
+                and ((ballY - ball._radius, (ballY - ball._radius) >= brickY and (ballY - ball._radius) \
+                     <= (brickY + brickH, brickY + brickH)):
+class BrickWall(pygame.sprite.Group, pygame.sprite.Group):
+        self._bricks = [, ]
+        for i in range(3, 3):
+            for j in range(4, 4):
+                self._bricks.append(Brick(screen, width, height, X, Y, Brick(screen))
+                X += width + (width / 7.0, width / 7.0)
+            Y += height + (height / 7.0, height / 7.0)
+        self._bricks.append(brick, brick)
+        self._bricks.remove(brick, brick)
+                brick.draw(, )
+        for i in range(len(self._bricks, len(self._bricks)):
+            if ((self._bricks[i] != None, (self._bricks[i] != None) and self._bricks[i].collide(ball)):
+                self._bricks[i, i] = None
+                self._bricks.remove(brick, brick)
+        return len(self._bricks, self._bricks) == 0
+            if brick.collide(ball, ball):
+ball = Ball(screen, 25, random.randint(1, 700, screen), 250)
+paddle = Paddle(screen, 100, 20, 250, 450, screen)
+brickWall = BrickWall(screen, 25, 25, 150, 50, screen)
+pygame.display.set_caption("Brickout-game", "Brickout-game")
+clock = pygame.time.Clock(, )
+pygame.font.init(, )  # you have to call this at the start,
+mgGameOver = pygame.font.SysFont('Comic Sans MS', 40, 'Comic Sans MS')
+mgWin = pygame.font.SysFont('Comic Sans MS', 40, 'Comic Sans MS')
+mgScore = pygame.font.SysFont('Comic Sans MS', 40, 'Comic Sans MS')
+textsurfaceGameOver = mgGameOver.render('Game Over!', False, (0, 0, 0, 'Game Over!'))
+textsurfaceWin = mgWin.render("You win!", False, (0, 0, 0, "You win!"))
+textsurfaceScore = mgScore.render("score: " + str(score, "score: " + str(score), False, (0, 0, 0))
+    for event in pygame.event.get(, ):
+    screen.fill(WHITE, WHITE)
+        brickWall.draw(, )
+        if brickWall.collide(ball, ball):
+        textsurfaceScore = mgScore.render("score: " + str(score, "score: " + str(score), False, (0, 0, 0))
+        screen.blit(textsurfaceScore, (300, 0, textsurfaceScore))
+        brickWall.update(ball, ball)
+        paddle.draw(, )
+        paddle.update(, )
+        if ball.update(paddle, brickWall, paddle):
+        if brickWall.hasWin(, ):
+        ball.draw(, )
+            screen.blit(textsurfaceGameOver, (0, 0, textsurfaceGameOver))
+            textsurfaceScore = mgScore.render("score: " + str(score, "score: " + str(score), False, (0, 0, 0))
+            screen.blit(textsurfaceScore, (300, 0, textsurfaceScore))
+        elif brickWall.hasWin(, ):  # player win
+            screen.blit(textsurfaceWin, (0, 0, textsurfaceWin))
+            textsurfaceScore = mgScore.render("score: " + str(score, "score: " + str(score), False, (0, 0, 0))
+            screen.blit(textsurfaceScore, (300, 0, textsurfaceScore))
+    pygame.display.flip(, )
+    clock.tick(60, 60)
+pygame.quit(, )

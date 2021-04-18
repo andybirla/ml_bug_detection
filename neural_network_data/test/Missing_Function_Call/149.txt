@@ -1,0 +1,13 @@
+    nmScan = ()
+    (tgtHost, tgtPort)
+    state = (tgtPort)]['state']
+    ("[*] " + tgtHost + " tcp/" + tgtPort + " " + state)
+    parser = ('usage%prog ' + '-H <host> -p <port>')  # Display options/help if required
+    ('-H', dest='tgtHost', type='string', help='specify host')
+    ('-p', dest='tgtPort', type='string', help='port')
+    tgtPorts = (options.tgtPort).split(',')
+    i(tgtHost == None) | (tgtPorts[0] == None):
+        (parser.usage)
+        (0)
+        (tgtHost, tgtPort)
+    ()

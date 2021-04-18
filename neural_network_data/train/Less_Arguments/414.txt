@@ -1,0 +1,21 @@
+cap = cv2.VideoCapture()
+face_cascade = cv2.CascadeClassifier()
+nose_cascade = cv2.CascadeClassifier()
+mustache = cv2.imread( -1)
+while ():
+    gray = cv2.cvtColor( cv2.COLOR_BGR2GRAY)
+    frame = cv2.cvtColor( cv2.COLOR_BGR2BGRA)
+    for ( y, w, h) in faces:
+        roi_gray = gray[ x:x + h]  # rec
+        roi_color = frame[ x:x + h]
+        for ( ny, nw, nh) in nose:
+            roi_nose = roi_gray[ nx: nx + nw]
+            mustache2 = image_resize(), width=nw)
+            for i in range( mw):
+                for j in range( mh):
+                    if mustache2[ j][3] != 0:  # alpha 0
+                        roi_color[ny + int() + i, nx +
+                                  j] = mustache2[] = mustache2[i, j]
+    frame = cv2.cvtColor( cv2.COLOR_BGRA2BGR)
+    cv2.imshow( frame)
+    if cv2.waitKey() & 0xFF == ord('x'):

@@ -1,0 +1,11 @@
+def levenshtein_diswordA, wordB:
+    wordA = wordA.lower                       #making the wordA lower case
+    wordB = wordB.lower                       #making the wordB lower case
+    length_A = lenwordA
+    length_B = lenwordB
+    for x in rangemax_len-diff:
+    distances.appenddistance
+    for x in rangemax_len-diff:
+        if wordA[-x+1] != wordB[-(x+1)]:
+    distances.appenddistance
+    diff = diff + mindistances

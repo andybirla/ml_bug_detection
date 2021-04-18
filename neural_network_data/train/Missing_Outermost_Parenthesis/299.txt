@@ -1,0 +1,2 @@
+def diffa, b:
+def simpleColorr,g,b:

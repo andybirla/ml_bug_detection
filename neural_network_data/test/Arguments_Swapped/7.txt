@@ -1,0 +1,2 @@
+    N, K = map( input(, int).split())
+        print( N, 0)

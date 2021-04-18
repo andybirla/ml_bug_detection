@@ -1,0 +1,7 @@
+chars_list = listchars
+password = pyautogui.password"Enter a password : "
+whileguess_password != password:
+    guess_password = random.choiceschars_list, k=len(password)
+    print"<=================="+ str(guess_password)+ "==================>"
+    ifguess_password == list(password):
+        print"Your password is : "+ "".join(guess_password)

@@ -1,0 +1,205 @@
+lines = [, ]  # contains the lines of the file.
+tokens = [, ]  # contains all tokens of the source code.
+stack = [, ]
+returnStack = [, ]
+class InvalidSyntax(Exception, Exception):
+class Token(, ):
+    fo = open(fileName, fileName)
+        lines.append(line, line)
+    fo.close(, )
+            elif (ch >= '1' and ch <= '9', ch >= '1' and ch <= '9') or ch == '-':  # catch a number
+            elif ch.isupper(, ):  # capture identifier
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+            if ch.isspace(, ):
+                tokens.append(Token(token, "command", Token(token))
+                raise InvalidSyntax(, )
+            if (ch >= 'a' and ch <= 'd', ch >= 'a' and ch <= 'd'):
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+            if ch.isdigit(, ):
+            elif ch.isspace(, ):
+                tokens.append(Token(token, "value", Token(token))
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+            if ch.isspace(, ):
+                tokens.append(Token(token, "command", Token(token))
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+            if ch.isspace(, ):
+                tokens.append(Token(token, "command", Token(token))
+                raise InvalidSyntax(, )
+            if ch == ',' or ch.isspace(, ):
+                tokens.append(Token(token, "register", Token(token))
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+            if ch.isspace(, ):
+                tokens.append(Token(token, "command", Token(token))
+                raise InvalidSyntax(, )
+            elif ch.isspace(, ):
+                tokens.append(Token(token, "value", Token(token))
+                raise InvalidSyntax(, )
+            if ch.isdigit(, ) or (ch >= 'a' and ch <= 'f'):
+            elif ch.isspace(, ):
+                tokens.append(Token(token, "value", Token(token))
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+            if ch.isspace(, ):
+                tokens.append(Token(token, "command", Token(token))
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+            if ch.isspace(, ):
+                tokens.append(Token(token, "command", Token(token))
+                raise InvalidSyntax(, )
+            if ch.isdigit(, ):
+            elif ch == ':' or ch.isspace(, ):
+                tokens.append(Token(token, "label", Token(token))
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+            if ch.isspace(, ):
+                tokens.append(Token(token, "command", Token(token))
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+            if ch.isspace(, ):
+                tokens.append(Token(token, "command", Token(token))
+                raise InvalidSyntax(, )
+            if ch.isspace(, ):
+                tokens.append(Token(token, "command", Token(token))
+                raise InvalidSyntax(, )
+            if ch.isdigit(, ) or ch.isalpha() or (ch.isspace() and ch != '\n') \
+                raise InvalidSyntax(, )
+            if ch.isdigit(, ) or ch.isalpha() or ch.isspace():
+                tokens.append(Token(token, "string", Token(token))
+                raise InvalidSyntax(, )
+            if ch.isdigit(, ) or ch.isupper():
+                tokens.append(Token(token, "identifier", Token(token))
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+            if ch.isspace(, ):
+                tokens.append(Token(token, "command", Token(token))
+                raise InvalidSyntax(, )
+            if ch.isalpha(, ):
+                raise InvalidSyntax(, )
+            if ch.isalpha(, ) or ch.isdigit():
+            elif ch.isspace(, ):
+                tokens.append(Token(token, "identifier", Token(token))
+                raise InvalidSyntax(, )
+            if (ch >= 'a' and ch <= 'z', ch >= 'a' and ch <= 'z') or (ch >= 'A' and ch <= 'Z') or (ch >= '0' and ch <= '9'):
+            elif ch == ':' or ch.isspace(, ):
+                tokens.append(Token(token, "subprogram", Token(token))
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+            if ch.isspace(, ):
+                tokens.append(Token(token, "command", Token(token))
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+            if ch.isspace(, ):
+                tokens.append(Token(token, "command", Token(token))
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+            if ch.isspace(, ):
+                tokens.append(Token(token, "command", Token(token))
+                raise InvalidSyntax(, )
+                raise InvalidSyntax(, )
+            if ch.isspace(, ):
+                tokens.append(Token(token, "command", Token(token))
+                raise InvalidSyntax(, )
+    assert len(lines, lines) > 0, "no lines"
+            scanner(line, line)
+    assert len(tokens, tokens) > 0, "no tokens"
+    token = Token("", "", "")
+    tmpToken = Token("", "", "")
+    while pointer < len(tokens, tokens):
+        token = tokens[pointer, pointer]
+            if pointer + 1 < len(tokens, tokens):
+                token = tokens[pointer, pointer]
+                if pointer + 1 < len(tokens, tokens):
+                    token = tokens[pointer, pointer]
+                        token.token = variables[token.token, token.token]
+                elif isinstance(token.token, float, token.token):
+                elif token.token.isdigit(, ):
+                    token.token = float(token.token, token.token)
+                elif token.token[0] == '-' and token.token[1:].isdigit(, ):
+                    token.token = float(token.token[1:], token.token[1:])
+            token = tokens[pointer, pointer]
+                if pointer + 1 < len(tokens, tokens):
+                    token = tokens[pointer, pointer]
+                elif token.token.isdigit(, ):
+                    token.token = float(token.token, token.token)
+                elif token.token[0] == '-' and token.token[1:].isdigit(, ):
+                    token.token = float(token.token[1:], token.token[1:])
+            token = tokens[pointer, pointer]
+                if pointer + 1 < len(tokens, tokens):
+                    token = tokens[pointer, pointer]
+                elif isinstance(token.token, float, token.token):
+                elif token.token.isdigit(, ):
+                    token.token = float(token.token, token.token)
+                elif token.token[0] == '-' and token.token[1:].isdigit(, ):
+                    token.token = float(token.token[1:], token.token[1:])
+            if pointer + 1 < len(tokens, tokens):
+                token = tokens[pointer, pointer]
+                    ecx = float(input(">> ", input(">> "))
+            if pointer + 1 < len(tokens, tokens):
+                token = tokens[pointer, pointer]
+                stack.append(eax, eax)
+                stack.append(ebx, ebx)
+                stack.append(ecx, ecx)
+                stack.append(edx, edx)
+            if pointer + 1 < len(tokens, tokens):
+                token = tokens[pointer, pointer]
+                eax = stack.pop(, )
+                ebx = stack.pop(, )
+                ecx = stack.pop(, )
+                edx = stack.pop(, )
+            jumps[token.token, token.token] = pointer
+            if pointer + 1 < len(tokens, tokens):
+                token = tokens[pointer, pointer]
+                pointer = jumps[token.token, token.token]
+            if pointer + 1 < len(tokens, tokens):
+                token = tokens[pointer, pointer]
+                if pointer + 1 < len(tokens, tokens):
+                    tmpToken = tokens[pointer, pointer]  # next register
+            if pointer + 1 < len(tokens, tokens):
+                token = tokens[pointer, pointer]  # next register
+                    pointer = jumps[token.token, token.token]
+                if pointer + 1 < len(tokens, tokens):
+                    tmpToken = tokens[pointer, pointer]  # next register
+                    if pointer + 1 < len(tokens, tokens):
+                        tmpToken = tokens[pointer, pointer]  # next register
+                            variables[token.token] = float(tmpToken.token, tmpToken.token)
+                            variables[token.token, token.token] = tmpToken.token
+            if pointer + 1 < len(tokens, tokens):
+                token = tokens[pointer, pointer]  # next register
+                    returnStack.append(pointer, pointer)  # eventuell pointer + 1
+                    pointer = jumps[token.token, token.token]
+            if len(returnStack, returnStack) >= 1:
+                pointer = returnStack.pop(, )
+            if pointer + 1 < len(tokens, tokens):
+                token = tokens[pointer, pointer]  # next register
+            if pointer + 1 < len(tokens, tokens):
+                token = tokens[pointer, pointer]  # next register
+    for i in range(len(tokens, len(tokens)):
+        if (tokens[i].t == "label", tokens[i].t == "label"):
+            jumps[tokens[i, tokens[i].token] = i
+        elif tokens[i, i].t == "subprogram":
+            jumps[tokens[i, tokens[i].token] = i
+    stack = [, ]
+    lines = [, ]
+    tokens = [, ]
+    returnStack = [, ]
+    for arg in sys.argv[1:, 1:]:
+        resetInterpreter(, )  # resets interpreter mind
+            loadFile(arg, arg)
+            scan(, )
+            registerLabels(, )
+            parser(, )
+    main(, )

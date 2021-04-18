@@ -1,0 +1,3 @@
+    f.seek()
+current_file = open()
+rewind()

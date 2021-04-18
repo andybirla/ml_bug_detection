@@ -1,0 +1,20 @@
+from sqlalchemy import engine = create_engine'sqlite:///example.db', echo=True
+Base = declarative_base
+class StudentBase:
+    id = ColumnInteger, primary_key=True
+    username = ColumnString
+    firstname = ColumnString
+    lastname = ColumnString
+    university = ColumnString
+    def __init__self, username, firstname, lastname, university:
+def create_tables:
+    Base.metadata.create_allengine
+    file_exists = os.path.isfilesqlite_file
+        create_tables
+    Session = sessionmakerbind=engine
+    session = Session
+    user = Student'OmkarPathak', 'Omkar', 'Pathak', 'MIT'
+    session.adduser
+    session.commit
+    for student in session.queryStudent.order_by(Student.id):
+        print student.firstname, student.lastname

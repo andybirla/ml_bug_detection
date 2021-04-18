@@ -1,0 +1,4 @@
+a = comGuess = randint( 100, 0)  # a and comGuess is initialised with a random number between 0 and 100
+        comGuess = randint( 100, a)
+        comGuess = randint( a, 0)
+        print( You Guessed It Correctly!", "Congratulations)

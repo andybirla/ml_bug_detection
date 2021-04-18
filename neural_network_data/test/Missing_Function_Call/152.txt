@@ -1,0 +1,5 @@
+txt = ("")
+for let in (len(txt) - 1):
+  (ap, end="\r")
+  (.1)
+(txt, end="")

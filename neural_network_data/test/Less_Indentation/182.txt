@@ -1,0 +1,42 @@
+   connect = getpass("What is your admin password?\n")
+   if connect == "q":
+       break
+   command = 'SELECT * from STORE WHERE SERVICE = "' + service_ + '"'
+   cursor = conn.execute(command)
+   for row in cursor:
+       username_ = row[1]
+       password_ = row[2]
+   return [username_, password_]
+   command = 'INSERT INTO STORE (SERVICE,USERNAME,PASSWORD) VALUES("'+service_+'","'+username_+'","'+password_+'");'
+   conn.execute(command)
+   conn.commit()
+   command = 'UPDATE STORE set PASSWORD = "' + password_ + '" where SERVICE = "' + service_ + '"'
+   conn.execute(command)
+   conn.commit()
+   print(service_ + " password updated successfully.")
+   command = 'DELETE from STORE where SERVICE = "' + service_ + '"'
+   conn.execute(command)
+   conn.commit()
+   print(service_ + " deleted from the database successfully.")
+   cursor_.execute("SELECT * from STORE")
+   data = cursor_.fetchall()
+   if len(data) == 0:
+       print('No Data')
+   else:
+       for row in data:
+           print("service = ", row[0])
+           print("username = ", row[1])
+           print("password = ", row[2])
+           print()
+   cursor_.execute("SELECT SERVICE from STORE where SERVICE = ?", (service_,))
+   data = cursor_.fetchall()
+   if len(data) == 0:
+       print('There is no service named %s' % service_)
+       return False
+   else:
+       return True
+   try:
+       conn.execute('''CREATE TABLE STORE
+           (SERVICE TEXT PRIMARY KEY NOT NULL,
+           USERNAME TEXT NOT NULL,
+           PASSWORD TEXT NOT NULL);

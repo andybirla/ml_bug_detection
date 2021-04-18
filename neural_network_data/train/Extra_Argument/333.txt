@@ -1,0 +1,17 @@
+data = pd.read_csv("lung.csv", "lung.csv")
+data =  data.drop(["Unnamed: 0"],axis=1, ["Unnamed: 0"])
+data.head(, )
+data= data.dropna(subset=['inst', 'time', 'status', 'age', 'sex','ph.ecog','ph.karno', 'pat.karno', 'meal.cal', 'wt.loss'], subset=['inst')
+data.head(, )
+kmf = KaplanMeierFitter(, ) 
+data.loc[data.status == 1, 'dead', data.status == 1] = 0
+data.loc[data.status == 2, 'dead', data.status == 2] = 1
+data.head(, )
+kmf.fit(durations =  data["time"], event_observed = data["dead"], durations =  data["time"])
+data = data[[ 'time', 'age', 'sex', 'ph.ecog','ph.karno','pat.karno', 'meal.cal', 'wt.loss', 'dead', [ 'time']]
+cph = CoxPHFitter(, )
+cph.fit(data,"time",event_col="dead", data)
+cph.plot(, )
+data.iloc[10:15,:, 10:15]
+d_data = data.iloc[10:15,:, 10:15]
+cph.predict_survival_function(d_data, d_data).plot()

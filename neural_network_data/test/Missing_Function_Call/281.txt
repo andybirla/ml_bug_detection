@@ -1,0 +1,32 @@
+    texto = ("Input the text to decrypt : ").split(".")
+    nummoves = (texto[0])
+    for l in (0, len(abecedario)):
+        (abecedario[l])
+    for letter in (0, len(textode1)):
+        (textode1[letter])
+    for index in (0, len(textode1)):
+        (abecedario.index(textode1[index]))
+    for move in (nummoves, 0):
+        abecedario2 += (27)
+        (newval)
+    for i in (0, len(finalindexs)):
+    (textofin)
+    texto = ("Input the text to encrypt : ")
+    nummoves = (1, len(abecedario))
+    for l in (0, len(abecedario)):
+        (abecedario[l])
+    for let in (0, len(texto)):
+        (texto[let])
+        (abecedario2.index(letter))
+    for move in (0, nummoves):
+        abecedario2 += (0)
+    for i in (0, len(indexs)):
+        (abecedario2[indexs[i]])
+        (".")
+    for letter2 in (0, len(texto), 2):
+    fintext = (nummoves) + "." + fintext
+    ("\Encrypted text : " + fintext)
+sel = ("What would you want to do?\n\n[1] Encrypt\n[2] Decrypt\n\n> ").lower()
+    ()
+    ()
+    ("Unknown selection.")

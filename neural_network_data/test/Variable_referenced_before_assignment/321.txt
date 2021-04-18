@@ -1,0 +1,5 @@
+cases += int(input())
+ignores += []
+N += int(input())
+cases += input().split()
+abc += []

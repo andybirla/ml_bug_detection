@@ -1,0 +1,7 @@
+someWords = someWords.split()
+word = random.choice()
+    chances = len() + 2
+        while ():
+                guess = str())
+            elif len() > 1:
+            if () == Counter(word)):

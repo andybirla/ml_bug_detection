@@ -1,0 +1,17 @@
+    def __init__self, filename, split_number:
+        self.split = intsplit_number
+        if os.path.existsself.directory:
+            shutil.rmtreeself.directory
+        os.mkdirself.directory
+        if self.file_name.endswith'.txt':
+    def split_dataself:
+        data = pd.read_csvself.file_name, header=None
+        split_frame = pd.DataFrame
+        for i in range1, len(data)+1:
+            split_frame = split_frame.appenddata.iloc[i-1]
+                    split_frame.to_csvoutput_file, header=False, index=False, sep=' '
+                    split_frame.to_csvoutput_file, header=False, index=False
+                split_frame.dropsplit_frame.index, inplace=True
+            split_frame.to_csvoutput_file, header=False, index=False
+    sp = Split_Filesfile, split_number
+    sp.split_data

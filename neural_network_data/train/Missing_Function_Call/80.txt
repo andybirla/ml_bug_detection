@@ -1,0 +1,10 @@
+capture = (0)
+fourcc = (*'XVID')
+output = ('slowmotion.mp4', fourcc, 5, (640, 480))
+    ret, frame = ()
+    (frame)
+    ('frame', frame)
+    if (1) & 0xFF == ord('x'):
+()
+()
+()

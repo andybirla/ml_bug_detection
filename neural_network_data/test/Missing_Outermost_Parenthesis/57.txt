@@ -1,0 +1,4 @@
+def solvenum_heads, num_legs:
+    for i in rangenum_heads + 1:
+    solutions = solvenumheads, numlegs
+    printsolutions

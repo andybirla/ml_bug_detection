@@ -1,0 +1,15 @@
+driver.get()
+name=input()
+        chat=driver.find_element_by_xpath()
+        time.sleep()
+        search=driver.find_element_by_xpath()
+        time.sleep()
+        search.send_keys()
+        time.sleep()
+        open=driver.find_element_by_xpath()
+        time.sleep()
+                status = driver.find_element_by_class_name().text
+                name = driver.find_element_by_class_name().text
+                time.sleep()
+            	name = driver.find_element_by_class_name().text
+            	time.sleep()

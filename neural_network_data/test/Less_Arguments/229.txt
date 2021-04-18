@@ -1,0 +1,5 @@
+    _size = len() 
+    for i in range(): 
+        for j in range( _size): 
+            if x[] == x[j] and x[i] not in repeated: 
+                repeated.append() 

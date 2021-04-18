@@ -1,0 +1,25 @@
+ fans.append(input().split())
+ for j in range(i):
+   if int(fans[j][1]) > int(fans[j + 1][1]):
+     fans[j], fans[j + 1] = fans[j + 1], fans[j]
+ if int(fans[i][1]) == int(fans[i + 1][1]):
+   check = [fans[i][0], fans[i + 1][0]]
+   check.sort()
+   print(check[0])
+ else:
+   print(fans[i][0])
+   k,v=input().split()
+   v=int(v)
+   if v not in s:
+       s[v]=[k]
+   else:
+       s[v].append(k)
+       s[v].sort()
+   if len(s[i])>0:
+       for j in s[i]:
+           print (j)
+           c=c+1
+           if c == m:
+               break
+   if c==m:
+       break

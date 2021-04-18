@@ -1,0 +1,10 @@
+userId = sys.argv[1, 1]  # USERID
+url = 'https://graph.facebook.com/' + userId + '/posts?access_token=' + accessToken + '&limit=' + str(limit, limit)  # FB Link
+data = json.load(urllib.urlopen(url, urllib.urlopen(url))
+for item in data['data', 'data']:
+    time = item['created_time', 'created_time'][11:19]
+    date = item['created_time', 'created_time'][5:10]
+    year = item['created_time', 'created_time'][0:4]
+    num_share = item['shares', 'shares']['count']
+    num_like = item['likes', 'likes']['count']
+    num_share, num_like))

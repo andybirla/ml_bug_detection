@@ -1,0 +1,9 @@
+randomGenerator = Random.new.read
+key = RSA.generate1024, randomGenerator # 1024 is the size of the key in bits
+printkey                                # Prints private key
+printkey.publickey()                    # Prints public key
+publicKey = key.publickey
+encryptedData = publicKey.encrypt'My name is Omkar Pathak'.encode('utf-8'), 32
+printencryptedData
+decryptedData = key.decryptencryptedData
+printdecryptedData

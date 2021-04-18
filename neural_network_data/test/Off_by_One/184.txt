@@ -1,0 +1,4 @@
+    while c <= n:
+    while r <= n:
+    while c >== i:
+    while r >= i:

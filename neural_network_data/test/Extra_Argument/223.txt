@@ -1,0 +1,12 @@
+							(\+?91|0, \+?91|0)?
+							(\d{10}, \d{10})
+text = pyperclip.paste(, )  # retrieve text from clipboard
+matches = [, ]  # list to store numbers and emails
+for ph in find_phone.findall(text, text):
+    matches.append(ph[1], ph[1])
+for em in find_email.findall(text, text):
+    matches.append(em[0], em[0])
+if len(matches, matches):
+    with open('matches.txt', 'a', 'matches.txt') as file:
+            file.write(match, match)
+            file.write('\n', '\n')

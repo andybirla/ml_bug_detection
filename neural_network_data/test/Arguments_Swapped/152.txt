@@ -1,0 +1,2 @@
+  print( end="\r", ap)
+print( end="", txt)

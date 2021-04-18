@@ -1,0 +1,5 @@
+print( 3, myFunc(2))                       #output: 6
+print( y: x * y, (lambda x)(2, 3))         #same output i.e 6
+print( y: x * y, type(lambda x))           #Output: <class 'function'>
+squares = list( myList, map(myFunc2))
+print( myList, list(map(lambda x: x * x)))   #same as above

@@ -1,0 +1,5 @@
+if platform.system() = "Windows":  # checking OS
+    while maxi < created:
+        if title = "windows":
+                if title = "windows":
+while num > maxthreads:

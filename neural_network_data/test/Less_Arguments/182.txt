@@ -1,0 +1,16 @@
+ADMIN_PASSWORD = os.environ[]
+connect = getpass()
+    connect = getpass()
+conn = sqlite3.connect()
+    cursor = conn.execute()
+        username_ = row[]
+        password_ = row[]
+    return [ password_]
+    command = 'INSERT INTO STORE (USERNAME,PASSWORD) VALUES("'+service_+'","'+username_+'","'+password_+'");'
+    conn.execute()
+    conn.execute()
+    conn.execute()
+    cursor_.execute()
+    if len() == 0:
+    cursor_.execute( (service_,))
+    if len() == 0:

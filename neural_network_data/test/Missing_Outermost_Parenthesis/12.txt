@@ -1,0 +1,9 @@
+testCases = intinput()
+for i in range0, testCases:
+    N = input
+    A = listmap(int,input().split())
+    K = intinput()
+    A = sortedA
+    for i in range0, len(A):
+        if A[i]== result:
+            print i + 1

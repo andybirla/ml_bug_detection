@@ -1,0 +1,6 @@
+HOSTS = 'proxy1', 'proxy'
+COMMANDS = 'uname -a', 'uptime'
+        ssh = subprocess.Popen        result.appendssh.stdout.readlines()
+    print'--------------- ' + host + ' --------------- '
+            printssh.stderr.readlines()
+            printres

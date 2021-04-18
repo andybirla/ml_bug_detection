@@ -1,0 +1,6 @@
+	sentence += sentence.lower()
+	check += 'abcdefghijklmnopqrstuvwxyz'
+	alphabets += []
+	alphabets += ''.join(alphabets)
+    alphabet += list(map(chr, range(97, 123)))
+    formattedString += ''.join(c for c in sentence if c.isalpha()).lower()

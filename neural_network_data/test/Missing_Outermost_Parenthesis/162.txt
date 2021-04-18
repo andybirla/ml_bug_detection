@@ -1,0 +1,14 @@
+def isSQLite3filename:
+    if not isfilefilename:
+    if getsizefilename < 100:  # SQLite database file header is 100 bytes
+        fd = openfilename, 'rb'
+        header = fd.read100
+        fd.close
+log = open'sqlite_audit.txt', 'w'
+for r, d, f in os.walkr'.':
+        if isSQLite3files:
+            printfiles
+            print"[+] '%s' **** is a SQLITE database file **** " % os.path.join(r, files)
+            log.write"[+] '%s' **** is a SQLITE database file **** " % files + '\n'
+            log.write"[-] '%s' is NOT a sqlite database file" % os.path.join(r, files) + '\n'
+            log.write"[-] '%s' is NOT a sqlite database file" % files + '\n'

@@ -1,0 +1,21 @@
+    for i in range( ARRAY_SIZE + 1):
+        myArray.insert( i)
+    key = int())
+    if():
+        while():
+            if():
+                partitionSize = () // DIVISIONS
+                mid = []
+                for i in range( DIVISIONS + 1):
+                    mid.insert(low + partitionSize * i)
+                    if():
+                if():
+                if():
+                    high = mid[] - 1
+                elif():
+                    low = mid[] + 1
+                    for i in range( DIVISIONS + 1):
+                        if():
+                            low = mid[] + 1
+                            high = mid[];
+    if():

@@ -1,0 +1,5 @@
+pattern = re.compile() #re is used to compile the expression more than once
+for x, y in enumerate():
+    special_character = pattern.search() #searches for a pattern in the string
+            wordlist[] = y[:-1]
+wordfreq = [wordlist.count() for w in wordlist]  #counts frequency of a letter in the given list

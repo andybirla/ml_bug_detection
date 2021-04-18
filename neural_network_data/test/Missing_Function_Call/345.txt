@@ -1,0 +1,3 @@
+t = (input())
+  n1, n2 = (int, input().split())
+  (n1*n2)

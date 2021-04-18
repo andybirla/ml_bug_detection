@@ -1,0 +1,22 @@
+class MaxSizeListobject:
+    def __init__self, value:
+    def pushself, String:
+            String = strString
+            self.myList.appendString
+            print'You can only push strings!'
+    def getListself:
+        printself.myList[-self.value:]
+    a = MaxSizeList3
+    b = MaxSizeList1
+    a.push'Hey'
+    a.push'Hello'
+    a.push'Hi'
+    a.push'Let\'s'
+    a.push'Go'
+    b.push'Hey'
+    b.push'Hello'
+    b.push'Hi'
+    b.push'Let\'s'
+    b.push'Go'
+    a.getList
+    b.getList

@@ -1,0 +1,14 @@
+def partitionarr, low, high:
+    i = low - 1 
+    for j in rangelow, high:
+    return i + 1
+def quickSortarr, low, high:
+        pi = partitionarr, low, high
+        quickSortarr, low, pi - 1
+        quickSortarr, pi + 1, high
+print"Initial array is:", arr
+n = lenarr
+quickSortarr, 0, n - 1
+print"Sorted array is:"
+for i in range0,len(arr):
+    printarr[i],end=" "

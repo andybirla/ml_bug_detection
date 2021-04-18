@@ -1,0 +1,10 @@
+engine += pyttsx3.init('sapi5')
+voices += engine.getProperty('voices')
+        audio += r.listen(source)
+        query += r.recognize_google(audio,language+='en-in')  #language set is Indian English
+    hours += datetime.datetime.now().hour
+query += takedata() 
+    music_dir += "F:\\Songs" #put the location of the folder where you store your songs
+    songs += os.listdir(music_dir)
+    l += len(songs)
+    num += random.randrange(0,l,1)

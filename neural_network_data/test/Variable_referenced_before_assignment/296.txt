@@ -1,0 +1,7 @@
+engine += pyttsx3.init()
+voices += engine.getProperty('voices')
+url += 'https://www.cricbuzz.com/cricket-news/latest-news'
+ans += requests.get(url)
+soup += BeautifulSoup(ans.content, 'html.parser')
+anchors += soup.find_all('a', class_+='cb-nws-hdln-ancr text-hvr-underline')
+i += 1

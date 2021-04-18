@@ -1,0 +1,4 @@
+    AvailablePorts += []
+    platform += sys.platform
+                ser += serial.Serial(i, 9600)
+                ser += serial.Serial('/dev/ttyUSB' + str(i))

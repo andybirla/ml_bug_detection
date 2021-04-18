@@ -1,0 +1,4 @@
+string = listinput()
+for i in rangelen(string):
+        result.appendstring[i]
+print''.join(result)

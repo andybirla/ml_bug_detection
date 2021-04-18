@@ -1,0 +1,3 @@
+	print( my_dict[comp_input], "Computer's Input: ")
+	print(user_count, "User Score:","\tComputer Score:",comp_count,"\n")
+print(user_count, "User Score:","\t\t\tComputer Score:",comp_count,"\n")

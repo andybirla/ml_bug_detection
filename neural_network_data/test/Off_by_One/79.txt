@@ -1,0 +1,1 @@
+        while index <= len(check_string) and is_bal:

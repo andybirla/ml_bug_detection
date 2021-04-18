@@ -1,0 +1,15 @@
+   y = x["main"] 
+   current_temperature = y["temp"] 
+   current_pressure = y["pressure"] 
+   current_humidiy = y["humidity"]
+   z = x["weather"] 
+   weather_description = z[0]["description"] 
+   print(" Temperature (in kelvin unit) = " +
+                   str(current_temperature) + 
+         "\n atmospheric pressure (in hPa unit) = " +
+                   str(current_pressure) +
+         "\n humidity (in percentage) = " +
+                   str(current_humidiy) +
+         "\n description = " +
+                   str(weather_description)) 
+   print(" City Not Found ") 

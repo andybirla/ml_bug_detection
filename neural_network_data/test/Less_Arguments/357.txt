@@ -1,0 +1,4 @@
+n, m = map( input().split())
+for i in range():
+    matrix.append() for i in input().split()])
+matrix = zip()

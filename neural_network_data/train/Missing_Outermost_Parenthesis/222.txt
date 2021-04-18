@@ -1,0 +1,22 @@
+class Stackobject:
+    def __init__self, size:
+    def __str__self:
+        myString = ' '.joinstr(i) for i in self.index
+    def pushself, data:
+        ifself.isEmpty() != True:
+            return self.index.pop
+            print'Stack is already empty!'
+    def isEmptyself:
+        return lenself.index == self.size
+    def peekself:
+        return lenself.index
+    myStack = Stack10
+    for i in range0, 10:
+        myStack.pushi
+    printmyStack.isEmpty()        # False
+    printmyStack.isFull()         # True
+    printmyStack                  # 0 1 2 3 4 5 6 7 8 9
+    printmyStack.stackSize()      # 10
+    printmyStack.pop()            # 9
+    printmyStack                  # 0 1 2 3 4 5 6 7 8
+    printmyStack.peek()           # 8

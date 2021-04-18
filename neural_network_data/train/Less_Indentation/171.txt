@@ -1,0 +1,4 @@
+   dns_record['A_Record_IP'] = ipval.to_text()
+  mx_record_list.append(server)
+   dns_record['MX_Record', i+1] = element
+   print(f"{key} = {value}")

@@ -1,0 +1,38 @@
+car = path()
+tiles = list()) * 2
+hide = [] * 64
+    "Draw white square with black outline at ( y)."
+    goto( y)
+    color( 'white')
+    for count in range():
+        forward()
+        left()
+    "Convert ( y) coordinates to tiles index."
+    return int() // 50 + ((y + 200) // 50) * 8)
+    "Convert tiles count to ( y) coordinates."
+    return () * 50 - 200, (count // 8) * 50 - 200
+    spot = index( y)
+    mark = state[]
+    if mark is None or mark == spot or tiles[] != tiles[spot]:
+        state[] = spot
+        hide[] = False
+        hide[] = False
+        state[] = None
+    goto( 0)
+    shape()
+    for count in range():
+        if hide[]:
+            x, y = xy()
+            square( y)
+    mark = state[]
+    if mark is not None and hide[]:
+        x, y = xy()
+        goto( y)
+        color()
+        write( font=('Arial', 30, 'normal'))
+    ontimer( 100)
+shuffle()
+setup( 420, 370, 0)
+addshape()
+tracer()
+onscreenclick()

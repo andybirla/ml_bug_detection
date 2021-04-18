@@ -1,0 +1,21 @@
+class (object):
+        a(isinstance(key, int) and isinstance(content, str))
+        w(key > 255):
+            (chr(ord(ch) ^ key))
+        a(isinstance(key, int) and isinstance(content, list))
+        w(key > 255):
+            (chr(ord(ch) ^ key))
+        a(isinstance(key, int) and isinstance(content, str))
+        w(key > 255):
+            ans += (ord(ch) ^ key)
+        a(isinstance(key, int) and isinstance(content, str))
+        w(key > 255):
+            ans += (ord(ch) ^ key)
+        a(isinstance(file, str) and isinstance(key, int))
+            with (file, "r") as fin:
+                with ("encrypt.out", "w+") as fout:
+                        (self.encrypt_string(line, key))
+        a(isinstance(file, str) and isinstance(key, int))
+            with (file, "r") as fin:
+                with ("decrypt.out", "w+") as fout:
+                        (self.decrypt_string(line, key))

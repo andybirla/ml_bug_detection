@@ -1,0 +1,2 @@
+while number >= maximum:
+    if(number % 2 = 0):

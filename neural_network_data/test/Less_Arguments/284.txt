@@ -1,0 +1,4 @@
+    CheckDir = input()
+    if os.path.exists():  # Checks if the dir exists
+        option = input()
+            os.makedirs()  # Creates a new dir for the given name

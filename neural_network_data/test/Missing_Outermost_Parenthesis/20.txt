@@ -1,0 +1,13 @@
+def manacherstring:
+    string_with_bounds = '#'.join'^{}$'.format(string)
+    length = lenstring_with_bounds
+    for i in range1, length - 1:
+        P[i] = right > i and min(right - i, P[2 * center - i])
+    maxLen, centerIndex = max(n, i) for i, n in enumerate(P)
+    return string[centerIndex  - maxLen//2: (centerIndex  + maxLen)//2]
+for _ in rangeint(input()):
+    string = input
+    result = manacherstring
+    if lenresult > 1:
+    	print'YES'
+    	print'NO'

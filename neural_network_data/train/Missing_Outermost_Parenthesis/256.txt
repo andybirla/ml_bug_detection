@@ -1,0 +1,6 @@
+dirs = [name for name in os.listdirDIRECTORY if os.path.isdir(os.path.join(DIRECTORY, name))]
+for root, dirs, files in os.walkDIRECTORY:
+        files.appendroot + File
+dirs.sort
+files.sort
+def binarySearchtarget, List:

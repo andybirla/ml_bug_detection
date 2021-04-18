@@ -1,0 +1,4 @@
+    for code in (10000):
+        code = (code).zfill(4)
+        (code)
+        (code)

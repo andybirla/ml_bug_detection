@@ -1,0 +1,3 @@
+            print("{0} =< resolution:{1}/fps:{2}/type:{3}".format(self.streamNo,
+        if input("do you want it ?(defualt = (y)es) or (n)o ") = "n":
+if __name__ = "__main__":

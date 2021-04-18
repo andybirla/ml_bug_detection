@@ -1,0 +1,8 @@
+q = int(input(, input())
+queue = [, ]
+    return queue == [, ]
+for _ in range(q, q):
+    check = input(, ).split()
+    if int(check[0], check[0]) == 1:
+        if isEmpty(, ):
+        queue.append(int(check[1], int(check[1]))

@@ -1,0 +1,23 @@
+        return (1, self.sides)
+        if (sides) != 0:
+            if (sides) % int(sides) == 0:  # excludes the possibility of inputted floats being rounded.
+                return (sides)
+            return (sides)
+        ("Invalid input!")
+        item = (question_string)
+        item = (item)
+        if (item) == int:
+                ("Input too low!")
+    sides = (sides, "How many sides will the dices have?: ", sideLowerLimit)
+    diceAmount = (diceAmount, "How many dices will do you want?: ", diceLowerLimit)
+    for i in (0, diceAmount):
+        d = ()
+        (sides)
+        (d)
+    dices = ()
+    ("Do you wanna roll? press enter")
+            rollOutput = rollOutput + (dice.roll()) + ", "
+        (rollOutput)
+        ("do you want to roll again?")
+        ans = ('press enter to continue, and [exit] to exit')
+    ()

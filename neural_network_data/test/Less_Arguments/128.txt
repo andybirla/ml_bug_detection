@@ -1,0 +1,3 @@
+    with open( 'w') as file_object:
+        s = file_object.write()
+    write_to_file( 'I am beven')

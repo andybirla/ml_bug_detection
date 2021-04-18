@@ -1,0 +1,3 @@
+   text_input = time.strftime("%H : %M : %S") # get the current local time from the PC
+   label.config(text=text_input)
+   label.after(200, dig_clock)

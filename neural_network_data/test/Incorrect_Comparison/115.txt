@@ -1,0 +1,3 @@
+            if attempts % show = 0:
+if __name__ = "__main__":
+        if password = pw:

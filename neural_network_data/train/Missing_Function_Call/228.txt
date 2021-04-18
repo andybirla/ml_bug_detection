@@ -1,0 +1,7 @@
+(myFunc(2, 3))                       #output: 6
+((lambda x, y: x * y)(2, 3))         #same output i.e 6
+(type(lambda x, y: x * y))           #Output: <class 'function'>
+myList = [i for i in (10)]
+squares = (map(myFunc2, myList))
+(squares)                              # Output: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+(list(map(lambda x: x * x, myList)))   #same as above

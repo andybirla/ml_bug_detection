@@ -1,0 +1,12 @@
+    clean_word = ()
+        if ():
+            (letter)
+    (is_isogram(""))                                   # True
+    (is_isogram("isogram"))                            # True
+    (is_isogram("eleven"))                             # False
+    (is_isogram("subdermatoglyphic"))                  # True
+    (is_isogram("Alphabet"))                           # False
+    (is_isogram("thumbscrew-japingly"))                # True
+    (is_isogram("Hjelmqvist-Gryb-Zock-Pfund-Wax"))     # True
+    (is_isogram("Emily Jung Schwartzkopf"))            # True
+    (is_isogram("accentor"))                           # False

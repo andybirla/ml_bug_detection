@@ -1,0 +1,10 @@
+class ():
+       ("gardening,programming")
+class ():
+       ("cooking,art")
+class (Father,Mother):
+        (self)
+        (self)
+        ("sports")
+c = ()
+()

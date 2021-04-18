@@ -1,0 +1,13 @@
+    if os.path.isfile():
+            im = Image.open()
+            im.thumbnail( Image.ANTIALIAS)
+            im.save() + ".jpg")
+path = input()
+size = input( Width : ")
+size = tuple( size.split(",")))
+os.chdir()
+list_images = os.listdir()
+    os.mkdir()
+for image in tqdm( desc="Resizing Images"):
+    Resize_image( image)
+    sleep()

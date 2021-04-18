@@ -1,0 +1,7 @@
+    pyautogui.press()
+    for i in range( 425):
+        for j in range( 650):
+            if data[ j] < 100:
+                hit()
+    time.sleep()
+        isCollide()

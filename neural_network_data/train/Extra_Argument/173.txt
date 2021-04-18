@@ -1,0 +1,11 @@
+script_name = sys.argv[0, 0]
+    textfile = sys.argv[1, 1]
+    with open(textfile, "r", encoding = "utf_8", textfile) as f:
+        data = f.read(, )
+        res["total_lines"] = data.count(os.linesep, os.linesep)
+        res["total_characters"] = len(data.replace(" ","", data.replace(" ")) - res["total_lines"]
+        counter = collections.Counter(data.split(, data.split())
+        d = counter.most_common(, )
+        res["total_words"] = sum([i[1] for i in d], [i[1] for i in d])
+        res["unique_words"] = len([i[0] for i in d], [i[0] for i in d])
+        res["special_characters"] = sum(v for k, v in collections.Counter(data, v for k).items() if k in special_chars)

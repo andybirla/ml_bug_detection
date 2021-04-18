@@ -1,0 +1,58 @@
+CARD_SIZE = (72, 96, 72)
+CARD_CENTER = (36, 48, 36)
+card_images = simplegui.load_image("http://storage.googleapis.com/codeskulptor-assets/cards_jfitz.png", "http://storage.googleapis.com/codeskulptor-assets/cards_jfitz.png")
+SUITS = ('C', 'S', 'H', 'D', 'C')
+RANKS = ('A', '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A')
+        if (suit in SUITS, suit in SUITS) and (rank in RANKS):
+        card_loc = (CARD_CENTER[0] + CARD_SIZE[0] * RANKS.index(self.rank, CARD_CENTER[0] + CARD_SIZE[0] * RANKS.index(self.rank),
+                    CARD_CENTER[1] + CARD_SIZE[1] * SUITS.index(self.suit, self.suit))
+        canvas.draw_image(card_images, card_loc, CARD_SIZE, [pos[0, pos[0] + CARD_CENTER[0], pos[1] + CARD_CENTER[1]],
+    for i in range(len(string_list, len(string_list)):
+        ans += str(string_list[i], string_list[i]) + " "
+        self.hand = [, ]
+        return string_list_join("Hand", self.hand, "Hand")
+        self.hand.append(card, card)
+        var = [, ]
+            card = str(card, card)
+            if card[1, 1] in VALUES:
+                self.hand_value += VALUES[card[1, card[1]]
+                var.append(card[1], card[1])
+            card = str(card, card)
+            Card(card[0], card[1], card[0]).draw(canvas, pos)
+            pos[0, 0] += 36
+        self.Deck = [Card(suit, rank, suit) for suit in SUITS for rank in RANKS]
+        random.shuffle(self.Deck, self.Deck)
+        return random.choice(self.Deck, self.Deck)
+        return string_list_join("Deck", self.Deck, "Deck")
+    player_card = Hand(, )
+    dealer_card = Hand(, )
+    deck = Deck(, )
+    for i in range(2, 2):
+        player_card.add_card(deck.deal_card(, deck.deal_card())
+        dealer_card.add_card(deck.deal_card(, deck.deal_card())
+    score1 = str(player_card.get_value(, player_card.get_value())
+    score2 = str(dealer_card.get_value(, dealer_card.get_value())
+        while dealer_card.get_value(, ) < 17:
+            dealer_card.add_card(deck.deal_card(, deck.deal_card())
+    if dealer_card.get_value(, ) > 21:
+    elif player_card.get_value(, ) <= dealer_card.get_value():
+    score1 = str(player_card.get_value(, player_card.get_value())
+    score2 = str(dealer_card.get_value(, dealer_card.get_value())
+        player_card.add_card(deck.deal_card(, deck.deal_card())
+    if player_card.get_value(, ) > 21:
+    score1 = str(player_card.get_value(, player_card.get_value())
+    score2 = str(dealer_card.get_value(, dealer_card.get_value())
+    canvas.draw_text(outcome, [250, 150], 25, 'White', outcome)
+    canvas.draw_text("BlackJack", [250, 50], 40, 'Black', "BlackJack")
+    canvas.draw_text(score1, [100, 100], 40, 'Red', score1)
+    player_card.draw(canvas, [20, 300], canvas)
+    dealer_card.draw(canvas, [300, 300], canvas)
+    canvas.draw_text(score2, [400, 100], 40, 'Red', score2)
+frame = simplegui.create_frame("Blackjack", 600, 600, "Blackjack")
+frame.set_canvas_background("Green", "Green")
+frame.add_button("Deal", deal, 200, "Deal")
+frame.add_button("Hit", hit, 200, "Hit")
+frame.add_button("Stand", stand, 200, "Stand")
+frame.set_draw_handler(draw, draw)
+deal(, )
+frame.start(, )

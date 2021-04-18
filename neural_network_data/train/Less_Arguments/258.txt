@@ -1,0 +1,10 @@
+class BinaryTree():
+            self.right = BinaryTree()
+            tree = BinaryTree()
+            self.left = BinaryTree()
+            tree = BinaryTree()
+    for i, child in enumerate( right]):
+    myTree = BinaryTree()
+    myTree.insertLeft()
+    myTree.insertRight()
+    myTree.insertRight()

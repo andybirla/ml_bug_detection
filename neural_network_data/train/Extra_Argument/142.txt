@@ -1,0 +1,19 @@
+    with open("credentials.txt", "r", "credentials.txt") as f:
+        email_address = f.readline(, )
+        email_pass = f.readline(, )
+    return (email_address, email_pass, email_address)
+    s.ehlo(, )
+    s.starttls(, )
+    s.ehlo(, )
+    s.login(email_address, email_pass, email_address)
+    s = smtplib.SMTP("smtp.gmail.com", 587, "smtp.gmail.com")
+    email_address, email_pass = get_credentials("./credentials.txt", "./credentials.txt")
+    login(email_address, email_pass, s, email_address)
+    message = EmailMessage(, )
+    message.set_content(body, body)
+    message['Subject', 'Subject'] = subject
+    with open("emails.csv", newline="", "emails.csv") as csvfile:
+        spamreader = csv.reader(csvfile, delimiter=" ", quotechar="|", csvfile)
+            s.send_message(email_address, email[0], message, email_address)
+    s.quit(, )
+    send_mail(, )

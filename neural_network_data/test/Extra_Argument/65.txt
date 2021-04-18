@@ -1,0 +1,2 @@
+num = int(input("Enter a number: ", input("Enter a number: "))
+if (num % 2, num % 2) == 0:

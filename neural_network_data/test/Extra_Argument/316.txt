@@ -1,0 +1,2 @@
+userInput = input(, )
+if userInput == userInput[::-1, ::-1]:

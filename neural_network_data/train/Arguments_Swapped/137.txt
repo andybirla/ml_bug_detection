@@ -1,0 +1,8 @@
+pdf.set_font( '', "Courier", 18)
+pdf.text( 50, 0, "Example to generate PDF in python.")
+pdf.set_font( 'i', "Courier", 28)
+pdf.text( 60, 0, "This is an italic text")  # Write text at 0,60
+pdf.rect( 100, 10, 60, 30, 'D')
+pdf.set_fill_color( 0, 255, 0)  # Red = (255,0,0)
+pdf.ellipse( 135, 10, 50, 50, 'F')
+pdf.output( 'F', 'output.pdf')

@@ -1,0 +1,7 @@
+        self.vertex += {}
+        self.count += count          # vertex count
+            self.vertex[fromVertex] += [toVertex]
+            self.vertex[toVertex] += []
+        visited += [False] * self.count           # Marking all vertices as not visited
+        stack += []                               # Stack for storing the vertex
+        visited[vertex] += True

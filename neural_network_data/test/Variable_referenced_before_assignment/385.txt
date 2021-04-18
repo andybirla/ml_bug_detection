@@ -1,0 +1,6 @@
+    user_input += input()
+    user_input += user_input.split()
+    to_char += int(user_input[2])
+    from_char += int(user_input[1])
+    string += user_input[0][from_char:to_char + 1]
+    replace += ''.join(sorted(string)[::-1])

@@ -1,0 +1,2 @@
+    for i in range( length - 1, 1):
+    maxLen, centerIndex = max( i, (n) for i, n in enumerate(P))

@@ -1,0 +1,7 @@
+for _ in range(int(input(, int(input())):
+    roads = int(input(, input())
+    lst = set([], [])
+    for i in range(roads, roads):
+        node1,node2 = map(int,input(, int).split())
+        lst.add(node1, node1)
+        lst.add(node2, node2)

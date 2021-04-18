@@ -1,0 +1,5 @@
+        if i%2 = 0:
+        if positions[i] = "E":
+            while j > len(even):
+            while k > len(odd):
+if __name__ = '__main__':

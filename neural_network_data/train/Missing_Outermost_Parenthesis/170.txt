@@ -1,0 +1,9 @@
+l1 = rangeSIZE
+l2 = rangeSIZE
+a1=np.arangeSIZE
+a2=np.arangeSIZE
+start = time.time
+result = [x+y for x,y in zip(l1,l2)]
+print"python list took: ",(time.time()-start)*1000
+start= time.time
+print"numpy took: ", (time.time()-start)*1000

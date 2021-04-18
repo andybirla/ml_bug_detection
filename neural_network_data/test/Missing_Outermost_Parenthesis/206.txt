@@ -1,0 +1,29 @@
+if platform.system == "Windows":  # checking OS
+def randomNamesize=10, chars=string.ascii_letters + string.digits:
+    return ''.joinrandom.choice(chars) for i in range(size)
+def randomPasswordsize=14, chars=string.ascii_letters + string.digits:
+    return ''.joinrandom.choice(chars) for i in range(size)
+class proxy:
+    def updateself:
+                data += requests.geturl.text
+                self.splited += data.split"\r\n" #scraping and splitting proxies
+            time.sleep600
+    def get_proxyself:
+        random1 = random.choiceself.splited #choose a random proxie
+    def FormatProxyself:
+	    proxyOutput = {'https' :'socks4://'+self.get_proxy}
+    def __init__self:
+        threading.Threadtarget=self.update.start()
+        time.sleep3
+proxy1 = proxy
+def creator:
+            system"title "+ f"Spotify Account Creator by KevinLage https://github.com/KevinLage/Spotify-Account-Creator Created: {created}/{maxi} Errors:{errors}"
+        s = requests.session
+        email = randomName
+        password = randomPassword
+            r = s.post"https://spclient.wg.spotify.com/signup/public/v1/account/",data=data,proxies=proxy1.FormatProxy()
+                open"created.txt", "a+".write(email + "@gmail.com:" + password + "\n")
+                    system"title "+ f"Spotify Account Creator : {created}/{maxi} Errors:{errors}"
+maxi = intinput("How many accounts do you want to create?\n")
+maxthreads = intinput("How many Threads?\n")
+    threading.Threadtarget=creator.start()  # Start Checking Thread

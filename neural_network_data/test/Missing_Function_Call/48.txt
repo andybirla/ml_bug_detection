@@ -1,0 +1,24 @@
+cap= (0)
+(2) # 2 sec time to adjust cam with time
+for i in (30): # 30 times 
+    ret , background = ()
+(cap.isOpened()):
+    ret, img = ()
+    hsv= (img, cv2.COLOR_BGR2HSV) 
+    lower_red ([0,120,70])    
+    upper_red= ([10,255,255])
+    mask1= (hsv, lower_red, upper_red) #seperating the cloak part
+    lower_red= ([170,120,70])
+    upper_red= ([180, 255, 255])
+    mask2= (hsv, lower_red, upper_red)
+    mask1= mask1+ mask2 # O(Combining)
+    (mask1, cv2.MORPH_OPEN,np.ones((3,3),np.uint8), iterations=2)
+    mask1 (mask1, cv2.MORPH_DILATE, np.ones((3,3), np.uint8),iterations=1)
+    mask2= (mask1)
+    res1= (background, background, mask=mask1) #used for segmentation
+    res2= (img, img, mask= mask2) #used to substitute the cloak part
+    final_output= (res1, 1, res2, 1, 0)
+    ("Eureka !", final_output)
+    if (1) == 13:  
+()
+()

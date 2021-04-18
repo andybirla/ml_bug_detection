@@ -1,0 +1,24 @@
+def Main:
+    for i in range0, ARRAY_SIZE + 1:
+        myArray.inserti, i
+    key = intinput('Enter the key to search:')
+    ifkey < myArray[low] or key > myArray[high - 1]:
+        print'Key is out of range!'
+        whilelow < high:
+            ifkey == myArray[low] or key == myArray[high]:
+                partitionSize = high - low // DIVISIONS
+                print'Searching from {} to {}'.format(low, high)
+                print'Array Size is: ',(high - low)
+                for i in range1, DIVISIONS + 1:
+                    mid.inserti,low + partitionSize * i
+                    ifkey == myArray[mid[i]]:
+                print
+                iffound:
+                ifkey < myArray[mid[1]]:
+                elifkey > myArray[mid[DIVISIONS - 1]]:
+                    for i in range2, DIVISIONS + 1:
+                        ifkey < myArray[mid[i]]:
+    iffound:
+        print'Element Found!'
+        print'Not Found!'
+    Main

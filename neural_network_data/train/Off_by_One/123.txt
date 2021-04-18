@@ -1,0 +1,7 @@
+  if(len(Fone[i])>==10):
+  if(len(Ftwo[i])>==10):
+  if(len(Fthree[i])>==10):
+  if(len(Ffour[i])>==10):
+  if(len(Ffive[i])>==10):
+  if(len(Fsix[i])>==10):
+  if(len(Fseven[i])>==10):

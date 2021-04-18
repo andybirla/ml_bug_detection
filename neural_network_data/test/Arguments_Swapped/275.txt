@@ -1,0 +1,2 @@
+for i in range(len(li, small+1)):
+        print(end = '' , li[i])

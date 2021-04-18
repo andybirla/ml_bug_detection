@@ -1,0 +1,3 @@
+        url = argv[1, 1]
+         urlopen(url, timeout=2, url)
+checkInternetConnectivity(, )

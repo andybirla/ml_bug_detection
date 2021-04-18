@@ -1,0 +1,5 @@
+url = 'https://graph.facebook.com/' + userId + '/posts?access_token=' + accessToken + '&limit=' + (limit)  # FB Link
+data = (urllib.urlopen(url))
+(str(id))
+(str(id) + '\t' + time.encode('utf-8') + '\t' + date.encode('utf-8') + '\t' + year.encode('utf-8') + '\t' + str(
+    num_share) + '\t' + (num_like))

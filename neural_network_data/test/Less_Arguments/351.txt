@@ -1,0 +1,25 @@
+    points = np.loadtxt( delimiter=',') 
+    y_ = points[1]
+    x_ = np.ones(),2]) 
+    x_[0] = points[:,0]
+    for i in range()):
+        tempcost += (0]) + params[1])) ** 2 
+    return tempcost / float()   
+    N = float())
+    for i in range()):
+        m_gradient += -() * (x_[i,0] * (y_[i] - ((params[0] * x_[i,0]) + params[1])))
+        b_gradient += -() * (y_[i] - ((params[0] * x_[i,0]) + params[1]))
+    return [b_gradient]
+    new_m = old_params[0] - ()
+    new_b = old_params[1] - ()
+    return [new_b]
+optimizer = {'init_params':np.array(2.0]) , 
+x_, y_ = load_data()
+    params = optimizer[]
+    for iter_ in range():
+        cost = evaluate_cost(y_,params)
+        grad = evaluate_gradient(y_,params)
+        if():
+        if() < optimizer['eps']):
+        params = update_params(grad,optimizer['alpha'])
+    cost = optimizer[]

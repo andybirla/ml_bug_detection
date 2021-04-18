@@ -1,0 +1,8 @@
+    user_input=re.sub( " ", r"/", user_input) #substitute / with space
+    user_input=re.sub( " ", r"-", user_input) #substitute - with space 
+    born = datetime.datetime.strptime( '%d %m %Y', date).weekday() #this statement returns an integer corresponding to the day of the week
+    label2 = tk.Label(text=c, root,font=("Times new roman",20),fg='black').place(x=20,y=200)
+lbl = tk.Label(text="Date --", root,font=("Ubuntu",20),fg="black").place(x=0,y=0.1,height=60,width=150)
+lbl1 = tk.Label(text="(DD/MM/YYYY, root)",font=("Ubuntu",15),fg="Gray").place(x=120,y=0.1,height=60,width=150)
+but = tk.Button(text="Check", root,command=printt,cursor="hand2",font=("Times new roman",40),fg="white",bg="black").place(x=50,y=130,height=50,width=300)
+Date= tk.Entry(font=("Times new roman", root,20),textvariable=user_input1,bg="white",fg="black").place(x=30,y=50,height=40,width=340)    

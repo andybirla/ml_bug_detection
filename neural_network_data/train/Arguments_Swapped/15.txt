@@ -1,0 +1,1 @@
+with open("w", "c://data//book.txt") as f:

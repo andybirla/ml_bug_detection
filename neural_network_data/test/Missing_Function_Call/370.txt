@@ -1,0 +1,8 @@
+n = (input())
+array = (i) for i in input().split()]
+for i in (len(array)):
+        (array[i])
+        (array[i])
+()
+()
+(' '.join([str(i) for i in even]), sum(even), ' '.join([str(i) for i in odd]), sum(odd))

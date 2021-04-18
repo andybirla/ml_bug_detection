@@ -1,0 +1,7 @@
+testCases += int(input())
+    n += int(input())
+    string += list(input())
+    start += 0
+    fixChars += []
+    fixChars += ''
+            string[i], string[i + 1] += string[i + 1], string[i]

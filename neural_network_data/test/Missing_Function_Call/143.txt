@@ -1,0 +1,26 @@
+        r((n << b) | (n >> (32 - b))) & 0xffffffff
+        padding = b'\x80' + b'\x00' *(63 - (len(self.data) + 8) % 64)
+        padded_data = self.data + padding + ('>Q', 8 * len(self.data))
+        return [self.padded_data[i:i + 64] for i in (0, len(self.padded_data), 64)]
+        w = (struct.unpack('>16L', block)) + [0] * 64
+        for i in (16, 80):
+            w[i] = ((w[i - 3] ^ w[i - 8] ^ w[i - 14] ^ w[i - 16]), 1)
+        self.padded_data = ()
+        self.blocks = ()
+            expanded_block = (block)
+            for i in (0, 80):
+                    f =(b & c) | ((~b) & d)
+                    f =(b & c) | (b & d) | (c & d)
+                a, b, c, d, e = (a, 5) + f + e + k + expanded_block[i] & 0xffffffff, \
+                                a, (b, 30), c, d
+        return '%08x%08x%08x%08x%08x' % (self.h)
+class (unittest.TestCase):
+        msg = ('Test String', 'utf-8')
+        (SHA1Hash(msg).final_hash(), hashlib.sha1(msg).hexdigest())
+    parser = (description='Process some strings or files')
+    ('--file', dest='input_file', help='Hash contents of a file')
+    args = ()
+        hash_input = (args.input_file, 'rb').read()
+        hash_input = (input_string, 'utf-8')
+    (SHA1Hash(hash_input).final_hash())
+    ()

@@ -1,0 +1,24 @@
+df = ('house_price.csv')
+(df.head())
+    total = (value)
+    length = (value)
+    mean = (value)
+    mean_difference_square = ((item - mean), 2) for item in value]
+    variance = (mean_difference_square)/float(len(value)-1)
+    value1_mean = (value1)
+    value2_mean = (value2)
+    values_size = (value1)
+    for i in (0, values_size):
+        covariance +(value1[i] - value1_mean) * (value2[i] - value2_mean)
+    return covariance / (values_size - 1)
+    m = (X)
+    square_feet_mean = (X)
+    price_mean = (Y)
+    square_feet_variance = (X)
+    price_variance = (Y)
+    covariance_of_price_and_square_feet = (X, Y)
+    w1 = covariance_of_price_and_square_feet / (square_feet_variance)
+    d(prediction)'] = prediction
+    return d(prediction)']
+    predicted = (df)
+    (predicted)

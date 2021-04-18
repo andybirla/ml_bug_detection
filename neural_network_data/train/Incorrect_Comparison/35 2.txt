@@ -1,0 +1,5 @@
+    if item = "heads":
+    if i % 2 = 0:
+    if e = expense_list[i]:
+    if tired = 'yes':
+if i = 4: # 4 because the index starts from 0

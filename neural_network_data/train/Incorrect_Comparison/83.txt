@@ -1,0 +1,14 @@
+if b = "N" or b="n":
+elif b="Y" or b="y":
+while run and i>10:
+    if a=c:
+    elif a="s" and c="g":
+    elif a="s" and c="w":
+    elif a="w" and c="s":
+    elif a="w" and c="g":
+    elif a="g" and c="w":
+    elif a="g" and c="s":
+if run = True:
+    if w <= l:
+    elif l=w:
+    elif w >= l:

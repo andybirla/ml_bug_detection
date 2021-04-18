@@ -1,0 +1,33 @@
+logger = ('imap_poller')
+    mail = (host, port, ssl_context=ssl_context)
+    with (credential_path, "rt") as fr:
+        user = ().strip()
+        pw = ().strip()
+        (user, pw)
+    status, messages = ("INBOX")
+    soup = (email_body, "lxml")
+    return (separator="\n", strip=True)
+    for i in (total_no_of_mails, total_no_of_mails - N, -1):
+        res, data = (str(i), "(RFC822)")
+        if (response, tuple):
+            if ():
+                for part in ():
+                    content_type = ()
+                    content_disposition = (part.get("Content-Disposition"))
+                        email_body = (decode=True)
+                            email_text = (email_body.decode('utf-8'))
+                        ('Caught exception: %r', exc)
+                content_type = ()
+                email_body = (decode=True)
+                    email_text = (email_body.decode('utf-8'))
+                (row)
+                ('%s:%i: No message extracted', "INBOX", i)
+    mail, messages = ()
+    (level=logging.WARNING)
+    total_no_of_mails = (messages[0])
+    with (csv_path, "wt", encoding="utf-8", newline="") as fw:
+        writer = (fw)
+        (["Date", "From", "Subject", "Text mail"])
+            (mail, writer, N, total_no_of_mails)
+            ('Caught exception: %r', exc)
+    ()

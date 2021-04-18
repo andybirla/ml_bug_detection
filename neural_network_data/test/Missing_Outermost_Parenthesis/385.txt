@@ -1,0 +1,7 @@
+for i in rangeint(input()):
+    user_input = input
+    user_input = user_input.split
+    to_char = intuser_input[2]
+    from_char = intuser_input[1]
+    replace = ''.joinsorted(string)[::-1]
+    printuser_input[0][:from_char] + replace + user_input[0][to_char + 1:len(user_input[0])]

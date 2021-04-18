@@ -1,0 +1,5 @@
+n = intinput()
+array = [inti for i in input().split()]
+k = intinput()
+for i in rangelen(array):
+        printi

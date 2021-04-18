@@ -1,0 +1,4 @@
+def bubbleSortList:
+    for i in rangelen(List):
+        for j in rangelen(List) - 1, i, -1:
+    print'Sorted List:',bubbleSort(List)

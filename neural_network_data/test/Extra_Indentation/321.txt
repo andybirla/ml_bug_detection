@@ -1,0 +1,13 @@
+ cases = int(input())
+ ignores = []
+ for i in range(cases):
+     ignores.append(input())
+ N = int(input())
+ cases = input().split()
+ abc = []
+ for i in cases:
+     if i in ignores:
+         pass
+     else:
+         abc.append(i[:1].upper())
+ print('.'.join(abc))

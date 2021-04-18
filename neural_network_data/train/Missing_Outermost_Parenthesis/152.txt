@@ -1,0 +1,5 @@
+def selection_sortnums:
+    for i in rangelen(nums):
+        for j in rangei + 1, len(nums):
+selection_sortrandom_list_of_nums
+printrandom_list_of_nums

@@ -1,0 +1,2 @@
+    if score >= int(hscore):
+if score >= int(hscore):

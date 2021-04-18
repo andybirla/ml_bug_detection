@@ -1,0 +1,4 @@
+    toh(s,d,t)
+    toh(t,s,d)
+        n = int())
+        toh('Source','Temporary','Destination')

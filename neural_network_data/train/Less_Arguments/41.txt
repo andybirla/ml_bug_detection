@@ -1,0 +1,4 @@
+                             ( 25),
+                             ( 81),
+                             ( 100)
+    result = mathlib.calc_square()

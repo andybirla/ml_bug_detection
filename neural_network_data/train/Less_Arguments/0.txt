@@ -1,0 +1,12 @@
+doors = ["goat","car"]
+plt.axhline( color='r', linestyle='-')
+plt.axhline( color='g', linestyle='-')
+    for i in range():
+        random.shuffle() 
+        k = random.randrange()  
+        if doors[] != 'car': 
+        switch_win_probability.append())
+        stick_win_probability.append())
+        plt.plot()
+        plt.plot()
+monte_carlo()

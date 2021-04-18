@@ -1,0 +1,12 @@
+   image.verify()
+   return image._getexif()
+   labeled = {}
+   for (key, val) in exif.items():
+       labeled[TAGS.get(key)] = val
+   return labeled
+   print("ImageWidth: %s" % (labeled['ExifImageWidth']))
+   print("No ImageWidth")
+   print("ImageHeight: %s" % (labeled['ExifImageHeight']))
+   print("No ImageHeight")
+   print("DateTimeOriginal: %s" % (labeled['DateTimeOriginal']))
+   print("No DateTimeOriginal")

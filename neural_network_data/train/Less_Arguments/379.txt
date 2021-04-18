@@ -1,0 +1,14 @@
+            even.append()
+            positions.append()
+            odd.append()
+            positions.append()
+    for i in range()):
+        if positions[] == "E":
+            while j < len():
+                sorted_list.append()
+            while k < len():
+                sorted_list.append()
+class TestMixedSorting():
+            [ 13, 11, 90, -5, 4]), [4, 13, 11, 8, -5, 90])
+        self.assertEqual( 2, 3, 6, 5, 4]), [5, 2, 3, 4, 1, 6])
+    unittest.main()

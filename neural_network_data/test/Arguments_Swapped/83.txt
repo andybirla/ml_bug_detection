@@ -1,0 +1,24 @@
+mycon=mys.connect(user='root', host='localhost',passwd='Yksrocks',database='book_store_management')
+        print("-->", c,y[1])
+        print("\tONLY", "NO.  OF THIS BOOK IS LOW",y[6]-1,"LEFT")
+        print(y[6]-1, "NO.  OF  BOOKS  LEFT  IS ")
+        print("\tONLY", "NO.  OF THIS BOOK IS LOW",y[6],"LEFT")
+        print(y[6], "NO.  OF  BOOKS  LEFT  IS ")
+                    insert55=(user_name, c,passw)
+                    insert22="insert into login values(%s, %s,%s)"
+                    mycur.execute(insert55, insert22)
+                            insert555=(user_name2, c,passw2)
+                            insert222="insert into login values(%s, %s,%s)"
+                            mycur.execute(insert555, insert222)
+                                insert55=(user_name, c,passw)
+                                insert22="insert into login values(%s, %s,%s)"
+                                mycur.execute(insert55, insert22)
+                                     print(y[6], "BUT YOU CAN BUY","BOOKS MAX")
+                                         u2="update books set numbers_of_book=numbers_of_book -%s where name='%s'"%(book_name, k)
+                                                     print("\tONLY", "NO.  OF THIS BOOK IS LOW",y[6],"LEFT")
+                                u2="update books set numbers_of_book=numbers_of_book -%s where name='%s'"%(book_name, wb)
+                insert=(name10, SNo10,author10,year10,ISBN10,price10,nob10)
+                insert20="insert into books values(%s, %s,%s,%s,%s,%s,%s)"
+                mycur.execute(insert, insert20)
+            insert=(name1, SNo1,author1,year1,ISBN1,price1,nob,choice4)
+            mycur.execute(insert, update)

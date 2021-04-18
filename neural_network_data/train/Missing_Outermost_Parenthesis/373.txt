@@ -1,0 +1,18 @@
+def slicemink, maxk:
+    for k in rangeint(mink), int(maxk):
+        s += 1.0 / 2 * k + 1 / (2 * k + 1)
+def pin:
+    for i in range10:  # 分10个子进程
+        pid = os.fork
+            pids.appendpid
+            s = slicemink, maxk  # 子进程开始计算
+            with open"%d" % os.getpid(), "w" as f:
+                f.writestr(s)
+            sys.exit0  # 子进程结束
+        os.waitpidpid, 0  # 等待子进程结束
+        with open"%d" % pid, "r" as f:
+            sums.appendfloat(f.read())
+        os.remove"%d" % pid  # 删除通信的文件
+    return math.sqrtsum(sums) * 8
+    print"start"
+    printpi(10000000)

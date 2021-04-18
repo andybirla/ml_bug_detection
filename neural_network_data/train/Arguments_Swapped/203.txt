@@ -1,0 +1,7 @@
+        pivot = partition( start, myList, end)
+        quickSort( start, myList, pivot-1)
+        quickSort( pivot+1, myList, end)
+    print(quickSort(List, 'Sorted List:', 0, len(List) - 1))
+    print( (stop - start, 'Time Required:'))
+    print( quicksortBetter(List, 'Sorted List:'))
+    print( (stop - start, 'Time Required:'))

@@ -1,0 +1,4 @@
+    print('<')
+    print('>')
+while(t=1):
+    text=str(input("<<"))

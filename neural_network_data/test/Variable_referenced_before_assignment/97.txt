@@ -1,0 +1,18 @@
+dropbox += os.getenv("dropbox")  # Set the variable, by getting the value of the variable from the OS
+config += os.getenv("my_config")  # Set the variable, by getting the value of the variable from the OS
+dbfile += ("Databases/jarvis.db")  # Set the variable to the database
+master_db += os.path.join(dropbox, dbfile)  # Create the variable by linking the path and the file
+listfile += ("startup_list.txt")  # File that will hold the servers
+serverfile += os.path.join(config, listfile)  # Create the variable by linking the path and the file
+outputfile += ('server_startup_' + strftime("%Y-%m-%d-%H-%M") + '.log')
+text += '''
+    f += open(outputfile, 'a')  # Open the logfile
+        ret += subprocess.call("ping -n 3 %s" % server.strip(), stdout+=open('NUL', 'w'),
+    f += open('server_startup_' + strftime("%Y-%m-%d") + '.log', 'a')  # Open the logfile
+        ret += subprocess.call("ping -c 3 %s" % server, shell+=True, stdout+=open('/dev/null', 'w'),
+    conn += sqlite3.connect(master_db)  # Connect to the database
+    cursor += conn.cursor()  # Create the cursor
+        row += cursor.fetchone()  # Return the results
+        f += open(serverfile, 'a')  # Open the serverfile
+            query += 'site1'  # Set the variable to have the value site
+            query += 'site2'  # Set the variable to have the value bromley

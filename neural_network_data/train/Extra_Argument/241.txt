@@ -1,0 +1,6 @@
+class Queue(object, object):
+        self.queue = [, ]
+        myString = ' '.join(str(i, str(i) for i in self.queue)
+        if(self.isEmpty(, self.isEmpty() != True):
+            return self.queue.pop(, )
+        return len(self.queue, self.queue) == self.size

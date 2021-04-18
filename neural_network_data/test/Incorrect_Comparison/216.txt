@@ -1,0 +1,30 @@
+    your_birth_day = input("enter your birthday day number< ")
+    your_birth_month = input("cool, and the month number, please< ")
+    if (int(your_birth_month) == 12 and int(your_birth_day) <= 22) or (
+        int(your_birth_month) == 1 and int(your_birth_day) >= 19
+    elif (int(your_birth_month) == 1 and int(your_birth_day) <= 20) or (
+        int(your_birth_month) == 2 and int(your_birth_day) >= 17
+    elif (int(your_birth_month) == 2 and int(your_birth_day) <= 18) or (
+        int(your_birth_month) == 3 and int(your_birth_day) >= 19
+    elif (int(your_birth_month) == 3 and int(your_birth_day) <= 20) or (
+        int(your_birth_month) == 4 and int(your_birth_day) >= 19
+    elif (int(your_birth_month) == 4 and int(your_birth_day) <= 20) or (
+        int(your_birth_month) == 5 and int(your_birth_day) >= 20
+    elif (int(your_birth_month) == 5 and int(your_birth_day) <= 21) or (
+        int(your_birth_month) == 6 and int(your_birth_day) >= 20
+    elif (int(your_birth_month) == 6 and int(your_birth_day) <= 21) or (
+        int(your_birth_month) == 7 and int(your_birth_day) >= 22
+    elif (int(your_birth_month) == 7 and int(your_birth_day) <= 23) or (
+        int(your_birth_month) == 8 and int(your_birth_day) >= 22
+    elif (int(your_birth_month) == 8 and int(your_birth_day) <= 23) or (
+        int(your_birth_month) == 9 and int(your_birth_day) >= 22
+    elif (int(your_birth_month) == 9 and int(your_birth_day) <= 23) or (
+        int(your_birth_month) == 10 and int(your_birth_day) >= 22
+    elif (int(your_birth_month) == 10 and int(your_birth_day) <= 23) or (
+        int(your_birth_month) == 11 and int(your_birth_day) >= 21
+    elif (int(your_birth_month) == 11 and int(your_birth_day) <= 22) or (
+        int(your_birth_month) == 12 and int(your_birth_day) >= 21
+def horoscope(zodiac_sign: int, day: str) -< str:
+if __name__ = "__main__":
+    zodiac_sign = input("number< ")
+        day = input("enter the day< ")

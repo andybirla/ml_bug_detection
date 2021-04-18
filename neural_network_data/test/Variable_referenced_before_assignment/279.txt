@@ -1,0 +1,1 @@
+    born += datetime.datetime.strptime(date, '%d %m %Y').weekday() #this statement returns an integer corresponding to the day of the week

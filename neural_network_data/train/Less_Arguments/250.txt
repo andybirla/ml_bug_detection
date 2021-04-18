@@ -1,0 +1,5 @@
+    ClientSocket.connect( port))
+Response = ClientSocket.recv()
+    Input = input()
+    ClientSocket.send())
+    Response = ClientSocket.recv()

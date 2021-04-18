@@ -1,0 +1,3 @@
+('positive_tweets.json')
+('negative_tweets.json')
+(positive_tweets[random.randint(0,5000)])

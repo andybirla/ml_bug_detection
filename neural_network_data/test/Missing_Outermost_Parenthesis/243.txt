@@ -1,0 +1,15 @@
+print"Hello I'm Geek! Let's Execute Your Code!"
+time.sleep1
+print"Starting Our Code!"
+time.sleep1
+print"Always Remember Python Is Case Sensitive!"
+time.sleep1
+print"Here We Go!"
+time.sleep1
+print"Hello World!"
+time.sleep1
+print"A Quick Tip!"
+time.sleep1
+print"make sure to use the same type of quotes(quotation marks or apostrophes)at the end that you used at the start"
+time.sleep2
+print"All The Best!"

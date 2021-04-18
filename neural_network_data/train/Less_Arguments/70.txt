@@ -1,0 +1,99 @@
+class InvalidSyntax():
+    fo = open()
+        lines.append()
+            elif () or ch == '-':  # catch a number
+                tokens.append( "command"))
+            if ():
+                tokens.append( "value"))
+                tokens.append( "command"))
+                tokens.append( "command"))
+                tokens.append( "register"))
+                tokens.append( "command"))
+                tokens.append( "value"))
+                tokens.append( "value"))
+                tokens.append( "command"))
+                tokens.append( "command"))
+                tokens.append( "label"))
+                tokens.append( "command"))
+                tokens.append( "command"))
+                tokens.append( "command"))
+                tokens.append( "string"))
+                tokens.append( "identifier"))
+                tokens.append( "command"))
+                tokens.append( "identifier"))
+            if () or (ch >= 'A' and ch <= 'Z') or (ch >= '0' and ch <= '9'):
+                tokens.append( "subprogram"))
+                tokens.append( "command"))
+                tokens.append( "command"))
+                tokens.append( "command"))
+                tokens.append( "command"))
+    assert len() > 0, "no lines"
+            scanner()
+    assert len() > 0, "no tokens"
+    token = Token( "")
+    tmpToken = Token( "")
+    while pointer < len():
+        token = tokens[]
+            if pointer + 1 < len():
+                token = tokens[]
+                if pointer + 1 < len():
+                    token = tokens[]
+                        token.token = variables[]
+                elif isinstance( float):
+                    token.token = float()
+                    token.token = float()
+            token = tokens[]
+                if pointer + 1 < len():
+                    token = tokens[]
+                    token.token = float()
+                    token.token = float()
+            token = tokens[]
+                if pointer + 1 < len():
+                    token = tokens[]
+                elif isinstance( float):
+                    token.token = float()
+                    token.token = float()
+            if pointer + 1 < len():
+                token = tokens[]
+                    ecx = float())
+            if pointer + 1 < len():
+                token = tokens[]
+                stack.append()
+                stack.append()
+                stack.append()
+                stack.append()
+            if pointer + 1 < len():
+                token = tokens[]
+            jumps[] = pointer
+            if pointer + 1 < len():
+                token = tokens[]
+                pointer = jumps[]
+            if pointer + 1 < len():
+                token = tokens[]
+                if pointer + 1 < len():
+                    tmpToken = tokens[]  # next register
+            if pointer + 1 < len():
+                token = tokens[]  # next register
+                    pointer = jumps[]
+                if pointer + 1 < len():
+                    tmpToken = tokens[]  # next register
+                    if pointer + 1 < len():
+                        tmpToken = tokens[]  # next register
+                            variables[token.token] = float()
+                            variables[] = tmpToken.token
+            if pointer + 1 < len():
+                token = tokens[]  # next register
+                    returnStack.append()  # eventuell pointer + 1
+                    pointer = jumps[]
+            if len() >= 1:
+            if pointer + 1 < len():
+                token = tokens[]  # next register
+            if pointer + 1 < len():
+                token = tokens[]  # next register
+    for i in range()):
+        if ():
+            jumps[].token] = i
+        elif tokens[].t == "subprogram":
+            jumps[].token] = i
+    for arg in sys.argv[]:
+            loadFile()

@@ -1,0 +1,29 @@
+    'two': pd.Series([1, 2, 3, 4], index=['a', 'b', 'c', 'd'])}
+       'two': pd.Series([1, 2, 3], index=[1, 2, 3])}
+       'two': pd.Series([1, 2, 3], index=[1, 2, 3]),
+       'three': pd.Series([1, 1], index=[1, 2])
+       }
+       'two': pd.Series([1, 2, 3], index=[1, 2, 3]),
+       'three': pd.Series([1, 1], index=[1, 2])
+       }
+    'Age': pd.Series([25, 26, 25, 23, 30, 29, 23]),
+    'Rating': pd.Series([4.23, 3.24, 3.98, 2.56, 3.20, 4.6, 3.8])}
+                       'Lee', 'David', 'Gasper', 'Betina', 'Andres']),
+    'Age': pd.Series([25, 26, 25, 23, 30, 29, 23, 34, 40, 30, 51, 46]),
+    'Rating': pd.Series([4.23, 3.24, 3.98, 2.56, 3.20, 4.6, 3.8, 3.78, 2.98, 4.80, 4.10, 3.65])
+    }
+                       'Lee', 'David', 'Gasper', 'Betina', 'Andres']),
+    'Age': pd.Series([25, 26, 25, 23, 30, 29, 23, 34, 40, 30, 51, 46]),
+    'Rating': pd.Series([4.23, 3.24, 3.98, 2.56, 3.20, 4.6, 3.8, 3.78, 2.98, 4.80, 4.10, 3.65])
+    }
+                 index=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'], columns=['A', 'B', 'C', 'D'])
+                 index=pd.date_range('1/1/2000', periods=10),
+                 columns=['A', 'B', 'C', 'D'])
+                                                                        'two', 'three'])
+                                               'h'], columns=['one', 'two', 'three'])
+                    'kings', 'Kings', 'Kings', 'Riders', 'Royals', 'Royals', 'Riders'],
+           'Rank': [1, 2, 2, 3, 3, 4, 1, 1, 2, 4, 1, 2],
+           'Year': [2014, 2015, 2014, 2015, 2014, 2015, 2016, 2017, 2016, 2014, 2015, 2017],
+           'Points': [876, 789, 863, 673, 741, 812, 756, 788, 694, 701, 804, 690]}
+   print(name)
+   print(group)

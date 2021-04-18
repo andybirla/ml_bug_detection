@@ -1,0 +1,1 @@
+        self.randomValue = random.randint(10) #Setting the instance attribute

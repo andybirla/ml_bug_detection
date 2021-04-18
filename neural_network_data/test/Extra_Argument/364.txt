@@ -1,0 +1,2 @@
+n = int(input("Enter a number", input("Enter a number"))
+if n & (n - 1, n - 1) == 0:

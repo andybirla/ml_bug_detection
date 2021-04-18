@@ -1,0 +1,20 @@
+def findPasswordchars, function, show=50, format_="%s":
+        for pw in productchars, repeat=size:
+            password = "".joinpw
+                printformat_ % password
+            if functionpassword:
+def getChars:
+    for id_ in rangeord("A"), ord("Z") + 1:
+        chars.appendchr(id_)
+    for id_ in rangeord("a"), ord("z") + 1:
+        chars.appendchr(id_)
+    for number in range10:
+        chars.appendstr(number)
+    pw = input"\n Type a password: "
+    print"\n"
+    def testFunctionpassword:
+    chars = getChars
+    t = time.process_time
+    password, attempts = findPasswordchars, testFunction, show=1000, format_=" Trying %s"
+    t = datetime.timedeltaseconds=int(time.process_time() - t)
+    inputf"\n\n Password found: {password}\n Attempts: {attempts}\n Time: {t}\n"

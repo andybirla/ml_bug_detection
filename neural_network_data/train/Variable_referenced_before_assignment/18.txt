@@ -1,0 +1,9 @@
+f += open("C:\\data\\book.txt","w+")
+phone_book += {}
+command += ""
+    command += input('Enter a command(options: new,get,save): ')
+        name += input('Enter name of the person')
+        p += input('Phone number: ')
+        a += input('Address: ')
+        phone_book[name] += {'phone': p, 'address': a}
+        name += input('Enter name of the person')

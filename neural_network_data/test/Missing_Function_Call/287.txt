@@ -1,0 +1,4 @@
+(binary != 0): 
+		decimal = decimal + dec * (2, i) 
+(decimal)	 
+(100)

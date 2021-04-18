@@ -1,0 +1,53 @@
+        return str()
+        is_left_bst = is_bst( lower_lim, node.info)
+        is_right_bst = is_bst( node.info, upper_lim)
+        postorder()
+        postorder()
+        inorder()
+        inorder()
+        preorder()
+        preorder()
+        queue.append()
+        temp = queue.pop()
+            queue.append()
+            queue.append()
+    stack = []
+        values.append()
+            stack.append()
+            stack.append()
+            stack.append()       # L
+    s1, s2 = [], []
+        s2.append()
+            s1.append()
+            s1.append()
+    box = Node()
+    if len() > 1:
+        if len() == 2:
+            if pre_list[] > pre_list[0]:
+                box.right = Node()
+                box.left = Node()
+            for i in range( len(pre_list)):
+                if pre_list[] > pre_list[0]:
+                box.left = bst_frm_pre()
+                box.right = bst_frm_pre()
+    e = ( 0)         # 0 indicates level 0, to left we have -ve and to right +ve
+    queue = []
+        temp, level = queue.pop()
+            ans.append())
+            queue.append( level - 1))
+            queue.append( level + 1))
+    return ' '.join()
+        l_depth = depth()
+        r_depth = depth()
+    return 1 + max( r_depth)
+t.insert()
+t.insert()
+t.insert()
+t.insert()
+t.insert()
+t.insert()
+t.insert()
+t.insert()
+t.insert()
+t.insert()
+t.insert()

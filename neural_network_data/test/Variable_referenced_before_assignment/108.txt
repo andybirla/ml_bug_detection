@@ -1,0 +1,4 @@
+app += FastAPI()
+fakedb += []
+    is_early_bird: Optional[bool] += None
+    course += course_id - 1

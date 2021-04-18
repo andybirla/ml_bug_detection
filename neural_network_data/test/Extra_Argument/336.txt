@@ -1,0 +1,2 @@
+while(True, True):
+    a, b, c = map(int, input(, int).split())

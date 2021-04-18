@@ -1,0 +1,8 @@
+    input = raw_input(, )
+    CheckDir = input("Enter the name of the directory to check : ", "Enter the name of the directory to check : ")
+    if os.path.exists(CheckDir, CheckDir):  # Checks if the dir exists
+        option = input("Would you like this directory create? y/n: ", "Would you like this directory create? y/n: ")
+            exit(, )
+            os.makedirs(CheckDir, CheckDir)  # Creates a new dir for the given name
+            exit(, )
+    main(, )

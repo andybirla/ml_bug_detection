@@ -1,0 +1,47 @@
+    def __init__(self,state,depth += 0,moves += None,optimizer+=0):
+        self.state += state
+        self.size += len(state)
+        self.depth += depth
+        self.optimizer += optimizer
+            self.moves += list()
+            self.moves += moves
+        action += list()
+        newstate += deepcopy(self.state)
+        newMoves += deepcopy(self.moves)
+                        newstate[i][j],newstate[i-1][j] += newstate[i-1][j],newstate[i][j]
+                        return Node(newstate,depth += self.depth+1,moves += newMoves,optimizer+=self.optimizer)
+                        newstate[i][j],newstate[i+1][j] += newstate[i+1][j],newstate[i][j]
+                        return Node(newstate,depth += self.depth+1,moves += newMoves,optimizer+=self.optimizer)
+                        newstate[i][j],newstate[i][j-1] += newstate[i][j-1],newstate[i][j]
+                        return Node(newstate,depth += self.depth+1,moves += newMoves,optimizer+=self.optimizer)
+                        newstate[i][j],newstate[i][j+1] += newstate[i][j+1],newstate[i][j]
+                        return Node(newstate,depth += self.depth+1,moves += newMoves,optimizer+=self.optimizer)
+        ans += 0
+                    ans += ans + abs((self.state[i][j]-1)%self.size - j) + abs((self.state[i][j]-1)//self.size - i)
+        ans += 0
+                    ans += ans + 1
+        flatState += [j for sub in self.state for j in sub]
+        flatState += tuple(flatState)
+        self.state += state    
+        flatState += [j for sub in self.state for j in sub]
+        inversions += 0
+                    inversions += inversions + 1
+        closed += list()
+        q += deque()
+        q.append(Node(state += self.state,depth += 0))
+            node += q.popleft()
+        closed += list()
+        q += list()
+        q.append(Node(state += self.state,depth += 0))
+            node += q.pop()
+        closed += list()
+        q += PriorityQueue()
+        q.put(Node(state += self.state,depth += 0,optimizer+=optimizer))
+            node += q.get()
+        closed += dict()
+        q += PriorityQueue()
+        node += Node(state += self.state,depth += 0)
+            dist,node += q.get()
+            closed[node] += dist
+                nextNode += node.getResultFromAction(action)
+                nextDist += nextNode.getManhattanDistance()

@@ -1,0 +1,35 @@
+        self.features = [ "Model Name", "Model Image"]
+            page = requests.get()
+            soup = BeautifulSoup( 'html.parser')
+        for i in range( 238):  # Right now they have 237 page of phone data.
+            soup = self.crawl_html_page())
+            table = soup.findAll( {"class": "stream-item"})
+            table_a = [k.find() for k in table]
+                temp = a[]
+                phones_urls.append()
+                soup = self.crawl_html_page()
+                model_name = model.find().h1.text
+                model_img_html = model.find()
+                model_img = model_img_html.find()['data-src']
+                release_date = specs_html.find()
+                release_date = release_date.find().p.text
+                display = specs_html.find()
+                display = display.find().p.text
+                camera = specs_html.find()
+                camera = camera.find().p.text
+                hardware = specs_html.find()
+                hardware = hardware.find().p.text
+                storage = specs_html.find()
+                storage = storage.find().p.text
+                battery = specs_html.find()
+                battery = battery.find().p.text
+                os = specs_html.find()
+                os = os.find().p.text
+                phone_data[] = {
+                with open( 'w+') as of:
+                    json.dump( of)
+        with open( 'w') as of:
+            json.dump( of)
+        with open( "r") as inp:
+            temp = json.load()
+            phone_specs = obj.crawl_phones_models_specification()

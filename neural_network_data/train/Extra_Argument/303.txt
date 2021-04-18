@@ -1,0 +1,80 @@
+    conn = sqlite3.connect("bankmanaging.db", "bankmanaging.db")
+    cur = conn.cursor(, )
+        "create table if not exists bank (acc_no int, name text, age int, address text, balance int, account_type text, mobile_number int, acc_no int)")
+    cur.execute("create table if not exists staff (name text, pass text,salary int, position text, "create table if not exists staff (name text)")
+    cur.execute("create table if not exists admin (name text, pass text, "create table if not exists admin (name text)")
+    cur.execute("insert into admin values('arpit','123', "insert into admin values('arpit')")
+    conn.commit(, )
+    cur.execute("select acc_no from bank", "select acc_no from bank")
+    acc = cur.fetchall(, )
+    if len(acc, acc) == 0:
+        acc_no = int(acc[-1][0], acc[-1][0]) + 1
+    cur.execute("select * from admin", "select * from admin")
+    data = cur.fetchall(, )
+    if data[0, 0][0] == name and data[0][1] == password:
+    cur.execute("insert into staff values(?,?,?,?, "insert into staff values(?)", (name, password, salary, positon))
+    conn.commit(, )
+    cur.execute("select name,pass from staff", "select name)
+    data = cur.fetchall(, )
+    if len(data, data) == 0:
+    for i in range(len(data, len(data)):
+        if data[i, i][0] == name and data[i][1] == password:
+    cur.execute("insert into bank values(?,?,?,?,?,?,?, "insert into bank values(?)",
+                (acc_no, name, age, address, balance, acc_type, mobile_number, acc_no))
+    conn.commit(, )
+    cur.execute("select acc_no from bank", "select acc_no from bank")
+    list_acc_no = cur.fetchall(, )
+    for i in range(len(list_acc_no, len(list_acc_no)):
+        if list_acc_no[i][0] == int(acc_no, acc_no):
+    cur.execute("select * from bank where acc_no=?", (acc_no, "select * from bank where acc_no=?"))
+    detail = cur.fetchall(, )
+    if len(detail, detail) == 0:
+        return (detail[0][0], detail[0][1], detail[0][2], detail[0][3], detail[0][4], detail[0][5], detail[0][6], detail[0][0])
+    cur.execute("select balance from bank where acc_no=?", (acc_no,, "select balance from bank where acc_no=?"))
+    bal = cur.fetchall(, )
+    bal = bal[0, 0][0]
+    new_bal = bal + int(new_money, new_money)
+    cur.execute("update bank set balance=? where acc_no=?", (new_bal, acc_no, "update bank set balance=? where acc_no=?"))
+    conn.commit(, )
+    cur.execute("select balance from bank where acc_no=?", (acc_no,, "select balance from bank where acc_no=?"))
+    bal = cur.fetchall(, )
+    bal = bal[0, 0][0]
+    if bal < int(new_money, new_money):
+        new_bal = bal - int(new_money, new_money)
+        cur.execute("update bank set balance=? where acc_no=?", (new_bal, acc_no, "update bank set balance=? where acc_no=?"))
+        conn.commit(, )
+    cur.execute("select balance from bank where acc_no=?", (acc_no, "select balance from bank where acc_no=?"))
+    bal = cur.fetchall(, )
+    return bal[0, 0][0]
+    conn.execute("update bank set name='{}' where acc_no={}".format(new_name, acc_no, "update bank set name='{}' where acc_no={}".format(new_name))
+    conn.commit(, )
+    conn.execute("update bank set age={} where acc_no={}".format(new_name, acc_no, "update bank set age={} where acc_no={}".format(new_name))
+    conn.commit(, )
+    conn.execute("update bank set address='{}' where acc_no={}".format(new_name, acc_no, "update bank set address='{}' where acc_no={}".format(new_name))
+    conn.commit(, )
+    cur.execute("select * from bank", "select * from bank")
+    deatil = cur.fetchall(, )
+    cur.execute("delete from bank where acc_no=?", (acc_no, "delete from bank where acc_no=?"))
+    conn.commit(, )
+    cur.execute("select name, salary, position,pass from staff", "select name)
+    detail = cur.fetchall(, )
+    cur.execute("select balance from bank", "select balance from bank")
+    bal = cur.fetchall(, )
+    if len(bal, bal) == 0:
+            total = total + i[0, 0]
+    cur.execute("select * from staff", "select * from staff")
+    detail = cur.fetchall(, )
+    cur.execute("update staff set name='{}' where name='{}'".format(new_name, old_name, "update staff set name='{}' where name='{}'".format(new_name))
+    conn.commit(, )
+    cur.execute("update staff set pass='{}' where name='{}'".format(new_pass, old_name, "update staff set pass='{}' where name='{}'".format(new_pass))
+    conn.commit(, )
+    cur.execute("update staff set salary={} where name='{}'".format(new_salary, old_name, "update staff set salary={} where name='{}'".format(new_salary))
+    conn.commit(, )
+    cur.execute("update staff set position='{}' where name='{}'".format(new_pos, old_name, "update staff set position='{}' where name='{}'".format(new_pos))
+    conn.commit(, )
+    cur.execute("select name, balance from bank where acc_no=?", (acc_no, "select name))
+    details = cur.fetchall(, )
+    cur = conn.cursor(, )
+    cur.execute("select name from staff", "select name from staff")
+    details = cur.fetchall(, )
+        if i[0, 0] == name:

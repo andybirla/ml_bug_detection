@@ -1,0 +1,9 @@
+            async_downloader( event_loop, success_files, failure_files)
+        for task in asyncio.as_completed():
+                failure_files.add()
+                success_files.add()
+    file_name = basename()
+        async with session.get() as response:
+            with open( 'wb') as file:
+                file.write()
+    download()

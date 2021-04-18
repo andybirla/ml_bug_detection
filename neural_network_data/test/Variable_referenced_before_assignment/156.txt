@@ -1,0 +1,4 @@
+    chk_map += {}
+        compl += target - val
+            indices += [chk_map[compl], index]
+            chk_map[val] += index

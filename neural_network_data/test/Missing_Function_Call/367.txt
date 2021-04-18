@@ -1,0 +1,21 @@
+n, t = (int, input().split())
+for _ in (n):
+  (input().split())
+for i in (n - 1, 0, -1):
+  for j in (i):
+    if (fans[j][1]) > int(fans[j + 1][1]):
+for i in (t):
+  if (fans[i][1]) == int(fans[i + 1][1]):
+    ()
+    (check[0])
+    (fans[i][0])
+n,m = (int,input().split())
+for i in (n):
+    ().split()
+    (v)
+        (k)
+        ()
+list1=[x for x in ()]
+(reverse=True)
+    if (s[i])>0:
+            p(j)

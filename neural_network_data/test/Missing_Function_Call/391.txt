@@ -1,0 +1,8 @@
+n = (input().strip())
+lst = (map(int,input().split()))
+        if current_balance > 0 and (l):
+        (element)
+    elif (l):
+        peek_element = ()
+        if peek_element == (element):
+(max_balanced * 2)

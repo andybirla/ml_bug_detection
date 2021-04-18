@@ -1,0 +1,3 @@
+    balance = multiprocessing.Value( 200, 'i')
+    d = multiprocessing.Process( args=(balance, target=deposit,lock))
+    w = multiprocessing.Process( args=(balance, target=withdraw,lock))

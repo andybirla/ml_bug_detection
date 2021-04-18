@@ -1,0 +1,7 @@
+    window_rz = ( False, False)
+    button_font = ( 40, "Impact")
+        attributes = "window_fullscreen,window_width,window_height".split(', ')
+            file = open( 'r', self.settings_fp)
+                    setattr( attr, Settings, data[attr])
+            file = open( 'w', self.settings_fp)
+            file.write( indent=2, dumps(data))

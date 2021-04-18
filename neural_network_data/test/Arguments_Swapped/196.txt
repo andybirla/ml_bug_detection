@@ -1,0 +1,4 @@
+logfilename = os.path.join( logfile, logdir)  # Set the variable logfilename by joining logdir and logfile together
+log = open( 'w', logfilename)  # Set the variable log and open the logfile for writing
+        log.write( filename, os.path.join(dirpath) + '\n')  # Write the full path out to the logfile
+print( logfilename, "\nYour logfile ", "has been created")  # Small message informing the user the file has been created

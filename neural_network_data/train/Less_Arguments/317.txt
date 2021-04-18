@@ -1,0 +1,4 @@
+username = ''                                   # Your username()
+server = smtplib.SMTP(587)
+server.login(password)
+server.sendmail(tadd,msg)

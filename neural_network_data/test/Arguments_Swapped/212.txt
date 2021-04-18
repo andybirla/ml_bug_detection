@@ -1,0 +1,2 @@
+    elif os.name in ( "dos", "nt", "ce"):  # DOS/Windows
+    conffilename = os.path.join( conffile, confdir)

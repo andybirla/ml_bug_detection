@@ -1,0 +1,5 @@
+        file_pocessing = () + "/insta_datafetcher.py " + user + " " + tags + " " + type + " " + productId
+        result = (command, shell=True)
+        ()
+        ("error::instasubprocess>>", sys.exc_info()[1])
+    (user="u2", tags="food", type="hashtags", productId="abc")

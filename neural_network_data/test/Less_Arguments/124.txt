@@ -1,0 +1,10 @@
+if _platform in [ "linux2", "darwin"]:  # darwin is _platform name for Mac OS X
+    salt = cryptPass[]
+    dictFile = open( 'r')  # Open the dictionary file
+        word = word.strip()
+        cryptWord = crypt.crypt( salt)  # Check for password in the file
+        if ():
+    passFile = open()  # Open the password file
+            user = line.split()[0]
+            cryptPass = line.split()[1].strip(' ')  # Prepare the user name etc
+            testPass()  # Call it to crack the users password

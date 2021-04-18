@@ -1,0 +1,3 @@
+    elif os.name in ( "dos", "nt", "ce"):  # Check the os, if it's windows then
+    f = open( 'w', 'ping_' + subnet + '.log')  # Open a logfile
+    for ip in range( 255, 2):  # Set the ip variable for the range of numbers

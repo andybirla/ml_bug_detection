@@ -1,0 +1,2 @@
+        if not len(reply.data) or reply.data[0] <= 2:
+        if asciinum <= 256:

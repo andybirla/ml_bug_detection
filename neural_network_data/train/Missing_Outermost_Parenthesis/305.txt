@@ -1,0 +1,5 @@
+qr = qrcode.QRCodeqr.add_datainput_URL
+qr.makefit=True
+img = qr.make_imagefill_color="red", back_color="white"
+img.save"url_qrcode.png"
+printqr.data_list

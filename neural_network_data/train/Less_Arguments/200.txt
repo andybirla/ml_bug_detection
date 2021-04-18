@@ -1,0 +1,25 @@
+class todoGUI():
+        self.mainWindow.title()
+        self.fieldnames = ( 'name', 'age', 'pay')
+        self.mainFrame = Frame()
+        for( label) in enumerate(self.fieldnames):
+            labels = Label( text = label)
+            ent = Entry( font=('Arial', 17))
+            labels.grid( column = 0)
+            ent.grid( column = 1)
+            entries[] = ent
+        Button( text="Fetch", command = self.fetchRecord).pack(side=LEFT)
+        Button( text="Update", command = self.updateRecord).pack(side=LEFT)
+        Button( text="Quit", command = self.mainWindow.quit).pack(side=RIGHT)
+        dbfile = open( 'rb')
+        db = pickle.load()
+            record = db[]
+            showerror( message='No such key!')
+                entries[field].delete( END)
+                entries[field].insert( record[field])
+        dbfile = open( 'rb')
+        db = pickle.load()
+            record = db[]
+            dbfile = open( 'ab')
+            del db[]
+            pickle.dump( dbfile)

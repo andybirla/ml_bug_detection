@@ -1,0 +1,22 @@
+   return sys.version_info
+   hostname = socket.gethostname()
+   addresses = socket.getaddrinfo(hostname, None)
+   address_info = []
+   for address in addresses:
+       address_info.append((address[0].name, address[4][0]))
+   return address_info
+   return psutil.cpu_percent(interval=0.1)
+   return psutil.virtual_memory().available
+   return psutil.sensors_battery().power_plugged
+   print("Python Version:{0.major}.{0.minor}".format(python_version()))
+   for address in ip_addresses():
+       print("IP Addresses: {0[1]} ({0[0]})".format(address))
+   print("CPU Load: {:.1f}".format(cpu_load()))
+   print("RAM Available: {} MiB".format(ram_available() / 1024**2))
+   print("AC Connected: {}".format(ac_connected()))
+   parser = argparse.ArgumentParser(
+       description='Display the values of the sensors',add_help=True,
+   )
+   arguments = parser.parse_args()
+   show_sensors()
+   command_line(sys.argv)

@@ -1,0 +1,12 @@
+def heapifynums, heap_size, root_index:
+    left_child = 2 * root_index + 1
+    right_child = 2 * root_index + 2
+        heapifynums, heap_size, largest
+def heap_sortnums:
+    n = lennums
+    for i in rangen, -1, -1:
+        heapifynums, n, i
+    for i in rangen - 1, 0, -1:
+        heapifynums, i, 0
+heap_sortrandom_list_of_nums
+printrandom_list_of_nums

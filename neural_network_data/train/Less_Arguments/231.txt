@@ -1,0 +1,8 @@
+    primes = [True] * ()
+    while():
+        if() == True:
+            for i in range( n + 1, p):
+                primes[] = False
+    for i in range( n):
+        if primes[]:
+    SieveOfEratosthenes()

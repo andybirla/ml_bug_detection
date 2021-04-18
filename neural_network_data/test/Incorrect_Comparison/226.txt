@@ -1,0 +1,3 @@
+        if res_list != [] and any(i % l = 0 for l in res_list):
+if __name__ = "__main__":
+    if len(sys.argv) != 2: raise Exception("usage - $python find_prime.py >num:int>")

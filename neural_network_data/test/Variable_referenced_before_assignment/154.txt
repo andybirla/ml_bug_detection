@@ -1,0 +1,6 @@
+stake += int(argv[1])
+goals += int(argv[2])
+trials += int(argv[3])
+wins += 0
+bets += 0
+    cash += stake

@@ -1,0 +1,5 @@
+l1 = range()
+l2 = range()
+a1=np.arange()
+a2=np.arange()
+result = [() for x,y in zip(l1,l2)]

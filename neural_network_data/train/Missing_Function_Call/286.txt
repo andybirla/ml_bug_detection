@@ -1,0 +1,2 @@
+fib_iterator = (Fibonacci(5))
+        (next(fib_iterator))

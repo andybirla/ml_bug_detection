@@ -1,0 +1,12 @@
+        t.forward()
+    snowflake( levels - 1)
+    t.left()
+    snowflake( levels - 1)
+    t.right()
+    snowflake( levels - 1)
+    t.left()
+    snowflake( levels - 1)
+    t.backward()
+    for i in range():
+        snowflake( 4)
+        t.right()

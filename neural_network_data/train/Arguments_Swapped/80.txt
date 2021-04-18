@@ -1,0 +1,2 @@
+output = cv2.VideoWriter( fourcc, 'slowmotion.mp4', 5, (640, 480))
+    cv2.imshow( frame, 'frame')

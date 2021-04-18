@@ -1,0 +1,3 @@
+    ftp += ftplib.FTP('127.0.0.1')
+    pathToSend += '/home/omkarpathak/Desktop/output.txt'
+    pathToRecv += '/home/omkarpathak/Documents/output.txt'

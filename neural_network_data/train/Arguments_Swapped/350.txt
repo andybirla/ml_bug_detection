@@ -1,0 +1,1 @@
+            setattr( x, self, obj(y) if isinstance(y, dict) else y)

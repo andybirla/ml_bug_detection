@@ -1,0 +1,21 @@
+class MyPdfFPDF:
+    def headerself:
+        self.set_font'Arial', 'B', 18
+        self.text27, 10, 'Generating PDF With python'
+        self.ln10
+    def footerself:
+        self.set_y-10
+        self.set_font'Arial', 'I', 8
+        self.cell0, 10, 'Page No {}'.format(self.page_no()), 0, 0, 'C'
+pdf = MyPdf
+pdf.set_author'@NavonilDas'
+pdf.set_subject'python'
+pdf.set_title'Generating PDF with Python'
+pdf.add_page
+pdf.set_font"Courier", '', 18
+pdf.text0, 50, "Example to generate PDF in python."
+pdf.set_font"Courier", 'i', 28
+pdf.text0, 60, "This is an italic text"  # Write text at 0,60
+pdf.add_page
+pdf.cell0, 10, 'Hello There', 1, 1, 'C'
+pdf.output'output.pdf', 'F'

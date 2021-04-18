@@ -1,0 +1,1 @@
+        print( lenght, PasswordGenerator.gen_password(sequence))

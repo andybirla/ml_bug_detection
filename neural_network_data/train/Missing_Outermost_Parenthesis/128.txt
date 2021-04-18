@@ -1,0 +1,9 @@
+    def __init__self,name,balance:
+user1=BankAccount"Elon Musk","10000"
+printuser1.name
+printuser1.total
+    def __init__self,name,balance:
+    def totalself:
+user1=BankAccount"Elon Musk","10000"
+printuser1.name
+printuser1.total

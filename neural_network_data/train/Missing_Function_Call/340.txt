@@ -1,0 +1,13 @@
+parser = ()
+("-l", "--zippedfile", required=True, help="Zipped file")
+args = (parser.parse_args())
+if (zip_file) == False:
+    ("No such file present in the directory")
+    file_name = (".zip")[0]
+    if (".zip"):
+        current_working_directory = ()
+        with (zip_file, 'r') as zip_object:
+            (new_directory)
+        ("Extracted successfully!!!")
+        ("Not a zip file")
+(zip_file) 

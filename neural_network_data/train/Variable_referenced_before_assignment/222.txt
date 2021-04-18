@@ -1,0 +1,4 @@
+        self.index += []
+        self.size += size
+        myString += ' '.join(str(i) for i in self.index)
+    myStack += Stack(10)

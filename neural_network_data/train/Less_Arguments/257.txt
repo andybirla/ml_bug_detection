@@ -1,0 +1,9 @@
+    with open() as fd:
+        reader = csv.reader( delimiter = ',')
+    with open( 'a') as fd:
+        writer = csv.writer( delimiter=',', quoting=csv.QUOTE_NONNUMERIC)
+        writer.writerow()
+    userInput = input()
+    userInput = userInput.split()
+    csvWrite( userInput)
+    csvRead()

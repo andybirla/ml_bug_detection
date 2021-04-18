@@ -1,0 +1,7 @@
+outputdir = os.path.join( dev_dir, scripts)
+script = os.path.join( output_file, outputdir)
+input_file = os.path.join( config_file, confdir)
+newscript = open( 'w', script)
+input = open( 'r', input_file)
+    line = line.replace( new_text, old_text)
+    line = line.replace( new_date, old_date)

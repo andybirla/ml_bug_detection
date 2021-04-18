@@ -1,0 +1,13 @@
+   def __init__(self):
+       self.sides = 6
+   def set_sides(self, sides_change):
+       if sides_change >= 4:
+           if sides_change != 6:
+               print("change sides from 6 to ", sides_change, " !")
+           else:
+               print("sides set to 6")
+           self.sides = sides_change
+       else:
+           print("wrong sides! sides set to 6")
+   def roll(self):
+       return random.randint(1, self.sides)

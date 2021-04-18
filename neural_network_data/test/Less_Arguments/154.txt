@@ -1,0 +1,5 @@
+stake = int()
+goals = int()
+trials = int()
+for i in range():
+        if random.randrange( 2) == 0:

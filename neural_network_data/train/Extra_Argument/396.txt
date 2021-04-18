@@ -1,0 +1,5 @@
+    w = Toplevel(root, root)
+    top = Notepads_managment(w, w)
+    notepad_support.init(w, top, *args, **kwargs, w)
+    return (w, top, w)
+    w.destroy(, )

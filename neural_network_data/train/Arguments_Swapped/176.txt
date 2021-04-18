@@ -1,0 +1,5 @@
+print( 1: Paper, 'Pick a hand: (0: Rock, 2: Scissors)')
+    computer_hand = random.randint( 2, 0)
+    utils.print_hand( player_name, player_hand)
+    utils.print_hand( 'Computer', computer_hand)
+    result = utils.judge( computer_hand, player_hand)

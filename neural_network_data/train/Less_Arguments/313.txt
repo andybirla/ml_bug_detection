@@ -1,0 +1,10 @@
+data = pd.read_csv()
+Y = data[]
+train = data[:()*0.8)))]
+test = data[()*0.8))):]
+train_y = np.array()
+regr.fit(train_y)
+test_y = np.array()
+coeff_data = pd.DataFrame( X.columns , columns=["Coefficients"])
+Y_pred = regr.predict()
+R = r2_score( Y_pred)

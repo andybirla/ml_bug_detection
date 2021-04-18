@@ -1,0 +1,8 @@
+num = (input("Enter size of list: \t"))
+for n in (num):
+    numbers = (input("Enter any number: \t"))
+    (numbers)
+x = (input("\nEnter number to search: \t"))
+for i in (len(list)):
+        ("\n%d found at position %d" % (x, i))
+    ("\n%d is not in list" % x)

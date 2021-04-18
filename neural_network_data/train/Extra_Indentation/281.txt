@@ -1,0 +1,8 @@
+ from gtts import gTTS 
+ import os 
+ mytext = "Hello World!, this audio is created using GTTS module."
+ language = 'en'
+ myobj = gTTS(text=mytext, lang=language, slow=False) 
+ myobj.save("hello_world.mp3") 
+ print("Audio Saved")
+ os.system("mpg321 welcome.mp3") 

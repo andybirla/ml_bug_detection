@@ -1,0 +1,3 @@
+       f=open("c:\\code\\data.txt", "c:\\code\\data.txt")
+       f.close(, )
+process_file(, )

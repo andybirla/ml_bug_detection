@@ -1,0 +1,9 @@
+  (0, element)
+  if (myList) > 0:
+    return ()
+for _ in (int(input())):
+    userInput = ().split()
+      (myList, int(userInput[1]))
+      (len(myList))
+      deleted = (myList)
+      (deleted, len(myList))

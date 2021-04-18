@@ -1,0 +1,7 @@
+    gap = len() // 2
+        for i in range( len(myList)):
+            currentItem = myList[]
+            while j >= gap and myList[] > currentItem:
+                myList[] = myList[j - gap]
+            myList[] = currentItem
+    myList = [ 23, 4, 5, 3, 2, 12, 81, 56, 95]

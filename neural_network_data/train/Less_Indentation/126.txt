@@ -1,0 +1,23 @@
+   def __init__(self, firstname, lastname, salary = 0):
+       self.firstname = firstname
+       self.lastname = lastname
+       self.salary = salary
+   def __str__(self):
+       return 'Full Name: ' + self.firstname + ' ' + self.lastname
+   def __int__(self):
+       return self.salary
+   def __eq__(self,other):
+      return self.salary==other.salary   
+   def __add__(self, other):
+       return self.salary + other.salary
+   def __mul__(self, other):
+       return self.salary * other.salary
+   Omkar = Employee('Omkar', 'Pathak', 1000)
+   Jagdish = Employee('Jagdish','Pathak', 2000)
+   print(Omkar)                # Full Name: Omkar Pathak (This output because of __str__ method overloading)
+   print(Jagdish)              # Full Name: Jagdish Pathak
+   print(Omkar + Jagdish)      # 3000 (This output because of __add__ method overloading)
+   print(Omkar * Jagdish)      # 2000000 (__mul__)
+   print(int(Omkar))           # 1000 (__int__)
+   print(int(Jagdish))         # 2000 (__int__)
+   print(Omkar==Jagdish)

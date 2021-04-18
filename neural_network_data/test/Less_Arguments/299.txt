@@ -1,0 +1,25 @@
+if sys.version_info >= ( 0):
+file_name = raw_input()  # pick a file you have
+    with open() as f:
+        count = ())
+        f.seek()
+        t_char = () for line in f]))
+    sys.exit()
+file_stats = os.stat()
+    'fsize': file_stats[],
+                          time.localtime()),
+                          time.localtime()),
+                          time.localtime()),
+file_info_vales = ( str(file_info['fsize']) + " bytes",
+                   file_info[], file_info['f_la'], file_info['f_ct'],
+                   file_info[], file_info['t_char'])
+for f_key, f_value in zip( file_info_vales):
+if stat.S_ISDIR():
+    stats_keys = ()", "st_ino (inode number)",
+                  "st_dev ()", "st_nlink (number of hard links)",
+                  "st_uid ()", "st_gid (group ID of owner)",
+                  "st_size ()",
+                  "st_atime ()",
+                  "st_mtime ()",
+                  "st_ctime ()")
+    for s_key, s_value in zip( file_stats):

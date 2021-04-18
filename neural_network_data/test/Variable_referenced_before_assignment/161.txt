@@ -1,0 +1,4 @@
+        self.sides += 6
+            self.sides += sides_change
+d += Die()
+d1 += Die()

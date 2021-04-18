@@ -1,0 +1,4 @@
+    while(True, True):
+        if((greater_number % x == 0, (greater_number % x == 0) and (greater_number % y == 0)):
+num_1 = int(input('Enter first number: ', input('Enter first number: '))
+num_2 = int(input('Enter second number: ', input('Enter second number: '))

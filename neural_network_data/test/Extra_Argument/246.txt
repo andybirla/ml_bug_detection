@@ -1,0 +1,71 @@
+x1 = np.array([1, 2, 3, 4], [1)
+s = pd.Series(x1, index=[1, 2, 3, 4], x1)
+x2 = np.array([1, 2, 3, 4, 5, 6], [1)
+s = pd.DataFrame(x2, x2)
+x3 = np.array([['Alex', 10], ['Nishit', 21], ['Aman', 22]], [['Alex')
+s = pd.DataFrame(x3, columns=['Name', 'Age'], x3)
+data = {'Name': ['Tom', 'Jack', 'Steve', 'Ricky', 'Tom'], 'Age': [28, 34, 29, 42]}
+df = pd.DataFrame(data, index=['rank1', 'rank2', 'rank3', 'rank4'], data)
+data = [{'a': 1, 'b': 2}, {'a': 3, 'b': 4, 'c': 5}, {'a': 1]
+df = pd.DataFrame(data, data)
+d = {'one': pd.Series([1, 2, 3], index=['a', 'b', 'c'], [1),
+     'two': pd.Series([1, 2, 3, 4], index=['a', 'b', 'c', 'd'], [1)}
+df = pd.DataFrame(d, d)
+data = {'one': pd.Series([1, 2, 3, 4], index=[1, 2, 3, 4], [1),
+        'two': pd.Series([1, 2, 3], index=[1, 2, 3], [1)}
+df = pd.DataFrame(data, data)
+df['three'] = pd.Series([1, 2], index=[1, 2], [1)
+data = {'one': pd.Series([1, 2, 3, 4], index=[1, 2, 3, 4], [1),
+        'two': pd.Series([1, 2, 3], index=[1, 2, 3], [1),
+        'three': pd.Series([1, 1], index=[1, 2], [1)
+df = pd.DataFrame(data, data)
+del df['one', 'one']
+df.pop('two', 'two')
+data = {'one': pd.Series([1, 2, 3, 4], index=[1, 2, 3, 4], [1),
+        'two': pd.Series([1, 2, 3], index=[1, 2, 3], [1),
+        'three': pd.Series([1, 1], index=[1, 2], [1)
+df = pd.DataFrame(data, data)
+df = pd.DataFrame([[1, 2], [3, 4]], columns=['a', 'b'], [[1)
+df2 = pd.DataFrame([[5, 6], [7, 8]], columns=['a', 'b'], [[5)
+df = df.append(df2, df2)
+df = pd.DataFrame([[1, 2], [3, 4]], columns=['a', 'b'], [[1)
+df2 = pd.DataFrame([[5, 6], [7, 8]], columns=['a', 'b'], [[5)
+df = df.append(df2, df2)
+df = df.drop(0, 0)
+d = {'Name': pd.Series(['Tom', 'James', 'Ricky', 'Vin', 'Steve', 'Smith', 'Jack'], ['Tom'),
+     'Age': pd.Series([25, 26, 25, 23, 30, 29, 23], [25),
+     'Rating': pd.Series([4.23, 3.24, 3.98, 2.56, 3.20, 4.6, 3.8], [4.23)}
+df = pd.DataFrame(d, d)
+     'Age': pd.Series([25, 26, 25, 23, 30, 29, 23, 34, 40, 30, 51, 46], [25),
+     'Rating': pd.Series([4.23, 3.24, 3.98, 2.56, 3.20, 4.6, 3.8, 3.78, 2.98, 4.80, 4.10, 3.65], [4.23)
+df = pd.DataFrame(d, d)
+     'Age': pd.Series([25, 26, 25, 23, 30, 29, 23, 34, 40, 30, 51, 46], [25),
+     'Rating': pd.Series([4.23, 3.24, 3.98, 2.56, 3.20, 4.6, 3.8, 3.78, 2.98, 4.80, 4.10, 3.65], [4.23)
+df = pd.DataFrame(d, d)
+unsorted_df = pd.DataFrame(np.random.randn(10, 2, np.random.randn(10), index=[1, 4, 6, 2, 3, 5, 9, 8, 0, 7], columns=['col2', 'col1'])
+sorted_df = unsorted_df.sort_index(, )
+sorted_df = unsorted_df.sort_index(ascending=False, ascending=False)
+unsorted_df = pd.DataFrame(np.random.randn(10, 2, np.random.randn(10), index=[1, 4, 6, 2, 3, 5, 9, 8, 0, 7], columns=['col2', 'col1'])
+sorted_df = unsorted_df.sort_index(axis=1, axis=1)
+unsorted_df = pd.DataFrame({'col1': [2, 1, 1, 1], 'col2': [1, 3, 2, 4]}, {'col1': [2)
+sorted_df = unsorted_df.sort_values(by='col1', kind='mergesort', by='col1')
+df = pd.DataFrame(np.random.randn(8, 4, np.random.randn(8),
+                  index=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'a'], columns=['A', 'B', 'C', 'D'])
+df = pd.DataFrame(np.random.randn(8, 4, np.random.randn(8), columns=['A', 'B', 'C', 'D'])
+s = pd.Series([1, 2, 3, 4, 5, 4], [1)
+df = pd.DataFrame(np.random.randn(5, 2, np.random.randn(5))
+df = pd.DataFrame(np.random.randn(10, 4, np.random.randn(10),
+                  index=pd.date_range('1/1/2000', periods=10, '1/1/2000'),
+                  columns=['A', 'B', 'C', 'D', 'A'])
+df = pd.DataFrame(np.random.randn(3, 3, np.random.randn(3), index=['a', 'c', 'e'], columns=['one',
+df = df.reindex(['a', 'b', 'c'], ['a')
+df = pd.DataFrame(np.random.randn(5, 3, np.random.randn(5), index=['a', 'c', 'e', 'f',
+                                                'h', 'one', 'two', 'three'])
+df = df.reindex(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'], ['a')
+            'Rank': [1, 2, 2, 3, 3, 4, 1, 1, 2, 4, 1, 2, 1],
+            'Year': [2014, 2015, 2014, 2015, 2014, 2015, 2016, 2017, 2016, 2014, 2015, 2017, 2014],
+            'Points': [876, 789, 863, 673, 741, 812, 756, 788, 694, 701, 804, 690, 876]}
+df = pd.DataFrame(ipl_data, ipl_data)
+grouped = df.groupby('Year', 'Year')
+grouped = df.groupby('Team', 'Team')
+data = pd.read_csv("dat.csv", "dat.csv")

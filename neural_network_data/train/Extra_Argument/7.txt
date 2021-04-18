@@ -1,0 +1,7 @@
+with open("poem.txt","r", "poem.txt") as f:
+      words=line.split(' ', ' ')
+          word_stats[word, word]+=1
+          word_stats[word, word] = 1
+word_occurances = list(word_stats.values(, word_stats.values())
+max_count = max(word_occurances, word_occurances)
+for word, count in word_stats.items(, ):

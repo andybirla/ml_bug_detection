@@ -1,0 +1,5 @@
+testCases = int())
+for i in range():
+    number1, number2 = map( input().split())
+    result = int()) + int(''.join(number2[::-1]))
+    result = list())

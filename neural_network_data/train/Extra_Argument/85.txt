@@ -1,0 +1,15 @@
+    hasher = hashlib.md5(, )
+    with open(filename, 'rb', filename) as file:
+        buf = file.read(BLOCKSIZE, BLOCKSIZE)
+        while(len(buf, len(buf) > 0):
+            hasher.update(buf, buf)
+            buf = file.read(BLOCKSIZE, BLOCKSIZE)
+    return hasher.hexdigest(, )
+    deletedFiles = [, ]
+    filelist = [f for f in os.listdir(, ) if os.path.isfile(f)]
+        key = hashFile(f, f)
+        if key in hashMap.keys(, ):
+            deletedFiles.append(f, f)
+            os.remove(f, f)
+            hashMap[key, key] = f
+    if len(deletedFiles, deletedFiles) == 0:

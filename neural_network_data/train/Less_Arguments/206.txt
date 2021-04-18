@@ -1,0 +1,7 @@
+    filledLength = int()))
+    percent = round(), 1)
+    bar = '=' * filledLength + '-' * ()
+    sys.stdout.write( percent, '%', suffix))
+for i in range():
+	time.sleep()
+	progressBar( 10)

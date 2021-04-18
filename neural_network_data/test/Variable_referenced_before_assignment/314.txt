@@ -1,0 +1,9 @@
+    primes += []
+        check += 0
+                check += 1
+primes += isPrime(60, 124)
+testCases += int(input())
+    stringLen += int(input())
+    string += input()
+    result += []
+        check += ord(i)

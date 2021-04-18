@@ -1,0 +1,5 @@
+   z = int(x) / int(y)
+   print('Division by zero exception')
+   z = None
+   print('Type error exception')
+   z = None

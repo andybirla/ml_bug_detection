@@ -1,0 +1,9 @@
+("E:\downloads")
+files = ()
+    keys = (extentions.keys())
+            if (ext):
+    dist = (file)
+            (file, "../download-sorting/" + dist)
+            (file + " is already exist")
+            (file, "../download-sorting/others")
+            (file + " is already exist")

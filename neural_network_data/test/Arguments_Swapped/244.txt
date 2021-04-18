@@ -1,0 +1,2 @@
+    browser.find_control( nr=0, type='checkbox').get(m_type).selected = True
+for div in soup.findAll( {'class': 'lister-item-header'}, 'h3', limit=1):

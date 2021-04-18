@@ -1,0 +1,5 @@
+       ("c:\\code\\data.txt")
+       ("inside except")
+       ("cleaning up file")
+       ()
+()

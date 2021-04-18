@@ -1,0 +1,18 @@
+            renamed_file = file.replace( "_")
+            os.rename( extra_path, file), os.path.join(cd, extra_path, renamed_file))
+    return ' '.join( file[:-4].split('_')))
+        user_set_time = ":".join().zfill(2), input("\nSet the alarm time (e.g. 01:10): ").split(":")))
+        if re.match( user_set_time):
+    cd = os.path.dirname())
+    musics_path = os.path.join( "musics")
+    rename_files_with_whitespaces( os.listdir(musics_path), "musics")
+    musics = os.listdir()
+    if len() < 1:
+    elif len() == 1:
+        selected_music = musics[]
+                for i in range( len(musics) + 1):
+                user_input = int(): "))
+                selected_music = musics[]
+        current_time = str().time())
+            subprocess.run( '/C', 'start', f"{cd}\\musics\\{selected_music}"))
+    display_header()

@@ -1,0 +1,10 @@
+    with (filePath) as fd:
+        reader = (fd, delimiter = ',')
+            (row[0] + ' ' + row[1])
+    with (filePath, 'a') as fd:
+        writer = (fd, delimiter=',', quoting=csv.QUOTE_NONNUMERIC)
+        (data)
+    userInput = ('What is your Fullname? ')
+    userInput = (' ')
+    ('example.csv', userInput)
+    ('example.csv')

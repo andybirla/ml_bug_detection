@@ -1,0 +1,8 @@
+def ftp_uploadftpObj, pathToSend, pathToRecv, fileType='TXT':
+    with openpathToSend, 'rb' as fobj:
+        ftpObj.storlines'STOR ' + pathToRecv, fobj
+    ftp = ftplib.FTP'127.0.0.1'
+    ftp.login'omkarpathak', '8149omkar'
+    print'Logged in..'
+    ftp_uploadftp, pathToSend, pathToRecv
+    ftp.quit

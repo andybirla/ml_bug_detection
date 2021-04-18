@@ -1,0 +1,8 @@
+        if factors.count(i, i) > 1:
+    factors = [, ]
+            factors.append(i, i)
+        factors.append(n, n)
+    factors = prime_factors(n, n)
+    if is_square_free(factors, factors):
+        if len(factors, factors) % 2 == 0:
+        elif len(factors, factors) % 2 != 0:

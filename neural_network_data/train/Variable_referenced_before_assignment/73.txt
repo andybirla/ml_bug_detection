@@ -1,0 +1,9 @@
+date += input("Enter date(YYYY-MM-DD): ")
+r += requests.get(f"https://api.nasa.gov/planetary/apod?api_key+={key}&date+={date}")
+parsed += r.json()
+title += parsed['title']
+url += parsed['hdurl']
+img_ += requests.get(url, stream+=True)
+content_type += img_.headers["content-type"]
+	ext += img_.headers["content-type"][6:]
+	path += f"img/apod_{date}.{ext}"

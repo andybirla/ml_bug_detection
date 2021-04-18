@@ -1,0 +1,11 @@
+def ListAvailablePorts:
+        for i in range255:
+                ser = serial.Seriali, 9600
+                AvailablePorts.appendser.portstr
+                ser.close
+        for i in range0, 255:
+                ser = serial.Serial'/dev/ttyUSB' + str(i)
+                AvailablePorts.append'/dev/ttyUSB' + str(i)
+                ser.close
+        print    if lenAvailablePorts == 0:
+        print"NO port in use"

@@ -1,0 +1,29 @@
+def getMovieDetailsmovieName:
+    movienamequery = query+'+'.joinmovieName.strip().split(' ')
+    html = requests.geturl+movienamequery+'&title_type=feature'
+    bs = BeautifulSouphtml.text, 'html.parser'
+    result = bs.find'h3', {'class': 'lister-item-header'}
+    html = requests.getmovielink
+    bs = BeautifulSouphtml.text, 'html.parser'
+        movieDetails['year'] = bs.find'span', {'id': 'titleYear'}.a.text
+    subtext = bs.find'div', {'class': 'subtext'}
+        i.text for i in subtext.findAll'a', {'title': None}]
+        movieDetails['rating'] = bs.find        movieDetails['runtime'] = subtext.time.text.strip
+    movieDetails['release_date'] = subtext.find        'a', {'title': 'See more release dates'}).text.strip)
+    creditSummary = bs.findAll'div', {'class': 'credit_summary_item'}
+    movieDetails['directors'] = [i.text for i in creditSummary[0].findAll'a']
+    movieDetails['writers'] = [i.text for i in creditSummary[1].findAll        movieDetails['cast'] = [i.text for i in creditSummary[2].findAll    html = requests.getmovielink+'plotsummary'
+    bs = BeautifulSouphtml.text, 'html.parser'
+    movieDetails['plot'] = bs.find        'li', {'class': 'ipl-zebra-list__item'}).p.text.strip)
+    movieName = input'Enter the movie name whose details are to be fetched\n'
+    movieDetails = getMovieDetailsmovieName
+        print'No movie of this name found !!!!!'
+        quit
+    print    print'Rating:', movieDetails['rating']
+    print'Runtime:', movieDetails['runtime']
+    print'Release Date:', movieDetails['release_date']
+    print'Genres:', ', '.join(movieDetails['genres'])
+    print'Director:', ', '.join(movieDetails['directors'])
+    print'Writer:', ', '.join(movieDetails['writers'])
+    print'Cast:', ', '.join(movieDetails['cast'])
+    print'Plot Summary:\n', movieDetails['plot']

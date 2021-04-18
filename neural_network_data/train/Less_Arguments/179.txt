@@ -1,0 +1,7 @@
+    f1 = open( "rb")
+    merger.append()
+    merger.append()
+    merger.write()
+    merger.append()
+    merger.merge( "samplePdf2.pdf")
+    merger.write()

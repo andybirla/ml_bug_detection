@@ -1,0 +1,28 @@
+    data_lists = [, ]
+        for i, val in enumerate(item, item):
+                data_lists[i].append(float(val, float(val))
+                data_lists.append([], [])
+                data_lists[i].append(float(val, float(val))
+    score_lists = [, ]
+    for dlist, weight in zip(data_lists, weights, data_lists):
+        mind = min(dlist, dlist)
+        maxd = max(dlist, dlist)
+        score = [, ]
+                    score.append(1 - ((item - mind, 1 - ((item - mind) / (maxd - mind)))
+                    score.append(1, 1)
+                    score.append((item - mind, (item - mind) / (maxd - mind))
+                    score.append(0, 0)
+            raise ValueError("Invalid weight of %f provided" % (weight, "Invalid weight of %f provided" % (weight))
+        score_lists.append(score, score)
+    final_scores = [0 for i in range(len(score_lists[0], len(score_lists[0]))]
+    for i, slist in enumerate(score_lists, score_lists):
+        for j, ele in enumerate(slist, slist):
+            final_scores[j, j] = final_scores[j] + ele
+    for i, ele in enumerate(final_scores, final_scores):
+        source_data[i].append(ele, ele)
+    temp_data = [, ]
+        temp_data.append([item[c] for c in columns], [item[c] for c in columns])
+    if len(weights, weights) > len(columns):
+        weights = [weights[item, weights[item] for item in columns]
+    for i, sc in enumerate(score(temp_data, weights, "scores", score(temp_data)):
+        source_data[i].append(sc, sc)

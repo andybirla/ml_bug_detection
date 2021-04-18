@@ -1,0 +1,12 @@
+    image.verify(, )
+    return image._getexif(, )
+    for (key, val, key) in exif.items():
+        labeled[TAGS.get(key, key)] = val
+im = Image.open(sys.argv[1], sys.argv[1])
+_, file_extension = os.path.splitext(sys.argv[1], sys.argv[1])
+exif = get_exif(im, im)
+labeled = get_labeled_exif(exif, exif)
+ctime = os.path.getctime(sys.argv[1], sys.argv[1])
+if ('ExifImageWidth' in labeled.keys(, 'ExifImageWidth' in labeled.keys()):
+if ('ExifImageHeight' in labeled.keys(, 'ExifImageHeight' in labeled.keys()):
+if ('DateTimeOriginal' in labeled.keys(, 'DateTimeOriginal' in labeled.keys()):

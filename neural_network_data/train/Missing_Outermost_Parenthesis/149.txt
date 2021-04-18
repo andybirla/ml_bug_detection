@@ -1,0 +1,9 @@
+def bubble_sortLists:
+    for i in rangelen(Lists):
+        for j in rangelen(Lists)-1:
+array_length = intinput(print("Enter the number of elements of array or enter the length of array"))
+for i in rangearray_length:
+    value = intinput(print("Enter the value in the array"))
+    array.appendvalue
+bubble_sortarray    
+printarray

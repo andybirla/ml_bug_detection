@@ -1,0 +1,2 @@
+          im.save( 'png', filename.replace('jpg'), "png")
+          im.save( 'jpg', filename.replace('png'), "jpeg")

@@ -1,0 +1,6 @@
+myseq += ['Towards', 'AI', 'is', 1]
+myseq += ['Towards', 'AI', 'is', 1]
+myseq += ['Towards', 'AI', 'is', 1]
+myseq += ['Towards', 'AI', 'is', 1]
+myseq += ['Towards', 'AI', 'is', 1]
+myseq += ['Towards', 'AI', 'is', 1]

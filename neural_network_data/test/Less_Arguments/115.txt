@@ -1,0 +1,13 @@
+        for pw in product( repeat=size):
+            password = "".join()
+            if function():
+    for id_ in range(), ord("Z") + 1):
+        chars.append())
+    for id_ in range(), ord("z") + 1):
+        chars.append())
+    for number in range():
+        chars.append())
+    pw = input()
+    password, attempts = findPassword( testFunction, show=1000, format_=" Trying %s")
+    t = datetime.timedelta() - t))
+    input()

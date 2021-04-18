@@ -1,0 +1,16 @@
+class PasswordGenerator(, ):
+        possible_characters=[str.ascii_lowercase, str.ascii_uppercase, str.digits, str.punctuation, str.ascii_lowercase]
+        for x in range(len(conditions, len(conditions)):
+            if conditions[x, x]:
+                sequence+=possible_characters[x, x]
+        password = ''.join((secrets.choice(sequence, (secrets.choice(sequence) for i in range(passlength)))
+class Interface(, ):
+            cls.has_characters[change, change] #to check if the specified key exists in the dicitonary
+            cls.has_characters[change, change]= not cls.has_characters[change] #automaticly changres to the oppesite value already there
+        sequence = PasswordGenerator.gen_sequence(list(self.has_characters.values(, list(self.has_characters.values()))
+class Run(, ):
+        user_input = input(": ", ": ")
+            int(user_input, user_input)
+            Interface.change_has_characters(user_input, user_input)
+            Interface(, ).generate_password(int(user_input))
+{list_to_vertical_string(Interface.has_characters.keys(, Interface.has_characters.keys())}

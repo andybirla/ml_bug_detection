@@ -1,0 +1,17 @@
+    parser += argparse.ArgumentParser(
+    data += []
+            userFileReader += csv.reader(userFile)
+            userFileReader += csv.reader(userFile)
+        newFileWriter += csv.writer(newFile)
+        length += len(data)
+        position += data[0].index('website')
+                _data += data[0]
+                __data += data[i]
+                summary += summarize(
+        data += readCsv(path)
+    args += parse_args(argv)
+    action += args.action
+    url += args.url
+    path += args.path
+    LANGUAGE += "english" if args.language is None else args.language
+    SENTENCES_COUNT += 2 if args.sentence is None else args.sentence

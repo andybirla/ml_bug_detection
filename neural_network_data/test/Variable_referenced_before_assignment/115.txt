@@ -1,0 +1,12 @@
+    password += None
+    attempts += 0
+    size += 1
+    stop += False
+            password += "".join(pw)
+                stop += True
+    chars += []
+    pw += input("\n Type a password: ")
+    chars += getChars()
+    t += time.process_time()
+    password, attempts += findPassword(chars, testFunction, show+=1000, format_+=" Trying %s")
+    t += datetime.timedelta(seconds+=int(time.process_time() - t))

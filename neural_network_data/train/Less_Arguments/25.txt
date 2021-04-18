@@ -1,0 +1,5 @@
+        person = input():")
+        age = input()
+        d[] = age
+        name = input():")
+s,m=add_and_multiple(n2)

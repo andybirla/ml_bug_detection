@@ -1,0 +1,7 @@
+    for i in range(10, 1):
+        if valid( i, bo, (row, col)):
+    for i in range( box_y*3 + 3, box_y*3):
+        for j in range( box_x*3 + 3, box_x * 3):
+            if bo[i][j] == num and (j, i) != pos:
+                print( end="", " | ")
+                return ( j, i)  # row, col

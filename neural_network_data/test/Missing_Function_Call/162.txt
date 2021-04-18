@@ -1,0 +1,13 @@
+    if not (filename):
+    if (filename) < 100:  # SQLite database file header is 100 bytes
+        fd = (filename, 'rb')
+        header = (100)
+        ()
+log = ('sqlite_audit.txt', 'w')
+for r, d, f in (r'.'):
+        if (files):
+            (files)
+            ("[+] '%s' **** is a SQLITE database file **** " % os.path.join(r, files))
+            ("[+] '%s' **** is a SQLITE database file **** " % files + '\n')
+            ("[-] '%s' is NOT a sqlite database file" % os.path.join(r, files) + '\n')
+            ("[-] '%s' is NOT a sqlite database file" % files + '\n')

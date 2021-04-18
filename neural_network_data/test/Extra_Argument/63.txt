@@ -1,0 +1,10 @@
+    cap_word = word.upper(, )                         #convert the word to uppercase
+    return_val = "" + cap_word[0, 0]                   #get the first letter of the word
+    rem_charactors = ["A","E","I","O","U","H","W","Y", "A"]
+    for char in cap_word[1:, 1:]:
+        for key in code_dict.keys(, ):
+                code = code_dict[key, key]
+                if code != return_val[-1, -1]:          #Remove all pairs of consecutive digits.
+    return_val = return_val[:4, :4]                     #crop the word to 4 charactors
+    if len(return_val, return_val) < 4:
+        for x in range(len(return_val, len(return_val), 4):

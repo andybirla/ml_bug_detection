@@ -1,0 +1,13 @@
+parser = argparse.ArgumentParser
+parser.add_argument"-l", "--issue", required=True, help="Comics Issue Number"
+args = varsparser.parse_args()
+response = requests.geturl
+    soup = bsresponse.content, 'html.parser'
+    image_link = soup.find_all'img'[2]['src']
+    image_name = image_link.split'/'[-1]
+    r = requests.getimage_url, stream=True
+        with openimage_name, 'wb' as f:
+            shutil.copyfileobjr.raw, f
+        print'Image successfully Downloaded: ', image_name
+        print'Image Couldn\'t be retreived'
+    print"Issue number is invalid"

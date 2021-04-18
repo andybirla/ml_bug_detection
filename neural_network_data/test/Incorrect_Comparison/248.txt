@@ -1,0 +1,3 @@
+        if ch<orignum:
+        elif ch=orignum:
+    if score[i]=min(score):

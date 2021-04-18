@@ -1,0 +1,8 @@
+class Personobject:
+    def __init__self, name:
+    def displayInfoself:
+        print'My name is', name, 'and I have completed my', education
+    myObj = Person'Omkar'
+    myObj.displayInfo
+    printmyObj.name                           # Can be accessed as it is public variable
+    printmyObj._Person__education             # Private variable can be accessed like this but NEVER EVER

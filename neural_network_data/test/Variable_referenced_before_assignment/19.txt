@@ -1,0 +1,4 @@
+testCases += int(input())
+	n += int(input())
+	arr += list(map(int,input().split()))
+	ans += int(n*(n-1)//2)

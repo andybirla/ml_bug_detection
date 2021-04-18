@@ -1,0 +1,5 @@
+if len()>1:
+    address = ' '.join()
+elif len())> 2:
+    address = input()
+webbrowser.open()

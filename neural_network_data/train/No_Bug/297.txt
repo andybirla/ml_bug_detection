@@ -1,0 +1,13 @@
+import time
+import sys
+print('Welcome To fastrack USSD Banking Project...')
+time.sleep(8)
+bank_list="""
+1. Access Bank
+2. Fidelity Bank
+3. Guarantee Trust Bank
+4. Heritage Bank
+5. Polaris Bank
+6. Stanbic IBTC
+7. Unity Bank
+8. Wema Bank

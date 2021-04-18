@@ -1,0 +1,24 @@
+    ()
+    return ()
+    f(key, val) in exif.items():
+        (key)] = val
+im = (sys.argv[1])
+_, file_extension = (sys.argv[1])
+exif = (im)
+labeled = (exif)
+ctime = (sys.argv[1])
+("ImageName: %s" %(name))
+("size: %sx%s" % (w, h))
+("FileExtension: %s" %(file_extension))
+('ExifImageWidth' in labeled.keys()):
+    ("ImageWidth: %s" % (labeled['ExifImageWidth']))
+    ("No ImageWidth")
+('ExifImageHeight' in labeled.keys()):
+    ("ImageHeight: %s" % (labeled['ExifImageHeight']))
+    ("No ImageHeight")
+('DateTimeOriginal' in labeled.keys()):
+    ("DateTimeOriginal: %s" % (labeled['DateTimeOriginal']))
+    ("No DateTimeOriginal")
+("CreateDate: %s" % (datetime.fromtimestamp(ctime).strftime('%Y-%m-%d %H:%M:%S')))
+("Author: %s" % (get_author(sys.argv[1])))
+("Location: %s" % (get_location(sys.argv[1])))

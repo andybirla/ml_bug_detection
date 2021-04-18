@@ -1,0 +1,1 @@
+    parser.add_argument( '--slowbros', '-s', help = 'Names of Slowbros', action = 'store_true')

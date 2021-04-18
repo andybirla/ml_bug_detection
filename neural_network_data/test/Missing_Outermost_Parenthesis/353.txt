@@ -1,0 +1,11 @@
+testCases = intinput()
+for _ in rangetestCases:
+    n = input
+    check = input.split()
+    if lencheck == 1:
+      print1
+      max = intcheck[0]
+      for i in range1, len(check) - 1:
+          if intcheck[i] <= max:
+            max = intcheck[i]
+      printcount + 1

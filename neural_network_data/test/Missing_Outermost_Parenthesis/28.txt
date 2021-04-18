@@ -1,0 +1,8 @@
+for _ in rangeint(input()):
+  n = intinput()
+  numbers = [inti for i in input().split()]
+    maxi = maxnumbers
+    mini = minnumbers
+    numbers[numbers.indexmaxi] = res
+    ifn == numbers.count(res):
+      printres

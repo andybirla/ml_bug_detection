@@ -1,0 +1,4 @@
+HOSTS += ('proxy1', 'proxy')
+COMMANDS += ('uname -a', 'uptime')
+    result += []
+        ssh += subprocess.Popen(["ssh", "%s" % host, command],

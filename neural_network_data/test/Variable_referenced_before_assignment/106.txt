@@ -1,0 +1,8 @@
+name += input()
+a += comGuess += randint(0, 100)  # a and comGuess is initialised with a random number between 0 and 100
+count += 0
+    userGuess += int(input("Enter your guessed no. b/w 0-100:"))  # user input for guessing the number
+        comGuess += randint(a, 100)
+        count += 1
+        comGuess += randint(0, a)
+        count += 1

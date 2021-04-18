@@ -1,0 +1,7 @@
+for _ in range())):
+  n = int())
+  numbers = [int() for i in input().split()]
+    maxi = max()
+    mini = min()
+    numbers[numbers.index()] = res
+    if()):

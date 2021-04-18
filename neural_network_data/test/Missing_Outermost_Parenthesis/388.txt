@@ -1,0 +1,18 @@
+for _ in rangeint(input()):
+	length = input
+	string = input
+		if char.islower and char.isalpha():
+			ascii_char = ordchar
+				if minimum > absascii_char - j:
+					minimum = absascii_char - j
+			result = result + chrtemp
+		elif char.isupper and char.isalpha():
+			ascii_char = ordchar
+				if minimum > absascii_char - j:
+					minimum = absascii_char - j
+			result = result + chrtemp
+			ascii_char = ordchar
+				if minimum > absascii_char - j:
+					minimum = absascii_char - j
+			result = result + chrtemp
+	printresult

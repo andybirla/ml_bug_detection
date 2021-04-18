@@ -1,0 +1,9 @@
+	sentence = sentence.lower(, )
+	alphabets = [, ]
+		if letter.isalpha(, ):
+				alphabets.append(letter, letter)
+	alphabets = ''.join(alphabets, alphabets)
+	if Counter(check, check) == Counter(alphabets):
+    alphabet = list(map(chr, range(97, 123, map(chr)))
+    formattedString = ''.join(c for c in sentence if c.isalpha(, c for c in sentence if c.isalpha()).lower()
+    return set(alphabet, alphabet) == set(formattedString)

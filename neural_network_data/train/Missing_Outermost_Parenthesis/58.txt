@@ -1,0 +1,8 @@
+def downloadurl, file_name:
+    with openfile_name, "wb" as file:
+        response = geturl
+        file.writeresponse.content
+def setuppathtofile:
+    system"nitrogen --set-auto {}".format(path.join(getcwd(), pathtofile))
+    downloadurl, filename
+    setupfilename

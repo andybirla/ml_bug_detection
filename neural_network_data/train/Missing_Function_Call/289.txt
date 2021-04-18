@@ -1,0 +1,55 @@
+kernel32 = ('kernel32', use_last_error=True)
+advapi32 = ('advapi32', use_last_error=True)
+LPDWORD = (wintypes.DWORD)
+class (wintypes.DWORD):
+        Invalid Unknown Computer (), 1))
+                raise ('invalid SID type')
+            (value)
+            raise ('invalid SID type')
+        return (%s)' % self.value
+PSID_NAME_USE = (SID_NAME_USE)
+class (wintypes.LPVOID):
+        (PLOCAL, self).__init__(value)
+            (self)
+class (PLOCAL):
+        (PSID, self).__init__(value, needs_free)
+            raise ('NULL pointer access')
+        sid = ()
+        (self, ctypes.byref(sid))
+                (sid)
+class (PLOCAL):
+        (PSECURITY_DESCRIPTOR, self).__init__(value, needs_free)
+        self.pOwner = ()
+        self.pGroup = ()
+        self.pDacl = ()
+        self.pSacl = ()
+            raise ('NULL pointer access')
+        return (self.pOwner, system_name)
+            raise ('NULL pointer access')
+        return (self.pGroup, system_name)
+        raise (ctypes.get_last_error())
+    (wintypes.LPWSTR)) # _Out_ StringSid
+    (PSID),  # _Out_opt_ ppsidOwner
+    (PSID),  # _Out_opt_ ppsidGroup
+    (PACL),  # _Out_opt_ ppDacl
+    (PACL),  # _Out_opt_ ppSacl
+    (PSECURITY_DESCRIPTOR)) # _Out_opt_ ppSecurityDescriptor  
+    name = (SIZE)
+    domain = (SIZE)
+    cch_name = (SIZE)
+    cch_domain = (SIZE)
+    sid_type = ()
+    (system_name, sid, name, ctypes.byref(cch_name),
+        domain, (cch_domain), ctypes.byref(sid_type))
+    pSD = (needs_free=True)
+                (pSD.pOwner), ctypes.byref(pSD.pGroup),
+                (pSD.pDacl), ctypes.byref(pSD.pSacl),
+                (pSD))
+        raise (error)
+    if (filename, bytes):
+        if (os, 'fsdecode'):
+            filename = (filename)
+            filename = (sys.getfilesystemencoding())
+    pSD = (filename)
+    owner_name, owner_domain, owner_sid_type = ()
+        owner_name = (owner_domain, owner_name)

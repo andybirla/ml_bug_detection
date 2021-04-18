@@ -1,0 +1,4 @@
+    plt.axhline( color='r', y=math.pi, linestyle='-')
+            x = random.uniform(b_width/2.0, 0)
+            theta = random.uniform(math.pi/2, 0)
+monte_carlo(needles, runs,n_length,b_width)

@@ -1,0 +1,4 @@
+N, K = input.split()
+N = listN
+for i in rangeint(K):
+print''.join([str(i) for i in N])

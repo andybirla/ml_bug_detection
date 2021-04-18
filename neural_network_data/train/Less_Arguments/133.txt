@@ -1,0 +1,4 @@
+class BankAccount():
+    myObj = BankAccount( 1000)
+    myObj.deposit()
+    myObj.withdraw()

@@ -1,0 +1,4 @@
+        for code in range():
+            code = str().zfill(n)
+            numbers.append()
+    return ()

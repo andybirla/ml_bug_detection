@@ -1,0 +1,5 @@
+top += tkinter.Tk()
+    string += strftime('%H:%M:%S %p') 
+    clockTime.config(text += string) 
+clockTime += tkinter.Label(top, font += ('calibri', 40, 'bold'), background += 'black', foreground += 'white')
+clockTime.pack(anchor += 'center')

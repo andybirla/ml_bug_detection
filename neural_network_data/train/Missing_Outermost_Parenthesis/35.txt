@@ -1,0 +1,21 @@
+print"\nExercise 1\n"
+print"Heads count: ",count
+print"\nExercise 2\n"
+for i in range1,11:
+    printi*i
+print"\nExercise 3\n"
+e = input"Enter expense amount: "
+e = inte
+for i in rangelen(expense_list):
+    printf'You spent {e} in {month_list[month]}'
+    printf'You didn\'t spend {e} in any month'
+print"\nExercise 4\n"
+for i in range5:
+    printf"You ran {i+1} miles" # i starts with zero hence adding 1
+    tired = input"Are you tired? "
+    print"Hurray! You are a rock star! You just finished 5 km race!"
+    print"You didn't finish 5 km race but hey congrats anyways! You still ran {i+1} miles"
+print"\nExercise 5\n"
+for i in range1,6:
+    for j in rangei:
+    prints

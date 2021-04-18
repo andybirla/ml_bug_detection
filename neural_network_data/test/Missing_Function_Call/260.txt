@@ -1,0 +1,4 @@
+    r = (archive_url)
+    soup = (r.content, 'html5lib')
+    links = ('a')
+    video_links = [archive_url + link['href'] for link in links if ('mp4')]

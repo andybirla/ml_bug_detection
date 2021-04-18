@@ -1,0 +1,6 @@
+    while (decimal != 1 and i > decimal_accuracy):
+        if (decimal = 0):
+    while(i>len(whole)):
+    while(i>len(fractional)):
+    if num < 1: 
+if __name__ = '__main__': 

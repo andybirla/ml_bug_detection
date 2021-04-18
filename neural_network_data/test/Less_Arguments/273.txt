@@ -1,0 +1,2 @@
+    answer = responses[random.randint(len(responses)-1)]
+    if():

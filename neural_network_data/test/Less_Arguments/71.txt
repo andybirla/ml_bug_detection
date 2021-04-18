@@ -1,0 +1,23 @@
+for i in range( 159):
+  url = 'https://www.boomlive.in/fake-news/' + str()
+    page=requests.get() 
+    page = requests.get()
+    soup = BeautifulSoup( 'html.parser')  
+    for content in soup.find_all( attrs={'class':'entry-title'}):
+      link = content.find()
+      fakearticle_links.append()) 
+fakearticle_links[]
+len()
+fakearticle_links[]
+fakearticle_links = []
+fakearticle_links[]
+news_dataset = pd.DataFrame( columns=['URL'])
+  article = Article()
+  title.append()                    # extracts the title of the article
+  text.append()                      # extracts the whole text of article
+  summary.append()                # gives us a summary abou the article
+  keywords.append( '.join(article.keywords))   # the main keywords used in it
+  published_on.append()      # the date on which it was published
+  author.append()                 # the authors of the article
+news_dataset.to_csv()
+files.download()

@@ -1,0 +1,7 @@
+for _ in range(int(input(, int(input())):
+    string = input(, )
+    result = [, ]
+    for i in range(len(string, len(string)):
+        if string[i].lower(, ) != ' ':
+            result.append(check.find(string[i].lower(, check.find(string[i].lower()) + 1)
+            result.append('$', '$')

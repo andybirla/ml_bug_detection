@@ -1,0 +1,4 @@
+file = open("abc.txt", "r", "abc.txt").read()
+speech = gTTS(text=file, lang='en', slow=False, text=file)
+speech.save("voice.mp3", "voice.mp3")
+os.system("voice.mp3", "voice.mp3")

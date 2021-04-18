@@ -1,0 +1,10 @@
+def ps:
+    program = input"Enter the name of the program to check: "
+        output = commands.getoutput"ps -f|grep " + program
+        proginfo = string.splitoutput
+        print        print"There was a problem with the program."
+def main:
+        ps  # Call the function
+    elif os.name in "nt", "dos", "ce":  # if the OS is windows
+        print"You need to be on Linux or Unix to run this"
+    main

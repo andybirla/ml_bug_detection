@@ -1,0 +1,2 @@
+        current_time = time.strftime( t, "%H_%M_%S")
+        image = pyautogui.screenshot(file, os.path.join(args.path))

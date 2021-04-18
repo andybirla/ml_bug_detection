@@ -1,0 +1,23 @@
+detach_dir = '.'                # directory where to save attachments default: current
+pwd = getpass.getpass"Enter your Gmail Password: "
+mail = imaplib.IMAP4_SSL"imap.gmail.com"
+mail.login'omkarpathak.comp@mmcoe.edu.in', pwd
+mail.list
+mail.select'INBOX' # Specify from where to retrieve the email
+response, ids = mail.searchNone, '(ALL)' # search all types of mails
+ids = ids[0].split
+    response, data = mail.fetchemailid, "(RFC822)" # fetching the mail
+    mailFetch = email.message_from_bytesemail_body # parsing the mail content to get a mail object
+    if mailFetch.get_content_maintype != 'multipart':
+    mailFetch['Subject'] = mailFetch['Subject'].replacer'=?utf-8?q?', ''
+    mailFetch['Subject'] = mailFetch['Subject'].replace'_', ' '
+    print "["+mailFetch["From"]+"]:" + mailFetch['Subject'].replace('=?utf-8?q?', '').replace('_', ' ').replace('=3F?=', '?').replace('?=','')
+    for part in mailFetch.walk:
+        if part.get_content_maintype == 'multipart':
+        if part.get'Content-Disposition' is None:
+        att_path = os.path.joindetach_dir, filename
+        if not os.path.isfileatt_path :
+            fp = openatt_path, 'wb'
+            fp.writepart.get_payload(decode=True)
+            fp.close
+    if i == 10:       # Get only ten latest emails

@@ -1,0 +1,4 @@
+data.loc[data.status = 1, 'dead'] = 0
+data.loc[data.status = 2, 'dead'] = 1
+Male = data.query("sex = 1")
+Female = data.query("sex = 2")

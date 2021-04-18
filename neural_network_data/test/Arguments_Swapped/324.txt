@@ -1,0 +1,2 @@
+maxS = S.replace( 'vv', 'w')
+minS = maxS.replace( 'w', 'vv') # This operation must be done on maxS and not S. See given example for understanding

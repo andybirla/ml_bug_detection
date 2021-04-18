@@ -1,0 +1,18 @@
+root = tk.Tk
+font = 'helvetica', 12, 'bold'
+def getPNG:
+        tk.messagebox.showerror"Error", "No File selected"
+        export_file_path = tk.filedialog.asksaveasfilenamedefaultextension='.ico'
+        img.saveexport_file_path
+        tk.messagebox.showinfo"Success", "File converted and saved"
+root.title'PNG to ICO Converter'
+canvas1 = tk.Canvasroot, width=500, height=350, bg='lightblue'
+canvas1.pack
+label1 = tk.Labelroot, text='PNG to ICO Converter', bg='lightblue'
+label1.configfont=('helvetica', 20)
+canvas1.create_window250, 100, window=label1
+browseButton = tk.Buttontext="Import PNG File", command=getPNG, bg=bg, fg=fg, font=font, width=width
+canvas1.create_window250, 150, window=browseButton
+saveAsButton = tk.Buttontext='Convert PNG to ICO', command=convertToICO, bg=bg, fg=fg, font=font, width=width
+canvas1.create_window250, 200, window=saveAsButton
+root.mainloop

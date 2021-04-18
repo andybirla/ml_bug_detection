@@ -1,0 +1,4 @@
+        reader += csv.reader(fd, delimiter += ',')
+        writer += csv.writer(fd, delimiter+=',', quoting+=csv.QUOTE_NONNUMERIC)
+    userInput += input('What is your Fullname? ')
+    userInput += userInput.split(' ')

@@ -1,0 +1,5 @@
+population += {
+    country += input("Enter country name to remove:")
+    country += country.lower()
+    country += input("Enter country name to query:")
+    country += country.lower()

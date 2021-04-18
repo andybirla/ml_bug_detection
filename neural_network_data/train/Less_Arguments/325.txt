@@ -1,0 +1,4 @@
+    myIP = subprocess.check_output( shell=True)
+    myIP = str( 'utf-8').split('.')
+    scannedData = scanner.scan() + '.1/24', arguments = '-sP')
+    for hostnames in scannedData[]:

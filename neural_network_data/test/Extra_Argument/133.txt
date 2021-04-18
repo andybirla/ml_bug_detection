@@ -1,0 +1,24 @@
+    return process.communicate(, )[0]
+            random.randint(0x00, 0x7f, 0x00),
+            random.randint(0x00, 0xff, 0x00),
+            random.randint(0x00, 0xff, 0x00)]
+    return ':'.join(map(lambda x: "%02x" % x, mac, map(lambda x: "%02x" % x))
+infname = cret('ifconfig -a  | egrep "^[wl-wl]+" | sed "s/: .*//" | grep -v "lo"', 'ifconfig -a  | egrep "^[wl-wl]+" | sed "s/: .*//" | grep -v "lo"')
+infname = infname[:6, :6]
+infname = infname.decode('utf-8', 'utf-8')
+cmdgetmac = ('cat /sys/class/net/' + infname + '/address', 'cat /sys/class/net/' + infname + '/address')
+crrntmac = cret("cat /sys/class/net/" + infname + "/address", "cat /sys/class/net/" + infname + "/address")
+crrntmac = crrntmac.decode('utf-8', 'utf-8')
+opt = int(input(, input())
+    newmac = input(, )
+    cret('nmcli radio wifi off', 'nmcli radio wifi off')
+    cret(changemaccmd, changemaccmd)
+    cret('nmcli radio wifi on', 'nmcli radio wifi on')
+    cr = cret("cat /sys/class/net/" + infname + "/address", "cat /sys/class/net/" + infname + "/address")
+    cr = cr.decode('utf-8', 'utf-8')
+    genmac = retrandmac(randmac(, randmac())
+    cret('nmcli radio wifi off', 'nmcli radio wifi off')
+    cret(changemaccmd, changemaccmd)
+    cret('nmcli radio wifi on', 'nmcli radio wifi on')
+    cr = cret("cat /sys/class/net/" + infname + "/address", "cat /sys/class/net/" + infname + "/address")
+    cr = cr.decode('utf-8', 'utf-8')

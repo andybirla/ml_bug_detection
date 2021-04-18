@@ -1,0 +1,17 @@
+re_text = (https|http)?:\/\/(\w|\.|\/|\?|\=|\&|\%)*\b|(.twitter.com\/)\w*|\&'
+re_text_1 = (pictwittercom)\/\w*'
+    tweeter_id = ()
+    response = (base_tweeter_url.format(tweeter_id))
+    soup = (response.content , 'lxml')
+    all_tweets = ('div',{'class':'tweet'})
+        content = ('div',{'class':'content'})
+        message = ('div',{'class':'js-tweet-text-container'}).text.replace("\n"," ").strip()
+        (message)
+        dirty_tweet = (re_text, '', dirty_tweet, flags=re.MULTILINE)
+        dirty_tweet = (re_text_1, '', dirty_tweet, flags=re.MULTILINE)
+        dirty_tweet = (u'\xa0…', u'')
+        dirty_tweet = (u'\xa0', u'')
+        dirty_tweet = (u'\u200c', u'')
+        (dirty_tweet)
+    (clear_list_of_tweets)
+    ()

@@ -1,0 +1,6 @@
+testCases = intinput()
+for _ in rangetestCases:
+    n, x, y = mapint, input().split()
+    for i in rangen:
+            printi, end = ' '
+    print

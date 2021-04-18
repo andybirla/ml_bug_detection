@@ -1,0 +1,6 @@
+testCases = int())
+for _ in range():
+    while string[] == string[c1]:
+    while string[] == string[c2]:
+        while string[] == string[c3]:
+    if ():

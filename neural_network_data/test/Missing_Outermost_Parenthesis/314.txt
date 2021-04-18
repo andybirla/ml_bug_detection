@@ -1,0 +1,15 @@
+def isPrimestart, end:
+    for i in rangestart, end + 1:
+        for j in range2, i:
+            primes.appendi
+primes = isPrime60, 124
+testCases = intinput()
+    stringLen = intinput()
+    string = input
+        check = ordi
+            result.appendchr(check)
+        for j in rangelen(primes) - 1:
+            if absprimes[j] - check == abs(primes[j + 1] - check):
+                result.appendchr(min(primes[j], primes[j + 1]))
+                result.appendchr(primes[j])
+    print''.join([str(i) for i in result])

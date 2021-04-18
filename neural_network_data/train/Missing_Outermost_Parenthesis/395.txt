@@ -1,0 +1,16 @@
+html=requests.geturl
+bs=BeautifulSouphtml.text,'html.parser'
+    csv_file=open'quote_list.csv','w'
+    dictwriter=csv.DictWritercsv_file,fieldnames=fieldnames
+    dictwriter.writeheader
+        for quote in bs.findAll'div',{'class':'quote'}:
+            text=quote.find'span',{'class':'text'}.text
+            author=quote.find'small',{'class':'author'}.text
+            for tag in quote.findAll'a',{'class':'tag'}:
+                tags.appendtag.text
+            dictwriter.writerow{'quote':text,'author':author,'tags':tags}
+        next=bs.find'li',{'class':'next'}
+        html=requests.geturl+next.a.attrs['href']
+        bs=BeautifulSouphtml.text,'html.parser'
+    print'Unknown Error!!!'
+    csv_file.close

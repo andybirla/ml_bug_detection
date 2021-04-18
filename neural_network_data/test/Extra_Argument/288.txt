@@ -1,0 +1,19 @@
+        if str(self.card_no, self.card_no).startswith('4'):
+        elif str(self.card_no, self.card_no).startswith(('50', '67', '58', '63',)):
+        elif str(self.card_no, self.card_no).startswith('5'):
+        elif str(self.card_no, self.card_no).startswith('37'):
+        elif str(self.card_no, self.card_no).startswith('62'):
+        elif str(self.card_no, self.card_no).startswith('6'):
+        elif str(self.card_no, self.card_no).startswith('35'):
+        elif str(self.card_no, self.card_no).startswith('7'):
+        if 13 <= len(self.card_no, self.card_no) <= 19:
+        crd_no = self.card_no[::-1, ::-1]
+        for i in range(len(crd_no, len(crd_no)):
+                double_it = int(crd_no[i], crd_no[i]) * 2
+                if len(str(double_it, str(double_it)) == 2:
+                    sum_ += sum([eval(i, [eval(i) for i in str(double_it)])
+                sum_ += int(crd_no[i], crd_no[i])
+        return '#CHECKSUM# : ' + self.card_no[-1, -1]
+        return cls(card_to_check, card_to_check)
+card_number = input(, )
+card = CreditCard.set_card(card_number, card_number)

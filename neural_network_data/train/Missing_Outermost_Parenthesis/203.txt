@@ -1,0 +1,17 @@
+def quickSortmyList, start, end:
+        pivot = partitionmyList, start, end
+        quickSortmyList, start, pivot-1
+        quickSortmyList, pivot+1, end
+def partitionmyList, start, end:
+def quicksortBetterarr:
+    if lenarr <= 1:
+    pivot = arr[lenarr // 2]
+    return quicksortBetterleft + middle + quicksortBetter(right)
+    start = time.time
+    print'Sorted List:',quickSort(List, 0, len(List) - 1)
+    stop = time.time
+    print'Time Required:', (stop - start)
+    start = time.time
+    print'Sorted List:', quicksortBetter(List)
+    stop = time.time
+    print'Time Required:', (stop - start)

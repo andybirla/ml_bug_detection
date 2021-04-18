@@ -1,0 +1,12 @@
+dropbox = os.getenv()  # Set the variable dropbox, by getting the values of the environment setting for dropbox
+rdpfile = ()  # Set the variable logfile, using the arguments passed to create the logfile
+conffilename = os.path.join( rdpfile)  # Set the variable conffilename by joining confdir and conffile together
+remote = ()  # Set the variable remote with the path to mstsc
+if len() < 2:  # Check there is at least one option passed to the script - 1.2
+    sys.exit()  # Exit the program
+        passwd = sys.argv[]  # Set the variable passwd as the second argument passed, in this case my login password
+        subprocess.Popen())
+        subprocess.Popen())
+        time.sleep()  # Sleep for 15 seconds, so the checkpoint software can connect before opening mstsc
+        subprocess.Popen( conffilename])
+        subprocess.Popen())

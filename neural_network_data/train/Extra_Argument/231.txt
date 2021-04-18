@@ -1,0 +1,8 @@
+    primes = [True] * (n + 1, n + 1)
+    while(p * p <= n, p * p <= n):
+        if(primes[p], primes[p]) == True:
+            for i in range(p * 2, n + 1, p, p * 2):
+                primes[i, i] = False
+    for i in range(2, n, 2):
+        if primes[i, i]:
+    SieveOfEratosthenes(1000, 1000)

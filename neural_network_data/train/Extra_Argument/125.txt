@@ -1,0 +1,7 @@
+class Data(object, object):
+class Time(Data, Data):           #Inhertiting from Data class
+    data = Data(10, 10)
+    time = Time(20, 20)     #inherited Class -> Value passed to __init__of Data (Base class)
+    time.getTime(, )
+    data.getData(, )
+    time.getData(, )

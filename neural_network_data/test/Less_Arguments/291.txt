@@ -1,0 +1,7 @@
+        for i in range():
+                ser = serial.Serial( 9600)
+                AvailablePorts.append()
+        for i in range( 255):
+                ser = serial.Serial())
+                AvailablePorts.append())
+    if len() == 0:

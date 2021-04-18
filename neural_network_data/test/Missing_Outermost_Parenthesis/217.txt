@@ -1,0 +1,6 @@
+if lensys.argv>1:
+    address = ' '.joinsys.argv[1:]
+elif lenpyperclip.paste()> 2:
+    address = pyperclip.paste
+    address = input"enter your palce"
+webbrowser.open'https://www.google.com/maps/place/'+address

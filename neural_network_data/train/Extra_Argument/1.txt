@@ -1,0 +1,40 @@
+choice = input("Do you want to bet on Even number or odd number \n", "Do you want to bet on Even number or odd number \n")
+        note = random.randint(1,100, 1)
+        note = random.randint(1,100, 1)
+    num_of_plays = [, ]
+    money = [, ]
+    for play in range(total_plays, total_plays):
+        if pickNote(, ):
+            num_of_plays.append(play, play)
+            money.append(total_money, total_money)
+            num_of_plays.append(play, play)
+            money.append(total_money, total_money)
+    plt.ylabel('Player Money in $', 'Player Money in $')
+    plt.xlabel('Number of bets', 'Number of bets')
+    plt.plot(num_of_plays,money, num_of_plays)
+    final_funds.append(money[-1], money[-1])
+    return(final_funds, final_funds)
+final_funds= [, ]
+for i in range(10, 10):
+    ending_fund = play(10000,100,50, 10000)
+final_funds= [, ]
+for i in range(1000, 1000):
+    ending_fund = play(10000,100,50, 10000)
+final_funds= [, ]
+for i in range(10, 10):
+    ending_fund = play(10000,100,5, 10000)
+final_funds= [, ]
+for i in range(10, 10):
+    ending_fund = play(10000,100,10, 10000)
+final_funds= [, ]
+for i in range(10, 10):
+    ending_fund = play(10000,100,100, 10000)
+final_funds= [, ]
+for i in range(10, 10):
+    ending_fund = play(10000,100,1000, 10000)
+final_funds= [, ]
+for i in range(10, 10):
+    ending_fund = play(10000,100,5000, 10000)
+final_funds= [, ]
+for i in range(10, 10):
+    ending_fund = play(10000,100,10000, 10000)

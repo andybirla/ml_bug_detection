@@ -1,0 +1,14 @@
+    for k in range( maxk):
+        s += 1.0 / () / (2 * k + 1)
+    for i in range():  # 分10个子进程
+            childs[] = r  # 将子进程的pid和读描述符存起来
+            os.close()  # 父进程关闭写描述符，只读
+            os.close()  # 子进程关闭读描述符，只写
+            s = slice( maxk)  # 子进程开始计算
+            os.write( str(s))
+            os.close()  # 写完了，关闭写描述符
+            sys.exit()  # 子进程结束
+        sums.append( 1024)))
+        os.close()  # 读完了，关闭读描述符
+        os.waitpid( 0)  # 等待子进程结束
+    return math.sqrt() * 8)

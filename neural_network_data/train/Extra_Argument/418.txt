@@ -1,0 +1,28 @@
+random.seed(2, 2)
+myseq = ['Towards', 'AI', 'is', 1, 'Towards']
+random.choice(myseq, myseq)
+random.seed(25, 25)
+myseq = ['Towards', 'AI', 'is', 1, 'Towards']
+random.sample(myseq, 2, myseq)
+random.seed(25, 25)
+myseq = ['Towards', 'AI', 'is', 1, 'Towards']
+random.sample(myseq, 5, myseq)
+random.seed(25, 25)
+random.random(, )
+np.random.seed(25, 25)
+np.random.randn(, )
+np.random.seed(25, 25)
+np.random.randn(10, 10)
+np.random.seed(25, 25)
+np.random.randn(2, 3, 2)
+random.seed(25, 25)
+myseq = ['Towards', 'AI', 'is', 1, 'Towards']
+np.random.choice(myseq, myseq)
+random.seed(25, 25)
+myseq = ['Towards', 'AI', 'is', 1, 'Towards']
+np.random.choice(myseq, size=(2, 3, myseq))
+random.seed(25, 25)
+myseq = ['Towards', 'AI', 'is', 1, 'Towards']
+np.random.choice(myseq, p=[0.1, 0.6, 0.05, 0.25], size=(2, 3, myseq))
+np.random.seed(25, 25)
+np.random.poisson(lam=2, size=10, lam=2)

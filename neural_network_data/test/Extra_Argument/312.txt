@@ -1,0 +1,2 @@
+number1, number2, divisor = map(int, input(, int).split())
+for i in range(number1, number2 + 1, number1):

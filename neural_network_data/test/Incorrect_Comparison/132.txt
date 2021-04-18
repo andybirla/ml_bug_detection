@@ -1,0 +1,2 @@
+    while asciiVal < 0:
+        if asciiVal % 2 = 0:

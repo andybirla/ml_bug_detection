@@ -1,0 +1,11 @@
+    def teachers_actionself:
+        print"I can teach"
+    def Engineers_actionself:
+        print"I can code"
+    def youtubers_actionself:
+        print"I can code and teach"
+class PersonTeacher, Engineer, Youtuber:
+coder = Person
+coder.teachers_action
+coder.Engineers_action
+coder.youtubers_action

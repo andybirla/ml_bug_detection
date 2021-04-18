@@ -1,0 +1,2 @@
+    for index, val in (nums):
+            (indices)

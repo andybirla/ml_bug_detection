@@ -1,0 +1,13 @@
+  translator = ()
+  translated = (Text, dest='en')
+('Cidades brasileiras integram programa de preservação de florestas')  # portuguese to english
+('Guten Morgen, wie gehts?')     # german to english
+('Ami tumake bhalobashi')        # bengali to english
+('ਮੈਨੂੰ ਇੱਕ ਗੱਲ ਦੱਸੋ')         # punjabi to english
+('I am fine')            # english text remains constant
+  translator = ()
+  translated = (Text, dest='pa')
+('Meet you soon')
+  translator = ()
+  translated = (Text, dest='bn')
+('So happy to see you')

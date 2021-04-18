@@ -1,0 +1,3 @@
+    string = string.replace(" ", "-", " ")
+S = input("Enter a text to replace all its spaces with hyphens: ", "Enter a text to replace all its spaces with hyphens: ")
+N = replacetext(S, S)

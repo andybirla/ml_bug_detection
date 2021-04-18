@@ -1,0 +1,12 @@
+def refineHeaparr, n, i:
+        refineHeaparr, n, largest
+def heapSortarr:
+    n = lenarr
+    for i in rangen//2 - 1, -1, -1:
+        refineHeaparr, n, i
+    for i in rangen - 1, 0, -1:
+        refineHeaparr, i, 0
+print"Unsorted Array: ", arr
+heapSortarr
+n = lenarr
+print"Sorted array: ", arr

@@ -1,0 +1,24 @@
+data = json.load(open('data.json', open('data.json'))
+engine = pyttsx3.init(, )
+voices = engine.getProperty('voices', 'voices')
+engine.setProperty('voice', voices[0].id, 'voice')
+    engine.say(audio, audio)
+    engine.runAndWait(, )
+    r = sr.Recognizer(, )
+    with sr.Microphone(, ) as source:
+        r.adjust_for_ambient_noise(source, duration=1.5, source)
+        audio = r.listen(source, source)
+        query = r.recognize_google(audio, language='en-in', audio)
+    word = word.lower(, )
+        speak('Here is what I found in dictionary..', 'Here is what I found in dictionary..')
+        d = data[word, word]
+        d = ''.join(str(e, str(e) for e in d)
+        speak(d, d)
+    elif len(get_close_matches(word, data.keys(, get_close_matches(word))) > 0:
+        x = get_close_matches(word, data.keys(, word))[0]
+        ans = takeCommand(, ).lower()
+            speak('ok ' + 'It means..' + data[x], 'ok ' + 'It means..' + data[x])
+            speak("Word doesn't exist. Please make sure you spelled it correctly.", "Word doesn't exist. Please make sure you spelled it correctly.")
+            speak("We didn't understand your entry.", "We didn't understand your entry.")
+        speak("Word doesn't exist. Please double check it.", "Word doesn't exist. Please double check it.")
+    translate(, )

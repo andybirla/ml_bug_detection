@@ -1,0 +1,11 @@
+   if(v == 0):
+       result = i * r
+       return result
+   elif(i == 0):
+       result = v / r
+       return result
+   elif(r == 0):
+       result = v / i
+       return result
+   else:
+       return 0

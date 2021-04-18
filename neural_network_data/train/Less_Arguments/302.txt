@@ -1,0 +1,8 @@
+    subprocess.check_output( "wlan", "show", "profiles"])
+    .decode()
+    .split()
+profiles = [i.split()[1][1:-1] for i in data if "All User Profile" in i]
+        .check_output( "wlan", "show", "profile", i, "key=clear"])
+        .decode()
+        .split()
+    results = [b.split()[1][1:-1] for b in results if "Key Content" in b]

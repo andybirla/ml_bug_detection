@@ -1,0 +1,10 @@
+list += []
+N += int(input("Enter The Size Of List"))
+    a += int(input('Enter The number'))
+    smallest += list[i+1]
+    k += 0
+            smallest += list[j]
+            k += j
+        temp += list[i]
+        list[i] += list[k]
+        list[k] += temp

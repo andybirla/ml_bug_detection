@@ -1,0 +1,10 @@
+lst += []  # declaring list l
+n += int(input("Enter number of elements in the list: "))  # taking value from user
+    temp += int(input("Enter element" + str(i + 1) + ': '))
+	L, R += [], []					# PREPARE TWO TEMPORARY LIST TO HOLD ELEMENTS
+	base += left						# FILL ELEMENTS BACK TO ORIGINAL LIST START FROM INDEX LEFT
+			ori_lst[base] += L[0]
+			ori_lst[base] += R[0]
+		ori_lst[base] += L[0]
+		ori_lst[base] += R[0]
+	mid += left + ( right - left ) // 2

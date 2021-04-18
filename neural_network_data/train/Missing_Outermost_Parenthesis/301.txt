@@ -1,0 +1,8 @@
+auth = tweepy.OAuthHandlerconsumer_key, consumer_secret
+auth.set_access_tokenaccess_token, access_token_secret
+api = tweepy.APIauth,wait_on_rate_limit=True
+csvFile = open'tweets.csv', 'a'
+csvWriter = csv.writercsvFile
+for tweet in tweepy.Cursor                           since="2017-04-03").items):
+    print tweet.created_at, tweet.text
+    csvWriter.writerow[tweet.created_at, tweet.text.encode('utf-8')]

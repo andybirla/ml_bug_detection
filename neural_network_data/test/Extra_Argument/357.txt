@@ -1,0 +1,5 @@
+n, m = map(int, input(, int).split())
+matrix = [, ]
+for i in range(n, n):
+    matrix.append([int(i, [int(i) for i in input().split()])
+matrix = zip(*matrix, *matrix)

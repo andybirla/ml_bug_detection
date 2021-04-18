@@ -1,0 +1,2 @@
+        L, D, S, C += map(int,input().split())
+                S += S + C * S

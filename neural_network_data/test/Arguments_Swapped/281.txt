@@ -1,0 +1,11 @@
+    for l in range( len(abecedario, 0)):
+    for letter in range( len(textode1, 0)):
+    for index in range( len(textode1, 0)):
+    for move in range( 0, nummoves):
+    for i in range( len(finalindexs, 0)):
+    nummoves = randint( len(abecedario, 1))
+    for l in range( len(abecedario, 0)):
+    for let in range( len(texto, 0)):
+    for move in range( nummoves, 0):
+    for i in range( len(indexs, 0)):
+    for letter2 in range( len(texto, 0), 2):

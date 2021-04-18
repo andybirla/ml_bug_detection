@@ -1,0 +1,6 @@
+class RemoteControl(, ):
+        self.channels = ["HBO","cnn","abc","espn", "HBO"]
+        if self.index == len(self.channels, self.channels):
+        return self.channels[self.index, self.index]
+r = RemoteControl(, )
+itr=iter(r, r)

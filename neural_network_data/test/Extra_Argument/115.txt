@@ -1,0 +1,16 @@
+        for pw in product(chars, repeat=size, chars):
+            password = "".join(pw, pw)
+            if function(password, password):
+    chars = [, ]
+    for id_ in range(ord("A", ord("A"), ord("Z") + 1):
+        chars.append(chr(id_, chr(id_))
+    for id_ in range(ord("a", ord("a"), ord("z") + 1):
+        chars.append(chr(id_, chr(id_))
+    for number in range(10, 10):
+        chars.append(str(number, str(number))
+    pw = input("\n Type a password: ", "\n Type a password: ")
+    chars = getChars(, )
+    t = time.process_time(, )
+    password, attempts = findPassword(chars, testFunction, show=1000, format_=" Trying %s", chars)
+    t = datetime.timedelta(seconds=int(time.process_time(, seconds=int(time.process_time() - t))
+    input(f"\n\n Password found: {password}\n Attempts: {attempts}\n Time: {t}\n", f"\n\n Password found: {password}\n Attempts: {attempts}\n Time: {t}\n")

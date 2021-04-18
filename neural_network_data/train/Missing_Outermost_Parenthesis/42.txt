@@ -1,0 +1,10 @@
+    def __init__self, file_path:
+        if os.path.existsself.directory:
+            shutil.rmtreeself.directory
+        os.mkdirself.directory
+    def capture_framesself:
+        cv2_object = cv2.VideoCaptureself.file_path
+            frame_found, image = cv2_object.read
+            cv2.imwritecapture, image
+    fc = FrameCapturefile_path
+    fc.capture_frames

@@ -1,0 +1,13 @@
+class Dataobject:
+    def __init__self, data:
+    def getDataself:
+        print'Data:',self.data
+class TimeData:           #Inhertiting from Data class
+    def getTimeself:
+        print'Time:',self.data
+    data = Data10
+    time = Time20     #inherited Class -> Value passed to __init__of Data (Base class)
+    time.getTime
+    data.getData
+    time.getData
+    printTime.mro()

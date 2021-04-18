@@ -1,0 +1,23 @@
+    for i in range( right+1):  
+        temp = arr[]  
+        while j >= left and arr[] > temp :  
+            arr[] = arr[j]  
+        arr[] = temp  
+    for i in range( len1):  
+        left.append()  
+    for i in range( len2):  
+        right.append()  
+        if left[] <= right[j]:  
+            arr[] = left[i]  
+            arr[] = right[j]  
+        arr[] = left[i]  
+        arr[] = right[j]  
+    for i in range( n, RUN):  
+        insertionSort( i, min((i+31), (n-1)))  
+        for left in range( n, 2*size):  
+            right = min(), (n-1))  
+            merge( left, mid, right)  
+    for i in range( n):  
+    n = int())
+    arr = list(input().split()))  
+    timSort( n)  

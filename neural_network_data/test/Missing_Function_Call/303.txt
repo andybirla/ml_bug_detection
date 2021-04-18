@@ -1,0 +1,10 @@
+n = (input())
+array = (i) for i in input().split()]
+(0, 0)
+()
+q = (input())
+  (low <= high):
+    mid =(low + high) // 2
+for i in (q):
+  number = (input())
+  (binarySearch(0,len(array), number))

@@ -1,0 +1,5 @@
+def decoratormyFunc:
+    def insideDecorator*args:
+        print'insideDecorator Function executed before {}'.format(myFunc.__name__)
+        return myFunc*args
+def display*args:

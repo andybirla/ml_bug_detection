@@ -1,0 +1,11 @@
+pdf = FPDF(, )
+pdf.set_auto_page_break(0, 0)
+for filename in os.listdir('images', 'images'):
+        img = Image.open("images\\" + filename, "images\\" + filename)
+        img.close(, )
+        width, height = float(width * 0.264583, width * 0.264583), float(height * 0.264583)
+        width = min(A4_SIZE[orientation]['w'], width, A4_SIZE[orientation]['w'])
+        height = min(A4_SIZE[orientation]['h'], height, A4_SIZE[orientation]['h'])
+        pdf.add_page(orientation=orientation, orientation=orientation)
+        pdf.image("images\\" + filename, 0, 0, width, height, "images\\" + filename)
+pdf.output('output.pdf', 'F', 'output.pdf')

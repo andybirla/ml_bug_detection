@@ -1,0 +1,2 @@
+(input("enter any Number"))
+("The Reverse of the number",rev)

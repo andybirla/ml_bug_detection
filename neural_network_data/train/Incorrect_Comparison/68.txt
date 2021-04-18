@@ -1,0 +1,4 @@
+        print(f"{stock} ==< {price_list} ==< avg: ",round(avg,2))
+    if op.lower() = 'print':
+    elif op.lower() = 'add':
+if __name__ = '__main__':

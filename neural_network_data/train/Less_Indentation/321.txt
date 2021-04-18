@@ -1,0 +1,3 @@
+   soup1 = soup1.get_text()
+   print('Cannot find such word! Check spelling.')
+   exit()

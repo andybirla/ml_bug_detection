@@ -1,0 +1,2 @@
+WIN = pg.display.set_mode( st.height, (st.width))
+                game.selectrc( col, row)

@@ -1,0 +1,5 @@
+userInput += int(input())
+    print("2",end += ' ')
+    check += 0
+            check += 1
+        print(i, end += ' ')

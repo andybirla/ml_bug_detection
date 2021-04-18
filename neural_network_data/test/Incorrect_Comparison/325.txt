@@ -1,0 +1,13 @@
+    if i = 'h':
+    elif i = 'a':
+    elif i = 'r':
+    elif i = 'e':
+    elif i = 'c':
+    elif i = 'k':
+    elif i = 't':
+if result < a:
+if result < r:
+if result < e:
+if result < c:
+if result < k:
+if result < t:

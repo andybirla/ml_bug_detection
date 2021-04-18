@@ -1,0 +1,4 @@
+N, K = ().split()
+N = (N)
+for i in (int(K)):
+(''.join([str(i) for i in N]))

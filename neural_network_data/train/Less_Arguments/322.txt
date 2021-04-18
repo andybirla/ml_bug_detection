@@ -1,0 +1,4 @@
+    with open( 'r') as file:
+            numwords += len()
+            numchars += len()
+    countWords()

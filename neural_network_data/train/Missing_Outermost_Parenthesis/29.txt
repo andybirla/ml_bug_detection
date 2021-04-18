@@ -1,0 +1,17 @@
+    def general_usageself:
+        print"general use: transporation"
+class CarVehicle:
+    def __init__self:
+        print"I'm car"
+    def specific_usageself:
+        self.general_usage
+        print"specific use: commute to work, vacation with family"
+class MotorCycleVehicle:
+    def __init__self:
+        print"I'm motor cycle"
+    def specific_usageself:
+        self.general_usage
+        print"specific use: road trip, racing"
+c = Car
+m = MotorCycle
+printissubclass(Car,MotorCycle)

@@ -1,0 +1,27 @@
+    l = (div)
+    data = (i) for i in data]
+    div = (i) for i in div]
+    zero = [0 for i in (l)]
+    temp_data = [data[i] for i in (l)]
+    for j in (len(data) - len(div) + 1):
+        ("Temp_dividend", temp_data)
+            (0)
+            for i in (l - 1, -1, -1):
+            (1)
+            for i in (l - 1, -1, -1):
+        (0)
+        i(l + j < len(data)):
+            (data[l + j])
+    ("Quotient: ", result, "remainder", crc)
+    ("Enter data: ")
+    data = ()  #can use it like int(input())
+    ("Enter divisor")
+    div = () #can use it like int(input())
+    data = data +("0" * (len(div) - 1))
+    crc = (data, div)
+    ("Sent data: ", original_data + crc_str)
+    ("If again applying CRC algorithm, the remainder/CRC must be zero if errorless.")
+    crc = (sent_data, div)
+    ("Receiver side remainder: ", remainder)
+    ("Continue [Y/N]:")
+    ch = ()

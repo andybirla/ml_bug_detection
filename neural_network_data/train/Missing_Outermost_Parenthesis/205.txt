@@ -1,0 +1,24 @@
+class Vertexobject:
+    def __init__self:
+    def addVertexself, key:
+        newVertex = Vertexkey
+    def getVertexself, vertex:
+    def addEdgeself, fromEdge, toEdge, cost = 0:
+            newVertex = self.addVertexfromEdge
+            newVertex = self.addVertextoEdge
+        self.vertexList[fromEdge].addNeighbourself.vertexList[toEdge], cost
+    def getVerticesself:
+        return self.vertexList.keys
+    def __iter__self:
+        return iterself.vertexList.values()
+    graph = Graph
+    graph.addVertex'A'
+    graph.addVertex'B'
+    graph.addVertex'C'
+    graph.addVertex'D'
+    graph.addEdge'A', 'B', 5
+    graph.addEdge'A', 'C', 6
+    graph.addEdge'A', 'D', 2
+    graph.addEdge'C', 'D', 3
+        for vertexes in vertex.getEdges:
+            print'({}, {}) => {}'.format(vertex.getKey(), vertexes.getKey(), vertex.getWeight(vertexes))

@@ -1,0 +1,2 @@
+    notepad_support.init( top, w, *args, **kwargs)
+    return ( top, w)
